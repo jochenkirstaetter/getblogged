@@ -64,4 +64,4 @@ Dennoch meldet sich im Hinterstübchen natürlich der warnende Zeigefinger... ni
 Gut, zunächst geht's nächste Woche auf die 13. Entwicklerkonferenz Visual FoxPro aka 5. SQL und .NET Konferenz der deutschsprachigen FoxPro User Group, und Anfang Dezember gleich auf zwei Termine der LOVE Roadshow. Ich bin gespannt, was mich und euch(?) erwarten wird.  
 Bis denne, JoKi
 
-PS: Wem ist eigenlich aufgefallen, dass Microsoft zum einiger Zeit ein neues Favicon - [img]https://www.microsoft.com/favicon.ico[/img] - verwendet?
+PS: Wem ist eigenlich aufgefallen, dass Microsoft zum einiger Zeit ein neues Favicon - ![Microsoft Favicon](https://www.microsoft.com/favicon.ico) - verwendet?
