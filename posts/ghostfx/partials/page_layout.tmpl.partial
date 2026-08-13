@@ -23,5 +23,23 @@
                 </div>
             </section>
         </article>
+
+        {{^_disableContribution}}
+        <div class="contribution d-print-none">
+        {{#sourceurl}}
+        <a href="{{sourceurl}}" class="edit-link">{{__global.improveThisDoc}}</a>
+        {{/sourceurl}}
+        {{^sourceurl}}{{#docurl}}
+        <a href="{{docurl}}" class="edit-link">{{__global.improveThisDoc}}</a>
+        {{/docurl}}{{/sourceurl}}
+        </div>
+        {{/_disableContribution}}
+
+        {{^_disableAffix}}
+        <div class="affix">
+            <nav id="affix"></nav>
+        </div>
+        {{/_disableAffix}}
+
     </div>
 </main>

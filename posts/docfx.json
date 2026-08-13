@@ -1,4 +1,4 @@
-﻿{
+{
   "build": {
     "content": [
       {
@@ -62,7 +62,11 @@
       "_appName": "Get Blogged by JoKi",
       "_appFaviconPath": "favicon.png",
       "_enableSearch": true,
-      "_disableContribution": true,
+      "_disableContribution": false,
+      "_gitContribute": {
+        "repo": "https://github.com/jochenkirstaetter/getblogged",
+        "branch": "main"
+      },
       "_disableBreadcrumb": true,
       "_disableNextArticle": true,
       "_lang": "en",
