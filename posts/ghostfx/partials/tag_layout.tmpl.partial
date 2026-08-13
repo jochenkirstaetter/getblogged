@@ -1,0 +1,47 @@
+﻿<header class="site-header outer">
+    <div class="inner">
+        {{>partials/site-nav}}
+    </div>
+</header>
+
+<main id="site-main" class="site-main outer">
+    <div class="inner">
+        <article class="post-full {{postClass}} {{^image}}{{^featureImage}}no-image{{/featureImage}}{{/image}}">
+            {{#image}}
+            <figure class="post-full-image">
+                <a target="_blank" rel="noopener noreferrer nofollow" href="{{_rel}}{{.}}"><img src="{{_rel}}{{.}}" alt="{{title}}" /></a>
+            </figure>
+            {{/image}}
+            {{^image}}
+            {{#featureImage}}
+            <figure class="post-full-image">
+                <a target="_blank" rel="noopener noreferrer nofollow" href="{{_rel}}{{.}}"><img src="{{_rel}}{{.}}" alt="{{title}}" /></a>
+            </figure>
+            {{/featureImage}}
+            {{/image}}
+
+            <header class="post-full-header tag-header">
+                <h1 class="site-title">{{title}}</h1>
+                <h2 class="site-description">
+                    {{#description}}
+                        {{.}}
+                    {{/description}}
+                    {{^description}}
+                        A collection of posts tagged with {{title}}
+                    {{/description}}
+                </h2>
+            </header>
+
+            <section class="post-full-content">
+                <div class="post-content">
+                    <div class="post-feed">
+                        {{#posts}}
+                            {{>partials/post-card}}
+                        {{/posts}}
+                        {{{conceptual}}}
+                    </div>
+                </div>
+            </section>
+        </article>
+    </div>
+</main>

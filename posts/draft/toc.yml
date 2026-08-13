@@ -1,0 +1,110 @@
+- name: "From REST API to NuGet package: Writing an SDK in C#"
+  href: untitled-from-rest-api-to-nuget-package-writing-an-sdk-in-c.md
+- name: "DevConf 2024"
+  href: devconf-2024.md
+- name: "Build with AI Johannesburg"
+  href: build-with-ai-johannesburg.md
+- name: "Write better code with Gemini AI"
+  href: write-better-code-with-gemini-ai.md
+- name: "Run an external program"
+  href: run-an-external-program.md
+- name: "GDG Cloud Munich"
+  href: gdg-cloud-munich.md
+- name: "Google I/O Extended"
+  href: google-i-o-extended.md
+- name: "How to Give a Talk When You Don't Really Want To"
+  href: untitled-how-to-give-a-talk-when-you-dont-really-want-to.md
+- name: "androids"
+  href: androids.md
+- name: "Google Cloud for Developers"
+  href: google-cloud-for-developers.md
+- name: "Microservices Communication in .NET using gRPC"
+  href: microservices-communication-in-net-using-grpc.md
+- name: "Google I/O Connect Amsterdam"
+  href: google-i-o-connect-amsterdam.md
+- name: "Visualizing Google Cloud"
+  href: untitled-visualizing-google-cloud.md
+- name: "Pro Git"
+  href: pro-git.md
+- name: "Thinking: Fast and Slow"
+  href: thinking-fast-and-slow.md
+- name: "P-AI-R Programming"
+  href: p-ai-r-programming.md
+- name: "The Three-Body Problem series"
+  href: the-three-body-problem-series.md
+- name: "Hidden in Plain Sight series"
+  href: hidden-in-plain-sight.md
+- name: "Takamo Universe Novels"
+  href: takamo-universe-novels.md
+- name: "A Growth Hackers Guide to the Galaxy"
+  href: a-growth-hackers-guide-to-the-galaxy.md
+- name: "The DarkTrench Shadow series"
+  href: the-darktrench-shadow-series.md
+- name: "Astrophysics for People in a Hurry"
+  href: astrophysics-for-people-in-a-hurry.md
+- name: "Cloud Engineering for Beginners"
+  href: cloud-engineering-for-beginners.md
+- name: "Don't say that at work!"
+  href: dont-say-that-at-work.md
+- name: "UNIX - A History and a Memoir"
+  href: unix.md
+- name: "The 50 Next Moves: Hands-on Strategies for Startup Growth"
+  href: untitled-4.md
+- name: "The misconception of disabling paste on password fields"
+  href: the-misconception-of-disabling-paste-on-password-fields.md
+- name: "Google Africa Developer Scholarship 2020"
+  href: google-africa-developer-scholarship-2020.md
+- name: "Upgrade to WSL 2"
+  href: upgrade-to-wsl-2.md
+- name: "Troubleshooting Jitsi Meet"
+  href: untitled-2.md
+- name: "Customise your instance of Jitsi Meet"
+  href: customise-jitsi-meet.md
+- name: "Lift to Azure: Microsoft Data Migration Assistant"
+  href: dma.md
+- name: "You have reached your destination - #150DaysOfALC4"
+  href: alc4-completed.md
+- name: "Panelist at the FutureFest of ALU"
+  href: futurefest-alu.md
+- name: "ALC 4.0 Cloud - Access to more Qwiklabs"
+  href: alc4-more-qwiklabs.md
+- name: "Microsoft Edge Insider"
+  href: microsoft-edge-insider.md
+- name: "Although it was a failure, it was successful"
+  href: successful-failure.md
+- name: "Contributing to open source might be easier than you think"
+  href: contributing-to-open-source-might-be-easier-than-you-think.md
+- name: "Using .NET Core as reverse proxy"
+  href: using-net-core-as-reverse-proxy.md
+- name: "Let's Encrypt and Ghost"
+  href: letsencrypt-ghost.md
+- name: "Windows Insider MVP award"
+  href: windows-insider-mvp-award.md
+- name: "My experience with Online Proctored Exams provided by Pearson VUE"
+  href: online-proctored-exam.md
+- name: "OpenSSH on Windows natively"
+  href: openssh-on-windows.md
+- name: "What the comment?"
+  href: what-the-comment.md
+- name: "Get the balance between focus & the big picture"
+  href: untitled.md
+- name: "Document, don't Create"
+  href: document-dont-create.md
+- name: "Let's Encrypt an Azure App Service"
+  href: letsencrypt-azure-app-service.md
+- name: "Log4Fox"
+  href: log4fox.md
+- name: "Using Windows Eventlog in Visual FoxPro"
+  href: using-windows-eventlog-in-visual-foxpro.md
+- name: "Article Templates"
+  href: article-templates.md
+- name: "Infotech/Innovtech 2018"
+  href: innovtech-2018.md
+- name: "Middlesex Graduate Prospects Fair 2018"
+  href: mdx-2018.md
+- name: "Contributing to Ghost Desktop"
+  href: ghost-desktop.md
+- name: "Code & Coffee with Sten Tamkivi"
+  href: sten-tamkivi.md
+- name: "Interview with Greg Young during Developers Conference 2017"
+  href: greg-young.md

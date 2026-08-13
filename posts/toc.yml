@@ -1,0 +1,8 @@
+- name: About
+  uid: about
+- name: Blog
+  uid: blog
+- name: Community
+  uid: community
+- name: Speaking
+  uid: speaking

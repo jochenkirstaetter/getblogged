@@ -1,0 +1,154 @@
+---
+uid: integrate-google-adsense-ghost
+title: Integrate Google AdSense into your Ghost
+slug: integrate-google-adsense-ghost
+date: 2017-09-25
+status: published
+type: post
+description: Ghost doesn't provide integration of Google AdSense out of the box in their default template. Adding and referencing a partial view can solve this issue and show affiliated advertisement on your site.
+tags:
+- Development
+keywords: Development
+metaTitle: Integrate Google AdSense into your Ghost
+metaDescription: Ghost doesn't provide integration of Google AdSense out of the box in their default template. Adding and referencing a partial view can solve this issue and show affiliated advertisement on your site.
+image: content/images/2017/09/GoogleAdsense_banner.png
+ogTitle: Integrate Google AdSense into your Ghost
+ogDescription: Ghost doesn't provide integration of Google AdSense out of the box in their default template. Adding and referencing a partial view can solve this issue and show affiliated advertisement on your site.
+layout: post
+bodyClass: post-template tag-development
+postClass: post tag-development
+isPost: true
+isPage: false
+isDraft: false
+isScheduled: false
+isTagPage: false
+isTagsIndexPage: false
+isAuthorPage: false
+isHome: false
+author: Jochen Kirstätter
+authorTwitter: '@jkirstaetter'
+authorFacebook: https://facebook.com/jochen.kirstaetter
+website: ''
+location: ''
+authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorSlug: joki
+canonicalUrl: https://jochen.kirstaetter.name/integrate-google-adsense-ghost/
+imageUrl: https://jochen.kirstaetter.name/content/images/2017/09/GoogleAdsense_banner.png
+twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/09/GoogleAdsense_banner.png
+authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorPageUrl: https://jochen.kirstaetter.name/author/joki/
+tagName: ''
+tagDescription: ''
+featureImage: content/images/2017/09/GoogleAdsense_banner.png
+featured: false
+publishedAt: 2017-09-25T09:05:54Z
+updatedAt: 2018-04-02T08:38:43Z
+excerpt: Ghost doesn't provide integration of Google AdSense out of the box in their default template. Adding and referencing a partial view can solve this issue and show affiliated advertisement on your site.
+twitterTitle: Integrate Google AdSense into your Ghost
+twitterDescription: Ghost doesn't provide integration of Google AdSense out of the box in their default template. Adding and referencing a partial view can solve this issue and show affiliated advertisement on your site.
+twitterImage: 
+facebookTitle: Integrate Google AdSense into your Ghost
+facebookDescription: Ghost doesn't provide integration of Google AdSense out of the box in their default template. Adding and referencing a partial view can solve this issue and show affiliated advertisement on your site.
+facebookImage: ''
+codeinjectionHead: 
+codeinjectionFoot: 
+---
+
+A little bit of extra pocket money at the beginning can with some effort turn into a solid passive income. [Google AdSense](https://www.google.com/adsense/) is one of the many platforms to monetize your site.
+
+> Turn your passion into profit.  
+AdSense is a free, simple way to make money online by placing ads on your website.
+
+In [Migration to Ghost](https://jochen.kirstaetter.name/migration-joomla-ghost/) I wrote about how I migrated from my previous blogging software to Ghost but I didn't mention about the [Google AdSense](https://www.google.com/adsense/) integration. Thanks to a brief chat on Facebook I was reminded about that and the following paragraphs describe the changes I applied.
+
+## Decision on where to place AdSense
+
+Using advertisment on your Ghost blog site can help you to earn money online. But there are some aspects to take into consideration depending on your personal interest, the nature of your website and the expected audience.
+
+- Showing adverts on your site might slow down loading performance
+- Should the adverts shown on your site match with your content written?
+- Where and how many adverts would you like to display on your site?
+- What are the odds that too many ads could possible scare away your readers?
+- Are you offering other services than reading content on your site?
+- etc.
+
+My personal choice is that I wanted to display a single advert at the end of an article. Therefore, you won't find ads in any other location of this site (as of writing).
+
+Referring back to the FB conversation, here's the actual initiator of this article:
+
+> Any specific config you did for google ads?
+
+Well, yes. This blog is mainly based on the default Ghost theme "Casper" and I had to add the necessary code and HTML fragments into my modified theme.
+
+## Creating a partial view
+
+Given that Ghost themes are based on Handlebars and their flexible way of working with code fragments I created a new view in the `partials` folder called `ads-banner.hbs`.  
+The JavaScript code has been generated by the AdSense dashboard and I simply copied it into a &lt;section&gt; element as part of my partial view:
+
+```
+<section class="ads-banner" style="justify-content:space-between;margin:0 auto;padding:1vw 0 2vw;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Responsive - Tech -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-<your-publisher-id-here>"
+     data-ad-slot="<your-ad-unit-id-here>"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</section>
+```
+
+As per Google AdSense "This ad unit can automatically adapt its size to the space available on the page." For further reference check out Google's [Get started with ad code](https://support.google.com/adsense/answer/181947?hl=en-GB&ref_topic=1307438) documentation online.
+
+Having a partial view gives a better flexibility using that snippet in various ways compared to just adding it hard-coded somewhere into the template.
+
+## Referencing the partial view
+
+As mentioned, I decided to show adverts only after the content of an article but decided to show it before the Disqus comments. Articles or better said Stories in Ghost are displayed using the `post.hbs` view.
+
+```
+        {{/author}}
+    </footer>
+
+    {{> "ads-banner"}}
+
+    {{!--
+    If you use Disqus comments, just uncomment this block.
+    The only thing you need to change is "test-apkdzgmqhj" - which
+    should be replaced with your own Disqus site-id.
+    --}}
+
+    <section class="post-full-comments">
+        <div id="disqus_thread"></div>
+```
+
+In the code above I added a [Partial Expression](http://themes.ghost.org/docs/handlebars#section-partial-expressions) into the post view in order to embed the partial view created previously. Of course, you can decide to add as many partial expression in your posts template and other locations of your site as you like to.
+
+For more information about Handlebars used in Ghost I recommend that you dig deeper into the [Themes documentation of Ghost](http://themes.ghost.org/docs/handlebars).
+
+## Restart Ghost service
+
+According to the [Ghost theme structure](http://themes.ghost.org/docs/structure) you will need to restart Ghost each time you add or remove a file from the theme directory for it to be recognised and used.
+
+This is done on the command line using the ghost-cli command:
+
+```
+$ ghost restart
+```
+
+I case you're running multiple instances of Ghost on the same server it might be better to explicitly stop that particular Ghost instance and start it again instead of restarting all instances, like so:
+
+```
+$ ghost stop [name]
+$ ghost start
+```
+
+## Using AdSense and Analytics
+
+A combination of both [Google AdSense](https://www.google.com/adsense/) and [Google Analytics](https://analytics.google.com/analytics/web/) is highly recommended as it helps you to get more details on the demographics and behaviour of your site visitors. This should also help you to provide more specialised and targeted campaigns on your site by eventually excluding certain topics not matching your actual content.
+
+Keeping an eye on the bounce rates shall give you an indicator whether visitors actually navigate around your site or just interested into a single article.
+
+My final recommendation would be: 'Less is More'.

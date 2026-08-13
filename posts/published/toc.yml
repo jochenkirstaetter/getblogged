@@ -1,0 +1,1020 @@
+- name: "Gemma 3 - missing features despite announcement"
+  href: gemma-3-missing-features-despite-announcement.md
+- name: "Gemini ResponseSchema vs JSON Schema specs of \"type\" as array"
+  href: gemini-responseschema.md
+- name: "C# Corner Annual Conference 2017"
+  href: c-corner-conference-2017.md
+- name: "Untrack files in .gitignore"
+  href: untrack-files-in-gitignore.md
+- name: "Quickstart: Use Gemini with .NET (Vertex AI)"
+  href: quickstart-using-gemini-with-net-vertex-ai.md
+- name: "Quickstart: Use Gemini with .NET (Google AI)"
+  href: quickstart-use-gemini-with-net.md
+- name: "NuGet: Better release notes and versioning"
+  href: nuget-better-release-notes-versioning.md
+- name: "Automate NuGet package creation using Google Build"
+  href: automate-nuget-package-creation-google-build.md
+- name: "Create NuGet packages with Visual Studio / Visual Studio Code"
+  href: create-nuget-packages-vs-code.md
+- name: "Getting Started with the Vertex AI Gemini API with Visual Studio"
+  href: getting-started-with-the-vertex-ai-gemini-with-vs-http.md
+- name: "Getting started with Gemini using Visual Studio"
+  href: getting-started-with-gemini-using-vs-http.md
+- name: "Developer Creators and Online Communities Summit"
+  href: developer-creators-and-online-communities-summit.md
+- name: "DevFest Jinja 2023"
+  href: devfest-jinja-2023.md
+- name: "Mau Pas Konpran!? Brain Drain"
+  href: mau-pas-konpran-2.md
+- name: "DevFest Dar es Salaam 2023"
+  href: devfest-dar-es-salaam-2023.md
+- name: "DevFest Mauritius 2023"
+  href: devfest-mauritius-2023.md
+- name: "Mau pas konpran!? SIM Registration"
+  href: mau-pas-konpran.md
+- name: "DevFest Kigali 2023"
+  href: devfest-kigali-2023.md
+- name: "SSA Community Summit 2023"
+  href: ssa-community-summit-2023.md
+- name: "Generating QR codes - the Easy, the Comfy and the Smarty"
+  href: generate-qr-codes-gcf.md
+- name: "Sapiens: A Brief History of Humankind"
+  href: sapiens-a-brief-history-of-mankind.md
+- name: "Using OpenVPN connections via Windows Task Scheduler"
+  href: openvpn-via-windows-task-scheduler.md
+- name: "GDE SSA Summit 2022"
+  href: gde-ssa-summit-2022.md
+- name: "Installing SQL Server 2019 and tools on Ubuntu 20.04"
+  href: sql-server-2019-on-ubuntu.md
+- name: "GADS 2020 - Spotlight"
+  href: gads-2020-spotlight.md
+- name: "How did we run the Virtual Developers Conference 2020?"
+  href: how-did-we-run-the-virtual-developers-conference-2020.md
+- name: "Noise Cancelling on Windows 10"
+  href: noise-cancelling-on-windows-10.md
+- name: "Azure DEV Meetup Munich"
+  href: azuredev-munich.md
+- name: "Enable authentication in your instance of Jitsi Meet"
+  href: authentication-jitsi-meet.md
+- name: "Install Jitsi Meet on Compute Engine (GCP)"
+  href: install-jitsi-meet-on-gcp.md
+- name: "Why we decided to postpone Developers Conference 2020"
+  href: why-we-decided-to-postpone-developers-conference-2020.md
+- name: "Getting Started with SQL Server on GCP"
+  href: sql-server-on-gcp.md
+- name: "Working with Azure Container Registry"
+  href: alc4-acr.md
+- name: "Using Cloud Run instead of GKE"
+  href: alc4-cloud-run.md
+- name: "Working with Cloud Build"
+  href: alc4-cloud-build.md
+- name: "Considerations for production readiness (ALC 4.0 Cloud Challenge I)"
+  href: alc4-cloud-ready.md
+- name: "Google Kubernetes Engine (ALC 4.0 Cloud Challenge I)"
+  href: alc4-cloud-k8s.md
+- name: "Working with Docker (ALC 4.0 Cloud Challenge I)"
+  href: alc4-cloud-docker.md
+- name: "Create React App (ALC 4.0 Cloud Challenge I)"
+  href: alc4-cloud-react.md
+- name: "ALC 4.0 Cloud Challenge I"
+  href: alc4-cloud-challenge.md
+- name: "Guest lecturer for the Africa Industrial Internet Programme (AIIP)"
+  href: aiip-azure-devops.md
+- name: "ALC 4.0 Cloud - Access to Qwiklabs"
+  href: alc4-qwiklabs.md
+- name: "ALC 4.0 Cloud - Phase II Online Meet up"
+  href: alc4-cloud-meeting.md
+- name: "Share your journey - #150DaysOfALC4"
+  href: share-your-journey-150daysofalc4.md
+- name: "ALC 4.0 Cloud - Slack questions"
+  href: alc4-slack-questions.md
+- name: "Welcome - A new star is born!"
+  href: welcome-a-new-star-is-born-2019.md
+- name: "Rock Your Code: Defensive Programming for Microsoft .NET by David McCarter"
+  href: rock-your-code-defensive-programming-for-microsoft-net.md
+- name: "Welcome - Our twin stars!"
+  href: welcome-our-twin-stars.md
+- name: "Tip: Open PowerShell window here"
+  href: open-powershell-window-here.md
+- name: "Using Apache HTTP as reverse proxy"
+  href: apache-reverse-proxy.md
+- name: "Using nginx as reverse proxy"
+  href: nginx-reverse-proxy.md
+- name: "First steps using dictation in Windows 10"
+  href: first-steps-using-dictation-in-windows-10.md
+- name: "2018: A retrospective"
+  href: retrospective-2018.md
+- name: "Campsite fire talk with John O'Nolan"
+  href: john-onolan.md
+- name: "DIY Windows Game Box (Steam, Itch, Xbox, Store, Scumm, etc.)"
+  href: diy-windows-game-box.md
+- name: "The Curse of the Magical Tutorial"
+  href: curse-of-magical-tutorial.md
+- name: "SSA Community Summit 2018"
+  href: ssa-community-summit-2018.md
+- name: "When NULL isn't NULL"
+  href: when-null-isnt-null.md
+- name: "OpenVPN: All TAP-Windows adapters on this system are currently in use"
+  href: openvpn-on-windows-all-tap-windows-adapters-on-this-system-are-currently-in-use.md
+- name: "OpenVPN re-visited"
+  href: openvpn-revisited.md
+- name: "How to get your computer from blank disk(s) to fully operational in no time... (Windows edition)"
+  href: windows10-quick-installation.md
+- name: "100 Days of Exam"
+  href: 100-days-of-exam.md
+- name: "Next stop: MCSA: Linux on Azure"
+  href: mcsa-linux-on-azure.md
+- name: "Dinner with Andy Volk"
+  href: andy-volk.md
+- name: "ICT skills at primary school"
+  href: azure-for-school.md
+- name: "Infotech/InnovTech 2017"
+  href: innovtech-2017.md
+- name: "Build anything with Google: Google Maps APIs"
+  href: google-maps-api.md
+- name: "Hit Refresh"
+  href: hit-refresh.md
+- name: "aOS Mauritius 2017"
+  href: aos-2017.md
+- name: "Krakathon 2017"
+  href: krakathon-2017.md
+- name: "Inspecting internet router in Mauritius"
+  href: router-in-mauritius.md
+- name: "InterCommunity 2017"
+  href: icomm17.md
+- name: "Dear Postmaster of Mauritius Revenue Authority"
+  href: mra-mail-hostname.md
+- name: "Career Guidance (Day) at Aberystwyth University"
+  href: cs-career-advice-aber.md
+- name: "Integrate Google AdSense into your Ghost"
+  href: integrate-google-adsense-ghost.md
+- name: "Tech Mentor at MIT Global Startup Lab in Mauritius"
+  href: mentor-mitgsl.md
+- name: "I am Iron Man!"
+  href: i-am-iron-man.md
+- name: "Ghost Desktop on Xubuntu 17.04 won't start"
+  href: ghost-desktop-wont-start.md
+- name: "Migration to Ghost"
+  href: migration-joomla-ghost.md
+- name: "Learn to Code in Swift: The new language of iOS Apps by Kevin McNeish"
+  href: learn-to-code-in-swift.md
+- name: "Mauritius Open Data Readiness Assessment (ODRA)"
+  href: mauritius-open-data.md
+- name: "Working as an IT freelancer in Mauritius"
+  href: working-as-an-it-freelancer-in-mauritius.md
+- name: "Launch Event: Windows 10 and Visual Studio 2015"
+  href: launch-event-windows-10-and-visual-studio-2015.md
+- name: "Installing Visual Studio Code on Linux (Ubuntu)"
+  href: install-visual-studio-code-on-linux-ubuntu.md
+- name: "Ubuntu Jam at the University of Mauritius"
+  href: ubuntu-jam-uom.md
+- name: "Live and let live - modern laziness..."
+  href: live-and-let-live-modern-laziness.md
+- name: "Upgrade to Xubuntu 15.04 - Vivid Vervet"
+  href: upgrade-to-xubuntu-1504-vivid-vervet.md
+- name: "Mugg & Bean - Nightmare at Bagatelle"
+  href: mb-nightmare-at-bagatelle.md
+- name: "Introduction to Mauritius Software Craftsmanship Community"
+  href: intro-to-mscc.md
+- name: "Preparations for Developers Conference 2015"
+  href: preparations-for-devconmru-2015.md
+- name: "Children are happy using their Kindle Fire HDX"
+  href: children-happy-kindle-fire-hdx.md
+- name: "My first month using a Lumia 730"
+  href: using-nokia-lumia-730.md
+- name: "Lets rock with MySQL and MariaDB"
+  href: lets-rock-with-my-and-maria.md
+- name: "Ten years of blogging - 400+ articles written"
+  href: ten-years-of-blogging-400-articles-written.md
+- name: "Good to know: Sender Policy Framework"
+  href: spf.md
+- name: "High Performance Responsive Design by Tom Barker"
+  href: high-performance-responsive-design.md
+- name: "Microsoft SharePoint 2013 Administration Inside Out"
+  href: microsoft-sharepoint-2013-administration-inside-out.md
+- name: "Social eCommerce by Stephan Spencer, Jimmy Harding & Jennifer Sheahan"
+  href: social-ecommerce.md
+- name: "Review: Emtel Wingle a.k.a. Huawei E8231"
+  href: emtel-wingle-aka-huawei-e8231.md
+- name: "MSCC: Shellshock Survival Guide"
+  href: mscc-20141025-shellshock-survival-guide.md
+- name: "How to avoid accidental app purchase"
+  href: how-to-avoid-accidental-app-purchase.md
+- name: "MSCC: Entrepreneurship and start-up culture (in Mauritius)"
+  href: mscc-20140830-entrepreneurship-and-startup-culture.md
+- name: "Already 3,333 tweets..."
+  href: already-3333-tweets.md
+- name: "Game Review: Monument Valley"
+  href: game-review-monument-valley.md
+- name: "Vacations on Rodrigues 2014"
+  href: vacations-on-rodrigues.md
+- name: "Visiting the Emtel Data Centre"
+  href: visiting-emtel-data-centre.md
+- name: "SUPINFO International University in Mauritius"
+  href: supinfo-international-university-in-mauritius.md
+- name: "MSCC: Purpose and benefits of Version Control Systems (VCS)"
+  href: mscc-20140628-version-control-systems-git-tfs-vso.md
+- name: "Emtel Knowledge Series - Q2/2014"
+  href: emtel-knowledge-series-no3.md
+- name: "MSCC: Purpose and benefits of Version Control Systems (VCS)"
+  href: mscc-version-control-systems-git-tfs-vso.md
+- name: "MSCC: Scripting - Administrator's­ toolbox of magic..."
+  href: mscc-scripting-administrators-toolbox-of-magic.md
+- name: "MSCC: Career & IT Fair 2014"
+  href: mscc-career-it-fair-2014.md
+- name: "Corsair Hackers Reboot"
+  href: lugm-corsair-hackers-reboot.md
+- name: "Game Review: God of Light"
+  href: game-review-god-of-light.md
+- name: "MSCC: Global Windows Azure Bootcamp"
+  href: mscc-global-windows-azure-bootcamp.md
+- name: "MSCC: Global Windows Azure Bootcamp - 29th March 2014"
+  href: mscc-global-windows-azure-bootcamp-2014.md
+- name: "Accessing your web server via IPv6"
+  href: accessing-apache2-web-server-via-ipv6.md
+- name: "Enabling DNS for IPv6 infrastructure"
+  href: enabling-dns-for-ipv6-infrastructure.md
+- name: "DHCPv6: Provide IPv6 information in your local network"
+  href: dhcpv6-ipv6-in-your-local-network.md
+- name: "Configure IPv6 on your Linux system (Ubuntu)"
+  href: configure-ipv6-on-ubuntu.md
+- name: "App Review: Mauritius Vibrations"
+  href: mauritius-vibrations.md
+- name: "How to extend a virtual disk and its logical volume(s) in CentOS"
+  href: extend-a-virtual-disk-and-its-logical-volume.md
+- name: "MSCC: WordPress - An Introduction"
+  href: mscc-wordpress-an-introduction.md
+- name: "Emtel Knowledge Series - Q1/2014"
+  href: emtel-knowledge-series-no1.md
+- name: "MSCC: HTML5, CSS3 and JavaScript"
+  href: mscc-25012014-html5-css3-javascript.md
+- name: "AngularJS by Brad Green and Shyam Seshadri - Some lack of quality"
+  href: angularjs.md
+- name: "Game Review: Quell"
+  href: game-review-quell.md
+- name: "The Superlative Stream by Kerry Nietz"
+  href: the-superlative-stream-by-kerry-nietz.md
+- name: "A Star Curiously Singing by Kerry Nietz"
+  href: a-star-curiously-singing-by-kerry-nietz.md
+- name: "Goodbye 2013 - Welcome 2014"
+  href: goodbye-2013-welcome-2014.md
+- name: "How to build your own 'Emtel In-Car WiFi' hot-spot"
+  href: how-to-build-in-car-wifi-hotspot.md
+- name: "MSCC: Christmas raffle and plans for 2014"
+  href: mscc-14122013-christmas-raffle-plans-2014.md
+- name: "Running Windows applications on Linux"
+  href: running-windows-applications-on-linux.md
+- name: "How's Mauritius Software Craftsmanship Community going?"
+  href: hows-mauritius-software-craftsmanship-community-going.md
+- name: "Infotech 2013 - Confusing and mixed impressions"
+  href: infotech-2013.md
+- name: "Virtual Launch of Visual Studio 2013 Dubai"
+  href: virtual-launch-of-visual-studo-2013-dubai.md
+- name: "MSCC: Clean Code Development & Your workspace"
+  href: mssc-16112013-clean-code-developer-your-workspace.md
+- name: "Representing Mauritius in the 2013 Bench Games"
+  href: representing-mauritius-in-the-2013-bench-games.md
+- name: "MSCC: Clean Code Development & Flexible work environment"
+  href: mscc-26102013-clean-code-developer-flexible-work-environment.md
+- name: "Upgrade to Xubuntu 13.10 - Saucy Salamander"
+  href: upgrade-to-xubuntu-1310-saucy-salamander.md
+- name: "Using a portable USB monitor in Ubuntu 13.04 (AOC e1649Fwu - DisplayLink)"
+  href: using-aoc-usb-monitor-in-ubuntu-1304-displaylink-e1649fwu.md
+- name: "Not attending the LUGM mini-meetup - 05. Oct 2013"
+  href: not-attending-the-lugm-mini-meetup.md
+- name: "Microsoft and innovation: IIF() method"
+  href: microsoft-and-innovation-iif-method.md
+- name: "Resume on 30 Days of SharePoint"
+  href: resume-on-30-days-of-sharepoint.md
+- name: "Update: Super Hero"
+  href: update-super-hero.md
+- name: "MSCC: Clean Code Developer & Certification in IT"
+  href: mscc-21092013-clean-code-developer-certification.md
+- name: "Visiting the Fire Station in Coromandel"
+  href: visiting-the-fire-station-in-coromandel.md
+- name: "Exploring various SharePoint blogs"
+  href: exploring-various-sharepoint-blogs.md
+- name: "SharePoint 2013 Developer Ramp-Up - Part 2"
+  href: sharepoint-2013-developer-ramp-up-part-2.md
+- name: "SharePoint 2013 Developer Ramp-Up - Part 1"
+  href: sharepoint-2013-developer-ramp-up-part-1.md
+- name: "Tuning SQL Server 2012 for SharePoint 2013 Jump Start"
+  href: tuning-sql-server-2012-for-sharepoint-2013-jump-start.md
+- name: "The 30 days of Microsoft SharePoint challenge"
+  href: the-30-days-microsoft-sharepoint-challenge.md
+- name: "Is the CODE keyboard the right keyboard for coding?"
+  href: the-right-keyboard-for-coding.md
+- name: "Solaar - Managing Logitech Unifying Receiver peripherals"
+  href: solaar-linux-logitech-unifying-receiver.md
+- name: "LUGM meeting - 17.08.2013 - Mugg & Bean, Bagatelle"
+  href: lugm-meeting-17082013-mugg-a-bean-bagatelle.md
+- name: "Adjust timezone of an AVM Fritz!Box 7390"
+  href: adjust-timezone-of-an-avm-fritzbox-7390.md
+- name: "Speaker at developer conferences and user group meetings"
+  href: speaker-at-developer-conferences-user-groups.md
+- name: "Speaker at the German Visual FoxPro Developer Conference 2006"
+  href: speaker-at-the-german-visual-foxpro-developer-conference-2006.md
+- name: "Speaker at the German Visual FoxPro Developer Conference 2005"
+  href: speaker-at-the-german-visual-foxpro-developer-conference-2005.md
+- name: "Speaker at the German Visual FoxPro Developer Conference 2004"
+  href: speaker-at-the-german-visual-foxpro-developer-conference-2004.md
+- name: "Speaker at the German Visual FoxPro Developer Conference 2003"
+  href: speaker-at-the-german-visual-foxpro-developer-conference-2003.md
+- name: "Speaker at the German Visual FoxPro Developer Conference 2002"
+  href: speaker-at-the-german-visual-foxpro-developer-conference-2002.md
+- name: "Connecting Linux to WatchGuard Firebox SSL (OpenVPN client)"
+  href: connecting-linux-to-watchguard-firebox-ssl.md
+- name: "Feedback on meeting of the MSCC - 20.07.2013"
+  href: feedback-on-meeting-of-the-mscc-20072013.md
+- name: "PHP Web Services by Lorna Jane Mitchell - Nice try"
+  href: php-web-services.md
+- name: "These aren't the droids you're looking for"
+  href: error404.md
+- name: "Quoted on MVA Voices"
+  href: quoted-on-mva-voices.md
+- name: "Mauritius Software Craftsmanship Community (aka User Group)"
+  href: mscc.md
+- name: "New Pluralsight app for Android will bring variable speed"
+  href: new-pluralsight-app-for-android-will-bring-variable-speed.md
+- name: "Feedback on meeting of the Linux User Group of Mauritius"
+  href: feedback-on-lugm-meeting-15-06-2013.md
+- name: "FoxTales: Behind the Scenes at Fox Software by Kerry Nietz"
+  href: foxtales-behind-the-scenes-at-fox-software-by-kerry-nietz.md
+- name: "The Niantic Project: Ingress by Felicia Hajra-Lee"
+  href: the-niantic-project-ingress-by-felicia-hajra-lee.md
+- name: "Test your internet connection - Emtel Mobile Internet"
+  href: test-your-internet-connection-emtel-mobile-internet.md
+- name: "Test your internet connection - Emtel Fixed Broadband"
+  href: test-your-internet-connection.md
+- name: "Communities - The importance of exchange and discussion"
+  href: community-exchange-and-discussion.md
+- name: "Pantel Penta WS802C (aka The white Orange tablet)"
+  href: penta-ws802c-the-white-orange-tablet.md
+- name: "VMware Kernel Module Updater hangs on Ubuntu 13.04"
+  href: vmware-kernel-module-updater-hangs-on-ubuntu-1304.md
+- name: "Programming Windows 8 Apps with HTML, CSS, and JavaScript - All you need in one title"
+  href: programming-windows-8-apps-with-html-css-and-javascript.md
+- name: "Learning from jQuery - Solid fundament for experienced jQuery developers"
+  href: learning-from-jquery.md
+- name: "Essentials for software developer or any computer job"
+  href: essentials-for-software-developer.md
+- name: "Upgrade to Xubuntu 13.04 - Raring Ringtail"
+  href: upgrade-to-xubuntu-1304-raring-ringtail.md
+- name: "Side-load and read your mobi ebooks on Kindle for iOS"
+  href: side-load-and-read-your-mobi-ebooks-on-kindle-for-ios.md
+- name: "Side-load and read your ebooks on Kindle for Android"
+  href: side-load-and-read-your-ebooks-on-kindle-for-android.md
+- name: "Playing Ingress by Niantic Labs in Mauritius"
+  href: playing-ingress-by-niantic-labs-in-mauritius.md
+- name: "Attending the Mauritian Bloggers Meeting"
+  href: attending-the-mauritian-bloggers-meeting.md
+- name: "The Alignment: Ingress by Thomas Greanias"
+  href: the-alignment-ingress-by-thomas-greanias.md
+- name: "Visualise your visitors with Google Maps Guestmap"
+  href: google-maps-guestmap.md
+- name: "Waiting for OUYA"
+  href: waiting-for-ouya.md
+- name: "Comment on 'Competent Mauritius'"
+  href: comment-on-competent-mauritius.md
+- name: "Celebrating Earth Hour 2013"
+  href: celebrating-earth-hour-2013.md
+- name: "Flexible Work style, meet your new Office"
+  href: flexible-work-style-meet-your-new-office.md
+- name: "More content for MCSDs: Web Applications and Windows Store Apps using HTML5"
+  href: more-content-for-mcsds-web-applications-and-windows-store-apps-using-html5.md
+- name: "Torrential rain in Mauritius - some parts of the island"
+  href: torrential-rain-in-mauritius-some-parts-of-the-island.md
+- name: "Driving Business Forward - A new approach to social media in Mauritius"
+  href: driving-business-forward.md
+- name: "Geocaching - Casela Bird Park (GC1BPF1)"
+  href: geocaching-casela-bird-park.md
+- name: "Passed: Exam 70-480: Programming in HTML5 with JavaScript and CSS3"
+  href: passed-exam-70-480-programming-in-html5-with-javascript-and-css3.md
+- name: "Geocaching - World wide treasure hunt"
+  href: geocaching-world-wide-treasure-hunt.md
+- name: "Managing Joomla via Android"
+  href: managing-joomla-via-android.md
+- name: "Learning content for MCSDs: Web Applications and Windows Store Apps using HTML5"
+  href: learning-content-for-mcsds-web-applications-and-windows-store-apps-using-html5.md
+- name: "Custom page sizes in paging dropdown in Telerik RadGrid"
+  href: custom-page-sizes-in-paging-dropdown-in-telerik-radgrid.md
+- name: "Taking web sites offline for demonstration"
+  href: taking-web-sites-offline-for-demonstration.md
+- name: "Taking web sites offline for demonstration on Galaxy Tablet"
+  href: taking-web-sites-offline-for-demonstration-on-galaxy-tablet.md
+- name: "Taking web sites offline for demonstration on iPad"
+  href: taking-web-sites-offline-for-demonstration-on-ipad.md
+- name: "VMware Player 5.0 or VMware Workstation 9.0 after upgrade to Ubuntu 12.10"
+  href: vmware-player-50-or-vmware-workstation-90-after-upgrade-to-ubuntu-1210.md
+- name: "Finally, upgrade from Nokia X3 to Samsung Galaxy S III"
+  href: finally-upgrade-from-nokia-x3-to-samsung-galaxy-s-iii.md
+- name: "Software development stack 2012"
+  href: software-development-stack.md
+- name: "Synergy - easy share of keyboard and mouse between multiple computers"
+  href: synergy-easy-share-of-keyboard-and-mouse-between-multiple-computers.md
+- name: "And again... VMware Player 4.0.4 on Ubuntu 12.04 (Precise Pangolin)"
+  href: and-again-vmware-player-404-on-ubuntu-1204-precise-pangolin.md
+- name: "Update kernel patch for VMware Player 4.0.3"
+  href: update-kernel-patch-for-vmware-player-403.md
+- name: "Small hiccup with VMware Player after upgrading to Ubuntu 12.04"
+  href: small-hiccup-with-vmware-player-after-upgrading-to-ubuntu-1204.md
+- name: "New Year's resolution 2012"
+  href: new-years-resolution-2012.md
+- name: "Microsoft Virtual Academy"
+  href: microsoft-virtual-academy.md
+- name: "Some mail details about Orange Mauritius"
+  href: orange-mauritius-smtp-auth.md
+- name: "Using Lightbox with _Screen"
+  href: using-lightbox-with-screen.md
+- name: "Using 3G/UMTS in Mauritius"
+  href: umts-mauritius.md
+- name: "Yes, I did it - Skydiving in Mauritius"
+  href: skydiving-in-mauritius.md
+- name: "Future of Active FoxPro Pages - secured"
+  href: future-of-active-foxpro-pages-secured.md
+- name: "Using ext4 in VMware machine"
+  href: using-ext4-in-vmware-machine.md
+- name: "Welcome - A new star is born!"
+  href: welcome-a-new-star-is-born.md
+- name: "Troubleshooting VMware on Ubuntu"
+  href: troubleshooting-vmware-on-ubuntu.md
+- name: "Revamped Google Webmaster Tools"
+  href: revamped-google-webmaster-tools.md
+- name: "Community Day at SOS Kinderdorf Bambous"
+  href: community-day-at-sos-kinderdorf-bambous.md
+- name: "Install Adobe AIR on Ubuntu/Linux"
+  href: install-adobe-air-on-ubuntu-linux.md
+- name: "AddThis and Google Analytics : Asynchronous Tracking Code Integration"
+  href: addthis-google-analytics-asynchronous-tracking-code-integration.md
+- name: "Modified Ultimate Paypal Donations Module"
+  href: modified-mod-paypal.md
+- name: "Finally tweeting"
+  href: finally-tweeting.md
+- name: "Modified HP Router"
+  href: modified-hp-router.md
+- name: "Nichts ist unmöglich..."
+  href: nichts-ist-unmglich.md
+- name: "Spass mit der MessageBox()"
+  href: spass-mit-der-messagebox.md
+- name: "Modified Mod LCA"
+  href: modified-mod-lca.md
+- name: "World Map of Visitors"
+  href: world-map-of-visitors.md
+- name: "Sunshine (Codename: Moonwalk)"
+  href: sunshine.md
+- name: "HTML Plugin for Active FoxPro Pages"
+  href: htmlplugin.md
+- name: "COM Proxy for .NET"
+  href: comproxy.md
+- name: "Presentations"
+  href: presentation.md
+- name: "Curriculum Vitae"
+  href: cv.md
+- name: "Plans for the end of the year..."
+  href: plans-for-the-end-of-the-year---.md
+- name: "Family affairs"
+  href: family-affairs.md
+- name: "Welcome - A new star is born! ;)"
+  href: welcome---a-new-star-is-born---.md
+- name: "InfoTech 2008"
+  href: infotech-2008.md
+- name: "Working with 'Parameter objects' instead of parameters"
+  href: working-with-parameter-objects-instead-of-parameters.md
+- name: "Running VMware Server on Linux (version 1.0.6 on xubuntu)"
+  href: running-vmware-server-on-linux-version-106-on-xubuntu.md
+- name: "Running VMware Player on Linux (xubuntu Hardy Heron)"
+  href: running-vmware-player-on-linux-xubuntu-hardy-heron.md
+- name: "Some more articles migrated"
+  href: some-more-articles-migrated.md
+- name: "Re-Blogged"
+  href: re-blogged.md
+- name: "Private projects added (at least started...)"
+  href: private-projects-added-at-least-started.md
+- name: "Another MVP in Mauritius"
+  href: another-mvp-in-mauritius.md
+- name: "Plans for Mauritius Software Developer User Group (MSDUG)"
+  href: plans-for-mauritius-software-developer-user-group-msdug.md
+- name: "Emoticons re-activated"
+  href: emoticons-re-activated.md
+- name: "Upgrade to Windows Server Update Services 3.0 SP1"
+  href: upgrade-to-windows-server-update-services-3-0-sp1.md
+- name: "Transfer of articles re-loaded"
+  href: transfer-of-articles-re-loaded.md
+- name: "Transfer of articles from old blog database"
+  href: transfer-of-articles-from-old-blog-database.md
+- name: "Kung Shee Fat Choy"
+  href: kung-shee-fat-choy.md
+- name: "Loss of power - even w/o cyclone"
+  href: loss-of-power-even-wo-cyclone.md
+- name: "Cyclone Warning Class 3 in Mauritius"
+  href: cyclone-warning-class-3-in-mauritius.md
+- name: "Transfer of articles from Foxite community"
+  href: transfer-of-articles-from-foxite-community.md
+- name: "Switch to English language"
+  href: switch-to-english-language.md
+- name: "Es lebt wieder..."
+  href: es-lebt-wieder.md
+- name: "VFP Umgang mit Terminal Services"
+  href: vfp-umgang-mit-terminal-services.md
+- name: "My First Cyclone"
+  href: my-first-cyclone.md
+- name: "Jubel, Trubel, Heiterkeit"
+  href: jubel--trubel--heiterkeit.md
+- name: "Super Hero or Super Villain?"
+  href: super-hero-or-super-villain.md
+- name: "Am Chiemsee im Winter"
+  href: am-chiemsee-im-winter.md
+- name: "Irgendwas habe ich vergessen... ?"
+  href: irgendwas-habe-ich-vergessen----.md
+- name: "Microsoft Empower für ISVs"
+  href: microsoft-empower-fr-isvs.md
+- name: "Tjoa..."
+  href: tjoa---.md
+- name: "Elfen Lied"
+  href: elfen-lied.md
+- name: "Bug 'Resolved'"
+  href: bug-resolved.md
+- name: "PowerShell 1.0"
+  href: powershell-1-0.md
+- name: "13. Entwicklerkonferenz Visual FoxPro - Tag 2"
+  href: entwicklerkonferenz-2006-visual-foxpro-tag-2.md
+- name: "13. Entwicklerkonferenz Visual FoxPro - Tag 1"
+  href: entwicklerkonferenz-2006-tag-1.md
+- name: "The day before..."
+  href: the-day-before---.md
+- name: "ATE auf der LOVE Roadshow"
+  href: ate-auf-der-love-roadshow.md
+- name: "Decorator im praktischen Einsatz"
+  href: decorator-im-praktischen-einsatz.md
+- name: "Anmerkungen zum Decorator Design Pattern"
+  href: anmerkungen-zum-decorator.md
+- name: "All Saints' Day - oder auch nicht..."
+  href: all-saints-day-oder-auch-nicht.md
+- name: "Flash-Präsentation zu VFP SP2 CTP"
+  href: flash-prsentation-zu-vfp-sp2-ctp.md
+- name: "Semitransparente 'Forms' erstellen"
+  href: semitransparente-forms-erstellen.md
+- name: "Projekt - Sunshine"
+  href: projekt-sunshine.md
+- name: "Devcon - Vorbereitung"
+  href: devcon---vorbereitung.md
+- name: "Ego-Search und die Treffer"
+  href: ego-search-und-die-treffer.md
+- name: "Family Website aktualisiert"
+  href: family-website-aktualisiert.md
+- name: "Special Edition Using Visual FoxPro 6"
+  href: special-edition-using-visual-foxpro-6.md
+- name: "CTP für Sedna und Visual FoxPro 9.0 SP2"
+  href: ctp-fr-sedna-und-visual-foxpro-90-sp2.md
+- name: "RuntimeInstaller for Visual FoxPro 9.0 SP2 CTP"
+  href: runtimeinstaller-for-visual-foxpro-90-sp2-ctp.md
+- name: "Session-Notes für VFP-Konferenz"
+  href: session-notes-fr-vfp-konferenz.md
+- name: "ATE für Roadshow Office 2007, Windows Vista..."
+  href: ate-fr-roadshow-office-2007-windows-vista.md
+- name: "VFP Stammtisch Speyer nimmt an teil"
+  href: vfp-stammtisch-speyer-nimmt-an-teil.md
+- name: "Visual FoxPro Evangelist Program gestartet"
+  href: visual-foxpro-evangelist-program-gestartet.md
+- name: "Aufruf zur Unterstützung - Call for action"
+  href: aufruf-zur-untersttzung-call-for-action.md
+- name: "HTML-Tag nach VFP adaptiert"
+  href: html-tag-nach-vfp-adaptiert.md
+- name: "Kaum lobt man die Deutsche Bahn"
+  href: kaum-lobt-man-die-deutsche-bahn.md
+- name: "Meine tropischen Inseln"
+  href: meine-tropischen-inseln.md
+- name: "Ländliches Brandenburg"
+  href: lndliches-brandenburg.md
+- name: "Devcon Prag 2006 - Day 2"
+  href: devcon-prag-2006---day-2.md
+- name: "Visual FoxPro Konferenz Frankfurt 2006 - Geplante Sessions"
+  href: visual-foxpro-konferenz-frankfurt-2006---geplante-sessions.md
+- name: "Devcon Prag 2006 - Day 1"
+  href: devcon-prag-2006---day-1.md
+- name: "Die Bahn ist pünktlich..."
+  href: die-bahn-ist-pnktlich.md
+- name: "Ein Königreich für eine Übernachtung"
+  href: ein-knigreich-fr-eine-bernachtung.md
+- name: "Darf's ein wenig Kultur sein?"
+  href: darfs-ein-wenig-kultur-sein.md
+- name: "Wieder einmal auf Achse"
+  href: wieder-einmal-auf-achse.md
+- name: "Eine Privatbrauerei mal anders"
+  href: eine-privatbrauerei-mal-anders.md
+- name: "Arbeiten mit dem Visual Studio 2005 Team System"
+  href: arbeiten-mit-dem-visual-studio-2005-team-system.md
+- name: "Zeitmanagement mit Microsoft Office Outlook"
+  href: zeitmanagement-mit-microsoft-office-outlook.md
+- name: "Mission from God - Community GetTogether"
+  href: mission-from-god-community-gettogether.md
+- name: "Vorbereitungen für Devcon Prag vollzogen"
+  href: vorbereitungen-fuer-devcon-prag-vollzogen.md
+- name: "250 Artikel in gut 2 Jahren?"
+  href: 250-artikel-in-gut-2-jahren.md
+- name: "Kommentar zu 'Parameterobjekte'"
+  href: kommentar-zu-parameterobjekte.md
+- name: "SAP.Functions und weitere Experimente"
+  href: sapfunctions-und-weitere-experimente.md
+- name: "Die Checkbox und ihr Enter/Return-Verhalten"
+  href: die-checkbox-und-ihr-enter-return-verhalten.md
+- name: "VFP für Webausgabe von Daten"
+  href: vfp-fr-webausgabe-von-daten.md
+- name: "Experiences on Windows Live Writer..."
+  href: experiences-on-windows-live-writer---.md
+- name: "Viel Wasser den Rhein runtergelaufen..."
+  href: viel-wasser-den-rhein-runtergelaufen---.md
+- name: "Schlaflos in ..."
+  href: schlaflos-in----.md
+- name: "PoSh - Windows PowerShell"
+  href: posh-windows-powershell.md
+- name: "Effiziente Anwendungsentwicklung in VFP"
+  href: effiziente-anwendungsentwicklung-in-vfp.md
+- name: "ASP.NET und Visual FoxPro"
+  href: asp-net-und-visual-foxpro.md
+- name: "Zwei unterschiedliche Datenbanken in ADO.NET verbinden"
+  href: zwei-unterschiedliche-datenbanken-in-adonet-verbinden.md
+- name: "\"IIS 7 - Ein Web-Server der 'Next Generation'?\""
+  href: iis-7-ein-web-server-der-next-generation.md
+- name: "Windows Forms in VFP"
+  href: windows-forms-in-vfp.md
+- name: "New InfoPath template for blogging"
+  href: new-infopath-template-for-blogging.md
+- name: "InfoPath als Frontend für Blogs"
+  href: infopath-als-frontend-fr-blogs.md
+- name: "VFPConversion - VFP and/or .NET?"
+  href: vfpconversion-vfp-andor-net.md
+- name: "Regular Expressions in VFP"
+  href: regular-expressions-in-vfp.md
+- name: "Html Plugin 0.7.16"
+  href: html-plugin-0716.md
+- name: "April, April - Nachlese zum VFP Stammtisch"
+  href: april--april---nachlese-zum-vfp-stammtisch.md
+- name: "Dynamic-Link Libraries in VFP verwenden"
+  href: dynamic-link-libraries-in-vfp-verwenden.md
+- name: ".NET per COM nutzen"
+  href: net-per-com-nutzen.md
+- name: "Internetcaches - unglaublich!"
+  href: internetcaches-unglaublich.md
+- name: "Was gibt's Neues von... Mike Oldfield?"
+  href: was-gibts-neues-von-mike-oldfield.md
+- name: "Konspiratives Community-Treffen?"
+  href: konspiratives-community-treffen.md
+- name: "FCKeditor in Active FoxPro Pages verwenden"
+  href: fckeditor-in-active-foxpro-pages-verwenden.md
+- name: "PathInfo Plugin für AFP"
+  href: pathinfo-plugin-fr-afp.md
+- name: "PATH_INFO oder wozu gibt es eigentlich RFCs?"
+  href: pathinfo-oder-wozu-gibt-es-eigentlich-rfcs.md
+- name: "AfpWiki Core Engine available"
+  href: afpwiki-core-engine-available.md
+- name: "Design Pattern: Strategy"
+  href: design-pattern-strategy.md
+- name: "Design Pattern: Singleton"
+  href: design-pattern-singleton.md
+- name: "Polyphasenschlaf - Woche 1"
+  href: polyphasenschlaf---woche-1.md
+- name: "Experimente mit BlueTooth"
+  href: experimente-mit-bluetooth.md
+- name: "Polyphasenschlaf - Tag 6"
+  href: polyphasenschlaf---tag-6.md
+- name: "Polyphasenschlaf - Tag 5"
+  href: polyphasenschlaf---tag-5.md
+- name: "Polyphasenschlaf - Tag 4"
+  href: polyphasenschlaf---tag-4.md
+- name: "Polyphasenschlaf - Tag 3"
+  href: polyphasenschlaf---tag-3.md
+- name: "Polyphasenschlaf - Tag 2 1/2"
+  href: polyphasenschlaf-tag-2-12.md
+- name: "Polyphasenschlaf - Tag 1"
+  href: polyphasenschlaf---tag-1.md
+- name: "Zuviel Zeit... oder?"
+  href: zuviel-zeit----oder.md
+- name: "Magazine von Level Extreme frei verfügbar"
+  href: magazine-von-level-extreme-frei-verfgbar.md
+- name: "Polyphasenschlaf - Tag 0"
+  href: polyphasenschlaf---tag-0.md
+- name: "Bauen wir uns einen Webserver"
+  href: bauen-wir-uns-einen-webserver.md
+- name: "Produktreife nähert sich..."
+  href: produktreife-nhert-sich.md
+- name: "FoxPro als embedded DB in .NET"
+  href: foxpro-als-embedded-db-in--net.md
+- name: "VFPConversion.de"
+  href: vfpconversion-de.md
+- name: "Objektorientierung für Anfänger..."
+  href: objektorientierung-fr-anfnger.md
+- name: "Every rose has its thorn"
+  href: every-rose-has-its-thorn.md
+- name: "Community, Community, Community!"
+  href: community-community-community.md
+- name: "Die CeBIT ruft..."
+  href: die-cebit-ruft---.md
+- name: "VFPConversion.de - Clash of the Titans"
+  href: vfpconversionde-clash-of-the-titans.md
+- name: "Kommune 33"
+  href: kommune-33.md
+- name: "Keynote ahead"
+  href: keynote-ahead.md
+- name: "5:45 Uhr und der Wecker klingelt"
+  href: 545uhr-und-der-wecker-klingelt.md
+- name: "Neue Optik für den Hintergrund"
+  href: neue-optik-fr-den-hintergrund.md
+- name: "Ein Tag hat 24 Stunden"
+  href: ein-tag-hat-24-stunden.md
+- name: "On a mission from god"
+  href: on-a-mission-from-god.md
+- name: "AJaX - der schnelle Küchenreiniger für die Website"
+  href: ajax-der-schnelle-kchenreiniger-fr-die-website.md
+- name: "New face, new service"
+  href: new-face--new-service.md
+- name: "Vista für Developer"
+  href: vista-fr-developer.md
+- name: "Listed at FoxBlogs (TagCloud)"
+  href: listed-at-foxblogs-tagcloud.md
+- name: "Long time ago..."
+  href: long-time-ago---.md
+- name: "Besinnliche Weihnachtszeit?"
+  href: besinnliche-weihnachtszeit.md
+- name: "Fuchs NICHT vom Aussterben bedroht"
+  href: fuchs-nicht-vom-aussterben-bedroht.md
+- name: "Ausbildung: Fachinformatiker Anwendungsentwicklung"
+  href: ausbildung-fachinformatiker-anwendungsentwicklung.md
+- name: "Freizeit?"
+  href: freizeit.md
+- name: "Design Pattern: Decorator"
+  href: design-pattern-decorator.md
+- name: "Sie sind da..."
+  href: sie-sind-da.md
+- name: "dFPUG bietet Blogs für Mitglieder"
+  href: dfpug-bietet-blogs-fuer-mitglieder.md
+- name: "Nice Smeagol..."
+  href: nice-smeagol.md
+- name: "Ja, ist denn schon Weihnachten?"
+  href: ja-ist-denn-schon-weihnachten.md
+- name: "Es geschehen noch Zeichen und Wunder!"
+  href: es-geschehen-noch-zeichen-und-wunder.md
+- name: "Die Jungs bei Google haben Spass..."
+  href: die-jungs-bei-google-haben-spass.md
+- name: "Es muss nicht immer FoxPro sein..."
+  href: es-muss-nicht-immer-foxpro-sein.md
+- name: "VFP Stammtisch Speyer - 16.11.2005"
+  href: vfp-stammtisch-speyer-16112005.md
+- name: "Coverage der 12. VFP Entwicklerkonferenz"
+  href: coverage-der-12-vfp-entwicklerkonferenz.md
+- name: "On the rail again..."
+  href: on-the-rail-again.md
+- name: "God gave Rock 'n Roll to us."
+  href: god-gave-rock-n-roll-to-us.md
+- name: "Lily of the Valley"
+  href: lily-of-the-valley.md
+- name: "Kühe auf Nachtwanderung"
+  href: kuehe-auf-nachtwanderung.md
+- name: "AfpWiki wächst weiter..."
+  href: afpwiki-wchst-weiter.md
+- name: "Intranet Explorer"
+  href: intranet-explorer.md
+- name: "MSDN-Webcast-Serie zu Visual FoxPro 9.0"
+  href: msdn-webcast-serie-zu-visual-foxpro-9-0.md
+- name: "Firefox 1.5 Beta"
+  href: firefox-1-5-beta.md
+- name: "Versionskontrolle mit Subversion"
+  href: versionskontrolle-mit-subversion.md
+- name: "Schreiben an die GEZ"
+  href: schreiben-an-die-gez.md
+- name: "Screenauflösung 5184x1200?"
+  href: screenauflsung-5184x1200.md
+- name: "Browser-Upgrades"
+  href: browser-upgrades.md
+- name: "LINQ - auch mit VFP kein Problem: VOSQL"
+  href: linq-auch-mit-vfp-kein-problem-vosql.md
+- name: "Stammtisch-Seite aktualisiert"
+  href: stammtisch-seite-aktualisiert.md
+- name: "VFP Stammtisch 21.09.2005 - Nachlese"
+  href: vfp-stammtisch-21-09-2005---nachlese.md
+- name: "Beliebige Zeichen in Dateipfaden - oder besser nicht..."
+  href: beliebige-zeichen-in-dateipfaden---oder-besser-nicht---.md
+- name: "Michael Moore bzw. die Qual der Wahl"
+  href: michael-moore-bzw--die-qual-der-wahl.md
+- name: "Vorbereitungen für Stammtisch und Devcon"
+  href: vorbereitungen-fr-stammtisch-und-devcon.md
+- name: "Kommentare zum Eisbär"
+  href: kommentare-zum-eisbr.md
+- name: "SAP Arena!"
+  href: saparena.md
+- name: "Dumm gebabbelt iss glei!"
+  href: dumm-gebabbelt-iss-glei.md
+- name: "VFP, SQL und .NET Konferenz der dFPUG 2005"
+  href: vfp--sql-und--net-konferenz-der-dfpug-2005.md
+- name: "Vacation..."
+  href: vacation---.md
+- name: "Büchermarathon"
+  href: bchermarathon.md
+- name: "SAP Arena?"
+  href: sap-arena.md
+- name: "VFP Devcon 2005"
+  href: vfp-devcon-2005.md
+- name: "Rock im Brauhof 2005"
+  href: rock-im-brauhof-2005.md
+- name: "Die Happy & Culcha Candela"
+  href: die-happy-a-culcha-candela.md
+- name: "URLAUB!"
+  href: urlaub.md
+- name: "Golo, der Gartenzwerg?"
+  href: golo--der-gartenzwerg.md
+- name: "Normaler Tagesablauf?"
+  href: normaler-tagesablauf.md
+- name: "VFP Stammtisch - 17.08.2005"
+  href: vfp-stammtisch---17-08-2005.md
+- name: "Finally... AFP FAQ wieder online"
+  href: finally----afp-faq-wieder-online.md
+- name: "O'Reilly veröffentlicht Rezension"
+  href: oreilly-verffentlicht-rezension.md
+- name: "Using Microsoft InfoPath as blog frontend"
+  href: using-microsoft-infopath-as-blog-frontend.md
+- name: "International blogging"
+  href: international-blogging.md
+- name: "Pragmatic Version Control Using Subversion"
+  href: pragmatic-version-control-using-subversion.md
+- name: "VFP Stammtisch - Stuttgart/Herrenberg"
+  href: vfp-stammtisch-stuttgartherrenberg.md
+- name: "Introducing Microsoft SQL Server 2005 For Developers"
+  href: introducing-microsoft-sql-server-2005-for-developers.md
+- name: "Browserwechsel angesagt"
+  href: browserwechsel-angesagt.md
+- name: "EULA vor Kauf lesen"
+  href: eula-vor-kauf-lesen.md
+- name: "Lost in the Twilight Zone..."
+  href: lost-in-the-twilight-zone---.md
+- name: "MSDN zu VFP OLE DB Provider"
+  href: msdn-zu-vfp-ole-db-provider.md
+- name: "Neues Release #585"
+  href: neues-release-585.md
+- name: "RSS Validation"
+  href: rss-validation.md
+- name: "Weitere Buchtitel zu VFP 9.0"
+  href: weitere-buchtitel-zu-vfp-9-0.md
+- name: ".NET Usertreffen Kaiserslautern"
+  href: net-usertreffen-kaiserslautern.md
+- name: "VFP Devcon Prag 2005 - Day 3"
+  href: vfp-devcon-prag-2005---day-3.md
+- name: "Die Zukunft von VFP"
+  href: die-zukunft-von-vfp.md
+- name: "Fäkalien-Alarm - Funstuff"
+  href: fkalien-alarm-funstuff.md
+- name: "Funstuff mit Pferden"
+  href: funstuff-mit-pferden.md
+- name: "Genius is indeed a heavy burden"
+  href: genius-is-indeed-a-heavy-burden.md
+- name: "C# Essentials, 2nd Edition"
+  href: c-essentials-2nd-edition.md
+- name: "Practical PostgreSQL"
+  href: practical-postgresql.md
+- name: "Marathon, die Vierte?"
+  href: marathon--die-vierte.md
+- name: "Marathon, die Dritte"
+  href: marathon--die-dritte.md
+- name: "Marathon, die Zweite"
+  href: marathon--die-zweite.md
+- name: "Jeder sollte ein Hamsterfell besitzen"
+  href: jeder-sollte-ein-hamsterfell-besitzen.md
+- name: "Marathon, die Erste"
+  href: marathon--die-erste.md
+- name: ".NET Usertreffen vom Montag"
+  href: -net-usertreffen-vom-montag.md
+- name: "Aktuelles Umfrageergebnis und weiterer Ansatz"
+  href: aktuelles-umfrageergebnis-und-weiterer-ansatz.md
+- name: "Umfragen und die Ergebnisse..."
+  href: umfragen-und-die-ergebnisse---.md
+- name: "Schlafes Bruder"
+  href: schlafes-bruder.md
+- name: "In 80 Zeilen um die VFP-Tabelle"
+  href: in-80-zeilen-um-die-vfp-tabelle.md
+- name: "101 things you can do..."
+  href: 101-things-you-can-do---.md
+- name: "Randale? - Ein normaler Samstag"
+  href: randale-ein-normaler-samstag.md
+- name: "Ab in den Süden..."
+  href: ab-in-den-sueden.md
+- name: "Zitate..."
+  href: zitate.md
+- name: "Nachlese: VFP Stammtisch Speyer im April"
+  href: nachlese-vfp-stammtisch-speyer-im-april.md
+- name: "MSDN: Visual FoxPro mit Visual Studio 2005"
+  href: msdn-visual-foxpro-mit-visual-studio-2005.md
+- name: "VFP Stammtisch - April 2005"
+  href: vfp-stammtisch-april-2005.md
+- name: "Pictures? Wanna pictures?"
+  href: pictures-wanna-pictures.md
+- name: "Unexpected error 0x8ffe2740 occurred"
+  href: unexpected-error-0x8ffe2740-occurred.md
+- name: "Nachlese zur Community Devcon 2005"
+  href: nachlese-zur-community-devcon-2005.md
+- name: "HTTP 404"
+  href: http-404.md
+- name: "Daily Upgrade"
+  href: daily-upgrade.md
+- name: "Vorbereitungen für die Devcon laufen an..."
+  href: vorbereitungen-fr-die-devcon-laufen-an.md
+- name: "Found by Google"
+  href: found-by-google.md
+- name: "Blog - Reloaded Again"
+  href: blog-reloaded-again.md
+- name: "Werbung verblödet..."
+  href: werbung-verbloedet.md
+- name: "New MSDN Forums"
+  href: new-msdn-forums.md
+- name: "Ich will Feuerwehrmann werden"
+  href: ich-will-feuerwehrmann-werden.md
+- name: "Frankfurter Buchmesse"
+  href: frankfurter-buchmesse.md
+- name: "VFP Umfrage von Microsoft"
+  href: vfp-umfrage-von-microsoft.md
+- name: "Expression evaluator failed (Error 67)"
+  href: expression-evaluator-failed-error-67.md
+- name: "angryCoder"
+  href: angrycoder.md
+- name: "Schreiben Sie eine Online-Rezension"
+  href: schreiben-sie-eine-online-rezension.md
+- name: ".NET for Visual FoxPro Developers"
+  href: net-for-visual-foxpro-developers.md
+- name: "Blog - Reloaded"
+  href: blog---reloaded.md
+- name: "Es wird konkreter..."
+  href: es-wird-konkreter---.md
+- name: "VFP Datenbank in .NET"
+  href: vfp-datenbank-in--net.md
+- name: "VFP Roadshow Stuttgart - 3. Halbzeit"
+  href: vfp-roadshow-stuttgart---3--halbzeit.md
+- name: "Surfin' HotSpots"
+  href: surfin-hotspots.md
+- name: "Devcon Prag 2005 - Termin steht"
+  href: devcon-prag-2005-termin-steht.md
+- name: "Heute ist Ostern und Weihnachten gleichzeitig..."
+  href: heute-ist-ostern-und-weihnachten-gleichzeitig---.md
+- name: "Clash of the browsers"
+  href: clash-of-the-browsers.md
+- name: "MultiSelect-Komponente"
+  href: multiselect-komponente.md
+- name: "SQL Server Workgroup Edition"
+  href: sql-server-workgroup-edition.md
+- name: "Game another day"
+  href: game-another-day.md
+- name: "Nix Neues..."
+  href: nix-neues---.md
+- name: "AfpWiki released"
+  href: afpwiki-released.md
+- name: "Noch ein Wiki"
+  href: noch-ein-wiki.md
+- name: "Überall Baustellen?"
+  href: berall-baustellen.md
+- name: "Fox Is Anywhere!"
+  href: fox-is-anywhere.md
+- name: "Community DevCon 2005"
+  href: community-devcon-2005.md
+- name: "VFP 9.0 Upgrade"
+  href: vfp-90-upgrade.md
+- name: "Gegen die Kälte hilft nur ein heißes Bad"
+  href: gegen-die-klte-hilft-nur-ein-heies-bad.md
+- name: "The future is now!"
+  href: the-future-is-now.md
+- name: "So kann ich net arbeiten!"
+  href: so-kann-ich-net-arbeiten.md
+- name: "Vorbereitungen für den Stammtisch"
+  href: vorbereitungen-fr-den-stammtisch.md
+- name: "Wieviel NERD steckt in dir?"
+  href: wieviel-nerd-steckt-in-dir.md
+- name: "Viel Wasser läuft den Rhein runter..."
+  href: viel-wasser-luft-den-rhein-runter.md
+- name: "C# unter Linux"
+  href: c-unter-linux.md
+- name: "Microsoft Communities - Ganz. Schön. Schlau."
+  href: microsoft-commities-ganz-schn-schlau.md
+- name: "Finally"
+  href: finally.md
+- name: "Der Marathon beginnt..."
+  href: der-marathon-beginnt.md
+- name: "Devcon: Ein erster Eindruck"
+  href: devcon-ein-erster-eindruck.md
+- name: "Koffer packen und los geht's..."
+  href: koffer-packen-und-los-gehts.md
+- name: "Quattro stagioni (CLIP Day Two)"
+  href: quattro-stagioni-clip-day-two.md
+- name: "Trio infernale (CLIP Day One)"
+  href: trio-infernale-clip-day-one.md
+- name: "Usertreffen... und kein Ende in Sicht"
+  href: usertreffen----und-kein-ende-in-sicht.md
+- name: "Die Rückkehr des Königs"
+  href: die-rckkehr-des-knigs.md
+- name: "Gastbesuch bei VFP Stammtisch Stuttgart"
+  href: gastbesuch-bei-vfp-stammtisch-stuttgart.md
+- name: "VFP/SQL/.NET Devcon 2004 in Frankfurt"
+  href: vfpsqlnet-devcon-2004-in-frankfurt.md
+- name: "FoxPro - das Urzeitmonster aus der Tiefe..."
+  href: foxpro---das-urzeitmonster-aus-der-tiefe---.md
+- name: "JavaScript macht Spass"
+  href: javascript-macht-spass.md
+- name: "Request timed out"
+  href: request-timed-out.md
+- name: "Verspäteter Einstieg in die Welt der Blogs..."
+  href: verspteter-einstieg-in-die-welt-der-blogs.md

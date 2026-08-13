@@ -1,0 +1,8 @@
+- name: "Blogging about bits and bytes..."
+  href: blog.md
+- name: "Public Speaking Engagements"
+  href: speaking.md
+- name: "Community"
+  href: community.md
+- name: "About Me"
+  href: about.md

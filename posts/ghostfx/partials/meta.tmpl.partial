@@ -1,0 +1,31 @@
+{{#_appFaviconPath}}
+<link rel="icon" href="{{_rel}}{{_appFaviconPath}}" type="image/png">
+{{/_appFaviconPath}}
+{{^_appFaviconPath}}
+<link rel="icon" href="{{_rel}}favicon.png" type="image/png">
+{{/_appFaviconPath}}
+{{#canonicalUrl}}
+<link rel="canonical" href="{{canonicalUrl}}">
+{{/canonicalUrl}}
+<meta name="referrer" content="no-referrer-when-downgrade">
+{{#metaTitle}}
+<meta name="title" content="{{metaTitle}}">
+{{/metaTitle}}
+{{^metaTitle}}
+{{#title}}
+<meta name="title" content="{{title}}">
+{{/title}}
+{{/metaTitle}}
+{{#metaDescription}}
+<meta name="description" content="{{metaDescription}}">
+{{/metaDescription}}
+{{^metaDescription}}
+{{#description}}
+<meta name="description" content="{{description}}">
+{{/description}}
+{{^description}}
+{{#summary}}
+<meta name="description" content="{{summary}}">
+{{/summary}}
+{{/description}}
+{{/metaDescription}}

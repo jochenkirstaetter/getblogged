@@ -7,6 +7,10 @@ missing_*
 .env*
 !.env.example
 
+# Webmaster configuration and auth files
+LiveSearchSiteAuth.xml
+y_key_*
+
 # GhostFx related information
 ghostfx.json
 ghostfx.http
@@ -17,3 +21,6 @@ _ghost_templates/
 .firebaserc
 firebase.json
 firebase-debug.log
+
+# Docfx generated files
+**/_site/*

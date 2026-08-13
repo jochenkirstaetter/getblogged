@@ -1,0 +1,568 @@
+---
+uid: joki
+title: Jochen Kirstätter
+slug: joki
+date: ''
+status: ''
+type: ''
+description: The only frontiers are in your mind
+tags: []
+keywords: ''
+metaTitle: Jochen Kirstätter
+metaDescription: The only frontiers are in your mind
+image: content/images/2017/07/DevCon2017Keynote-1-1.png
+ogTitle: Jochen Kirstätter
+ogDescription: The only frontiers are in your mind
+layout: author
+bodyClass: author-template author-joki
+postClass: ''
+isPost: false
+isPage: false
+isDraft: false
+isScheduled: false
+isTagPage: false
+isTagsIndexPage: false
+isAuthorPage: true
+isHome: false
+author: Jochen Kirstätter
+authorTwitter: '@jkirstaetter'
+authorFacebook: https://facebook.com/jochen.kirstaetter
+website: https://jochen.kirstaetter.name/
+location: Mauritius
+authorImage: content/images/2018/10/JoKi_StAubin_100px.jpg
+authorSlug: joki
+canonicalUrl: https://jochen.kirstaetter.name/author/joki/
+imageUrl: ''
+twitterImageUrl: ''
+authorImageUrl: ''
+authorPageUrl: ''
+tagName: ''
+tagDescription: ''
+featureImage: ''
+featured: false
+publishedAt: ''
+updatedAt: ''
+excerpt: ''
+twitterTitle: Jochen Kirstätter
+twitterDescription: The only frontiers are in your mind
+twitterImage: content/images/2017/07/DevCon2017Keynote-1-1.png
+facebookTitle: Jochen Kirstätter
+facebookDescription: The only frontiers are in your mind
+facebookImage: content/images/2017/07/DevCon2017Keynote-1-1.png
+codeinjectionHead: ''
+codeinjectionFoot: ''
+---
+
+
+## Articles
+
+- [Gemma 3 - missing features despite announcement](xref:gemma-3-missing-features-despite-announcement) - *2025-03-12*
+- [Gemini ResponseSchema vs JSON Schema specs of "type" as array](xref:gemini-responseschema) - *2025-01-20*
+- [C# Corner Annual Conference 2017](xref:c-corner-conference-2017) - *2024-05-30*
+- [Untrack files in .gitignore](xref:untrack-files-in-gitignore) - *2024-04-05*
+- [Quickstart: Use Gemini with .NET (Vertex AI)](xref:quickstart-using-gemini-with-net-vertex-ai) - *2024-04-03*
+- [Quickstart: Use Gemini with .NET (Google AI)](xref:quickstart-use-gemini-with-net) - *2024-04-02*
+- [NuGet: Better release notes and versioning](xref:nuget-better-release-notes-versioning) - *2024-03-31*
+- [Automate NuGet package creation using Google Build](xref:automate-nuget-package-creation-google-build) - *2024-03-04*
+- [Create NuGet packages with Visual Studio / Visual Studio Code](xref:create-nuget-packages-vs-code) - *2024-03-01*
+- [Getting Started with the Vertex AI Gemini API with Visual Studio](xref:getting-started-with-the-vertex-ai-gemini-with-vs-http) - *2024-02-23*
+- [Getting started with Gemini using Visual Studio](xref:getting-started-with-gemini-using-vs-http) - *2024-02-22*
+- [Developer Creators and Online Communities Summit](xref:developer-creators-and-online-communities-summit) - *2024-02-01*
+- [DevFest Jinja 2023](xref:devfest-jinja-2023) - *2023-12-28*
+- [Mau Pas Konpran!? Brain Drain](xref:mau-pas-konpran-2) - *2023-12-19*
+- [DevFest Dar es Salaam 2023](xref:devfest-dar-es-salaam-2023) - *2023-12-12*
+- [DevFest Mauritius 2023](xref:devfest-mauritius-2023) - *2023-12-07*
+- [Mau pas konpran!? SIM Registration](xref:mau-pas-konpran) - *2023-11-19*
+- [DevFest Kigali 2023](xref:devfest-kigali-2023) - *2023-11-15*
+- [SSA Community Summit 2023](xref:ssa-community-summit-2023) - *2023-11-15*
+- [Generating QR codes - the Easy, the Comfy and the Smarty](xref:generate-qr-codes-gcf) - *2023-11-06*
+- [Sapiens: A Brief History of Humankind](xref:sapiens-a-brief-history-of-mankind) - *2023-09-26*
+- [Using OpenVPN connections via Windows Task Scheduler](xref:openvpn-via-windows-task-scheduler) - *2023-06-28*
+- [GDE SSA Summit 2022](xref:gde-ssa-summit-2022) - *2022-09-27*
+- [Installing SQL Server 2019 and tools on Ubuntu 20.04](xref:sql-server-2019-on-ubuntu) - *2022-03-25*
+- [GADS 2020 - Spotlight](xref:gads-2020-spotlight) - *2020-10-06*
+- [How did we run the Virtual Developers Conference 2020?](xref:how-did-we-run-the-virtual-developers-conference-2020) - *2020-09-16*
+- [Noise Cancelling on Windows 10](xref:noise-cancelling-on-windows-10) - *2020-05-21*
+- [Azure DEV Meetup Munich](xref:azuredev-munich) - *2020-04-24*
+- [Enable authentication in your instance of Jitsi Meet](xref:authentication-jitsi-meet) - *2020-04-20*
+- [Install Jitsi Meet on Compute Engine (GCP)](xref:install-jitsi-meet-on-gcp) - *2020-04-16*
+- [Why we decided to postpone Developers Conference 2020](xref:why-we-decided-to-postpone-developers-conference-2020) - *2020-03-17*
+- [Getting Started with SQL Server on GCP](xref:sql-server-on-gcp) - *2020-01-18*
+- [Working with Azure Container Registry](xref:alc4-acr) - *2020-01-15*
+- [Using Cloud Run instead of GKE](xref:alc4-cloud-run) - *2019-11-26*
+- [Working with Cloud Build](xref:alc4-cloud-build) - *2019-11-23*
+- [Considerations for production readiness (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-ready) - *2019-11-09*
+- [Google Kubernetes Engine (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-k8s) - *2019-11-09*
+- [Working with Docker (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-docker) - *2019-10-24*
+- [Create React App (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-react) - *2019-10-20*
+- [ALC 4.0 Cloud Challenge I](xref:alc4-cloud-challenge) - *2019-10-18*
+- [Guest lecturer for the Africa Industrial Internet Programme (AIIP)](xref:aiip-azure-devops) - *2019-09-06*
+- [ALC 4.0 Cloud - Access to Qwiklabs](xref:alc4-qwiklabs) - *2019-09-04*
+- [ALC 4.0 Cloud - Phase II Online Meet up](xref:alc4-cloud-meeting) - *2019-09-02*
+- [Share your journey - #150DaysOfALC4](xref:share-your-journey-150daysofalc4) - *2019-08-23*
+- [ALC 4.0 Cloud - Slack questions](xref:alc4-slack-questions) - *2019-08-10*
+- [Welcome - A new star is born!](xref:welcome-a-new-star-is-born-2019) - *2019-03-01*
+- [Rock Your Code: Defensive Programming for Microsoft .NET by David McCarter](xref:rock-your-code-defensive-programming-for-microsoft-net) - *2019-02-03*
+- [Welcome - Our twin stars!](xref:welcome-our-twin-stars) - *2019-02-01*
+- [Tip: Open PowerShell window here](xref:open-powershell-window-here) - *2019-01-11*
+- [Using Apache HTTP as reverse proxy](xref:apache-reverse-proxy) - *2019-01-10*
+- [Using nginx as reverse proxy](xref:nginx-reverse-proxy) - *2019-01-08*
+- [First steps using dictation in Windows 10](xref:first-steps-using-dictation-in-windows-10) - *2019-01-07*
+- [2018: A retrospective](xref:retrospective-2018) - *2019-01-03*
+- [Campsite fire talk with John O'Nolan](xref:john-onolan) - *2018-11-13*
+- [DIY Windows Game Box (Steam, Itch, Xbox, Store, Scumm, etc.)](xref:diy-windows-game-box) - *2018-10-17*
+- [The Curse of the Magical Tutorial](xref:curse-of-magical-tutorial) - *2018-10-05*
+- [SSA Community Summit 2018](xref:ssa-community-summit-2018) - *2018-10-04*
+- [When NULL isn't NULL](xref:when-null-isnt-null) - *2018-09-10*
+- [OpenVPN: All TAP-Windows adapters on this system are currently in use](xref:openvpn-on-windows-all-tap-windows-adapters-on-this-system-are-currently-in-use) - *2018-08-31*
+- [OpenVPN re-visited](xref:openvpn-revisited) - *2018-08-28*
+- [How to get your computer from blank disk(s) to fully operational in no time... (Windows edition)](xref:windows10-quick-installation) - *2018-07-28*
+- [100 Days of Exam](xref:100-days-of-exam) - *2018-03-13*
+- [Next stop: MCSA: Linux on Azure](xref:mcsa-linux-on-azure) - *2018-03-13*
+- [Dinner with Andy Volk](xref:andy-volk) - *2018-03-08*
+- [ICT skills at primary school](xref:azure-for-school) - *2018-02-26*
+- [Infotech/InnovTech 2017](xref:innovtech-2017) - *2018-02-03*
+- [Build anything with Google: Google Maps APIs](xref:google-maps-api) - *2018-01-31*
+- [Hit Refresh](xref:hit-refresh) - *2018-01-02*
+- [aOS Mauritius 2017](xref:aos-2017) - *2017-10-30*
+- [Krakathon 2017](xref:krakathon-2017) - *2017-10-27*
+- [Inspecting internet router in Mauritius](xref:router-in-mauritius) - *2017-10-18*
+- [InterCommunity 2017](xref:icomm17) - *2017-10-12*
+- [Dear Postmaster of Mauritius Revenue Authority](xref:mra-mail-hostname) - *2017-10-03*
+- [Career Guidance (Day) at Aberystwyth University](xref:cs-career-advice-aber) - *2017-09-26*
+- [Integrate Google AdSense into your Ghost](xref:integrate-google-adsense-ghost) - *2017-09-25*
+- [Tech Mentor at MIT Global Startup Lab in Mauritius](xref:mentor-mitgsl) - *2017-08-16*
+- [I am Iron Man!](xref:i-am-iron-man) - *2017-08-13*
+- [Ghost Desktop on Xubuntu 17.04 won't start](xref:ghost-desktop-wont-start) - *2017-08-08*
+- [Migration to Ghost](xref:migration-joomla-ghost) - *2017-08-07*
+- [Learn to Code in Swift: The new language of iOS Apps by Kevin McNeish](xref:learn-to-code-in-swift) - *2016-02-28*
+- [Mauritius Open Data Readiness Assessment (ODRA)](xref:mauritius-open-data) - *2015-11-07*
+- [Working as an IT freelancer in Mauritius](xref:working-as-an-it-freelancer-in-mauritius) - *2015-08-17*
+- [Launch Event: Windows 10 and Visual Studio 2015](xref:launch-event-windows-10-and-visual-studio-2015) - *2015-08-06*
+- [Installing Visual Studio Code on Linux (Ubuntu)](xref:install-visual-studio-code-on-linux-ubuntu) - *2015-07-24*
+- [Ubuntu Jam at the University of Mauritius](xref:ubuntu-jam-uom) - *2015-07-18*
+- [Live and let live - modern laziness...](xref:live-and-let-live-modern-laziness) - *2015-06-28*
+- [Upgrade to Xubuntu 15.04 - Vivid Vervet](xref:upgrade-to-xubuntu-1504-vivid-vervet) - *2015-05-09*
+- [Mugg & Bean - Nightmare at Bagatelle](xref:mb-nightmare-at-bagatelle) - *2015-05-04*
+- [Introduction to Mauritius Software Craftsmanship Community](xref:intro-to-mscc) - *2015-03-01*
+- [Preparations for Developers Conference 2015](xref:preparations-for-devconmru-2015) - *2015-02-20*
+- [Children are happy using their Kindle Fire HDX](xref:children-happy-kindle-fire-hdx) - *2015-01-04*
+- [My first month using a Lumia 730](xref:using-nokia-lumia-730) - *2015-01-03*
+- [Lets rock with MySQL and MariaDB](xref:lets-rock-with-my-and-maria) - *2015-01-02*
+- [Ten years of blogging - 400+ articles written](xref:ten-years-of-blogging-400-articles-written) - *2014-12-13*
+- [Good to know: Sender Policy Framework](xref:spf) - *2014-12-12*
+- [High Performance Responsive Design by Tom Barker](xref:high-performance-responsive-design) - *2014-11-16*
+- [Microsoft SharePoint 2013 Administration Inside Out](xref:microsoft-sharepoint-2013-administration-inside-out) - *2014-11-13*
+- [Social eCommerce by Stephan Spencer, Jimmy Harding & Jennifer Sheahan](xref:social-ecommerce) - *2014-11-13*
+- [Review: Emtel Wingle a.k.a. Huawei E8231](xref:emtel-wingle-aka-huawei-e8231) - *2014-11-05*
+- [MSCC: Shellshock Survival Guide](xref:mscc-20141025-shellshock-survival-guide) - *2014-10-27*
+- [How to avoid accidental app purchase](xref:how-to-avoid-accidental-app-purchase) - *2014-09-02*
+- [MSCC: Entrepreneurship and start-up culture (in Mauritius)](xref:mscc-20140830-entrepreneurship-and-startup-culture) - *2014-08-31*
+- [Already 3,333 tweets...](xref:already-3333-tweets) - *2014-08-20*
+- [Game Review: Monument Valley](xref:game-review-monument-valley) - *2014-08-16*
+- [Vacations on Rodrigues 2014](xref:vacations-on-rodrigues) - *2014-08-14*
+- [Visiting the Emtel Data Centre](xref:visiting-emtel-data-centre) - *2014-08-08*
+- [SUPINFO International University in Mauritius](xref:supinfo-international-university-in-mauritius) - *2014-07-14*
+- [MSCC: Purpose and benefits of Version Control Systems (VCS)](xref:mscc-20140628-version-control-systems-git-tfs-vso) - *2014-06-29*
+- [Emtel Knowledge Series - Q2/2014](xref:emtel-knowledge-series-no3) - *2014-06-20*
+- [MSCC: Purpose and benefits of Version Control Systems (VCS)](xref:mscc-version-control-systems-git-tfs-vso) - *2014-06-18*
+- [MSCC: Scripting - Administrator's­ toolbox of magic...](xref:mscc-scripting-administrators-toolbox-of-magic) - *2014-05-04*
+- [MSCC: Career & IT Fair 2014](xref:mscc-career-it-fair-2014) - *2014-04-26*
+- [Corsair Hackers Reboot](xref:lugm-corsair-hackers-reboot) - *2014-04-21*
+- [Game Review: God of Light](xref:game-review-god-of-light) - *2014-04-08*
+- [MSCC: Global Windows Azure Bootcamp](xref:mscc-global-windows-azure-bootcamp) - *2014-04-02*
+- [MSCC: Global Windows Azure Bootcamp - 29th March 2014](xref:mscc-global-windows-azure-bootcamp-2014) - *2014-03-22*
+- [Accessing your web server via IPv6](xref:accessing-apache2-web-server-via-ipv6) - *2014-03-16*
+- [Enabling DNS for IPv6 infrastructure](xref:enabling-dns-for-ipv6-infrastructure) - *2014-03-12*
+- [DHCPv6: Provide IPv6 information in your local network](xref:dhcpv6-ipv6-in-your-local-network) - *2014-03-11*
+- [Configure IPv6 on your Linux system (Ubuntu)](xref:configure-ipv6-on-ubuntu) - *2014-03-10*
+- [App Review: Mauritius Vibrations](xref:mauritius-vibrations) - *2014-03-05*
+- [How to extend a virtual disk and its logical volume(s) in CentOS](xref:extend-a-virtual-disk-and-its-logical-volume) - *2014-03-04*
+- [MSCC: WordPress - An Introduction](xref:mscc-wordpress-an-introduction) - *2014-02-28*
+- [Emtel Knowledge Series - Q1/2014](xref:emtel-knowledge-series-no1) - *2014-02-16*
+- [MSCC: HTML5, CSS3 and JavaScript](xref:mscc-25012014-html5-css3-javascript) - *2014-01-25*
+- [AngularJS by Brad Green and Shyam Seshadri - Some lack of quality](xref:angularjs) - *2014-01-18*
+- [Game Review: Quell](xref:game-review-quell) - *2014-01-10*
+- [The Superlative Stream by Kerry Nietz](xref:the-superlative-stream-by-kerry-nietz) - *2014-01-07*
+- [A Star Curiously Singing by Kerry Nietz](xref:a-star-curiously-singing-by-kerry-nietz) - *2014-01-04*
+- [Goodbye 2013 - Welcome 2014](xref:goodbye-2013-welcome-2014) - *2014-01-02*
+- [How to build your own 'Emtel In-Car WiFi' hot-spot](xref:how-to-build-in-car-wifi-hotspot) - *2013-12-20*
+- [MSCC: Christmas raffle and plans for 2014](xref:mscc-14122013-christmas-raffle-plans-2014) - *2013-12-17*
+- [Running Windows applications on Linux](xref:running-windows-applications-on-linux) - *2013-11-24*
+- [How's Mauritius Software Craftsmanship Community going?](xref:hows-mauritius-software-craftsmanship-community-going) - *2013-11-24*
+- [Infotech 2013 - Confusing and mixed impressions](xref:infotech-2013) - *2013-11-22*
+- [Virtual Launch of Visual Studio 2013 Dubai](xref:virtual-launch-of-visual-studo-2013-dubai) - *2013-11-20*
+- [MSCC: Clean Code Development & Your workspace](xref:mssc-16112013-clean-code-developer-your-workspace) - *2013-11-18*
+- [Representing Mauritius in the 2013 Bench Games](xref:representing-mauritius-in-the-2013-bench-games) - *2013-10-29*
+- [MSCC: Clean Code Development & Flexible work environment](xref:mscc-26102013-clean-code-developer-flexible-work-environment) - *2013-10-28*
+- [Upgrade to Xubuntu 13.10 - Saucy Salamander](xref:upgrade-to-xubuntu-1310-saucy-salamander) - *2013-10-24*
+- [Using a portable USB monitor in Ubuntu 13.04 (AOC e1649Fwu - DisplayLink)](xref:using-aoc-usb-monitor-in-ubuntu-1304-displaylink-e1649fwu) - *2013-10-15*
+- [Not attending the LUGM mini-meetup - 05. Oct 2013](xref:not-attending-the-lugm-mini-meetup) - *2013-10-06*
+- [Microsoft and innovation: IIF() method](xref:microsoft-and-innovation-iif-method) - *2013-10-06*
+- [Resume on 30 Days of SharePoint](xref:resume-on-30-days-of-sharepoint) - *2013-09-30*
+- [Update: Super Hero](xref:update-super-hero) - *2013-09-26*
+- [MSCC: Clean Code Developer & Certification in IT](xref:mscc-21092013-clean-code-developer-certification) - *2013-09-24*
+- [Visiting the Fire Station in Coromandel](xref:visiting-the-fire-station-in-coromandel) - *2013-09-09*
+- [Exploring various SharePoint blogs](xref:exploring-various-sharepoint-blogs) - *2013-09-05*
+- [SharePoint 2013 Developer Ramp-Up - Part 2](xref:sharepoint-2013-developer-ramp-up-part-2) - *2013-09-03*
+- [SharePoint 2013 Developer Ramp-Up - Part 1](xref:sharepoint-2013-developer-ramp-up-part-1) - *2013-09-02*
+- [Tuning SQL Server 2012 for SharePoint 2013 Jump Start](xref:tuning-sql-server-2012-for-sharepoint-2013-jump-start) - *2013-09-01*
+- [The 30 days of Microsoft SharePoint challenge](xref:the-30-days-microsoft-sharepoint-challenge) - *2013-08-31*
+- [Is the CODE keyboard the right keyboard for coding?](xref:the-right-keyboard-for-coding) - *2013-08-30*
+- [Solaar - Managing Logitech Unifying Receiver peripherals](xref:solaar-linux-logitech-unifying-receiver) - *2013-08-29*
+- [LUGM meeting - 17.08.2013 - Mugg & Bean, Bagatelle](xref:lugm-meeting-17082013-mugg-a-bean-bagatelle) - *2013-08-13*
+- [Adjust timezone of an AVM Fritz!Box 7390](xref:adjust-timezone-of-an-avm-fritzbox-7390) - *2013-07-30*
+- [Speaker at developer conferences and user group meetings](xref:speaker-at-developer-conferences-user-groups) - *2013-07-24*
+- [Speaker at the German Visual FoxPro Developer Conference 2006](xref:speaker-at-the-german-visual-foxpro-developer-conference-2006) - *2013-07-24*
+- [Speaker at the German Visual FoxPro Developer Conference 2005](xref:speaker-at-the-german-visual-foxpro-developer-conference-2005) - *2013-07-24*
+- [Speaker at the German Visual FoxPro Developer Conference 2004](xref:speaker-at-the-german-visual-foxpro-developer-conference-2004) - *2013-07-24*
+- [Speaker at the German Visual FoxPro Developer Conference 2003](xref:speaker-at-the-german-visual-foxpro-developer-conference-2003) - *2013-07-24*
+- [Speaker at the German Visual FoxPro Developer Conference 2002](xref:speaker-at-the-german-visual-foxpro-developer-conference-2002) - *2013-07-24*
+- [Connecting Linux to WatchGuard Firebox SSL (OpenVPN client)](xref:connecting-linux-to-watchguard-firebox-ssl) - *2013-07-23*
+- [Feedback on meeting of the MSCC - 20.07.2013](xref:feedback-on-meeting-of-the-mscc-20072013) - *2013-07-23*
+- [PHP Web Services by Lorna Jane Mitchell - Nice try](xref:php-web-services) - *2013-07-16*
+- [These aren't the droids you're looking for](xref:error404) - *2013-07-08*
+- [Quoted on MVA Voices](xref:quoted-on-mva-voices) - *2013-07-04*
+- [Mauritius Software Craftsmanship Community (aka User Group)](xref:mscc) - *2013-07-01*
+- [New Pluralsight app for Android will bring variable speed](xref:new-pluralsight-app-for-android-will-bring-variable-speed) - *2013-06-18*
+- [Feedback on meeting of the Linux User Group of Mauritius](xref:feedback-on-lugm-meeting-15-06-2013) - *2013-06-17*
+- [FoxTales: Behind the Scenes at Fox Software by Kerry Nietz](xref:foxtales-behind-the-scenes-at-fox-software-by-kerry-nietz) - *2013-06-10*
+- [The Niantic Project: Ingress by Felicia Hajra-Lee](xref:the-niantic-project-ingress-by-felicia-hajra-lee) - *2013-06-05*
+- [Test your internet connection - Emtel Mobile Internet](xref:test-your-internet-connection-emtel-mobile-internet) - *2013-05-31*
+- [Test your internet connection - Emtel Fixed Broadband](xref:test-your-internet-connection) - *2013-05-30*
+- [Communities - The importance of exchange and discussion](xref:community-exchange-and-discussion) - *2013-05-29*
+- [Pantel Penta WS802C (aka The white Orange tablet)](xref:penta-ws802c-the-white-orange-tablet) - *2013-05-22*
+- [VMware Kernel Module Updater hangs on Ubuntu 13.04](xref:vmware-kernel-module-updater-hangs-on-ubuntu-1304) - *2013-05-21*
+- [Programming Windows 8 Apps with HTML, CSS, and JavaScript - All you need in one title](xref:programming-windows-8-apps-with-html-css-and-javascript) - *2013-05-20*
+- [Learning from jQuery - Solid fundament for experienced jQuery developers](xref:learning-from-jquery) - *2013-05-20*
+- [Essentials for software developer or any computer job](xref:essentials-for-software-developer) - *2013-05-13*
+- [Upgrade to Xubuntu 13.04 - Raring Ringtail](xref:upgrade-to-xubuntu-1304-raring-ringtail) - *2013-05-09*
+- [Side-load and read your mobi ebooks on Kindle for iOS](xref:side-load-and-read-your-mobi-ebooks-on-kindle-for-ios) - *2013-05-01*
+- [Side-load and read your ebooks on Kindle for Android](xref:side-load-and-read-your-ebooks-on-kindle-for-android) - *2013-04-25*
+- [Playing Ingress by Niantic Labs in Mauritius](xref:playing-ingress-by-niantic-labs-in-mauritius) - *2013-04-21*
+- [Attending the Mauritian Bloggers Meeting](xref:attending-the-mauritian-bloggers-meeting) - *2013-04-21*
+- [The Alignment: Ingress by Thomas Greanias](xref:the-alignment-ingress-by-thomas-greanias) - *2013-04-06*
+- [Visualise your visitors with Google Maps Guestmap](xref:google-maps-guestmap) - *2013-04-04*
+- [Waiting for OUYA](xref:waiting-for-ouya) - *2013-04-03*
+- [Comment on 'Competent Mauritius'](xref:comment-on-competent-mauritius) - *2013-04-02*
+- [Celebrating Earth Hour 2013](xref:celebrating-earth-hour-2013) - *2013-03-23*
+- [Flexible Work style, meet your new Office](xref:flexible-work-style-meet-your-new-office) - *2013-03-14*
+- [More content for MCSDs: Web Applications and Windows Store Apps using HTML5](xref:more-content-for-mcsds-web-applications-and-windows-store-apps-using-html5) - *2013-02-18*
+- [Torrential rain in Mauritius - some parts of the island](xref:torrential-rain-in-mauritius-some-parts-of-the-island) - *2013-02-13*
+- [Driving Business Forward - A new approach to social media in Mauritius](xref:driving-business-forward) - *2013-01-28*
+- [Geocaching - Casela Bird Park (GC1BPF1)](xref:geocaching-casela-bird-park) - *2013-01-26*
+- [Passed: Exam 70-480: Programming in HTML5 with JavaScript and CSS3](xref:passed-exam-70-480-programming-in-html5-with-javascript-and-css3) - *2012-12-18*
+- [Geocaching - World wide treasure hunt](xref:geocaching-world-wide-treasure-hunt) - *2012-12-07*
+- [Managing Joomla via Android](xref:managing-joomla-via-android) - *2012-11-28*
+- [Learning content for MCSDs: Web Applications and Windows Store Apps using HTML5](xref:learning-content-for-mcsds-web-applications-and-windows-store-apps-using-html5) - *2012-11-16*
+- [Custom page sizes in paging dropdown in Telerik RadGrid](xref:custom-page-sizes-in-paging-dropdown-in-telerik-radgrid) - *2012-11-08*
+- [Taking web sites offline for demonstration](xref:taking-web-sites-offline-for-demonstration) - *2012-10-29*
+- [Taking web sites offline for demonstration on Galaxy Tablet](xref:taking-web-sites-offline-for-demonstration-on-galaxy-tablet) - *2012-10-29*
+- [Taking web sites offline for demonstration on iPad](xref:taking-web-sites-offline-for-demonstration-on-ipad) - *2012-10-29*
+- [VMware Player 5.0 or VMware Workstation 9.0 after upgrade to Ubuntu 12.10](xref:vmware-player-50-or-vmware-workstation-90-after-upgrade-to-ubuntu-1210) - *2012-10-23*
+- [Finally, upgrade from Nokia X3 to Samsung Galaxy S III](xref:finally-upgrade-from-nokia-x3-to-samsung-galaxy-s-iii) - *2012-10-13*
+- [Software development stack 2012](xref:software-development-stack) - *2012-08-13*
+- [Synergy - easy share of keyboard and mouse between multiple computers](xref:synergy-easy-share-of-keyboard-and-mouse-between-multiple-computers) - *2012-07-23*
+- [And again... VMware Player 4.0.4 on Ubuntu 12.04 (Precise Pangolin)](xref:and-again-vmware-player-404-on-ubuntu-1204-precise-pangolin) - *2012-06-15*
+- [Update kernel patch for VMware Player 4.0.3](xref:update-kernel-patch-for-vmware-player-403) - *2012-05-04*
+- [Small hiccup with VMware Player after upgrading to Ubuntu 12.04](xref:small-hiccup-with-vmware-player-after-upgrading-to-ubuntu-1204) - *2012-04-30*
+- [New Year's resolution 2012](xref:new-years-resolution-2012) - *2012-01-03*
+- [Microsoft Virtual Academy](xref:microsoft-virtual-academy) - *2011-10-13*
+- [Some mail details about Orange Mauritius](xref:orange-mauritius-smtp-auth) - *2011-02-11*
+- [Using Lightbox with _Screen](xref:using-lightbox-with-screen) - *2010-10-31*
+- [Using 3G/UMTS in Mauritius](xref:umts-mauritius) - *2010-10-20*
+- [Yes, I did it - Skydiving in Mauritius](xref:skydiving-in-mauritius) - *2010-10-16*
+- [Future of Active FoxPro Pages - secured](xref:future-of-active-foxpro-pages-secured) - *2010-09-29*
+- [Using ext4 in VMware machine](xref:using-ext4-in-vmware-machine) - *2010-07-29*
+- [Welcome - A new star is born!](xref:welcome-a-new-star-is-born) - *2010-05-27*
+- [Troubleshooting VMware on Ubuntu](xref:troubleshooting-vmware-on-ubuntu) - *2010-04-16*
+- [Revamped Google Webmaster Tools](xref:revamped-google-webmaster-tools) - *2010-04-15*
+- [Community Day at SOS Kinderdorf Bambous](xref:community-day-at-sos-kinderdorf-bambous) - *2010-04-09*
+- [Install Adobe AIR on Ubuntu/Linux](xref:install-adobe-air-on-ubuntu-linux) - *2010-03-19*
+- [AddThis and Google Analytics : Asynchronous Tracking Code Integration](xref:addthis-google-analytics-asynchronous-tracking-code-integration) - *2010-03-03*
+- [Modified Ultimate Paypal Donations Module](xref:modified-mod-paypal) - *2010-02-17*
+- [Finally tweeting](xref:finally-tweeting) - *2010-02-08*
+- [Modified HP Router](xref:modified-hp-router) - *2010-01-30*
+- [Nichts ist unmöglich...](xref:nichts-ist-unmglich) - *2010-01-24*
+- [Spass mit der MessageBox()](xref:spass-mit-der-messagebox) - *2010-01-24*
+- [Modified Mod LCA](xref:modified-mod-lca) - *2010-01-23*
+- [World Map of Visitors](xref:world-map-of-visitors) - *2009-12-20*
+- [Sunshine (Codename: Moonwalk)](xref:sunshine) - *2009-12-14*
+- [HTML Plugin for Active FoxPro Pages](xref:htmlplugin) - *2009-12-14*
+- [COM Proxy for .NET](xref:comproxy) - *2009-12-14*
+- [Presentations](xref:presentation) - *2009-12-14*
+- [Curriculum Vitae](xref:cv) - *2009-12-14*
+- [Plans for the end of the year...](xref:plans-for-the-end-of-the-year---) - *2008-11-28*
+- [Family affairs](xref:family-affairs) - *2008-10-08*
+- [Welcome - A new star is born! ;)](xref:welcome---a-new-star-is-born---) - *2008-09-20*
+- [InfoTech 2008](xref:infotech-2008) - *2008-08-08*
+- [Working with 'Parameter objects' instead of parameters](xref:working-with-parameter-objects-instead-of-parameters) - *2008-06-04*
+- [Running VMware Server on Linux (version 1.0.6 on xubuntu)](xref:running-vmware-server-on-linux-version-106-on-xubuntu) - *2008-06-03*
+- [Running VMware Player on Linux (xubuntu Hardy Heron)](xref:running-vmware-player-on-linux-xubuntu-hardy-heron) - *2008-05-28*
+- [Some more articles migrated](xref:some-more-articles-migrated) - *2008-04-24*
+- [Re-Blogged](xref:re-blogged) - *2008-03-19*
+- [Private projects added (at least started...)](xref:private-projects-added-at-least-started) - *2008-03-19*
+- [Another MVP in Mauritius](xref:another-mvp-in-mauritius) - *2008-03-14*
+- [Plans for Mauritius Software Developer User Group (MSDUG)](xref:plans-for-mauritius-software-developer-user-group-msdug) - *2008-03-04*
+- [Emoticons re-activated](xref:emoticons-re-activated) - *2008-02-25*
+- [Upgrade to Windows Server Update Services 3.0 SP1](xref:upgrade-to-windows-server-update-services-3-0-sp1) - *2008-02-25*
+- [Transfer of articles re-loaded](xref:transfer-of-articles-re-loaded) - *2008-02-24*
+- [Transfer of articles from old blog database](xref:transfer-of-articles-from-old-blog-database) - *2008-02-18*
+- [Kung Shee Fat Choy](xref:kung-shee-fat-choy) - *2008-02-08*
+- [Loss of power - even w/o cyclone](xref:loss-of-power-even-wo-cyclone) - *2008-02-03*
+- [Cyclone Warning Class 3 in Mauritius](xref:cyclone-warning-class-3-in-mauritius) - *2008-01-31*
+- [Transfer of articles from Foxite community](xref:transfer-of-articles-from-foxite-community) - *2008-01-18*
+- [Switch to English language](xref:switch-to-english-language) - *2008-01-17*
+- [Es lebt wieder...](xref:es-lebt-wieder) - *2008-01-17*
+- [VFP Umgang mit Terminal Services](xref:vfp-umgang-mit-terminal-services) - *2007-03-18*
+- [My First Cyclone](xref:my-first-cyclone) - *2007-02-23*
+- [Jubel, Trubel, Heiterkeit](xref:jubel--trubel--heiterkeit) - *2007-02-22*
+- [Super Hero or Super Villain?](xref:super-hero-or-super-villain) - *2007-01-31*
+- [Am Chiemsee im Winter](xref:am-chiemsee-im-winter) - *2007-01-26*
+- [Irgendwas habe ich vergessen... ?](xref:irgendwas-habe-ich-vergessen----) - *2007-01-25*
+- [Microsoft Empower für ISVs](xref:microsoft-empower-fr-isvs) - *2006-11-20*
+- [Tjoa...](xref:tjoa---) - *2006-11-19*
+- [Elfen Lied](xref:elfen-lied) - *2006-11-18*
+- [Bug 'Resolved'](xref:bug-resolved) - *2006-11-18*
+- [PowerShell 1.0](xref:powershell-1-0) - *2006-11-16*
+- [13. Entwicklerkonferenz Visual FoxPro - Tag 2](xref:entwicklerkonferenz-2006-visual-foxpro-tag-2) - *2006-11-10*
+- [13. Entwicklerkonferenz Visual FoxPro - Tag 1](xref:entwicklerkonferenz-2006-tag-1) - *2006-11-09*
+- [The day before...](xref:the-day-before---) - *2006-11-08*
+- [ATE auf der LOVE Roadshow](xref:ate-auf-der-love-roadshow) - *2006-11-03*
+- [Decorator im praktischen Einsatz](xref:decorator-im-praktischen-einsatz) - *2006-11-02*
+- [Anmerkungen zum Decorator Design Pattern](xref:anmerkungen-zum-decorator) - *2006-11-01*
+- [All Saints' Day - oder auch nicht...](xref:all-saints-day-oder-auch-nicht) - *2006-11-01*
+- [Flash-Präsentation zu VFP SP2 CTP](xref:flash-prsentation-zu-vfp-sp2-ctp) - *2006-10-31*
+- [Semitransparente 'Forms' erstellen](xref:semitransparente-forms-erstellen) - *2006-10-29*
+- [Projekt - Sunshine](xref:projekt-sunshine) - *2006-10-28*
+- [Devcon - Vorbereitung](xref:devcon---vorbereitung) - *2006-10-27*
+- [Ego-Search und die Treffer](xref:ego-search-und-die-treffer) - *2006-10-21*
+- [Family Website aktualisiert](xref:family-website-aktualisiert) - *2006-10-21*
+- [Special Edition Using Visual FoxPro 6](xref:special-edition-using-visual-foxpro-6) - *2006-10-14*
+- [CTP für Sedna und Visual FoxPro 9.0 SP2](xref:ctp-fr-sedna-und-visual-foxpro-90-sp2) - *2006-10-14*
+- [RuntimeInstaller for Visual FoxPro 9.0 SP2 CTP](xref:runtimeinstaller-for-visual-foxpro-90-sp2-ctp) - *2006-10-14*
+- [Session-Notes für VFP-Konferenz](xref:session-notes-fr-vfp-konferenz) - *2006-10-12*
+- [ATE für Roadshow Office 2007, Windows Vista...](xref:ate-fr-roadshow-office-2007-windows-vista) - *2006-10-09*
+- [VFP Stammtisch Speyer nimmt an teil](xref:vfp-stammtisch-speyer-nimmt-an-teil) - *2006-10-01*
+- [Visual FoxPro Evangelist Program gestartet](xref:visual-foxpro-evangelist-program-gestartet) - *2006-09-28*
+- [Aufruf zur Unterstützung - Call for action](xref:aufruf-zur-untersttzung-call-for-action) - *2006-09-19*
+- [HTML-Tag nach VFP adaptiert](xref:html-tag-nach-vfp-adaptiert) - *2006-09-19*
+- [Kaum lobt man die Deutsche Bahn](xref:kaum-lobt-man-die-deutsche-bahn) - *2006-09-16*
+- [Meine tropischen Inseln](xref:meine-tropischen-inseln) - *2006-09-14*
+- [Ländliches Brandenburg](xref:lndliches-brandenburg) - *2006-09-13*
+- [Devcon Prag 2006 - Day 2](xref:devcon-prag-2006---day-2) - *2006-09-12*
+- [Visual FoxPro Konferenz Frankfurt 2006 - Geplante Sessions](xref:visual-foxpro-konferenz-frankfurt-2006---geplante-sessions) - *2006-09-12*
+- [Devcon Prag 2006 - Day 1](xref:devcon-prag-2006---day-1) - *2006-09-11*
+- [Die Bahn ist pünktlich...](xref:die-bahn-ist-pnktlich) - *2006-09-09*
+- [Ein Königreich für eine Übernachtung](xref:ein-knigreich-fr-eine-bernachtung) - *2006-09-08*
+- [Darf's ein wenig Kultur sein?](xref:darfs-ein-wenig-kultur-sein) - *2006-09-07*
+- [Wieder einmal auf Achse](xref:wieder-einmal-auf-achse) - *2006-09-06*
+- [Eine Privatbrauerei mal anders](xref:eine-privatbrauerei-mal-anders) - *2006-09-03*
+- [Arbeiten mit dem Visual Studio 2005 Team System](xref:arbeiten-mit-dem-visual-studio-2005-team-system) - *2006-09-02*
+- [Zeitmanagement mit Microsoft Office Outlook](xref:zeitmanagement-mit-microsoft-office-outlook) - *2006-09-02*
+- [Mission from God - Community GetTogether](xref:mission-from-god-community-gettogether) - *2006-09-02*
+- [Vorbereitungen für Devcon Prag vollzogen](xref:vorbereitungen-fuer-devcon-prag-vollzogen) - *2006-09-01*
+- [250 Artikel in gut 2 Jahren?](xref:250-artikel-in-gut-2-jahren) - *2006-08-25*
+- [Kommentar zu 'Parameterobjekte'](xref:kommentar-zu-parameterobjekte) - *2006-08-25*
+- [SAP.Functions und weitere Experimente](xref:sapfunctions-und-weitere-experimente) - *2006-08-24*
+- [Die Checkbox und ihr Enter/Return-Verhalten](xref:die-checkbox-und-ihr-enter-return-verhalten) - *2006-08-17*
+- [VFP für Webausgabe von Daten](xref:vfp-fr-webausgabe-von-daten) - *2006-08-17*
+- [Experiences on Windows Live Writer...](xref:experiences-on-windows-live-writer---) - *2006-08-14*
+- [Viel Wasser den Rhein runtergelaufen...](xref:viel-wasser-den-rhein-runtergelaufen---) - *2006-06-01*
+- [Schlaflos in ...](xref:schlaflos-in----) - *2006-05-05*
+- [PoSh - Windows PowerShell](xref:posh-windows-powershell) - *2006-04-30*
+- [Effiziente Anwendungsentwicklung in VFP](xref:effiziente-anwendungsentwicklung-in-vfp) - *2006-04-29*
+- [ASP.NET und Visual FoxPro](xref:asp-net-und-visual-foxpro) - *2006-04-29*
+- [Zwei unterschiedliche Datenbanken in ADO.NET verbinden](xref:zwei-unterschiedliche-datenbanken-in-adonet-verbinden) - *2006-04-28*
+- ["IIS 7 - Ein Web-Server der 'Next Generation'?"](xref:iis-7-ein-web-server-der-next-generation) - *2006-04-27*
+- [Windows Forms in VFP](xref:windows-forms-in-vfp) - *2006-04-26*
+- [New InfoPath template for blogging](xref:new-infopath-template-for-blogging) - *2006-04-22*
+- [InfoPath als Frontend für Blogs](xref:infopath-als-frontend-fr-blogs) - *2006-04-22*
+- [VFPConversion - VFP and/or .NET?](xref:vfpconversion-vfp-andor-net) - *2006-04-22*
+- [Regular Expressions in VFP](xref:regular-expressions-in-vfp) - *2006-04-22*
+- [Html Plugin 0.7.16](xref:html-plugin-0716) - *2006-04-21*
+- [April, April - Nachlese zum VFP Stammtisch](xref:april--april---nachlese-zum-vfp-stammtisch) - *2006-04-19*
+- [Dynamic-Link Libraries in VFP verwenden](xref:dynamic-link-libraries-in-vfp-verwenden) - *2006-04-19*
+- [.NET per COM nutzen](xref:net-per-com-nutzen) - *2006-04-19*
+- [Internetcaches - unglaublich!](xref:internetcaches-unglaublich) - *2006-04-18*
+- [Was gibt's Neues von... Mike Oldfield?](xref:was-gibts-neues-von-mike-oldfield) - *2006-04-17*
+- [Konspiratives Community-Treffen?](xref:konspiratives-community-treffen) - *2006-04-13*
+- [FCKeditor in Active FoxPro Pages verwenden](xref:fckeditor-in-active-foxpro-pages-verwenden) - *2006-04-11*
+- [PathInfo Plugin für AFP](xref:pathinfo-plugin-fr-afp) - *2006-04-11*
+- [PATH_INFO oder wozu gibt es eigentlich RFCs?](xref:pathinfo-oder-wozu-gibt-es-eigentlich-rfcs) - *2006-04-10*
+- [AfpWiki Core Engine available](xref:afpwiki-core-engine-available) - *2006-04-06*
+- [Design Pattern: Strategy](xref:design-pattern-strategy) - *2006-04-04*
+- [Design Pattern: Singleton](xref:design-pattern-singleton) - *2006-04-04*
+- [Polyphasenschlaf - Woche 1](xref:polyphasenschlaf---woche-1) - *2006-04-03*
+- [Experimente mit BlueTooth](xref:experimente-mit-bluetooth) - *2006-04-03*
+- [Polyphasenschlaf - Tag 6](xref:polyphasenschlaf---tag-6) - *2006-04-02*
+- [Polyphasenschlaf - Tag 5](xref:polyphasenschlaf---tag-5) - *2006-04-01*
+- [Polyphasenschlaf - Tag 4](xref:polyphasenschlaf---tag-4) - *2006-03-31*
+- [Polyphasenschlaf - Tag 3](xref:polyphasenschlaf---tag-3) - *2006-03-30*
+- [Polyphasenschlaf - Tag 2 1/2](xref:polyphasenschlaf-tag-2-12) - *2006-03-29*
+- [Polyphasenschlaf - Tag 1](xref:polyphasenschlaf---tag-1) - *2006-03-28*
+- [Zuviel Zeit... oder?](xref:zuviel-zeit----oder) - *2006-03-28*
+- [Magazine von Level Extreme frei verfügbar](xref:magazine-von-level-extreme-frei-verfgbar) - *2006-03-28*
+- [Polyphasenschlaf - Tag 0](xref:polyphasenschlaf---tag-0) - *2006-03-27*
+- [Bauen wir uns einen Webserver](xref:bauen-wir-uns-einen-webserver) - *2006-03-26*
+- [Produktreife nähert sich...](xref:produktreife-nhert-sich) - *2006-03-25*
+- [FoxPro als embedded DB in .NET](xref:foxpro-als-embedded-db-in--net) - *2006-03-23*
+- [VFPConversion.de](xref:vfpconversion-de) - *2006-03-20*
+- [Objektorientierung für Anfänger...](xref:objektorientierung-fr-anfnger) - *2006-03-20*
+- [Every rose has its thorn](xref:every-rose-has-its-thorn) - *2006-03-11*
+- [Community, Community, Community!](xref:community-community-community) - *2006-03-11*
+- [Die CeBIT ruft...](xref:die-cebit-ruft---) - *2006-03-10*
+- [VFPConversion.de - Clash of the Titans](xref:vfpconversionde-clash-of-the-titans) - *2006-02-22*
+- [Kommune 33](xref:kommune-33) - *2006-02-10*
+- [Keynote ahead](xref:keynote-ahead) - *2006-02-08*
+- [5:45 Uhr und der Wecker klingelt](xref:545uhr-und-der-wecker-klingelt) - *2006-02-08*
+- [Neue Optik für den Hintergrund](xref:neue-optik-fr-den-hintergrund) - *2006-02-01*
+- [Ein Tag hat 24 Stunden](xref:ein-tag-hat-24-stunden) - *2006-01-28*
+- [On a mission from god](xref:on-a-mission-from-god) - *2006-01-27*
+- [AJaX - der schnelle Küchenreiniger für die Website](xref:ajax-der-schnelle-kchenreiniger-fr-die-website) - *2006-01-26*
+- [New face, new service](xref:new-face--new-service) - *2006-01-25*
+- [Vista für Developer](xref:vista-fr-developer) - *2006-01-22*
+- [Listed at FoxBlogs (TagCloud)](xref:listed-at-foxblogs-tagcloud) - *2005-12-29*
+- [Long time ago...](xref:long-time-ago---) - *2005-12-28*
+- [Besinnliche Weihnachtszeit?](xref:besinnliche-weihnachtszeit) - *2005-12-21*
+- [Fuchs NICHT vom Aussterben bedroht](xref:fuchs-nicht-vom-aussterben-bedroht) - *2005-12-17*
+- [Ausbildung: Fachinformatiker Anwendungsentwicklung](xref:ausbildung-fachinformatiker-anwendungsentwicklung) - *2005-12-16*
+- [Freizeit?](xref:freizeit) - *2005-12-15*
+- [Design Pattern: Decorator](xref:design-pattern-decorator) - *2005-12-03*
+- [Sie sind da...](xref:sie-sind-da) - *2005-11-25*
+- [dFPUG bietet Blogs für Mitglieder](xref:dfpug-bietet-blogs-fuer-mitglieder) - *2005-11-23*
+- [Nice Smeagol...](xref:nice-smeagol) - *2005-11-23*
+- [Ja, ist denn schon Weihnachten?](xref:ja-ist-denn-schon-weihnachten) - *2005-11-18*
+- [Es geschehen noch Zeichen und Wunder!](xref:es-geschehen-noch-zeichen-und-wunder) - *2005-11-17*
+- [Die Jungs bei Google haben Spass...](xref:die-jungs-bei-google-haben-spass) - *2005-11-17*
+- [Es muss nicht immer FoxPro sein...](xref:es-muss-nicht-immer-foxpro-sein) - *2005-11-17*
+- [VFP Stammtisch Speyer - 16.11.2005](xref:vfp-stammtisch-speyer-16112005) - *2005-11-14*
+- [Coverage der 12. VFP Entwicklerkonferenz](xref:coverage-der-12-vfp-entwicklerkonferenz) - *2005-11-14*
+- [On the rail again...](xref:on-the-rail-again) - *2005-11-13*
+- [God gave Rock 'n Roll to us.](xref:god-gave-rock-n-roll-to-us) - *2005-10-26*
+- [Lily of the Valley](xref:lily-of-the-valley) - *2005-10-17*
+- [Kühe auf Nachtwanderung](xref:kuehe-auf-nachtwanderung) - *2005-10-15*
+- [AfpWiki wächst weiter...](xref:afpwiki-wchst-weiter) - *2005-10-13*
+- [Intranet Explorer](xref:intranet-explorer) - *2005-10-12*
+- [MSDN-Webcast-Serie zu Visual FoxPro 9.0](xref:msdn-webcast-serie-zu-visual-foxpro-9-0) - *2005-10-10*
+- [Firefox 1.5 Beta](xref:firefox-1-5-beta) - *2005-10-10*
+- [Versionskontrolle mit Subversion](xref:versionskontrolle-mit-subversion) - *2005-10-10*
+- [Schreiben an die GEZ](xref:schreiben-an-die-gez) - *2005-10-02*
+- [Screenauflösung 5184x1200?](xref:screenauflsung-5184x1200) - *2005-09-22*
+- [Browser-Upgrades](xref:browser-upgrades) - *2005-09-21*
+- [LINQ - auch mit VFP kein Problem: VOSQL](xref:linq-auch-mit-vfp-kein-problem-vosql) - *2005-09-21*
+- [Stammtisch-Seite aktualisiert](xref:stammtisch-seite-aktualisiert) - *2005-09-20*
+- [VFP Stammtisch 21.09.2005 - Nachlese](xref:vfp-stammtisch-21-09-2005---nachlese) - *2005-09-20*
+- [Beliebige Zeichen in Dateipfaden - oder besser nicht...](xref:beliebige-zeichen-in-dateipfaden---oder-besser-nicht---) - *2005-09-20*
+- [Michael Moore bzw. die Qual der Wahl](xref:michael-moore-bzw--die-qual-der-wahl) - *2005-09-19*
+- [Vorbereitungen für Stammtisch und Devcon](xref:vorbereitungen-fr-stammtisch-und-devcon) - *2005-09-14*
+- [Kommentare zum Eisbär](xref:kommentare-zum-eisbr) - *2005-09-13*
+- [SAP Arena!](xref:saparena) - *2005-09-07*
+- [Dumm gebabbelt iss glei!](xref:dumm-gebabbelt-iss-glei) - *2005-09-07*
+- [VFP, SQL und .NET Konferenz der dFPUG 2005](xref:vfp--sql-und--net-konferenz-der-dfpug-2005) - *2005-09-06*
+- [Vacation...](xref:vacation---) - *2005-09-05*
+- [Büchermarathon](xref:bchermarathon) - *2005-09-03*
+- [SAP Arena?](xref:sap-arena) - *2005-08-28*
+- [VFP Devcon 2005](xref:vfp-devcon-2005) - *2005-08-27*
+- [Rock im Brauhof 2005](xref:rock-im-brauhof-2005) - *2005-08-27*
+- [Die Happy & Culcha Candela](xref:die-happy-a-culcha-candela) - *2005-08-27*
+- [URLAUB!](xref:urlaub) - *2005-08-24*
+- [Golo, der Gartenzwerg?](xref:golo--der-gartenzwerg) - *2005-08-22*
+- [Normaler Tagesablauf?](xref:normaler-tagesablauf) - *2005-08-22*
+- [VFP Stammtisch - 17.08.2005](xref:vfp-stammtisch---17-08-2005) - *2005-08-16*
+- [Finally... AFP FAQ wieder online](xref:finally----afp-faq-wieder-online) - *2005-08-13*
+- [O'Reilly veröffentlicht Rezension](xref:oreilly-verffentlicht-rezension) - *2005-08-12*
+- [Using Microsoft InfoPath as blog frontend](xref:using-microsoft-infopath-as-blog-frontend) - *2005-08-02*
+- [International blogging](xref:international-blogging) - *2005-08-01*
+- [Pragmatic Version Control Using Subversion](xref:pragmatic-version-control-using-subversion) - *2005-07-29*
+- [VFP Stammtisch - Stuttgart/Herrenberg](xref:vfp-stammtisch-stuttgartherrenberg) - *2005-07-15*
+- [Introducing Microsoft SQL Server 2005 For Developers](xref:introducing-microsoft-sql-server-2005-for-developers) - *2005-07-14*
+- [Browserwechsel angesagt](xref:browserwechsel-angesagt) - *2005-07-14*
+- [EULA vor Kauf lesen](xref:eula-vor-kauf-lesen) - *2005-07-13*
+- [Lost in the Twilight Zone...](xref:lost-in-the-twilight-zone---) - *2005-07-12*
+- [MSDN zu VFP OLE DB Provider](xref:msdn-zu-vfp-ole-db-provider) - *2005-07-12*
+- [Neues Release #585](xref:neues-release-585) - *2005-07-11*
+- [RSS Validation](xref:rss-validation) - *2005-07-10*
+- [Weitere Buchtitel zu VFP 9.0](xref:weitere-buchtitel-zu-vfp-9-0) - *2005-07-10*
+- [.NET Usertreffen Kaiserslautern](xref:net-usertreffen-kaiserslautern) - *2005-07-05*
+- [VFP Devcon Prag 2005 - Day 3](xref:vfp-devcon-prag-2005---day-3) - *2005-06-22*
+- [Die Zukunft von VFP](xref:die-zukunft-von-vfp) - *2005-06-13*
+- [Fäkalien-Alarm - Funstuff](xref:fkalien-alarm-funstuff) - *2005-06-13*
+- [Funstuff mit Pferden](xref:funstuff-mit-pferden) - *2005-06-12*
+- [Genius is indeed a heavy burden](xref:genius-is-indeed-a-heavy-burden) - *2005-06-12*
+- [C# Essentials, 2nd Edition](xref:c-essentials-2nd-edition) - *2005-05-16*
+- [Practical PostgreSQL](xref:practical-postgresql) - *2005-05-10*
+- [Marathon, die Vierte?](xref:marathon--die-vierte) - *2005-05-08*
+- [Marathon, die Dritte](xref:marathon--die-dritte) - *2005-05-08*
+- [Marathon, die Zweite](xref:marathon--die-zweite) - *2005-05-06*
+- [Jeder sollte ein Hamsterfell besitzen](xref:jeder-sollte-ein-hamsterfell-besitzen) - *2005-05-04*
+- [Marathon, die Erste](xref:marathon--die-erste) - *2005-05-04*
+- [.NET Usertreffen vom Montag](xref:-net-usertreffen-vom-montag) - *2005-05-03*
+- [Aktuelles Umfrageergebnis und weiterer Ansatz](xref:aktuelles-umfrageergebnis-und-weiterer-ansatz) - *2005-05-02*
+- [Umfragen und die Ergebnisse...](xref:umfragen-und-die-ergebnisse---) - *2005-05-02*
+- [Schlafes Bruder](xref:schlafes-bruder) - *2005-04-29*
+- [In 80 Zeilen um die VFP-Tabelle](xref:in-80-zeilen-um-die-vfp-tabelle) - *2005-04-29*
+- [101 things you can do...](xref:101-things-you-can-do---) - *2005-04-26*
+- [Randale? - Ein normaler Samstag](xref:randale-ein-normaler-samstag) - *2005-04-23*
+- [Ab in den Süden...](xref:ab-in-den-sueden) - *2005-04-22*
+- [Zitate...](xref:zitate) - *2005-04-20*
+- [Nachlese: VFP Stammtisch Speyer im April](xref:nachlese-vfp-stammtisch-speyer-im-april) - *2005-04-20*
+- [MSDN: Visual FoxPro mit Visual Studio 2005](xref:msdn-visual-foxpro-mit-visual-studio-2005) - *2005-04-20*
+- [VFP Stammtisch - April 2005](xref:vfp-stammtisch-april-2005) - *2005-04-19*
+- [Pictures? Wanna pictures?](xref:pictures-wanna-pictures) - *2005-04-18*
+- [Unexpected error 0x8ffe2740 occurred](xref:unexpected-error-0x8ffe2740-occurred) - *2005-04-15*
+- [Nachlese zur Community Devcon 2005](xref:nachlese-zur-community-devcon-2005) - *2005-04-13*
+- [HTTP 404](xref:http-404) - *2005-04-13*
+- [Daily Upgrade](xref:daily-upgrade) - *2005-04-11*
+- [Vorbereitungen für die Devcon laufen an...](xref:vorbereitungen-fr-die-devcon-laufen-an) - *2005-04-11*
+- [Found by Google](xref:found-by-google) - *2005-04-10*
+- [Blog - Reloaded Again](xref:blog-reloaded-again) - *2005-04-08*
+- [Werbung verblödet...](xref:werbung-verbloedet) - *2005-04-08*
+- [New MSDN Forums](xref:new-msdn-forums) - *2005-04-08*
+- [Ich will Feuerwehrmann werden](xref:ich-will-feuerwehrmann-werden) - *2005-04-08*
+- [Frankfurter Buchmesse](xref:frankfurter-buchmesse) - *2005-04-07*
+- [VFP Umfrage von Microsoft](xref:vfp-umfrage-von-microsoft) - *2005-04-07*
+- [Expression evaluator failed (Error 67)](xref:expression-evaluator-failed-error-67) - *2005-04-07*
+- [angryCoder](xref:angrycoder) - *2005-04-06*
+- [Schreiben Sie eine Online-Rezension](xref:schreiben-sie-eine-online-rezension) - *2005-04-06*
+- [.NET for Visual FoxPro Developers](xref:net-for-visual-foxpro-developers) - *2005-04-06*
+- [Blog - Reloaded](xref:blog---reloaded) - *2005-04-05*
+- [Es wird konkreter...](xref:es-wird-konkreter---) - *2005-04-04*
+- [VFP Datenbank in .NET](xref:vfp-datenbank-in--net) - *2005-04-04*
+- [VFP Roadshow Stuttgart - 3. Halbzeit](xref:vfp-roadshow-stuttgart---3--halbzeit) - *2005-04-03*
+- [Surfin' HotSpots](xref:surfin-hotspots) - *2005-04-02*
+- [Devcon Prag 2005 - Termin steht](xref:devcon-prag-2005-termin-steht) - *2005-03-29*
+- [Heute ist Ostern und Weihnachten gleichzeitig...](xref:heute-ist-ostern-und-weihnachten-gleichzeitig---) - *2005-03-24*
+- [Clash of the browsers](xref:clash-of-the-browsers) - *2005-03-13*
+- [MultiSelect-Komponente](xref:multiselect-komponente) - *2005-03-05*
+- [SQL Server Workgroup Edition](xref:sql-server-workgroup-edition) - *2005-02-27*
+- [Game another day](xref:game-another-day) - *2005-02-26*
+- [Nix Neues...](xref:nix-neues---) - *2005-02-26*
+- [AfpWiki released](xref:afpwiki-released) - *2005-02-24*
+- [Noch ein Wiki](xref:noch-ein-wiki) - *2005-02-23*
+- [Überall Baustellen?](xref:berall-baustellen) - *2005-02-22*
+- [Fox Is Anywhere!](xref:fox-is-anywhere) - *2005-02-20*
+- [Community DevCon 2005](xref:community-devcon-2005) - *2005-02-19*
+- [VFP 9.0 Upgrade](xref:vfp-90-upgrade) - *2005-02-19*
+- [Gegen die Kälte hilft nur ein heißes Bad](xref:gegen-die-klte-hilft-nur-ein-heies-bad) - *2005-02-18*
+- [The future is now!](xref:the-future-is-now) - *2005-02-17*
+- [So kann ich net arbeiten!](xref:so-kann-ich-net-arbeiten) - *2005-02-15*
+- [Vorbereitungen für den Stammtisch](xref:vorbereitungen-fr-den-stammtisch) - *2005-02-15*
+- [Wieviel NERD steckt in dir?](xref:wieviel-nerd-steckt-in-dir) - *2005-02-14*
+- [Viel Wasser läuft den Rhein runter...](xref:viel-wasser-luft-den-rhein-runter) - *2005-01-15*
+- [C# unter Linux](xref:c-unter-linux) - *2004-12-01*
+- [Microsoft Communities - Ganz. Schön. Schlau.](xref:microsoft-commities-ganz-schn-schlau) - *2004-12-01*
+- [Finally](xref:finally) - *2004-11-14*
+- [Der Marathon beginnt...](xref:der-marathon-beginnt) - *2004-11-10*
+- [Devcon: Ein erster Eindruck](xref:devcon-ein-erster-eindruck) - *2004-11-09*
+- [Koffer packen und los geht's...](xref:koffer-packen-und-los-gehts) - *2004-11-08*
+- [Quattro stagioni (CLIP Day Two)](xref:quattro-stagioni-clip-day-two) - *2004-10-21*
+- [Trio infernale (CLIP Day One)](xref:trio-infernale-clip-day-one) - *2004-10-20*
+- [Usertreffen... und kein Ende in Sicht](xref:usertreffen----und-kein-ende-in-sicht) - *2004-10-17*
+- [Die Rückkehr des Königs](xref:die-rckkehr-des-knigs) - *2004-10-17*
+- [Gastbesuch bei VFP Stammtisch Stuttgart](xref:gastbesuch-bei-vfp-stammtisch-stuttgart) - *2004-10-09*
+- [VFP/SQL/.NET Devcon 2004 in Frankfurt](xref:vfpsqlnet-devcon-2004-in-frankfurt) - *2004-10-09*
+- [FoxPro - das Urzeitmonster aus der Tiefe...](xref:foxpro---das-urzeitmonster-aus-der-tiefe---) - *2004-07-16*
+- [JavaScript macht Spass](xref:javascript-macht-spass) - *2004-07-13*
+- [Request timed out](xref:request-timed-out) - *2004-07-13*
+- [Verspäteter Einstieg in die Welt der Blogs...](xref:verspteter-einstieg-in-die-welt-der-blogs) - *2004-07-12*

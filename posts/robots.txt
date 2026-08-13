@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /error404.html
+Allow: /
+Sitemap: http://jochen.kirstaetter.name/sitemap.xml

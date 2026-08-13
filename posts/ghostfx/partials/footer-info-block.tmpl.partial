@@ -1,0 +1,17 @@
+﻿{{! Footer - Colons info }}
+<div class="site-footer-content inner">
+    <div class="nav">
+        <div class="footer_information-1 col-3">
+            <h6>Disclaimer</h6>
+            <p>Opinions expressed here are my own and may not reflect those of people I work with, my wife, the kids, the community, etc. Unless I'm quoting someone, they're just my own views.</p>
+        </div>
+        <div class="footer_information-2 col-3">
+            <h6>Copyright {{_currentYear}}, Jochen Kirst&auml;tter</h6>
+            <p>This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. In other words, share generously but provide attribution.</p>
+        </div>
+        <div class="footer_information-3 col-3">
+            <h6>Crafted with <i class="fa fa-heart" aria-hidden="true"></i> in Mauritius</h6>
+            <p>This site runs entirely on <a href="https://ghost.org/">Ghost</a>. I got inspired during a camp-site fire talk with John O'Nolan. Read more about <a href="/john-onolan/">why I chose to use Ghost</a>.</p>
+        </div>
+    </div>
+</div>

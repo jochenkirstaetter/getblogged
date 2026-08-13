@@ -1,0 +1,170 @@
+﻿{{!include(/^public/.*/)}}
+{{!include(favicon.ico)}}
+{{!include(logo.svg)}}
+<!DOCTYPE html>
+<html lang="{{_lang}}">
+<head>
+
+    {{! Document Settings }}
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    {{! Base Meta }}
+    <title>{{title}} - {{_appTitle}}</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{_rel}}public/docfx.min.css">
+    <meta name="docfx:navrel" content="{{_navRel}}">
+    <meta name="docfx:tocrel" content="{{_tocRel}}">
+    {{#_noindex}}<meta name="searchOption" content="noindex">{{/_noindex}}
+    {{#_enableSearch}}<meta name="docfx:rel" content="{{_rel}}">{{/_enableSearch}}
+    {{#_disableNewTab}}<meta name="docfx:disablenewtab" content="true">{{/_disableNewTab}}
+    {{#_disableTocFilter}}<meta name="docfx:disabletocfilter" content="true">{{/_disableTocFilter}}
+    {{#docurl}}<meta name="docfx:docurl" content="{{docurl}}">{{/docurl}}
+    <meta name="loc:inThisArticle" content="{{__global.inThisArticle}}">
+    <meta name="loc:searchResultsCount" content="{{__global.searchResultsCount}}">
+    <meta name="loc:searchNoResults" content="{{__global.searchNoResults}}">
+    <meta name="loc:tocFilter" content="{{__global.tocFilter}}">
+    <meta name="loc:nextArticle" content="{{__global.nextArticle}}">
+    <meta name="loc:prevArticle" content="{{__global.prevArticle}}">
+    <meta name="loc:themeLight" content="{{__global.themeLight}}">
+    <meta name="loc:themeDark" content="{{__global.themeDark}}">
+    <meta name="loc:themeAuto" content="{{__global.themeAuto}}">
+    <meta name="loc:changeTheme" content="{{__global.changeTheme}}">
+    <meta name="loc:copy" content="{{__global.copy}}">
+    <meta name="loc:downloadPdf" content="{{__global.downloadPdf}}">
+    {{#_enableSearch}}
+    <style>
+        #search-results-container {
+            display: none;
+        }
+        body[data-search=true] #site-main {
+            display: none !important;
+        }
+        body[data-search=true] #search-results-container {
+            display: block !important;
+        }
+    </style>
+    {{/_enableSearch}}
+
+    {{! Styles'n'Scripts }}
+    <link href="{{_rel}}public/built/screen.css" rel="stylesheet" type="text/css" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+
+    {{! This tag outputs SEO meta+structured data and other important settings }}
+    {{>partials/ghost_head}}
+
+{{>partials/code_header}}
+    <script type="module" src="{{_rel}}public/docfx.min.js"></script>
+    <link rel="stylesheet" href="{{_rel}}public/main.css">
+    <link rel="stylesheet" href="{{_rel}}public/ghostfx.css">
+</head>
+<body class="tex2jax_ignore {{bodyClass}}{{#_disableAffix}} metadata-disable-affix{{/_disableAffix}}">
+
+    <div class="site-wrapper">
+
+        {{>partials/floating-header}}
+
+        {{! All the main content gets inserted here, index.hbs, post.hbs, etc }}
+        {{!body}}
+
+        {{#_enableSearch}}
+        <main id="search-results-container" class="site-main outer">
+            <div class="inner">
+                <div id="search-results" class="search-results"></div>
+            </div>
+        </main>
+        <script>
+            (function() {
+                var cleanLink = function(a) {
+                    if (a && a.href) {
+                        a.removeAttribute('target');
+                        a.href = a.href.replace(/(\?|&)q=[^&]*(&|$)/, '$1').replace(/[\?&]$/, '');
+                    }
+                };
+                document.addEventListener('click', function(e) {
+                    var a = e.target.closest('#search-results a');
+                    if (a) { cleanLink(a); }
+                }, true);
+                var sr = document.getElementById('search-results');
+                if (sr) {
+                    new MutationObserver(function() {
+                        var links = sr.querySelectorAll('a[href*="?q="], a[href*="&q="]');
+                        for (var i = 0; i < links.length; i++) { cleanLink(links[i]); }
+                    }).observe(sr, { childList: true, subtree: true });
+                }
+                if (window.location.search.indexOf('q=') !== -1) {
+                    var cleanSearch = window.location.search.replace(/(\?|&)q=[^&]*(&|$)/, '$1').replace(/[\?&]$/, '');
+                    var cleanUrl = window.location.pathname + cleanSearch + window.location.hash;
+                    window.history.replaceState(null, '', cleanUrl);
+                }
+            })();
+        </script>
+        {{/_enableSearch}}
+
+        {{! The footer at the very bottom of the screen }}
+        <footer class="site-footer outer">
+
+        {{! Footer - Colons info }}
+        {{>partials/footer-info-block}}
+
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="{{#_appUrl}}{{_appUrl}}{{/_appUrl}}{{^_appUrl}}{{_rel}}{{/_appUrl}}">{{_appTitle}}</a> &copy; 1998 - {{_currentYear}}</section>
+                <nav class="site-footer-nav">
+                    <a href="{{#_appUrl}}{{_appUrl}}{{/_appUrl}}{{^_appUrl}}{{_rel}}{{/_appUrl}}">Latest Posts</a>
+                    <a href="https://github.com/jochenkirstaetter/ghostfx" target="_blank" rel="noreferrer noopener">GitHub</a>
+                    <a href="https://x.com/jkirstaetter" target="_blank" rel="noreferrer noopener">Twitter / X</a>
+                    <a href="https://facebook.com/jochen.kirstaetter" target="_blank" rel="noreferrer noopener">Facebook</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    {{! The big email subscribe modal content }}
+    {{#@labs.subscribers}}
+    <div id="subscribe" class="subscribe-overlay">
+        <a class="subscribe-overlay-close" href="#"></a>
+        <div class="subscribe-overlay-content">
+            {{#@blog.logo}}
+                <img class="subscribe-overlay-logo" src="{{_appLogoPath}}" alt="{{_appTitle}}" />
+            {{/@blog.logo}}
+            <h1 class="subscribe-overlay-title">Subscribe to {{_appTitle}}</h1>
+            <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
+            {{subscribe_form placeholder="youremail@example.com"}}
+        </div>
+    </div>
+    {{/@labs.subscribers}}
+
+    <script>
+        var images = document.querySelectorAll('.kg-gallery-image img');
+        images.forEach(function (image) {
+            var container = image.closest('.kg-gallery-image');
+            var width = image.attributes.width.value;
+            var height = image.attributes.height.value;
+            var ratio = width / height;
+            container.style.flex = ratio + ' 1 0%';
+        })
+    </script>
+
+
+    {{! jQuery + Fitvids, which makes all video embeds responsive }}
+    <script 
+	src="https://code.jquery.com/jquery-3.4.1.min.js" 
+	integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" 
+	crossorigin="anonymous"></script>
+    <script type="text/javascript" src="{{_rel}}public/built/jquery.fitvids.js"></script>
+
+    {{#pagination.pages}}
+    <script src="{{_rel}}public/built/infinitescroll.js"></script>
+    {{/pagination.pages}}
+
+    {{! The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. }}
+    
+
+    {{! Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag }}
+    {{>partials/ghost_foot}}
+
+{{>partials/code_footer}}
+</body>
+</html>

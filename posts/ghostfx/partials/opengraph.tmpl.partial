@@ -1,0 +1,51 @@
+<meta property="og:site_name" content="{{#_appTitle}}{{_appTitle}}{{/_appTitle}}{{^_appTitle}}Get Blogged by JoKi{{/_appTitle}}">
+<meta property="og:type" content="{{#isPost}}article{{/isPost}}{{^isPost}}website{{/isPost}}">
+{{#ogTitle}}
+<meta property="og:title" content="{{ogTitle}}">
+{{/ogTitle}}
+{{^ogTitle}}
+{{#title}}
+<meta property="og:title" content="{{title}}">
+{{/title}}
+{{/ogTitle}}
+{{#ogDescription}}
+<meta property="og:description" content="{{ogDescription}}">
+{{/ogDescription}}
+{{^ogDescription}}
+{{#description}}
+<meta property="og:description" content="{{description}}">
+{{/description}}
+{{^description}}
+{{#summary}}
+<meta property="og:description" content="{{summary}}">
+{{/summary}}
+{{/description}}
+{{/ogDescription}}
+{{#canonicalUrl}}
+<meta property="og:url" content="{{canonicalUrl}}">
+{{/canonicalUrl}}
+{{#imageUrl}}
+<meta property="og:image" content="{{imageUrl}}">
+<meta property="og:image:width" content="1920">
+<meta property="og:image:height" content="1277">
+{{/imageUrl}}
+{{#publishedAt}}
+<meta property="article:published_time" content="{{publishedAt}}">
+{{/publishedAt}}
+{{#updatedAt}}
+<meta property="article:modified_time" content="{{updatedAt}}">
+{{/updatedAt}}
+{{^updatedAt}}
+{{#publishedAt}}
+<meta property="article:modified_time" content="{{publishedAt}}">
+{{/publishedAt}}
+{{/updatedAt}}
+{{#tags}}
+<meta property="article:tag" content="{{.}}">
+{{/tags}}
+{{#_siteFacebook}}
+<meta property="article:publisher" content="{{_siteFacebook}}">
+{{/_siteFacebook}}
+{{#authorFacebook}}
+<meta property="article:author" content="{{authorFacebook}}">
+{{/authorFacebook}}

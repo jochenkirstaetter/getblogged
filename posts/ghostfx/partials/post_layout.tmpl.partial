@@ -1,0 +1,263 @@
+﻿{{! The tag above means: insert everything in this file
+into the {body} of the default.hbs template }}
+
+<header class="site-header outer">
+    <div class="inner">
+        {{>partials/site-nav}}
+    </div>
+</header>
+
+{{! Everything inside the #post tags pulls data from the post }}
+
+
+<main id="site-main" class="site-main outer">
+    <div class="inner">
+
+        <article class="post-full {{postClass}} {{^image}}no-image{{/image}}">
+
+            {{#image}}
+            <figure class="post-full-image">
+                {{! This is a responsive image, it loads different sizes depending on device
+                https://medium.freecodecamp.org/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433 }}
+                <img
+                    srcset="{{_rel}}{{image}} 300w,
+                            {{_rel}}{{image}} 600w,
+                            {{_rel}}{{image}} 1000w,
+                            {{_rel}}{{image}} 2000w"
+                    sizes="(max-width: 800px) 400px,
+                            (max-width: 1170px) 700px,
+                            1400px"
+                    src="{{_rel}}{{image}}"
+                    alt="{{title}}"
+                />
+            </figure>
+            {{/image}}
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMMM YYYY"}}</time>
+                    {{#primary_tag}}
+                        <span class="date-divider">/</span> <a href="{{_rel}}{{slug}}.html">{{title}}</a>
+                    {{/primary_tag}}
+                </section>
+                <h1 class="post-full-title">{{title}}</h1>
+            </header>
+
+            <section class="post-full-content">
+                <div class="post-content">
+                    {{{conceptual}}}
+                </div>
+            </section>
+
+            {{! Email subscribe form at the bottom of the page }}
+            {{#@labs.subscribers}}
+            <section class="subscribe-form">
+                <h3 class="subscribe-form-title">Subscribe to {{_appTitle}}</h3>
+                <p>Get the latest posts delivered right to your inbox</p>
+                {{subscribe_form placeholder="youremail@example.com"}}
+            </section>
+            {{/@labs.subscribers}}
+
+            <footer class="post-full-footer">
+
+                {{! There are two options for how we display the byline/author-info.
+                If the post has more than one author, we load a specific template
+                from includes/byline-multiple.hbs, otherwise, we just use the
+                default byline. }}
+
+                {{#hasMultipleAuthors}}
+                    {{>partials/byline-multiple}}
+                {{else}}
+                    {{>partials/byline-single}}
+                {{/hasMultipleAuthors}}
+
+            </footer>
+
+	    {{>partials/ads-banner}}
+
+            {{!
+            If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id.
+            }}
+
+            <section class="post-full-comments">
+                <div id="disqus_thread"></div>
+                <script>
+                    var disqus_config = function () {
+                        this.page.url = '{{_rel}}{{slug}}.html';
+                        this.page.identifier = '9271ed1c97_id{{uid}}';
+                    };
+                    (function() {
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://getbloggedbyjoki.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+            </section>
+
+        </article>
+
+        {{^_disableContribution}}
+        <div class="contribution d-print-none">
+        {{#sourceurl}}
+        <a href="{{sourceurl}}" class="edit-link">{{__global.improveThisDoc}}</a>
+        {{/sourceurl}}
+        {{^sourceurl}}{{#docurl}}
+        <a href="{{docurl}}" class="edit-link">{{__global.improveThisDoc}}</a>
+        {{/docurl}}{{/sourceurl}}
+        </div>
+        {{/_disableContribution}}
+
+        {{^_disableAffix}}
+        <div class="affix">
+            <nav id="affix"></nav>
+        </div>
+        {{/_disableAffix}}
+
+    </div>
+</main>
+
+{{! Links to Previous/Next posts }}
+{{^_disableNextArticle}}
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            {{#primary_tag}}
+            
+                {{#related_posts}}
+                <article class="read-next-card"
+                    {{#../primary_tag.image}}
+                        style="background-image: url({{_rel}}{{../primary_tag.image}})"
+                    {{else}}
+                        {{#@blog.cover_image}}
+                            style="background-image: url({{_rel}}{{@blog.cover_image}})"{{/@blog.cover_image}}
+                    {{/../primary_tag.image}}
+                >
+                    <header class="read-next-card-header">
+                        <small class="read-next-card-header-sitetitle">&mdash; {{_appTitle}} &mdash;</small>
+                        {{#../primary_tag}}
+                        <h3 class="read-next-card-header-title"><a href="{{_rel}}{{slug}}.html">{{title}}</a></h3>
+                        {{/../primary_tag}}
+                    </header>
+                    <div class="read-next-divider">{{>partials/icons/infinity}}</div>
+                    <div class="read-next-card-content">
+                        <ul>
+                            {{#related_posts}}
+                            <li><a href="{{_rel}}{{slug}}.html">{{title}}</a></li>
+                            {{/related_posts}}
+                        </ul>
+                    </div>
+                    <footer class="read-next-card-footer">
+                        <a href="{{#../primary_tag}}{{_rel}}{{slug}}.html{{/../primary_tag}}">{{plural meta.pagination.total empty='No posts' singular='% post' plural='See all % posts'}} →</a>
+                    </footer>
+                </article>
+                {{/related_posts}}
+            
+            {{/primary_tag}}
+
+            {{! If there's a next post, display it using the same markup included from - partials/post-card.hbs }}
+            {{#next_post}}
+                {{>partials/post-card}}
+            {{/next_post}}
+
+            {{! If there's a previous post, display it using the same markup included from - partials/post-card.hbs }}
+            {{#prev_post}}
+                {{>partials/post-card}}
+            {{/prev_post}}
+
+        </div>
+    </div>
+</aside>
+{{/_disableNextArticle}}
+
+{{! The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs }}
+
+<script>
+(function () {
+    function initFloatingHeader() {
+        var progressBar = document.querySelector('#reading-progress');
+        var header = document.querySelector('.floating-header');
+        var title = document.querySelector('.post-full-title');
+        if (!header || !title) return;
+
+        try {
+            var rawUrl = window.location.href;
+            if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+                rawUrl = 'https://jochen.kirstaetter.name' + window.location.pathname;
+            }
+            var currentUrl = encodeURIComponent(rawUrl);
+            var currentTitle = encodeURIComponent(document.title || title.innerText);
+
+            var x = header.querySelector('.floating-header-share-x, .floating-header-share-tw');
+            if (x) x.href = 'https://x.com/intent/post?text=' + currentTitle + '&url=' + currentUrl;
+
+            var fb = header.querySelector('.floating-header-share-fb');
+            if (fb) fb.href = 'https://www.facebook.com/sharer/sharer.php?u=' + currentUrl;
+
+            var bsky = header.querySelector('.floating-header-share-bsky');
+            if (bsky) bsky.href = 'https://bsky.app/intent/compose?text=' + currentTitle + '%20' + currentUrl;
+
+            var masto = header.querySelector('.floating-header-share-masto');
+            if (masto) masto.href = 'https://mastodon.social/share?text=' + currentTitle + '%20' + currentUrl;
+
+            var li = header.querySelector('.floating-header-share-li');
+            if (li) li.href = 'https://www.linkedin.com/feed/?shareActive=true&text=' + currentTitle + '%20' + currentUrl;
+
+            var re = header.querySelector('.floating-header-share-re');
+            if (re) re.href = 'https://reddit.com/submit?url=' + currentUrl + '&title=' + currentTitle;
+
+            var em = header.querySelector('.floating-header-share-email');
+            if (em) em.href = 'mailto:?subject=' + currentTitle + '&body=Check out this site: ' + currentUrl;
+        } catch (e) {}
+
+        var ticking = false;
+
+        function update() {
+            var lastScrollY = window.scrollY || window.pageYOffset;
+            var lastWindowHeight = window.innerHeight;
+            var lastDocumentHeight = Math.max(
+                document.body.scrollHeight, document.documentElement.scrollHeight,
+                document.body.offsetHeight, document.documentElement.offsetHeight
+            );
+
+            var trigger = title.getBoundingClientRect().top + lastScrollY;
+            var triggerOffset = title.offsetHeight + 35;
+            var progressMax = lastDocumentHeight - lastWindowHeight;
+
+            if (lastScrollY >= trigger + triggerOffset) {
+                header.classList.add('floating-active');
+            } else {
+                header.classList.remove('floating-active');
+            }
+
+            if (progressBar && progressMax > 0) {
+                progressBar.setAttribute('max', progressMax);
+                progressBar.setAttribute('value', lastScrollY);
+            }
+
+            ticking = false;
+        }
+
+        function requestTick() {
+            if (!ticking) {
+                requestAnimationFrame(update);
+            }
+            ticking = true;
+        }
+
+        window.addEventListener('scroll', requestTick, { passive: true });
+        window.addEventListener('resize', requestTick, false);
+
+        update();
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initFloatingHeader);
+    } else {
+        initFloatingHeader();
+    }
+})();
+</script>
+

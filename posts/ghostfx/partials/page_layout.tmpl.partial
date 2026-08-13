@@ -1,0 +1,27 @@
+﻿<header class="site-header outer">
+    <div class="inner">
+        {{>partials/site-nav}}
+    </div>
+</header>
+
+<main id="site-main" class="site-main outer">
+    <div class="inner">
+        <article class="post-full {{postClass}} {{^image}}no-image{{/image}}">
+            {{#image}}
+            <figure class="post-full-image">
+                <a target="_blank" rel="noopener noreferrer nofollow" href="{{_rel}}{{.}}"><img src="{{_rel}}{{.}}" alt="{{title}}" /></a>
+            </figure>
+            {{/image}}
+
+            <header class="post-full-header">
+                <h1 class="post-full-title">{{title}}</h1>
+            </header>
+
+            <section class="post-full-content">
+                <div class="post-content">
+                    {{{conceptual}}}
+                </div>
+            </section>
+        </article>
+    </div>
+</main>

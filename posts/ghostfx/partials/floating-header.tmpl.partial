@@ -1,0 +1,173 @@
+﻿<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="{{#_appUrl}}{{_appUrl}}{{/_appUrl}}{{^_appUrl}}{{_rel}}{{/_appUrl}}">
+            {{#_appFaviconPath}}
+                <img src="{{_rel}}{{.}}" alt="{{_appTitle}} icon" />
+            {{/_appFaviconPath}}
+            <span>{{_appTitle}}</span>
+        </a>
+    </div>
+    <span class="floating-header-divider">&mdash;</span>
+    <div class="floating-header-title">{{#title}}{{title}}{{/title}}{{^title}}{{_appTitle}}{{/title}}</div>
+    {{#_enableSearch2}}
+    <div class="floating-header-search">
+        <form class="search" role="search" id="search">
+            <input class="form-control" id="search-query-floating" type="search" placeholder="Search" autocomplete="off" aria-label="Search">
+        </form>
+    </div>
+    {{/_enableSearch2}}
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this {{>partials/icons/point}}</div>
+        <a class="floating-header-share-x" href="https://x.com/intent/post?text={{encode title}}&amp;url={{_rel}}{{slug}}.html"
+            target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-x', 'width=550,height=450');return false;" title="Share on X">
+            {{>partials/icons/x}}
+        </a>
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u={{_rel}}{{slug}}.html"
+            target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-facebook','width=580,height=400');return false;" title="Share on Facebook">
+            {{>partials/icons/facebook}}
+        </a>
+        <a class="floating-header-share-bsky" href="https://bsky.app/intent/compose?text={{encode title}}%20{{_rel}}{{slug}}.html"
+            target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-bluesky','width=580,height=420');return false;" title="Share on BlueSky">
+            {{>partials/icons/bluesky}}
+        </a>
+        <a class="floating-header-share-masto" href="https://mastodon.social/share?text={{encode title}}%20{{_rel}}{{slug}}.html"
+            target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-mastodon','width=600,height=600');return false;" title="Share on Mastodon">
+            {{>partials/icons/mastodon}}
+        </a>
+        <a class="floating-header-share-li" href="https://www.linkedin.com/feed/?shareActive=true&amp;text={{encode title}}%20{{_rel}}{{slug}}.html"
+            target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-linkedin','width=650,height=650');return false;" title="Share on LinkedIn">
+            {{>partials/icons/linkedin}}
+        </a>
+        <a class="floating-header-share-re" href="https://reddit.com/submit?url={{_rel}}{{slug}}.html&title={{encode title}}"
+            target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-reddit','width=580,height=500');return false;" title="Share on Reddit">
+            {{>partials/icons/reddit}}
+        </a>
+        <a class="floating-header-share-email" href="mailto:?subject={{encode title}}&body=Check out this site: {{_rel}}{{slug}}.html" title="Share via Email">
+            {{>partials/icons/email}}
+        </a>
+    </div>
+    <progress id="reading-progress" class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+<script>
+(function () {
+    function initFloatingHeader() {
+        var header = document.querySelector('.floating-header');
+        if (!header) return;
+
+        var progressBar = document.querySelector('#reading-progress');
+        var title = document.querySelector('.post-full-title') || document.querySelector('.site-title') || document.querySelector('h1');
+
+        try {
+            var rawUrl = window.location.href;
+            if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+                rawUrl = 'https://jochen.kirstaetter.name' + window.location.pathname;
+            }
+            var currentUrl = encodeURIComponent(rawUrl);
+            var currentTitle = encodeURIComponent(document.title || (title ? title.innerText : ''));
+
+            var x = header.querySelector('.floating-header-share-x, .floating-header-share-tw');
+            if (x) x.href = 'https://x.com/intent/post?text=' + currentTitle + '&url=' + currentUrl;
+
+            var fb = header.querySelector('.floating-header-share-fb');
+            if (fb) fb.href = 'https://www.facebook.com/sharer/sharer.php?u=' + currentUrl;
+
+            var bsky = header.querySelector('.floating-header-share-bsky');
+            if (bsky) bsky.href = 'https://bsky.app/intent/compose?text=' + currentTitle + '%20' + currentUrl;
+
+            var masto = header.querySelector('.floating-header-share-masto');
+            if (masto) masto.href = 'https://mastodon.social/share?text=' + currentTitle + '%20' + currentUrl;
+
+            var li = header.querySelector('.floating-header-share-li');
+            if (li) li.href = 'https://www.linkedin.com/feed/?shareActive=true&text=' + currentTitle + '%20' + currentUrl;
+
+            var re = header.querySelector('.floating-header-share-re');
+            if (re) re.href = 'https://reddit.com/submit?url=' + currentUrl + '&title=' + currentTitle;
+
+            var em = header.querySelector('.floating-header-share-email');
+            if (em) em.href = 'mailto:?subject=' + currentTitle + '&body=Check out this site: ' + currentUrl;
+
+            // Sync search inputs
+            (function () {
+                var primarySearch = document.getElementById('search-query');
+                var secondarySearch = document.getElementById('search-query-floating');
+                if (!primarySearch || !secondarySearch) return;
+
+                secondarySearch.addEventListener('input', function() {
+                    primarySearch.value = secondarySearch.value;
+                    primarySearch.dispatchEvent(new Event('input', { bubbles: true }));
+                });
+
+                primarySearch.addEventListener('input', function() {
+                    secondarySearch.value = primarySearch.value;
+                });
+
+                var observer = new MutationObserver(function() {
+                    secondarySearch.disabled = primarySearch.disabled;
+                    if (primarySearch.placeholder) {
+                        secondarySearch.placeholder = primarySearch.placeholder;
+                    }
+                });
+                observer.observe(primarySearch, { attributes: true, attributeFilter: ['disabled', 'placeholder'] });
+                secondarySearch.disabled = primarySearch.disabled;
+                if (primarySearch.placeholder) {
+                    secondarySearch.placeholder = primarySearch.placeholder;
+                }
+            })();
+        } catch (e) {}
+
+        var ticking = false;
+
+        function update() {
+            var lastScrollY = window.scrollY || window.pageYOffset;
+            var lastWindowHeight = window.innerHeight;
+            var lastDocumentHeight = Math.max(
+                document.body.scrollHeight, document.documentElement.scrollHeight,
+                document.body.offsetHeight, document.documentElement.offsetHeight
+            );
+
+            var trigger = 150;
+            if (title) {
+                var rect = title.getBoundingClientRect();
+                trigger = rect.top + lastScrollY + (title.offsetHeight || 40);
+            }
+            var progressMax = lastDocumentHeight - lastWindowHeight;
+
+            if (lastScrollY >= trigger) {
+                header.classList.add('floating-active');
+            } else {
+                header.classList.remove('floating-active');
+            }
+
+            if (progressBar && progressMax > 0) {
+                progressBar.setAttribute('max', progressMax);
+                progressBar.setAttribute('value', lastScrollY);
+            }
+
+            ticking = false;
+        }
+
+        function requestTick() {
+            if (!ticking) {
+                requestAnimationFrame(update);
+            }
+            ticking = true;
+        }
+
+        window.addEventListener('scroll', requestTick, { passive: true });
+        window.addEventListener('resize', requestTick, false);
+
+        update();
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initFloatingHeader);
+    } else {
+        initFloatingHeader();
+    }
+})();
+</script>

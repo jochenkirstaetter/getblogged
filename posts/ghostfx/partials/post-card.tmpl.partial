@@ -1,0 +1,68 @@
+﻿<article class="post-card post {{tagClass}} {{imageClass}}">
+
+    {{#image}}
+    <a class="post-card-image-link" href="{{_rel}}{{slug}}.html" aria-label="{{title}}">
+        <img class="post-card-image"
+            srcset="{{_rel}}{{.}} 300w,
+                    {{_rel}}{{.}} 600w,
+                    {{_rel}}{{.}} 1000w,
+                    {{_rel}}{{.}} 2000w"
+            sizes="(max-width: 1000px) 400px, 700px"
+            src="{{_rel}}{{.}}"
+            alt="{{title}}"
+        />
+    </a>
+    {{/image}}
+
+    <div class="post-card-content">
+        <div class="post-card-content-header">
+            {{#primaryTag}}
+                {{#tagSlug}}
+                    <span class="post-card-tags"><a href="{{_rel}}tags/{{.}}.html">{{primaryTag}}</a></span>
+                {{/tagSlug}}
+                {{^tagSlug}}
+                    <span class="post-card-tags">{{.}}</span>
+                {{/tagSlug}}
+            {{/primaryTag}}
+        </div>
+        <a class="post-card-content-link" href="{{_rel}}{{slug}}.html">
+            <header class="post-card-header">
+                <h2 class="post-card-title">{{title}}</h2>
+            </header>
+            {{#excerpt}}
+            <section class="post-card-excerpt">
+                <p>{{.}}</p>
+            </section>
+            {{/excerpt}}
+        </a>
+        <footer class="post-card-meta">
+            <div class="post-card-byline-wrapper">
+                <ul class="author-list">
+                {{#authorName}}
+                    <li class="author-list-item">
+                        <div class="author-name-tooltip">
+                            {{.}}
+                        </div>
+
+                        {{#authorImage}}
+                            <a href="{{_rel}}author/{{authorSlug}}.html" class="static-avatar">
+                                <img class="author-profile-image" src="{{_rel}}{{.}}" alt="{{authorName}}" />
+                            </a>
+                        {{/authorImage}}
+                        {{^authorImage}}
+                            <a href="{{_rel}}author/{{authorSlug}}.html" class="static-avatar author-profile-image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a>
+                        {{/authorImage}}
+                    </li>
+                {{/authorName}}
+                </ul>
+
+                <div class="post-card-byline-content">
+                    {{#authorName}}<span><a href="{{_rel}}author/{{authorSlug}}.html">{{.}}</a></span>{{/authorName}}
+                    <span class="post-card-byline-date"><time datetime="{{date}}">{{formattedDate}}</time></span>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</article>

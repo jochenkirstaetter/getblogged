@@ -1,0 +1,31 @@
+﻿<header class="site-home-header">
+    <div class="outer site-header-background {{#coverImage}}responsive-header-img{{/coverImage}}{{^coverImage}}{{#_appCoverImage}}responsive-header-img{{/_appCoverImage}}{{/coverImage}}" style="{{#coverImage}}background-image: url('{{_rel}}{{.}}');{{/coverImage}}{{^coverImage}}{{#_appCoverImage}}background-image: url('{{_rel}}{{.}}');{{/_appCoverImage}}{{/coverImage}}">
+        <div class="inner">
+            {{>partials/site-nav}}
+            <div class="site-header-content">
+                <h1 class="site-title">
+                    {{#_appLogoPath}}
+                        <img class="site-logo" src="{{_rel}}{{.}}" alt="{{#title}}{{title}}{{/title}}{{^title}}{{_appTitle}}{{/title}}" />
+                    {{/_appLogoPath}}
+                    {{^_appLogoPath}}
+                        {{#title}}{{title}}{{/title}}{{^title}}{{_appTitle}}{{/title}}
+                    {{/_appLogoPath}}
+                </h1>
+                <h2 class="site-description">{{#description}}{{description}}{{/description}}{{^description}}{{_appDescription}}{{/description}}</h2>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main id="site-main" class="site-main outer">
+    <div class="inner">
+
+        <div class="post-feed">
+            {{#posts}}
+                {{>partials/post-card}}
+            {{/posts}}
+            {{{conceptual}}}
+        </div>
+
+    </div>
+</main>

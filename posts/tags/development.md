@@ -1,0 +1,121 @@
+---
+uid: tag-development
+title: "Development"
+layout: tag
+isTagPage: true
+bodyClass: "tag-template tag-development"
+tagName: "Development"
+image: "../content/images/2018/10/20626381_10203983204297799_562900680618946131_o.jpg"
+---
+
+# Tag: Development
+
+## Articles
+
+- [Gemma 3 - missing features despite announcement](xref:gemma-3-missing-features-despite-announcement) - *2025-03-12*
+- [Gemini ResponseSchema vs JSON Schema specs of "type" as array](xref:gemini-responseschema) - *2025-01-20*
+- [Untrack files in .gitignore](xref:untrack-files-in-gitignore) - *2024-04-05*
+- [Quickstart: Use Gemini with .NET (Vertex AI)](xref:quickstart-using-gemini-with-net-vertex-ai) - *2024-04-03*
+- [Quickstart: Use Gemini with .NET (Google AI)](xref:quickstart-use-gemini-with-net) - *2024-04-02*
+- [NuGet: Better release notes and versioning](xref:nuget-better-release-notes-versioning) - *2024-03-31*
+- [Automate NuGet package creation using Google Build](xref:automate-nuget-package-creation-google-build) - *2024-03-04*
+- [Create NuGet packages with Visual Studio / Visual Studio Code](xref:create-nuget-packages-vs-code) - *2024-03-01*
+- [Getting Started with the Vertex AI Gemini API with Visual Studio](xref:getting-started-with-the-vertex-ai-gemini-with-vs-http) - *2024-02-23*
+- [Getting started with Gemini using Visual Studio](xref:getting-started-with-gemini-using-vs-http) - *2024-02-22*
+- [Generating QR codes - the Easy, the Comfy and the Smarty](xref:generate-qr-codes-gcf) - *2023-11-06*
+- [Installing SQL Server 2019 and tools on Ubuntu 20.04](xref:sql-server-2019-on-ubuntu) - *2022-03-25*
+- [Enable authentication in your instance of Jitsi Meet](xref:authentication-jitsi-meet) - *2020-04-20*
+- [Install Jitsi Meet on Compute Engine (GCP)](xref:install-jitsi-meet-on-gcp) - *2020-04-16*
+- [Getting Started with SQL Server on GCP](xref:sql-server-on-gcp) - *2020-01-18*
+- [Working with Azure Container Registry](xref:alc4-acr) - *2020-01-15*
+- [Using Cloud Run instead of GKE](xref:alc4-cloud-run) - *2019-11-26*
+- [Working with Cloud Build](xref:alc4-cloud-build) - *2019-11-23*
+- [Considerations for production readiness (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-ready) - *2019-11-09*
+- [Google Kubernetes Engine (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-k8s) - *2019-11-09*
+- [Working with Docker (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-docker) - *2019-10-24*
+- [Create React App (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-react) - *2019-10-20*
+- [ALC 4.0 Cloud Challenge I](xref:alc4-cloud-challenge) - *2019-10-18*
+- [Rock Your Code: Defensive Programming for Microsoft .NET by David McCarter](xref:rock-your-code-defensive-programming-for-microsoft-net) - *2019-02-03*
+- [Using Apache HTTP as reverse proxy](xref:apache-reverse-proxy) - *2019-01-10*
+- [Using nginx as reverse proxy](xref:nginx-reverse-proxy) - *2019-01-08*
+- [When NULL isn't NULL](xref:when-null-isnt-null) - *2018-09-10*
+- [OpenVPN: All TAP-Windows adapters on this system are currently in use](xref:openvpn-on-windows-all-tap-windows-adapters-on-this-system-are-currently-in-use) - *2018-08-31*
+- [How to get your computer from blank disk(s) to fully operational in no time... (Windows edition)](xref:windows10-quick-installation) - *2018-07-28*
+- [ICT skills at primary school](xref:azure-for-school) - *2018-02-26*
+- [Build anything with Google: Google Maps APIs](xref:google-maps-api) - *2018-01-31*
+- [Integrate Google AdSense into your Ghost](xref:integrate-google-adsense-ghost) - *2017-09-25*
+- [Ghost Desktop on Xubuntu 17.04 won't start](xref:ghost-desktop-wont-start) - *2017-08-08*
+- [Migration to Ghost](xref:migration-joomla-ghost) - *2017-08-07*
+- [Good to know: Sender Policy Framework](xref:spf) - *2014-12-12*
+- [Microsoft and innovation: IIF() method](xref:microsoft-and-innovation-iif-method) - *2013-10-06*
+- [Resume on 30 Days of SharePoint](xref:resume-on-30-days-of-sharepoint) - *2013-09-30*
+- [Exploring various SharePoint blogs](xref:exploring-various-sharepoint-blogs) - *2013-09-05*
+- [SharePoint 2013 Developer Ramp-Up - Part 2](xref:sharepoint-2013-developer-ramp-up-part-2) - *2013-09-03*
+- [SharePoint 2013 Developer Ramp-Up - Part 1](xref:sharepoint-2013-developer-ramp-up-part-1) - *2013-09-02*
+- [Tuning SQL Server 2012 for SharePoint 2013 Jump Start](xref:tuning-sql-server-2012-for-sharepoint-2013-jump-start) - *2013-09-01*
+- [The 30 days of Microsoft SharePoint challenge](xref:the-30-days-microsoft-sharepoint-challenge) - *2013-08-31*
+- [Is the CODE keyboard the right keyboard for coding?](xref:the-right-keyboard-for-coding) - *2013-08-30*
+- [Essentials for software developer or any computer job](xref:essentials-for-software-developer) - *2013-05-13*
+- [More content for MCSDs: Web Applications and Windows Store Apps using HTML5](xref:more-content-for-mcsds-web-applications-and-windows-store-apps-using-html5) - *2013-02-18*
+- [Passed: Exam 70-480: Programming in HTML5 with JavaScript and CSS3](xref:passed-exam-70-480-programming-in-html5-with-javascript-and-css3) - *2012-12-18*
+- [Learning content for MCSDs: Web Applications and Windows Store Apps using HTML5](xref:learning-content-for-mcsds-web-applications-and-windows-store-apps-using-html5) - *2012-11-16*
+- [Custom page sizes in paging dropdown in Telerik RadGrid](xref:custom-page-sizes-in-paging-dropdown-in-telerik-radgrid) - *2012-11-08*
+- [Taking web sites offline for demonstration](xref:taking-web-sites-offline-for-demonstration) - *2012-10-29*
+- [Software development stack 2012](xref:software-development-stack) - *2012-08-13*
+- [Microsoft Virtual Academy](xref:microsoft-virtual-academy) - *2011-10-13*
+- [Using Lightbox with _Screen](xref:using-lightbox-with-screen) - *2010-10-31*
+- [Future of Active FoxPro Pages - secured](xref:future-of-active-foxpro-pages-secured) - *2010-09-29*
+- [Modified Ultimate Paypal Donations Module](xref:modified-mod-paypal) - *2010-02-17*
+- [Modified HP Router](xref:modified-hp-router) - *2010-01-30*
+- [Nichts ist unmöglich...](xref:nichts-ist-unmglich) - *2010-01-24*
+- [Spass mit der MessageBox()](xref:spass-mit-der-messagebox) - *2010-01-24*
+- [Modified Mod LCA](xref:modified-mod-lca) - *2010-01-23*
+- [Working with 'Parameter objects' instead of parameters](xref:working-with-parameter-objects-instead-of-parameters) - *2008-06-04*
+- [Private projects added (at least started...)](xref:private-projects-added-at-least-started) - *2008-03-19*
+- [Transfer of articles from old blog database](xref:transfer-of-articles-from-old-blog-database) - *2008-02-18*
+- [PowerShell 1.0](xref:powershell-1-0) - *2006-11-16*
+- [Semitransparente 'Forms' erstellen](xref:semitransparente-forms-erstellen) - *2006-10-29*
+- [Projekt - Sunshine](xref:projekt-sunshine) - *2006-10-28*
+- [HTML-Tag nach VFP adaptiert](xref:html-tag-nach-vfp-adaptiert) - *2006-09-19*
+- [Kommentar zu 'Parameterobjekte'](xref:kommentar-zu-parameterobjekte) - *2006-08-25*
+- [SAP.Functions und weitere Experimente](xref:sapfunctions-und-weitere-experimente) - *2006-08-24*
+- [Die Checkbox und ihr Enter/Return-Verhalten](xref:die-checkbox-und-ihr-enter-return-verhalten) - *2006-08-17*
+- [VFP für Webausgabe von Daten](xref:vfp-fr-webausgabe-von-daten) - *2006-08-17*
+- [ASP.NET und Visual FoxPro](xref:asp-net-und-visual-foxpro) - *2006-04-29*
+- [Zwei unterschiedliche Datenbanken in ADO.NET verbinden](xref:zwei-unterschiedliche-datenbanken-in-adonet-verbinden) - *2006-04-28*
+- ["IIS 7 - Ein Web-Server der 'Next Generation'?"](xref:iis-7-ein-web-server-der-next-generation) - *2006-04-27*
+- [Windows Forms in VFP](xref:windows-forms-in-vfp) - *2006-04-26*
+- [Regular Expressions in VFP](xref:regular-expressions-in-vfp) - *2006-04-22*
+- [Html Plugin 0.7.16](xref:html-plugin-0716) - *2006-04-21*
+- [Dynamic-Link Libraries in VFP verwenden](xref:dynamic-link-libraries-in-vfp-verwenden) - *2006-04-19*
+- [.NET per COM nutzen](xref:net-per-com-nutzen) - *2006-04-19*
+- [FCKeditor in Active FoxPro Pages verwenden](xref:fckeditor-in-active-foxpro-pages-verwenden) - *2006-04-11*
+- [PathInfo Plugin für AFP](xref:pathinfo-plugin-fr-afp) - *2006-04-11*
+- [PATH_INFO oder wozu gibt es eigentlich RFCs?](xref:pathinfo-oder-wozu-gibt-es-eigentlich-rfcs) - *2006-04-10*
+- [AfpWiki Core Engine available](xref:afpwiki-core-engine-available) - *2006-04-06*
+- [Design Pattern: Strategy](xref:design-pattern-strategy) - *2006-04-04*
+- [Design Pattern: Singleton](xref:design-pattern-singleton) - *2006-04-04*
+- [Bauen wir uns einen Webserver](xref:bauen-wir-uns-einen-webserver) - *2006-03-26*
+- [Produktreife nähert sich...](xref:produktreife-nhert-sich) - *2006-03-25*
+- [FoxPro als embedded DB in .NET](xref:foxpro-als-embedded-db-in--net) - *2006-03-23*
+- [Objektorientierung für Anfänger...](xref:objektorientierung-fr-anfnger) - *2006-03-20*
+- [AJaX - der schnelle Küchenreiniger für die Website](xref:ajax-der-schnelle-kchenreiniger-fr-die-website) - *2006-01-26*
+- [Design Pattern: Decorator](xref:design-pattern-decorator) - *2005-12-03*
+- [AfpWiki wächst weiter...](xref:afpwiki-wchst-weiter) - *2005-10-13*
+- [LINQ - auch mit VFP kein Problem: VOSQL](xref:linq-auch-mit-vfp-kein-problem-vosql) - *2005-09-21*
+- [MSDN zu VFP OLE DB Provider](xref:msdn-zu-vfp-ole-db-provider) - *2005-07-12*
+- [RSS Validation](xref:rss-validation) - *2005-07-10*
+- [Die Zukunft von VFP](xref:die-zukunft-von-vfp) - *2005-06-13*
+- [Practical PostgreSQL](xref:practical-postgresql) - *2005-05-10*
+- [In 80 Zeilen um die VFP-Tabelle](xref:in-80-zeilen-um-die-vfp-tabelle) - *2005-04-29*
+- [Unexpected error 0x8ffe2740 occurred](xref:unexpected-error-0x8ffe2740-occurred) - *2005-04-15*
+- [Expression evaluator failed (Error 67)](xref:expression-evaluator-failed-error-67) - *2005-04-07*
+- [VFP Datenbank in .NET](xref:vfp-datenbank-in--net) - *2005-04-04*
+- [MultiSelect-Komponente](xref:multiselect-komponente) - *2005-03-05*
+- [SQL Server Workgroup Edition](xref:sql-server-workgroup-edition) - *2005-02-27*
+- [AfpWiki released](xref:afpwiki-released) - *2005-02-24*
+- [Noch ein Wiki](xref:noch-ein-wiki) - *2005-02-23*
+- [Fox Is Anywhere!](xref:fox-is-anywhere) - *2005-02-20*
+- [VFP 9.0 Upgrade](xref:vfp-90-upgrade) - *2005-02-19*
+- [C# unter Linux](xref:c-unter-linux) - *2004-12-01*
+- [JavaScript macht Spass](xref:javascript-macht-spass) - *2004-07-13*

@@ -1,0 +1,74 @@
+﻿<section class="post-full-authors">
+
+    <div class="post-full-authors-content">
+        <p>This post was a collaboration between</p>
+        <p>{{authors}}</p>
+    </div>
+
+    <ul class="author-list">
+    {{#authors}}
+        <li class="author-list-item">
+
+            <div class="author-card">
+                <div class="basic-info">
+                    {{#profile_image}}
+                        <img class="author-profile-image" src="{{_rel}}{{profile_image}}" alt="{{title}}" />
+                    {{else}}
+                        <div class="author-profile-image">{{>partials/icons/avatar}}</div>
+                    {{/profile_image}}
+                    <h2>{{title}}</h2>
+                </div>
+                <div class="bio">
+                    {{#bio}}
+                        <p>{{bio}}</p>
+                        <p><a href="{{_rel}}{{slug}}.html">More posts</a> by {{title}}.</p>
+                    {{else}}
+                        <p>Read <a href="{{_rel}}{{slug}}.html">more posts</a> by this author.</p>
+                    {{/bio}}
+                </div>
+            </div>
+
+            {{#profile_image}}
+                <a href="{{_rel}}{{slug}}.html" class="moving-avatar">
+                    <img class="author-profile-image" src="{{_rel}}{{profile_image}}" alt="{{title}}" />
+                </a>
+            {{else}}
+                <a href="{{_rel}}{{slug}}.html" class="moving-avatar author-profile-image">{{>partials/icons/avatar}}</a>
+            {{/profile_image}}
+
+        </li>
+    {{/authors}}
+
+    </ul>
+
+</section>
+
+
+<script>
+// Adds delay to author card dropups to disappear. This gives enough
+// time for the user to interact with the author card while they move
+// the mouse from the avatar to the card. Also makes space for the
+// interacted avatar.
+$(document).ready(function () {
+
+    var hoverTimeout;
+
+    $('.author-list-item').hover(function(){
+        var $this = $(this);
+
+        clearTimeout(hoverTimeout);
+
+        $('.author-card').removeClass('hovered');
+        $(this).children('.author-card').addClass('hovered');
+
+    }, function() {
+        var $this = $(this);
+
+        hoverTimeout = setTimeout(function() {
+            $this.children('.author-card').removeClass('hovered');
+        }, 800);
+    });
+
+});
+</script>
+

@@ -1,0 +1,42 @@
+<meta name="twitter:card" content="summary_large_image">
+{{#twitterTitle}}
+<meta name="twitter:title" content="{{twitterTitle}}">
+{{/twitterTitle}}
+{{^twitterTitle}}
+{{#title}}
+<meta name="twitter:title" content="{{title}}">
+{{/title}}
+{{/twitterTitle}}
+{{#twitterDescription}}
+<meta name="twitter:description" content="{{twitterDescription}}">
+{{/twitterDescription}}
+{{^twitterDescription}}
+{{#description}}
+<meta name="twitter:description" content="{{description}}">
+{{/description}}
+{{^description}}
+{{#summary}}
+<meta name="twitter:description" content="{{summary}}">
+{{/summary}}
+{{/description}}
+{{/twitterDescription}}
+{{#canonicalUrl}}
+<meta name="twitter:url" content="{{canonicalUrl}}">
+{{/canonicalUrl}}
+{{#twitterImageUrl}}
+<meta name="twitter:image" content="{{twitterImageUrl}}">
+{{/twitterImageUrl}}
+{{#_siteTwitter}}
+<meta name="twitter:site" content="{{_siteTwitter}}">
+{{/_siteTwitter}}
+{{#authorTwitter}}
+<meta name="twitter:creator" content="{{authorTwitter}}">
+{{/authorTwitter}}
+{{#author}}
+<meta name="twitter:label1" content="Written by">
+<meta name="twitter:data1" content="{{author}}">
+{{/author}}
+{{#keywords}}
+<meta name="twitter:label2" content="Filed under">
+<meta name="twitter:data2" content="{{keywords}}">
+{{/keywords}}

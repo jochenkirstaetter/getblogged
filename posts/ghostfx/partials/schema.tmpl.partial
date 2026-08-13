@@ -1,0 +1,53 @@
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "{{#_appTitle}}{{_appTitle}}{{/_appTitle}}{{^_appTitle}}Get Blogged by JoKi{{/_appTitle}}",
+        "url": "{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "{{#_appUrl}}{{#_appLogoPath}}{{_appUrl}}/{{_appLogoPath}}{{/_appLogoPath}}{{^_appLogoPath}}{{_appUrl}}/favicon.png{{/_appLogoPath}}{{/_appUrl}}{{^_appUrl}}favicon.png{{/_appUrl}}",
+            "width": 60,
+            "height": 60
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "{{#author}}{{author}}{{/author}}{{^author}}Jochen Kirstätter{{/author}}",
+        "image": {
+            "@type": "ImageObject",
+            "url": "{{authorImageUrl}}",
+            "width": 100,
+            "height": 100
+        },
+        "url": "{{authorPageUrl}}",
+        "sameAs": [
+            "{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}"
+            {{#authorFacebook}},
+            "{{authorFacebook}}"
+            {{/authorFacebook}}
+            {{#authorTwitter}},
+            "https://x.com/{{authorTwitter}}"
+            {{/authorTwitter}}
+        ]
+    },
+    "headline": "{{#title}}{{title}}{{/title}}",
+    "url": "{{canonicalUrl}}",
+    "datePublished": "{{#publishedAt}}{{publishedAt}}{{/publishedAt}}",
+    "dateModified": "{{#updatedAt}}{{updatedAt}}{{/updatedAt}}{{^updatedAt}}{{#publishedAt}}{{publishedAt}}{{/publishedAt}}{{/updatedAt}}",
+    "image": {
+        "@type": "ImageObject",
+        "url": "{{imageUrl}}",
+        "width": 1920,
+        "height": 1277
+    },
+    "keywords": "{{#keywords}}{{keywords}}{{/keywords}}",
+    "description": "{{#description}}{{description}}{{/description}}{{^description}}{{#summary}}{{summary}}{{/summary}}{{/description}}",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}"
+    }
+}
+</script>
