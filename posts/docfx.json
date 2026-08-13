@@ -41,6 +41,7 @@
           "*.svg",
           "*.ico",
           "site.webmanifest",
+          "ads.txt",
           "robots.txt",
           "*.xml",
           "*.html"
