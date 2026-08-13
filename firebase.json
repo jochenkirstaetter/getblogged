@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/firebase/firebase-tools/master/schema/firebase-config.json",
+  "hosting": {
+    "public": "posts/_site",
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/404",
+        "destination": "/http-404.html"
+      },
+      {
+        "source": "/404.html",
+        "destination": "/http-404.html"
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/assets/:path*",
+        "destination": "/public/:path*",
+        "type": 301
+      },
+      {
+        "source": "/images/:path*",
+        "destination": "/content/images/:path*",
+        "type": 301
+      }
+    ]
+  },
+  "emulators": {
+    "hosting": {
+      "port": 5000
+    },
+    "ui": {
+      "enabled": true
+    },
+    "singleProjectMode": true
+  }
+}

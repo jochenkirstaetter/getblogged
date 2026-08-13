@@ -19,7 +19,6 @@ _ghost_templates/
 # Firebase
 .firebase/
 .firebaserc
-firebase.json
 firebase-debug.log
 
 # Docfx generated files
