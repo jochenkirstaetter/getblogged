@@ -62,7 +62,7 @@ Hi, my name is Jochen Kirstätter, also known as "JoKi". I'm a [senior software 
 
 ## Bio
 
-Although living on a tropical island, Jochen Kirstätter is a business owner and entrepreneur in different industry sectors. Mainly operating in the development of tailor-made software solutions since more than 20 years, he is also venturing into the world of cloud computing. You can either meet him at the regular meetups of the [Mauritius Software Craftsmanship Community](https://www.mscc.mu) or reach him easily on X (prev. Twitter) [@JKirstaetter](https://x.com/jkirstaetter) and Mastodon [@JKirstaetter](https://mastodon.social/@jkirstaetter).
+Although living on a tropical island, Jochen Kirstätter is a business owner and entrepreneur in different industry sectors. Mainly operating in the development of tailor-made software solutions since more than 20 years, he is also venturing into the world of cloud computing. You can either meet him at the regular meetups of the [Mauritius Software Craftsmanship Community](https://www.mscc.mu) or reach him easily on X (prev. Twitter) [@JKirstaetter](https://x.com/jkirstaetter), BlueSky [@jochen.kirstaetter.name](https://bsky.app/profile/jochen.kirstaetter.name), and Mastodon [@JKirstaetter](https://mastodon.social/@jkirstaetter).
 
 Jochen is a Google Developer Expert (GDE) for Google Cloud and AI; he is also a Microsoft MVP for Developer Technologies for several years. He founded the now largest IT community in Mauritius, and organises the annual Developers Conference. Following his interest in cross-platform technologies he is also an organiser of the Google Developer Group (GDG) Mauritius.
 
@@ -80,6 +80,6 @@ The [GDG Mauritius](https://gdg.community.dev/gdg-mauritius/) was an idea that k
 
 ## Ways of Contact
 
-I would love it if you would subscribe to [my blog's RSS feed](https://jochen.kirstaetter.name/rss/). I'm also on [Twitter](https://twitter.com/jkirstaetter), [Mastodon](https://mastodon.social/@jkirstaetter), [LinkedIn](https://www.linkedin.com/in/jochenkirstaetter/), and [Facebook](https://www.facebook.com/jochen.kirstaetter).
+I would love it if you would subscribe to [my blog's RSS feed](https://jochen.kirstaetter.name/rss/). I'm also on [X](https://x.com/jkirstaetter), [BlueSky](https://bsky.app/profile/jochen.kirstaetter.name), [Mastodon](https://mastodon.social/@jkirstaetter), [LinkedIn](https://www.linkedin.com/in/jochenkirstaetter/), and [Facebook](https://www.facebook.com/jochen.kirstaetter).
 
 If you just want to email me, go ahead send an email to [jochen@kirstaetter.name]() but be nice and make sure you questioned the interweb a bit before you do.
