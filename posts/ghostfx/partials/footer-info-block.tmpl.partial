@@ -11,7 +11,7 @@
         </div>
         <div class="footer_information-3 col-3">
             <h6>Crafted with <i class="fa fa-heart" aria-hidden="true"></i> in Mauritius</h6>
-            <p>This site runs entirely on <a href="https://ghost.org/">Ghost</a>. I got inspired during a camp-site fire talk with John O'Nolan. Read more about [<a href="/john-onolan">]why I chose to use Ghost</a>.</p>
+            <p>This site runs entirely on <a href="https://ghost.org/">Ghost</a>. I got inspired during a camp-site fire talk with John O'Nolan. Read more about <a href="/john-onolan">why I chose to use Ghost</a>.</p>
         </div>
     </div>
 </div>
