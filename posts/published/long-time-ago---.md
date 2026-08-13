@@ -58,7 +58,7 @@ codeinjectionFoot:
 
 I guess this may be the words for a fairy tale. But this blog article isn't to be one of those. Well, long time ago since I blogged my last article on this site. Meanwhile I did a lot of project stuff for some customers and now again, it's vacation time. Probably the best time to write a new blog entry.
 
-Alright, let's what's changed since last time. Actually I wrote some nice entries to my German blog at [https://jochen.kirstaetter.name/](https://jochen.kirstaetter.name/) and like to summarize the last three months a little bit.
+Alright, let's what's changed since last time. Actually I wrote some nice entries to my German blog at [https://jochen.kirstaetter.name/](https://jochen.kirstaetter.name) and like to summarize the last three months a little bit.
 
 Starting with the German VFP developer's conference - [https://devcon.dfpug.de](https://devcon.dfpug.de) - should be a smooth way to sum up all this stuff. Yup, again I had the chance to speak at the conference and I held four sessions. Those were about useful and free tools to enhance daily work with Visual FoxPro (D-GEIZ), Regular Expressions - my favorite one (D-REGX), using Subversion as source code version control system (D-SVN) and last but not least about interoperability between Visual FoxPro and Linux related technologies (D-LINU). Just check out the session descriptions for details or even better the UT Coverage at [https://www.utcoverage.com/German/2005](https://www.utcoverage.com/German/2005) and [https://www.utcoverage.com/German/20052](https://www.utcoverage.com/German/20052) - especially the picture gallery. ;-)
 

@@ -56,7 +56,7 @@ codeinjectionFoot:
 
 ![](https://jochen.kirstaetter.name/geocaching-casela-bird-park/images/joooid/geocaching_-_casela_bird_park_20130126112429.jpg)
 
-Usually on Saturdays, we are on tour somewhere here on the island and trying hard to kill our time until mummy is done with her customers. But today we, or better I decided to take the children on our first real treasure hunt. Of course, the kids were super-excited about this. Due to the lack of a real treasure map and proper pirate outfit, I explained them that in [modern times hunters are equipped with modern tools](https://jochen.kirstaetter.name/geocaching-world-wide-treasure-hunt/). What better to use than a tablet these days?
+Usually on Saturdays, we are on tour somewhere here on the island and trying hard to kill our time until mummy is done with her customers. But today we, or better I decided to take the children on our first real treasure hunt. Of course, the kids were super-excited about this. Due to the lack of a real treasure map and proper pirate outfit, I explained them that in [modern times hunters are equipped with modern tools](xref:geocaching-world-wide-treasure-hunt). What better to use than a tablet these days?
 
 So, the spark of excitement has been lit and off we went to one of our favourite locations on the island. Same like last Saturday, we checked out the playground first, then it was time for serious 'business'...
 

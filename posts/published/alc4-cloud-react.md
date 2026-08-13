@@ -288,4 +288,4 @@ See the icon and title of the browser tab among other modifications done.
 **Awesome!**  
 This is the first part of a series regarding the completion of the ALC 4.0 Cloud Challenge I. The article describes the creation and customisation of a React app and how to secure all modifications using an online repository on GitHub.
 
-In the next article we are going to [pack the React app as a Docker image and push it to the Google Container Registry (GCR)](https://jochen.kirstaetter.name/alc4-cloud-docker/) for further use.
+In the next article we are going to [pack the React app as a Docker image and push it to the Google Container Registry (GCR)](xref:alc4-cloud-docker) for further use.

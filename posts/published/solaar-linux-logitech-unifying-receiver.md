@@ -106,7 +106,7 @@ Please, feel free to leave a comment about how solaar-cli could be helpful compa
 
 ## But what happened to dasKeyboard?
 
-Read more about that in separate article about [How to choose the right keyboard for coding](https://jochen.kirstaetter.name/the-right-keyboard-for-coding/ "How to choose the right keyboard for coding").
+Read more about that in separate article about [How to choose the right keyboard for coding](xref:the-right-keyboard-for-coding "How to choose the right keyboard for coding").
 
 **Solaar** is a Linux device manager for Logitech’s [Unifying Receiver](https://logitech.com/en-us/66/6079) peripherals. It is able to pair/unpair devices to the receiver, and for most devices read battery status.
 

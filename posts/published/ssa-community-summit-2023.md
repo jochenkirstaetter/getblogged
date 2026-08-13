@@ -321,7 +321,7 @@ And we did celebrate! ;-)
 
 ## "Day 3" - DevFest Kigali
 
-Again, GDG Kigali organised their DevFest at the same time as the SSA Community Summit. In comparison to last year I reached out to the organising team early and sent them a talk proposal. You can read more about this adventure here: [DevFest Kigali 2023](https://jochen.kirstaetter.name/devfest-kigali-2023/).
+Again, GDG Kigali organised their DevFest at the same time as the SSA Community Summit. In comparison to last year I reached out to the organising team early and sent them a talk proposal. You can read more about this adventure here: [DevFest Kigali 2023](xref:devfest-kigali-2023).
 
 ## "Thank You, Googlers!"
 

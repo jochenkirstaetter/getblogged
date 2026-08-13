@@ -68,7 +68,7 @@ The MSCC is technology-agnostic community and spans an umbrella over any kind of
 A community for those who care and are proud of what they do. For those developers, regardless how experienced they are, who want to improve and master their craft.  
 This is a community for those who believe that being average is just not good enough.
 
-Get more information in the [Introduction to Mauritius Software Craftsmanship Community](https://jochen.kirstaetter.name/intro-to-mscc/).
+Get more information in the [Introduction to Mauritius Software Craftsmanship Community](xref:intro-to-mscc).
 
 ## Linux User Group Mauritius
 

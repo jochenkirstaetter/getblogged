@@ -56,7 +56,7 @@ codeinjectionFoot:
 
 First off: Mission accomplished successfully. And it was fun!
 
-Using the resources listed in [my previous article about Learning Content](https://jochen.kirstaetter.name/learning-content-for-mcsds-web-applications-and-windows-store-apps-using-html5/ "my previous article about Learning Content"), I'd like to thank Microsoft Technical Evangelists Jeremy Foster and Michael Palermo for their [excellent jump start videos on Channel 9](https://channel9.msdn.com/Series/MVA-Jump-Start/Developing-HTML5-Apps-Jump-Start-01a-HTML5-Semantic-Structure-Part-1 "excellent jump start videos on Channel 9"), and the various authors at Pluralsight.
+Using the resources listed in [my previous article about Learning Content](xref:learning-content-for-mcsds-web-applications-and-windows-store-apps-using-html5 "my previous article about Learning Content"), I'd like to thank Microsoft Technical Evangelists Jeremy Foster and Michael Palermo for their [excellent jump start videos on Channel 9](https://channel9.msdn.com/Series/MVA-Jump-Start/Developing-HTML5-Apps-Jump-Start-01a-HTML5-Semantic-Structure-Part-1 "excellent jump start videos on Channel 9"), and the various authors at Pluralsight.
 
 ## Local Prometric testing centre
 

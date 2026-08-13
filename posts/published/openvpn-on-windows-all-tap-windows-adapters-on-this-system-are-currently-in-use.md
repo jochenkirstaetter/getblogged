@@ -56,9 +56,9 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-Working with several clients or partners might be an interesting challenge sometimes. While adding a new connection to an [existing OpenVPN infrastructure](https://jochen.kirstaetter.name/openvpn-revisited/) I came across the following error message in the client log file: All TAP-Windows adapters on this system are currently in use.
+Working with several clients or partners might be an interesting challenge sometimes. While adding a new connection to an [existing OpenVPN infrastructure](xref:openvpn-revisited) I came across the following error message in the client log file: All TAP-Windows adapters on this system are currently in use.
 
-Depending on how you actually installed your VPN client software you might be facing this issue while adding an additional client configuration for another connection. Especially when you are using a client software by a third-party provider, ie. [WatchGuard Mobile VPN](https://jochen.kirstaetter.name/connecting-linux-to-watchguard-firebox-ssl/) or Sophos. Perhaps you might be struggling to resolve it.
+Depending on how you actually installed your VPN client software you might be facing this issue while adding an additional client configuration for another connection. Especially when you are using a client software by a third-party provider, ie. [WatchGuard Mobile VPN](xref:connecting-linux-to-watchguard-firebox-ssl) or Sophos. Perhaps you might be struggling to resolve it.
 
 ## Get the TAP-Windows driver
 

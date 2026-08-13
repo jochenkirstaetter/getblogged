@@ -63,7 +63,7 @@ No question whether to attend or not...
 
 ## Windows 10, Visual Studio 2015 and... Visual Studio Code
 
-Yes, you read it correctly - [Visual Studio Code](https://code.visualstudio.com), Microsoft's newly launched cross-platform text editor for quick and easy access to redefined code editing features. Surprisingly, Arnaud got in touch with me just some days prior to the event asking whether it would be suitable to actually do a presentation on Visual Studio Code - best running it on Linux, too. As I just wrote [an article regarding an enhanced experience of using Code on Linux](https://jochen.kirstaetter.name/install-visual-studio-code-on-linux-ubuntu/) I agreed and all was set for the event to happen.
+Yes, you read it correctly - [Visual Studio Code](https://code.visualstudio.com), Microsoft's newly launched cross-platform text editor for quick and easy access to redefined code editing features. Surprisingly, Arnaud got in touch with me just some days prior to the event asking whether it would be suitable to actually do a presentation on Visual Studio Code - best running it on Linux, too. As I just wrote [an article regarding an enhanced experience of using Code on Linux](xref:install-visual-studio-code-on-linux-ubuntu) I agreed and all was set for the event to happen.
 
 ## T - 30 minutes...
 
@@ -88,7 +88,7 @@ They wrote a bit more about the details of the sessions of the evening. I'm goin
 
 ## Talking about Visual Studio Code
 
-Well, it was more or less just a cameo session of roughly 20 minutes. Actually, I went quickly through the steps of acquiring Code from the official website, gave some details about the nature of the application. Code itself is written in TypeScript using web-based technologies which are then hosted in the cross-platform compatible [Electron shell](https://electronjs.org/) which runs on Windows, Mac OS X and Linux operating systems. Next, there were [the steps from my guide](https://jochen.kirstaetter.name/install-visual-studio-code-on-linux-ubuntu/), and after showing the shortcut entry in the main application menu it was time to fire up Code itself.
+Well, it was more or less just a cameo session of roughly 20 minutes. Actually, I went quickly through the steps of acquiring Code from the official website, gave some details about the nature of the application. Code itself is written in TypeScript using web-based technologies which are then hosted in the cross-platform compatible [Electron shell](https://electronjs.org/) which runs on Windows, Mac OS X and Linux operating systems. Next, there were [the steps from my guide](xref:install-visual-studio-code-on-linux-ubuntu), and after showing the shortcut entry in the main application menu it was time to fire up Code itself.
 
 ![Showing source code of an AngularJS web app with controller and partial view next to each other in Visual Studio Code](https://s.kirstaetter.name/images/VisualStudioCode_DevConMru.png "Showing source code of an AngularJS web app with controller and partial view next to each other in Visual Studio Code")  
 *Showing source code of an AngularJS web app with controller and partial view next to each other in Visual Studio Code*

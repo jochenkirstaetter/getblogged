@@ -65,10 +65,10 @@ And they did it!
 I'm just going to quote their mission statement here:  
 *[INFOTECH](http://infotech.mu/) is the major annual Information and Communication Technology (ICT) event organised in Mauritius by the National Computer Board (NCB) in collaboration with the Ministry of Technology, Communication and Innovation. The aim is to create awareness on emerging technologies and provide business opportunities in the ICT sector.*
 
-Personally, I went to Infotech first time in [2008](https://jochen.kirstaetter.name/infotech-2008/), and back then there were more product demonstration than a vast range of discounts.  
+Personally, I went to Infotech first time in [2008](xref:infotech-2008), and back then there were more product demonstration than a vast range of discounts.  
 And yes, every year Infotech is surely offering business opportunities and people are looking forward to it. Given the annual dates around end of November or begin of December it takes somehow into consideration that a good number of people in the IT sector and in general already received their annual bonus payments. What else better than to spend it on some hardware gadgets like a new mobile phone, a large smart TV, a new computer or laptop?
 
-But unfortunately that seemed to have been one of the major reasons why the [reputation of Infotech](https://jochen.kirstaetter.name/infotech-2013/) as an event to create awareness on emerging technologies has lost out. There was too much emphasis on sales and too few on innovation. Eventually, this might be an opinionated view of things on my side. Would be great to have your input in the comments below.
+But unfortunately that seemed to have been one of the major reasons why the [reputation of Infotech](xref:infotech-2013) as an event to create awareness on emerging technologies has lost out. There was too much emphasis on sales and too few on innovation. Eventually, this might be an opinionated view of things on my side. Would be great to have your input in the comments below.
 
 ## Infotech - the changed parts
 

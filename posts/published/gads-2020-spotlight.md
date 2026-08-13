@@ -65,7 +65,7 @@ Kindly use the comment section below the article if you would like to know more 
 
 > "The only frontiers are in your mind"
 
-Hi, my name is Jochen Kirstätter, also known as "JoKi". I'm a software craftsman, blogger, community founder, and speaker. Although I have been awarded as [Microsoft Most Valuable Professional (MVP)](https://mvp.microsoft.com/en-us/PublicProfile/5001701) for Developer Technologies and as [Google Developers Expert (GDE)](https://developers.google.com/community/experts/directory/profile/profile-jochen_kirst_C3_A4tter) for Cloud I neither work for Microsoft nor for Google. These awards are a recognition of my community contributions, mu passion to share knowledge, and my activities to engage with their respective services and products over years.
+Hi, my name is Jochen Kirstätter, also known as "JoKi". I'm a software craftsman, blogger, community founder, and speaker. Although I have been awarded as [Microsoft Most Valuable Professional (MVP)](https://mvp.microsoft.com/en-US/MVP/profile/53d40e60-fe70-490e-8e73-2185b648f26f) for Developer Technologies and as [Google Developers Expert (GDE)](https://developers.google.com/community/experts/directory/profile/profile-jochen_kirst_C3_A4tter) for Cloud I neither work for Microsoft nor for Google. These awards are a recognition of my community contributions, mu passion to share knowledge, and my activities to engage with their respective services and products over years.
 
 ## What inspires You?
 

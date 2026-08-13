@@ -83,7 +83,7 @@ The [Vertex AI Gemini API](https://cloud.google.com/vertex-ai/docs/generative-ai
 
 With the release of Visual Studio 2022 Version 17.5 there is a new feature available that allows for better, faster API development using `.http`/`.rest` files with an integrated HTTP client. Those files enable you to "run" your API endpoints and manipulate various REST calls to iterate within parameters and see the outputs in a structured way. Learn more about [Visual Studio 2022 - 17.5 release announcement](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-5-released/#api).
 
-Similar to the set up procedures for [Getting started with Gemini using Visual Studio](https://jochen.kirstaetter.name/getting-started-with-gemini-using-vs-http/) create a project, probably a web application or API one and create an .http file to start with.
+Similar to the set up procedures for [Getting started with Gemini using Visual Studio](xref:getting-started-with-gemini-using-vs-http) create a project, probably a web application or API one and create an .http file to start with.
 
 In order to keep private, sensitive information and secrets out of your source code repositories, it is recommended to use either Environment Variables, User Secrets, or Azure Key Vault to retrieve data like the project ID or an access token. Here, I'm going to create an `.env` file and place it into the project folder with the following content.
 

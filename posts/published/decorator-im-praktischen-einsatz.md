@@ -56,8 +56,8 @@ codeinjectionFoot:
 
 Ja, ich weiß... Decorator hier, Decorator dort. 😁 - Langsam reicht es doch mal wieder. Nun, ja ihr habt ja recht. Nach den bisherigen Blogeinträgen
 
-- [Design Pattern: Decorator](https://jochen.kirstaetter.name/Design-Pattern-Decorator)
-- [Anmerkungen zum Decorator Design Pattern](https://jochen.kirstaetter.name/Anmerkungen-zum-Decorator-Design-Pattern)
+- [Design Pattern: Decorator](xref:design-pattern-decorator)
+- [Anmerkungen zum Decorator Design Pattern](xref:anmerkungen-zum-decorator)
 
 möchte ich die Serie über dieses Entwurfsmuster mit diesem Beitrag vorerst abschliessen.  
 Warum der Nachschlag? Wieder einmal die Unterhaltung mit Olaf Doschke im Forum der dFPUG. Es ist sehr anregend mit anderen Entwicklern über die Thematik und Implementierung zu sprechen. Olaf hatte noch sehr gute Anregungen für die Realisierung und Verbesserung des bisherigen Quellcodes. Zu meiner Entschuldigung möchte ich aber auch sagen, dass der Einstiegsartikel nicht mit den Details des Fehlerhandlings 'langweilen' sollte, sondern primär die Anwendbarkeit des Entwurfsmusters verdeutlichen.

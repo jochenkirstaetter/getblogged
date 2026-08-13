@@ -301,4 +301,4 @@ Here it is 34.70.0.91. Let's have a look at our deployed React app running as Do
 **Congratulations!**  
 The Cloud Challenge has been completed successfully.
 
-In the fourth and last part of this series I'm adding a few aspects to think about when deploying a web application into production environment. Find out more here: [Considerations for production readiness (ALC 4.0 Cloud Challenge I)](https://jochen.kirstaetter.name/alc4-cloud-ready/).
+In the fourth and last part of this series I'm adding a few aspects to think about when deploying a web application into production environment. Find out more here: [Considerations for production readiness (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-ready).

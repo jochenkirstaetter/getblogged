@@ -54,7 +54,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-Als Konsequenz der Anwendung im Beitrag [Scripting.FileSystemObject](https://jochen.kirstaetter.name/ScriptingFileSystemObject) stelle ich euch hier die Theorie des Design Pattern Singleton (deutsch: Einzelstück) und meine interpretierte Implementierung vor. In [Wikipedia ist die Definition](https://de.wikipedia.org/wiki/Einzelst%C3%BCck_%28Entwurfsmuster%29) wie folgt beschrieben:
+Als Konsequenz der Anwendung im Beitrag [Scripting.FileSystemObject](xref:design-pattern-singleton) stelle ich euch hier die Theorie des Design Pattern Singleton (deutsch: Einzelstück) und meine interpretierte Implementierung vor. In [Wikipedia ist die Definition](https://de.wikipedia.org/wiki/Einzelst%C3%BCck_%28Entwurfsmuster%29) wie folgt beschrieben:
 
 *Das Einzelstück (engl. Singleton) ist ein in der Softwareentwicklung eingesetztes Entwurfsmuster und gehört zur Kategorie der Erzeugungsmuster (engl. Creational Patterns). Es stellt sicher, dass zu einer Klasse nur genau ein Objekt erzeugt werden kann und ermöglicht einen globalen Zugriff auf dieses Objekt.  
 [...]  
@@ -67,7 +67,7 @@ Anwendungsbeispiele sind:
 
 Wichtig finde ich hier, dass der Singleton die Sicherstellung der einmaligen Objekterzeugung von anderen Klassen verwaltet. Es heißt nicht zwangsläufig, dass der Singleton nur einmalig instanziiert werden kann. Wobei das natürlich das Optimum darstellen würde. Soviel zur Theorie, schauen wir uns das Pattern mal in der rauen VFP-Praxis an. Vor allem auch die Frage wo wir sowas etwas überhaupt gebrauchen könnten...
 
-Im Beitrag [Scripting.FileSystemObject](https://jochen.kirstaetter.name/ScriptingFileSystemObject) bin ich leicht auf das Thema Applicationservices eingegangen (nicht im Zusammenhang mit SOA), und habe für den einfachen Zugriff einen zentralen Anlaufpunkt in meiner Anwendung erzeugt, welcher mir Objektreferenzen liefert. Wichtig ist hierbei, dass der Dienst im Normalfall nur ein einziges Mal in der Anwendung existiert und dass ich mich nicht um die Erstellung des Dienstes kümmern muss. Und genau für diesen Einsatzzweck coden wir nun unser Singleton live und in Farbe...
+Im Beitrag [Scripting.FileSystemObject](xref:design-pattern-singleton) bin ich leicht auf das Thema Applicationservices eingegangen (nicht im Zusammenhang mit SOA), und habe für den einfachen Zugriff einen zentralen Anlaufpunkt in meiner Anwendung erzeugt, welcher mir Objektreferenzen liefert. Wichtig ist hierbei, dass der Dienst im Normalfall nur ein einziges Mal in der Anwendung existiert und dass ich mich nicht um die Erstellung des Dienstes kümmern muss. Und genau für diesen Einsatzzweck coden wir nun unser Singleton live und in Farbe...
 
 Als Basisklasse zur Verwaltung der Objekte verwenden wir eine Collection und spendieren dieser noch ein paar Funktionen:  
 [code]\*====================================================================  

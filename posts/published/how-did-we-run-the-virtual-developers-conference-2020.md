@@ -58,7 +58,7 @@ Thankfully, we received a number of positive and encouraging comments on the rec
 
 I mean, in the past, we already talked about live streaming some or all talks of our Developers Conference but practically nobody in the community ever did it before. And so, there was only one mission statement at the beginning.
 
-> "Create the best Report Writer in the world, out of only sawdust, bubblegum, and dreams." – Kerry Nietz, author of [FoxTales](https://jochen.kirstaetter.name/foxtales-behind-the-scenes-at-fox-software-by-kerry-nietz/)
+> "Create the best Report Writer in the world, out of only sawdust, bubblegum, and dreams." – Kerry Nietz, author of [FoxTales](xref:foxtales-behind-the-scenes-at-fox-software-by-kerry-nietz)
 
 Instead of a "Report Writer" it's the annual Developers Conference of the MSCC, the pinnacle event of our regular meetings. With the implications and constraints of the pandemic - full lockdown of Mauritius back in March and still ongoing - we needed to come up with a different solution.
 
@@ -340,7 +340,7 @@ That's the another good reason to organise a dry run before the event.
 
 The final piece of the puzzle is the configuration of streaming. Henk mentions in his article to use [Restream](https://restream.io/) which allows you to broadcast to multiple platforms simultaneously. We thought about it but decided to use YouTube directly because we wanted to keep the audience in one place.
 
-Navigate to your [YouTube Studio](https://jochen.kirstaetter.name/how-did-we-run-the-virtual-developers-conference-2020/studio.youtube.com/) and configure a new video stream. If you want to run multiple streams at the same time like we did over those three days you need to schedule them ahead of time.
+Navigate to your [YouTube Studio](xref:how-did-we-run-the-virtual-developers-conference-2020) and configure a new video stream. If you want to run multiple streams at the same time like we did over those three days you need to schedule them ahead of time.
 
 ![Manage your live streams in YouTube Studio and schedule multiple streams](../content/images/2020/09/image-24.png)
 

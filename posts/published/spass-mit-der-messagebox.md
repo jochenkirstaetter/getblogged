@@ -160,7 +160,7 @@ Und schon macht die zweite Code-Zeile im vorherigen Abschnitt gleich mehr Spass.
 So, wir sind damit auch schon ziemlich am Ende des Artikels. Die neu erstellte Funktion MessageBoxHelp an sich bietet ja schon einige Schmankerl mehr als die MessageBox()-Funktion, die uns Visual FoxPro anbietet. Dennoch kann ich mir vorstellen, dass keiner von euch - inklusive mir - großes Interesse hat jetzt seinen gesamten Code zu durchforsten, um den Aufruf zu ändern. Glücklicherweise sind wir ja bewandernd in den Fähigkeiten von Visual FoxPro und haben uns in der Onlinehilfe den Abschnitt über Präprozessoranweisungen durchgelesen. Die neu erzeugte Methode MessageBoxHelp hat ganz bewusst die identische Schnittstelle wie die originale Funktion. Und bedingt durch diese Tatsache benötigen wir lediglich eine einzige Zeile, um alle Funktionsaufrufe zu 'verbessern':  
   
 [code]#Define MessageBox MessageBoxHelp[/code]  
-Okay, das war's nun mit Späßen mit der MessageBox(). Den kompletten Quellcode mit Konstantendefinitionen und der Eingabevalidierung könnt ihr euch [als Download ziehen](https://jochen.kirstaetter.name/spass-mit-der-messagebox/files/joki_MessageBoxHelp.zip).  
+Okay, das war's nun mit Späßen mit der MessageBox(). Den kompletten Quellcode mit Konstantendefinitionen und der Eingabevalidierung könnt ihr euch [als Download ziehen](xref:spass-mit-der-messagebox).  
   
   
 Bis denne, JoKi  

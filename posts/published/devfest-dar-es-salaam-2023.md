@@ -56,7 +56,7 @@ codeinjectionFoot:
 
 After speaking at DevFest Nairobi in 2022 (including a spontaneous keynote on Google Cloud) I got inspired to be more active and hopefully present in other potential locations across the Sub-Saharan Africa region. And if I'm not completely wrong I also had an exchange with [Georgia Rwechungura](https://twitter.com/georgearwechu) during the SSA Community Summit 2022 regarding the idea of coming to Tanzania, or more precisely to come to [GDG Dar es Salaam](https://gdg.community.dev/gdg-dar-es-salaam/) and speaking at their DevFest.
 
-With an improving health and running a few workshops - in-house and remote - earlier this year I was getting more and more eager as well as excited about the idea to speak at other DevFest events than [Mauritius](https://jochen.kirstaetter.name/devfest-mauritius-2023/). All went well at [DevFest Kigali](https://jochen.kirstaetter.name/devfest-kigali-2023/) a few weeks earlier and so nothing could possibly stop me from going to Tanzania.
+With an improving health and running a few workshops - in-house and remote - earlier this year I was getting more and more eager as well as excited about the idea to speak at other DevFest events than [Mauritius](xref:devfest-mauritius-2023). All went well at [DevFest Kigali](xref:devfest-kigali-2023) a few weeks earlier and so nothing could possibly stop me from going to Tanzania.
 
 ## Getting there and back?
 

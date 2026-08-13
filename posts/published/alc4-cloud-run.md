@@ -64,7 +64,7 @@ Find out more information about [Cloud Run](https://cloud.google.com/run/).
 
 ## Taking the React app to Cloud Run
 
-Similar to the deployment to [Google Kubernetes Engine (ALC 4.0 Cloud Challenge I)](https://jochen.kirstaetter.name/alc4-cloud-k8s/) you would want to deploy [the existing React app](https://jochen.kirstaetter.name/alc4-cloud-react/) to Cloud Run.
+Similar to the deployment to [Google Kubernetes Engine (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-k8s) you would want to deploy [the existing React app](xref:alc4-cloud-react) to Cloud Run.
 
 The following command allows you to use any of the available containers in Container Registry (or Docker) and launch it on Cloud Run.
 
@@ -111,7 +111,7 @@ To learn more about the contract your containers must respect to be deployed to 
 
 How is this related to your container running the React app?
 
-Following the article [Working with Docker (ALC 4.0 Cloud Challenge I)](https://jochen.kirstaetter.name/alc4-cloud-docker/) you wrote a `Dockerfile` to build containers using nginx webserver. Using the default configuration and listening on port 80.
+Following the article [Working with Docker (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-docker) you wrote a `Dockerfile` to build containers using nginx webserver. Using the default configuration and listening on port 80.
 
 That's a violation to the container contract as per specification and you have to change the implementation of the Docker image.
 
@@ -166,7 +166,7 @@ Now, your local source is ready for Cloud Run.
 
 ## Submit and Run
 
-Either you would go forward to create the new container on your local system according to the article [Working with Docker](https://jochen.kirstaetter.name/alc4-cloud-docker/) or you might like to send the sources as described in [Working with Cloud Build](https://jochen.kirstaetter.name/alc4-cloud-build/).
+Either you would go forward to create the new container on your local system according to the article [Working with Docker](xref:alc4-cloud-docker) or you might like to send the sources as described in [Working with Cloud Build](xref:alc4-cloud-build).
 
 Being smart you submit to Cloud Build using this command.
 

@@ -62,7 +62,7 @@ Html Plugin is primarily a plug-in for [Active FoxPro Pages](https://www.afpages
 **Setup and Installation**  
 The setup routine installs and registers the component in Windows. The current version of the setup is available here:
 
-[https://jochen.kirstaetter.name/files/html.plugin-0.7.16.exe](https://jochen.kirstaetter.name/htmlplugin/files/html.plugin-0.7.16.exe)
+[https://jochen.kirstaetter.name/files/html.plugin-0.7.16.exe](xref:htmlplugin)
 
 Just get the file and follow the installation instructions.
 

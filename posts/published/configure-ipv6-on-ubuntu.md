@@ -54,14 +54,14 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-After the presentation on IPv6 at the [first event of the Emtel Knowledge Series](https://jochen.kirstaetter.name/emtel-knowledge-series-no1/) and some recent discussion on social media networks with other geeks and Linux interested IT people here in Mauritius, I thought that I should give it a try (finally) and tweak my local network infrastructure. Honestly, I have been to busy with contractual project work and it never really occurred to me to set up IPv6 in my LAN. Well, the following paragraphs are going to shed some light on those aspects of modern computer and network technology.
+After the presentation on IPv6 at the [first event of the Emtel Knowledge Series](xref:emtel-knowledge-series-no1) and some recent discussion on social media networks with other geeks and Linux interested IT people here in Mauritius, I thought that I should give it a try (finally) and tweak my local network infrastructure. Honestly, I have been to busy with contractual project work and it never really occurred to me to set up IPv6 in my LAN. Well, the following paragraphs are going to shed some light on those aspects of modern computer and network technology.
 
 This is the first article in a series on IPv6 configuration:
 
-- [Configure IPv6 on your Linux system](https://jochen.kirstaetter.name/configure-ipv6-on-ubuntu/)
-- [DHCPv6: Provide IPv6 information in your local network](https://jochen.kirstaetter.name/dhcpv6-ipv6-in-your-local-network/)
-- [Enabling DNS for IPv6 infrastructure](https://jochen.kirstaetter.name/enabling-dns-for-ipv6-infrastructure/)
-- [Accessing your web server via IPv6](https://jochen.kirstaetter.name/accessing-apache2-web-server-via-ipv6/)
+- [Configure IPv6 on your Linux system](xref:configure-ipv6-on-ubuntu)
+- [DHCPv6: Provide IPv6 information in your local network](xref:dhcpv6-ipv6-in-your-local-network)
+- [Enabling DNS for IPv6 infrastructure](xref:enabling-dns-for-ipv6-infrastructure)
+- [Accessing your web server via IPv6](xref:accessing-apache2-web-server-via-ipv6)
 
 **Piece of advice**: This is based on my findings on the internet while reading other people's helpful articles and going through a couple of man-pages on my local system.
 
@@ -125,4 +125,4 @@ In both cases, it confirms that our network device has been assigned a valid IPv
 
 That's it in general for your setup on one system. But of course, you might be interested to enable more services for IPv6, especially if you're already running a couple of them in your IP network. More details are available on the [official Ubuntu Wiki](https://wiki.ubuntu.com/IPv6).
 
-Continue to configure your network to [provide IPv6 address information automatically](https://jochen.kirstaetter.name/dhcpv6-ipv6-in-your-local-network/) in your local infrastructure.
+Continue to configure your network to [provide IPv6 address information automatically](xref:dhcpv6-ipv6-in-your-local-network) in your local infrastructure.

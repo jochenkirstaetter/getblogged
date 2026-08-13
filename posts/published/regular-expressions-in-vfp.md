@@ -60,7 +60,7 @@ codeinjectionFoot:
 **Setup and Installation**  
 The component comes in two flavors - for .NET Framework 1.1 and 2.0. The setup routine installs both in separate folders and registers both in Windows. But no fear, the ProgID is the same for both, so it's again very handy for a VFP developer. Last registration of the component is the active one. I'd like to mention that the registration uses the /codebase switch of regasm tool and therefore creates no entries in to the Global Assembly Cache (GAC) on the machine. The current version of the setup is available at my German blog at the URL
 
-[https://jochen.kirstaetter.name/files/ComProxyForNet.msi](https://jochen.kirstaetter.name/regular-expressions-in-vfp/files/ComProxyForNet.msi)
+[https://jochen.kirstaetter.name/files/ComProxyForNet.msi](xref:regular-expressions-in-vfp)
 
 Just get the file and follow the installation instructions.
 

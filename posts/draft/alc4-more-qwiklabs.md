@@ -59,7 +59,7 @@ During the project phase of the Andela Learning Community (ALC) 4.0 program more
 
 The links require that you're logged into your account on [Pluralsight](https://www.pluralsight.com/). Eventually, the links might stop to work after expiration of the program in January 2020. Alternatively, you can go directly to [Qwiklabs](https://www.qwiklabs.com/) and create an account on their platform.
 
-The ALC 4.0 program is almost done and the following links are more of a bookmark for my studies towards various Google Cloud exams than actual instructions. Not sure whether it's going to be helpful for anyone outside the program. Previously, a collection of hands-on labs has been published here: [ALC 4.0 Cloud - Access to Qwiklabs](https://jochen.kirstaetter.name/alc4-qwiklabs/).
+The ALC 4.0 program is almost done and the following links are more of a bookmark for my studies towards various Google Cloud exams than actual instructions. Not sure whether it's going to be helpful for anyone outside the program. Previously, a collection of hands-on labs has been published here: [ALC 4.0 Cloud - Access to Qwiklabs](xref:alc4-qwiklabs).
 
 Feedback is most welcome in the comment section below.
 

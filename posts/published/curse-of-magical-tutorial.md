@@ -102,10 +102,10 @@ Depending on the amount of information or the complexity of the domain it might 
 
 Perhaps you might be interested to check out my series of articles on using IPv6 protocol in Linux as an example, which is broken down into four pieces:
 
-- [Configure IPv6 on your Linux system](https://jochen.kirstaetter.name/configure-ipv6-on-ubuntu/)
-- [DHCPv6: Provide IPv6 information in your local network](https://jochen.kirstaetter.name/dhcpv6-ipv6-in-your-local-network/)
-- [Enabling DNS for IPv6 infrastructure](https://jochen.kirstaetter.name/enabling-dns-for-ipv6-infrastructure/)
-- [Accessing your web server via IPv6](https://jochen.kirstaetter.name/accessing-apache2-web-server-via-ipv6/)
+- [Configure IPv6 on your Linux system](xref:configure-ipv6-on-ubuntu)
+- [DHCPv6: Provide IPv6 information in your local network](xref:dhcpv6-ipv6-in-your-local-network)
+- [Enabling DNS for IPv6 infrastructure](xref:enabling-dns-for-ipv6-infrastructure)
+- [Accessing your web server via IPv6](xref:accessing-apache2-web-server-via-ipv6)
 
 Each single article can stand on its own but it is the combination of all in the series to give you the complete picture and result you might be looking for.
 

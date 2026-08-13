@@ -61,9 +61,9 @@ Here are a few highlights so far:
 
 - [DevFest Nairobi 2022](https://gdg.community.dev/events/details/google-gdg-nairobi-presents-devfest-nairobi-2022/), Nairobi, Kenya
 - [Virtual Developers Conference 2020](https://2020.mscc.mu/), Mauritius
-- [SSA Community Summit 2018](https://jochen.kirstaetter.name/ssa-community-summit-2018/), Nairobi, Kenya
+- [SSA Community Summit 2018](xref:ssa-community-summit-2018), Nairobi, Kenya
 - [C# Corner Conference 2017](http://www.c-sharpcorner.com/news/c-sharp-corner-annual-conference-2017-official-recap), Delhi, India
-- [German Visual FoxPro Developer Conference 2004](https://jochen.kirstaetter.name/speaker-at-the-german-visual-foxpro-developer-conference-2004/), Frankfurt, Germany
+- [German Visual FoxPro Developer Conference 2004](xref:speaker-at-the-german-visual-foxpro-developer-conference-2004), Frankfurt, Germany
 
 ## Upcoming Activities
 
@@ -325,7 +325,7 @@ Introduction to Progressive Web Apps (PWA)
 - InnovTech 2018, National Computer Board (NCB), Mauritius
 - [.NET Conf 2018](https://www.meetup.com/mauritiussoftwarecraftsmanshipcommunity/events/254202370/), MSCC, 29th September  
 Announcing .NET Core 2.2
-- [SSA Community Summit 2018](https://jochen.kirstaetter.name/ssa-community-summit-2018/), Nairobi, Kenya, 21st September  
+- [SSA Community Summit 2018](xref:ssa-community-summit-2018), Nairobi, Kenya, 21st September  
 From Idea to Inspiring IT Communities
 - [Google I/O Extended](https://www.meetup.com/gdg-mauritius/events/251198177/), Mauritius, 23rd June
 - [Developers Conference Mauritius](https://2018.mscc.mu/), 17-19th May  
@@ -346,7 +346,7 @@ Communities - The importance of exchange and discussion
 - [Monetize your site with Google AdSense (& AdWords)](https://gdg.community.dev/events/details/google-gdg-mauritius-presents-monetize-your-site-with-google-adsense-adwords/), GDG Mauritius, 30th September
 - [It's just Angular!](https://www.meetup.com/mauritiussoftwarecraftsmanshipcommunity/events/240960088/), MSCC, 26th August  
 AngularJS or Angular?
-- **Mentorship**: [MIT Global Startup Lab](https://jochen.kirstaetter.name/mentor-mitgsl/), The Massachusetts Institute of Technology (MIT), Mauritius, June-August
+- **Mentorship**: [MIT Global Startup Lab](xref:mentor-mitgsl), The Massachusetts Institute of Technology (MIT), Mauritius, June-August
 - C# Corner Mathura, GLA University, Mathura, India, 7th April  
 Advantages and Opportunities of Cross-Platform Development
 - C# Corner Annual Conference 2017, Delhi, India, 7-9th April  
@@ -374,7 +374,7 @@ Electron
 Keynote
 - Global Azure Bootcamp, MSCC, 25th April
 - [ASP.NET vNext & Windows 10](https://www.meetup.com/mauritiussoftwarecraftsmanshipcommunity/events/220821337/), MSCC, 28th March
-- [Ubuntu Global Jam](https://jochen.kirstaetter.name/ubuntu-jam-uom/), LUGM, University of Mauritius, 7th February  
+- [Ubuntu Global Jam](xref:ubuntu-jam-uom), LUGM, University of Mauritius, 7th February  
 Xubuntu and Xfce4 - AMA
 
 ## 2014
@@ -391,9 +391,9 @@ Visual Studio Online (VSO)
 
 - [Linuxfest](https://lugm.org/linuxfest2013/), LUGM, 25th November  
 Running Windows applications on Linux
-- [Infotech](https://jochen.kirstaetter.name/infotech-2013/), National Computer Board (NCB), 22nd November  
+- [Infotech](xref:infotech-2013), National Computer Board (NCB), 22nd November  
 Running Windows applications on Linux
-- [Virtual Launch of Visual Studio 2013](https://jochen.kirstaetter.name/virtual-launch-of-visual-studo-2013-dubai/), Microsoft, Port Louis, 20th November  
+- [Virtual Launch of Visual Studio 2013](xref:virtual-launch-of-visual-studo-2013-dubai), Microsoft, Port Louis, 20th November  
 Mauritius Software Craftsmanship Community
 - [Clean Code Development & Your workspace](https://www.meetup.com/mauritiussoftwarecraftsmanshipcommunity/events/147562602/), MSCC, 16th November  
 Clean Code Developer - Grade Yellow  
@@ -420,7 +420,7 @@ Inspiration, or better said the final push, to pick up my previous passion to ru
 - LOVE - Launch Office 2007, Windows Vista und Exchange 2007 Roadshow, Stuttgart, Germany, 4th December  
 Ask The Experts (ATE)
 - Nachlese zur VFP Devcon, dFPUG Speyer, Germany, 15th November
-- [German Visual FoxPro Developer Conference 2006](https://jochen.kirstaetter.name/speaker-at-the-german-visual-foxpro-developer-conference-2006/), Frankfurt, Germany, 9-11th November  
+- [German Visual FoxPro Developer Conference 2006](xref:speaker-at-the-german-visual-foxpro-developer-conference-2006), Frankfurt, Germany, 9-11th November  
 CLR Host für Visual FoxPro  
 NET4COM und ComProxyForNet  
 Active FoxPro Pages
@@ -447,7 +447,7 @@ Ask The Experts (ATE) - SQL Server 2005
 
 - PostgreSQL 8.0, dFPUG Speyer, Germany, 16th November  
 Design Pattern: Adapter
-- [German Visual FoxPro Developer Conference 2005](https://jochen.kirstaetter.name/speaker-at-the-german-visual-foxpro-developer-conference-2005/), Frankfurt, Germany  
+- [German Visual FoxPro Developer Conference 2005](xref:speaker-at-the-german-visual-foxpro-developer-conference-2005), Frankfurt, Germany  
 Versionskontrolle mit Subversion  
 Linux Transfer, Aktueller Stand Multi-Plattform  
 Reguläre Ausdrücke in VFP (und .NET)  
@@ -470,7 +470,7 @@ Microsoft SQL Server 2005 - Neue Features und Verbesserungen
 ## 2004
 
 - VFP Anwendungen vertreiben - Windows Installer, dFPUG Speyer, December
-- [German Visual FoxPro Developer Conference 2004](https://jochen.kirstaetter.name/speaker-at-the-german-visual-foxpro-developer-conference-2004/), Frankfurt, Germany, November  
+- [German Visual FoxPro Developer Conference 2004](xref:speaker-at-the-german-visual-foxpro-developer-conference-2004), Frankfurt, Germany, November  
 Active FoxPro Pages (two sessions)  
 Visual FoxPro 9.0 und Linux  
 Additive Datenbanken zu Visual FoxPro
@@ -481,7 +481,7 @@ Additive Datenbanken zu Visual FoxPro
 
 ## 2003
 
-- [German Visual FoxPro Developer Conference 2003](https://jochen.kirstaetter.name/speaker-at-the-german-visual-foxpro-developer-conference-2003/), Frankfurt, Germany  
+- [German Visual FoxPro Developer Conference 2003](xref:speaker-at-the-german-visual-foxpro-developer-conference-2003), Frankfurt, Germany  
 Visual FoxPro and Linux (two and a half sessions)
 
 ## 2002
@@ -491,6 +491,6 @@ Active FoxPro Pages (vendor session)
 
 ## Are you interested in having me present for your event?
 
-Below is a list of my current and past sessions in English and German language. [Contact me over here](https://jochen.kirstaetter.name/about/) if one of these might be a good fit for your user group, your conference, or your online virtual chapter.
+Below is a list of my current and past sessions in English and German language. [Contact me over here](xref:about) if one of these might be a good fit for your user group, your conference, or your online virtual chapter.
 
 I usually try and align speaking events so that I can either do other talks or commercial workshops at the same time, particularly when international travel is involved.

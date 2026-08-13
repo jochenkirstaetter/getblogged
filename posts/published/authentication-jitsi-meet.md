@@ -58,7 +58,7 @@ A basic installation of Jitsi Meet gets you up and running within shortest time,
 
 However such a default installation of Jitsi Meet is open. Meaning, that anyone knowing the URL of your server can create a new meeting room and start to have video conferences using your instance and probably causing additional cost.
 
-In this second article on Jitsi Meet we are going to enable authentication to avoid any misuse from public users. Please read [Install Jitsi Meet on Compute Engine (GCP)](https://jochen.kirstaetter.name/install-jitsi-meet-on-gcp/) in case you have not created your own instance yet.
+In this second article on Jitsi Meet we are going to enable authentication to avoid any misuse from public users. Please read [Install Jitsi Meet on Compute Engine (GCP)](xref:install-jitsi-meet-on-gcp) in case you have not created your own instance yet.
 
 Securing your instance of Jitsi Meet requires three configuration changes plus the creation of user accounts with permission to host conference calls.
 

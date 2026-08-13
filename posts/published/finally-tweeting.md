@@ -62,6 +62,6 @@ Anyways, the "Get in contact" area in the sidebar is updated and you might follo
 
 Sadly, my alias "JoKi" is alerady in use by someone else, but that's life: First come, first serve.
 
-One of the next things I am going to do is to check out of one the many Codeplex projects, namely [VFPTweetAPI](https://vfptweetapi.codeplex.com/) by Olaf Doschke. First of all, it is to get more familiar with Twitter itself and second I hope that it is easier to tweet from VFP directly than to launch my favorite browser. And last but not least, I might integrate the component into one of my projects like [Sunshine](https://jochen.kirstaetter.name/sunshine/).
+One of the next things I am going to do is to check out of one the many Codeplex projects, namely [VFPTweetAPI](https://vfptweetapi.codeplex.com/) by Olaf Doschke. First of all, it is to get more familiar with Twitter itself and second I hope that it is easier to tweet from VFP directly than to launch my favorite browser. And last but not least, I might integrate the component into one of my projects like [Sunshine](xref:sunshine).
 
 Definetily more on this topic in the future...

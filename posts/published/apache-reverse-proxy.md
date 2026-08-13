@@ -57,7 +57,7 @@ codeinjectionFoot:
 
 The Apache HTTP Server, colloquially called Apache, is a free and open-source cross-platform web server. This article explains briefly how to set up Apache as a reverse proxy to a web site in an internal network.
 
-To set the expectations in this article. I'm not going to explain you how to install Apache web server or how to get it operational on your system. There are [thousands of tutorials](http://bfy.tw/Lg5K) including my own [Accessing your web server via IPv6](https://jochen.kirstaetter.name/accessing-apache2-web-server-via-ipv6/) on the Internet that already cover that step.
+To set the expectations in this article. I'm not going to explain you how to install Apache web server or how to get it operational on your system. There are [thousands of tutorials](http://bfy.tw/Lg5K) including my own [Accessing your web server via IPv6](xref:accessing-apache2-web-server-via-ipv6) on the Internet that already cover that step.
 
 In case more information about the configuration directives used below is needed, I recommend to consult the [official documentation](https://httpd.apache.org/docs/2.4/) of a particular keyword.
 
@@ -103,7 +103,7 @@ The host system on IP address 10.0.240.4 is part of an OpenVPN infrastructure an
 
 ## Multiple proxies possible
 
-No problem with Apache. You can configure and run as many reverse proxies as would like to. One has to pay attention to avoid overlaps either via `ServerName` directive or by using different port numbers to bind to. Although I have only one reverse proxy running on Apache I configured multiple scenarios using nginx. More details are described in [Using nginx as reverse proxy](https://jochen.kirstaetter.name/nginx-reverse-proxy/).
+No problem with Apache. You can configure and run as many reverse proxies as would like to. One has to pay attention to avoid overlaps either via `ServerName` directive or by using different port numbers to bind to. Although I have only one reverse proxy running on Apache I configured multiple scenarios using nginx. More details are described in [Using nginx as reverse proxy](xref:nginx-reverse-proxy).
 
 Do you have any interesting use cases or active configurations of Apache as reverse proxy? If yes, please use the comment section below give me and other readers more details. Thanks!
 

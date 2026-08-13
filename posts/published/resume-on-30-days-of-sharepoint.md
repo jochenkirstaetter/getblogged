@@ -56,7 +56,7 @@ codeinjectionFoot:
 
 ![Microsoft SharePoint](https://s.kirstaetter.name/images/sharepoint.png)Dear readers, as you might have noticed... It was an organisational desaster on my end!
 
-Even though I continued my studies and research on Microsoft SharePoint 2013 during [the last 30 days](https://jochen.kirstaetter.name/the-30-days-microsoft-sharepoint-challenge/), I wasn't able to write an article a day to keep you posted on my progress. Nonetheless, I gathered a good number of additional blogs, mainly SharePoint MVP sites, and online forums which will be helpful in the next couple of weeks while I'm actually going to develop a C#-based client which will enable an existing 'legacy' application to SharePoint as a document management system (DMS) besides other already existing solutions.
+Even though I continued my studies and research on Microsoft SharePoint 2013 during [the last 30 days](xref:the-30-days-microsoft-sharepoint-challenge), I wasn't able to write an article a day to keep you posted on my progress. Nonetheless, I gathered a good number of additional blogs, mainly SharePoint MVP sites, and online forums which will be helpful in the next couple of weeks while I'm actually going to develop a C#-based client which will enable an existing 'legacy' application to SharePoint as a document management system (DMS) besides other already existing solutions.
 
 ## []()Finding excuses
 
@@ -70,4 +70,4 @@ During the process of development, I'm going to 'cheat' on the challenge summary
 
 ## []()Next challenge?
 
-Hmm, there had been ideas [during the last meetup](https://jochen.kirstaetter.name/mscc-21092013-clean-code-developer-certification/ "Clean Code Developer & Certification in IT - MSCC 21.09.2013") of the [Mauritius Software Craftsmanship Community (MSCC)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/ "Mauritius Software Craftsmanship Community (MSCC)") regarding certifications in IT and eventually we might organise some kind of a study group for specific exams, most probably Microsoft exams towards MCSD Web Developer or Windows Developer.
+Hmm, there had been ideas [during the last meetup](xref:mscc-21092013-clean-code-developer-certification "Clean Code Developer & Certification in IT - MSCC 21.09.2013") of the [Mauritius Software Craftsmanship Community (MSCC)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/ "Mauritius Software Craftsmanship Community (MSCC)") regarding certifications in IT and eventually we might organise some kind of a study group for specific exams, most probably Microsoft exams towards MCSD Web Developer or Windows Developer.

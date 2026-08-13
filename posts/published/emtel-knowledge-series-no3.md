@@ -64,7 +64,7 @@ Cyber Island? Smart Mauritius? - What is Emtel talking about?
 >
 > *Various researches have shown four key enablers for smart city success - **Government leadership, suitable technology infrastructure, solid public-private partnerships** and **engaged citizens**. It is around these enabling factors that telecoms companies can play a vital role in assisting governments to deliver on the smart city vision."*
 
-The [Emtel Knowledge Series](https://emtel.com/knowledge-series/) goes in compliance with Emtel's 25th anniversary celebrations throughout the year and the master of ceremony, Kim Andersen, mentioned that there will be more upcoming events on a quarterly base. As a representative of the [Mauritius Software Craftsmanship Community (MSCC)](https://meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community (MSCC)") there was absolutely no hesitation to join in again. Following my visit to the[first Emtel Knowledge Series workshop back in February](https://jochen.kirstaetter.name/emtel-knowledge-series-no1/ "Emtel Mobile Broadband and LTE Evolution") this year, it was great to have another opportunity to meet and exchange with technology experts. But quite frankly what is it with those buzz words...
+The [Emtel Knowledge Series](https://emtel.com/knowledge-series/) goes in compliance with Emtel's 25th anniversary celebrations throughout the year and the master of ceremony, Kim Andersen, mentioned that there will be more upcoming events on a quarterly base. As a representative of the [Mauritius Software Craftsmanship Community (MSCC)](https://meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community (MSCC)") there was absolutely no hesitation to join in again. Following my visit to the[first Emtel Knowledge Series workshop back in February](xref:emtel-knowledge-series-no1 "Emtel Mobile Broadband and LTE Evolution") this year, it was great to have another opportunity to meet and exchange with technology experts. But quite frankly what is it with those buzz words...
 
 As far as I remember and how it was mentioned "Cyber Island" is an old initiative from around 2005/2006 which has been refreshed in 2010. It implies the empowerment of Information & Communication Technologies (ICT) as an essential factor of growth by the government here in Mauritius. Actually, the first promotional period of Cyber Island brought me here but that's another story.
 
@@ -115,4 +115,4 @@ The number of attendees during this event has been doubled or even tripled this 
 
 ## []()Update
 
-End of July we finally managed to [visit the Emtel Data Centre](https://jochen.kirstaetter.name/visiting-emtel-data-centre/) in Arsenal. It was an interesting opportunity for some of our MSCC members.
+End of July we finally managed to [visit the Emtel Data Centre](xref:visiting-emtel-data-centre) in Arsenal. It was an interesting opportunity for some of our MSCC members.

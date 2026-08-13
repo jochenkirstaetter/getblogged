@@ -82,11 +82,11 @@ Taking into consideration that most [Mauritians have Android-based smartphones](
 >
 > *"waiting for the activation code too. I'm gonna hack your portals."*
 
-First responses on Facebook look very promising and it would be awesome to have more action play in Ingress soon. It would be of great pleasure to write one of the first SITREPs for Mauritius. For sure, more to come. Keep an eye [on my Android section](https://jochen.kirstaetter.name/attending-the-mauritian-bloggers-meeting/index.php?option=com_content&view=category&layout=blog&id=8&Itemid=16 "on my Android section") here in the blog, too.
+First responses on Facebook look very promising and it would be awesome to have more action play in Ingress soon. It would be of great pleasure to write one of the first SITREPs for Mauritius. For sure, more to come. Keep an eye [on my Android section](xref:attending-the-mauritian-bloggers-meeting "on my Android section") here in the blog, too.
 
 ### Update
 
-I wrote a brief overview about [playing Ingress in Mauritius](https://jochen.kirstaetter.name/playing-ingress-by-niantic-labs-in-mauritius/ "Playing Ingress by Niantic Labs in Mauritius"). Please check it out...
+I wrote a brief overview about [playing Ingress in Mauritius](xref:playing-ingress-by-niantic-labs-in-mauritius "Playing Ingress by Niantic Labs in Mauritius"). Please check it out...
 
 ## []()My conclusion
 

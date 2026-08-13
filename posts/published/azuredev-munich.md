@@ -139,7 +139,7 @@ Usually after a hard day's work it's time to shake off the stress and tensions a
 
 However given that I had nothing really to do and Gregor wasn't tired enough to hit the sack immediately, we picked up the conversation from earlier and talked quite a lot about communities - in Germany and in Mauritius. I told him about the development here on the island over the past few years, and he seemed also interested to come and speak at our Developers Conference some day.
 
-Of course, we also talked about the [Microsoft MVP program](https://mvp.microsoft.com/) and how it has changed over time. As we are both active MVPs we discussed on a few NDA related topics as well. Was really interesting to have this kind of offline exchange. And Gregor was a bit surprised that [I had been awarded](https://mvp.microsoft.com/en-us/PublicProfile/5001701) earlier than [him](https://mvp.microsoft.com/en-us/PublicProfile/4029095). However he got more awards so far. ;-)
+Of course, we also talked about the [Microsoft MVP program](https://mvp.microsoft.com/) and how it has changed over time. As we are both active MVPs we discussed on a few NDA related topics as well. Was really interesting to have this kind of offline exchange. And Gregor was a bit surprised that [I had been awarded](https://mvp.microsoft.com/en-US/MVP/profile/53d40e60-fe70-490e-8e73-2185b648f26f) earlier than [him](https://mvp.microsoft.com/en-us/PublicProfile/4029095). However he got more awards so far. ;-)
 
 As the conversation went on we discovered more and more common friends and acquaintances, and it was really funny to explore those connections and how they are linked between each other.
 

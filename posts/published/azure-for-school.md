@@ -74,7 +74,7 @@ Well, most students... ;-)
 
 As a parent it is not easy to trust a full-fledged computer into the hands of your youngster(s) without fearing the whole system might be infested by viruses, malware and ransomware in shortest time. Especially given recent reports on various problems.
 
-Following my decision to provide our [kids with family-friendly and security-enhanced tablets running on Amazon's Fire OS](https://jochen.kirstaetter.name/children-happy-kindle-fire-hdx/) compared to regular Android, it was only right to provide them a similar experience on the desktop. At least in my point of view.
+Following my decision to provide our [kids with family-friendly and security-enhanced tablets running on Amazon's Fire OS](xref:children-happy-kindle-fire-hdx) compared to regular Android, it was only right to provide them a similar experience on the desktop. At least in my point of view.
 
 Personally, it was important for me to have peace of mind knowing our children are using Linux based system. Don't get me wrong Microsoft has done a tremendous job to improve security over the last decade. It's just that I didn't want to purchase a new laptop for them and Linux runs just fine on older hardware.
 

@@ -126,7 +126,7 @@ The `ghost-cli` runs a couple of checks to see whether your system is compatible
 
 Don't skip the [Getting Started](https://docs.ghost.org/v1.0.0/docs/getting-started-guide) guide in the official documentation of Ghost. It is very detailed and resourceful.
 
-Oh, and feel free to read another article here on the blog in case that you are doing a [Migration to Ghost](https://jochen.kirstaetter.name/migration-joomla-ghost/) from Joomla.
+Oh, and feel free to read another article here on the blog in case that you are doing a [Migration to Ghost](xref:migration-joomla-ghost) from Joomla.
 
 ## Try it yourself
 

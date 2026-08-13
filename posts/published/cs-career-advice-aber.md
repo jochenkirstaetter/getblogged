@@ -99,7 +99,7 @@ When it gets tough, keep on going...
 
 ## Community
 
-Get in touch with more experienced software developers and/or IT people in general as earliest as possible. Try to find a mentor in Computer Science who would be available for your questions, and might be able to guide you during your studies. Look out for local user groups and communities, like the [MSCC](https://www.mscc.mu/) or any other technology-focused group. Go out and meet others. The [advantage of networking, exchange of experience, and discussion](https://jochen.kirstaetter.name/community-exchange-and-discussion/) with others will be a boost for you.
+Get in touch with more experienced software developers and/or IT people in general as earliest as possible. Try to find a mentor in Computer Science who would be available for your questions, and might be able to guide you during your studies. Look out for local user groups and communities, like the [MSCC](https://www.mscc.mu/) or any other technology-focused group. Go out and meet others. The [advantage of networking, exchange of experience, and discussion](xref:community-exchange-and-discussion) with others will be a boost for you.
 
 Eventually, every CS student should be exposed to [The Code Manifesto](http://codemanifesto.com/) on the first day of studies.
 

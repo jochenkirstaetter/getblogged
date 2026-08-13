@@ -56,10 +56,10 @@ codeinjectionFoot:
 
 After successful automatic distribution of IPv6 address information via DHCPv6 in your local network it might be time to start offering some more services. Usually, we would use host names in order to communicate with other machines instead of their bare IPv6 addresses. During the following paragraphs we are going to enable our own DNS name server with IPv6 address resolving.
 
-- [Configure IPv6 on your Linux system](https://jochen.kirstaetter.name/configure-ipv6-on-ubuntu/)
-- [DHCPv6: Provide IPv6 information in your local network](https://jochen.kirstaetter.name/dhcpv6-ipv6-in-your-local-network/)
-- [Enabling DNS for IPv6 infrastructure](https://jochen.kirstaetter.name/enabling-dns-for-ipv6-infrastructure/)
-- [Accessing your web server via IPv6](https://jochen.kirstaetter.name/accessing-apache2-web-server-via-ipv6/)
+- [Configure IPv6 on your Linux system](xref:configure-ipv6-on-ubuntu)
+- [DHCPv6: Provide IPv6 information in your local network](xref:dhcpv6-ipv6-in-your-local-network)
+- [Enabling DNS for IPv6 infrastructure](xref:enabling-dns-for-ipv6-infrastructure)
+- [Accessing your web server via IPv6](xref:accessing-apache2-web-server-via-ipv6)
 
 **Piece of advice**: This is based on my findings on the internet while reading other people's helpful articles and going through a couple of man-pages on my local system.
 
@@ -221,4 +221,4 @@ rtt min/avg/max/mdev = 0.407/0.511/0.615/0.104 ms
 
 That also looks promising to me. How about your configuration?
 
-Next, it might be interesting to extend the range of available services on the network. One [essential service would be to have web sites](https://jochen.kirstaetter.name/accessing-apache2-web-server-via-ipv6/) at hand.
+Next, it might be interesting to extend the range of available services on the network. One [essential service would be to have web sites](xref:accessing-apache2-web-server-via-ipv6) at hand.

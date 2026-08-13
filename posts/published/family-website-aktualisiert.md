@@ -54,7 +54,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-Nur eine Kleinigkeit in persönlicher Sache... Muss auch mal sein. Vielleicht haben einige Leser bereits entdeckt, dass dieses Blog auf einer Subdomain - [https://jochen.kirstaetter.name/](https://jochen.kirstaetter.name/) - basiert. Und vielleicht hat sich in diesem Zuge dessen wiederum ein kleiner Prozentsatz gefragt, was sich denn unter der 'Hauptdomain' verbergen könnte... vielleicht wohlgemerkt. 🤪
+Nur eine Kleinigkeit in persönlicher Sache... Muss auch mal sein. Vielleicht haben einige Leser bereits entdeckt, dass dieses Blog auf einer Subdomain - [https://jochen.kirstaetter.name/](https://jochen.kirstaetter.name) - basiert. Und vielleicht hat sich in diesem Zuge dessen wiederum ein kleiner Prozentsatz gefragt, was sich denn unter der 'Hauptdomain' verbergen könnte... vielleicht wohlgemerkt. 🤪
 
 Nun, um das Rätsel zu lösen: Auf der Domain [https://kirstaetter.name/](https://kirstaetter.name/) bzw. [https://www.kirstaetter.name/](https://www.kirstaetter.name/) befindet sich eine persönliche Site der Familie Kirstätter. Dort gibt's ab und zu mal Informationen aus Marienthal. Weiterhin dient diese Adresse als zentrale Anlaufstelle für mich und andere Familienmitglieder zur Verzweigung; wie etwa zu diesem Blog.
 

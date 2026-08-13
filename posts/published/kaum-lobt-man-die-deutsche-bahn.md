@@ -54,12 +54,12 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-[...](https://jochen.kirstaetter.name/Die-Bahn-ist-pnktlich) wird man direkt eines Besseren belehrt. Aber starten wir den Tag am Morgen und berichten von den Details mit der [DB](https://www.bahn.de) später.
+[...](xref:die-bahn-ist-pnktlich) wird man direkt eines Besseren belehrt. Aber starten wir den Tag am Morgen und berichten von den Details mit der [DB](https://www.bahn.de) später.
 
 \*\*Samstag - die Chance zum Ausschlafen\*\*  
 Auch wenn ich noch im Hotel irgendwo südlich von Berlin erwache, so ist es doch Samstag und ich habe die Chance zum Ausschlafen. Die letzten Tage waren immer sehr früh und aktionsreich. Auch wenn ich nicht unbedingt viel Schlaf benötige, so kommen mir Tage wie dieser ab und zu doch sehr gelegen. Die letzten Tage, genauer die letzten drei, waren erfüllt mit einem Workshop zu [Acodey - unserer Komponentenbibliothek](https://www.acodey.de). Bedingt durch die Mächtigkeit und der kundenspezifischen Anpassungen sind diese Art Workshops (un-)regelmäßig angesetzt. Die Vorteile liegen hierbei meines Erachtens klar auf der Hand: Der Kunde erhält die neuesten Informationen zu den Komponenten und deren Anwendung direkt vom Hersteller; wir haben die Chance besser auf die Anforderungen und Wünsche einzugehen und die Möglichkeit zur Erweiterung unserer Bibliothek.
 
-Ausschlafen ist hier übrigens im Sinne von 'kurz nach 7:00 Uhr' statt wie die sonstigen Tage um 6:30 Uhr zu verstehen. 🤪 - Das sind echte 'Todeszeiten' für einen nachtaktiven Entwickler wie mich. Aber es hat genau wie beim [AFP-Workshop letzte Woche](https://jochen.kirstaetter.name/Darfs-ein-wenig-Kultur-sein) erneut sehr viel Spass und Freude bereitet, über unsere Produkte zu sprechen und Lösungen mit dem Kunden auszuarbeiten. Kein Wunder, waren es doch die gleichen Teilnehmer...
+Ausschlafen ist hier übrigens im Sinne von 'kurz nach 7:00 Uhr' statt wie die sonstigen Tage um 6:30 Uhr zu verstehen. 🤪 - Das sind echte 'Todeszeiten' für einen nachtaktiven Entwickler wie mich. Aber es hat genau wie beim [AFP-Workshop letzte Woche](xref:darfs-ein-wenig-kultur-sein) erneut sehr viel Spass und Freude bereitet, über unsere Produkte zu sprechen und Lösungen mit dem Kunden auszuarbeiten. Kein Wunder, waren es doch die gleichen Teilnehmer...
 
 Zusammen mit dem letzten Verbliebenen des Workshops waren wir die einzigen Gäste dieser Nacht überhaupt und entsprechend ruhig konnten wir uns das Frühstück zu Gemüte führen, und ein wenig über die Inhalte der letzten Tage resümieren. Und so ging die Zeit beinahe wie im Fluge um.
 

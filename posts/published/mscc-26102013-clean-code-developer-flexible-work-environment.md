@@ -92,7 +92,7 @@ Actually, it is not a coincidence that one of the questions new craftsmen should
 ![MSCC meetup on the 26th October 2013](https://s.kirstaetter.name/images/mscc-20131026-2.png)  
 *Exchanging ideas about having a professional online presence - MSCC meetup on the 26th October 2013*
 
-Furthermore, consider to put your Curriculum Vitae online, too. There are quite a number of service providers like [1ClickCV](https://www.1clickcv.com/ "1ClickCV"), [Stack Overflow Careers 2.0](https://careers.stackoverflow.com "Stack Overflow Careers 2.0"), etc. which give you the ability to have an up to date CV online. At least put it on your site, next to your personal blog. Similar to what you would be able to [see on my site here](https://jochen.kirstaetter.name/cv/).
+Furthermore, consider to put your Curriculum Vitae online, too. There are quite a number of service providers like [1ClickCV](https://www.1clickcv.com/ "1ClickCV"), [Stack Overflow Careers 2.0](https://careers.stackoverflow.com "Stack Overflow Careers 2.0"), etc. which give you the ability to have an up to date CV online. At least put it on your site, next to your personal blog. Similar to what you would be able to [see on my site here](xref:cv).
 
 ## Cyber Island Mauritius - are we there?
 

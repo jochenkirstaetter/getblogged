@@ -58,13 +58,13 @@ Summary of different problems while using VMware products on Ubuntu. This articl
 
 Following are links to existing articles:
 
-- [Running VMware Player on Linux (xubuntu Hardy Heron)](https://jochen.kirstaetter.name/troubleshooting-vmware-on-ubuntu/blog/linux/running-vmware-player-on-linux-xubuntu-hardy-heron.html)
-- [Running VMware Server on Linux (version 1.0.6 on xubuntu)](https://jochen.kirstaetter.name/troubleshooting-vmware-on-ubuntu/blog/linux/running-vmware-server-on-linux-version-106-on-xubuntu.html)
-- [Using ext4 in VMware machine](https://jochen.kirstaetter.name/troubleshooting-vmware-on-ubuntu/blog/linux/using-ext4-in-vmware-machine.html)
-- [Small hiccup with VMware Player after upgrading to Ubuntu 12.04](https://jochen.kirstaetter.name/small-hiccup-with-vmware-player-after-upgrading-to-ubuntu-1204/)
-- [Update kernel patch for VMware Player 4.0.3](https://jochen.kirstaetter.name/update-kernel-patch-for-vmware-player-403/)
-- [And again... VMware Player 4.0.4 on Ubuntu 12.04 (Precise Pangolin)](https://jochen.kirstaetter.name/and-again-vmware-player-404-on-ubuntu-1204-precise-pangolin/)
-- [VMware Player 5.0 or VMware Workstation 9.0 after upgrade to Ubuntu 12.10](https://jochen.kirstaetter.name/vmware-player-50-or-vmware-workstation-90-after-upgrade-to-ubuntu-1210/)
+- [Running VMware Player on Linux (xubuntu Hardy Heron)](xref:troubleshooting-vmware-on-ubuntu)
+- [Running VMware Server on Linux (version 1.0.6 on xubuntu)](xref:troubleshooting-vmware-on-ubuntu)
+- [Using ext4 in VMware machine](xref:troubleshooting-vmware-on-ubuntu)
+- [Small hiccup with VMware Player after upgrading to Ubuntu 12.04](xref:small-hiccup-with-vmware-player-after-upgrading-to-ubuntu-1204)
+- [Update kernel patch for VMware Player 4.0.3](xref:update-kernel-patch-for-vmware-player-403)
+- [And again... VMware Player 4.0.4 on Ubuntu 12.04 (Precise Pangolin)](xref:and-again-vmware-player-404-on-ubuntu-1204-precise-pangolin)
+- [VMware Player 5.0 or VMware Workstation 9.0 after upgrade to Ubuntu 12.10](xref:vmware-player-50-or-vmware-workstation-90-after-upgrade-to-ubuntu-1210)
 
 ## VMware mouse grab/ungrab problem
 

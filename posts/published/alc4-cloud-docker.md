@@ -57,7 +57,7 @@ codeinjectionFoot:
 
 Containerising and pushing a previously created React application is the second part of the ALC 4.0 Cloud Challenge I.
 
-The following instructions are agnostic to the referred web application however probably you might like to have a read about how to [Create an React App](https://jochen.kirstaetter.name/alc4-cloud-react/), if you're not familiar with the React app.
+The following instructions are agnostic to the referred web application however probably you might like to have a read about how to [Create an React App](xref:alc4-cloud-react), if you're not familiar with the React app.
 
 ## Pre-requisites #1 - Docker
 
@@ -375,4 +375,4 @@ Log into Docker from the console and then push the tagged image.
 Fellow ALC 4.0 scholar [George Udosen](https://twitter.com/udoyen) wrote a nice piece about how to share an image to [GitHub and then using it in Kubernetes Engine](https://medium.com/@udoyen_aba/alc-4-phase-ii-cloud-challenge-using-google-sources-repository-e98f91cf1915).
 
 **Splendid!**  
-Our React app has been containerised using Docker and published to Container Registry. In the third part of this series we are going to [deploy it to Google Kubernetes Engine (GKE)](https://jochen.kirstaetter.name/alc4-cloud-k8s/).
+Our React app has been containerised using Docker and published to Container Registry. In the third part of this series we are going to [deploy it to Google Kubernetes Engine (GKE)](xref:alc4-cloud-k8s).

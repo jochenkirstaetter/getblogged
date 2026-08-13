@@ -217,7 +217,7 @@ Although, it's dimensions are 15.6" it is actually lighter than my Samsung Galax
 
 ## []()Update(s)
 
-Meanwhile I [upgraded my system to Saucy Salamander (Ubuntu 13.10)](https://jochen.kirstaetter.name/upgrade-to-xubuntu-1310-saucy-salamander/ "upgraded my system to Saucy Salamander (Ubuntu 13.10)") and the newer kernel 3.11.0 or better said the udl module doesn't activate the screen anymore. Although the hardware is correctly identified it won't display anything.
+Meanwhile I [upgraded my system to Saucy Salamander (Ubuntu 13.10)](xref:upgrade-to-xubuntu-1310-saucy-salamander "upgraded my system to Saucy Salamander (Ubuntu 13.10)") and the newer kernel 3.11.0 or better said the udl module doesn't activate the screen anymore. Although the hardware is correctly identified it won't display anything.
 
 After some additional searching I came across a bug report on Launchpad: [Regression: DisplayLink DL-195 fails with EAGAIN after upgrade from 3.11.0-031100 to 3.11.0-11](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1234818 "Regression: DisplayLink DL-195 fails with EAGAIN after upgrade from 3.11.0-031100 to 3.11.0-11") which shedded some light on my issue, too. As described above, I went from the default kernel (3.8.x) in Ubuntu 13.04 to an upstream kernel 3.9.0. Due to the recent upgrade to Saucy Salamander my system went back to an Ubuntu specific kernel 3.11.0-12-generic and the 'broken' display. Currently, I'm back to a vanilla kernel and thinks are working as expected.
 

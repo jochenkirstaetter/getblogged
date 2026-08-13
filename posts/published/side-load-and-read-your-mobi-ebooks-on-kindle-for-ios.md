@@ -54,7 +54,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-Inspired by my own article on [side-loading ebooks on Kindle for Android](https://jochen.kirstaetter.name/side-load-and-read-your-ebooks-on-kindle-for-android/ "side-loading ebooks on Kindle for Android") I wanted to know how to do it for iOS-based devices like the iPhone, the iPad, or the iPod. It seems that the possibilities are on the one side different but on the other side somehow 'richer' compared to Android.
+Inspired by my own article on [side-loading ebooks on Kindle for Android](xref:side-load-and-read-your-ebooks-on-kindle-for-android "side-loading ebooks on Kindle for Android") I wanted to know how to do it for iOS-based devices like the iPhone, the iPad, or the iPod. It seems that the possibilities are on the one side different but on the other side somehow 'richer' compared to Android.
 
 First of all, due to the 'walled garden' concept in iOS you can not simply hook up your device to your Mac or PC and transfer the files 'as-is'. This is the major difference to Android which is a huge drawback according to my perception but not too bad after all for the majority of users in general.
 

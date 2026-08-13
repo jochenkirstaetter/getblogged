@@ -54,7 +54,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-This article is the Android sequel to the initial article about how to prepare an offline version of your web site for the purpose of demonstration or for exhibitions: [Taking web sites offline for demonstration](https://jochen.kirstaetter.name/taking-web-sites-offline-for-demonstration/ "Taking web sites offline for demonstration"). If you didn't read the original article, please take some minutes (5 to 10 maximum) to gain a better understanding on the following. Thanks.
+This article is the Android sequel to the initial article about how to prepare an offline version of your web site for the purpose of demonstration or for exhibitions: [Taking web sites offline for demonstration](xref:taking-web-sites-offline-for-demonstration "Taking web sites offline for demonstration"). If you didn't read the original article, please take some minutes (5 to 10 maximum) to gain a better understanding on the following. Thanks.
 
 I'm going to describe my steps using a Samsung Galaxy Tab 10.1 running on [Ice Cream Sandwich (ICS - version 4.0.4)](https://www.android.com/about/ice-cream-sandwich/ "Ice Cream Sandwich (ICS - version 4.0.4)") but I would assume that any other Android-based device will show more or less the same results.
 
@@ -99,4 +99,4 @@ What are your experiences with creating or testing offline versions of web sites
 
 ## Parallel universe: iOS
 
-Eventually, you might be curious about this episode might be on a new iPad running on iOS 6. If so, please feel free to read this article: [Taking web sites offline for demonstration on iPad](https://jochen.kirstaetter.name/taking-web-sites-offline-for-demonstration-on-ipad/ "Taking web sites offline for demonstration on iPad")
+Eventually, you might be curious about this episode might be on a new iPad running on iOS 6. If so, please feel free to read this article: [Taking web sites offline for demonstration on iPad](xref:taking-web-sites-offline-for-demonstration-on-ipad "Taking web sites offline for demonstration on iPad")

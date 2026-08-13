@@ -54,7 +54,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-Eigentlich ist Abgabezeit, aber bedingt durch die Projektprogrammierung sitze ich noch an den Session-Notes für die [diesjährige Entwicklerkonferenz in Frankfurt](https://devcon.dfpug.de). Im Beitrag [Visual FoxPro Konferenz Frankfurt 2006 - Geplante Sessions](https://jochen.kirstaetter.name/Visual-FoxPro-Konferenz-Frankfurt-2006--Geplante-Sessions) habe ich ja bereits einen Ausblick auf die Themen gegeben:
+Eigentlich ist Abgabezeit, aber bedingt durch die Projektprogrammierung sitze ich noch an den Session-Notes für die [diesjährige Entwicklerkonferenz in Frankfurt](https://devcon.dfpug.de). Im Beitrag [Visual FoxPro Konferenz Frankfurt 2006 - Geplante Sessions](xref:visual-foxpro-konferenz-frankfurt-2006---geplante-sessions) habe ich ja bereits einen Ausblick auf die Themen gegeben:
 
 Active FoxPro Pages - was sonst? 😁  
 NET4Com - eine Komponente von Sedna  

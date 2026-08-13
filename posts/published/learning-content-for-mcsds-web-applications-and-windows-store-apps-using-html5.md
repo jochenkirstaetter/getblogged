@@ -87,11 +87,11 @@ This demand for skilled developers also comes with a nice side-effect: Lots and 
 - [Developing Windows Store Apps with HTML5 Jump Start](https://channel9.msdn.com/posts/Developing-Windows-Store-Apps-with-HTML5-Jump-Start-01a-Designing-a-Windows-8-App-Part-1 "Developing Windows Store Apps with HTML5 Jump Start")
   - Again, an accelerated preparation video course on Windows 8 Apps. There are six modules with two video sessions each which will catapult you to your exam. This is also related to preps for exam 70-481.
 - [Programming Windows 8 Apps with HTML, CSS, and JavaScript](https://blogs.msdn.com/b/microsoft_press/archive/2012/10/29/free-ebook-programming-windows-8-apps-with-html-css-and-javascript.aspx "Programming Windows 8 Apps with HTML, CSS, and JavaScript")
-  - Kraig Brockschmidt delves into the ups and downs of Windows 8 App development over 800+ pages. Great eBook to read, study, and to practice the samples - best of all, it's for free. Read [my review on this title](https://jochen.kirstaetter.name/programming-windows-8-apps-with-html-css-and-javascript/).  
+  - Kraig Brockschmidt delves into the ups and downs of Windows 8 App development over 800+ pages. Great eBook to read, study, and to practice the samples - best of all, it's for free. Read [my review on this title](xref:programming-windows-8-apps-with-html-css-and-javascript).  
 - [codeSHOW()](https://codeshow.codeplex.com/ "codeSHOW()")
   - This is a Windows 8 HTML/JS project with the express goal of demonstrating simple development concepts for the Windows 8 platform. Code, code and more code... absolutely great stuff to study and practice.
 - [Microsoft Virtual Academy](https://www.microsoftvirtualacademy.com/)
-  - I already wrote about the [MVA in a previous article](https://jochen.kirstaetter.name/microsoft-virtual-academy/ "MVA in a previous article"). Well, if you haven't registered yourself yet, now is the time.  
+  - I already wrote about the [MVA in a previous article](xref:microsoft-virtual-academy "MVA in a previous article"). Well, if you haven't registered yourself yet, now is the time.  
 The list is not complete for sure, but this might keep you busy for at least one or even two weeks to go through the material. Please don't hesitate to add more resources in the comment section. Right now, I'm already through all videos once, and digging my way through chapter 4 of Kraig's book.
 
 {loadposition content\_adsense}
@@ -125,7 +125,7 @@ The way you learn new things or intensify your knowledge in a certain technology
 
 ## Updates
 
-First, I [passed exam 70-480 successfully](https://jochen.kirstaetter.name/passed-exam-70-480-programming-in-html5-with-javascript-and-css3/ "passed exam 70-480 successfully").  
-Second, there is [more content for your preparation](https://jochen.kirstaetter.name/more-content-for-mcsds-web-applications-and-windows-store-apps-using-html5/ "more content for your preparation").
+First, I [passed exam 70-480 successfully](xref:passed-exam-70-480-programming-in-html5-with-javascript-and-css3 "passed exam 70-480 successfully").  
+Second, there is [more content for your preparation](xref:more-content-for-mcsds-web-applications-and-windows-store-apps-using-html5 "more content for your preparation").
 
 Thanks to [Michael Palermo's blog article](https://www.palermo4.com/post/HTML5-Apps-70-480.aspx "Michael Palermo's blog article") I stumbled upon these [great instructions by Matthew Hughes](https://www.matthewhughes.co.uk/tag/70-480/ "great instructions by Matthew Hughes") (hint: start at the bottom) to get yourself prepared for exam 70-480.

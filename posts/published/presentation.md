@@ -56,7 +56,7 @@ codeinjectionFoot:
 
 ## Sessions
 
-#### [Mauritius Software Craftsmanship Community](https://jochen.kirstaetter.name/mscc/ "Mauritius Software Craftsmanship Community") (MSCC)
+#### [Mauritius Software Craftsmanship Community](xref:mscc "Mauritius Software Craftsmanship Community") (MSCC)
 
 11.2013 [Linuxfest 2013](https://linuxfest.lugm.org)
 
@@ -113,66 +113,66 @@ Zwei Welten treffen aufeinander... Auf der einen Seite haben wir unser über die
 - MSDE, MS SQL und MySQL - Die Datenbankengine von Visual FoxPro ist für alltägliche Anforderungen Ihrer Kunden 'garantiert' das richtige Werkzeug. Jedoch entstehen auch Szenarien in denen VFP garantiert nicht mehr die erste Geige spielt. Dafür gibt es unterschiedliche Anlässe: der Kunde verwendet bereits einen SQL Server, fordert höhere Sicherheit im Intranet oder linuxbasierte Server sind im Einsatz...  
 Damit ergeben sich für Sie als Entwickler verschiedene Fragen: Unter welchen Aspekten ist es sinnvoll, additive Datenbanken zu VFP zu verwenden? Welche Unterschiede und Besonderheiten haben die diversen RDBMS? Wie gestaltet sich die Installation und Konfiguration der Datenbanken und wie nutzt man diese mit Visual FoxPro? Sie werden in dieser Session einen kurzen Überblick erhalten. Danach können wir in eine Unterhaltung mit Erfahrungswerten und Problemlösungen übergehen.
 
-11.2004 [D-AFP1 - Webanwendungen mit Active FoxPro Pages erstellen](https://jochen.kirstaetter.name/presentation/presentation.html)
+11.2004 [D-AFP1 - Webanwendungen mit Active FoxPro Pages erstellen](xref:presentation)
 
 In dieser Session lernen Sie die Erstellung und Implementierung von Webanwendungen mit den Active FoxPro Pages (AFP). Dabei werden Ihnen die grundsätzliche Technik und Funktionsweise der AFP erläutert und der allgemeine Aufbau einer Webanwendung vermittelt. Am Ende der Session werden wir gemeinsam eine kleine Site entworfen und implementiert haben.
 
-11.2004 [D-AFP4 - Erstellen eigener Plugins für Active FoxPro Pages](https://jochen.kirstaetter.name/presentation/presentation.html)
+11.2004 [D-AFP4 - Erstellen eigener Plugins für Active FoxPro Pages](xref:presentation)
 
 Wir werden uns dazu die verschiedenen Möglichkeiten zurIntegration von Extensions in die Active FoxPro Pages anschauen, und besonders auf die Funktionsweise des Plugin-Managers eingehen. Basierend auf den gewonnenen Erkenntnissen werden wir in dieser Session ein Plugin entwerfen, implementieren und zum Einsatz bringen.
 
-11.2003 [D-LINU1](https://jochen.kirstaetter.name/presentation/presentation.html)
+11.2003 [D-LINU1](xref:presentation)
 
-11.2003 [D-LINU2](https://jochen.kirstaetter.name/presentation/presentation.html)
+11.2003 [D-LINU2](xref:presentation)
 
-11.2002 [V-AFP - Active Foxpro Pages](https://jochen.kirstaetter.name/presentation/presentation.html)
+11.2002 [V-AFP - Active Foxpro Pages](xref:presentation)
 
 AFP 3.0 wurde gezielt auf Geschwindigkeit optimiert und ist um ein vielfaches schneller als AFP 2.4. Das echte Multithreading der AFP reduziert den Speicherbedarf erheblich, während ein ausgeklügeltes, verbessertes Sessionmanagement die problemlose Skalierbarkeit auf mehrere Server ermöglicht. Das AFP ControlCenter zeigt Ihnen alle wichtigen Informationen wie die Ausführungszeit oder die gerade bearbeitete Seite. PlugIns erlauben eine nahezu unbeschränkte Erweiterbarkeit der AFP.
 
 #### [VFP Stammtisch Speyer - Monthly user group meetings](https://speyer.dfpug.de/)
 
-04.2006 [Dynamic-Link Libraries](https://jochen.kirstaetter.name/presentation/presentation.html)
+04.2006 [Dynamic-Link Libraries](xref:presentation)
 
-02.2006 [Microsoft SQL Server 2005 - Neue Features und Verbesserungen](https://jochen.kirstaetter.name/presentation/presentation.html) (Stuttgart)
+02.2006 [Microsoft SQL Server 2005 - Neue Features und Verbesserungen](xref:presentation) (Stuttgart)
 
 Was bringt die neue Version des Datenbank-Flagschiffs aus dem Hause Microsoft für den Visual FoxPro Entwickler? Was gibt's an Neuigkeiten, Verbesserungen und Fallen? Welche Editionen samt Ausstattung gibt es?
 
-11.2005 [PostgreSQL 8.0](https://jochen.kirstaetter.name/presentation/presentation.html)
+11.2005 [PostgreSQL 8.0](xref:presentation)
 
 Seit der Version 8.0 unterstützt PostgreSQL direkt die Windowsplattform und steht als leistungsfähiges Datenbanksystem für die Entwicklung und Distribution von Anwendungen zur Verfügung.
 
-08.2005 [Versionskontrolle mit Subversion](https://jochen.kirstaetter.name/presentation/presentation.html)
+08.2005 [Versionskontrolle mit Subversion](xref:presentation)
 
 Den ersten Teil gestaltet Golo Haas mit allgemeinen Aspekten zu Versionskontrolle - welche Techniken und Tools es gibt. Insbesondere bei Verwendung von Subversion als Kontrollsystem.  
 Im zweiten Part geht Jochen Kirstätter auf die Integration und Verwendung von Subversion in Visual FoxPro ein und zeigt, welche Möglichkeiten und Hindernisse hierbei bestehen.
 
-07.2005 [Microsoft SQL Server 2005 - Neue Features und Verbesserungen](https://jochen.kirstaetter.name/presentation/presentation.html)
+07.2005 [Microsoft SQL Server 2005 - Neue Features und Verbesserungen](xref:presentation)
 
 Was bringt die neue Version des Datenbank-Flagschiffs aus dem Hause Microsoft für den Visual FoxPro Entwickler? Was gibt's an Neuigkeiten, Verbesserungen und Fallen? Welche Editionen samt Ausstattung gibt es?
 
-06.2005 [Sie kennen Lego™? - Bausteine in Software](https://jochen.kirstaetter.name/presentation/presentation.html)
+06.2005 [Sie kennen Lego™? - Bausteine in Software](xref:presentation)
 
 Komponenten spielen in der modernen Softwareentwicklung eine große Rolle, indem sie wiederverwendbare Bausteine liefern, aus denen sich komplexe Applikationen zusammenstellen lassen.
 
-05.2005 [MSDN Webcast: Visual Studio 2005 mit Visual FoxPro](https://jochen.kirstaetter.name/presentation/presentation.html)
+05.2005 [MSDN Webcast: Visual Studio 2005 mit Visual FoxPro](xref:presentation)
 
-03.2005 [Blob, Varchar, Binary - Feldtypen in Visual FoxPro 9.0](https://jochen.kirstaetter.name/presentation/presentation.html)
+03.2005 [Blob, Varchar, Binary - Feldtypen in Visual FoxPro 9.0](xref:presentation)
 
 Mit Visual FoxPro verfügt die Datenbank über verbesserte und neue Feldtypen. Der Abend beschäftigt sich mit den Änderungen und zeigt Beispiele für mögliche Einsatzzwecke. Außerdem ist die SQL-Syntax in VFP 9.0 weiter an die ANSI-Empfehlungen angenähert worden.
 
-02.2005 [XML – Aufbau, Sinn und Zweck - Nutzbarkeit in VFP](https://jochen.kirstaetter.name/presentation/presentation.html)
+02.2005 [XML – Aufbau, Sinn und Zweck - Nutzbarkeit in VFP](xref:presentation)
 
 Die eXtensible Markup Language (XML) gibt's nun seit einigen Jahren und die Wandlung vom Hype zur alltäglichen Nutzung ist vollzogen. Das Einsatzgebiet erstreckt sich von Webseiten, Austausch von Daten bis hin zu kompletten Datenbanksystemen.
 
-12.2004 [VFP Anwendungen vertreiben - Windows Installer](https://jochen.kirstaetter.name/presentation/presentation.html)
+12.2004 [VFP Anwendungen vertreiben - Windows Installer](xref:presentation)
 
 Deployment oder auch als Auslieferung bekannt, kann unterschiedlich aufgefasst werden. Das reicht vom simplen Kopieren von CD auf Festplatte bis zur komfortablen Installationsroutine mit erklärenden Einzelschritten und automatischer Systemkonfiguration.
 
-08.2004 [Additive Datenbanken zu Visual FoxPro - MSDE, MS SQL und MySQL -](https://jochen.kirstaetter.name/presentation/presentation.html)
+08.2004 [Additive Datenbanken zu Visual FoxPro - MSDE, MS SQL und MySQL -](xref:presentation)
 
 Unter welchen Aspekten ist es sinnvoll, additive Datenbanken zu VFP zu verwenden? Welche Unterschiede und Besonderheiten haben die diversen RDBMS? Wie gestaltet sich die Installation und Konfiguration der Datenbanken und wie nutzt man diese mit Visual FoxPro?
 
-06.2004 [Visual FoxPro 9.0 Beta - Features und Highlights](https://jochen.kirstaetter.name/presentation/presentation.html)
+06.2004 [Visual FoxPro 9.0 Beta - Features und Highlights](xref:presentation)
 
 Der Abend wird sich zentral um die aktuelle Beta von Visual FoxPro 9.0 drehen. Dabei geht es vorallem darum, die neuen Features, Funktionalitäten und Verbesserungen gegenüber den Vorgängern zu zeigen. Der Abend wird sicherlich nicht alle Bereiche abdecken können, aber gehen wir einfach davon aus, daß es sehr informativ werden dürfte.
 
@@ -208,7 +208,7 @@ Ausgehend von der Situation eines VFP Entwicklers erläutert Kevin McNeish die g
 
 #### FoxX Professional
 
-Q4 2005 [Introducing Microsoft SQL Server 2005 For Developers](https://jochen.kirstaetter.name/presentation/presentation.html)
+Q4 2005 [Introducing Microsoft SQL Server 2005 For Developers](xref:presentation)
 
 ##
 

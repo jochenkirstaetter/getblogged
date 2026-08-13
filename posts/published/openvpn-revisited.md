@@ -148,7 +148,7 @@ This way you are able to find out which clients are still running on the previou
 
 Thanks to some of the clients of my company IOS Indian Ocean Software Ltd. it happens that I have to connect to their networks via VPN from time to time. Given the changed cipher of my own OpenVPN infrastructure I wanted to see what others are using.
 
-According to my own article [Connecting Linux to WatchGuard Firebox SSL (OpenVPN client)](https://jochen.kirstaetter.name/connecting-linux-to-watchguard-firebox-ssl/) one of the client configuration files reads like this:
+According to my own article [Connecting Linux to WatchGuard Firebox SSL (OpenVPN client)](xref:connecting-linux-to-watchguard-firebox-ssl) one of the client configuration files reads like this:
 
 ```
 cipher AES-256-CBC

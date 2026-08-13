@@ -62,7 +62,7 @@ codeinjectionFoot:
 
 The Emtel Knowledge Series goes in compliance with Emtel's 25th anniversary celebrations throughout the year and the master of ceremony, Kim Andersen, mentioned that there will be more upcoming events on a quarterly base. As a representative of the [Mauritius Software Craftsmanship Community (MSCC)](https://meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community (MSCC)") there was absolutely no hesitation to join in and quite frankly it was a well prepared workshop and I'm looking forward to future announcements.
 
-Emtel has quite a number a milestones achieved throughout the years, and despite [rants over internet connectivity](https://jochen.kirstaetter.name/test-your-internet-connection/), [DIY instructions for In-Car WiFi](https://jochen.kirstaetter.name/how-to-build-in-car-wifi-hotspot/ "How to build your own 'Emtel In-Car WiFi' hot-spot"), or complains about the lack of certain services (FAX, VoIP, multiple SIMs, etc.), it's actually impressive what Emtel did and how they improved the ICT landscape, especially in terms of mobile network, here in Mauritius. But it's also very good to see that the won't rest on their laurels and continue to provide top-notch services for the country and its population.
+Emtel has quite a number a milestones achieved throughout the years, and despite [rants over internet connectivity](xref:test-your-internet-connection), [DIY instructions for In-Car WiFi](xref:how-to-build-in-car-wifi-hotspot "How to build your own 'Emtel In-Car WiFi' hot-spot"), or complains about the lack of certain services (FAX, VoIP, multiple SIMs, etc.), it's actually impressive what Emtel did and how they improved the ICT landscape, especially in terms of mobile network, here in Mauritius. But it's also very good to see that the won't rest on their laurels and continue to provide top-notch services for the country and its population.
 
 ## []()Availability of LTE and IPv6
 
@@ -108,4 +108,4 @@ First (and only) prize to win was an Apple iPad mini WiFi Cellular, 16GB Black. 
 
 The event was split in multiple concepts and the transitions between presentations on various topics, the panel discussions, the product and service demonstration outside the auditorium, and the placement of the breaks for food and networking were smooth. Overall, a well-organised workshop and it would be another interesting experience to join the next workshop in Q2.
 
-Furthermore, I would also welcome that [Driving Business Forward by Knowledge 7](https://jochen.kirstaetter.name/driving-business-forward/) as of last year is about to continue.
+Furthermore, I would also welcome that [Driving Business Forward by Knowledge 7](xref:driving-business-forward) as of last year is about to continue.

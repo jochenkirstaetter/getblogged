@@ -56,7 +56,7 @@ codeinjectionFoot:
 
 Cyber Island Mauritius is getting more information on the latest technologies provided by Microsoft. Finally... ;-)
 
-After attending ["Driving Business Forward" by Knowledge 7](https://jochen.kirstaetter.name/driving-business-forward/) it was time to wrap my head around some off-line information on latest Windows platforms. Not that I am in lack of information or software products but simply for the exchange of experience and networking.
+After attending ["Driving Business Forward" by Knowledge 7](xref:driving-business-forward) it was time to wrap my head around some off-line information on latest Windows platforms. Not that I am in lack of information or software products but simply for the exchange of experience and networking.
 
 ## Windows 8 & Windows Server 2012
 

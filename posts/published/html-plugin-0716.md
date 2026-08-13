@@ -62,7 +62,7 @@ Am Ende der Woche reicht die Zeit doch noch für eine aktualisierte Version des 
   
 Die neue Version ist wie die vorherigen unter VFP 9.0 kompiliert. Den Download gibt's hier:  
   
-[https://jochen.kirstaetter.name/files/html.plugin-0.7.16.exe](https://jochen.kirstaetter.name/html-plugin-0716/files/html.plugin-0.7.16.exe)  
+[https://jochen.kirstaetter.name/files/html.plugin-0.7.16.exe](xref:html-plugin-0716)  
   
 Installation wie immer: AFP Dienst stoppen, Installation ausführen, AFP starten, fertig.  
   

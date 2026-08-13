@@ -54,7 +54,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-After yesterday's [report on Emtel Fixed Broadband](https://jochen.kirstaetter.name/test-your-internet-connection/ "report on Emtel Fixed Broadband") (I'm still wondering where the 'fixed' part is), I did the same tests on [Emtel Mobile Internet](https://www.emtel.com/home-web-package-plans/ "Emtel Mobile Internet"). For this I'm using the Huawei E169G HSDPA USB stick, connected to the same machine. Actually, this is my fail-safe internet connection and the system automatically switches between them if a problem, let's say timeout, etc. has been detected on the main line.
+After yesterday's [report on Emtel Fixed Broadband](xref:test-your-internet-connection "report on Emtel Fixed Broadband") (I'm still wondering where the 'fixed' part is), I did the same tests on [Emtel Mobile Internet](https://www.emtel.com/home-web-package-plans/ "Emtel Mobile Internet"). For this I'm using the Huawei E169G HSDPA USB stick, connected to the same machine. Actually, this is my fail-safe internet connection and the system automatically switches between them if a problem, let's say timeout, etc. has been detected on the main line.
 
 For better comparison I used exactly the same servers on [Speedtest.net](https://www.speedtest.net/ "https://www.speedtest.net/").
 

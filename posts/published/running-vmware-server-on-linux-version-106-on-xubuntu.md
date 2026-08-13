@@ -54,7 +54,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-After the last article about [Running VMware Player on Linux](https://jochen.kirstaetter.name/running-vmware-player-on-linux-%28xubuntu-hardy-heron%29/) I thought that it would be very nice to be able to create new and modify existing machines. Ergo, let's try the latest version of [VMware Server](https://register.vmware.com/content/download-106.html) on the same machine. Well, this installation doesn't need any modifications in source code but it is also not without pains.  
+After the last article about [Running VMware Player on Linux](xref:running-vmware-player-on-linux-xubuntu-hardy-heron) I thought that it would be very nice to be able to create new and modify existing machines. Ergo, let's try the latest version of [VMware Server](https://register.vmware.com/content/download-106.html) on the same machine. Well, this installation doesn't need any modifications in source code but it is also not without pains.  
   
 The main difference for sure is that the VMware server runs as a service - well, actually it is invoked by xinetd - and can be administrated locally and remotely. But let's focus on the installation first. As mentioned we need xinetd on our system. This is done via apt, aptitude or any other APT install client that you prefer:  
   

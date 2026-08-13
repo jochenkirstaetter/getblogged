@@ -54,7 +54,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-Ausgehend vom [vorherigen Blogeintrag](https://jochen.kirstaetter.name/Family-Website-aktualisiert) und der regen Unterhaltung mit Thomas habe ich mal wieder eine 'Ego-Search' in Betracht gezogen. Dabei geht's einfach mal darum zu sehen, welche Treffer in den Suchmaschinen gelistet werden, wenn man seinen Namen oder nur den Familiennamen eingibt.
+Ausgehend vom [vorherigen Blogeintrag](xref:family-website-aktualisiert) und der regen Unterhaltung mit Thomas habe ich mal wieder eine 'Ego-Search' in Betracht gezogen. Dabei geht's einfach mal darum zu sehen, welche Treffer in den Suchmaschinen gelistet werden, wenn man seinen Namen oder nur den Familiennamen eingibt.
 
 Gut, bei Google bin ich mit acht von zehn unter den ersten Treffern aktuell #1. Aber wesentlich interessanter finde ich die weiteren Treffer:
 

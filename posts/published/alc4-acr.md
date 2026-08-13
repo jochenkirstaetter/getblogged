@@ -57,7 +57,7 @@ codeinjectionFoot:
 
 After completing a challenge to create a React application and experimenting with different ways on how to deploy and operate it on the Google Cloud Platform (GCP) I was wondering about how this would possibly work on Microsoft Azure.
 
-The following article describes how to take the same React application as discussed in [Create React App (ALC 4.0 Cloud Challenge I)](https://jochen.kirstaetter.name/alc4-cloud-react/) and to deploy it as an App Service on Microsoft Azure using a Docker image. You are going to build a new container and push it to the Azure Container Registry (ACR).
+The following article describes how to take the same React application as discussed in [Create React App (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-react) and to deploy it as an App Service on Microsoft Azure using a Docker image. You are going to build a new container and push it to the Azure Container Registry (ACR).
 
 First, if applicable, log into your Azure account.
 
@@ -103,7 +103,7 @@ With the container registry in place you run the `az acr build` command to build
 
 **Note:** The `.` at the end of the command is essential and sets the location to the current directory.
 
-Building the image for Azure Container Registry is somehow identical to [Working with Cloud Build](https://jochen.kirstaetter.name/alc4-cloud-build/) on the Google Cloud Platform. One command that does all the hard work for you.
+Building the image for Azure Container Registry is somehow identical to [Working with Cloud Build](xref:alc4-cloud-build) on the Google Cloud Platform. One command that does all the hard work for you.
 
 ![Latest image build resides in a repository in the Azure Container Registry](../content/images/2019/12/image.png)
 
@@ -133,7 +133,7 @@ Click on the link provided in the `URL` field to open a new browser tab and visi
 
 The Azure App Service is comparable to the features of the Google Cloud App Engine environments. Whether it's Standard or Flex would mainly depend on your choice of runtime.
 
-However, given above described simplicity of deploying the container image as a web application it feels a bit more like [Using Google Cloud Run](https://jochen.kirstaetter.name/alc4-cloud-run/) compared to App Engine.
+However, given above described simplicity of deploying the container image as a web application it feels a bit more like [Using Google Cloud Run](xref:alc4-cloud-run) compared to App Engine.
 
 ## Azure App Service has HTTPS built-in
 

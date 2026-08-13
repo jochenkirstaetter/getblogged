@@ -54,11 +54,11 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-This article is a follow-up to [Learning content for MCSDs: Web Applications and Windows Store Apps using HTML5](https://jochen.kirstaetter.name/learning-content-for-mcsds-web-applications-and-windows-store-apps-using-html5/ "Learning content for MCSDs: Web Applications and Windows Store Apps using HTML5") and I am going to focus a bit on learning material for the second exam [70-481 Essentials of Developing Windows Store Apps using HTML5 and JavaScript](https://www.microsoft.com/learning/en/us/exam.aspx?id=70-481 "70-481 Essentials of Developing Windows Store Apps using HTML5 and JavaScript").
+This article is a follow-up to [Learning content for MCSDs: Web Applications and Windows Store Apps using HTML5](xref:learning-content-for-mcsds-web-applications-and-windows-store-apps-using-html5 "Learning content for MCSDs: Web Applications and Windows Store Apps using HTML5") and I am going to focus a bit on learning material for the second exam [70-481 Essentials of Developing Windows Store Apps using HTML5 and JavaScript](https://www.microsoft.com/learning/en/us/exam.aspx?id=70-481 "70-481 Essentials of Developing Windows Store Apps using HTML5 and JavaScript").
 
 ## Step by step towards MCSD
 
-The general motivation is there, first exam [70-480 has been passed successfully](https://jochen.kirstaetter.name/passed-exam-70-480-programming-in-html5-with-javascript-and-css3/), and there is more the queue during the upcoming weeks. Compared to exam 70-480 the second one doesn't offer so much credits but let's have a quick look at them:
+The general motivation is there, first exam [70-480 has been passed successfully](xref:passed-exam-70-480-programming-in-html5-with-javascript-and-css3), and there is more the queue during the upcoming weeks. Compared to exam 70-480 the second one doesn't offer so much credits but let's have a quick look at them:
 
 ### Credit Toward Certification
 
@@ -77,11 +77,11 @@ Frankly speaking, there isn't much to add in this case and the already reference
 - [Windows 8 Design handbook](https://www.windows8designhandbook.com/ "Windows 8 Design handbook")
   - It is actually not an official resource by Microsoft but still it explains the major details in a very appealing and informative way.
 - [Programming Windows 8 Apps with HTML, CSS, and JavaScript](https://blogs.msdn.com/b/microsoft_press/archive/2012/10/29/free-ebook-programming-windows-8-apps-with-html-css-and-javascript.aspx "Programming Windows 8 Apps with HTML, CSS, and JavaScript")
-  - Kraig Brockschmidt delves into the ups and downs of Windows 8 App development over 800+ pages. Great eBook to read, study, and to practice the samples - best of all, it's for free. Read [my review on this title](https://jochen.kirstaetter.name//programming-windows-8-apps-with-html-css-and-javascript/).
+  - Kraig Brockschmidt delves into the ups and downs of Windows 8 App development over 800+ pages. Great eBook to read, study, and to practice the samples - best of all, it's for free. Read [my review on this title](xref:programming-windows-8-apps-with-html-css-and-javascript).
 - [codeSHOW()](https://codeshow.codeplex.com/ "codeSHOW()")
   - This is a Windows 8 HTML/JS project with the express goal of demonstrating simple development concepts for the Windows 8 platform. Code, code and more code... absolutely great stuff to study and practice.
 - [Microsoft Virtual Academy](https://www.microsoftvirtualacademy.com/ "Microsoft Virtual Academy")
-  - I already wrote about the [MVA in a previous article](https://jochen.kirstaetter.name/microsoft-virtual-academy/ "MVA in a previous article"). Well, if you haven't registered yourself yet, now is the time.
+  - I already wrote about the [MVA in a previous article](xref:microsoft-virtual-academy "MVA in a previous article"). Well, if you haven't registered yourself yet, now is the time.
 - [Pluralsight](https://www.pluralsight.com/ "Pluralsight") online learning
   - [Windows 8 Store Apps Hands-on in 20 Lessons](https://pluralsight.com/training/Courses/TableOfContents/windows8-hands-on "Windows 8 Store Apps Hands-on in 20 Lessons")
   - [Testable Windows 8 Applications](https://pluralsight.com/training/Courses/TableOfContents/testable-windows-8 "Testable Windows 8 Applications")

@@ -54,7 +54,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-Again Rwanda, and [GDG Kigali](https://gdg.community.dev/gdg-kigali/) agreed to organise their DevFest at the same time as the annual [SSA Community Summit](https://jochen.kirstaetter.name/ssa-community-summit-2023/). In comparison to last year I reached out to the organising commitee early and sent them a proposal to talk.
+Again Rwanda, and [GDG Kigali](https://gdg.community.dev/gdg-kigali/) agreed to organise their DevFest at the same time as the annual [SSA Community Summit](xref:ssa-community-summit-2023). In comparison to last year I reached out to the organising commitee early and sent them a proposal to talk.
 
 ## The venue
 

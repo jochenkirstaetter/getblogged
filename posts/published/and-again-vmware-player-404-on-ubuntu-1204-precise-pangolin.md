@@ -54,7 +54,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-Even with the new version of [VMware Player](https://www.vmware.com/products/player/overview.html "Desktop virtualization with VMware Player") 4.0.4 you are still required to patch their sources. [So, same game as last month.](https://jochen.kirstaetter.name/update-kernel-patch-for-vmware-player-403/ "Update kernel patch for VMware Player 4.0.3") Just changing the value of the required version in the kernel patch script of Stefano Angeleri (weltall) and you are done:
+Even with the new version of [VMware Player](https://www.vmware.com/products/player/overview.html "Desktop virtualization with VMware Player") 4.0.4 you are still required to patch their sources. [So, same game as last month.](xref:update-kernel-patch-for-vmware-player-403 "Update kernel patch for VMware Player 4.0.3") Just changing the value of the required version in the kernel patch script of Stefano Angeleri (weltall) and you are done:
 
 ```
 nano patch-modules_3.2.0.sh

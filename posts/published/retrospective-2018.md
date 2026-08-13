@@ -78,7 +78,7 @@ In February I went forward to organise a Study Jam regarding Google's [Mobile Si
 
 All learning material is provided by the Google [Academy for Ads](https://academy.exceedlms.com/) for free and passing the assessment can be done at the convenience of your own computer at any time. This certification is valid for one year as there is a constant flow of changes happening. I passed that certification already twice.
 
-At home I was surprised by a little challenge coming from our children. They both have computer courses - [ICT skills at primary school](https://jochen.kirstaetter.name/azure-for-school/) - at their school which covers basic use of applications from the Microsoft Office suite.
+At home I was surprised by a little challenge coming from our children. They both have computer courses - [ICT skills at primary school](xref:azure-for-school) - at their school which covers basic use of applications from the Microsoft Office suite.
 
 ![Using a Windows 10 VM on Azure to provide access to Microsoft Office for our kids](../content/images/2019/01/28238368_10204773253128526_6743410415003248176_o.jpg)
 
@@ -86,7 +86,7 @@ As their laptop is running on [Xubuntu](https://xubuntu.org/) Linux with [LibreO
 
 ## March - 100 Days of Exam & SQL Server on Linux
 
-After quite some time of active procrastination I thought that it was finally the right moment to get my stuff together and opt-in for industry exams. The main impulse came from my intention to go for the [MCSA: Linux on Azure](https://jochen.kirstaetter.name/mcsa-linux-on-azure/) certification - which would allow me to literally combine both of my favourite activities in IT: Cloud computing (using Microsoft Azure) and Linux.
+After quite some time of active procrastination I thought that it was finally the right moment to get my stuff together and opt-in for industry exams. The main impulse came from my intention to go for the [MCSA: Linux on Azure](xref:mcsa-linux-on-azure) certification - which would allow me to literally combine both of my favourite activities in IT: Cloud computing (using Microsoft Azure) and Linux.
 
 To keep myself accountable and focused on the challenge to learn and sit for the upcoming exams I drew inspiration from Alexander Kallaway's [100 Days of Code](http://100daysofcode.com/) to create a side-project on my own: [#100DaysOfExam](https://www.100daysofexam.com/)
 
@@ -142,13 +142,13 @@ Their "performance" starts at the 1:42 minute marker.
 
 ## July - Microsoft MVP Award
 
-Woohoo, the most anticipated email showed up in my inbox - I have been re-awarded with the [Microsoft Most Valuable Professional (MVP) award](https://mvp.microsoft.com/). This year marked [my five years of being an MVP awardee](https://mvp.microsoft.com/en-us/PublicProfile/5001701) - 2006, 2007, 2016, 2017 and now 2018. I'm really humbled by this recognition, and it motivates me to put more effort into my IT passion.
+Woohoo, the most anticipated email showed up in my inbox - I have been re-awarded with the [Microsoft Most Valuable Professional (MVP) award](https://mvp.microsoft.com/). This year marked [my five years of being an MVP awardee](https://mvp.microsoft.com/en-US/MVP/profile/53d40e60-fe70-490e-8e73-2185b648f26f) - 2006, 2007, 2016, 2017 and now 2018. I'm really humbled by this recognition, and it motivates me to put more effort into my IT passion.
 
 ![5th Microsoft MVP Award received - in need of a larger shelf as it looks like](../content/images/2019/01/WP_20180807_14_23_26_Pro.jpg)
 
-While I replaced my daily development machine I also used the opportunity to sent my previous laptop to refurbishment - general cleaning, replacement of broken parts, etc. -, and then I picked up the latest Windows 10 Insider version and [built the system from scratch](https://jochen.kirstaetter.name/windows10-quick-installation/).
+While I replaced my daily development machine I also used the opportunity to sent my previous laptop to refurbishment - general cleaning, replacement of broken parts, etc. -, and then I picked up the latest Windows 10 Insider version and [built the system from scratch](xref:windows10-quick-installation).
 
-The hardware specs of that laptop are still top-notch and the built-in NVidia GTX 870M has enough juice to run a [DIY Windows Game Box (Steam, Itch, Xbox, Store, Scumm, etc.)](https://jochen.kirstaetter.name/diy-windows-game-box/).
+The hardware specs of that laptop are still top-notch and the built-in NVidia GTX 870M has enough juice to run a [DIY Windows Game Box (Steam, Itch, Xbox, Store, Scumm, etc.)](xref:diy-windows-game-box).
 
 ![Using a refurbished laptop with decent graphics card as game console](../content/images/2019/01/WP_20180723_19_40_47_Pro--2-.jpg)
 
@@ -170,7 +170,7 @@ Talking about "making"... We got confirmation that our initiated "Project Jamba"
 
 ## September - Google Developer Groups
 
-Surely, the highlight of the month, probably the year 2018, was the trip to Nairobi, Kenya to attend the annual, regional [SSA Community Summit 2018](https://jochen.kirstaetter.name/ssa-community-summit-2018/) and [DevFest Nairobi](https://www.meetup.com/GDG-Nairobi/events/252860861/) with over 1,200 attendees.
+Surely, the highlight of the month, probably the year 2018, was the trip to Nairobi, Kenya to attend the annual, regional [SSA Community Summit 2018](xref:ssa-community-summit-2018) and [DevFest Nairobi](https://www.meetup.com/GDG-Nairobi/events/252860861/) with over 1,200 attendees.
 
 ![Impressions of Google DevFest Nairobi 2018](../content/images/2019/01/DevFestNairobi2018.png)
 
@@ -200,7 +200,7 @@ In regards to software community all flags were up for [Hacktoberfest](https://h
 
 Did anyone actually receive their T-shirt already?
 
-Oh, not to forget. The fruits of [#100DaysOfExam](https://jochen.kirstaetter.name/100-days-of-exam/) started to bring in the harvest. Back in August, I sat for three Microsoft beta exams and I passed them all. Meaning, I'm now a [Microsoft Certified: Azure Administrator Associate](https://www.microsoft.com/en-us/learning/azure-administrator.aspx). Stupid me, actually twice... ;-)
+Oh, not to forget. The fruits of [#100DaysOfExam](xref:100-days-of-exam) started to bring in the harvest. Back in August, I sat for three Microsoft beta exams and I passed them all. Meaning, I'm now a [Microsoft Certified: Azure Administrator Associate](https://www.microsoft.com/en-us/learning/azure-administrator.aspx). Stupid me, actually twice... ;-)
 
 ## November - Relaxing & more beta exams
 

@@ -74,7 +74,7 @@ Get more information about [Cloud Build](https://cloud.google.com/cloud-build/?h
 
 ## Submit to Cloud Build
 
-All steps to prepare the local development environment to create a Docker image are identical to the instructions described in [Working with Docker (ALC 4.0 Cloud Challenge I)](https://jochen.kirstaetter.name/alc4-cloud-docker/).
+All steps to prepare the local development environment to create a Docker image are identical to the instructions described in [Working with Docker (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-docker).
 
 But instead of building the docker image locally or in Cloud Shell you would submit your work to Cloud Build with the following command.
 
@@ -108,7 +108,7 @@ Navigate to Container Registry &gt; Images in the Cloud Console and have a look 
 
 ![Container Registry has the freshly created image](../content/images/2019/11/image-32.png)
 
-Now, your docker image is ready to use in Kubernetes or App Engine Flex environment. Continue the journey and deploy to [Google Kubernetes Engine](https://jochen.kirstaetter.name/alc4-cloud-k8s/).
+Now, your docker image is ready to use in Kubernetes or App Engine Flex environment. Continue the journey and deploy to [Google Kubernetes Engine](xref:alc4-cloud-k8s).
 
 Don't forget to check out the [Cloud Build documentation](https://cloud.google.com/cloud-build/docs/) for more how-to guides and concepts.
 

@@ -54,7 +54,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-[![NCB Technopreneur Programme](https://s.kirstaetter.name/images/ncb_technopreneur.png)](https://technopreneur.ncb.mu/)These recent days are packed with a series of great events... Starting [last Saturday, at the monthly meetup of the MSCC](https://jochen.kirstaetter.name/mssc-16112013-clean-code-developer-your-workspace/ "Clean Code Development & Your workspace") I talked about my experience having a conversation with representatives of the [National Computer Board (NCB)](https://www.ncb.mu/ "National Computer Board (NCB)") about the feasibility of getting one of their presentation slots at the Infotech 2013. At that time, the overview for three days was **completely (!) empty** - with less than 10 days before the event and the presentations are about too happen! Well, short answer of the NCB:
+[![NCB Technopreneur Programme](https://s.kirstaetter.name/images/ncb_technopreneur.png)](https://technopreneur.ncb.mu/)These recent days are packed with a series of great events... Starting [last Saturday, at the monthly meetup of the MSCC](xref:mssc-16112013-clean-code-developer-your-workspace "Clean Code Development & Your workspace") I talked about my experience having a conversation with representatives of the [National Computer Board (NCB)](https://www.ncb.mu/ "National Computer Board (NCB)") about the feasibility of getting one of their presentation slots at the Infotech 2013. At that time, the overview for three days was **completely (!) empty** - with less than 10 days before the event and the presentations are about too happen! Well, short answer of the NCB:
 
 > *"No, those slots are only for paying exhibitors. But I'll check with my manager and we'll call you back."*
 
@@ -81,7 +81,7 @@ Meanwhile, I kept myself occupied with an easy [conversation about the NCB Techn
 
 Despite the set time slots we decided to swap the sequence of our three presentations, so that they match more closely to Monday at the [Linuxfest 2013](https://linuxfest.lugm.org/#speakers "Linuxfest 2013"). And I had to leave early, too.
 
-- [Running Windows applications on Linux](https://jochen.kirstaetter.name/running-windows-applications-on-linux/ "Running Windows applications on Linux")
+- [Running Windows applications on Linux](xref:running-windows-applications-on-linux "Running Windows applications on Linux")
 - Mauritius Software Craftsmanship Community
 - [openSUSE Project / openSUSE Advocate Program](https://hacklog.in/linuxfest-2013-highlights/ "openSUSE Project / openSUSE Advocate Program")
 
@@ -102,7 +102,7 @@ Nirvan and Nayar*
 *Infotech 2013 - openSUSE Project and openSUSE Advocate Program presented by Ish  
 *
 
-Luckily, I could stay some more minutes and enjoyed the presentation of Nirvan and Nayar about the [MSCC](https://jochen.kirstaetter.name/mscc/ "Mauritius Software Craftsmanship Community"). Both did a very good job, even though that the laptop used gave them a hard time. Ironically, it's a Windows system... okay, okay, just kidding! Afterwards some minor advice, like using a dedicated Windows user account only for the presentation (which avoids nasty notifications from the Systray area), and to uncheck "Show Desktop Icons" in order to show a clean and empty desktop background on the big screen. Hm, which actually reminds me to choose a better background image for Monday, too!
+Luckily, I could stay some more minutes and enjoyed the presentation of Nirvan and Nayar about the [MSCC](xref:mscc "Mauritius Software Craftsmanship Community"). Both did a very good job, even though that the laptop used gave them a hard time. Ironically, it's a Windows system... okay, okay, just kidding! Afterwards some minor advice, like using a dedicated Windows user account only for the presentation (which avoids nasty notifications from the Systray area), and to uncheck "Show Desktop Icons" in order to show a clean and empty desktop background on the big screen. Hm, which actually reminds me to choose a better background image for Monday, too!
 
 ## []()Resume of the day
 

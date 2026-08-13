@@ -150,6 +150,6 @@ Okay, after several runs of HTML/CSS code analysis, searching and replacing some
 And last but not least it was about to check web site on tablets.  
 Please continue to read on the following articles:
 
-[Taking web sites offline for demonstration on Galaxy Tablet](https://jochen.kirstaetter.name/taking-web-sites-offline-for-demonstration-on-galaxy-tablet/ "Taking web sites offline for demonstration on Galaxy Tablet")
+[Taking web sites offline for demonstration on Galaxy Tablet](xref:taking-web-sites-offline-for-demonstration-on-galaxy-tablet "Taking web sites offline for demonstration on Galaxy Tablet")
 
-[Taking web sites offline for demonstration on iPad](https://jochen.kirstaetter.name/taking-web-sites-offline-for-demonstration-on-ipad/ "Taking web sites offline for demonstration on iPad")
+[Taking web sites offline for demonstration on iPad](xref:taking-web-sites-offline-for-demonstration-on-ipad "Taking web sites offline for demonstration on iPad")

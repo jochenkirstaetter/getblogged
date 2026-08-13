@@ -81,7 +81,7 @@ Yes, they do... According to an article [Whoa. Microsoft is using Linux to run i
 
 Nonetheless, I would assume that the main interest would be to run and operate Linux machines in Azure. According to [Microsoft says 40 percent of all VMs in Azure now are running Linux](http://www.zdnet.com/article/microsoft-says-40-percent-of-all-vms-in-azure-now-are-running-linux/) we are in good company with like-minded system operators.
 
-What better than combining two technology stacks? Although, I work on Windows systems during my day job, Linux plays a vital role. Our internet gateways are based on a designated Linux system which handles all internal traffic and provides access to the internet by providing essential services like DHCP, DNS, proxy and so forth. Services the standard router provided by a local ISP might not be capable of or [with serious security concerns](https://jochen.kirstaetter.name/router-in-mauritius/).
+What better than combining two technology stacks? Although, I work on Windows systems during my day job, Linux plays a vital role. Our internet gateways are based on a designated Linux system which handles all internal traffic and provides access to the internet by providing essential services like DHCP, DNS, proxy and so forth. Services the standard router provided by a local ISP might not be capable of or [with serious security concerns](xref:router-in-mauritius).
 
 Using Azure to provision a Linux-based virtual machine takes less than 5 minutes and there are various options available.
 

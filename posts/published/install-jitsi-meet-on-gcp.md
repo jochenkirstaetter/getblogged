@@ -516,4 +516,4 @@ Congrats, your Jitsi Meet server is now operational. Maybe you like to review th
 
 ## Customising Jitsi Meet server
 
-The default installation in this article is kind of basic and provides you a jumpstart to run your own video conferencing system. In the next article of this series I'm going to describe how you [enable authentication and secure your Jitsi Meet instance](https://jochen.kirstaetter.name/authentication-jitsi-meet/).
+The default installation in this article is kind of basic and provides you a jumpstart to run your own video conferencing system. In the next article of this series I'm going to describe how you [enable authentication and secure your Jitsi Meet instance](xref:authentication-jitsi-meet).

@@ -59,7 +59,7 @@ With Phase 2 being kicked off a few days ago, there have been some changes commu
 
 In preparation of the first online meetup aka. Google Africa Developer Scholarship Online Meetup, ALC admins contacted me to run a session being a Learning Community Ambassador (LCA). Great stuff I thought given that I'm in the 4.0 program as an LCA for mobile web development. However, to my astounishment, I was elected as LCA for the **Cloud** track. Uhm...
 
-Not sure what has happened there because as I wrote in my other blog [Share your journey - #150DaysOfALC4](https://jochen.kirstaetter.name/share-your-journey-150daysofalc4/) I only started with the Google Cloud Platform (GCP) thanks to this program. Meaning, I'm definitely not an expert in GCP, not even remote. Nonetheless I agreed to speak for approximately an hour given that I had a few aspects and tips on my mind that I wanted to share with my fellow study buddies.
+Not sure what has happened there because as I wrote in my other blog [Share your journey - #150DaysOfALC4](xref:share-your-journey-150daysofalc4) I only started with the Google Cloud Platform (GCP) thanks to this program. Meaning, I'm definitely not an expert in GCP, not even remote. Nonetheless I agreed to speak for approximately an hour given that I had a few aspects and tips on my mind that I wanted to share with my fellow study buddies.
 
 ## Non-Andelan Location Study Group
 
@@ -85,7 +85,7 @@ With the web track starting we used the first hour to talk about our expectation
 
 Of course, we kept an eye on the web session of Joseph irrespective our own program tracks. He gave some nice demos and thankfully stayed within the one hour slot allocated to him. Next, it was my turn to explore the rich topic of *Architecting on the Google Cloud Platform*. As the topic itself is quite broad and rich on content I tried to bring out the essential parts that would be most relevant for Cloud learners in the current ALC 4.0 program and how to probably add a few more resources to the available ones.
 
-After a quick introduction of myself, as partly described in [ALC 4.0 Cloud - Slack questions](https://jochen.kirstaetter.name/alc4-slack-questions/) - I went through the first batch of questions that have been posted on Sli.do ahead of the meeting. The full list of questions can be found here: [Phase II Global Meetup 1.0](https://app.sli.do/event/zs5omfti/live/questions)
+After a quick introduction of myself, as partly described in [ALC 4.0 Cloud - Slack questions](xref:alc4-slack-questions) - I went through the first batch of questions that have been posted on Sli.do ahead of the meeting. The full list of questions can be found here: [Phase II Global Meetup 1.0](https://app.sli.do/event/zs5omfti/live/questions)
 
 The interesting questions were about whether one should sign up for the Google Cloud Free Trial or create an account on Qwiklabs. If you are considering to be a future professional in cloud computing on the Google Cloud Platform... then absolutely yes, you should do so.
 

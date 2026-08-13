@@ -63,8 +63,8 @@ Dieser Beitrag basiert auf einer netten Unterhaltung auf [myCSharp.de](https://w
 Wie aus der Unterhaltung unschwer zu erkennen sein dürfte, gibt es sicherlich viele Wege nach Rom. Nun, Ronny und ich hatten noch ein paar weitere Ideenaustausche per Mail und ich habe ihn auf verschiedene Ressourcen im Bereich VFP und C# hingewiesen. Der Vollständigkeit wegen hier nochmal die Auflistung:
 
 [Connection Strings](https://www.connectionstrings.com)  
-[VFP Datenbank in .NET](https://jochen.kirstaetter.name/VFP-Datenbank-in-NET)  
-[In 80 Zeilen um die VFP-Tabelle](https://jochen.kirstaetter.name/In-80-Zeilen-um-die-VFPTabelle)  
+[VFP Datenbank in .NET](xref:vfp-datenbank-in--net)  
+[In 80 Zeilen um die VFP-Tabelle](xref:in-80-zeilen-um-die-vfp-tabelle)  
 [Webcast: Visual FoxPro als Datenbank für Visual Studio 2005](https://www.microsoft.com/germany/MSDN/webcasts/library.aspx?id=118758879)
 
 Letztendlich, bleibt es dann doch beim direkten Zugriff auf die VFP-Tabellen. Nach einiger Zeit bekam ich dann wieder Post von ihm und dabei machte mich folgende Aussage doch ziemlich stutzig:

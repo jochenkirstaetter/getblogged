@@ -72,7 +72,7 @@ Actually, it was Ish that came up with a fantastic idea. Any winner of our Chris
 >
 > *"MSCC is celebrating 6 months; to have 67 registered craftsmen & more than 20 attending a meetup is indeed a success. We hope to grow bigger, better & continue sharing the love for code!"* -- Ish on [MSCC meetup - Christmas raffle](https://hacklog.in/mscc-meetup-christmas-raffle/ "MSCC meetup - Christmas raffle")
 
-It is really great to receive this feedback. It's like fuel to your own actions and it drives me to push our community further and further. I already put a short summary of our activities and achievements in 2013 in this article "[How's Mauritius Software Craftsmanship Community going?](https://jochen.kirstaetter.name/hows-mauritius-software-craftsmanship-community-going/ "How's Mauritius Software Craftsmanship Community going?")"
+It is really great to receive this feedback. It's like fuel to your own actions and it drives me to push our community further and further. I already put a short summary of our activities and achievements in 2013 in this article "[How's Mauritius Software Craftsmanship Community going?](xref:hows-mauritius-software-craftsmanship-community-going "How's Mauritius Software Craftsmanship Community going?")"
 
 ## []()Registration of newcomers
 
@@ -84,7 +84,7 @@ Together, we can reach 100+ craftsmen easily...
 
 ## []()How was Infotech and Linuxfest 2013?
 
-Even though I gave two presentations at the [Infotech 2013](https://jochen.kirstaetter.name/infotech-2013/ "Infotech 2013 - Confusing and mixed impressions") and the [Linuxfest 2013](https://linuxfest.lugm.org/ "Linuxfest 2013") I had to rush off for a business trip to Europe. So, I asked Ish to give us a brief status update and feedback about the events that happened during and after both acts. One of the interesting aspects, in my humble opinion, is the fact that we - the MSCC as well as the [LUGM](https://www.lugm.org/ "Linux User Group of Mauritius") - are on the radar of the [National Computer Board (NCB)](https://www.ncb.mu/ "National Computer Board (NCB)"). According to Ish they seem to consider our knowledge for upcoming events, and overall that is absolutely awesome.
+Even though I gave two presentations at the [Infotech 2013](xref:infotech-2013 "Infotech 2013 - Confusing and mixed impressions") and the [Linuxfest 2013](https://linuxfest.lugm.org/ "Linuxfest 2013") I had to rush off for a business trip to Europe. So, I asked Ish to give us a brief status update and feedback about the events that happened during and after both acts. One of the interesting aspects, in my humble opinion, is the fact that we - the MSCC as well as the [LUGM](https://www.lugm.org/ "Linux User Group of Mauritius") - are on the radar of the [National Computer Board (NCB)](https://www.ncb.mu/ "National Computer Board (NCB)"). According to Ish they seem to consider our knowledge for upcoming events, and overall that is absolutely awesome.
 
 Furthermore, as we a growing community we are collecting more momentum and 'force' to actually move and make things happen. Already last month, Yannick and I went out to requests appointments with local IT companies in order to create awareness about the existence and whereabouts of the MSCC. We are going to continue this during the next couple of weeks and months.
 

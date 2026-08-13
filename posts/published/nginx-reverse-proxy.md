@@ -261,7 +261,7 @@ Eventually the `http2` directive might be an issue. Either check that you are us
 
 ## Multiple proxies
 
-No problem with nginx. You can configure and run as many reverse proxies as would like to. Right now, I think I have three or four proxies running. Interestingly, one of them is an older set up based on Apache HTTP Server which I wrote about in a [Using Apache HTTP as reverse proxy](https://jochen.kirstaetter.name/apache-reverse-proxy/).
+No problem with nginx. You can configure and run as many reverse proxies as would like to. Right now, I think I have three or four proxies running. Interestingly, one of them is an older set up based on Apache HTTP Server which I wrote about in a [Using Apache HTTP as reverse proxy](xref:apache-reverse-proxy).
 
 Do you have any interesting use cases or active configurations of nginx as reverse proxy? If yes, please use the comment section below give me and other readers more details. Thanks!
 

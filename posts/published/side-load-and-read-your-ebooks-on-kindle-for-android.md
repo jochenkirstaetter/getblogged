@@ -54,7 +54,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-[![](https://jochen.kirstaetter.name/side-load-and-read-your-ebooks-on-kindle-for-android/images/joooid/side-load_and_read_your_ebooks_on_kindle_for_android_screenshot2013042514072711.jpg)](https://www.amazon.com/kindle "Amazon Kindle")
+[![](xref:side-load-and-read-your-ebooks-on-kindle-for-android)](https://www.amazon.com/kindle "Amazon Kindle")
 
 Although, I'm using the freely available [Kindle app for Android](https://play.google.com/store/apps/details?hl=en&id=com.amazon.kindle "Kindle for Android") it only happened recently that I run into the situation to upload an existing ebook in mobi format to my Android tablet. To be more precise, I purchased some titles from [O'Reilly's Ebook](https://shop.oreilly.com/category/ebooks.do "O'Reilly's Ebook") library.
 
@@ -89,4 +89,4 @@ I just did a test run and sent a freely available ebook from [Project Gutenberg]
 
 Documents sent via email to your Amazon Cloud storage are available on other Kindle devices and readers. At least, I am able to access them on Kindle for iOS on my iPad and the other Android devices. As for the Kindle app on Windows 8 it remains a problem to access those documents.
 
-If you are more likely in the Apple universe, then please read on: [Side-load and read your mobi ebooks on Kindle for iOS](https://jochen.kirstaetter.name/side-load-and-read-your-mobi-ebooks-on-kindle-for-ios/)
+If you are more likely in the Apple universe, then please read on: [Side-load and read your mobi ebooks on Kindle for iOS](xref:side-load-and-read-your-mobi-ebooks-on-kindle-for-ios)

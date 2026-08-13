@@ -60,8 +60,8 @@ Running an operating system like Ubuntu or any of its derivates, like ie. Xubunt
 
 These steps are the same every time you decide to upgrade to the latest release. Eventually, you might be interested to update older installation and have a read here:
 
-- [Upgrade to Xubuntu 13.04 - Raring Ringtail](https://jochen.kirstaetter.name/upgrade-to-xubuntu-1304-raring-ringtail/)
-- [Upgrade to Xubuntu 13.10 - Saucy Salamander](https://jochen.kirstaetter.name/upgrade-to-xubuntu-1310-saucy-salamander/)
+- [Upgrade to Xubuntu 13.04 - Raring Ringtail](xref:upgrade-to-xubuntu-1304-raring-ringtail)
+- [Upgrade to Xubuntu 13.10 - Saucy Salamander](xref:upgrade-to-xubuntu-1310-saucy-salamander)
 
 In general, you should have a look at the official upgrade documentation of Ubuntu. Next, get your recent system up-to-date before you consider to upgrade. Also, take care that there are no pending partial upgrades or packages on hold. This might have a negative impact on the installation process of the newer packages. So, before you think about upgrading you have to ensure that your current system is running on the latest packages. This can be done easily via a terminal like so:
 

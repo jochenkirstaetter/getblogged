@@ -103,7 +103,7 @@ Given those few examples you might imagine the travel times and cost involved. T
 
 ![](../content/images/2023/08/PXL_20220921_173132913.jpg)
 
-Well, after a few hours exploring available options forth and back, and email exchange with the travel agency I finally decided to stick with the known. I traded a couple of additional hours for the comfort and services of Emirates while keeping the expenses for the air tickets within an acceptable range. Finally, I chose the two-stop, long-way round trip via Dubai and Nairobi. Thanks to past travelling experience, ie. [SSA Community Summit 2018](https://jochen.kirstaetter.name/ssa-community-summit-2018/), I know both airports and the facilities they offer. It had always been manageable to spent a couple of hours there. Also considering easy access to their corresponding business lounges for travellers.
+Well, after a few hours exploring available options forth and back, and email exchange with the travel agency I finally decided to stick with the known. I traded a couple of additional hours for the comfort and services of Emirates while keeping the expenses for the air tickets within an acceptable range. Finally, I chose the two-stop, long-way round trip via Dubai and Nairobi. Thanks to past travelling experience, ie. [SSA Community Summit 2018](xref:ssa-community-summit-2018), I know both airports and the facilities they offer. It had always been manageable to spent a couple of hours there. Also considering easy access to their corresponding business lounges for travellers.
 
 Can't imagine the adventure it might be travelling to a future GDE SSA Summit on the western coast of Africa, let's say Guinea, Mauritania or Ivory Coast. Whew, surely that would be exciting but also very exhausting.
 
@@ -245,7 +245,7 @@ A big shout-out to our regional leads of the GDE and GDG programs (in no particu
 
 All the best and lots of success to Femi and the lovely people at CcHub Kigali in their quest to discover fresh entrepreneurs and nourish their creative talents for the benefit of Rwanda and perhaps whole Africa. Would love to see success stories coming from there.
 
-And a big Thank You to GDG Kigali for organising their annual DevFest event at the same time. Giving some of us GDEs not only a chance to speak in front of audience but also to network with the attendees. I really enjoyed meeting some folks from the [SSA Community Summit 2018](https://jochen.kirstaetter.name/ssa-community-summit-2018/) and a few Twitter people.
+And a big Thank You to GDG Kigali for organising their annual DevFest event at the same time. Giving some of us GDEs not only a chance to speak in front of audience but also to network with the attendees. I really enjoyed meeting some folks from the [SSA Community Summit 2018](xref:ssa-community-summit-2018) and a few Twitter people.
 
 Thanks to anyone involved which I missed mentioning. It's not intentional and you're appreciated. Thank You.
 

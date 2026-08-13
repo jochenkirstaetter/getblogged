@@ -69,7 +69,7 @@ Furthermore, I'm looking forward to summarize and note down my activities about 
 With this personal 30 days challenge I'm aiming at three specific achievements:
 
 - Being able to implement a client in an existing software to use Microsoft SharePoint as a document management system (DMS)
-- Sharing my experience online and at the meetups of the [MSCC](https://jochen.kirstaetter.name/mscc/)
+- Sharing my experience online and at the meetups of the [MSCC](xref:mscc)
 - Having the perseverance and to pass some Microsoft exams related to SharePoint and SQL Server
 
 And last but not least I am going to be able to advise and discuss solutions with existing and future customers. Overall, a win-win situation for all of us - myself, the IT community in Mauritius, and my clients.
@@ -78,10 +78,10 @@ And last but not least I am going to be able to advise and discuss solutions wit
 
 This article is going to host the links to every single day of my challenge. And as a reminder to myself, I already set up all 30 bullet points in Challenge Progress Report (CPR):
 
-- [Tuning SQL Server 2012 for SharePoint 2013 Jump Start](https://jochen.kirstaetter.name/tuning-sql-server-2012-for-sharepoint-2013-jump-start/ "Tuning SQL Server 2012 for SharePoint 2013 Jump Start") *(Day 1)*
-- [SharePoint 2013 Developer Ramp-Up - Part 1](https://jochen.kirstaetter.name/sharepoint-2013-developer-ramp-up-part-1/ "SharePoint 2013 Developer Ramp-Up - Part 1") *(Day 2)*
-- [SharePoint 2013 Developer Ramp-Up - Part 2](https://jochen.kirstaetter.name/sharepoint-2013-developer-ramp-up-part-2/) *(Day 3)*
-- [Exploring various SharePoint blogs](https://jochen.kirstaetter.name/exploring-various-sharepoint-blogs/ "Exploring various SharePoint blogs") *(Day 4)*
+- [Tuning SQL Server 2012 for SharePoint 2013 Jump Start](xref:tuning-sql-server-2012-for-sharepoint-2013-jump-start "Tuning SQL Server 2012 for SharePoint 2013 Jump Start") *(Day 1)*
+- [SharePoint 2013 Developer Ramp-Up - Part 1](xref:sharepoint-2013-developer-ramp-up-part-1 "SharePoint 2013 Developer Ramp-Up - Part 1") *(Day 2)*
+- [SharePoint 2013 Developer Ramp-Up - Part 2](xref:sharepoint-2013-developer-ramp-up-part-2) *(Day 3)*
+- [Exploring various SharePoint blogs](xref:exploring-various-sharepoint-blogs "Exploring various SharePoint blogs") *(Day 4)*
 - (Day 5)
 - (Day 6)
 - (Day 7)
@@ -107,7 +107,7 @@ This article is going to host the links to every single day of my challenge. And
 - (Day 27)
 - (Day 28)
 - (Day 29)
-- [Resume on 30 Days of SharePoint](https://jochen.kirstaetter.name/resume-on-30-days-of-sharepoint/ "Resume on 30 Days of SharePoint") *(Day 30)*
+- [Resume on 30 Days of SharePoint](xref:resume-on-30-days-of-sharepoint "Resume on 30 Days of SharePoint") *(Day 30)*
 
 The topics as well as the links will be added throughout the month of September.
 

@@ -68,6 +68,6 @@ Not thrilling but still two solid hours to go.
 
 One of the coolest aspects I figured out today is that SharePoint development can be done easily in JavaScript and C# - just as you like or prefer. It's actually pretty cool to see that you could integrate external JS libraries like datajs, knockout,js and so forth in order to implement your solution.
 
-And that you should be very familiar with Microsoft PowerShell. Not only to simplify some repetitive work but also to do be able to get things going in SharePoint. Having a decent background knowledge in Linux, I find this pretty amusing and remember the initial baby steps when [PowerShell was introduced some years back](https://jochen.kirstaetter.name/posh-windows-powershell/) (Note: German language). The outcry as well as the hype was too funny.
+And that you should be very familiar with Microsoft PowerShell. Not only to simplify some repetitive work but also to do be able to get things going in SharePoint. Having a decent background knowledge in Linux, I find this pretty amusing and remember the initial baby steps when [PowerShell was introduced some years back](xref:posh-windows-powershell) (Note: German language). The outcry as well as the hype was too funny.
 
 Honestly, I have kind of mixed feelings about today's progress. Surely, there was interesting information about developing extensions directly for and in SharePoint... Hm, I'll leave that one for now and probably it might be helpful someday.

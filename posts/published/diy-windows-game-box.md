@@ -65,7 +65,7 @@ Long story short, after I received my new machine, an MSI GS73VR 7RF Stealth Pro
 
 Having a spare system with such a powerful specification it was somehow obvious to me to use it as a bare metal playground for the latest Windows 10 Insider editions. And with the intention to not use the system for any work-related tasks I thought that it would probably be an interesting experiment to convert it into a full-fledged gaming machine. And I mean not that kind of emulator stuff only but recent titles and so on.
 
-Previously, I was using mainly VMs to explore Windows 10 Insider versions, and now using a dedicated bare metal system would surely improve my experience in that area. If you're interested in setting up a new system, please read on here: [How to get your computer from blank disk(s) to fully operational in no time... (Windows edition)](https://jochen.kirstaetter.name/windows10-quick-installation/)
+Previously, I was using mainly VMs to explore Windows 10 Insider versions, and now using a dedicated bare metal system would surely improve my experience in that area. If you're interested in setting up a new system, please read on here: [How to get your computer from blank disk(s) to fully operational in no time... (Windows edition)](xref:windows10-quick-installation)
 
 ![Using Windows 10 Insider - build version 1809 (17.10.2018)](../content/images/2018/10/Windows10Insider1809.png)
 
@@ -75,7 +75,7 @@ The nice side-effect of using a Windows 10 Insider version is that it comes for 
 
 On a common Windows system you might like to install and to use [Steam](https://store.steampowered.com/about/) as a regular software application. Perhaps accept the auto-start feature after logging in, and letting it run in the background. As stated earlier, not for that machine...
 
-Its main purpose is getting the maximum out of it for gaming at home. After installation of the latest Steam version ([via chocolatey](https://jochen.kirstaetter.name/windows10-quick-installation/): steam) I opened the `File` menu and checked under Settings &gt; Account &gt; Beta participation whether a vNext might be available.
+Its main purpose is getting the maximum out of it for gaming at home. After installation of the latest Steam version ([via chocolatey](xref:windows10-quick-installation): steam) I opened the `File` menu and checked under Settings &gt; Account &gt; Beta participation whether a vNext might be available.
 
 ![Running Steam Beta Update instead of the regular version](../content/images/2018/10/SteamVersion.png)
 

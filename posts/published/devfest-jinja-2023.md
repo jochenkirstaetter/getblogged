@@ -85,7 +85,7 @@ This is Africa, and there is always a way. Given my passport of European origin 
 
 ## Let the real adventure begin
 
-After withdrawing some cash from one of the ATM and purchasing the Airtel SIM card I was ready for my first experience in Uganda. And what better to receive a hearty welcome by GDG fellow [Asa Lugada](https://twitter.com/AsaLugada) and his friend Arnold. My connection to Asa even goes back to my first participation in the Andela-led ALC program, later GADS program. And of course the [SSA Community Summit 2018](https://jochen.kirstaetter.name/ssa-community-summit-2018/).
+After withdrawing some cash from one of the ATM and purchasing the Airtel SIM card I was ready for my first experience in Uganda. And what better to receive a hearty welcome by GDG fellow [Asa Lugada](https://twitter.com/AsaLugada) and his friend Arnold. My connection to Asa even goes back to my first participation in the Andela-led ALC program, later GADS program. And of course the [SSA Community Summit 2018](xref:ssa-community-summit-2018).
 
 ![Welcoming committee at the airport of Entebbe, Uganda](../content/images/2024/01/PXL_20231123_133809384.MP.jpg)
 
@@ -113,7 +113,7 @@ Giving or taking it took us approximately five hours to the guesthouse in Jinja.
 
 ## Source of the Nile
 
-Arriving at least a day in advance has some advantages than just being there for the DevFest. I've seen this already with GDEs that came to speak at DevFest Mauritius, and I've done it travelling to [DevFest Dar es Salaam](https://jochen.kirstaetter.name/devfest-dar-es-salaam-2023/) previously.
+Arriving at least a day in advance has some advantages than just being there for the DevFest. I've seen this already with GDEs that came to speak at DevFest Mauritius, and I've done it travelling to [DevFest Dar es Salaam](xref:devfest-dar-es-salaam-2023) previously.
 
 ![Heading out onto Lake Victoria... well that's a very tiny sidearm only](../content/images/2024/01/PXL_20231124_114607489.PANO-1.jpg)
 

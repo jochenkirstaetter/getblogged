@@ -54,7 +54,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-Nachdem ich ja bereits über [Nichts ist unmöglich...](https://jochen.kirstaetter.name/nichts-ist-unmglich/ "Nichts ist unmoeglich") geplaudert hatte, ging es heute Morgen mit den ersten Schritten der Verfeinerung weiter. Zunächst einmal war Aufräumen angesagt. Etlichen Testcode, unterschiedliche Projekte in unterschiedlichen Solutions bereinigt und so weiter...  
+Nachdem ich ja bereits über [Nichts ist unmöglich...](xref:nichts-ist-unmglich "Nichts ist unmoeglich") geplaudert hatte, ging es heute Morgen mit den ersten Schritten der Verfeinerung weiter. Zunächst einmal war Aufräumen angesagt. Etlichen Testcode, unterschiedliche Projekte in unterschiedlichen Solutions bereinigt und so weiter...  
 Achja, und Vereinheitlichung auf ein .NET Framework... ;-) - Irgendwie hatte ich ein heiles Chaos in meinem Entwicklungsbaum. Naja, auch nicht weiter schlimm. Neue Verzeichnisse, neue Solution, frische Projekte und dann Pi mal Daumen die einzelnen Klassendateien reingewürfelt. Die Referenzen neu gesetzt, ein paar Errormessages aus dem Weg programmiert und tada... Ein nahezu fertiges, deploybares Produkt.
 
 Fein, es macht Spass, wenn die normale Arbeitsweise unter Visual FoxPro ebenfalls im .NET Framework gefahren werden kann. Da ich inzwischen eine kompontenorientierte Splittung meiner Codefragmente vollzogen habe, kann ich mir auch mal Gedanken zu Strong Names (SN), dem Global Assembly Cache (GAC) und den dazugehörenden Tools machen. Hehe, das theoretische Wissen habe ich ja bereits durch einiges an Literatur, nunja, mal sehen, ob es sich auch so einfach in der Realität umsetzen lässt, wie es die Werbung verspricht.

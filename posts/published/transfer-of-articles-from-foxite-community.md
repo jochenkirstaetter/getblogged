@@ -56,7 +56,7 @@ codeinjectionFoot:
 
 Finally, I got a little bit of time to transfer (some of) my blog articles from [Foxite Community](https://weblogs.foxite.com/joki/) to this blog. As this blog is the main blog it should contain almost all content, or? This is part of the migration to complete this blog with all existing articles I wrote during the past. Funnily, I managed the approval of comments at Foxite directly afterwards. With the consequence that 91 out of 91 comments were spam and I just deleted the approval requests.  
   
-While working on the theme I added also some former elements like the 'About me' and 'Community' sections on the right sidebar. Additionally, I also added static content like my [Curriculum Vitae](https://jochen.kirstaetter.name/cv/) and [Presentations](https://jochen.kirstaetter.name/presentation/) I held in the past. The section of my projects is coming in the near future. So stay tuned!  
+While working on the theme I added also some former elements like the 'About me' and 'Community' sections on the right sidebar. Additionally, I also added static content like my [Curriculum Vitae](xref:cv) and [Presentations](xref:presentation) I held in the past. The section of my projects is coming in the near future. So stay tuned!  
   
 Anyways, back to work and to find a solution to convert the rest of my articles from a MySQL data storage to this blog software. Well, using Visual FoxPro this isn't really a problem... it's only a matter of choice to pick the appropiate solution.  
   

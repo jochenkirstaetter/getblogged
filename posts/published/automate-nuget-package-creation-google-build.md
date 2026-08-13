@@ -54,7 +54,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-In a previous article on [Create NuGet packages with Visual Studio / Visual Studio Code](https://jochen.kirstaetter.name/create-nuget-packages-vs-code/) the software development lifecycle (SDLC) from build, pack, and deployment is done manually. Which can be quite time-consuming, tedious and tends to be error-prone given human interaction necessary. How about automating that process completely using Google Build?
+In a previous article on [Create NuGet packages with Visual Studio / Visual Studio Code](xref:create-nuget-packages-vs-code) the software development lifecycle (SDLC) from build, pack, and deployment is done manually. Which can be quite time-consuming, tedious and tends to be error-prone given human interaction necessary. How about automating that process completely using Google Build?
 
 ## What's Google Build?
 

@@ -233,7 +233,7 @@ Since the recording of the video modules there had been updates and modification
 
 I also noted that the course material by Google has been published on the Coursera platform previously. The recordings on Pluralsight however have been re-branded with an introduction at the beginning as well as a summary at the end of each module. And the shortcut URLs to the Qwiklabs have been added in-between.
 
-Speaking of Qwiklabs, in general the instructions of each lab are precise and provide sufficient information and guidance to successfully complete the lab. However, there had been a few cases where the described steps are not matching the UI of the Google Console anymore. It's not as bad as the [feared magical tutorials](https://jochen.kirstaetter.name/curse-of-magical-tutorial/) but certain features are at a different location or have been renamed. Once you figure that out it's possible to finish the lab. I left my feedback with Qwiklabs, and hopefully those glitches will be corrected in the coming reviews.
+Speaking of Qwiklabs, in general the instructions of each lab are precise and provide sufficient information and guidance to successfully complete the lab. However, there had been a few cases where the described steps are not matching the UI of the Google Console anymore. It's not as bad as the [feared magical tutorials](xref:curse-of-magical-tutorial) but certain features are at a different location or have been renamed. Once you figure that out it's possible to finish the lab. I left my feedback with Qwiklabs, and hopefully those glitches will be corrected in the coming reviews.
 
 And there are the video recordings of the [Andela Learning Community](https://www.youtube.com/channel/UCJWcJtP2SErCRDw1xZnTISQ) on Youtube.
 
@@ -251,7 +251,7 @@ However, the inability (or perhaps laziness) to read a few lines up in the chann
 
 ### Curiousity among peers
 
-To close this article I would like to emphasise that there is genuine interest among peers to learn from each other. Recently, I was asked [four questions about my professional background](https://jochen.kirstaetter.name/alc4-slack-questions/) and opinion about software engineering.
+To close this article I would like to emphasise that there is genuine interest among peers to learn from each other. Recently, I was asked [four questions about my professional background](xref:alc4-slack-questions) and opinion about software engineering.
 
 It's really good that this is happening, as we can learn from each other at any time.
 

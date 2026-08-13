@@ -55,7 +55,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-Already before the [migration from Joomla to Ghost](https://jochen.kirstaetter.name/migration-joomla-ghost/) last weekend I run the [Ghost Desktop](https://ghost.org/downloads/) application on Windows. Now, after the successful completion it was about time to get going on my other machines. You know, the ones away from the main rig... Usually used during the evening hours, just for fun, or experimenting.
+Already before the [migration from Joomla to Ghost](xref:migration-joomla-ghost) last weekend I run the [Ghost Desktop](https://ghost.org/downloads/) application on Windows. Now, after the successful completion it was about time to get going on my other machines. You know, the ones away from the main rig... Usually used during the evening hours, just for fun, or experimenting.
 
 Tonight, I decided to give one of my Linux systems some attention, started to upgrade some packages, and installed new software. Among those also [Ghost Desktop App for Linux](https://ghost.org/downloads/). On the Ghost website you get version 1.3.0 (as of writing), and it's a Debian package.
 

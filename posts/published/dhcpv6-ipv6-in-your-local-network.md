@@ -58,10 +58,10 @@ Even though IPv6 might not be that important within your local network it might 
 
 This is the second article in a series on IPv6 configuration:
 
-- [Configure IPv6 on your Linux system](https://jochen.kirstaetter.name/configure-ipv6-on-ubuntu/)
-- [DHCPv6: Provide IPv6 information in your local network](https://jochen.kirstaetter.name/dhcpv6-ipv6-in-your-local-network/)
-- [Enabling DNS for IPv6 infrastructure](https://jochen.kirstaetter.name/enabling-dns-for-ipv6-infrastructure/)
-- [Accessing your web server via IPv6](https://jochen.kirstaetter.name/accessing-apache2-web-server-via-ipv6/)
+- [Configure IPv6 on your Linux system](xref:configure-ipv6-on-ubuntu)
+- [DHCPv6: Provide IPv6 information in your local network](xref:dhcpv6-ipv6-in-your-local-network)
+- [Enabling DNS for IPv6 infrastructure](xref:enabling-dns-for-ipv6-infrastructure)
+- [Accessing your web server via IPv6](xref:accessing-apache2-web-server-via-ipv6)
 
 **Piece of advice**: This is based on my findings on the internet while reading other people's helpful articles and going through a couple of man-pages on my local system.
 
@@ -209,4 +209,4 @@ netsh interface ipv6>show dnsservers 11
 That looks good already. Our Windows client has a valid IPv6 address lease with lifetime information and details about the configured DNS servers.
 
 Talking about DNS server...  
-Your clients should be able to connect to your network servers via IPv6 using hostnames instead of IPv6 addresses. Please read on about [how to enable a local named with IPv6](https://jochen.kirstaetter.name/enabling-dns-for-ipv6-infrastructure/).
+Your clients should be able to connect to your network servers via IPv6 using hostnames instead of IPv6 addresses. Please read on about [how to enable a local named with IPv6](xref:enabling-dns-for-ipv6-infrastructure).

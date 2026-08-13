@@ -85,10 +85,10 @@ I'll see that I'll be able to document each of those steps in a blog article. Wi
 
 Given the amount of information and instructional steps the actual implementation is split into multiple articles.
 
-- [Create React App](https://jochen.kirstaetter.name/alc4-cloud-react/)
-- [Working with Docker](https://jochen.kirstaetter.name/alc4-cloud-docker/)
-- [Google Kubernetes Engine (GKE)](https://jochen.kirstaetter.name/alc4-cloud-k8s/)
-- [Considerations for production readiness](https://jochen.kirstaetter.name/alc4-cloud-ready/)
+- [Create React App](xref:alc4-cloud-react)
+- [Working with Docker](xref:alc4-cloud-docker)
+- [Google Kubernetes Engine (GKE)](xref:alc4-cloud-k8s)
+- [Considerations for production readiness](xref:alc4-cloud-ready)
 
 Each article can be read independently with minor references between each other.
 
@@ -96,7 +96,7 @@ Each article can be read independently with minor references between each other.
 
 With the actual challenge completed I ventured into a few other options available on the Google Cloud Platform and wrote about it. This has been inspired by posts of other ALC 4.0 learners.
 
-- [Working with Cloud Build](https://jochen.kirstaetter.name/alc4-cloud-build/)
-- [Using Cloud Run instead of GKE](https://jochen.kirstaetter.name/alc4-cloud-run/)
+- [Working with Cloud Build](xref:alc4-cloud-build)
+- [Using Cloud Run instead of GKE](xref:alc4-cloud-run)
 
 Those articles describe alternative ways to build and deploy the React app on Google Cloud Platform.

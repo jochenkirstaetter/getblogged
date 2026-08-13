@@ -96,12 +96,12 @@ https://weltall.heliohost.org/wordpress/2012/01/26/vmware-workstation-8-0-2-play
 
 ## Update on VMware Player 4.0.3
 
-Please continue to read on [my follow-up article in case that you upgraded either VMware Workstation 8.0.3 or VMware Player 4.0.3](https://jochen.kirstaetter.name/update-kernel-patch-for-vmware-player-403/ "How to patch and compile VMware Player 4.0.3 on kernel 3.2.0").
+Please continue to read on [my follow-up article in case that you upgraded either VMware Workstation 8.0.3 or VMware Player 4.0.3](xref:update-kernel-patch-for-vmware-player-403 "How to patch and compile VMware Player 4.0.3 on kernel 3.2.0").
 
 ## Update on VMware Player 4.0.4
 
-[And once again, please read on this article for VMware Player 4.0.4](https://jochen.kirstaetter.name/and-again-vmware-player-404-on-ubuntu-1204-precise-pangolin/)
+[And once again, please read on this article for VMware Player 4.0.4](xref:and-again-vmware-player-404-on-ubuntu-1204-precise-pangolin)
 
 ## Update on VMware Player 5.0.0
 
-[Please read this article for VMware Player 5.0.0 in Ubuntu 12.10](https://jochen.kirstaetter.name//vmware-player-50-or-vmware-workstation-90-after-upgrade-to-ubuntu-1210/ "Please read this article for VMware Player 5.0.0 in Ubuntu 12.10")
+[Please read this article for VMware Player 5.0.0 in Ubuntu 12.10](xref:vmware-player-50-or-vmware-workstation-90-after-upgrade-to-ubuntu-1210 "Please read this article for VMware Player 5.0.0 in Ubuntu 12.10")

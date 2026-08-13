@@ -54,14 +54,14 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-Being able to [run your systems on IPv6](https://jochen.kirstaetter.name/configure-ipv6-on-ubuntu/), have [automatic address assignment](https://jochen.kirstaetter.name/dhcpv6-ipv6-in-your-local-network/) and the ability to [resolve host names](https://jochen.kirstaetter.name/enabling-dns-for-ipv6-infrastructure/) are the necessary building blocks in your IPv6 network infrastructure. Now, that everything is in place it is about time that we are going to enable another service to respond to IPv6 requests. The following article will guide through the steps on how to enable Apache2 httpd to listen and respond to incoming IPv6 requests.
+Being able to [run your systems on IPv6](xref:configure-ipv6-on-ubuntu), have [automatic address assignment](xref:dhcpv6-ipv6-in-your-local-network) and the ability to [resolve host names](xref:enabling-dns-for-ipv6-infrastructure) are the necessary building blocks in your IPv6 network infrastructure. Now, that everything is in place it is about time that we are going to enable another service to respond to IPv6 requests. The following article will guide through the steps on how to enable Apache2 httpd to listen and respond to incoming IPv6 requests.
 
 This is the fourth article in a series on IPv6 configuration:
 
-- [Configure IPv6 on your Linux system](https://jochen.kirstaetter.name/configure-ipv6-on-ubuntu/)
-- [DHCPv6: Provide IPv6 information in your local network](https://jochen.kirstaetter.name/dhcpv6-ipv6-in-your-local-network/)
-- [Enabling DNS for IPv6 infrastructure](https://jochen.kirstaetter.name/enabling-dns-for-ipv6-infrastructure/)
-- [Accessing your web server via IPv6](https://jochen.kirstaetter.name/accessing-apache2-web-server-via-ipv6/)
+- [Configure IPv6 on your Linux system](xref:configure-ipv6-on-ubuntu)
+- [DHCPv6: Provide IPv6 information in your local network](xref:dhcpv6-ipv6-in-your-local-network)
+- [Enabling DNS for IPv6 infrastructure](xref:enabling-dns-for-ipv6-infrastructure)
+- [Accessing your web server via IPv6](xref:accessing-apache2-web-server-via-ipv6)
 
 **Piece of advice**: This is based on my findings on the internet while reading other people's helpful articles and going through a couple of man-pages on my local system.
 

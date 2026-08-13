@@ -131,7 +131,7 @@ Good luck!
 
 ## []()Solution 2 - Telnet
 
-**Update #1:** Thanks to a [comment made by Frank](https://jochen.kirstaetter.name/adjust-timezone-of-an-avm-fritzbox-7390/blog/general/adjust-timezone-of-an-avm-fritzbox-7390.html#comment-2266663144) it should be noted that Telnet service seems to be removed starting firmware 6.30.
+**Update #1:** Thanks to a [comment made by Frank](/adjust-timezone-of-an-avm-fritzbox-7390#comment-2266663144) it should be noted that Telnet service seems to be removed starting firmware 6.30.
 
 A more elegant, read: technically interesting, way to adjust configuration settings in your Fritz!Box is to access it directly through Telnet. By default AVM disables that protocol channel and you have to enable it with a connected telephone. In order to activate the telnet service dial the following combination:
 

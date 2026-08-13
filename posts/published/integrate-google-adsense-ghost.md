@@ -59,7 +59,7 @@ A little bit of extra pocket money at the beginning can with some effort turn in
 > Turn your passion into profit.  
 AdSense is a free, simple way to make money online by placing ads on your website.
 
-In [Migration to Ghost](https://jochen.kirstaetter.name/migration-joomla-ghost/) I wrote about how I migrated from my previous blogging software to Ghost but I didn't mention about the [Google AdSense](https://www.google.com/adsense/) integration. Thanks to a brief chat on Facebook I was reminded about that and the following paragraphs describe the changes I applied.
+In [Migration to Ghost](xref:migration-joomla-ghost) I wrote about how I migrated from my previous blogging software to Ghost but I didn't mention about the [Google AdSense](https://www.google.com/adsense/) integration. Thanks to a brief chat on Facebook I was reminded about that and the following paragraphs describe the changes I applied.
 
 ## Decision on where to place AdSense
 

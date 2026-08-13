@@ -58,16 +58,16 @@ codeinjectionFoot:
 
 On this site I'm writing about various topics in the area of information technology and community activities. From time to time there might be something exotic in-between.
 
-I started this blog back in 2004, and have [written over 400 articles](https://jochen.kirstaetter.name/ten-years-of-blogging-400-articles-written/) so far.
+I started this blog back in 2004, and have [written over 400 articles](xref:ten-years-of-blogging-400-articles-written) so far.
 
 ## Technical highlights
 
 Practice makes perfect and excellent craftsmanship is based on constant and evolving practice.
 
-- [Essentials for software developer or any computer job](https://jochen.kirstaetter.name/essentials-for-software-developer/)
-- [Connecting Linux to WatchGuard Firebox SSL (OpenVPN client)](https://jochen.kirstaetter.name/connecting-linux-to-watchguard-firebox-ssl/)
-- [Series on IPv6 configuration on Linux](https://jochen.kirstaetter.name/configure-ipv6-on-ubuntu/)
-- [Learning content for MCSDs: Web Applications and Windows Store Apps using HTML5](https://jochen.kirstaetter.name/learning-content-for-mcsds-web-applications-and-windows-store-apps-using-html5/)
+- [Essentials for software developer or any computer job](xref:essentials-for-software-developer)
+- [Connecting Linux to WatchGuard Firebox SSL (OpenVPN client)](xref:connecting-linux-to-watchguard-firebox-ssl)
+- [Series on IPv6 configuration on Linux](xref:configure-ipv6-on-ubuntu)
+- [Learning content for MCSDs: Web Applications and Windows Store Apps using HTML5](xref:learning-content-for-mcsds-web-applications-and-windows-store-apps-using-html5)
 
 ## Community involvements
 
@@ -75,7 +75,7 @@ Apart from taking care of the largest IT community in Mauritius, the Mauritius S
 
 Eventually, the following posts might be interesting to read.
 
-- [Communities - The importance of exchange and discussion](https://jochen.kirstaetter.name/community-exchange-and-discussion/)
-- [Introduction to Mauritius Software Craftsmanship Community](https://jochen.kirstaetter.name/intro-to-mscc/)
-- [Ubuntu Jam at the University of Mauritius](https://jochen.kirstaetter.name/ubuntu-jam-uom/): Sharing information about the XFce4 desktop environment
-- [Launch Event: Windows 10 and Visual Studio 2015](https://jochen.kirstaetter.name/launch-event-windows-10-and-visual-studio-2015/): Speaking about Visual Studio Code on Linux
+- [Communities - The importance of exchange and discussion](xref:community-exchange-and-discussion)
+- [Introduction to Mauritius Software Craftsmanship Community](xref:intro-to-mscc)
+- [Ubuntu Jam at the University of Mauritius](xref:ubuntu-jam-uom): Sharing information about the XFce4 desktop environment
+- [Launch Event: Windows 10 and Visual Studio 2015](xref:launch-event-windows-10-and-visual-studio-2015): Speaking about Visual Studio Code on Linux

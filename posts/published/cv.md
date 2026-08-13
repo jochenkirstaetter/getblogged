@@ -56,7 +56,7 @@ codeinjectionFoot:
 
 ## Personal data
 
-| Name | [Jochen Michael Wolfgang Kirstätter](https://jochen.kirstaetter.name/) |
+| Name | [Jochen Michael Wolfgang Kirstätter](https://jochen.kirstaetter.name) |
 | --- | --- |
 | Alias | JoKi |
 |  |  |
@@ -148,18 +148,18 @@ Visual Developer for Visual FoxPro |
 
 ## Community experience
 
-| 05.2013 | Founder of [Mauritius Software Craftsmanship Community (MSCC)](https://jochen.kirstaetter.name/mscc/)  
+| 05.2013 | Founder of [Mauritius Software Craftsmanship Community (MSCC)](xref:mscc)  
 The MSCC is the successor of the MSDUG and is a technology agnostic approach to bring any IT related people together.<br><br>This is a community for those who care and are proud of what they do. For those developers, regardless how experienced they are, who want to improve and master their craft.  
 This is a community for those who believe that being average is just not good enough. |
 | --- | --- |
 | 2012 | Beta Tester for Microsoft Windows 8, Windows Server 2012, SQL Server 2012 and Visual Studio 2012 |
 |  |  |
-| 03.2008 | [Founder of Mauritius Software Developer User Group (MSDUG)](https://jochen.kirstaetter.name/plans-for-mauritius-software-developer-user-group-msdug/)  
+| 03.2008 | [Founder of Mauritius Software Developer User Group (MSDUG)](xref:plans-for-mauritius-software-developer-user-group-msdug)  
 Initiated a local user group for software developers and engineers. Monthly meetings with varying topics on object-oriented programming and database development. Mainly focused on Microsoft Windows platform but not restricted. See blog articles in category MSDUG. |
 |  |  |
 | 06.2007 | Beta Tester for Microsoft Windows Server 2008 and SQL Server 2008 |
 |  |  |
-| 12.2006 | [Microsoft 'Ask The Expert' for Windows Vista](https://jochen.kirstaetter.name/ate-fr-roadshow-office-2007-windows-vista/)  
+| 12.2006 | [Microsoft 'Ask The Expert' for Windows Vista](xref:ate-fr-roadshow-office-2007-windows-vista)  
 Introduction roadshow on Windows Vista, Office 2007 and Exchange Server 2007 |
 |  |  |
 | 11.2006 | Speaker at German Developers Conference Visual FoxPro - [Link  
@@ -170,13 +170,13 @@ Introduction roadshow on Windows Vista, Office 2007 and Exchange Server 2007 |
 | 02.2006 | Microsoft 'Ask The Expert' for SQL Server 2000/2005  
 "Ready to Rock the Launch" - Software Launch of Microsoft Visual Studio 2005, SQL Server 2005 and Biztalk Server 2006 |
 |  |  |
-| 11.2005 | [Speaker at German Developers Conference Visual FoxPro](https://jochen.kirstaetter.name/speaker-at-the-german-visual-foxpro-developer-conference-2005/)  
+| 11.2005 | [Speaker at German Developers Conference Visual FoxPro](xref:speaker-at-the-german-visual-foxpro-developer-conference-2005)  
 Sessions on Subversion, Regular Expressions, Visual FoxPro running on Linux w/ wine, and essential development tools |
 |  |  |
-| 11.2004 | [Speaker at German Developers Conference Visual FoxPro](https://jochen.kirstaetter.name/speaker-at-the-german-visual-foxpro-developer-conference-2004/)  
+| 11.2004 | [Speaker at German Developers Conference Visual FoxPro](xref:speaker-at-the-german-visual-foxpro-developer-conference-2004)  
 Multiple sessions on Active FoxPro Pages, and Visual FoxPro running on Linux w/ wine |
 |  |  |
-| 11.2003 | [Speaker at German Developers Conference Visual FoxPro](https://jochen.kirstaetter.name/speaker-at-the-german-visual-foxpro-developer-conference-2003/) (as replacement for Whil Hentzen)  
+| 11.2003 | [Speaker at German Developers Conference Visual FoxPro](xref:speaker-at-the-german-visual-foxpro-developer-conference-2003) (as replacement for Whil Hentzen)  
 Sessions on Visual FoxPro running on Linux w/ wine |
 |  |  |
 | 11.2002 | Speaker at German Developers Conference Visual FoxPro  

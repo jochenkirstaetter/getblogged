@@ -54,7 +54,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-Back in February at the first event of the [Emtel Knowledge Series (EKS)](https://jochen.kirstaetter.name/emtel-knowledge-series-no3/) I spoke to various people at Emtel about[their data centre here on the island](https://www.emtel.com/data-centre/). I was trying to see whether it would be possible to arrange a meeting over there for a selected group of our community members. Well, let's say it like this... My first approach wasn't that promising and far from successful but during the following months there were more and more occasions to get in touch with the "right" contact persons at Emtel to make it happen...
+Back in February at the first event of the [Emtel Knowledge Series (EKS)](xref:emtel-knowledge-series-no3) I spoke to various people at Emtel about[their data centre here on the island](https://www.emtel.com/data-centre/). I was trying to see whether it would be possible to arrange a meeting over there for a selected group of our community members. Well, let's say it like this... My first approach wasn't that promising and far from successful but during the following months there were more and more occasions to get in touch with the "right" contact persons at Emtel to make it happen...
 
 ## Setting up an appointment and pre-requisites
 

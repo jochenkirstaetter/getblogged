@@ -66,7 +66,7 @@ Die verwendeten Technologien zur Ausführung von WinForms in Visual FoxPro (oder
 \* Visual FoxPro (oder beliebig)  
 \* Windows API
 
-Ich werde nachfolgend die einzelnen Schritte beschreiben und versuchen zu erläutern. Zum Nachvollziehen der Codebeispiele könnt ihr den [COM Proxy for .NET](https://jochen.kirstaetter.name/windows-forms-in-vfp/files/ComProxyForNet.msi) verwenden. Die Dynamic-Link Library liegt für das .NET Framework 1.1 und 2.0 vor.
+Ich werde nachfolgend die einzelnen Schritte beschreiben und versuchen zu erläutern. Zum Nachvollziehen der Codebeispiele könnt ihr den [COM Proxy for .NET](xref:windows-forms-in-vfp) verwenden. Die Dynamic-Link Library liegt für das .NET Framework 1.1 und 2.0 vor.
 
 \*\*.NET Framework 1.1 oder 2.0\*\*  
 Zur Umsetzung habe ich mir in Visual Studio ein neues Projekt vom Typ Class Library erstellt und eine neue Windows Form hinzugefügt. Diese Form habe ich gemäß den Anweisungen von Rick COM-fähig modifiziert. Das bedeutet unter anderem, dass wir das ProgId-Attribut vergeben, Threading integrieren und ein Interface erstellen.  
@@ -151,7 +151,7 @@ SetParent(oForm.Handle, 0)
 Danach kann man die Windows Form nur noch innerhalb der Abmessungen des VFP-Hauptfenster anordnen. Das entspricht FoxPro-Forms mit der Eigenschaft \*Desktop=.F.\* und \*ShowWindow=0\*. Das ParentHandle 0 repräsentiert den Desktop.
 
 \*\*Ereignisse der WinForm an VFP melden\*\*  
-Aktuell bietet der COM-Server noch keine Ereignisse. Diese können aber problemlos per Delegates und Publizierung in der Type Library realisiert werden. Der Artikel [.NET per COM nutzen](https://jochen.kirstaetter.name/NET-per-COM-nutzen) schneidet das Thema bereits an.
+Aktuell bietet der COM-Server noch keine Ereignisse. Diese können aber problemlos per Delegates und Publizierung in der Type Library realisiert werden. Der Artikel [.NET per COM nutzen](xref:net-per-com-nutzen) schneidet das Thema bereits an.
 
 \*\*Ausblick\*\*  
 Ausgehend von dem Grundgerüst der WinForm per COM sind sicherlich viele weitere Szenarien denkbar. Eine Möglichkeit ist sicherlich, dass man den COM-Server zum Starten der Windows Forms als andere Klasse definiert und mit einer Forms-Collection samt Indexer ausstattet. Dadurch erreichen wir eine bessere Referenz- und Threadkontrolle innerhalb der .NET Komponente. Im nächsten Schritt würde man die Klasse in einen FormManager konvertieren und per Reflexion die Fähigkeit integrieren, beliebige Windows Forms zu starten. Eine nette Vorstellung, oder?

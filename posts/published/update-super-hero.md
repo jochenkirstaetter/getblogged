@@ -54,7 +54,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-While I was looking for a completely different article back in 2007, I came across my [Super Hero & Super Villain](https://jochen.kirstaetter.name/super-hero-or-super-villain/ "Super Hero & Super Villain") rating... Well, it was time for an update:
+While I was looking for a completely different article back in 2007, I came across my [Super Hero & Super Villain](xref:super-hero-or-super-villain "Super Hero & Super Villain") rating... Well, it was time for an update:
 
 ## Your Super Hero results:
 

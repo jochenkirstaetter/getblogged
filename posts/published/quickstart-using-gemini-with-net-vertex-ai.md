@@ -155,6 +155,6 @@ The Vertex AI Gemini API and Google AI Gemini API both let you incorporate the c
 
 The Vertex AI Gemini API is designed for developers and enterprises for use in scaled deployments. It offers features such as enterprise security, data residency, performance, and technical support. If you're an existing Google Cloud customer or deploy medium to large scale applications, you're in the right place.
 
-If you're a hobbyist, student, or developer who is new to Google Cloud, try the [Google AI Gemini API](https://jochen.kirstaetter.name/quickstart-use-gemini-with-net/), which is suitable for experimentation, prototyping, and small deployments. If you're looking for a way to use Gemini directly from your mobile and web apps, see the Google AI SDKs for Android, Swift, and web.
+If you're a hobbyist, student, or developer who is new to Google Cloud, try the [Google AI Gemini API](xref:quickstart-use-gemini-with-net), which is suitable for experimentation, prototyping, and small deployments. If you're looking for a way to use Gemini directly from your mobile and web apps, see the Google AI SDKs for Android, Swift, and web.
 
 <small>Image credit: Gemini using prompt <em>Create an image showing the fast start of a race in motor sport.</em></small>

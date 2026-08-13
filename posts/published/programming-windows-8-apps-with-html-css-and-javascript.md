@@ -68,7 +68,7 @@ And last but not least: The ebook is freely available at [Amazon](https://www.am
 
 I already mentioned this title in other blog entries which are related to Microsoft certification. Feel free to read on and to discover more online resources:
 
-- [Learning content for MCSDs: Web Applications and Windows Store Apps using HTML5](https://jochen.kirstaetter.name/learning-content-for-mcsds-web-applications-and-windows-store-apps-using-html5/)
-- [More content for MCSDs: Web Applications and Windows Store Apps using HTML5](https://jochen.kirstaetter.name/more-content-for-mcsds-web-applications-and-windows-store-apps-using-html5/)
+- [Learning content for MCSDs: Web Applications and Windows Store Apps using HTML5](xref:learning-content-for-mcsds-web-applications-and-windows-store-apps-using-html5)
+- [More content for MCSDs: Web Applications and Windows Store Apps using HTML5](xref:more-content-for-mcsds-web-applications-and-windows-store-apps-using-html5)
 
 O'Reilly offers free webcasts on their site, too. And in case that you would like to know more about Kraig's book and his experience with various development teams, please checkout this one: [Zero to App in Two Weeks: Programming Windows 8 Apps in HTML, CSS, and JavaScript](https://oreillynet.com/pub/e/2637 "O'Reilly webcast on Zero to App in Two Weeks: Programming Windows 8 Apps in HTML, CSS, and JavaScript"). The recording should be available soon.

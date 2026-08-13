@@ -71,7 +71,7 @@ Wir lagern also die 'gemeinsame' Methode für die Klassen in unterschiedlichen A
 \* Anwendung des Decorator Design Pattern für die 'Simulation' von  
 \* Mehrfachvererbung.  
 \* Decorator-Klasse stammt aus dem Blogartikel zum Design Pattern:  
-\* [/Design-Pattern-Decorator](https://jochen.kirstaetter.name/Design-Pattern-Decorator)  
+\* [/Design-Pattern-Decorator](xref:design-pattern-decorator)  
 \*====================================================================  
 Clear  
 Set Procedure To Decorator.prg Additive
@@ -153,7 +153,7 @@ oSpatz = CreateObject("VogelDecorator", oBambus)
 \*------------------------------------------------------------------  
 \* Kaskadierender Decorator  
 \* Decorator-Klasse stammt aus dem Blogartikel zum Design Pattern:  
-\* [/Design-Pattern-Decorator](https://jochen.kirstaetter.name/Design-Pattern-Decorator)  
+\* [/Design-Pattern-Decorator](xref:design-pattern-decorator)  
 \*------------------------------------------------------------------  
 Define Class CascadeDecorator As Decorator Of "Decorator.prg"  
 Function THIS\_ACCESS( tcMember As String ) As Object;  

@@ -79,4 +79,4 @@ Sincerely, JoKi
 
 ## Update: Mauritius Software Craftsmanship Community (MSCC)
 
-Finally, back in May 2013 this [whole idea got more serious](https://jochen.kirstaetter.name/community-exchange-and-discussion/) and the [Mauritius Software Craftsmanship Community (or short: MSCC)](https://jochen.kirstaetter.name/mscc/) is alive and operational. Currently, we have our regular 'Code & Coffee' sessions on every Wednesday morning, and from time to time organised gatherings on Saturdays. More details and the ability to join the MSCC is possible via the [official community site on Meetup.com](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/).
+Finally, back in May 2013 this [whole idea got more serious](xref:community-exchange-and-discussion) and the [Mauritius Software Craftsmanship Community (or short: MSCC)](xref:mscc) is alive and operational. Currently, we have our regular 'Code & Coffee' sessions on every Wednesday morning, and from time to time organised gatherings on Saturdays. More details and the ability to join the MSCC is possible via the [official community site on Meetup.com](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/).

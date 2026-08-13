@@ -54,7 +54,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-As [I stated some days ago](https://jochen.kirstaetter.name/small-hiccup-with-vmware-player-after-upgrading-to-ubuntu-1204/ "Patch for kernel 3.2.0 to compile VMware Player 4.0.2"), after upgrading to [Ubuntu](https://www.ubuntu.com/) Precise Pangolin, aka 12.04 LTS, I had a minor obstacle with [VMware](https://www.vmware.com/) products. Today, VMware offered to upgrade to Player 4.0.3 due to security-related reasons.
+As [I stated some days ago](xref:small-hiccup-with-vmware-player-after-upgrading-to-ubuntu-1204 "Patch for kernel 3.2.0 to compile VMware Player 4.0.2"), after upgrading to [Ubuntu](https://www.ubuntu.com/) Precise Pangolin, aka 12.04 LTS, I had a minor obstacle with [VMware](https://www.vmware.com/) products. Today, VMware offered to upgrade to Player 4.0.3 due to security-related reasons.
 
 Initially, I thought that this update might have the patch for kernel 3.2.0 integrated but sadly that is not the case.
 
@@ -97,8 +97,8 @@ To finalise your installation either restart the vmware service or reboot your m
 
 ## Update on VMware Player 4.0.4
 
-[Please read this article for VMware Player 4.0.4](https://jochen.kirstaetter.name/and-again-vmware-player-404-on-ubuntu-1204-precise-pangolin/)
+[Please read this article for VMware Player 4.0.4](xref:and-again-vmware-player-404-on-ubuntu-1204-precise-pangolin)
 
 ## Update on VMware Player 5.0.0
 
-[Please read this article for VMware Player 5.0.0 in Ubuntu 12.10](https://jochen.kirstaetter.name/vmware-player-50-or-vmware-workstation-90-after-upgrade-to-ubuntu-1210/ "Please read this article for VMware Player 5.0.0 in Ubuntu 12.10")
+[Please read this article for VMware Player 5.0.0 in Ubuntu 12.10](xref:vmware-player-50-or-vmware-workstation-90-after-upgrade-to-ubuntu-1210 "Please read this article for VMware Player 5.0.0 in Ubuntu 12.10")

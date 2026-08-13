@@ -59,13 +59,13 @@ Die Chance ein wenig dem Alltag zu entfliehen. Die Vorbereitungen für den Besuc
   
 In Analogie zum Besuch im letzten Jahr, hier mal ein paar Artikel dazu:  
   
-[VFP Devcon 2005 - Day 1](https://jochen.kirstaetter.name/vorbereitungen-fuer-devcon-prag-vollzogen/post/index/145/VFP-Devcon-Prag-2005--Day-1)  
-[Devcon Prag - Impressionen](https://jochen.kirstaetter.name/vorbereitungen-fuer-devcon-prag-vollzogen/post/index/146/Devcon-Prag--Impressionen)  
-[Prag - Day 1](https://jochen.kirstaetter.name/vorbereitungen-fuer-devcon-prag-vollzogen/post/index/147/Prag--Day-1)  
-[VFP Devcon 2005 - Day 2](https://jochen.kirstaetter.name/vorbereitungen-fuer-devcon-prag-vollzogen/post/index/148/VFP-Devcon-Prag-2005--Day-2)  
-[Prag - Day 2](https://jochen.kirstaetter.name/vorbereitungen-fuer-devcon-prag-vollzogen/post/index/153/Prag--Day-2)  
-[VFP Devcon 2005 - Day 3](https://jochen.kirstaetter.name/vorbereitungen-fuer-devcon-prag-vollzogen/post/index/154/VFP-Devcon-Prag-2005--Day-3)  
-[On the road again oder ein perfekter Tag?](https://jochen.kirstaetter.name/vorbereitungen-fuer-devcon-prag-vollzogen/post/index/155/On-the-road-again-oder-ein-perfekter-Tag)  
+[VFP Devcon 2005 - Day 1](xref:vorbereitungen-fuer-devcon-prag-vollzogen)  
+[Devcon Prag - Impressionen](xref:vorbereitungen-fuer-devcon-prag-vollzogen)  
+[Prag - Day 1](xref:vorbereitungen-fuer-devcon-prag-vollzogen)  
+[VFP Devcon 2005 - Day 2](xref:vorbereitungen-fuer-devcon-prag-vollzogen)  
+[Prag - Day 2](xref:vorbereitungen-fuer-devcon-prag-vollzogen)  
+[VFP Devcon 2005 - Day 3](xref:vorbereitungen-fuer-devcon-prag-vollzogen)  
+[On the road again oder ein perfekter Tag?](xref:vorbereitungen-fuer-devcon-prag-vollzogen)  
   
 werde ich auch dieses Jahr wieder versuchen, tagtäglich live und direkt hier im Blog zu berichten. Mal gespannt, was für Aktionen anstehen.  
   

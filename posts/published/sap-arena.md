@@ -54,7 +54,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-Jupp, am 3. September ist eine der Eröffnungsfeiern in der SAP Arena. Und JoKi wird dabei sein... Spontan gestern auf dem [Rock im Brauhof](https://jochen.kirstaetter.name/rock-im-brauhof-2005/) bei der Privatbrauerei Bischoff ausgemacht, geht's am kommenden Samstag ab nach Mannheim. Dort ist wieder volles Musikprogramm angesagt... 😎  
+Jupp, am 3. September ist eine der Eröffnungsfeiern in der SAP Arena. Und JoKi wird dabei sein... Spontan gestern auf dem [Rock im Brauhof](xref:rock-im-brauhof-2005) bei der Privatbrauerei Bischoff ausgemacht, geht's am kommenden Samstag ab nach Mannheim. Dort ist wieder volles Musikprogramm angesagt... 😎  
   
 *Am 03. September feiert die SAP ARENA ihre Eröffnung mit einer Benefizveranstaltung: Rolf Stahlhofens MANN`EM SOUL orchestra präsentiert eine bunte Truppe, die unter anderem aus den SÖHNEN MANNHEIMS, SASHA, PETER MAFFAY, den MASSIVEN TÖNEN, BADESALZ und BÜLENT CEYLAN besteht. Die Künstler spenden ihre Gagen dem Verein MENSCHEN AM FLUSS und auch im Ticketpreis ist eine Spende enthalten.  
   

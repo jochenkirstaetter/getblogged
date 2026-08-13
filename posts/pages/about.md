@@ -58,7 +58,7 @@ codeinjectionFoot:
 
 ![Jochen Kirstätter (coding style - 800x800 px)](../content/images/2017/08/17903945_10203451673249855_5178365158445356591_n.jpg)
 
-Hi, my name is Jochen Kirstätter, also known as "JoKi". I'm a [senior software crafter](https://github.com/jochenkirstaetter), [blogger](https://jochen.kirstaetter.name/), [community founder](https://jochen.kirstaetter.name/mscc/), and [speaker](https://jochen.kirstaetter.name/speaking/). I have been awarded as [Microsoft Most Valuable Professional](https://mvp.microsoft.com/en-us/PublicProfile/5001701) (MVP) for Developer Technologies and as [Google Developer Expert (GDE) for Cloud and AI](https://g.dev/jkirstaetter). These awards are a recognition of my community contributions, my passion to share knowledge, and my activities to engage with their respective services and products over years.
+Hi, my name is Jochen Kirstätter, also known as "JoKi". I'm a [senior software crafter](https://github.com/jochenkirstaetter), [blogger](https://jochen.kirstaetter.name), [community founder](xref:mscc), and [speaker](xref:speaking). I have been awarded as [Microsoft Most Valuable Professional](https://mvp.microsoft.com/en-US/MVP/profile/53d40e60-fe70-490e-8e73-2185b648f26f) (MVP) for Developer Technologies and as [Google Developer Expert (GDE) for Cloud and AI](https://g.dev/jkirstaetter). These awards are a recognition of my community contributions, my passion to share knowledge, and my activities to engage with their respective services and products over years.
 
 ## Bio
 
@@ -72,7 +72,7 @@ Jochen is a Google Developer Expert (GDE) for Google Cloud and AI; he is also a 
 
 ## Mauritius Software Craftsmanship Community
 
-The [MSCC](https://jochen.kirstaetter.name/mscc/) was founded back in May 2013 when my daily job as well as my private life allowed me to have a bit of spare time, and my passion to share knowledge and information with like-minded geeks came together. Since then the community has grown as the largest and most active user group in Mauritius. We organise the [annual Developers Conference](https://conference.mscc.mu/), run monthly [meetings on various topics](https://meetup.com/MauritiusSoftwareCraftsmanshipCommunity/), and constantly encourage young and old people to venture into the world of information technology.
+The [MSCC](xref:mscc) was founded back in May 2013 when my daily job as well as my private life allowed me to have a bit of spare time, and my passion to share knowledge and information with like-minded geeks came together. Since then the community has grown as the largest and most active user group in Mauritius. We organise the [annual Developers Conference](https://conference.mscc.mu/), run monthly [meetings on various topics](https://meetup.com/MauritiusSoftwareCraftsmanshipCommunity/), and constantly encourage young and old people to venture into the world of information technology.
 
 ## Google Developer Group Mauritius
 

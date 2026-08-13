@@ -90,7 +90,7 @@ Speaking of VM size we clicked on `Change size` to open the blade with the table
 
 While the new VM was provisioned I used the waiting time to show some additional configuration settings of an existing VM. Here, I explained that it is probably better to allocate a DNS name to the VM. Using a DNS name makes it easier to access the instance, like ie. via Remote Desktop Protocol (RDP) or HTTP/S if a web server is running.
 
-The activation of the auto-shutdown feature is highly recommended in case that you would run a VM only for a few hours. One of my VMs is specifically configured to [give my children easy access to Microsoft Office](https://jochen.kirstaetter.name/azure-for-school/) and Paint.net from their Linux-based laptop. That VM is configured to shutdown automatically at 19:00 hrs every day because of dinner time, and to avoid cutting a whole into my wallet.
+The activation of the auto-shutdown feature is highly recommended in case that you would run a VM only for a few hours. One of my VMs is specifically configured to [give my children easy access to Microsoft Office](xref:azure-for-school) and Paint.net from their Linux-based laptop. That VM is configured to shutdown automatically at 19:00 hrs every day because of dinner time, and to avoid cutting a whole into my wallet.
 
 A VM in the cloud might be easiest option to start with but moving forward I explained the participants the advantages of using an Azure App Service as Platform-as-a-Service (PaaS) to deploy an application. App Service has different technology stacks and corresponding runtime versions to choose from.
 

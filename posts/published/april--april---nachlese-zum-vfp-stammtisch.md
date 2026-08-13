@@ -78,7 +78,7 @@ Clear Dlls "Sleep"[/code]
 Wir laden uns die exportierte Funktion Sleep aus der kernel32.dll in unsere Anwendung, führen sie dann mit einem Parameter (gemäß Deklaration) aus, und entfernen sie abschließend wieder. Das gleiche Verhalten wie beim Aufruf einer Funktion in einer VFP-Prozedurendatei, welche mittels Set Procedure To referenziert wurde. Der Verweis auf die DLL erfolgt normalerweise ohne Pfadangaben, kann aber auch Pfadinformationen nutzen. Ohne Pfad sucht VFP die DLL an den üblichen Stellen im Betriebssystem und verweigert erst die Ausführung, falls wirklich nichts zu finden ist. Das kann potentiell zu Problemen führen, falls unterschiedliche Versionen der gleichen DLL vorliegen. Hier gilt es dann mittels DISPLAY DLLS zu prüfen, welche physikalische Datei herangezogen wurde.
 
 \*\*COM-Schnittstelle\*\*  
-Die zweite Art der Nutzung von Dynamic-Link Libraries in VFP kann über die COM-Schnittstelle erfolgen. Hier gelten dann de facto die gleichen Regeln wie der OLE Automation. Objektreferenz auf die Klassendefinition erzeugen, Methoden mit passenden Parameter ausführen und die Rückgabewerte interpretieren. Im letzten Beitrag [.NET per COM nutzen](https://jochen.kirstaetter.name/NET-per-COM-nutzen) habe ich genau diesen Fall bereits ausführlicher beschrieben.
+Die zweite Art der Nutzung von Dynamic-Link Libraries in VFP kann über die COM-Schnittstelle erfolgen. Hier gelten dann de facto die gleichen Regeln wie der OLE Automation. Objektreferenz auf die Klassendefinition erzeugen, Methoden mit passenden Parameter ausführen und die Rückgabewerte interpretieren. Im letzten Beitrag [.NET per COM nutzen](xref:net-per-com-nutzen) habe ich genau diesen Fall bereits ausführlicher beschrieben.
 
 \*\*Hilfsmittel erleichtern die Arbeit\*\*  
 Oftmals steht man am Anfang vor dem Problem überhaupt Informationen zur vorliegenden DLL zu erhalten. Denn entweder kennt man die Funktionen einer Bibliothek überhaupt nicht, oder es liegen zu wenige Informationen oder Dokumentation vor. Meine gegenwärtige Vorgehensweise ist die, dass ich zuerst die DLL im [Dependency Walker](https://www.dependencywalker.com) öffne und nachschaue, ob exportierte Funktionen vorliegen. Falls ja, okay, dann kann ich mit Declare arbeiten; falls nein, dann weiß ich, dass ich die DLL registrieren muss und über die COM-Schnittstelle zu gehen habe. Danach nutze ich die Fähigkeiten des Object Browser in VFP und schaue, welche Klassen samt Methoden, Eigenschaften und Ereignissen (und Interfaces) zur Verfügung stehen. Sollten die ersten Tests mittels Createobject im Command Window fehlschlagen, gint's einen kurzen Exkurs mit Suchabfrage in der Windows-Registry, um die ProgID des COM-Servers zu ermitteln. Danach lässt sich in den meisten Fällen stressfrei mit der DLL in VFP arbeiten.
@@ -167,8 +167,8 @@ Zunächst sollte man in VFP die Informationen zum Declare-Befehl und den referen
 [https://www.sysinternals.com](https://www.sysinternals.com)
 
 [https://jochen.kirstaetter.name/files/joki_ApiSamples.zip](https://jochen.kirstaetter.name/files/joki_ApiSamples.zip) (Slide und Code)  
-[/NET-per-COM-nutzen](https://jochen.kirstaetter.name/NET-per-COM-nutzen)  
-[/Spass-mit-der-MessageBox](https://jochen.kirstaetter.name/Spass-mit-der-MessageBox)
+[/NET-per-COM-nutzen](xref:net-per-com-nutzen)  
+[/Spass-mit-der-MessageBox](xref:spass-mit-der-messagebox)
 
 Der nächste Termin für den Stammtisch ist am 17. Mai 2006 und das Thema wird wahrscheinlich nicht AFP sein, sondern wird mittelfristig per Mail und Forum noch bekannt gegeben werden.  
 Bis denne, JoKi
