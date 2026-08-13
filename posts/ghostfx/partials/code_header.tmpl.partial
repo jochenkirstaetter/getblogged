@@ -1,13 +1,3 @@
-{{#_googleAnalyticsTagId}}
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{_googleAnalyticsTagId}}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', '{{_googleAnalyticsTagId}}');
-</script>
-{{/_googleAnalyticsTagId}}
 <link rel="me" href="https://mastodon.social/@jkirstaetter" />
 <link rel="manifest" href="/site.webmanifest" />
 <link rel="icon" sizes="192x192" href="/assets/icon-192x192.png"/>

@@ -2,11 +2,14 @@
 {{!include(favicon.ico)}}
 {{!include(logo.svg)}}
 <!DOCTYPE html>
-<html lang="{{_lang}}">
-<head>
-
+<html {{#_lang}}lang="{{_lang}}"{{/_lang}}>
+  <head>
+    <meta charset="utf-8">
+    {{#redirect_url}}
+      <meta http-equiv="refresh" content="0;URL='{{redirect_url}}'">
+    {{/redirect_url}}
+    {{^redirect_url}}
     {{! Document Settings }}
-    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     {{! Base Meta }}
@@ -33,6 +36,9 @@
     <meta name="loc:changeTheme" content="{{__global.changeTheme}}">
     <meta name="loc:copy" content="{{__global.copy}}">
     <meta name="loc:downloadPdf" content="{{__global.downloadPdf}}">
+
+    <script type="module" src="./{{_rel}}public/docfx.min.js"></script>
+
     {{#_enableSearch}}
     <style>
         #search-results-container {
@@ -47,17 +53,27 @@
     </style>
     {{/_enableSearch}}
 
+      {{#_googleAnalyticsTagId}}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{_googleAnalyticsTagId}}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', '{{_googleAnalyticsTagId}}');
+      </script>
+      {{/_googleAnalyticsTagId}}
+
     {{! Styles'n'Scripts }}
     <link href="{{_rel}}public/built/screen.css" rel="stylesheet" type="text/css" />
     <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
 
-    {{! This tag outputs SEO meta+structured data and other important settings }}
-    {{>partials/ghost_head}}
-
-{{>partials/code_header}}
-    <script type="module" src="{{_rel}}public/docfx.min.js"></script>
+    {{>partials/code_header}}
     <link rel="stylesheet" href="{{_rel}}public/main.css">
     <link rel="stylesheet" href="{{_rel}}public/ghostfx.css">
+    {{/redirect_url}}
+
+    {{! This tag outputs SEO meta+structured data and other important settings }}
+    {{>partials/ghost_head}}
 </head>
 <body class="tex2jax_ignore {{bodyClass}}{{#_disableAffix}} metadata-disable-affix{{/_disableAffix}}">
 
