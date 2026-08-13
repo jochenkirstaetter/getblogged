@@ -102,7 +102,7 @@ Surprisingly, during the morning sessions it was announced that there will be a 
 First (and only) prize to win was an Apple iPad mini WiFi Cellular, 16GB Black. In the nature of the event this device is LTE-enabled and ready to rumble the online streams. How do I know so many details? After a very long adventure with numerous draws using a software appication called[Easy Raffle](https://www.easy-raffle.co.uk/) and noone in the room to claim the prize (although I was very very close one time), it was finally decided that instead of targetted 3 digits, anyone whose last 2 digits match would win. Well, first trial on the new concept beared no winner, second trial again nothing, and then finally the lucky number was declared: **25** - as in 25th anniversary of Emtel. My badge number was 47225... surprise, surprise!
 
 [![This is just so incredible. Thanks to #Emtel I am going to enjoy a new toy... Let's celebrate 25 years. :-)](https://pbs.twimg.com/media/BgMBkIfIMAAI39Y.jpg)  
-](https://twitter.com/JKirstaetter/status/433191709741428737/photo/1)*Another tablet added to the collection of devices... Thanks Emtel!*
+](https://x.com/JKirstaetter/status/433191709741428737/photo/1)*Another tablet added to the collection of devices... Thanks Emtel!*
 
 ## []()Resume of the day
 

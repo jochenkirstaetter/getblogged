@@ -180,6 +180,6 @@ Thanks for reading this far. In case that you missed the live session on Zoom pe
 
 The Cloud content covered in this article starts at the 1:02:22 mark and runs till the 2:03:40 mark. Just a little bit more than the allocated 1 hour. Which I'm very happy about.
 
-Last but not least, feel free to write any feedback, comments or questions in the comment section below. And you can reach out to me either on the ALC 4 Phase II Slack workspace or preferable on Twitter: [@JKirstaetter](https://twitter.com/jkirstaetter)
+Last but not least, feel free to write any feedback, comments or questions in the comment section below. And you can reach out to me either on the ALC 4 Phase II Slack workspace or preferable on Twitter: [@JKirstaetter](https://x.com/jkirstaetter)
 
 <small>Image credit: Google Cloud Platform</small>

@@ -55,7 +55,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-Following my recent announcement of being a GDE for Cloud [Emem Jonah (@ememjonah2)](https://twitter.com/ememjonah2) got in touch with a few questions about what motivates me to be a software developer.
+Following my recent announcement of being a GDE for Cloud [Emem Jonah (@ememjonah2)](https://x.com/ememjonah2) got in touch with a few questions about what motivates me to be a software developer.
 
 Emem is a Program Assistant (PA) in the current [Google Africa Developer Scholarship 2020 program](https://community.andela.com/index.php/google-africa-developer-scholarship-2020/) and among other tasks runs the weekly Happy Hour activities on our Slack workspace. Following are her questions and my remarks on each. This spotlight was published during the happy hour session on Friday, 2nd of October 2020.
 

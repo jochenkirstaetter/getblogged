@@ -63,7 +63,7 @@ We are very happy and excited about our participation in this global event and w
 
 ## Call for action
 
-Please create more awareness of this event in Mauritius and use the hash tag [#gwabmru](https://twitter.com/search?q=%23gwabmru "Use our event hash tag #gwabmru on social media networks.") as well as the shortened link: [](https://aka.ms/gwabmru)[https://aka.ms/gwabmru](https://aka.ms/gwabmru)
+Please create more awareness of this event in Mauritius and use the hash tag [#gwabmru](https://x.com/search?q=%23gwabmru "Use our event hash tag #gwabmru on social media networks.") as well as the shortened link: [](https://aka.ms/gwabmru)[https://aka.ms/gwabmru](https://aka.ms/gwabmru)
 
 And remember: **Sharing is Caring!**
 

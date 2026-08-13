@@ -55,11 +55,11 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-Good things take time. After more than a year I finally managed to sit down and write about the experience of welcoming [John O'Nolan](https://twitter.com/JohnONolan), founder of [Ghost](https://twitter.com/TryGhost/) blogging platform, to one of our [MSCC](https://www.mscc.mu/) meetings.
+Good things take time. After more than a year I finally managed to sit down and write about the experience of welcoming [John O'Nolan](https://x.com/JohnONolan), founder of [Ghost](https://x.com/TryGhost/) blogging platform, to one of our [MSCC](https://www.mscc.mu/) meetings.
 
 ## How did you manage that?
 
-Honestly, it wasn't me but one of our female craftsman, [Humeira](https://twitter.com/echdee). She is a subscriber to [John's YouTube channel](https://www.youtube.com/channel/UCfgQ94JiO45CeFkQHUR1f3Q) and given his vlogging activity he mentioned that he would be [En route to Mauritius](https://john.onolan.org/en-route-to-mauritius/) soon.
+Honestly, it wasn't me but one of our female craftsman, [Humeira](https://x.com/echdee). She is a subscriber to [John's YouTube channel](https://www.youtube.com/channel/UCfgQ94JiO45CeFkQHUR1f3Q) and given his vlogging activity he mentioned that he would be [En route to Mauritius](https://john.onolan.org/en-route-to-mauritius/) soon.
 
 ![Left to right: Sandeep, Ish and Humeira - all happy about the talk](../content/images/2018/03/mscc_johnonolan_happiness.jpeg)
 
@@ -136,7 +136,7 @@ Self-hosting as described in the previous paragraph is just one option. And not 
 
 In case that you are interested to know more about Ghost and John, I recommend you to head over to [John O'Nolan's website](https://john.onolan.org/). There are a good number of gems available. Although it seems that John evolved into Vlogs compared to Blogs.
 
-Over there you will also find an article inclusive video link about John's experience in [#TropicalValley](https://twitter.com/hashtag/TropicalValley) - [Mauritius: One of the most beautiful places in the world](https://john.onolan.org/mauritius/). It is quite hilarious actually. Enjoy!
+Over there you will also find an article inclusive video link about John's experience in [#TropicalValley](https://x.com/hashtag/TropicalValley) - [Mauritius: One of the most beautiful places in the world](https://john.onolan.org/mauritius/). It is quite hilarious actually. Enjoy!
 
 Talking about Vlogs...
 

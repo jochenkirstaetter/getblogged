@@ -78,9 +78,9 @@ We all share a common interest, Linux, GNU and Free Software. The LUGM is open t
 
 ## PHP Mauritius User Group
 
-[#phpMauritiusUG](https://twitter.com/search?q=%23phpMauritiusUG) is the first PHP user group in Mauritius. It was founded by two passionate PHPer in 2016 during [#DevConMRU](https://twitter.com/search?q=%23DevConMRU) 2016, for Mauritius by 100% Mauritians. We believe strongly in The PHP Community and we are honored and humble to be directly connected with them.
+[#phpMauritiusUG](https://x.com/search?q=%23phpMauritiusUG) is the first PHP user group in Mauritius. It was founded by two passionate PHPer in 2016 during [#DevConMRU](https://x.com/search?q=%23DevConMRU) 2016, for Mauritius by 100% Mauritians. We believe strongly in The PHP Community and we are honored and humble to be directly connected with them.
 
-The PHP Mauritius UG aims at shaping a community of people in Mauritius who are really passionate about [#PHP](https://twitter.com/search?q=%23php) & specially The PHP Community. Thus doing, we want to raise the level of PHP skills in Mauritius and help each and everyone that are keen to using & talking about PHP.
+The PHP Mauritius UG aims at shaping a community of people in Mauritius who are really passionate about [#PHP](https://x.com/search?q=%23php) & specially The PHP Community. Thus doing, we want to raise the level of PHP skills in Mauritius and help each and everyone that are keen to using & talking about PHP.
 
 ## hackers.mu
 

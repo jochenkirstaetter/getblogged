@@ -82,6 +82,6 @@ And although I mainly develop in Visual FoxPro 9.0 SP2 and C# using .NET Framewo
 As described above I did a couple of exams as time allowed and without any preparations, but still I received the following mail notification:  
 > *"**Thank you for recently participating in our Bench Games event. We wanted to inform you that you obtained a top score on our test(s) during this event, and as a result, will receive a free annual Brainbench subscription. Your annual subscription will give you access to all our tests just like Bench Games, but for an entire year plus additional benefits!"* -- Leader Board Notification from Brainbench
 
-Even fun activities get rewarded sometimes. Thanks to [@Brainbench_com](https://twitter.com/Brainbench_com) for the free annual subscription based on my passed 2013 Bench Games Master Level exam.
+Even fun activities get rewarded sometimes. Thanks to [@Brainbench_com](https://x.com/Brainbench_com) for the free annual subscription based on my passed 2013 Bench Games Master Level exam.
 
 It would be interesting to know about the total figures, especially to see how many citizens of Mauritius took part in this year's Bench Games. Anyway, I'm looking forward to be able to participate in other challenges like this in the future.

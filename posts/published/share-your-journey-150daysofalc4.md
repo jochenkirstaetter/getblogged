@@ -111,7 +111,7 @@ During the ALC 4.0 Global Meeting, fellow learner A-J Roos did a great job in re
 
 Finally, phase 1 picked up some momentum. Apart from the broad advancement criteria of the program to pass into the next phase the team at ALC came up with two additional challenges: 5 Days of Code Challenge
 
-The challenges were about practicing real-world tasks in the GCP using the Qwiklabs environment with sponsored student accounts. During the first iteration of the [#5DaysofCodeChallenge](https://twitter.com/search?q=%235DaysOfCodeChallenge) participants had to run 15 hands-on-lab courses, and another six labs during the second run. For each successfully completed lab we had to take screenshots of the confirmation emails and share them in a public folder on Drive or Dropbox. You can find mine here.
+The challenges were about practicing real-world tasks in the GCP using the Qwiklabs environment with sponsored student accounts. During the first iteration of the [#5DaysofCodeChallenge](https://x.com/search?q=%235DaysOfCodeChallenge) participants had to run 15 hands-on-lab courses, and another six labs during the second run. For each successfully completed lab we had to take screenshots of the confirmation emails and share them in a public folder on Drive or Dropbox. You can find mine here.
 
 - [ALC 4 Cloud: Challenge 1.0](https://drive.google.com/drive/folders/1Ka_-oUMPd_TpgOm7I83paR8idQ7EO8do?usp=sharing)
 - [ALC 4 Cloud: Challenge 2.0](https://drive.google.com/drive/folders/12jnCNI9hIT_5GaWJBCjZuwCVgJbg3YN-?usp=sharing)

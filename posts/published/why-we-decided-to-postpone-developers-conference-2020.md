@@ -75,7 +75,7 @@ FYI, overall the response is super positive and we did not receive any negative 
 The decision is based on multiple factors:
 
 - Recommendation by the WHO to avoid larger gatherings
-- [#FlattenTheCurve](https://twitter.com/search?q=%23FlattenTheCurve) and [#WorkFromHome](https://twitter.com/search?q=%23WorkFromHome) initiatives
+- [#FlattenTheCurve](https://x.com/search?q=%23FlattenTheCurve) and [#WorkFromHome](https://x.com/search?q=%23WorkFromHome) initiatives
 - Cancellations by international speakers
 - Establishment of travel bans and border closures (abroad)
 - Increasing numbers of quarantined / isolated people on arrival

@@ -90,9 +90,9 @@ After quite some time of active procrastination I thought that it was finally th
 
 To keep myself accountable and focused on the challenge to learn and sit for the upcoming exams I drew inspiration from Alexander Kallaway's [100 Days of Code](http://100daysofcode.com/) to create a side-project on my own: [#100DaysOfExam](https://www.100daysofexam.com/)
 
-![[#100DaysOfExam](https://twitter.com/hashtag/100daysofexam): Log your learning effort and stay accountable](../content/images/2019/01/100DaysOfExam.png)
+![[#100DaysOfExam](https://x.com/hashtag/100daysofexam): Log your learning effort and stay accountable](../content/images/2019/01/100DaysOfExam.png)
 
-The project is [hosted on GitHub](https://github.com/jochenkirstaetter/100-days-of-exam/) and the hashtag [#100DaysOfExam](https://twitter.com/hashtag/100daysofexam) is used on Twitter to report daily progress. Would be great to see more aspirants using this approach to prepare for an exam. How about you?
+The project is [hosted on GitHub](https://github.com/jochenkirstaetter/100-days-of-exam/) and the hashtag [#100DaysOfExam](https://x.com/hashtag/100daysofexam) is used on Twitter to report daily progress. Would be great to see more aspirants using this approach to prepare for an exam. How about you?
 
 At the end of March we had a fantastic meeting with great sessions on Linux (especially on SSHd), [SQL Server on Linux](http://sqlserveronlinux.com) and SQL Client tools on Linux.
 
@@ -114,7 +114,7 @@ Also in April we, read: [MSCC](https://www.mscc.mu/), participated in Global Azu
 
 It was good fun and we were able to hand out Azure passes with some credits to all attendees.
 
-Last year, I met [Magnus Mårtensson](https://twitter.com/noopman) - one of the organisers of GAB - at the annual C# Corner Conference and we had quite an exhaustive exchange about technology, politics, cultural differences & diversity, communities, and conference activities. Back then, we started to talk about an epic idea... Stay tuned for 2019.
+Last year, I met [Magnus Mårtensson](https://x.com/noopman) - one of the organisers of GAB - at the annual C# Corner Conference and we had quite an exhaustive exchange about technology, politics, cultural differences & diversity, communities, and conference activities. Back then, we started to talk about an epic idea... Stay tuned for 2019.
 
 ## May - Developers Conference
 
@@ -178,7 +178,7 @@ Having had this opportunity to meet and exchange with other GDG leads from the S
 
 But... (isn't there always some kind of "but"?) September also brought us our monthly MSCC meeting where I spoke briefly about the state of .NET Core 2.1 (with its long-term support), the roadmap to .NET Core 2.2 and 3, as well as the concepts behind [Blazor](https://blazor.net/).
 
-Speaking of .NET Conf, one of my tweets asking about how to join the [.NET Foundation](https://dotnetfoundation.org/) had been picked up and answered live by [Scott Hanselman](https://twitter.com/shanselman), Community Director for the .NET Team and [Jon Galloway](https://twitter.com/jongalloway), Executive Director of the .NET Foundation during their session.
+Speaking of .NET Conf, one of my tweets asking about how to join the [.NET Foundation](https://dotnetfoundation.org/) had been picked up and answered live by [Scott Hanselman](https://x.com/shanselman), Community Director for the .NET Team and [Jon Galloway](https://x.com/jongalloway), Executive Director of the .NET Foundation during their session.
 
 <iframe width="480" height="270" src="https://www.youtube.com/embed/MpWhVWkZzw4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 

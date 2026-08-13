@@ -177,15 +177,15 @@ Everyone has a few hats to wear during the day, and [Buchi Michelle Okonicha](ht
 
 Quickly summarized, fail forward, fail early, fail often and get back on your feet to continue. Embrace failure as part of the whole and use it to your advantage instead of falling into inertia.
 
-Thanks [Mileke Kolawale](https://twitter.com/milekeKolawole) for sharing your advice. The full article has been posted [Failing forward: The right way to fail](https://mileke.medium.com/failing-forward-the-right-way-to-fail-c3a604d5dfde)
+Thanks [Mileke Kolawale](https://x.com/milekeKolawole) for sharing your advice. The full article has been posted [Failing forward: The right way to fail](https://mileke.medium.com/failing-forward-the-right-way-to-fail-c3a604d5dfde)
 
 ### Fireside Chat: Hacks to grow impact & metrics for small communities
 
 Lead by [Khadija Juma](https://www.linkedin.com/in/khadija-%F0%9F%87%B0%F0%9F%87%AA-abdul-juma-26720143/) we listened to the feedback and stories of
 
-- [Abdulaziz Akanbi](https://twitter.com/al_knbi299)
-- [Ida Delphine](https://twitter.com/idadelveloper)
-- [Ugo Mmirikwe](https://twitter.com/ugommirikwe)
+- [Abdulaziz Akanbi](https://x.com/al_knbi299)
+- [Ida Delphine](https://x.com/idadelveloper)
+- [Ugo Mmirikwe](https://x.com/ugommirikwe)
 
 to provide a safe environment to nurture and grow a tech community. And the positive effects those can have on the daily life of participants.
 
@@ -195,9 +195,9 @@ to provide a safe environment to nurture and grow a tech community. And the posi
 
 After the lunch break, [Ada Nduka Oyom](https://www.linkedin.com/in/ada-nduka-oyom/) assembled and questioned the panelists about building their communities. The answers provided by
 
-- [Maneo Mapharisa](https://twitter.com/ManeoMapharisa)
-- [Wayne Gakuo](https://twitter.com/wayne_gakuo)
-- [Frank Ananti](https://twitter.com/ananti)
+- [Maneo Mapharisa](https://x.com/ManeoMapharisa)
+- [Wayne Gakuo](https://x.com/wayne_gakuo)
+- [Frank Ananti](https://x.com/ananti)
 
 were spot on and all of them gave great insights into their own local activities and how they managed to overcome obstacles in order to build and grow their regions.
 
@@ -205,7 +205,7 @@ were spot on and all of them gave great insights into their own local activities
 
 Hands down simplicity: Your community is acting a bit like a family!
 
-Running the first GDG chapter in Africa, [GDG Buea](https://gdgbuea.net/), successfully since over a decade now, [Fongoh Martin](https://twitter.com/FongohMartin) brought it down to the important aspects:
+Running the first GDG chapter in Africa, [GDG Buea](https://gdgbuea.net/), successfully since over a decade now, [Fongoh Martin](https://x.com/FongohMartin) brought it down to the important aspects:
 
 - Celebrate together and meet regularly over food
 - Engage young members early and have a "community career path" to grow
@@ -222,9 +222,9 @@ Our last panel was spearheaded by [Eunice Allela](https://www.linkedin.com/in/eu
 
 What better crowd than having three GDEs?
 
-- [Amani Bisimwa](https://twitter.com/AmaniBisimwa4)
-- [Femi Taiwo](https://twitter.com/dftaiwo)
-- [Sylvia Dieckmann](https://twitter.com/sylviedie)
+- [Amani Bisimwa](https://x.com/AmaniBisimwa4)
+- [Femi Taiwo](https://x.com/dftaiwo)
+- [Sylvia Dieckmann](https://x.com/sylviedie)
 
 More information about the [Google Developer Experts](https://developers.google.com/community/experts) (GDE) is available online.
 

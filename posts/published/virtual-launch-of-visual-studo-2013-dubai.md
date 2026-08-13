@@ -62,7 +62,7 @@ Luckily, morning traffic down to Port Louis wasn't that cramped as usual - well,
 
 Some Microsoft Student Partners (MSP) and a few other guests were already present and the team was still busy with some preparations for the virtual event, like setting up audio and projector, etc. Nothing to worry about there was still plenty of time, as the event was scheduled for 9:30 hrs respectively 10:00 hrs. More attendees came and the available seats in our conference room were quickly filled. Unfortunately, when the pre-show of the launch event started, there were still some technical issues... but we knew how to use the time efficiently:
 
-> *"Overcoming some technical issues here and got the opportunity to speak quickly about [#mscc](https://twitter.com/search?q=%23mscc). Thanks to [@arnaudmeslier](https://twitter.com/arnaudmeslier/)"*
+> *"Overcoming some technical issues here and got the opportunity to speak quickly about [#mscc](https://x.com/search?q=%23mscc). Thanks to [@arnaudmeslier](https://x.com/arnaudmeslier/)"*
 
 ![Introducing the Mauritius Software Craftsmanship Community in front of the attendees of the Virtual Launch event of Visual Studio 2013](https://s.kirstaetter.name/images/vs2013-4.png)  
 *Introducing the Mauritius Software Craftsmanship Community in front of the attendees of the Virtual Launch event of Visual Studio 2013*
@@ -101,7 +101,7 @@ Continuous Integration in a very fine execution. Of course, being a Clean Code D
 
 Hot-keys and keyboard navigation are obviously the new fashion trend in Visual Studio 2013. Finally, the IDE got some highly appreciated hot-keys and short-cuts in terms of developer's productivity. Those new improvements are surely interesting for pure VS users but quite frankly I tweeted about that already:
 
-> *"Surprisingly, some of the editor enhancements in Visual Studio 2013 are old fellows when using [@TelerikJust](https://twitter.com/TelerikJust/ "@TelerikJust") JustCode. [#vs2013dubai](https://twitter.com/search?q=%23vs2013dubai)"*
+> *"Surprisingly, some of the editor enhancements in Visual Studio 2013 are old fellows when using [@TelerikJust](https://x.com/TelerikJust/ "@TelerikJust") JustCode. [#vs2013dubai](https://x.com/search?q=%23vs2013dubai)"*
 
 Anyway, it's great to see those enhancements as part of the product now, and thanks to partners like Telerik and others there will be more improvements in future versions.
 

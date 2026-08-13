@@ -84,7 +84,7 @@ Anyway, there was a heartwarming reception procedure while waiting for the check
 
 ![Arriving in Dehli, India](../content/images/2024/05/WP_20170406_15_42_24_Pro.jpg)
 
-Later this evening, we met with [Dhananjay (DJ) Kumar](https://twitter.com/debug_mode) and we talked a bit about Mauritius, India, developer communities in general, and all kind of other interesting topics. Totally unexpected and surprising, DJ gifted me the book "The power of habit" by Charles Duhigg. Very much appreciated.
+Later this evening, we met with [Dhananjay (DJ) Kumar](https://x.com/debug_mode) and we talked a bit about Mauritius, India, developer communities in general, and all kind of other interesting topics. Totally unexpected and surprising, DJ gifted me the book "The power of habit" by Charles Duhigg. Very much appreciated.
 
 After a wonderful speakers dinner organised by C# Corner it was time to call it a day as there had been plans made for us the next day. This meant to catch some Zzzz's and then wake up earlier than usual.
 

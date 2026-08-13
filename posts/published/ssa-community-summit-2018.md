@@ -75,13 +75,13 @@ By coincidence I already bumped into another GDG lead, Dodo from Congo, at the p
 
 ## Women Techmakers Summit
 
-For Thursday there were no detailed plans for GDG leads. Not knowing anyone in town I wasn't too eager to get out of the hotel. Much to my liking the day was scheduled for the [#WTMSummit](https://twitter.com/hashtag/WTMSummit) - a gathering of amazing women in technology in the SSA region.
+For Thursday there were no detailed plans for GDG leads. Not knowing anyone in town I wasn't too eager to get out of the hotel. Much to my liking the day was scheduled for the [#WTMSummit](https://x.com/hashtag/WTMSummit) - a gathering of amazing women in technology in the SSA region.
 
 The [Women Techmakers](https://www.womentechmakers.com/) is an initiative that is continually launching global scalable initiatives and piloting new programs to support and empower women in the industry.
 
 > Google's Women Techmakers program provides visibility, community, and resources for women in technology.
 
-Although male GDG leads were *not invited* to attend the [#WTMSummit](https://twitter.com/hashtag/WTMSummit), we were most *welcome* to hang around (thanks Aniedi!)...
+Although male GDG leads were *not invited* to attend the [#WTMSummit](https://x.com/hashtag/WTMSummit), we were most *welcome* to hang around (thanks Aniedi!)...
 
 ![Fantastic crowd of passionate women in technology from over 16 African countries](../content/images/2018/10/DSC_4755.JPG)
 
@@ -95,7 +95,7 @@ Also the stories and experiences from the other WTM ladies in regards to their a
 
 On Friday morning I woke up according to my usual routine; meaning very early. Given that my roommate Braulio was still chasing Zzzzs I packed my equipment and settled down in the hotel lobby - waiting for breakfast time.
 
-Speaking of breakfast... luckily I was not the only early bird and within shortest time we had a table full of GDG leads deep into networking talks about where we are from, how we handle events, what we do as daily jobs, etc. Overall a great warmup already for the [#GDGSummit](https://twitter.com/hashtag/GDGSummit) to come.
+Speaking of breakfast... luckily I was not the only early bird and within shortest time we had a table full of GDG leads deep into networking talks about where we are from, how we handle events, what we do as daily jobs, etc. Overall a great warmup already for the [#GDGSummit](https://x.com/hashtag/GDGSummit) to come.
 
 Gratefully my session proposal for the SSA Community Summit 2018 had been accepted - on Tuesday evening ;-) - and therefore I still had to add a few bits and bytes to my slidedeck; mainly some inspirational quotes and a few catchy images.
 
@@ -118,9 +118,9 @@ Understand the needs of your partner
 Create Opportunity  
 Encourage your member  
   
-By Jochen[@GDGMauritius](https://twitter.com/GDGMauritius?ref_src=twsrc%5Etfw)[@googleafrica](https://twitter.com/googleafrica?ref_src=twsrc%5Etfw) [#Nairobi](https://twitter.com/hashtag/Nairobi?src=hash&ref_src=twsrc%5Etfw) [#GDGSummit](https://twitter.com/hashtag/GDGSummit?src=hash&ref_src=twsrc%5Etfw) [pic.twitter.com/4LCcBECoMj](https://t.co/4LCcBECoMj)
+By Jochen[@GDGMauritius](https://x.com/GDGMauritius?ref_src=twsrc%5Etfw)[@googleafrica](https://x.com/googleafrica?ref_src=twsrc%5Etfw) [#Nairobi](https://x.com/hashtag/Nairobi?src=hash&ref_src=twsrc%5Etfw) [#GDGSummit](https://x.com/hashtag/GDGSummit?src=hash&ref_src=twsrc%5Etfw) [pic.x.com/4LCcBECoMj](https://t.co/4LCcBECoMj)
 >
-> — Rotimi OLAOSEBIKAN (@orebenezer) [September 21, 2018](https://twitter.com/orebenezer/status/1043079289963458561?ref_src=twsrc%5Etfw)
+> — Rotimi OLAOSEBIKAN (@orebenezer) [September 21, 2018](https://x.com/orebenezer/status/1043079289963458561?ref_src=twsrc%5Etfw)
 
 Again, during the whole day all sessions were absolutely outstanding and full of life lessons learned by other GDG leads from all over Africa. Some very entertaining, others very amusing, and a few quite interactive.
 
@@ -147,12 +147,12 @@ Even I addressed the former during my talk. And thanks to building healthy relat
 
 ![](../content/images/2018/10/DSC_0341.JPG)
 
-Above are just a few impressions of the awesome experience during the [#GDGSummit](https://twitter.com/hashtag/GDGSummit).
+Above are just a few impressions of the awesome experience during the [#GDGSummit](https://x.com/hashtag/GDGSummit).
 
 > 26 nationalities, 3 days, 1 country!  
-Big ups to [@aniediudo](https://twitter.com/aniediudo?ref_src=twsrc%5Etfw), [@Olaiw0la](https://twitter.com/Olaiw0la?ref_src=twsrc%5Etfw), [@vivynmiriam](https://twitter.com/vivynmiriam?ref_src=twsrc%5Etfw), [@_jkimani](https://twitter.com/_jkimani?ref_src=twsrc%5Etfw) and the SSA GDG team🤗🤗🤗[#GDGSummit](https://twitter.com/hashtag/GDGSummit?src=hash&ref_src=twsrc%5Etfw) [#Nairobi](https://twitter.com/hashtag/Nairobi?src=hash&ref_src=twsrc%5Etfw) [pic.twitter.com/r5uZ8zNw8Z](https://t.co/r5uZ8zNw8Z)
+Big ups to [@aniediudo](https://x.com/aniediudo?ref_src=twsrc%5Etfw), [@Olaiw0la](https://x.com/Olaiw0la?ref_src=twsrc%5Etfw), [@vivynmiriam](https://x.com/vivynmiriam?ref_src=twsrc%5Etfw), [@_jkimani](https://x.com/_jkimani?ref_src=twsrc%5Etfw) and the SSA GDG team🤗🤗🤗[#GDGSummit](https://x.com/hashtag/GDGSummit?src=hash&ref_src=twsrc%5Etfw) [#Nairobi](https://x.com/hashtag/Nairobi?src=hash&ref_src=twsrc%5Etfw) [pic.x.com/r5uZ8zNw8Z](https://t.co/r5uZ8zNw8Z)
 >
-> — Google Cloud Developer Community Ado (@gcdcado) [September 26, 2018](https://twitter.com/gcdcado/status/1044854263476817920?ref_src=twsrc%5Etfw)
+> — Google Cloud Developer Community Ado (@gcdcado) [September 26, 2018](https://x.com/gcdcado/status/1044854263476817920?ref_src=twsrc%5Etfw)
 
 I made new friends from all over Africa and finally had a chance to meet some of the people that participate in our regular Hangouts on Air.
 
@@ -180,11 +180,11 @@ Okay, a few clicks from the evening. Without any doubt we had a great time and a
 
 ## GDG DevFest Nairobi 2018
 
-Honestly I don't know where to start about *[the biggest Google tech conference in Sub-Saharan Africa](https://www.meetup.com/GDG-Nairobi/events/252860861/)*. Perhaps it might be easiest to check out [#DevFestNairobi](https://twitter.com/hashtag/DevFestNairobi) on Twitter...
+Honestly I don't know where to start about *[the biggest Google tech conference in Sub-Saharan Africa](https://www.meetup.com/GDG-Nairobi/events/252860861/)*. Perhaps it might be easiest to check out [#DevFestNairobi](https://x.com/hashtag/DevFestNairobi) on Twitter...
 
-> [#DevFestNairobi](https://twitter.com/hashtag/DevFestNairobi?src=hash&ref_src=twsrc%5Etfw) [#DevFest18](https://twitter.com/hashtag/DevFest18?src=hash&ref_src=twsrc%5Etfw) 1200+ attendees, great sessions...it was an epic event😊 [pic.twitter.com/3XCakb89I9](https://t.co/3XCakb89I9)
+> [#DevFestNairobi](https://x.com/hashtag/DevFestNairobi?src=hash&ref_src=twsrc%5Etfw) [#DevFest18](https://x.com/hashtag/DevFest18?src=hash&ref_src=twsrc%5Etfw) 1200+ attendees, great sessions...it was an epic event😊 [pic.x.com/3XCakb89I9](https://t.co/3XCakb89I9)
 >
-> — mercy jillo (@jillodidah) [September 22, 2018](https://twitter.com/jillodidah/status/1043594237252648961?ref_src=twsrc%5Etfw)
+> — mercy jillo (@jillodidah) [September 22, 2018](https://x.com/jillodidah/status/1043594237252648961?ref_src=twsrc%5Etfw)
 
 According to the event announcement on Meetup there had been 1,200 RSVPs and I was told by the organisers [Roina Ochieng](https://www.meetup.com/GDG-Nairobi/members/136005242/) and [Ngesa Marvin](https://www.meetup.com/GDG-Nairobi/members/182774469/) that there were another 300 RSVPs on waiting list! Those are numbers we can only dream about it Mauritius.
 
@@ -212,7 +212,7 @@ Coming out of the airport there are four to six lanes on the motorway - in one d
 
 ## Thanks and Thoughts
 
-Finally, I would like to reach out to [Aniedi Udo-Obong](https://plus.google.com/+AniediUdoObong) and Olaiwola Bolaji, our Google Developer Ecosystems Community Managers for Sub-Saharan Africa, to [John Kimani](https://twitter.com/_jkimani), Developer Ecosystem at Google, and to [Vivian Akinyi](https://plus.google.com/102294917236974396507), Google Developer Ecosystem Community Manager SSA: **THANK YOU!**
+Finally, I would like to reach out to [Aniedi Udo-Obong](https://plus.google.com/+AniediUdoObong) and Olaiwola Bolaji, our Google Developer Ecosystems Community Managers for Sub-Saharan Africa, to [John Kimani](https://x.com/_jkimani), Developer Ecosystem at Google, and to [Vivian Akinyi](https://plus.google.com/102294917236974396507), Google Developer Ecosystem Community Manager SSA: **THANK YOU!**
 
 A big Thank You to everyone else involved in the preparation and execution of the SSA Community Summit 2018 and DevFest Nairobi 2018. It was an outstanding experience for me and I had a wonderful time in Kenya - thanks to you.
 

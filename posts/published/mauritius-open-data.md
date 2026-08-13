@@ -159,7 +159,7 @@ Let your users become your advocates... clear recommendation by the World Bank t
 - Open Data Labs
 - Cafe de Data
 - OpenStreetMap
-- [Code for Africa](https://codeforafrica.org/) - a 'federated' umbrella organisation. [@Code4Africa](https://twitter.com/Code4Africa) on Twitter
+- [Code for Africa](https://codeforafrica.org/) - a 'federated' umbrella organisation. [@Code4Africa](https://x.com/Code4Africa) on Twitter
   - Data Liberation: "Scrape-a-thons" to collect and provide more data
   - Data Fellowships
   - Data Skills

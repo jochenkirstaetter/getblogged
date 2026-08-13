@@ -138,21 +138,21 @@ Again, no mentioning of the underscore character.
 
 Not happy about not receiving such an important email as the confirmation of your annual tax return and payment instructions based on a mistake that could be avoided easily, I posted on Twitter about it.
 
-> Oh fantastic! The mail server configuration of [@MRA_services](https://twitter.com/MRA_services?ref_src=twsrc%5Etfw) violates hostname convention in RFC 2821 - 4.1.2 - Underscore is NOT permitted!
+> Oh fantastic! The mail server configuration of [@MRA_services](https://x.com/MRA_services?ref_src=twsrc%5Etfw) violates hostname convention in RFC 2821 - 4.1.2 - Underscore is NOT permitted!
 >
-> — Jochen Kirstätter (@JKirstaetter) [October 2, 2017](https://twitter.com/JKirstaetter/status/914707662956146688?ref_src=twsrc%5Etfw)
+> — Jochen Kirstätter (@JKirstaetter) [October 2, 2017](https://x.com/JKirstaetter/status/914707662956146688?ref_src=twsrc%5Etfw)
 
 Later on, this was picked up by other internauts. Mr Moonesamy asked for permission to quote me in a note to the Mauritius Revenue Authority.
 
-> Can I reference your tweet in a message to the MRA? [#mauritius](https://twitter.com/hashtag/mauritius?src=hash&ref_src=twsrc%5Etfw)
+> Can I reference your tweet in a message to the MRA? [#mauritius](https://x.com/hashtag/mauritius?src=hash&ref_src=twsrc%5Etfw)
 >
-> — S Moonesamy (@sminmu) [October 2, 2017](https://twitter.com/sminmu/status/914791176854585344?ref_src=twsrc%5Etfw)
+> — S Moonesamy (@sminmu) [October 2, 2017](https://x.com/sminmu/status/914791176854585344?ref_src=twsrc%5Etfw)
 
 And Pirabarlen noted that other mail providers are violating RFCs, too.
 
 > I think you guys are forgetting/ignoring that Microsoft and google doesn't even respect rfc 5321 correctly.
 >
-> — Pirabarlen (@eldergodselven) [October 2, 2017](https://twitter.com/eldergodselven/status/914899286017675264?ref_src=twsrc%5Etfw)
+> — Pirabarlen (@eldergodselven) [October 2, 2017](https://x.com/eldergodselven/status/914899286017675264?ref_src=twsrc%5Etfw)
 
 First of all, I have to clarify that I'm not forgetting/ignoring that other companies or mail service providers might not respect RFCs at all.  
 Second, I'm also aware that RFC clearly stands for **Request for Comments** and therefore is rather a recommendation than a regulation. Especially big internet companies have this tendency to run for their own ideas regularly. Much to the disadvantage of others in most cases.  

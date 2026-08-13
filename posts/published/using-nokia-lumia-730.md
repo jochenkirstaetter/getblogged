@@ -111,7 +111,7 @@ Frankly, I'm a little bit spoiled by a third-party application called [SwiftKey 
 
 ## Back navigation
 
-That was a funny pitfall I fell into. The back button on Windows Phone 8.1 works somehow different to the one on Android and I was desperately looking for a solution on how to access some kind of apps overview or task manager. Luckily, that puzzle could be solved very quickly thanks to the tweet of [@LumiaHelp](https://twitter.com/LumiaHelp "Lumia Help on Twitter"): Long-press the back button.
+That was a funny pitfall I fell into. The back button on Windows Phone 8.1 works somehow different to the one on Android and I was desperately looking for a solution on how to access some kind of apps overview or task manager. Luckily, that puzzle could be solved very quickly thanks to the tweet of [@LumiaHelp](https://x.com/LumiaHelp "Lumia Help on Twitter"): Long-press the back button.
 
 ## Internet Sharing (aka Tethering)
 

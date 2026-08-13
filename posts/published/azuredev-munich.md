@@ -58,11 +58,11 @@ While I was on a business trip to Germany back in February I thought that it mig
 
 Turned out that there are quite a number of active user groups in Munich. However their dates either didn't fit my schedule or the maximum limit of attendees had been reached already or I would have been too late to join the event because of distance and public transport.
 
-Luckily, the [Azure DEV Meetup Munich](https://azuredev.org/) user group (@[AzureDevMuc](https://twitter.com/AzureDevMuc)) organised an evening event - [Azure Cosmos DB: Yes, zu NoSQL mit der MongoDB-API](https://www.meetup.com/Azure-DEV-Munich/events/268261753/) - suitable for my working hours, and it turned out that the venue wasn't that far from the hotel either. It took me less than 30 minutes to get there. I had to ride two lines of the U-Bahn and take a short stroll by foot from the station.
+Luckily, the [Azure DEV Meetup Munich](https://azuredev.org/) user group (@[AzureDevMuc](https://x.com/AzureDevMuc)) organised an evening event - [Azure Cosmos DB: Yes, zu NoSQL mit der MongoDB-API](https://www.meetup.com/Azure-DEV-Munich/events/268261753/) - suitable for my working hours, and it turned out that the venue wasn't that far from the hotel either. It took me less than 30 minutes to get there. I had to ride two lines of the U-Bahn and take a short stroll by foot from the station.
 
 Actually, I arrived a few minutes after the official starting time, being slightly late. Shame on me? Well, luckily not really because the guest speaker for the night was still stuck in traffic. A few people were already there, enjoying fresh pizza and chilled drinks. Ranging from soft drinks and apple juice to various types of beer.
 
-After being welcomed by one of the hosts, [Thomas Pentenrieder](https://twitter.com/th_p), I was asked to note down my name on the attendance sheet - on paper BTW -, and stick one of those fancy name tag badges you might know from the movies onto my chest.
+After being welcomed by one of the hosts, [Thomas Pentenrieder](https://x.com/th_p), I was asked to note down my name on the attendance sheet - on paper BTW -, and stick one of those fancy name tag badges you might know from the movies onto my chest.
 
 ![Name tag sticker - courtesy of [TeePublic](https://www.teepublic.com/sticker/3115706-name-tag)](../content/images/2020/04/image-25.png)
 
@@ -78,9 +78,9 @@ While munching some slices of delicious pizza others got interested into my tech
 
 ![Thomas and Ralf - founders and hosts of Azure DEV Meetup Munich](../content/images/2020/04/WP_20200213_18_50_51_Pro--2-.jpg)
 
-Inspired by the Aqualung branded T-shirt I finally engaged in a conversation with the other co-host of the evening, [Ralf Richter](https://twitter.com/rari2003). Turns out that he goes regularly diving in the nearby lakes in the surroundings of Munich, and that he had been to quite a number of dive spots worldwide. IIRC, Mauritius might be still on his list of 'wanna-go' destinations.
+Inspired by the Aqualung branded T-shirt I finally engaged in a conversation with the other co-host of the evening, [Ralf Richter](https://x.com/rari2003). Turns out that he goes regularly diving in the nearby lakes in the surroundings of Munich, and that he had been to quite a number of dive spots worldwide. IIRC, Mauritius might be still on his list of 'wanna-go' destinations.
 
-More people joined the meeting, and there had been tons of food and drinks made available. Roughly half an hour after our guest speaker, [Gregor Biswanger](https://about.me/gregor.biswanger) ([@BFreakout](https://twitter.com/BFreakout)), arrived. Given the community nature of the evening there was enough time to give Gregor a quick break to refresh and to taste some of those delicious pizza.
+More people joined the meeting, and there had been tons of food and drinks made available. Roughly half an hour after our guest speaker, [Gregor Biswanger](https://about.me/gregor.biswanger) ([@BFreakout](https://x.com/BFreakout)), arrived. Given the community nature of the evening there was enough time to give Gregor a quick break to refresh and to taste some of those delicious pizza.
 
 Funnily, it turned out that Gregor and I have several common friends. First and most remarkable, Markus and Marina.
 

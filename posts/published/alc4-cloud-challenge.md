@@ -60,7 +60,7 @@ Today I finally found a few chunks of time to run through the challenge. It was 
 
 I documented all steps as a thread on Twitter, starting in the morning:
 
-> Working on the current Google Cloud Challenge I[#100DaysOfExam](https://twitter.com/hashtag/100DaysOfExam?src=hash&ref_src=twsrc%5Etfw)[#150DaysOfALC4](https://twitter.com/hashtag/150DaysOfALC4?src=hash&ref_src=twsrc%5Etfw) [#GoogleAfricaDeveloperScholarship](https://twitter.com/hashtag/GoogleAfricaDeveloperScholarship?src=hash&ref_src=twsrc%5Etfw)  
+> Working on the current Google Cloud Challenge I[#100DaysOfExam](https://x.com/hashtag/100DaysOfExam?src=hash&ref_src=twsrc%5Etfw)[#150DaysOfALC4](https://x.com/hashtag/150DaysOfALC4?src=hash&ref_src=twsrc%5Etfw) [#GoogleAfricaDeveloperScholarship](https://x.com/hashtag/GoogleAfricaDeveloperScholarship?src=hash&ref_src=twsrc%5Etfw)  
   
 ✔ Create repo on GitHub  
 ✔ Create app  
@@ -69,9 +69,9 @@ I documented all steps as a thread on Twitter, starting in the morning:
 ✔ Push to master  
 🐱‍🏍 Code...  
   
-cc: [@andela_alc](https://twitter.com/andela_alc?ref_src=twsrc%5Etfw)
+cc: [@andela_alc](https://x.com/andela_alc?ref_src=twsrc%5Etfw)
 >
-> — Jochen Kirstätter (JoKi) (@JKirstaetter) [October 18, 2019](https://twitter.com/JKirstaetter/status/1185021590947282945?ref_src=twsrc%5Etfw)
+> — Jochen Kirstätter (JoKi) (@JKirstaetter) [October 18, 2019](https://x.com/JKirstaetter/status/1185021590947282945?ref_src=twsrc%5Etfw)
 
 Consider the Twitter thread as a high-level roadmap that came together during the day while actually doing my daily chores in regards to contracted software development. The challenge was done in several chunks, almost identical to the content tweets.
 

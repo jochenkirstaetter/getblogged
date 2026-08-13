@@ -243,7 +243,7 @@ State of GCP: .NET edition
 - [Road to Google Developers Certification - Info Session](https://gdg.community.dev/events/details/google-gdg-luwero-presents-certification-study-group-info-session/), GDG Luwero, Uganda, 16th April
 - [Road to Google Developers Certification - Info Session](https://gdg.community.dev/events/details/google-gdg-jinja-presents-certification-study-group-info-session/), GDG Jinja, Uganda, 14th April
 - Google Cloud Tech, Twitter/X Space, 13th April  
-[How to make the most of Innovators Plus](https://twitter.com/i/spaces/1MYxNgjjWAbKw?s=20)
+[How to make the most of Innovators Plus](https://x.com/i/spaces/1MYxNgjjWAbKw?s=20)
 - [MSCC Monthly Meetup](https://www.meetup.com/mauritiussoftwarecraftsmanshipcommunity/events/291422008/), MSCC, 11th February  
 gcloud - Scripting for Google Cloud Platform
 - [MSCC Monthly Meetup](https://www.meetup.com/mauritiussoftwarecraftsmanshipcommunity/events/290281994/), MSCC, 14th January  

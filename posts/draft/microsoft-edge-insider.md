@@ -5,14 +5,14 @@ slug: microsoft-edge-insider
 date: 2019-04-09
 status: draft
 type: post
-description: 'The announcement on Twitter: https://twitter.com/MSEdgeDev/status/1115283353731600384'
+description: 'The announcement on Twitter: https://x.com/MSEdgeDev/status/1115283353731600384'
 tags: []
 keywords: ''
 metaTitle: Microsoft Edge Insider
-metaDescription: 'The announcement on Twitter: https://twitter.com/MSEdgeDev/status/1115283353731600384'
+metaDescription: 'The announcement on Twitter: https://x.com/MSEdgeDev/status/1115283353731600384'
 image: ''
 ogTitle: Microsoft Edge Insider
-ogDescription: 'The announcement on Twitter: https://twitter.com/MSEdgeDev/status/1115283353731600384'
+ogDescription: 'The announcement on Twitter: https://x.com/MSEdgeDev/status/1115283353731600384'
 layout: post
 bodyClass: post-template
 postClass: post
@@ -42,15 +42,15 @@ featureImage: ''
 featured: false
 publishedAt: ''
 updatedAt: 2019-04-09T03:56:12Z
-excerpt: 'The announcement on Twitter: https://twitter.com/MSEdgeDev/status/1115283353731600384'
+excerpt: 'The announcement on Twitter: https://x.com/MSEdgeDev/status/1115283353731600384'
 twitterTitle: Microsoft Edge Insider
-twitterDescription: 'The announcement on Twitter: https://twitter.com/MSEdgeDev/status/1115283353731600384'
+twitterDescription: 'The announcement on Twitter: https://x.com/MSEdgeDev/status/1115283353731600384'
 twitterImage: 
 facebookTitle: Microsoft Edge Insider
-facebookDescription: 'The announcement on Twitter: https://twitter.com/MSEdgeDev/status/1115283353731600384'
+facebookDescription: 'The announcement on Twitter: https://x.com/MSEdgeDev/status/1115283353731600384'
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
 
-The announcement on Twitter: [https://twitter.com/MSEdgeDev/status/1115283353731600384](https://twitter.com/MSEdgeDev/status/1115283353731600384)
+The announcement on Twitter: [https://x.com/MSEdgeDev/status/1115283353731600384](https://x.com/MSEdgeDev/status/1115283353731600384)

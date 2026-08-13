@@ -53,6 +53,6 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-> Great artists get the details right but continually step back to take in the whole picture. That's the key to software design. Focusing on the smallest details while continually stepping back & taking in the big picture. Ongoing visualisation of the emerging architecture's vital [pic.twitter.com/CSEzMqvDmn](https://t.co/CSEzMqvDmn)
+> Great artists get the details right but continually step back to take in the whole picture. That's the key to software design. Focusing on the smallest details while continually stepping back & taking in the big picture. Ongoing visualisation of the emerging architecture's vital [pic.x.com/CSEzMqvDmn](https://t.co/CSEzMqvDmn)
 >
-> — jasongorman (@jasongorman) [October 4, 2018](https://twitter.com/jasongorman/status/1047810990040109056?ref_src=twsrc%5Etfw)
+> — jasongorman (@jasongorman) [October 4, 2018](https://x.com/jasongorman/status/1047810990040109056?ref_src=twsrc%5Etfw)

@@ -58,7 +58,7 @@ Finally, I could convince myself to register an account on Twitter to start micr
 
 I could have set up a tweet already ages ago but honestly I have to say that I never had any real motivation about this whole concept. Even now, I am not 100% sure about the pros and benefits of Twitter are. Maybe I will get some feedback on this during the next weeks. Perhaps I might use this micro-blogging space for some more questions or even rants... Let's see. ;)
 
-Anyways, the "Get in contact" area in the sidebar is updated and you might follow my tweet on this URL: [https://www.twitter.com/JKirstaetter](https://www.twitter.com/JKirstaetter)
+Anyways, the "Get in contact" area in the sidebar is updated and you might follow my tweet on this URL: [https://www.x.com/JKirstaetter](https://www.x.com/JKirstaetter)
 
 Sadly, my alias "JoKi" is alerady in use by someone else, but that's life: First come, first serve.
 

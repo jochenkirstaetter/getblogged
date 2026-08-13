@@ -78,4 +78,4 @@ The moment of truth, or better said, point of no return came after approximately
 
 Some seconds later the parachute opened and we glided smoothly with some turns and spins back down to the dropzone. The rest of the family could hear and see us soon and the landing was easy going. We never had any doubts or fear about our instructors. They did a great job and we are looking forward to book our next job. I might even consider to follow educational classes on skydiving and earn a license.
 
-By the way, feel free to get in touch with Skydive Austral Mauritius. Either via contact details on their website or tweeting a little bit with them. Follow the tweets of Chris and fellows on [SkydiveAustral](https://twitter.com/skydiveaustral "SkydiveAustral").
+By the way, feel free to get in touch with Skydive Austral Mauritius. Either via contact details on their website or tweeting a little bit with them. Follow the tweets of Chris and fellows on [SkydiveAustral](https://x.com/skydiveaustral "SkydiveAustral").

@@ -118,15 +118,15 @@ Okay, it took me several attempts to successfully dictate some sentences into No
 
 An interesting use case for dictation could be tweets. They are short and concise, meaning relatively ease to articulate and to get them out in one attempt.
 
-> The street has been dictated. I'm currently running some tests Using dictation mode in Windows 10. It's actually pretty fun. More to come soon. [#WindowsInsiders](https://twitter.com/hashtag/WindowsInsiders?src=hash&ref_src=twsrc%5Etfw)  
+> The street has been dictated. I'm currently running some tests Using dictation mode in Windows 10. It's actually pretty fun. More to come soon. [#WindowsInsiders](https://x.com/hashtag/WindowsInsiders?src=hash&ref_src=twsrc%5Etfw)  
   
 PS: unmodified text...
 >
-> — Jochen Kirstätter ハッカー (@JKirstaetter) [January 6, 2019](https://twitter.com/JKirstaetter/status/1081830822162894848?ref_src=twsrc%5Etfw)
+> — Jochen Kirstätter ハッカー (@JKirstaetter) [January 6, 2019](https://x.com/JKirstaetter/status/1081830822162894848?ref_src=twsrc%5Etfw)
 
 Dictated my first tweet of 2019
 
-I'm using [Tweetdeck](https://tweetdeck.twitter.com/) as my main client and posting my first dictated tweet of 2019 went surprisingly well, inclusive punctuation and hashtag. Going to try this more often now.
+I'm using [Tweetdeck](https://tweetdeck.x.com/) as my main client and posting my first dictated tweet of 2019 went surprisingly well, inclusive punctuation and hashtag. Going to try this more often now.
 
 ## Auxiliary noise or ambient music
 

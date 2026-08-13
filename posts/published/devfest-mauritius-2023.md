@@ -99,12 +99,12 @@ Really great to have in-person conferences happening.
 
 This has been my favourite highlight of DevFest. Thanks to the generous support of the GDE travel grant program the organising team managed to bring a whooping four Google Developer Experts (GDE) to Mauritius. Let me quickly give you their names and links to their social media profiles.
 
-- [Wayne Gakuo](https://twitter.com/wayne_gakuo), GDE Angular, Kenya
-- [Vivek Yadav](https://twitter.com/viveky259259), GDE Flutter, India
-- [Vrijraj Singh](https://twitter.com/SVrijraj), GDE Firebase & Web Technologies, India
-- [Sylvia Dieckmann](https://twitter.com/sylviedie), GDE Flutter, South Africa
-- [Jochen Kirstätter](https://twitter.com/jkirstaetter), GDE Google Cloud, Mauritius
-- [Sandeep Ramgolam](https://twitter.com/__sun__), GDE Web Technologies, Mauritius
+- [Wayne Gakuo](https://x.com/wayne_gakuo), GDE Angular, Kenya
+- [Vivek Yadav](https://x.com/viveky259259), GDE Flutter, India
+- [Vrijraj Singh](https://x.com/SVrijraj), GDE Firebase & Web Technologies, India
+- [Sylvia Dieckmann](https://x.com/sylviedie), GDE Flutter, South Africa
+- [Jochen Kirstätter](https://x.com/jkirstaetter), GDE Google Cloud, Mauritius
+- [Sandeep Ramgolam](https://x.com/__sun__), GDE Web Technologies, Mauritius
 
 ![Networking among GDEs - Vrijraj, Vivek and I (from left to right)](../content/images/2023/12/IMG_1253-1--1.jpeg)
 

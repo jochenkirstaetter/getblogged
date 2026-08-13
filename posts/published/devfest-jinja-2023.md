@@ -85,7 +85,7 @@ This is Africa, and there is always a way. Given my passport of European origin 
 
 ## Let the real adventure begin
 
-After withdrawing some cash from one of the ATM and purchasing the Airtel SIM card I was ready for my first experience in Uganda. And what better to receive a hearty welcome by GDG fellow [Asa Lugada](https://twitter.com/AsaLugada) and his friend Arnold. My connection to Asa even goes back to my first participation in the Andela-led ALC program, later GADS program. And of course the [SSA Community Summit 2018](xref:ssa-community-summit-2018).
+After withdrawing some cash from one of the ATM and purchasing the Airtel SIM card I was ready for my first experience in Uganda. And what better to receive a hearty welcome by GDG fellow [Asa Lugada](https://x.com/AsaLugada) and his friend Arnold. My connection to Asa even goes back to my first participation in the Andela-led ALC program, later GADS program. And of course the [SSA Community Summit 2018](xref:ssa-community-summit-2018).
 
 ![Welcoming committee at the airport of Entebbe, Uganda](../content/images/2024/01/PXL_20231123_133809384.MP.jpg)
 
@@ -145,7 +145,7 @@ In the afternoon session I talked about the importance and advantages of profess
 
 It was informative listening to the talks by other speakers. Feel free to check out the [full agenda of DevFest Jinja](https://gdg.community.dev/events/details/google-gdg-jinja-presents-devfest-jinja-2023/) to see what you eventually missed.
 
-With all those lovely people around, all the ongoing conversations and networking chats I somehow didn't realize that I had an exchange [Zirabamuzale Rawaha aka RumzTech](https://twitter.com/Rawahanector), organiser of GDG Luwero, with whom I did several remote sessions as part of the [Road to Google Developers Certification](https://gdg.community.dev/events/details/google-gdg-luwero-presents-certification-study-group-associate-cloud-engineer-2023-05-27/) earlier this year. Mea culpa, Rawaha!
+With all those lovely people around, all the ongoing conversations and networking chats I somehow didn't realize that I had an exchange [Zirabamuzale Rawaha aka RumzTech](https://x.com/Rawahanector), organiser of GDG Luwero, with whom I did several remote sessions as part of the [Road to Google Developers Certification](https://gdg.community.dev/events/details/google-gdg-luwero-presents-certification-study-group-associate-cloud-engineer-2023-05-27/) earlier this year. Mea culpa, Rawaha!
 
 ## Ever tasted Nsenene?
 

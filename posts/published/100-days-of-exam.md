@@ -56,7 +56,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-A new adventure is on its way: [#100DaysOfExam](https://www.100daysofexam.com/) which has been inspired by two factors. First, my personal 30-day challenges I did in the past and the concept of [100 Days of Code](http://100daysofcode.com/) by [Alexander Kallaway](https://twitter.com/ka11away).
+A new adventure is on its way: [#100DaysOfExam](https://www.100daysofexam.com/) which has been inspired by two factors. First, my personal 30-day challenges I did in the past and the concept of [100 Days of Code](http://100daysofcode.com/) by [Alexander Kallaway](https://x.com/ka11away).
 
 Much to my dislike I noticed during the last couple of months (or even years) that there are fewer challenges than in previous times. For example Microsoft's "Know It, Prove It" (KiPi) campaign isn't alive anymore. The KiPi challenge was about watching a curated list of online videos in order to learn (more) about a certain development stack or Microsoft technology. I really enjoyed that challenge several times, and managed to complete them within the given period of 30 days.
 
@@ -86,14 +86,14 @@ Define your goal and commit yourself to the challenge. Do some research on the e
 
 ## "Feel" the challenge
 
-From the first day on you are going to tweet about your progress daily. Using the hashtag [#100DaysOfExam](https://twitter.com/hashtag/100daysofexam) you are going to report about your activities during the day to others. This way, over time, there will be more participation in this challenge. Perhaps you might find someone else with same or similar goals, and you both team up in a regular learning group.
+From the first day on you are going to tweet about your progress daily. Using the hashtag [#100DaysOfExam](https://x.com/hashtag/100daysofexam) you are going to report about your activities during the day to others. This way, over time, there will be more participation in this challenge. Perhaps you might find someone else with same or similar goals, and you both team up in a regular learning group.
 
 Even then use Twitter connection between you and other participations to pay it forward. Encourage others, give them feedback where needed, share your resources and knowledge for the greater good. But remember:
 
 ![Be polite and excellent to each other.](../content/images/2018/03/100DaysOfExam_be-excellent-to-each-other.jpg)  
 *Be polite and excellent to each other.*
 
-Recently, I signed up for the [#BlogMore](https://twitter.com/hashtag/blogmore) section of the [#CNC2018](https://twitter.com/hashtag/cnc2018) challenge in order to commit myself to write more regularly on this and other blogs. Yes, it was tough at the beginning. Not to ponder about possible topics but simply to find the motivation and actually start typing the content.
+Recently, I signed up for the [#BlogMore](https://x.com/hashtag/blogmore) section of the [#CNC2018](https://x.com/hashtag/cnc2018) challenge in order to commit myself to write more regularly on this and other blogs. Yes, it was tough at the beginning. Not to ponder about possible topics but simply to find the motivation and actually start typing the content.
 
 The #BlogMore challenge got me in touch with other bloggers via Twitter and a designated group on Facebook. It felt great to read about the musings of others, and to receive the comments of other readers regarding your ideas and experience. After all, it felt good and right to write more...
 

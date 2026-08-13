@@ -372,7 +372,7 @@ Log into Docker from the console and then push the tagged image.
 
 ### GitHub
 
-Fellow ALC 4.0 scholar [George Udosen](https://twitter.com/udoyen) wrote a nice piece about how to share an image to [GitHub and then using it in Kubernetes Engine](https://medium.com/@udoyen_aba/alc-4-phase-ii-cloud-challenge-using-google-sources-repository-e98f91cf1915).
+Fellow ALC 4.0 scholar [George Udosen](https://x.com/udoyen) wrote a nice piece about how to share an image to [GitHub and then using it in Kubernetes Engine](https://medium.com/@udoyen_aba/alc-4-phase-ii-cloud-challenge-using-google-sources-repository-e98f91cf1915).
 
 **Splendid!**  
 Our React app has been containerised using Docker and published to Container Registry. In the third part of this series we are going to [deploy it to Google Kubernetes Engine (GKE)](xref:alc4-cloud-k8s).

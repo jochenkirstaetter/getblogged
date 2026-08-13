@@ -134,7 +134,7 @@ Also Microsoft: \*releases DOS as open source under MIT\*[https://t.co/ETq4onW4C
   
 Clearly there’s only one conclusion! CLOUD-SCALE CONTAINERIZED DOS AS A SERVICE Y’ALL
 >
-> — Scott Hanselman (@shanselman) [October 3, 2018](https://twitter.com/shanselman/status/1047619111277146112?ref_src=twsrc%5Etfw)
+> — Scott Hanselman (@shanselman) [October 3, 2018](https://x.com/shanselman/status/1047619111277146112?ref_src=twsrc%5Etfw)
 
 Given the free (as in beer) access to the various Linux distributions one should definitely venture deeper into that area and sharpen a number of skills on the terminal. This shall be part of your fundamental knowledge in cloud computing.
 

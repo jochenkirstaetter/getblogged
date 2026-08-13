@@ -54,7 +54,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-New year, new activities. It's still January and I'm already on tour. I was heading to the [Developer Creators and Online Communities Summit](https://rsvp.withgoogle.com/events/developer-creators-and-online-communities-summit) - [#GoogleDCOC](https://twitter.com/hashtag/GoogleDCOC?src=hashtag_click) - in Singapore. It's a global hybrid event - meaning in-person and online. The purpose is to bring together content creators and online community managers in the developer space from all around the world.
+New year, new activities. It's still January and I'm already on tour. I was heading to the [Developer Creators and Online Communities Summit](https://rsvp.withgoogle.com/events/developer-creators-and-online-communities-summit) - [#GoogleDCOC](https://x.com/hashtag/GoogleDCOC?src=hashtag_click) - in Singapore. It's a global hybrid event - meaning in-person and online. The purpose is to bring together content creators and online community managers in the developer space from all around the world.
 
 ## Why attending in-person?
 
@@ -116,7 +116,7 @@ As for mobile data it was even easier. Ahead of my trip I purchased a [SingTel T
   
 500+M ps! 😳😳😳[https://t.co/UF1nsgByAX](https://t.co/UF1nsgByAX)
 >
-> — Jochen Kirstätter (JoKi) (@JKirstaetter) [January 23, 2024](https://twitter.com/JKirstaetter/status/1749798217540374796?ref_src=twsrc%5Etfw)
+> — Jochen Kirstätter (JoKi) (@JKirstaetter) [January 23, 2024](https://x.com/JKirstaetter/status/1749798217540374796?ref_src=twsrc%5Etfw)
 
 Ludicrous speed rates on the SingTel 5G network - Impressive!
 
@@ -126,9 +126,9 @@ Another positive surprise was the automated immigration and passport stations. A
   
 Scan passport, scan digital SGAC, scan finger, ✅  
   
-Less than 10 minutes. The queuing took most of the time. 2 people ahead of me.[#GoogleDCOC](https://twitter.com/hashtag/GoogleDCOC?src=hash&ref_src=twsrc%5Etfw) [#GoogleDevCommunity](https://twitter.com/hashtag/GoogleDevCommunity?src=hash&ref_src=twsrc%5Etfw)
+Less than 10 minutes. The queuing took most of the time. 2 people ahead of me.[#GoogleDCOC](https://x.com/hashtag/GoogleDCOC?src=hash&ref_src=twsrc%5Etfw) [#GoogleDevCommunity](https://x.com/hashtag/GoogleDevCommunity?src=hash&ref_src=twsrc%5Etfw)
 >
-> — Jochen Kirstätter (JoKi) (@JKirstaetter) [January 23, 2024](https://twitter.com/JKirstaetter/status/1749807519470600368?ref_src=twsrc%5Etfw)
+> — Jochen Kirstätter (JoKi) (@JKirstaetter) [January 23, 2024](https://x.com/JKirstaetter/status/1749807519470600368?ref_src=twsrc%5Etfw)
 
 Blazing through the passport & immigration check at Changi airport in Singapore
 
@@ -234,7 +234,7 @@ Next up [Janise Tan](https://www.linkedin.com/in/jantan) welcomed us to Singapor
 
 ![Shared key success factors among Singapore and content creation online](../content/images/2024/02/PXL_20240125_020831262.jpg)
 
-True to the nature of a hybrid summit, we then watched the Creator keynote as a remote session with [Stephanie Wong](https://www.linkedin.com/in/stephrwong/). After the [Google Cloud Tech](https://twitter.com/GoogleCloudTech) X/Twitter Space in April last year about [How to make the most of Innovators Plus](https://x.com/GoogleCloudTech/status/1646544002085269506?s=20) subscription I was eager to meet Stephanie IRL. Hmm, didn't happen this time...
+True to the nature of a hybrid summit, we then watched the Creator keynote as a remote session with [Stephanie Wong](https://www.linkedin.com/in/stephrwong/). After the [Google Cloud Tech](https://x.com/GoogleCloudTech) X/Twitter Space in April last year about [How to make the most of Innovators Plus](https://x.com/GoogleCloudTech/status/1646544002085269506?s=20) subscription I was eager to meet Stephanie IRL. Hmm, didn't happen this time...
 
 ![Content creation is about telling a story](../content/images/2024/02/PXL_20240125_022750294.jpg)
 

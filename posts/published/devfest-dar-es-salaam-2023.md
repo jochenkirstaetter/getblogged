@@ -54,7 +54,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 
-After speaking at DevFest Nairobi in 2022 (including a spontaneous keynote on Google Cloud) I got inspired to be more active and hopefully present in other potential locations across the Sub-Saharan Africa region. And if I'm not completely wrong I also had an exchange with [Georgia Rwechungura](https://twitter.com/georgearwechu) during the SSA Community Summit 2022 regarding the idea of coming to Tanzania, or more precisely to come to [GDG Dar es Salaam](https://gdg.community.dev/gdg-dar-es-salaam/) and speaking at their DevFest.
+After speaking at DevFest Nairobi in 2022 (including a spontaneous keynote on Google Cloud) I got inspired to be more active and hopefully present in other potential locations across the Sub-Saharan Africa region. And if I'm not completely wrong I also had an exchange with [Georgia Rwechungura](https://x.com/georgearwechu) during the SSA Community Summit 2022 regarding the idea of coming to Tanzania, or more precisely to come to [GDG Dar es Salaam](https://gdg.community.dev/gdg-dar-es-salaam/) and speaking at their DevFest.
 
 With an improving health and running a few workshops - in-house and remote - earlier this year I was getting more and more eager as well as excited about the idea to speak at other DevFest events than [Mauritius](xref:devfest-mauritius-2023). All went well at [DevFest Kigali](xref:devfest-kigali-2023) a few weeks earlier and so nothing could possibly stop me from going to Tanzania.
 
@@ -75,7 +75,7 @@ Anyway, I chose to go with Kenya Airways and having a night stopover in Nairobi.
 
 ### Choice of accommodation
 
-Usually I try to find a hotel or guesthouse that's close to the DevFest venue and doesn't have the flair of a typical business trip. Thanks to [Naamini Yonazi](https://twitter.com/naaminiyonazi) I knew that DevFest would most likely be somewhere on the campus of the University of Dar es Salaam which lies North of the airport and the city centre. Traffic might be dense during morning hours and the suggestions provided on the GDE trip planning platform were too far away and most of them not to my liking.
+Usually I try to find a hotel or guesthouse that's close to the DevFest venue and doesn't have the flair of a typical business trip. Thanks to [Naamini Yonazi](https://x.com/naaminiyonazi) I knew that DevFest would most likely be somewhere on the campus of the University of Dar es Salaam which lies North of the airport and the city centre. Traffic might be dense during morning hours and the suggestions provided on the GDE trip planning platform were too far away and most of them not to my liking.
 
 Based on the positive experience I had with stays booked through the booking.com app in Europe I gave it a try for Tanzania. For those few days, I searched for an appropriate place to stay that is less than 30 minutes away from DevFest. Thanks to the ratings, great pictures, and other attributes like cost I actually found a hotel right on the beach.
 
@@ -154,7 +154,7 @@ The Confucius Institute is quite impressive and it was really good fun to spend 
 
 ## Thanks to GDG Dar es Salaam
 
-My heart-felt thanks go out to [Naamini Yonazi](https://twitter.com/naaminiyonazi), [Georgia Rwechungura](https://twitter.com/georgearwechu), the crew at [GDG Dar es Salaam](https://gdg.community.dev/gdg-dar-es-salaam/), and all WTM ambassadors involved in the preparation and organisation of DevFest Dar es Salaam. You are the real reason we had a wonderful time in Tanzania. Your early assistance and guidance helped us to feel welcome and at ease in Dar es Salaam.
+My heart-felt thanks go out to [Naamini Yonazi](https://x.com/naaminiyonazi), [Georgia Rwechungura](https://x.com/georgearwechu), the crew at [GDG Dar es Salaam](https://gdg.community.dev/gdg-dar-es-salaam/), and all WTM ambassadors involved in the preparation and organisation of DevFest Dar es Salaam. You are the real reason we had a wonderful time in Tanzania. Your early assistance and guidance helped us to feel welcome and at ease in Dar es Salaam.
 
 **Asante sana!**
 

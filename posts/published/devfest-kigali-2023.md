@@ -86,10 +86,10 @@ Just in case, the complete agenda is accessible [here](https://docs.google.com/d
 
 So while kind of chilling during the morning hours I checked the bandwidth and speed of the provided internet connection. Interestingly, the university is using SpaceX Starlink.
 
-> First time using SpaceX Starlink. Getting better... 😁[#DevFestKigali](https://twitter.com/hashtag/DevFestKigali?src=hash&ref_src=twsrc%5Etfw)  
+> First time using SpaceX Starlink. Getting better... 😁[#DevFestKigali](https://x.com/hashtag/DevFestKigali?src=hash&ref_src=twsrc%5Etfw)  
 [https://t.co/e17EqbAhgw](https://t.co/e17EqbAhgw)
 >
-> — Jochen Kirstätter (JoKi) (@JKirstaetter) [October 7, 2023](https://twitter.com/JKirstaetter/status/1710563318379810900?ref_src=twsrc%5Etfw)
+> — Jochen Kirstätter (JoKi) (@JKirstaetter) [October 7, 2023](https://x.com/JKirstaetter/status/1710563318379810900?ref_src=twsrc%5Etfw)
 
 The speedtest.net results look pretty good. Better than connectivity offered back home. Supposedly, Starlink is coming soon to Mauritius.
 

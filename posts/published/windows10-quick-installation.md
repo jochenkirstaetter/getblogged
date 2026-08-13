@@ -59,9 +59,9 @@ Perhaps an unusual blog title this time. Somehow, it is actually based on a few 
 
 Some might say that it is a lot easier to install Linux compared to Windows or macOS. Others mentioned that it is painful to install necessary software packages in order to be able to actually use a Windows system productively. Here is an example that sparked the discussions:
 
-> I know. We are past the era of Microsoft bashing, especially since Satya Nadella took office. But, personally, I am always amazed by what a Linux distribution gives you compared to a Windows installation: an OS, tools, programming languages, browsers, etc: a whole house! Discuss. [pic.twitter.com/lm2zttceFi](https://t.co/lm2zttceFi)
+> I know. We are past the era of Microsoft bashing, especially since Satya Nadella took office. But, personally, I am always amazed by what a Linux distribution gives you compared to a Windows installation: an OS, tools, programming languages, browsers, etc: a whole house! Discuss. [pic.x.com/lm2zttceFi](https://t.co/lm2zttceFi)
 >
-> — Avinash Meetoo (@AvinashMeetoo) [July 20, 2018](https://twitter.com/AvinashMeetoo/status/1020262299347705856?ref_src=twsrc%5Etfw)
+> — Avinash Meetoo (@AvinashMeetoo) [July 20, 2018](https://x.com/AvinashMeetoo/status/1020262299347705856?ref_src=twsrc%5Etfw)
 
 Overall I have to admit that I do not agree with that in general knowing a few bits and pieces about how to make it simpler and more comfortable in regards to software management in Windows. Maybe even offering a similar experience to using `apt` in Linux.
 

@@ -98,7 +98,7 @@ There are free smartphone apps for Android and iOS from Meetup.com that allow yo
 
 As mentioned, the #MSCC is present in various social media networks in order to cover as many people as possible here in Mauritius. Following is an overview of the current networks:
 
-- [Twitter - Latest updates and quickies](https://twitter.com/MSCraftsman "Latest Tweets")
+- [Twitter - Latest updates and quickies](https://x.com/MSCraftsman "Latest Tweets")
 - [Google+ - Community channel](https://plus.google.com/communities/100173553632342721205)
 - [Facebook - Community Page](https://www.facebook.com/MauritiusSoftwareCraftsmanshipCommunity)
 - [LinkedIn - Community Group](https://www.linkedin.com/groups/Mauritius-Software-Craftsmanship-Community-5033639)

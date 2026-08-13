@@ -63,7 +63,7 @@ WebHost.CreateDefaultBuilder(args).ConfigureServices(s =&gt; s.AddProxy()).Confi
   
 ^ A reverse proxy in a tweet ^
 >
-> — Damian Hickey ❄️ (@randompunter) [January 22, 2019](https://twitter.com/randompunter/status/1087650125906878464?ref_src=twsrc%5Etfw)
+> — Damian Hickey ❄️ (@randompunter) [January 22, 2019](https://x.com/randompunter/status/1087650125906878464?ref_src=twsrc%5Etfw)
 
 ```
 using Microsoft.AspNetCore.Hosting; 

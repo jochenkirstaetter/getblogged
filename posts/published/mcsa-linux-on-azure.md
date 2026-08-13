@@ -119,7 +119,7 @@ Check out the section [Optional training and resources](https://training.linuxfo
 In similar fashion Microsoft lists multiple resources in the [Preparation options](https://www.microsoft.com/en-us/learning/exam-70-533.aspx) of the exam 70-533. The online training is accessible for free through the edX platform and are part of the [Microsoft Professional Program in Cloud Admin](https://www.edx.org/microsoft-professional-program-cloud), too.  
 Using the same preparation material gives you the ability to achieve a second accreditation. Perhaps you are interested to read more about the [Cloud Administration](https://academy.microsoft.com/en-us/professional-program/tracks/cloud-administration/) professional program.
 
-Having an active, annual subscription with Pluralsight I browsed through their learning paths and discovered [Pluralsight Path](https://www.pluralsight.com/paths/mcsa-linux-on-azure) to MSCA: Linux on Azure. It's a combination of several courses provided by experts [John Savill](https://twitter.com/NTFAQGuy) and [Andrew Mallett](https://twitter.com/theurbanpenguin).
+Having an active, annual subscription with Pluralsight I browsed through their learning paths and discovered [Pluralsight Path](https://www.pluralsight.com/paths/mcsa-linux-on-azure) to MSCA: Linux on Azure. It's a combination of several courses provided by experts [John Savill](https://x.com/NTFAQGuy) and [Andrew Mallett](https://x.com/theurbanpenguin).
 
 More resources will be added regularly to my [100-days-of-exam repository](https://github.com/jochenkirstaetter/100-days-of-exam/blob/master/resources/Microsoft/mcsa-linux-on-azure.md) on GitHub. You are hereby invited to fork it, to add more resources including other exam preparations, and to send me your pull requests (PRs).
 
@@ -129,6 +129,6 @@ To keep myself accountable I am committed to the [#100DaysOfExam](https://www.10
 
 > I will learn and prepare for an exam for at least an hour every day for the next 100 days.
 
-Following the `Rules` section of [#100DaysOfExam](https://github.com/jochenkirstaetter/100-days-of-exam) I will tweet about my progress using hashtag [#100DaysOfExam](https://twitter.com/hashtag/100daysofexam) and I will update my `Log` with the day's progress and provide a link every day, too.
+Following the `Rules` section of [#100DaysOfExam](https://github.com/jochenkirstaetter/100-days-of-exam) I will tweet about my progress using hashtag [#100DaysOfExam](https://x.com/hashtag/100daysofexam) and I will update my `Log` with the day's progress and provide a link every day, too.
 
 Let's do it!

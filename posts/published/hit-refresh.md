@@ -73,4 +73,4 @@ Changing my life in such a drastic way was an experience of a life-time. It turn
 
 ***
 
-This post is part of the collection of [#HitRefresh](https://twitter.com/search?q=%23HitRefresh) moments. Read more at www.hitrefreshbook.com
+This post is part of the collection of [#HitRefresh](https://x.com/search?q=%23HitRefresh) moments. Read more at www.hitrefreshbook.com
