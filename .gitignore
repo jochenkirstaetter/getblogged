@@ -24,3 +24,7 @@ firebase-debug.log
 
 # Docfx generated files
 **/_site/*
+
+# Agent related activities
+.playwright-mcp
+scratch

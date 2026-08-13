@@ -90,3 +90,15 @@
   border-color: var(--color-brand, #3b82f6);
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
 }
+
+/* Responsive Video Embeds (Aspect-Ratio) */
+.kg-embed-card iframe,
+.post-content iframe[src*="youtube.com"],
+.post-content iframe[src*="vimeo.com"],
+.post-content iframe[src*="youtube-nocookie.com"],
+.post-full-content iframe {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  height: auto;
+  border: 0;
+}

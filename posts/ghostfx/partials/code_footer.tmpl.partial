@@ -1,5 +1,5 @@
-﻿<script id="dsq-count-scr" src="//getbloggedbyjoki.disqus.com/count.js" async></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script id="dsq-count-scr" src="https://getbloggedbyjoki.disqus.com/count.js" async></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
 <script>
 var serviceWorkerUri = '/sw-v1.js';
 if ('serviceWorker' in navigator) {
@@ -18,5 +18,5 @@ if ('serviceWorker' in navigator) {
     console.log('Service workers are not supported in the current browser.');
 }
 </script>
-<script type="module" src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall/dist/pwa-install.js"></script>
 <pwa-install></pwa-install>

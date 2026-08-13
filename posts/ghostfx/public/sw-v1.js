@@ -1,88 +1,100 @@
 'use strict';
 
-(function () {
-  'use strict';
+/**
+ * GhostFx Modern Service Worker
+ * Standalone PWA offline caching without legacy external dependencies.
+ */
 
+const CACHE_NAME_STATIC = 'ghostfx-static-v2';
+const CACHE_NAME_CONTENT = 'ghostfx-content-v2';
 
+// Domains that should always bypass service worker caching
+const BYPASS_ORIGINS = [
+  'disqus.com',
+  'disquscdn.com',
+  'www.google-analytics.com',
+  'www.googletagmanager.com',
+  'pagead2.googlesyndication.com'
+];
 
-    /**
-    * Service Worker Toolbox caching
-    */
+self.addEventListener('install', (event) => {
+  self.skipWaiting();
+});
 
-    var cacheVersion = '-toolbox-v1';
-    var dynamicVendorCacheName = 'dynamic-vendor' + cacheVersion;
-    var staticVendorCacheName = 'static-vendor' + cacheVersion;
-    var staticAssetsCacheName = 'static-assets' + cacheVersion;
-    var contentCacheName = 'content' + cacheVersion;
-    var maxEntries = 50;
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches.keys().then((keys) => {
+      return Promise.all(
+        keys
+          .filter((key) => key !== CACHE_NAME_STATIC && key !== CACHE_NAME_CONTENT)
+          .map((key) => caches.delete(key))
+      );
+    }).then(() => self.clients.claim())
+  );
+});
 
-    self.importScripts('assets/dist/sw-toolbox.js');
+self.addEventListener('fetch', (event) => {
+  const request = event.request;
 
-    self.toolbox.options.debug = false;
+  // Only handle GET requests
+  if (request.method !== 'GET') return;
 
-    // Cache own static assets
-    self.toolbox.router.get('/assets/(.*)', self.toolbox.cacheFirst, {
-        cache: {
-          name: staticAssetsCacheName,
-          maxEntries: maxEntries
-        }
-    });
+  const url = new URL(request.url);
 
-    // cache dynamic vendor assets, things which have no other update mechanism like filename change/version hash
-    self.toolbox.router.get('/css', self.toolbox.fastest, {
-        origin: /fonts\.googleapis\.com/,
-            cache: {
-              name: dynamicVendorCacheName,
-              maxEntries: maxEntries
-            }
-    });
+  // Bypass specific external third-party origins
+  if (BYPASS_ORIGINS.some((domain) => url.hostname.includes(domain))) {
+    return;
+  }
 
-    // Do not cache disqus
-    self.toolbox.router.get('/(.*)', self.toolbox.networkOnly, {
-        origin: /disqus\.com/
-    });
-    self.toolbox.router.get('/(.*)', self.toolbox.networkOnly, {
-        origin: /disquscdn\.com/
-    });
+  // Stale-While-Revalidate for static assets (local public/assets or external fonts)
+  const isStaticAsset =
+    url.pathname.startsWith('/public/') ||
+    url.pathname.startsWith('/assets/') ||
+    url.pathname.startsWith('/content/') ||
+    url.hostname.includes('fonts.googleapis.com') ||
+    url.hostname.includes('fonts.gstatic.com') ||
+    url.hostname.includes('cdnjs.cloudflare.com') ||
+    /\.(css|js|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot)$/i.test(url.pathname);
 
+  if (isStaticAsset) {
+    event.respondWith(
+      caches.open(CACHE_NAME_STATIC).then((cache) => {
+        return cache.match(request).then((cachedResponse) => {
+          const fetchPromise = fetch(request)
+            .then((networkResponse) => {
+              if (networkResponse && networkResponse.status === 200) {
+                cache.put(request, networkResponse.clone());
+              }
+              return networkResponse;
+            })
+            .catch(() => cachedResponse);
 
-    // Cache all static vendor assets, e.g. fonts whose version is bind to the according url
-    self.toolbox.router.get('/(.*)', self.toolbox.cacheFirst, {
-        origin: /(fonts\.gstatic\.com|www\.google-analytics\.com)/,
-        cache: {
-          name: staticVendorCacheName,
-          maxEntries: maxEntries
-        }
-    });
+          return cachedResponse || fetchPromise;
+        });
+      })
+    );
+    return;
+  }
 
-    self.toolbox.router.get('/content/(.*)', self.toolbox.fastest, {
-        cache: {
-          name: contentCacheName,
-          maxEntries: maxEntries
-        }
-    });
+  // Network-First for HTML content pages (with cache fallback for offline reading)
+  const isHtmlNavigation =
+    request.mode === 'navigate' ||
+    (request.headers.get('accept') && request.headers.get('accept').includes('text/html'));
 
-    self.toolbox.router.get('/*', function (request, values, options) {
-        if (!request.url.match(/(\/ghost\/|\/page\/)/) && request.headers.get('accept').includes('text/html')) {
-            return self.toolbox.fastest(request, values, options);
-        } else {
-            return self.toolbox.networkOnly(request, values, options);
-        }
-        }, {
-        cache: {
-            name: contentCacheName,
-            maxEntries: maxEntries
-        }
-    });
-
-    // immediately activate this serviceworker
-    self.addEventListener('install', function (event) {
-        return event.waitUntil(self.skipWaiting());
-    });
-
-    self.addEventListener('activate', function (event) {
-        return event.waitUntil(self.clients.claim());
-    }); 
-
-})();
-//# sourceMappingURL=serviceworker-v1.js.map
+  if (isHtmlNavigation) {
+    event.respondWith(
+      fetch(request)
+        .then((networkResponse) => {
+          if (networkResponse && networkResponse.status === 200) {
+            const responseClone = networkResponse.clone();
+            caches.open(CACHE_NAME_CONTENT).then((cache) => {
+              cache.put(request, responseClone);
+            });
+          }
+          return networkResponse;
+        })
+        .catch(() => caches.match(request))
+    );
+    return;
+  }
+});

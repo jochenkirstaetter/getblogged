@@ -47,6 +47,7 @@
           "*.html"
         ],
         "exclude": [
+          "files/*.exe",
           "ghostfx/**",
           "_site/**",
           "**/_site/**"
@@ -74,7 +75,7 @@
       },
       "_disableBreadcrumb": true,
       "_disableNextArticle": true,
-      "_googleAnalyticsTagId": "UA-12103827-1",
+      "_googleAnalyticsTagId": "G-F1KD1511QR",
       "_siteTwitter": "@jkirstaetter",
       "_siteFacebook": "https://facebook.com/jochen.kirstaetter",
       "_currentYear": 2026

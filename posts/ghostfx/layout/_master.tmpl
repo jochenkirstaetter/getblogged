@@ -1,4 +1,4 @@
-﻿{{!include(/^public/.*/)}}
+{{!include(/^public/.*/)}}
 {{!include(favicon.ico)}}
 {{!include(logo.svg)}}
 <!DOCTYPE html>
@@ -147,13 +147,6 @@
         })
     </script>
 
-
-    {{! jQuery + Fitvids, which makes all video embeds responsive }}
-    <script 
-	src="https://code.jquery.com/jquery-3.4.1.min.js" 
-	integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" 
-	crossorigin="anonymous"></script>
-    <script type="text/javascript" src="{{_rel}}public/built/jquery.fitvids.js"></script>
 
     {{#pagination.pages}}
     <script src="{{_rel}}public/built/infinitescroll.js"></script>
