@@ -1,16 +1,19 @@
 {{#_googleAdSenseClientId}}
-<section class="ads-banner" style="justify-content:space-between;margin:0 auto;padding:1vw 0 2vw;">
+{{#_googleAdSenseSlotId}}
+<section class="ads-banner" style="display:flex;justify-content:center;align-items:center;min-height:280px;contain-intrinsic-size:1000px 280px;content-visibility:auto;overflow:hidden;">
 <!-- Responsive - Tech -->
 <ins class="adsbygoogle"
-     style="display:block"
+     style="display:block;min-height:250px;width:100%;"
      data-ad-client="{{_googleAdSenseClientId}}"
-     data-ad-slot="4896696906"
-     data-ad-format="auto"></ins>
+     data-ad-slot="{{_googleAdSenseSlotId}}"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 <script>
 if (typeof window !== 'undefined' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
     (window.adsbygoogle = window.adsbygoogle || []).push({});
 }
 </script>
 </section>
+{{/_googleAdSenseSlotId}}
 {{/_googleAdSenseClientId}}
 

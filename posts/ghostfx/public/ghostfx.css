@@ -1,27 +1,32 @@
-/* GhostFx Default DocFX Theme Styles */
+/* Affix is hidden by default on all small & medium screen sizes (< 1640px) */
+body > main .affix,
+.affix {
+  display: none !important;
+}
 
-/* Affix / Right Rail styling on large screens */
+/* Affix / Right Rail styling on large screens (>= 1640px) */
 @media (min-width: 1640px) {
 
   /* Provide space for affix rail inside content/post wrapper */
   body:not(.metadata-disable-affix) .post-full-content,
   body:not(.metadata-disable-affix) .post-content,
   body:not(.metadata-disable-affix) .gh-content {
-    /* padding-right: 300px !important; */
     position: relative;
   }
 
+  body > main .affix,
   .affix {
-    position: fixed;
-    top: 140px;
-    right: 40px;
-    width: 260px;
-    max-height: calc(100vh - 200px);
-    overflow-y: auto;
-    font-size: 0.85rem;
-    border-left: 1px solid var(--color-border, #e5e7eb);
-    padding-left: 15px;
-    z-index: 10;
+    display: block !important;
+    position: fixed !important;
+    top: 140px !important;
+    right: 40px !important;
+    width: 260px !important;
+    max-height: calc(100vh - 200px) !important;
+    overflow-y: auto !important;
+    font-size: 0.85rem !important;
+    border-left: 1px solid var(--color-border, #e5e7eb) !important;
+    padding-left: 15px !important;
+    z-index: 10 !important;
   }
 
   .affix h5 {
@@ -61,12 +66,6 @@
   }
 }
 
-@media (max-width: 1199px) {
-  .affix {
-    display: none !important;
-  }
-}
-
 /* Floating Header Search styling */
 .floating-header-search {
   flex: 1 1 auto;
@@ -101,4 +100,25 @@
   width: 100%;
   height: auto;
   border: 0;
+}
+
+/* Google AdSense Layout & CLS Prevention */
+.ads-banner {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  max-width: 1040px !important;
+  margin: 2vw auto !important;
+  min-height: 280px !important;
+  contain-intrinsic-size: 1000px 280px !important;
+  content-visibility: auto !important;
+  text-align: center !important;
+  overflow: hidden !important;
+}
+
+.ads-banner ins.adsbygoogle {
+  display: block !important;
+  min-height: 250px !important;
+  width: 100% !important;
 }
