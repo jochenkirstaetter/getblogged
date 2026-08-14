@@ -1,8 +1,8 @@
-﻿<div class="floating-header">
+<div class="floating-header">
     <div class="floating-header-logo">
         <a href="{{#_appUrl}}{{_appUrl}}{{/_appUrl}}{{^_appUrl}}{{_rel}}{{/_appUrl}}">
             {{#_appFaviconPath}}
-                <img src="{{_rel}}{{.}}" alt="{{_appTitle}} icon" />
+                <img src="{{_rel}}{{.}}" alt="{{_appTitle}} icon" width="20" height="20" />
             {{/_appFaviconPath}}
             <span>{{_appTitle}}</span>
         </a>

@@ -1,4 +1,4 @@
-﻿<nav class="site-nav">
+<nav class="site-nav">
     <div class="site-nav-left">
         <button class="site-nav-hamburger" aria-label="Toggle menu" onclick="toggleMobileNav();return false;"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/></svg></button>
         {{^isHome}}
@@ -18,8 +18,8 @@
     </div>
     {{#_enableSearch}}
     <div class="site-nav-center">
-        <form class="search" role="search" id="search">
-            <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+        <form class="search" role="search" id="search" toolname="search_blog" tooldescription="Search published articles and blog posts by keywords">
+            <input class="form-control" id="search-query" name="query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
         </form>
     </div>
     {{/_enableSearch}}
@@ -33,9 +33,9 @@
         <a class="rss-button" href="https://feedly.com/i/subscription/feed/{{_appUrl}}/rss/" title="RSS" target="_blank" rel="noreferrer noopener"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg></a>
         {{/_appUrl}}
         <div class="dropdown theme-dropdown" style="display: inline-block; margin-left: 10px;">
-            <a title="Change theme" class="btn border-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="color: #fff; text-decoration: none; padding: 0 5px;">
+            <button type="button" title="Change theme" aria-label="Change theme" class="btn border-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="color: #fff; text-decoration: none; padding: 0 5px; background: transparent; cursor: pointer;">
                 <i class="bi bi-circle-half" style="font-size: 1.6rem;"></i>
-            </a>
+            </button>
             <ul class="dropdown-menu dropdown-menu-end">
                 <li><a class="dropdown-item" href="#" onclick="setTheme('light');return false;"><i class="bi bi-sun"></i> Light</a></li>
                 <li><a class="dropdown-item" href="#" onclick="setTheme('dark');return false;"><i class="bi bi-moon"></i> Dark</a></li>
@@ -68,6 +68,33 @@
             document.documentElement.setAttribute('data-bs-theme', eff);
             var icon = document.querySelector('.dropdown-toggle i.bi');
             if (icon) { icon.className = 'bi ' + (t === 'light' ? 'bi-sun' : t === 'dark' ? 'bi-moon' : 'bi-circle-half'); }
+
+            // WebMCP Tool Registration for AI Assistants
+            if (typeof document !== 'undefined' && 'modelContext' in document && document.modelContext && document.modelContext.registerTool) {
+              try {
+                document.modelContext.registerTool({
+                  name: 'search_blog',
+                  description: 'Search articles and blog posts by keywords',
+                  inputSchema: {
+                    type: 'object',
+                    properties: {
+                      query: { type: 'string', description: 'Search term or keyword' }
+                    },
+                    required: ['query']
+                  },
+                  execute: async function(args) {
+                    var q = args && args.query ? args.query : '';
+                    var input = document.getElementById('search-query');
+                    if (input) {
+                      input.value = q;
+                      input.dispatchEvent(new Event('input', { bubbles: true }));
+                    }
+                    return { content: [{ type: 'text', text: 'Search executed for: ' + q }] };
+                  },
+                  annotations: { readOnlyHint: true }
+                });
+              } catch (e) {}
+            }
           })();
         </script>
     </div>

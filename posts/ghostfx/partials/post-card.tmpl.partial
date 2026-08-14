@@ -1,4 +1,4 @@
-﻿<article class="post-card post {{tagClass}} {{imageClass}}">
+<article class="post-card post {{tagClass}} {{imageClass}}">
 
     {{#image}}
     <a class="post-card-image-link" href="{{_rel}}{{slug}}.html" aria-label="{{title}}">
@@ -10,6 +10,8 @@
             sizes="(max-width: 1000px) 400px, 700px"
             src="{{_rel}}{{.}}"
             alt="{{title}}"
+            loading="lazy"
+            decoding="async"
         />
     </a>
     {{/image}}
@@ -45,8 +47,8 @@
                         </div>
 
                         {{#authorImage}}
-                            <a href="{{_rel}}author/{{authorSlug}}.html" class="static-avatar">
-                                <img class="author-profile-image" src="{{_rel}}{{.}}" alt="{{authorName}}" />
+                            <a href="{{_rel}}author/{{authorSlug}}.html" class="static-avatar" aria-label="{{authorName}}">
+                                <img class="author-profile-image" src="{{_rel}}{{.}}" alt="{{authorName}}" width="34" height="34" loading="lazy" decoding="async" />
                             </a>
                         {{/authorImage}}
                         {{^authorImage}}

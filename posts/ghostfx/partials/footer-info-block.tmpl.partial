@@ -1,17 +1,18 @@
-﻿{{! Footer - Colons info }}
+{{! Footer - Colons info }}
 <div class="site-footer-content inner">
     <div class="nav">
         <div class="footer_information-1 col-3">
-            <h6>Disclaimer</h6>
+            <h3>Disclaimer</h3>
             <p>Opinions expressed here are my own and may not reflect those of people I work with, my wife, the kids, the community, etc. Unless I'm quoting someone, they're just my own views.</p>
         </div>
         <div class="footer_information-2 col-3">
-            <h6>Copyright {{_currentYear}}, Jochen Kirst&auml;tter</h6>
+            <h3>Copyright {{_currentYear}}, Jochen Kirst&auml;tter</h3>
             <p>This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. In other words, share generously but provide attribution.</p>
         </div>
         <div class="footer_information-3 col-3">
-            <h6>Crafted with <i class="fa fa-heart" aria-hidden="true"></i> in Mauritius</h6>
+            <h3>Crafted with <svg viewBox="0 0 24 24" width="14" height="14" fill="#ef4444" style="vertical-align: -1px; display: inline-block;" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg> in Mauritius</h3>
             <p>This site runs entirely on <a href="https://ghost.org/">Ghost</a>. I got inspired during a camp-site fire talk with John O'Nolan. Read more about <a href="/john-onolan">why I chose to use Ghost</a>.</p>
         </div>
     </div>
 </div>
+

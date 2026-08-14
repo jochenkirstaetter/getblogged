@@ -1,0 +1,16 @@
+# Get Blogged by JoKi
+> The only frontiers are in your mind
+
+Get Blogged by JoKi (Jochen Kirstätter) is a technology blog focused on .NET development, Google AI & Gemini, software architecture, open source, and developer community.
+
+## Main Sections
+- [Home](https://jochen.kirstaetter.name/): Latest articles and blog posts
+- [About](https://jochen.kirstaetter.name/about.html): Background, biography, and professional journey
+- [Blog Archive](https://jochen.kirstaetter.name/blog.html): Complete historical post index
+- [Community](https://jochen.kirstaetter.name/community.html): Developer communities, conferences, and meetups
+- [Speaking](https://jochen.kirstaetter.name/speaking.html): Talks, presentations, and events
+
+## Featured Topics
+- [.NET Development](https://jochen.kirstaetter.name/tags/development.html)
+- [Google AI & Gemini](https://jochen.kirstaetter.name/tags/development.html)
+- [Community](https://jochen.kirstaetter.name/tags/community.html)

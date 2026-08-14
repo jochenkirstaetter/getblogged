@@ -43,6 +43,7 @@
           "site.webmanifest",
           "ads.txt",
           "robots.txt",
+          "llms.txt",
           "*.xml",
           "*.html"
         ],
@@ -76,6 +77,8 @@
       "_disableBreadcrumb": true,
       "_disableNextArticle": true,
       "_googleAnalyticsTagId": "G-F1KD1511QR",
+      "_googleAdSenseClientId": "ca-pub-6955756848063025",
+      "_disqusSiteId": "getbloggedbyjoki",
       "_siteTwitter": "@jkirstaetter",
       "_siteFacebook": "https://facebook.com/jochen.kirstaetter",
       "_currentYear": 2026

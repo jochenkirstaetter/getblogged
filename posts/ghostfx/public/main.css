@@ -274,12 +274,18 @@ html[data-bs-theme="dark"] .post-card-meta .post-card-byline-content a:hover,
 .post-card-meta .post-card-byline-date {
     display: block !important;
     font-size: 1.2rem !important;
-    color: #738a94 !important;
+    color: #4b5563 !important;
 }
 
 html[data-bs-theme="dark"] .post-card-meta .post-card-byline-date,
 [data-bs-theme="dark"] .post-card-meta .post-card-byline-date {
-    color: #8b949e !important;
+    color: #9ca3af !important;
+}
+
+.post-card-tags a {
+    display: inline-block !important;
+    padding: 0 !important;
+    margin-bottom: 4px !important;
 }
 
 /* --- 5. Footer Layout --- */
@@ -302,6 +308,35 @@ html[data-bs-theme="dark"] .post-card-meta .post-card-byline-date,
     display: inline-flex;
     align-items: center;
     gap: 0.8rem;
+}
+
+.rss-button {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-width: 24px !important;
+    min-height: 24px !important;
+    padding: 3px 6px !important;
+    margin: 0 4px !important;
+}
+
+.floating-header-logo img {
+    width: 20px !important;
+    height: 20px !important;
+    max-height: 20px !important;
+    object-fit: contain !important;
+}
+
+.post-card-image {
+    aspect-ratio: 2 / 1;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.static-avatar,
+.author-profile-image {
+    aspect-ratio: 1 / 1;
 }
 
 /* --- 6. Pure CSS 1-3-2 Post Card Grid Repeat Pattern --- */
@@ -341,8 +376,14 @@ html[data-bs-theme="dark"] .post-card-meta .post-card-byline-date,
         padding: 30px 40px 0 !important;
     }
 
-    .post-feed .post-card:nth-child(6n+1) .post-card-content-link {
+    .post-feed .post-card:nth-child(6n+1) .post-card-content-link,
+    .post-card-large .post-card-content-link {
         padding: 30px 40px 0 !important;
+    }
+
+    .post-feed .post-card:nth-child(6n+1) .post-card-content-header + .post-card-content-link,
+    .post-card-large .post-card-content-header + .post-card-content-link {
+        padding-top: 0 !important;
     }
 
     .post-feed .post-card:nth-child(6n+1) .post-card-meta {
@@ -1467,21 +1508,37 @@ html[data-bs-theme="dark"] textarea,
 }
 
 /* Footer */
+.site-footer,
+html[data-bs-theme="light"] .site-footer,
 html[data-bs-theme="dark"] .site-footer,
 [data-bs-theme="dark"] .site-footer {
-    background-color: #0d1117 !important;
+    background-color: #0b0f17 !important;
     border-top: 1px solid #21262d !important;
-    color: #8b949e !important;
+    color: #cbd5e1 !important;
 }
 
+.site-footer a,
+html[data-bs-theme="light"] .site-footer a,
 html[data-bs-theme="dark"] .site-footer a,
 [data-bs-theme="dark"] .site-footer a {
-    color: #8b949e !important;
+    color: #cbd5e1 !important;
+    text-decoration: none !important;
 }
 
+.site-footer a:hover,
+html[data-bs-theme="light"] .site-footer a:hover,
 html[data-bs-theme="dark"] .site-footer a:hover,
 [data-bs-theme="dark"] .site-footer a:hover {
-    color: #f0f6fc !important;
+    color: #ffffff !important;
+    text-decoration: underline !important;
+}
+
+.site-footer-content,
+.site-footer-content p,
+.site-footer-content h3,
+.site-footer-content h6,
+.site-footer-content section {
+    color: #cbd5e1 !important;
 }
 
 /* ==========================================================================
@@ -1596,14 +1653,14 @@ html[data-bs-theme="light"] .post-full-meta,
     color: #738a94 !important;
 }
 
-/* Light Mode Links (Excluding Top Nav & Floating Header Links!) */
-html[data-bs-theme="light"] a:not(.btn):not(.floating-header a):not(.site-nav a),
-[data-bs-theme="light"] a:not(.btn):not(.floating-header a):not(.site-nav a) {
+/* Light Mode Links (Excluding Top Nav, Floating Header, and Footer Links!) */
+html[data-bs-theme="light"] a:not(.btn):not(.floating-header a):not(.site-nav a):not(.site-footer a),
+[data-bs-theme="light"] a:not(.btn):not(.floating-header a):not(.site-nav a):not(.site-footer a) {
     color: #1d4ed8 !important;
 }
 
-html[data-bs-theme="light"] a:not(.btn):not(.floating-header a):not(.site-nav a):hover,
-[data-bs-theme="light"] a:not(.btn):not(.floating-header a):not(.site-nav a):hover {
+html[data-bs-theme="light"] a:not(.btn):not(.floating-header a):not(.site-nav a):not(.site-footer a):hover,
+[data-bs-theme="light"] a:not(.btn):not(.floating-header a):not(.site-nav a):not(.site-footer a):hover {
     color: #1e40af !important;
     text-decoration: underline !important;
 }
