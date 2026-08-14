@@ -55,19 +55,37 @@
             }
           });
           function setTheme(t) {
-            localStorage.setItem('theme', t);
-            var eff = t === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : t;
-            document.documentElement.setAttribute('data-bs-theme', eff);
+            try { localStorage.setItem('theme', t); } catch (e) {}
+            var isDark = t === 'dark' || (t === 'auto' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+            document.documentElement.setAttribute('data-bs-theme', isDark ? 'dark' : 'light');
             var icon = document.querySelector('.dropdown-toggle i.bi');
             if (icon) { icon.className = 'bi ' + (t === 'light' ? 'bi-sun' : t === 'dark' ? 'bi-moon' : 'bi-circle-half'); }
           }
           (function() {
-            var t = localStorage.getItem('theme');
-            if (!t) { t = 'auto'; try { localStorage.setItem('theme', 'auto'); } catch (e) {} }
-            var eff = t === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : t;
-            document.documentElement.setAttribute('data-bs-theme', eff);
+            var t = 'auto';
+            try { t = localStorage.getItem('theme') || 'auto'; } catch (e) {}
+            var isDark = t === 'dark' || (t === 'auto' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+            document.documentElement.setAttribute('data-bs-theme', isDark ? 'dark' : 'light');
             var icon = document.querySelector('.dropdown-toggle i.bi');
             if (icon) { icon.className = 'bi ' + (t === 'light' ? 'bi-sun' : t === 'dark' ? 'bi-moon' : 'bi-circle-half'); }
+
+            // Live OS color scheme listener for Auto mode
+            if (window.matchMedia) {
+              var mq = window.matchMedia('(prefers-color-scheme: dark)');
+              var onSchemeChange = function(e) {
+                var current = 'auto';
+                try { current = localStorage.getItem('theme') || 'auto'; } catch (err) {}
+                if (current === 'auto') {
+                  document.documentElement.setAttribute('data-bs-theme', e.matches ? 'dark' : 'light');
+                }
+              };
+              if (mq.addEventListener) {
+                mq.addEventListener('change', onSchemeChange);
+              } else if (mq.addListener) {
+                mq.addListener(onSchemeChange);
+              }
+            }
+          })();
 
             // WebMCP Tool Registration for AI Assistants
             if (typeof document !== 'undefined' && 'modelContext' in document && document.modelContext && document.modelContext.registerTool) {
