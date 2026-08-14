@@ -26,5 +26,6 @@ firebase-debug.log
 **/_site/*
 
 # Agent related activities
+.agents
 .playwright-mcp
 scratch
