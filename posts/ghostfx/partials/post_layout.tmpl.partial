@@ -18,13 +18,6 @@ into the {body} of the default.hbs template }}
             {{#image}}
             <figure class="post-full-image">
                 <img
-                    srcset="{{_rel}}{{image}} 300w,
-                            {{_rel}}{{image}} 600w,
-                            {{_rel}}{{image}} 1000w,
-                            {{_rel}}{{image}} 2000w"
-                    sizes="(max-width: 800px) 100vw,
-                            (max-width: 1170px) 100vw,
-                            1400px"
                     src="{{_rel}}{{image}}"
                     alt="{{title}}{{#imageAttribution}} - {{.}}{{/imageAttribution}}"
                     width="1600"

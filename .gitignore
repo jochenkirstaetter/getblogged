@@ -24,6 +24,9 @@ firebase-debug.log
 
 # Docfx generated files
 **/_site/*
+# Image thumbnail caches (obsolete in DocFX static builds)
+posts/content/images/size/
+**/content/images/size/
 
 # Agent related activities
 .agents

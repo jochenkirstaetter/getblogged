@@ -3,11 +3,6 @@
     {{#image}}
     <a class="post-card-image-link" href="{{_rel}}{{slug}}.html" aria-label="{{title}}">
         <img class="post-card-image"
-            srcset="{{_rel}}{{.}} 300w,
-                    {{_rel}}{{.}} 600w,
-                    {{_rel}}{{.}} 1000w,
-                    {{_rel}}{{.}} 2000w"
-            sizes="(max-width: 1000px) 400px, 700px"
             src="{{_rel}}{{.}}"
             alt="{{title}}{{#imageAttribution}} - {{.}}{{/imageAttribution}}"
             loading="lazy"

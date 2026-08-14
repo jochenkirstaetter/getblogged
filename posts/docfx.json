@@ -48,6 +48,7 @@
           "*.html"
         ],
         "exclude": [
+          "**/content/images/size/**",
           "files/*.exe",
           "ghostfx/**",
           "_site/**",
