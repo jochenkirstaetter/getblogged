@@ -29,3 +29,4 @@ firebase-debug.log
 .agents
 .playwright-mcp
 scratch
+__pycache__
