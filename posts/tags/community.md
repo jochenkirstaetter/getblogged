@@ -5,9 +5,8 @@ layout: tag
 isTagPage: true
 bodyClass: "tag-template tag-community"
 tagName: "Community"
-image: "../content/images/2018/10/10211972419933448.jpg"
+image: content/images/2018/10/10211972419933448.webp
 ---
-
 # Tag: Community
 
 ## Articles

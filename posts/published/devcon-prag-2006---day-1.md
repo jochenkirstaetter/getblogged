@@ -56,11 +56,11 @@ imageAttribution: "Photo on Unsplash"
 ---
 Nach einer kurzen Nacht, etwa 5 Std oder so und einem kurzen Frühstück ging's sofort zur Registrierung für die heute startende [VFP-Konferenz in Prag](https://www.daquas.cz/fox/devcon2006an/). Glücklicherweise lief bis jetzt alles sehr relaxed ab.
 
-\*\*Keynote\*\*  
+## Keynote
 A tribute to community and everything connects - ich denke, dass dürfte die beste Beschreibung der Keynote sein. Mit dem obligatorischen Gedenken an Drew und Brent Speedie startete YAG seine Premiere in Prag. Und das obwohl er bereits seit nunmehr 4 Jahren eingeladen wurde. Tja, gut Ding will Weil haben. Alan brachte im Laufe der nächsten zwei Stunden viele Details und Infos aus den Aktivitäten der Community - etwa die Videos von Kevin Ragsdale, die anstehenden Entwicklungen von Sedna, die CodePlex Entwicklungsplattform und eines der Projekte: VFPX (aka SednaX).  
 Am interessantesten waren sicherlich die Erweiterungen und Möglichkeiten, welche durch das Service Pack 2 und Sedna uns VFP-Codern gegeben werden wird. Hierunter fallen weitere Verbesserungen für das Reporting System von VFP; etwa dynamische Eigenschaften und Rotation für Reportobjekte. Selbstverständlich mit den entsprechenden visuellen Buildern.
 
-\*\*Understanding Windows Communication & Presentation Foundations\*\*  
+## Understanding Windows Communication & Presentation Foundations
 WCF (aka Indigo) ist die Summe aus System Messaging, WSE, Remote Messaging, ...  
 Vereinheitliche Kommunikationsmöglichkeiten über mehrere Wege und Zusammenfassung der API der unterschiedlichen Technologien in eine einzige API.  
 Service Oriented Architecture (SOA)  
@@ -77,15 +77,15 @@ XAML als deklarative Sprache für die Benutzeroberfläche ermöglicht es, die Au
 XAML Plugin für weitere Browser wie etwa Safari, Mozilla oder Firefox sind seitens Microsoft angedacht. Die Verwendung von XAML in der Webumgebung wird primär mit dem IE7 möglich werden. Potentiell wird dieser Ansatz auch auf weitere Betriebssysteme erweitert werden. Damit kann man durch die Kombination eines Windowsbasierten Applikationsserver und diversen Clients sehr viel umfangreicher unterschiedliche Kunden ansprechen und für die eigenen Anwendungen gewinnen.  
 XamlPad kann zum Testen von deklarativem XAML genutzt werden. Interessanterweise ist die Kombinationsfreiheit für das Zusammensetzen der UI extremst hoch. Als Beispiele wurden etwa Videos auf Buttons gezeigt, oder einen Button innerhalb einer Combobox. Ich denke, das hier eine tolle Spielwiese für coole Benutzeroberflächen zur Verfügung gestellt wird. Aber... es gilt zu beachten, dass man es nicht übertreibt, da die Benutzer auch intuitiv mit der Applikation in gewohnter Weise umgehen sollten.
 
-\*\*Extending VFP with VFP\*\*  
+## Extending VFP with VFP
 Seit Jahren ist Visual FoxPro als Produkt erweiterbar. Beginnend mit den \_&lt;Component&gt; Systemvariablen in FoxPro DOS, über die Builder seit VFP 3 und der Einführung von IntelliSense in VFP 7.0. Durch die freie Verfügbarkeit des Quellcodes sämtlicher zusätzlicher Applikationen (XSource.zip) kann man nicht nur sehen, wie die Tools funktionieren, sondern hat die Freiheit diese zu ergänzen und in eigenen Anwendungen wieder zu verwenden. Dies ist alles unter What's New in den Solutions Samples eindrucksvoll hinterlegt, aber die meisten Entwickler wissen es nicht. Eine sehr gutes Beispiel ist die Funktionalität von \_MenuHit. Hierüber kann man den nativen Code von VFP abfangen und eigene Tools integrieren. Etwa einen verbesserten Dialog für das Anlagen von Properties oder Methods. Die Technik dahinter wird wie so vieles über die Fähigkeiten von IntelliSense abgedeckt. Durch Anlage von neuen Datensätzen in der \_FoxCode-Tabelle ist es möglich sämtliche Menüeinträge abzufangen und eigene Routine stattdessen auszuführen.  
 Eine weitere Möglichkeit zum Verfeinern der IDE ist die Integration von eigenen PropertyEditoren in das Property Sheet. So, kann man für native und eigene Properties wiederum mehr Kontrolle produzieren. Etwa, dass man logischen Eigenschaften eine Combobox zur Auswahl des Wertes verabreichen kann. Bei der Entwicklung eigener Erweiterungen sollte man auf alle Fälle folgendes Statement bei der Entwicklung bzw. beim Debuggen absetzen:  
-[code]Sys(2030,1)[/code]  
+`Sys(2030,1)`  
 Bedingt durch die Einschränkungen für die Zeichenlänge von VFP-Eigenschaften kann man die Verweise auf die PropertyEditor ebenfalls in der \_FoxCode ablegen. Man muss dazu im Memberdata Editor lediglich 'Global' verwenden. Durch Verwendung einer tabellenbasierten Factory mit gleichartigen Editorklassen erzeugt man sich sehr viel Flexibilität für die tägliche Programmierung. Durch Abfrage auf die Tabelle erhält man eine Objektreferenz auf den gewünschten PropertyEditor und kann dann die spezifische Bearbeitung für das gewählte Attribut umsetzen.  
 Mittels IntelliSense können übrigens auch technische Richtlinien bei der Programmierung eingehalten werden. Etwa die implizite Erweiterung des Local-Statement für Variablen. Doug Hennig zeigte dies sehr eindrucksvoll mit Hilfe eines eigenen Skripts. Im übrigen gibt es im FoxWiki sehr nützliche Beispiele für Custom IntelliSense Scripts.  
 Mit dem Ausblick auf den My-Namescape waren hier viele Informationen in kurzer Zeit zum Thema Erweiterbarkeit von Visual FoxPro verfügbar.
 
-\*\*Object Thinking\*\*  
+## Object Thinking
 Die Historie der verschiedenen VFP-Versionen als Aufhänger zur Session. Wie hat sich die Denkweise der eigenen Programmierung im Laufe der Zeit in den verschiedenen Versionen geändert? gab es überhaupt eine persönliche Weiterentwicklung, oder doch nur eine Aktualisierung des Werkzeugs bei gleicher Arbeitweise.  
 Literatur: MS Press Object Thinking by David West.
 
@@ -104,11 +104,15 @@ Responsibility assignment based on behavior - jedes Objekt hat nur eine einzige 
 Aggregation of objects by interaction  
 A way to add design und implementation detail - Flexibilität für spätere Anpassungen und Erweiterungen berücksichtigen
 
-\*\*Adding IntelliSense to Your Applications\*\*  
+## Adding IntelliSense to Your Applications
 Scripting, Expression Builder oder AutoCorrect (Commonly Expressions und Abbrevs) mit Auswahllisten. Die Systemvariablen \_CodeSense und \_FoxCode sind in der Runtime leer, sobald diese gesetzt werden, funktioniert auch IntelliSense zur Runtime. Am einfachsten erzeugt man sich einen generischen Stub für alle Projekte.  
-[code]\_CodeSense = "foxcode.exe"  
-\_FoxCode = "foxcode.dbf"[/code]  
+
+```
+\_CodeSense = "foxcode.exe"  
+\_FoxCode = "foxcode.dbf"
+```
+  
 Dazu erstellt man sich ein neues Projekt und ergänzt die beiden Dateien foxcode.prg and foxcode2.dbf. Das war's auch schon fast. Ein wenig die überflüssigen Bestandteile entsorgt und kompilieren. Durch Löschen von vorhandenen Datensätzen kann man dem Anwender einen reduzierten Satz der Befehle geben. Klingt soweit schon sehr motivierend, aber leider gibt's ein paar Restriktionen: IntelliSense funktioniert nur in PRG und Memos (hier nur unter bestimmten Bedingungen) und nicht wie vllt. gedacht in Editboxen. Die beste Empfehlung ist der Weg über PRGs:  
-[code]Modify Command (m.lcFile) Window (m.loForm.Name)[/code]  
+`Modify Command (m.lcFile) Window (m.loForm.Name)`  
 Bei einer Top-Level Form muss die Klausel 'In Window' angegeben werden. Weiterhin ist es sicherlich sinnvoll, wenn man in der Anwendung eine Möglichkeit zur Verwaltung der Snipplets anbietet. Bei Klassen ist es hilfreich, wenn man ebenfalls eine Möglichkeit anbietet, um überflüssige PEMs ausblenden zu können bzw. nur die benötigten anzeigt. Stichwort: Favoriten (FfiBuilder)  
-\*\*Abschliessender Eindruck des ersten Tages\*\*
+## Abschliessender Eindruck des ersten Tages

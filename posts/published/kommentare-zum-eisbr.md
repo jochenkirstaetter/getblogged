@@ -5,15 +5,15 @@ slug: kommentare-zum-eisbr
 date: 2005-09-13
 status: published
 type: post
-description: "Kommentare zum Eisbär Irgendwie reicht die Kommentarfunktion [url=http://www.des-eisbaeren-blog.de/Default.aspx?Guid=e6465127-dc27-4e49-a40d-992e33a45beb]beim Eisbären[/url] nicht mehr bzw. die notwendige Funktionalität fehlt im Blog. Daher schreibe ich meine Gedanken und Anmerkungen hier.Also deine Einleitung ist ja schon ein leichter 'Brüller': 'uebrigens, bitte nicht wegen der Umlaute wundern, aber die Terminals hier auf der PDC verfuegen logischerweise"
+description: "Kommentare zum Eisbär Irgendwie reicht die Kommentarfunktion beim Eisbären nicht mehr bzw. die notwendige Funktionalität fehlt im Blog. Daher schreibe ich meine Gedanken und Anmerkungen hier.Also deine Einleitung ist ja schon ein leichter 'Brüller': 'uebrigens, bitte nicht wegen der Umlaute wundern, aber die Terminals hier auf der PDC verfuegen logischerweise"
 tags:
 - Community
 keywords: Community
 metaTitle: Kommentare zum Eisbär
-metaDescription: "Kommentare zum Eisbär Irgendwie reicht die Kommentarfunktion [url=http://www.des-eisbaeren-blog.de/Default.aspx?Guid=e6465127-dc27-4e49-a40d-992e33a45beb]beim Eisbären[/url] nicht mehr bzw. die notwendige Funktionalität fehlt im Blog. Daher schreibe ich meine Gedanken und Anmerkungen hier.Also deine Einleitung ist ja schon ein leichter 'Brüller': 'uebrigens, bitte nicht wegen der Umlaute wundern, aber die Terminals hier auf der PDC verfuegen logischerweise"
+metaDescription: "Kommentare zum Eisbär Irgendwie reicht die Kommentarfunktion beim Eisbären nicht mehr bzw. die notwendige Funktionalität fehlt im Blog. Daher schreibe ich meine Gedanken und Anmerkungen hier.Also deine Einleitung ist ja schon ein leichter 'Brüller': 'uebrigens, bitte nicht wegen der Umlaute wundern, aber die Terminals hier auf der PDC verfuegen logischerweise"
 image: ''
 ogTitle: Kommentare zum Eisbär
-ogDescription: Irgendwie reicht die Kommentarfunktion [url=https://www.des-eisbaeren-blog.de/Default.aspx?Guid=e6465127-dc27-4e49-a40d-992e33a45beb]beim Eisbären[/url] nicht mehr bzw. die notwendige Funktionalität...
+ogDescription: Irgendwie reicht die Kommentarfunktion beim Eisbären nicht mehr bzw. die notwendige Funktionalität...
 layout: post
 bodyClass: post-template tag-community
 postClass: post tag-community
@@ -43,19 +43,19 @@ featureImage: ''
 featured: false
 publishedAt: 2005-09-13T00:00:00Z
 updatedAt: 2018-04-02T08:39:04Z
-excerpt: Irgendwie reicht die Kommentarfunktion [url=https://www.des-eisbaeren-blog.de/Default.aspx?Guid=e6465127-dc27-4e49-a40d-992e33a45beb]beim Eisbären[/url] nicht mehr bzw. die notwendige Funktionalität...
+excerpt: Irgendwie reicht die Kommentarfunktion beim Eisbären nicht mehr bzw. die notwendige Funktionalität...
 twitterTitle: Kommentare zum Eisbär
-twitterDescription: Irgendwie reicht die Kommentarfunktion [url=https://www.des-eisbaeren-blog.de/Default.aspx?Guid=e6465127-dc27-4e49-a40d-992e33a45beb]beim Eisbären[/url] nicht mehr bzw. die notwendige Funktionalität...
+twitterDescription: Irgendwie reicht die Kommentarfunktion beim Eisbären nicht mehr bzw. die notwendige Funktionalität...
 twitterImage: 
 facebookTitle: Kommentare zum Eisbär
-facebookDescription: Irgendwie reicht die Kommentarfunktion [url=https://www.des-eisbaeren-blog.de/Default.aspx?Guid=e6465127-dc27-4e49-a40d-992e33a45beb]beim Eisbären[/url] nicht mehr bzw. die notwendige Funktionalität...
+facebookDescription: Irgendwie reicht die Kommentarfunktion beim Eisbären nicht mehr bzw. die notwendige Funktionalität...
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-Irgendwie reicht die Kommentarfunktion [url=https://www.des-eisbaeren-blog.de/Default.aspx?Guid=e6465127-dc27-4e49-a40d-992e33a45beb]beim Eisbären[/url] nicht mehr bzw. die notwendige Funktionalität fehlt im Blog. Daher schreibe ich meine Gedanken und Anmerkungen hier.  
+Irgendwie reicht die Kommentarfunktion [beim Eisbären](https://www.des-eisbaeren-blog.de/Default.aspx?Guid=e6465127-dc27-4e49-a40d-992e33a45beb) nicht mehr bzw. die notwendige Funktionalität fehlt im Blog. Daher schreibe ich meine Gedanken und Anmerkungen hier.  
   
-Also deine Einleitung ist ja schon ein leichter 'Brüller': 'uebrigens, bitte nicht wegen der Umlaute wundern, aber die Terminals hier auf der PDC verfuegen logischerweise nicht ueber deutsche Tastaturen' - Öhem, schon mal was von Lokalisierung gehört? Evtl. auch die Tastenkombination Alt+Shift - Naja, wenn auf der PDC die Terminals keine multiplen Layouts anbieten, zeugt das von ... [zensiert]. Wenn man als Veranstalter einer \*\*internationalen\*\* Konferenz noch nicht einmal lokalisierte Terminals anbietet... - Neee, ich schreib' nix weiter. Und wieso logischerweise?  
+Also deine Einleitung ist ja schon ein leichter 'Brüller': 'uebrigens, bitte nicht wegen der Umlaute wundern, aber die Terminals hier auf der PDC verfuegen logischerweise nicht ueber deutsche Tastaturen' - Öhem, schon mal was von Lokalisierung gehört? Evtl. auch die Tastenkombination Alt+Shift - Naja, wenn auf der PDC die Terminals keine multiplen Layouts anbieten, zeugt das von ... [zensiert]. Wenn man als Veranstalter einer **internationalen** Konferenz noch nicht einmal lokalisierte Terminals anbietet... - Neee, ich schreib' nix weiter. Und wieso logischerweise?  
 Öhem, gibt's eigentlich kein WLAN und Steckdosen, dass du deinen Laptop benutzen kannst???  
   
 Hehehe, der Eintrag 'Sex mit japanischen Zwillingen' dürfte wohl auf sich warten lassen... \*zwinker\*  
@@ -84,4 +84,4 @@ Bis denne, JoKi
   
 PS: Ich freu' mich auf kritischere Beiträge und ein wenig mehr Beurteilung der Konsequenzen ;-)  
   
-PPS: Nein, ich bin \*\*nicht\*\* gegen die Entwicklungen bei Microsoft; im Gegenteil! Ich sehe die Dinge aufgrund meiner Kenntnisse nur wesentlich kritischer... oder realistischer.
+PPS: Nein, ich bin **nicht** gegen die Entwicklungen bei Microsoft; im Gegenteil! Ich sehe die Dinge aufgrund meiner Kenntnisse nur wesentlich kritischer... oder realistischer.

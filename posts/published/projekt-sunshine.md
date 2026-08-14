@@ -61,7 +61,7 @@ Und so ergab es sich die Tage, dass ich einfach mal ein neues Projekt begonnen h
 
 Das Interessante an diesem Projekt wird jedoch die Herangehensweise der Entwicklung sein. Denn obwohl oder gerade weil es in Visual FoxPro realisiert wird, möchte ich mit diesem Projekt ein persönliches Experiment angehen. Und zwar werde ich entgegen meiner üblichen Vorgehensweise diese Anwendung mal rein aus der Sicht des Anwenders aufbauen. Also, was sehe ich? Wie funktioniert es und wie fühlt es sich an. Ich meine, dass man solch eine Vorgehensweise 'Top-Down-Design' nennt, lasse mich aber gerne eines Besseren belehren.
 
-Okay, also ausgehend vom Grundsatz \*\*Hauptsache, es sieht gut aus!\*\* schreibe ich aktuell an der Gesamtoberfläche und an den visuellen Komponenten. Und in der Tat sieht die Software bereits schon ein wenig stylisch aus. Anbei mal ein Screenshot:
+Okay, also ausgehend vom Grundsatz **Hauptsache, es sieht gut aus!** schreibe ich aktuell an der Gesamtoberfläche und an den visuellen Komponenten. Und in der Tat sieht die Software bereits schon ein wenig stylisch aus. Anbei mal ein Screenshot:
 
 ![Datensatznavigation und weitere Navigation stehen noch aus...](../content/images/2019/01/Sunshine1-1.webp)
 

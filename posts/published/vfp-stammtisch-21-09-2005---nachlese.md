@@ -79,14 +79,15 @@ So, was gab's sonst noch Neues? Die Quartalsbestellung bei der INETA ist raus, w
 [https://faq.dfpug.de/?id=VfpStammtischSpeyer](https://faq.dfpug.de/?id=VfpStammtischSpeyer)  
   
 Und am Ende konnte ich noch einen kleinen VFP-Gimmick zeigen. Und zwar kam bei uns irgendwann mal die Frage auf, ob man nicht das Projekt-Fenster aus dem VFP-Screen ziehen kann. Nun, auf den ersten Blick sieht es unmöglich aus, aber de facto funktioniert es. Dank der existierenden ABwärtskompatibilität zu FP 2.6 Mac / VFP 3.0 Mac kann auch heute noch diese 'Features' für eigene Zwecke missbrauchen. Okay, wie sieht die Lösung aus? Eigentlich ist es sehr simpel:  
-[code]  
-Activate Window ('Project Manager - ' + JustStem(\_VFP.ActiveProject.Name)) In MacDesktop  
-[/code]  
+`Activate Window ('Project Manager - ' + JustStem(\_VFP.ActiveProject.Name)) In MacDesktop`  
 Den Aufruf als Menu ins \_Startup gepackt und mit einem Hotkey garniert und *flupp* kann man auf Tastenkombi das aktive Projekt sorgenfrei aus dem VFP-Hauptfenster kippen. Es funktioniert übrigens bei allen Fenstern auf diese Weise - etwa Class Browser oder Object Browser. Bei den beiden letztgenannten geht's sogar noch cooler zur Sache, wenn man nämlich die Eigenschaften des enstehenden Objekts '\_oBrowser' im Debugger bzw. Command Window ändert:  
-[code]  
+
+```
+  
 \_oBrowser.Dockable = 1 && Class Browser  
 \_oFoxRef.Dockable = 1 && Code References  
-[/code]  
+```
+  
 😎 - viel Spass damit...  
   
 Ansonsten bitte an die Rezensionen denken, ich werde zum nächsten Treffen versuchen, die neuen Kataloge von O'Reilly mitzubringen.  

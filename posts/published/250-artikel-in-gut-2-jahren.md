@@ -56,11 +56,13 @@ codeinjectionFoot:
 Bei der Betrachtung der Archivsektion in der linken Navigationsleiste beschlich mich der Gedanke, dass es mal interessant wäre zu sehen, wieviele Artikel im Zeitraum seit Juli 2004 bis heute so entstanden sind... Inzwischen schreibe ich seit mehr als 2 Jahren. Wow, ich bin erfreut, dass es doch geneigte Leser geben soll, die schon sehnsüchtig auf mehr Input warten... \*winke-winke ins Schwabeländle\* 😎
 
 Well, die aktuelle Blogsoftware basiert datentechnisch auf einer MySQL Datenbank 4.irgendwas. Und in Verbindung mit dem MySQL Query Browser oder dem Fuchs ist es auch keine echte Herausforderung:  
-[code]Select count(\*) From posts[/code]  
-liefert beim Schreiben des Beitrags exakt \*\*250\*\*.
+`Select count(\*) From posts`  
+liefert beim Schreiben des Beitrags exakt **250**.
 
 Der Vollständigkeit wegen das Ganze nun auch in Visual FoxPro:  
-[code]Local lnHandle  
+
+```
+Local lnHandle  
 lnHandle = SQLConnect( ;  
 "Driver={MySQL ODBC 3.51 Driver};" + ;  
 "Server=jochen.kirstaetter.name;" + ;  
@@ -72,15 +74,19 @@ lnHandle = SQLConnect( ;
 )  
 SQLExec(m.lnHandle, "Select count(\*) From posts", "posts")  
 Browse Last  
-[/code]  
+```
+  
 Unter der Voraussetzung, dass der MyODBC auf dem System installiert ist, ist der Zugriff auf den MySQL Server remote möglich. Auch wenn sich dieser irgendwo auf der Welt befindet. Mein Server ist beispielsweise irgendwo in Minnesota, USA untergestellt. Soweit ich mich erinnern kann... Naja, letztendlich spielt es keine Rolle, wo die Daten tatsächlich physikalisch abgelegt sind. Es hätte sich auch genauso gut um einen anderen Datenbankserver handeln können.
 
 Achja, das Attribut \*Options\* ist absichtlich so gewählt. Im Gegensatz zu den Beispielen auf [ConnectionStrings.com](https://www.connectionstrings.com/) erziele ich gegenwärtig mit dem Wert 19035 die besten Ergebnisse mit dem Fuchs. Der Zahlenwert ist übrigens die dezimale Repräsentation der Bits im Dialog Einstellungen der Verbindung des MyODBC-Treibers. Alternativ kann auch eine DSN im ODBC Administrator anlegen und die Informationen dort ablegen. Das Ergebnis sähe dann vergleichsweise so aus:  
-[code]Local lnHandle  
+
+```
+Local lnHandle  
 lnHandle = SQLConnect("MyBlog", "blog", "geheim")  
 SQLExec(m.lnHandle, "Select count(\*) From posts", "posts")  
 Browse Last  
-[/code]  
+```
+  
 Sofern die erstellte DSN unter dem Namen 'MyBlog' konfiguriert wurde.
 
 Aktuelle Informationen, Tools und Downloads zu MySQL gibt es übrigens in deren [Entwicklersektion auf der Website](https://dev.mysql.com/).

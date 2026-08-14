@@ -152,9 +152,9 @@ Okay, that's looks more promising but still only blackout on the external screen
 `blacklist udl`  
 `#blacklist udlfb`
 
-{loadposition content\_adsense}
 
-**Silly me!**  
+
+## Silly me!
 Okay, back to the original situation in which **udl is allowed** and **udlfb blacklisted**. Now, the logging looks similar to this and the screen shows those maroon-brown and azure-blue horizontal bars as described on other online resources.
 
 `Oct 15 21:27:23 iospc2 kernel: [80934.308238] usb 2-4: new high-speed USB device number 5 using ehci-pci`  

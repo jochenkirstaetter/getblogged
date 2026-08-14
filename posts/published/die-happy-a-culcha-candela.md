@@ -65,7 +65,7 @@ Also, hört euch mal die Alben von Die Happy an, meines Erachtens ein Genuß deu
   
 So, wie schafft man den Übergang vom glücklichen Sterben hinüber zum puren Genießen des Leben in vollen Zügen? Ich weiß es acuh nicht, daher probiere ich es erst gar nicht... 😎  
   
-[Culcha Candela](https://www.culchacandela.de/) - sinngemäß mit leuchtende Kultur übersetzt - beginnen am deutschen Musikhimmel zu leuchten. Und wie! Ersten Kontakt mit der buntgemischten Gruppe aus Berlin hatte ich auf einem Konzert der [url=https://www.soehne-mannheims.de/]Söhne Mannheims[/url]. Dort traten sie als Vorgruppe auf und... Wow, man, they kick ass! Sobald man die ersten Takte hört bzw. spürt, will sich der Körper einfach nur bewegen. Man kann eigentlich nichts dagegen machen, einfach loslassen, tanzen und wohlfühlen - richtig genial!  
+[Culcha Candela](https://www.culchacandela.de/) - sinngemäß mit leuchtende Kultur übersetzt - beginnen am deutschen Musikhimmel zu leuchten. Und wie! Ersten Kontakt mit der buntgemischten Gruppe aus Berlin hatte ich auf einem Konzert der [Söhne Mannheims](https://www.soehne-mannheims.de/). Dort traten sie als Vorgruppe auf und... Wow, man, they kick ass! Sobald man die ersten Takte hört bzw. spürt, will sich der Körper einfach nur bewegen. Man kann eigentlich nichts dagegen machen, einfach loslassen, tanzen und wohlfühlen - richtig genial!  
   
 Die Mucke ist Programm. Geniesse das Leben in vollen Zügen - Bamboocha eben. Wie soll man es beschreiben? Jamaica-Style meets Hiphop meets Funpunk? Joah, das könnte es ziemlich treffen. Nach dem Erstalbum 'Union Verdadera' kommt ebenfalls am Montag das neue Album 'Next Generation' auf den Markt. Leute, geniesst das Leben und zieh' es euch rein.  
   

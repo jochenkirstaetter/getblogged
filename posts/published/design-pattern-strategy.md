@@ -79,12 +79,14 @@ Gut, damit ergeben sich für uns folgende Erkenntnisse:
 - einen Ansprechpartner für unsere Aufrufe (Kontext)  
 - und unsere Anwendung (Klient)
 
-\*\*Unsere Anforderung\*\*  
+## Unsere Anforderung
 Der nachfolgende Beispielcode geht davon aus, dass wir ein Exportmodul für unsere Anwendung erstellen wollen. Wir haben einen Cursor und wollen diesen in unterschiedliche Formate exportieren. Das heißt, wir haben unterschiedliche Ausgabeformate für den gleichen Input und wollen dies auf flexible Art und Weise lösen. Das Beispiel selbst ist sehr einfach gehalten und steht in Analogie zum Befehl Copy To in VFP, aber auch weiteren Exportmöglichkeiten.
 
-\*\*Abstrakte Strategie\*\*  
+## Abstrakte Strategie
 Als erstes erstellen wir uns unsere Klassendefinition für alle Exportvarianten:  
-[code]\*//- Abtrakte Basisklasse für alle Exporttypen (abstrakte Strategie)  
+
+```
+\*//- Abtrakte Basisklasse für alle Exporttypen (abstrakte Strategie)  
 Define Class AbstraktExport As Custom && Abstract Strategy  
 cDateierweiterung = ""  
 cVerzeichnis = ""  
@@ -93,12 +95,16 @@ cBeschriftung = ""
   
 Function Schreiben() As Boolean  
 EndFunc  
-EndDefine[/code]  
+EndDefine
+```
+  
 Ganz einfach gehalten. Es gibt ein Informationen zur Ausgabedatei und die eigentliche Methode zum Erzeugen der Ausgabe.
 
-\*\*Konkrete Strategie(n)\*\*  
+## Konkrete Strategie(n)
 Wir leiten uns hier für jeden Exporttypen, den wir anbieten wollen, eine eigene Klasse von unserer abstrakten Strategie ab und implementieren den Code in der Methode schreiben. Wir wollen folgende Formate anbieten: CSV, XML und Excel. Dazu definieren wir uns drei Klassen:  
-[code]\*--- Export als kommaseparierte Liste (CSV)  
+
+```
+\*--- Export als kommaseparierte Liste (CSV)  
 Define Class ExportCsv As AbstraktExport && (konkrete Strategie)  
 cDateierweiterung = ".txt"  
 cBeschriftung = "Export als kommaseparierte Liste"  
@@ -162,12 +168,15 @@ EndTry
 Return m.llOk  
 EndFunc  
 EndDefine  
-[/code]  
+```
+  
 Insgesamt gewohnter Anblick und vertraute VFP-Befehle. Dennoch sehen wir, dass der Export nach Excel und CSV über Copy To erfolgt, während die Ausgabe nach XML über CursorToXML() realisiert wird. Und hier zeichen sich bereits die ersten Vorteile unserer Strategie ab. Egal, welches Ausgabeformat wir haben wollen, würden wir aktuell immer nur die Methode Schreiben() ausführen.
 
-\*\*Die Kapselung (oder der Kontext)\*\*  
+## Die Kapselung (oder der Kontext)
 Gut, zum gegenwärtigen Zeitpunkt haben wir nur ein paar lose Klassendefinitionen rumfliegen. Natürlich wollen wir in unserer Anwendung nur einen zentralen Punkt haben, über den wir den Export veranlassen können. Weiterhin wollen wir ebenfalls nicht, dass an beliebigen Stellen einfach mal zig Instanzen unserer konkreten Strategien produziert werden. Daher erstellen wir uns eine weitere Klassen, die zur Verwaltung unserer unterschiedlichen Ausgabeformate genutzt wird und als Kommunikationspartner mit unserer Anwendung zur Verfügung steht.  
-[code]\*--- Verwaltungsklasse unserer Ausgabeformate  
+
+```
+\*--- Verwaltungsklasse unserer Ausgabeformate  
 Define Class ExportHandler As Custom && (Kontext)  
 Protected oExportTyp  
 oExportTyp = .Null.  
@@ -213,18 +222,22 @@ This.SetzeExportTyp("Xml")
 Return This.Schreiben(m.tcDateiname)  
 EndFunc  
 EndDefine  
-[/code]  
+```
+  
 Ich habe hier zwei Ansätze in der Klasse implementiert:  
 - Allgemeiner Ansatz, wir haben die Kontrolle über das gewünschte Ausgabeformat  
 - Vereinfachte Methoden (ToCvs, ToXml, etc.)  
 Und so langsam dürfte erkennbar sein, warum das Entwurfsmuster Strategie sehr nützlich ist. Wir müssen nun in unserer Anwendung nur noch den Kontext instanziieren und alles weitere geht dann automatisch.  
-[code]oExport = CreateObject("ExportHandler")  
+
+```
+oExport = CreateObject("ExportHandler")  
 oExport.SetzeExportTyp("Excel")  
 ? oExport.Schreiben("C:TempMeinExportExcel")  
 ? oExport.ToXml("C:TempMeinExportXML")  
-[/code]
+```
 
-\*\*Ausbaustufen\*\*  
+
+## Ausbaustufen
 Gut mit diesem Grundgerüst können wir bereits erste Ergebnisse produzieren und fleissig arbeiten. Sollten wir die Anforderung erhalten, weitere Ausgabeformate in unserer Anwendung anzubieten, dann ergeben sich uns hier maximal zwei Schritte, die wir durchführen müssen. Als erstes erstellen wir eine neue Klasse für das geforderte Ausgabeformat (notwendig) und als zweites können wir im Kontext eine neue Methode anbeiten (optional), die das neue Format nach außen anbietet. Und das war's bereits.
 
 Die Methode im Kontext zum Einstellen des gewünschten Exporttyps kann man übrigens noch problemlos aufbohren. Wir haben in unseren Anwendungen eine Verwaltungstabelle für verschiedene Import- und Exportformate. Dabei nutzen wir innerhalb der Anwendung, so wie hier im Code Tokens und setzen eine Abfrage auf die Tabelle ab, um die Informationen zu Klassenname, Klassenbibliothek, Beschriftung, Dateierweiterung, etc. in Erfahrung zu bringen.
@@ -232,7 +245,9 @@ Die Methode im Kontext zum Einstellen des gewünschten Exporttyps kann man übri
 Das gezeigte Beispiel behandelt den Export von Informationen. Natürlich lässt sich das Konzept auch auf andere Szenarien anwenden, hier mal ein paar Möglichkeiten: Import \*g\*, Verschlüsselung, Konvertierung, und so weiter...
 
 Übrigens, wenn man den Druck ebenfalls als Datenexport betrachtet, braucht man lediglich eine neue Klasse zu schreiben und anzubinden. Was potentiell für einfache Reports sehr praktisch sein kann.  
-[code]\*--- Export als Druckdokument  
+
+```
+\*--- Export als Druckdokument  
 Define Class ExportReport As AbstraktExport  
 Protected cReportDatei  
 cReportDatei = "Schnellausgabe.frx"  
@@ -252,7 +267,8 @@ EndTry
 Return m.llOk  
 EndFunc  
 EndDefine  
-[/code]
+```
+
 
 Okay, jetzt aber genug... Ich hoffe, dass dieser Artikel das grundsätzliche Konzept des Strategie-Muster ausreichend erklärt, und dass der gezeigte Quellcode leicht verständlich sowie nachvollziehbar ist.  
 Bis denne, JoKi

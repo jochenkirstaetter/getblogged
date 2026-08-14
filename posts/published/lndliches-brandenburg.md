@@ -53,12 +53,12 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-\*\*Anreise\*\*  
+## Anreise
 Im Gegensatz zur Hinreise nach Prag verlief die Rückkehr nach Deutschland relativ unspektakulär. Morgens mit Bus und Metro zum Flughafen, lockeres Einchecken und diesmal ohne unvorhergesehene Wartezeiten zurück nach Berlin Tegel. Von dort aus ging die Reise per Bahn weiter in die ländlichen Regionen von Teltow-Flaeming im südlichen Brandenburg. Schon die Fahrt im Regional-Express durch die morgendliche Sonne verhieß Gutes für den weiteren Tagesverlauf. Die Gegend hier - [Teltow-Fläming](https://de.wikipedia.org/wiki/Teltow) bzw. [Der Teltow](https://www.derteltow.de/) - ist einfach nur traumhaft: Wiesen- und Waldregionen soweit das Auge reicht - und das weitestgehend flach. Herrlich, sicherlich ein Paradies für Sportler... Laufen, Radfahren und Skaten. Letzte Woche auf dem AFP-Workshop wurde bereits die Information in die Gespräche eingestreut, dass hier extra eine Skaterbahn über mehrere Kilometer angelegt sei. Klingt verlockend...
 
-\*\*Acodey-Workshop\*\*  
+## Acodey-Workshop
 Die nächsten Tage werden wir uns mit diversen Komponenten aus unserer Bibliothek Acodey beschäftigen. Die Anforderungen sind durch den Kunden vorgegeben und wir schauen, welche Ergebnisse wir gemeinsam produzieren können. Weiterhin besteht die Notwendigkeit zur Verwendung eines Baum-Controls. Nichts leichter als das... 😁 - schliesslich nutzen wir diesen bereits ausgiebig und erfolgreich in eigenen Projekten. Heute beschäftigen wir uns erst noch ein wenig mit Zugriff auf multiple VFP-Datenbanken über die Klassen DataEnvironment und VfpDataBehavior, und bereinigen das Projekt samt Entwicklungsverzeichnis.
 
-\*\*Tilt...\*\*  
+**Tilt...**  
 Der Akku neigt sich dem Ende. Kein Wunder - durfte ich doch um 4:30 oder so heute morgen aufstehen. Nach Anreise und etlichen Stunden Workshop freue ich mich über gemütliches Zusammensitzen beim Abendessen mit zwei Teilnehmer, die im gleichen Hotel nächtigen.  
 Bis denne, JoKi

@@ -222,22 +222,30 @@ def process_markdown_file(file_path, app_url, dry_run=False):
     for field in fm_fields:
         field_match = re.search(rf"^{field}:\s*['\"]?([^\s'\"]+)['\"]?", frontmatter, re.MULTILINE)
         if field_match:
-            original_val = field_match.group(1)
-            is_http = original_val.startswith("http://") or original_val.startswith("https://") or original_val.startswith("//")
-            is_unoptimized = original_val.endswith(".jpg") or original_val.endswith(".png") or original_val.endswith(".jpeg")
+            original_val = field_match.group(1).strip('\"\'')
+            # Normalize any ../content/images/ in frontmatter to content/images/
+            clean_fm_val = original_val
+            if clean_fm_val.startswith("../content/images/"):
+                clean_fm_val = clean_fm_val.replace("../content/images/", "content/images/")
+                
+            is_http = clean_fm_val.startswith("http://") or clean_fm_val.startswith("https://") or clean_fm_val.startswith("//")
+            is_unoptimized = clean_fm_val.endswith(".jpg") or clean_fm_val.endswith(".png") or clean_fm_val.endswith(".jpeg")
             
             if is_http or is_unoptimized:
-                new_rel, attr = process_image(original_val, post_date, post_slug, app_url, dry_run)
+                new_rel, attr = process_image(clean_fm_val, post_date, post_slug, app_url, dry_run)
                 if new_rel:
-                    frontmatter = re.sub(
-                        rf"^{field}:\s*['\"]?.*$",
-                        f"{field}: {new_rel}",
-                        frontmatter,
-                        flags=re.MULTILINE
-                    )
-                    modified = True
+                    clean_fm_val = new_rel
                     if attr and field in ("image", "featureImage", "imageUrl", "coverImage") and not added_attribution:
                         added_attribution = attr
+                        
+            if clean_fm_val != original_val:
+                frontmatter = re.sub(
+                    rf"^{field}:\s*['\"]?.*$",
+                    f"{field}: {clean_fm_val}",
+                    frontmatter,
+                    flags=re.MULTILINE
+                )
+                modified = True
 
     if added_attribution:
         if not re.search(r"^imageAttribution:", frontmatter, re.MULTILINE):
@@ -281,8 +289,21 @@ def main():
     print(f"App URL: {app_url}")
     print(f"Mode: {'DRY RUN' if dry_run else 'LIVE MIGRATION'}")
     
-    post_files = sorted(glob.glob(str(REPO_ROOT / "posts" / "published" / "*.md")) + glob.glob(str(REPO_ROOT / "posts" / "pages" / "*.md")))
-    print(f"Found {len(post_files)} markdown documents to scan.\n")
+    all_md_patterns = [
+        str(REPO_ROOT / "posts" / "published" / "*.md"),
+        str(REPO_ROOT / "posts" / "pages" / "*.md"),
+        str(REPO_ROOT / "posts" / "draft" / "*.md"),
+        str(REPO_ROOT / "posts" / "author" / "*.md"),
+        str(REPO_ROOT / "posts" / "tags" / "*.md"),
+        str(REPO_ROOT / "posts" / "*.md")
+    ]
+    
+    post_files = []
+    for pat in all_md_patterns:
+        post_files.extend(glob.glob(pat))
+    post_files = sorted(set(post_files))
+    
+    print(f"Found {len(post_files)} markdown documents across published, pages, draft, author, tags, and root.\n")
     
     processed_count = 0
     for idx, post_file in enumerate(post_files, 1):

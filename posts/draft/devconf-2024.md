@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: DevConf 2024
 metaDescription: ''
-image: content/images/2024/06/SDP_0068.jpg
+image: content/images/2024/06/SDP_0068.webp
 ogTitle: DevConf 2024
 ogDescription: ''
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/devconf-2024/
-imageUrl: https://jochen.kirstaetter.name/content/images/2024/06/SDP_0068.jpg
+imageUrl: content/images/2024/06/SDP_0068.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2024/06/SDP_0068.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2024/06/SDP_0068.jpg
+featureImage: content/images/2024/06/SDP_0068.webp
 featured: false
 publishedAt: ''
 updatedAt: 2024-06-07T12:00:38Z
@@ -53,5 +53,3 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
-

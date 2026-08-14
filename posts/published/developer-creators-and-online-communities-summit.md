@@ -403,7 +403,7 @@ For now it's Goodbye community, goodbye Singapore, see you soon.
 
 My heartfelt thanks go to [Dirk Primbs](https://www.linkedin.com/in/dirkprimbs/), [Alicja Heisig-Chiarello](https://www.linkedin.com/in/alicja-heisig-chiarello/), [Alessandro Palmieri](https://www.linkedin.com/in/alepalmieri/), [Monika Janota](https://www.linkedin.com/in/monika-janota/), [Alfredo Morresi](https://www.linkedin.com/in/alfredomorresi/), [Nathalie Pereira](https://www.linkedin.com/in/nathalie-pereira-063a513/) and the rest of the team at Google for organising such an amazing summit and bringing Developer Creators and organisers of Online Communities world-wide together in one place.
 
-**Thank You!**
+## Thank You!
 
 What a remarkable, first Developer Creators and Online Communities Summit it was. Well done!
 

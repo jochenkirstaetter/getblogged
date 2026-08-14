@@ -55,7 +55,7 @@ codeinjectionFoot:
 ---
 Auch hier gibt's inzwischen wieder ein paar Neuigkeiten. Leider fehlt mir schlicht weg die Zeit (und der Server), das AfpWiki wieder live zu schalten. Aber dennoch ist es weiterhin im täglichen Einsatz und in der Weiterentwicklung. Hier kurz die Neuerungen:  
   
-\*\*Neuerungen\*\*  
+## Neuerungen
 MSDN Webcast: Durch die Kombination von WC kann auf MSDN Webcasts referenziert werden. Gleiches Prinzip wie bei den Verweisen auf die KnowledgeBase.  
 AfpWikiMakros: In der Hilfe sind die vorhandenen Makros (primär für Zeitstempel) dokumentiert.  
 C#: HtmlPlugin für SyntaxHighlighting in C# erweitert. Weitere Programmiersprachen mit Schlüsselwörter können tabellenbasiert mit neuen Releases des Plugin hinzugefügt werden.  
@@ -64,7 +64,7 @@ SIP-Rufnummer: Neben der Skypekennung werden nun auch SIP-Kennungen interpretier
 Neuer Eintrag: Umstellung von JavaScript auf HTML-basierte Lösung zur Erstellung eines neuen Eintrags.  
 Verbesserungen am Editor: Primär ist die Funktionsweise der Toolbar korrigiert und es gibt eine Toolbar für die Smilies.  
   
-\*\*Fehlerbehebung\*\*  
+## Fehlerbehebung
 Fehlerbehebung: Wörter können nun mit beliebigen Satzzeichen enden. Das InfoSystem, das permanent weiterentwickelt wird, verwendet WikiWords... Und Visual Foxpro?!? Außerdem werden die ersten Pluralformen korrekt erkannt und auf den Singular verlinkt. Bsp.: Fehler bei den BugReporten eintragen.  
 Fehlerbehebung: Formatierungserkennung verbessert. Optik der RecentChanges verbessert.  
 Fehlerbehebung: Probleme bei Hyperlinks mit integrierten WikiWords behoben.  

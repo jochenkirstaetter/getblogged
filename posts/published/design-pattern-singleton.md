@@ -69,7 +69,9 @@ Wichtig finde ich hier, dass der Singleton die Sicherstellung der einmaligen Obj
 Im Beitrag [Scripting.FileSystemObject](xref:design-pattern-singleton) bin ich leicht auf das Thema Applicationservices eingegangen (nicht im Zusammenhang mit SOA), und habe für den einfachen Zugriff einen zentralen Anlaufpunkt in meiner Anwendung erzeugt, welcher mir Objektreferenzen liefert. Wichtig ist hierbei, dass der Dienst im Normalfall nur ein einziges Mal in der Anwendung existiert und dass ich mich nicht um die Erstellung des Dienstes kümmern muss. Und genau für diesen Einsatzzweck coden wir nun unser Singleton live und in Farbe...
 
 Als Basisklasse zur Verwaltung der Objekte verwenden wir eine Collection und spendieren dieser noch ein paar Funktionen:  
-[code]\*====================================================================  
+
+```
+\*====================================================================  
 \* Beispielimplementierung für Singleton Design Pattern  
 \*====================================================================  
 Define Class AbstractSingleton As Collection  
@@ -140,7 +142,9 @@ EndTry
 
 Return m.loReturn  
 EndFunc  
-EndDefine[/code]
+EndDefine
+```
+
 
 Das war's auch schon. Der Singleton schaut beim Aufruf der GetReference-Methode zuerst in seiner Collection nach, ob bereits eine Objektreferenz für das Token vorhanden ist oder nicht. Bei negativer Prüfung erzeugt der Singleton die Instanz selbst, speichert die Referenz intern und liefert sie an den Aufrufenden zurück.
 
@@ -149,7 +153,9 @@ Wie im Quellcode bereits kommentiert, kann die Implementierung der geschützten 
 Im weiteren Verlauf der Verwendung braucht sich der Entwickler dann keine weiteren Gedanken mehr machen.
 
 Leider oder zum Glück fehlt Visual FoxPro das Konzept von statischen Klassen (static). Über dieses Sprachkonstrukt wäre man sehr wohl in der Lage die Einmaligkeit einer Klasseninstanz zu gewährleisten. Hm, dabei fällt mir gerade ein, dass es seit einiger Zeit ja den Befehl AInstance() gibt. Durch Integration in die Init-Methode des Singleton können wir dann doch wiederum was in der Art wie "static" programmieren:  
-[code]Define Class AbstractSingleton As Collection  
+
+```
+Define Class AbstractSingleton As Collection  
 \*------------------------------------------------------------------  
 \* Sicherstellen, dass der Singleton nur einmalig existiert.  
 \*------------------------------------------------------------------  
@@ -160,7 +166,9 @@ m.lnCount = AInstance(m.laInstances,This.Class)
 Return (m.lnCount &lt; 1)  
 EndFunc  
 \*...  
-EndDefine[/code]
+EndDefine
+```
+
 
 Nicht ganz fein, aber es funktioniert. Auf diese Weise stellen wir sicher, dass unser Singleton selbst nur einmal existiert und dass er immer nur eine Referenz von angefragten Objekten erzeugt und liefert.
 

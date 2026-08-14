@@ -29,12 +29,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/using-windows-eventlog-in-visual-foxpro/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -52,7 +52,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 [https://www.codeproject.com/Articles/4166/Using-MC-exe-message-resources-and-the-NT-event-lo](https://www.codeproject.com/Articles/4166/Using-MC-exe-message-resources-and-the-NT-event-lo)
 
 [https://www.codeproject.com/Articles/8664/Simple-class-to-fire-messages-to-Windows-EventLog](https://www.codeproject.com/Articles/8664/Simple-class-to-fire-messages-to-Windows-EventLog)

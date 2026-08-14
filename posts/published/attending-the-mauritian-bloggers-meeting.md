@@ -71,7 +71,7 @@ Actually, it's nice to be able to tag a face to the various blogs written about 
 - the ridiculously low number of portals and
 - the lack of players
 
-{loadposition content\_adsense}
+
 
 Taking into consideration that most [Mauritians have Android-based smartphones](https://www.androidmauritius.com/ "Mauritians have Android-based smartphones"), and that there are quite a number of technical blogs around I couldn't get it. But hey, I hope that I ignited something and the situation is going to change very quickly soon.
 

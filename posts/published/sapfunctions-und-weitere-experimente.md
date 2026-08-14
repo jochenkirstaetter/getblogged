@@ -96,7 +96,7 @@ SAP GUI bietet als Client zu SAP R/3 nicht nur ein visuelles Frontend an. Ebenso
   
 Sofern wir nicht aus dem Try-Catch-Block rausfliegen und der Rückgabewert des Logon positiv ausfällt, sind wir am SAP-Backend authentifiziert und können weitere Aktionen laufen lassen.
 
-{loadposition content\_adsense}
+
 
 ## Calls in SAP auslösen
 

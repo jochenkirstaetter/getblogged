@@ -65,7 +65,7 @@ Some days ago there was this big announcement that [Jeff Atwood together with WA
 
 Other options like switching the keyboard layout or easy exchangeable keys simply do not apply compared to the Ultimate.
 
-{loadposition content\_adsense}
+
 
 ## []()Under the hood...
 

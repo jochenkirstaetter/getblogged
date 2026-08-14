@@ -53,17 +53,17 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-\*\*Es wird besser\*\*  
+## Es wird besser
 Ich glaube, so langsam stellt sich mein Körper auf das geänderte Schlafverhalten ein. Die Ruhezeit habe ich nun konstant bei 25 Minuten gelassen und das klappt inzwischen. Auch wenn ich noch mit zwei Weckern arbeite, um dem Risiko des Überschlafens - also Verlassen der REM-Phase und Abtauchen in die Leichtschlafphase 1 - vorzubeugen.
 
-\*\*Alltägliche Aufgaben\*\*  
+## Alltägliche Aufgaben
 Nur weil ich anders schlafe, heißt ja nicht, dass die sonstigen Aufgaben nicht erledigt werden könnten. ;-) Heute habe ich die Zeit genutzt, um diverse ausstehende Alltagsaufgaben umzusetzen. Nichts Spektakuläres aber immerhin... Bad reinigen, Einkaufen, Backen, etc. Keine Sorge funktioniert alles wie gewohnt. Nee, eigentlich nicht ganz, denn ich gehe bewusster und mit weniger Ablehnung an die Tasks. Ich Gegensatz zu vorher, habe ich so etwas immer als notwendiges Übel betrachtet, aber heute hat es einfach nur Spass gemacht und boot sich als willkommene Aktivität an.
 
-\*\*Wochenende...\*\*  
+**Wochenende...**  
 Nach den abendlichen / nächtlichen Aktivitäten am FR im Kult, reihte sich heute sogleich auch dann das nächste Event ein: The BossHoss Konzert in der Kammgarn (Beginn 20:00, Ende ca. 22:xx)  
 Tjoa, soviel zur Planung für das 21:00 Uhr Schläfchen. Aktuell ist die Situation, dass es ausgefallen ist. ;-) Leute,ich leg' mich doch nicht mitten im Konzert für 20 Minuten aufs Ohr... Nee nee, beim besten Willen nicht. Okay, dann eben Plan B und leichte Umstellung der weiteren Schlafphasen. Aktuell sitze ich gerade an der täglichen Mailflut und versuche dieser Herr zu werden. Es ist übrigens gerade 2:11 in der Frühe und ich bin guter Dinge. Leichte Schläfrigkeit ist vorhanden. Gut bei ca. 8 Stunden Aktivität und einer verpassten Ruhezeit, kaum verwunderlich. Mal sehen, wahrscheinlich werde ich mich wieder 3:00 Uhr hinlegen und versuchen, dass Defizit auszugleichen.
 
-\*\*Versuch gescheitert...\*\*  
+**Versuch gescheitert...**  
 Es hat nicht funktioniert wie erwartet... Trotz zwei Wecker bin ich nicht wach geworden. Inzwischen glaube ich, dass die 48 Stunden eine Art magische Grenze darstellen. Hier bleibe ich irgendwie dran hängen. Hm, nur leider habe ich momentan noch keine Idee, wie ich das überbrücken könnte. Mal sehen, wie es im weiteren Verlauf des Experiments funktioniert. Nur momentan trete ich auf der Stelle.
 
 Für Anmerkungen und weiterführende Informationen zum Thema schreibt mir bitte einen Kommentar.  

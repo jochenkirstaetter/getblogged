@@ -101,7 +101,7 @@ The submission process is dependent on the complexity of your `Dockerfile` build
 
 ![Successful creation of Docker image and upload to Google Container Registry](../content/images/2019/11/image-31.webp)
 
-**Congrats!**  
+## Congrats!
 You successfully submitted the React project.
 
 Navigate to Container Registry &gt; Images in the Cloud Console and have a look at the details of the image. You should a similar overview like below.

@@ -61,7 +61,7 @@ The Wingle is an artificial word combination of **Wi**Fi do**ngle**, and Emtel s
 
 Personally, I use the Wingle every time I'm on tour. On several outings I simply plugged it into the mobile USB charger in my car, and the rest of the family was able to be online - either checking Facebook, having instant chats or having a Skype session with relatives abroad - all while driving around the island. It's kind of fun actually. Furthermore, it's also a nice option while hanging out on the beach. The distance range of the Wingle's wireless network is quite good.
 
-{loadposition content\_adsense}
+
 
 Furthermore, during the regular meetings of the [Mauritius Software Craftsmanship Community (MSCC)](https://meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community (MSCC)") I give access to my hotspot to other community members, and they love the experience, too. Being able to get access to online repositories on github or Visual Studio online, or logging into virtual machines on the cloud is a very positive aspect for our IT get-togethers. Nowadays, it's an always-on situation for most people working in IT. Even though you should keep an eye on proper balance it's a fact that one is regularly online.
 

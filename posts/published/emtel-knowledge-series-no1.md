@@ -79,7 +79,7 @@ In the entrance area there two or three small booth for product and service demo
 
 Having access to the freely available WiFi networks - one for IPv4 and one for IPv6 - I did some test runs with various servers in different areas of the globe during the presentations. Of course, due to international cabling the results vary... The test results with servers in Dubai, Cape Town or Singapore ranged between 3.0 and 6.4 Mbps while offering pings between 300ms and 1.000ms. The advantage of increased speed is inevitable but the latency values are still comparable to my findings on WiMAX or on 3G network.
 
-{loadposition content\_adsense}
+
 
 Most interestingly, the package prices of LTE connectivity are lower than for WiMAX and I'm already taking into consideration to swap networks given reliable network coverage in my area. My main concern about that switch is only related to the bandwidth...
 

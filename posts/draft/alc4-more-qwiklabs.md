@@ -12,7 +12,7 @@ tags:
 keywords: Community, Andela
 metaTitle: ALC 4.0 Cloud - Access to more Qwiklabs
 metaDescription: During the project phase of the Andela Learning Community (ALC) 4.0 program more hands-on labs on Qwiklabs have been made accessible to scholars. The following collection is courtesy of Andela, Google...
-image: content/images/2019/10/portrayal-89193_1280.jpg
+image: content/images/2019/10/portrayal-89193_1280.webp
 ogTitle: ALC 4.0 Cloud - Access to more Qwiklabs
 ogDescription: During the project phase of the Andela Learning Community (ALC) 4.0 program more hands-on labs on Qwiklabs have been made accessible to scholars. The following collection is courtesy of Andela, Google...
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/alc4-more-qwiklabs/
-imageUrl: https://jochen.kirstaetter.name/content/images/2019/10/portrayal-89193_1280.jpg
+imageUrl: content/images/2019/10/portrayal-89193_1280.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2019/10/portrayal-89193_1280.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2019/10/portrayal-89193_1280.jpg
+featureImage: content/images/2019/10/portrayal-89193_1280.webp
 featured: false
 publishedAt: ''
 updatedAt: 2019-11-14T16:42:56Z
@@ -54,7 +54,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 During the project phase of the Andela Learning Community (ALC) 4.0 program more hands-on labs on Qwiklabs have been made accessible to scholars. The following collection is courtesy of Andela, Google and Pluralsight.
 
 The links require that you're logged into your account on [Pluralsight](https://www.pluralsight.com/). Eventually, the links might stop to work after expiration of the program in January 2020. Alternatively, you can go directly to [Qwiklabs](https://www.qwiklabs.com/) and create an account on their platform.

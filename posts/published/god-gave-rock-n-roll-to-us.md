@@ -55,7 +55,7 @@ codeinjectionFoot:
 ---
 Okay, inzwischen sehe ich mich wirklich genötigt auch meinen Senf zum letzten Wochenende zu geben...  
   
-**Freitag**  
+## Freitag
 Nach den Einträgen von [Martin-shit-ich-habs-verpasst](https://hossann.de/page/privat/weblog/aktuell/weblog.html#gen) und [War-ein-geiler-Rockabend-Thomas](https://thomas.wilting.name/Default.aspx?Guid=d989f710-6a40-43df-9fae-356144b376dc) kann ich euch nur eins in Bezug auf Die Happy und Revolverheld mit auf den Weg geben. Ihr verpasst was, wenn ihr nicht auf ein Konzert der beiden Bands geht!  
   
 Ich hab' ja [vor einiger Zeit was zu Die Happy geschrieben](xref:die-happy-a-culcha-candela) und ich kann's nur noch einmal bekräftigen. Die Gruppe rockt die Hallen. Ich muss gestehen, dass ich eine tierische Vorfreude auf beide Bands hatte und bereits am Freitag Abend in der Firma schon rumgezappelt habe...  
@@ -64,12 +64,12 @@ Revolverheld legten schon ziemlich gut vor - ganz nach meinem Geschmack - und na
   
 Zwischendurch immer mal wieder lockere Sprüche von Marta, und dem Wechselspiel mit dem Publikum - Leute, das bringt richtig Laune. Quintessenz des Freitag Abend - vollständig durchgeschwitzt aber mit einem fetten Grinsen im Gesicht ging's nach Hause. Schade, dass Golo und Alex nicht - wie ursprünglich geplant - dabei waren...  
   
-**Samstag**  
+## Samstag
 Gut ausgeschlafen den Tag locker mit einigen Arbeiten für die Firma und die Konferenz verbracht. Interessanter ist natürlich die Abendgestaltung - [Kult](https://daskult.de/) ist angesagt. Wie eigentlich jeden Samstag Abend... Also, wer mich mal abends treffen möchte, kommt ins Kult. ![icon_biggrin](https://jochen.kirstaetter.name/god-gave-rock-n-roll-to-us/smilies/icon_biggrin.gif)  
   
 Nur irgendwie schmerzten meine Waden noch vom Vorabend, aber egal, Hauptsache es rockt...  
   
-**Sonntag**  
+## Sonntag
 Kult... ;-)  
 Tjoa, hat wirklich einer geglaubt, dass ich den Sonntag nicht im Kult beginne... Okay, ich bin noch dort geblieben, denn eigentlich treffe ich immer erst in den frühen Morgenstunden wieder zuhause ein. Manche würden dann ihr Frystyck machen. Nee nee, ich nehm' dann meinen Schlummertrunk und verzieh' mich in die Heija.  
   

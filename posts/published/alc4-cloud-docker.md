@@ -308,7 +308,7 @@ This is going to add relevant entries of Google Container Registry to your local
 
 ![Docker configuration to connect to Google Container Registry](../content/images/2019/10/image-18.webp)
 
-**Great!**  
+## Great!
 Your machine is ready to rumble the container registry.
 
 ## Push image to Container Registry
@@ -373,5 +373,5 @@ Log into Docker from the console and then push the tagged image.
 
 Fellow ALC 4.0 scholar [George Udosen](https://x.com/udoyen) wrote a nice piece about how to share an image to [GitHub and then using it in Kubernetes Engine](https://medium.com/@udoyen_aba/alc-4-phase-ii-cloud-challenge-using-google-sources-repository-e98f91cf1915).
 
-**Splendid!**  
+## Splendid!
 Our React app has been containerised using Docker and published to Container Registry. In the third part of this series we are going to [deploy it to Google Kubernetes Engine (GKE)](xref:alc4-cloud-k8s).

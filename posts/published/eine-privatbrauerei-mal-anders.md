@@ -53,7 +53,7 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-\*\*Was ein Tag!\*\*  
+## Was ein Tag!
 Ich liebe es in einem Ort mit [eigener Privatbrauerei](https://www.bischoff-bier.de/) zu wohnen. 😎  
 So auch gestern wieder. Etwa gegen Nachmittag habe ich mich auf den Weg gemacht, schliesslich interessieren die vielen Bands, die gute Stimmung und das Ganze drumherum. Da rentiert sich ruhig mal 'ne Ausnahme gegenüber den üblichen Ausgehzeiten.
 

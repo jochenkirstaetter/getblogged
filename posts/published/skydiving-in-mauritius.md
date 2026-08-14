@@ -71,7 +71,7 @@ Next, we met with our jumpers Chris and Lee aka "Rasta" to get dressed and ready
 
 From that point on, the DVD session / recording for my wife's birthday started and we really had a lot of fun... The difference between that small Cessna and a commercial flight with an Airbus or a Boeing is astronomic! The climb up to 10.000 ft took us roughly 25 minutes and we enjoyed the magnificent view over the turquoise lagunes near Poste de Flacq, Lafayette and Isle d'Ambre on the north-east coast. After flying through the clouds we sun-bathed and looked over "iced-sugar covered" Mauritius. You might have a look at the [picture gallery of Skydive Mauritius for better imagination](https://www.skydivemauritius.com/gallery "Picture gallery of Skydive Mauritius for better imagination").
 
-{loadposition content\_adsense}
+
 
 The moment of truth, or better said, point of no return came after approximately 25 minutes. The door opens, moving into position on the side on top of the wheel and... out! Back flip and free fall! Slight turns and Wooooohooooo! through the clouds... It so amazing and breath-taking! So undescribable! You have to experience this yourself!
 

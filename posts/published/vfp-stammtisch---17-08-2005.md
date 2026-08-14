@@ -70,13 +70,13 @@ Ich freu' mich auf jeden Fall auf den nächsten Termin - am 21. September 2005 a
   
 Okay, zur Vervollständigung des Eintrags, hier noch die Übersicht der Hyperlinks:  
   
-[url][https://faq.dfpug.de/?id=VfpStammtischSpeyer\[/url\]](https://faq.dfpug.de/?id=VfpStammtischSpeyer%5B/url%5D) unsere Infoplattform  
+[https://faq.dfpug.de/?id=VfpStammtischSpeyer\](https://faq.dfpug.de/?id=VfpStammtischSpeyer%5B/url%5D) unsere Infoplattform  
   
-[url][https://subversion.tigris.org](https://subversion.tigris.org)[/url] Subversion  
-[url][https://tortoisesvn.tigris.org](https://tortoisesvn.tigris.org)[/url] Erweiterung für den Windows Explorer als SVN-Client  
-[url][https://dark.clansoft.dk/~mbn/svnservice/\[/url\]](https://dark.clansoft.dk/~mbn/svnservice/%5B/url%5D) SVNService, Subversion als Windowsdienst  
-[url][https://www.pushok.com/soft_svn.php\[/url\]](https://www.pushok.com/soft_svn.php%5B/url%5D) SCC-Provider zur Integration der Versionkontrolle in Visual FoxPro  
-[url][https://www.sourcegear.com/sos/downloads.html\[/url\]](https://www.sourcegear.com/sos/downloads.html%5B/url%5D) SourceGear DiffMerge als Teil des SourceOffSite-Client (sgdm.exe)  
+[https://subversion.tigris.org](https://subversion.tigris.org) Subversion  
+[https://tortoisesvn.tigris.org](https://tortoisesvn.tigris.org) Erweiterung für den Windows Explorer als SVN-Client  
+[https://dark.clansoft.dk/~mbn/svnservice/\](https://dark.clansoft.dk/~mbn/svnservice/%5B/url%5D) SVNService, Subversion als Windowsdienst  
+[https://www.pushok.com/soft_svn.php\](https://www.pushok.com/soft_svn.php%5B/url%5D) SCC-Provider zur Integration der Versionkontrolle in Visual FoxPro  
+[https://www.sourcegear.com/sos/downloads.html\](https://www.sourcegear.com/sos/downloads.html%5B/url%5D) SourceGear DiffMerge als Teil des SourceOffSite-Client (sgdm.exe)  
   
 Das Blog des Eisbären findet ihr in meinen Links hier im Blog... 😎  
   

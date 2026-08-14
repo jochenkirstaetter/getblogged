@@ -82,7 +82,7 @@ Changing mobile devices always relates to migration of information. Both my prev
 
 A data exchange via Bluetooth sounds good and indeed the transfer of contacts, text messages and even photos was done very quickly. Even though the app offers transfer of music and video files it suggests to use a PC as proxy device for performance reasons. Anyway, within shortest time I had all my contacts from both Symbians available on the Lumia. A little down-side is the lack of de-duplication but that's honestly a bit too much to ask for. A last full charge of both batteries and then Farewell old fellows, you served me well.
 
-{loadposition content\_adsense}
+
 
 ## First challenge: Rename the device
 

@@ -32,12 +32,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/openssh-on-windows/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -55,7 +55,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Inspired by an article dubbed '[Installing OpenSSH on Windows 2012 R2 through PowerShell](https://tunnelix.com/installing-openssh-on-windows-2012-r2-through-powershell/)' by fellow blogger Nitin I had a closer at the current situation regarding OpenSSH on my Windows 10 systems.
 
 Turns out that at least the client tools are actually pre-installed and available since the April update 2018.

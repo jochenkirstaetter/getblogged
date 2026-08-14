@@ -29,12 +29,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/the-misconception-of-disabling-paste-on-password-fields/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -52,10 +52,9 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Dear Mauritius Telecom - what's the business decision behind keeping your customers from using password management applications? Blocking to paste a value into your input field(s) isn't considered smart but simply annoying UX/UI principle.
 
-![](../content/images/2022/02/image.png)
+![](../content/images/2022/02/image.webp)
 
 In case that "security" is an argument take not that web scrapers use key inputs and not paste to enter values into an input element. However, these restrictions come at a significant cost. They make the website less usable and more annoying for users. They also drive users to either select poor passwords (which may be more susceptible to password-guessing attacks) or to write down their passwords (potentially enabling roommates and family members to learn the password, leaving everyone back where we started). For users who do trust everyone else who has physical access to their computer, these restrictions strictly decrease security. Perhaps some advice from the National Cyber Security Centre of the UK could help you: https://www.ncsc.gov.uk/blog-post/let-them-paste-passwords or international renown security expert Troy Hunt: https://www.troyhunt.com/the-cobra-effect-that-is-disabling/
 

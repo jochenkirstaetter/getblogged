@@ -84,7 +84,7 @@ Honestly, I didn't bother to follow up on any kind of improvements but only by l
 
 Anyway, judgement day at Mugg & Bean... all those months I could convince my BWE that it wouldn't be an option to have a meal there anymore. I can't say what was the key aspect during the drive to Bagatelle but I accepted that we should give M&B another shot. Maybe things might have improved since last time. Okay, okay... let's give it a try.
 
-**Oh boy! What a fatal mistake!**
+## Oh boy! What a fatal mistake!
 
 Despite having six people from the waitron staff lurking around near the main entrance or the kitchen passage we didn't get that much attention. The kitchen was not yet ready... I mean, yeah, why would a breakfast place need to have a ready kitchen in the morning? Okay, let's wait for some 15 to 25 minutes then...  
 And let's see about the drinks? My BWE asked for a cup of regular black coffee... "Sorry, we don't have coffee right now". What? You have coffee-themed wallpapers all over the place and you cannot serve a simple cup of plain black coffee?  

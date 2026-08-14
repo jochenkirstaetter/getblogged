@@ -53,18 +53,18 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-\*\*Weniger Schlaf\*\*  
+## Weniger Schlaf
 Heute ergab sich kaum die Möglichkeit während der Arbeit einzuschlafen. Die Geräuschkulisse war leider ein wenig zu hoch. Ich möchte mich mit der Aussage nicht beschweren, sondern lediglich feststellen, dass ich nicht wirklich schlafen konnte. Stattdessen begnügte ich mich mit ein paar Minuten geschlossener Augen und autogenem Training, welches eigentlich bisher zum Schlaf führte, nicht so heute. Naja, ab nächster Woche werde ich mich ins Besprechungszimmer - sofern ungenutzt - verziehen und dort die Schlafeinheiten während des Tages umsetzen.
 
-\*\*Soziales Umfeld\*\*  
+## Soziales Umfeld
 Ansonsten gibt es kaum Neues zu berichten. Gegen Abend bei meiner Familie eingelaufen und Thomas noch ein wenig bei der Wohnungseinrichtung geholfen. Meine abendliche Ruhezeit konnte ich auch problemlos einhalten; wiederum keine richtige REM-Phase. Naja, später vielleicht. Frisch gestärkt geht's wie abgesprochen noch auf die Piste... [Kult](https://www.daskult.de)ur muss eben auch sein. Thomas meinte bereits, dass er bis maximal 0:30 Uhr dort bleiben möchte. Super, dann kann er mich auf dem Rückweg zuhause rauswerfen und werde mich der nächsten Schlafpause hingeben. Übrigens seine Premiere im Kult. ;-)  
 Ich hoffe, dass sich meine Erzählungen und deine Vorstellungen vom Kult einigermaßen erfüllt haben. Und ich hoffe, dass du dich wenigstens ein bisschen ärgerst, dass du nicht schon wesentlich früher mitgegangen bist...  
 Somit zeigt sich auch, dass ein normales Leben mit den multiplen Schlafphasen geführt werden kann. Mal sehen wie das später wird... Konzert in der Kammgarn - Yeah, Party!
 
-\*\*Nachtplanung?\*\*  
+## Nachtplanung?
 Tjoa, aktuell schreibe ich zwar hier diesen Eintrag, aber das wird auch keine Stunden dauern. Mal sehen, wie ich mich gleich noch beschäftigen werde. Evtl. mal schauen, was im Buch über Tai Chi zu lesen ist. Auf alle Fälle muss ich mich körperlich betätigen, da es mich ein wenig fröstelt. Könnte sich eventuell auf zu wenig Bewegung zurückführen lassen, oder leichte Müdigkeitserscheinungen. \*brrr\* - gleich mal ein paar dicke Socken anziehen und was Warmes trinken.
 
-\*\*Bedingt traumlos\*\*  
+## Bedingt traumlos
 Die letzten Schafpausen waren annahmslos traumlos. Zwar werden zu Beginn noch etliche unscharfe Bilder und "Videosequenzen" vor dem inneren Auge abgespult, aber ich würde hier sicherlich nicht von Träumen sprechen. Nach dem Wachwerden kann ich ebenfalls an nichts bis zu Beginn der Schlafphase erinnern. Aktuell befinde ich mich damit im Binärzustand - wach (1) und schlafend (0). Ich bin mal gespannt, ob und wie sich das in den nächsten Tagen oder Wochen entwickeln wird. Zwischenzeitlich werde ich meine Anstrengungen in Autogenem Training intensivieren. In der Hoffnung, dass ich zügiger den Körper zur Entspannung bringen kann, um dann meine "Aufmerksamkeit" ganz dem Schlaf zu widmen.
 
 Für Anmerkungen und weiterführende Informationen zum Thema schreibt mir bitte einen Kommentar.  

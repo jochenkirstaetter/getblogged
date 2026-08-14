@@ -5,12 +5,12 @@ slug: anmerkungen-zum-decorator
 date: 2006-11-01
 status: published
 type: post
-description: 'Anmerkungen zum Decorator Anscheinend bedarf es der regelm&#228;&#223;igen Wiederholung von Themen, die man im t&#228;glichen Einsatz als Entwickler gebrauchen k&#246;nnte. Wiederholung vertieft das Wissen und schadet sicherlich nicht. Die nachfolgenden Anmerkungen beziehen sich auf meinen Artikel zum [url=/Design-Pattern-Decorator]Design Pattern: Decorator[/url]. Es empfiehlt sich den Beitrag kurz durchzugehen, sofern der Decorator'
+description: 'Anmerkungen zum Decorator Anscheinend bedarf es der regelm&#228;&#223;igen Wiederholung von Themen, die man im t&#228;glichen Einsatz als Entwickler gebrauchen k&#246;nnte. Wiederholung vertieft das Wissen und schadet sicherlich nicht. Die nachfolgenden Anmerkungen beziehen sich auf meinen Artikel zum Design Pattern: Decorator. Es empfiehlt sich den Beitrag kurz durchzugehen, sofern der Decorator'
 tags:
 - Community
 keywords: Community
 metaTitle: Anmerkungen zum Decorator Design Pattern
-metaDescription: 'Anmerkungen zum Decorator Anscheinend bedarf es der regelm&#228;&#223;igen Wiederholung von Themen, die man im t&#228;glichen Einsatz als Entwickler gebrauchen k&#246;nnte. Wiederholung vertieft das Wissen und schadet sicherlich nicht. Die nachfolgenden Anmerkungen beziehen sich auf meinen Artikel zum [url=/Design-Pattern-Decorator]Design Pattern: Decorator[/url]. Es empfiehlt sich den Beitrag kurz durchzugehen, sofern der Decorator'
+metaDescription: 'Anmerkungen zum Decorator Anscheinend bedarf es der regelm&#228;&#223;igen Wiederholung von Themen, die man im t&#228;glichen Einsatz als Entwickler gebrauchen k&#246;nnte. Wiederholung vertieft das Wissen und schadet sicherlich nicht. Die nachfolgenden Anmerkungen beziehen sich auf meinen Artikel zum Design Pattern: Decorator. Es empfiehlt sich den Beitrag kurz durchzugehen, sofern der Decorator'
 image: ''
 ogTitle: Anmerkungen zum Decorator Design Pattern
 ogDescription: Anscheinend bedarf es der regelmäßigen Wiederholung von Themen, die man im täglichen Einsatz als Entwickler gebrauchen könnte. Wiederholung vertieft das Wissen und schadet sicherlich nicht. Die...
@@ -53,7 +53,7 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-Anscheinend bedarf es der regelmäßigen Wiederholung von Themen, die man im täglichen Einsatz als Entwickler gebrauchen könnte. Wiederholung vertieft das Wissen und schadet sicherlich nicht. Die nachfolgenden Anmerkungen beziehen sich auf meinen Artikel zum [url=/Design-Pattern-Decorator]Design Pattern: Decorator[/url]. Es empfiehlt sich den Beitrag kurz durchzugehen, sofern der Decorator nicht geläufig sein sollte.
+Anscheinend bedarf es der regelmäßigen Wiederholung von Themen, die man im täglichen Einsatz als Entwickler gebrauchen könnte. Wiederholung vertieft das Wissen und schadet sicherlich nicht. Die nachfolgenden Anmerkungen beziehen sich auf meinen Artikel zum [Design Pattern: Decorator](/Design-Pattern-Decorator). Es empfiehlt sich den Beitrag kurz durchzugehen, sofern der Decorator nicht geläufig sein sollte.
 
 Den Auslöser für diesen Blogeintrag liefert mal wieder eine Unterhaltung im [Forum der dFPUG](https://forum.dfpug.de). Dort wurde sinngemäß das Problem formuliert wie man gemeinsame Funktionalität zweier unterschiedlich abgeleiteter Klassen ohne Codedopplung umsetzen könnte, aber dennoch die sonstigen PEMs der Hierarchie erhalten kann. Da es in Visual FoxPro das Konzept der Mehrfachvererbung - Stichwort partial class in C# - leider nicht gibt, sehen die Alternativen zur Umsetzung ein wenig anders aus:
 
@@ -66,7 +66,9 @@ Funktionalität durch Klasse vorschalten (Decorator)
 Sofern ich den [Original-Thread](https://forum.dfpug.de/threads.afp?msgid=694197&complete=ON&sec=51&tid=191434) korrekt verstanden habe, erscheint mir die Anwendung des Decorator an sinnvollsten, da wir hier entsprechende Funktionalität ohne Code-Dopplung erreichen können.
 
 Wir lagern also die 'gemeinsame' Methode für die Klassen in unterschiedlichen Ableitungshierarchien in eine eigene Klasse aus, und wenden das Decorator Design Pattern an. Ich versuche es mal mit einem 'konstruierten' Code-Beispiel zu verdeutlichen:  
-[code]\*====================================================================  
+
+```
+\*====================================================================  
 \* Anwendung des Decorator Design Pattern für die 'Simulation' von  
 \* Mehrfachvererbung.  
 \* Decorator-Klasse stammt aus dem Blogartikel zum Design Pattern:  
@@ -121,7 +123,8 @@ Function Bluehen()
 Return "Volle Pracht erreicht."  
 EndFunc  
 EndDefine  
-[/code]  
+```
+  
 Das Ergebnis entspricht nach meinem Verständnis der formulierten Anforderung im Forum-Beitrag.
 
 Im weiteren Verlauf kamen noch einige Ideen und Fragen auf:
@@ -132,7 +135,9 @@ Nach meinem VFP-Wissen, ja. Sämtliche Zugriffe von außen auf die Objektreferen
 \*Mit Deiner Decorator-Klasse müßte man das eigentlich 2stufig anlegen, auch das ginge ja, da THIS\_ACCESS dann kaskadiert. (...) Das verschmelzen der beiden Objekte zu einem ist also nur von außen gesehen perfekt. Es fehlt doch aber eigentlich nur eine oDecorator\_Access Methode, die nochmal dass gleiche macht, oder seh ich das falsch?  
 \*  
 Nun, ich hatte es im ursprünglichen Artikel zum Decorator nicht probiert. Der nachfolgende Code zeigt, dass eine solche Kaskadierung leider nicht möglich ist:  
-[code]\*====================================================================  
+
+```
+\*====================================================================  
 \* (Nicht-)Kaskadierung von mehreren Decorator Design Pattern.  
 \*====================================================================  
 Clear  
@@ -208,7 +213,8 @@ Function Futtern()
 Return "Satt..."  
 EndFunc  
 EndDefine  
-[/code]  
+```
+  
 Die Begrenzung wird durch den Parameter an die jeweilige Access-Methode limitiert. Bisher konnte ich lediglich eine Verkettung über maximal 2 Stufen erreichen, danach gibt's Probleme durch den Rückgabewert.
 
 Es stellt sich sicherlich auch die generelle Frage, welchen Sinn diese Kaskadierung haben sollte. Ich finde, dass im Falle einer hierarchischen Abhängigkeit ein anderes Design Pattern interessanter sein dürfte: Chain Of Responsibility.

@@ -68,7 +68,7 @@ Da die AFP derzeit eben auch als ISAPI programmiert ist, wird mir wohl nichts an
   
 Gemäß den Vorgaben der AFP-Hilfe zur Puginerstellung geht das auch sehr schnell und einfach über die Tastatur. Kleine Orientierung im mitgelieferten Quellcode vom Voodoo Plugin und dem Beispielcode für das RuntimeExec Plugin und bunt zusammengewürfelt. Nach ein, zwei Stunden inklusive der Tests unter Apache und IIS kam dann folgendes dabei raus:  
   
-**Code:**  
+## Code:
 \*======================================================================  
 \* Executes AFP pages based on current PATH\_INFO information of web server.  
 \* This plugin checks the URL and re-routes page execution based of the provided  
@@ -172,7 +172,7 @@ Die Klasse CPlugIn\_PathInfo ist die konkretisierte Ableitung der AFP Pluginklas
   
 Die Integration in die AFP erfolgt entweder per ControlCenter oder händisch über die Bearbeitung der afp.config:  
   
-**Code:**  
+## Code:
 &lt;plugin location="%root%\plugin\pathinfo.fxp" engine="AFP"/&gt;  
   
   

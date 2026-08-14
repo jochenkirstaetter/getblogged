@@ -58,7 +58,7 @@ Since last month I modified my main development system a little bit and instead 
 
 As said, I started with xubuntu 7.10 and upgraded recently to 8.04 (Hardy Heron). Everything went smooth but VMware Player didn't start anymore. Fine, as VMware comes with predefined kernel modules which none of them fits for kernel version 2.6.24-16-generic you have to initiate the compile process yourself. No problem at all. Well, in general...
 
-{loadposition content\_adsense}
+
 
 Sadly, the compile did not finish and interrupted with an error message according to a wrongly included header file. So, I looked around a bit and found a [nice step-by-step guide](https://communities.vmware.com/message/897137#897137) on the VMware website to get it up and running. Here are the steps:
 

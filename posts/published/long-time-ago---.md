@@ -67,21 +67,17 @@ Fine, talking about German FoxPro User Group (dFPUG) I'd like to mention that we
 
 And here we are at the present moment. Currently I did a lot of enhancements in Html Plugin for Active FoxPro Pages and AfpWiki itself. I hope to release both products during next week. Html Plugin is primarily a plug-in for [Active FoxPro Pages](https://www.afpages.com). But that's only half the truth. The plug-in itself is build as a component and offers stand-alone functionality for VFP developers and through COM as well for other programming languages. In VFP you just create an object like so:
 
-[code]
 
+```
 Set Procedure To "html.plugin.dll" Additive
 
 Html = CreateObject("CHTML")
+```
 
-[/code]
 
 If you have to use COM instead, then this works just fine:
 
-[code]
-
-Html = CreateObject("AFPPlugin.Html")
-
-[/code]
+`Html = CreateObject("AFPPlugin.Html")`
 
 It was quite funny to get this component working in .NET Framework and I'm still working on this topic, but at the moment I got it to create my own namespace (tree) based on this single DLL. After you added a reference to the COM server, you'll have an new namespace tree instead of just one plain entry: ProLib.AFP3.Plugin.Html and due to COM interoperability in .NET the instance name of the class is simple HtmlClass.
 

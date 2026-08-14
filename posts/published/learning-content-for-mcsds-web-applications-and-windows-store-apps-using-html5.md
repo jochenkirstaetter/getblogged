@@ -93,7 +93,7 @@ This demand for skilled developers also comes with a nice side-effect: Lots and 
   - I already wrote about the [MVA in a previous article](xref:microsoft-virtual-academy "MVA in a previous article"). Well, if you haven't registered yourself yet, now is the time.  
 The list is not complete for sure, but this might keep you busy for at least one or even two weeks to go through the material. Please don't hesitate to add more resources in the comment section. Right now, I'm already through all videos once, and digging my way through chapter 4 of Kraig's book.
 
-{loadposition content\_adsense}
+
 
 ## Additional material - Pluralsight  
 Apart from those free online resources, I also following some courses from the excellent library of Pluralsight. They already have their own section for Windows 8 development, but of course, you get companion material about HTML5, CSS and Javascript in other sections, too.

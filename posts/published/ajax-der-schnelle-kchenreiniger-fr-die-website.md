@@ -66,12 +66,14 @@ Aber warum sollte man überhaupt AJaX für die Webentwicklung verwenden? Gute Fr
 Durch die verbindungslose Kommunikation zwischen Client und Server stehen wir nun vor dem Problem, was eigentlich passiert, wenn der Kunde in der Auswahlliste geändert wird. Im klassischen Sinne würde dies bedeuten, dass ein Request an den Webserver abgesetzt wird und anschliessend die Seite neu aufgebaut wird, da sich die anzuzeigenden Informationen im Detailbereich geändert haben. Naja, nicht gerade prickelnd, wenn man bedenkt, dass vielleicht nur 5% der visuellen Darstellung zu ändern sind. Die Alternative könnte darin bestehen, dass bereits beim ersten Aufruf der Kundenliste alle Detailinformationen geliefert werden. Nunja, bei einer geringen Anzahl macht das vielleicht noch Spass, aber je mehr Kunden vorliegen desto länger dauert der Aufbau. Ein Zugriff über eine schmale Leitung wird hierbei für eine Kaffeepause sorgen. Und genau hier bietet AJaX die geschickteste Lösung.
 
 Nehmen wir wieder unsere Kundenliste her. Alle Einträge haben im Normalfall einen eindeutigen Identifier - den sogenannten Primärschlüssel. Durch den Einsatz des XMLHttpRequest-Objekt, einer speziellen Seite auf dem Webserver und dem Primärschlüssel des gewählten Kunden sind wir in der Lage die Detailinformationen en demand abzurufen und weiter zu verarbeiten. Über das XMLHttpRequest-Objekt setzen wir einen asynchronen Request auf den Webserver ab, welcher uns die Detaildaten des Kunden beispielsweise in XML zurücksendet. Die komplette Verarbeitung erfolgt clientseitig mittels JavaScript. Und damit wäre die Namensgebung für AJaX erklärt. 😁  
-\*\*Kurzfassung:\*\* Anstelle eines Anchor lösen wir eine Funktionalität in JavaScript aus, die das Ergebnis in die bestehende HTML-Seite einarbeitet.
+**Kurzfassung:** Anstelle eines Anchor lösen wir eine Funktionalität in JavaScript aus, die das Ergebnis in die bestehende HTML-Seite einarbeitet.
 
 Genug der trockenen Theorie schauen wir uns die Sache mal in der Praxis an. Zunächst einmal die fertige HTML-Seite mit der Kundenliste und den Detaildaten des selektierten Kunden. Für die Aktualisierung als Reaktion auf den Wechsel des Kunden nutzen wir die Ereignisverarbeitung von JavaScript. Die Liste bietet uns ein Ereignis onchange() an, und hieran binden wir uns, um unsere eigene Routine laufen zu lassen.
 
 Zum Absetzen des Request benötigen wir erst eine gültige Instanz eines XMLHttpRequest-Objekt. Wir berücksichtigen hierbei gleich die unterschiedlichen Implementierungen der Browser und erzeugen eine generische Methode, die das Objekt für die weitere Ausführung liefert.  
-[code]function getXmlHttp()  
+
+```
+function getXmlHttp()  
 {  
 // Internet Explorer  
 try {  
@@ -89,10 +91,13 @@ xmlHttp = new XMLHttpRequest();
 }  
 return xmlHttp;  
 }  
-[/code]
+```
+
 
 Unserem gerade erzeugten Request-Objekt geben wir die URL und die Parameter zum Abruf der Details. Auch hier bietet es sich an, gleich zu Beginn eine generische Routine zu schreiben, welche in beliebigen Kontexten genutzt werden kann.  
-[code]function getXmlResponse(cMethod, cParameter)  
+
+```
+function getXmlResponse(cMethod, cParameter)  
 {  
 var xmlHttp = getXmlHttp();  
 if (xmlHttp) {  
@@ -115,7 +120,8 @@ settip('tooltip');
 xmlHttp.send(null);  
 }  
 }  
-[/code]
+```
+
 
 Abschliessend verarbeiten wir die Antwort des Webservers und verteilen die einzelnen Informationen auf die sichtbaren HTML-Controls. Damit haben wir die visuelle Darstellung der Kundendaten durch den Wechsel des Kunden in der Auswahlliste vollständig realisiert, ohne dass dazu die Seite neu aufgebaut werden musste.
 

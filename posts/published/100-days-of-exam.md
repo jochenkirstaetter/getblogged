@@ -132,7 +132,7 @@ And while talking about calendar entries why not fix your exam date already. Giv
 
 I may repeat myself here but that's hopefully okay. Keep your goal in eyesight, stick to the challenge and tweet about your progress. Response from others is likely a reward for you, too. Show yourself (and maybe others) that you are committed to your own personal growth. Prepare for your exam and document your progress.
 
-**You can do this!**
+## You can do this!
 
 I'm really looking forward to see your tweets popping up on my timeline, and I'm going to place my likes from time to time. Guaranteed!
 

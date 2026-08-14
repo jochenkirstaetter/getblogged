@@ -69,7 +69,7 @@ Sie dürfen das Certified Visual FoxPro Evangelist Program Logo in Ihrem Blog, I
 Werden Sie Visual FoxPro Evangelist... Heute!
 
 Program President: [Kevin Ragsdale](https://weblogs.foxite.com/kevinragsdale/default.aspx)  
-Und nun betrachten wir ein wenig die Historie des Visual FoxPro Evangelist Program. Sozusagen, \*Wer hat's erfunden?\*. Die Bezeichnung \*\*Microsoft Visual FoxPro Technologieberater\*\* wurde nach meinem Kenntnisstand erstmalig von meinem geschätzten Kollegen wOOdy im Laufe des Jahres 2005 eingeführt. Und Evangelists sind Technologieberater. Die Frage der Herkunft dürfte damit geklärt sein: [ProLib](https://www.prolib.de).
+Und nun betrachten wir ein wenig die Historie des Visual FoxPro Evangelist Program. Sozusagen, \*Wer hat's erfunden?\*. Die Bezeichnung **Microsoft Visual FoxPro Technologieberater** wurde nach meinem Kenntnisstand erstmalig von meinem geschätzten Kollegen wOOdy im Laufe des Jahres 2005 eingeführt. Und Evangelists sind Technologieberater. Die Frage der Herkunft dürfte damit geklärt sein: [ProLib](https://www.prolib.de).
 
 Ich bin Visual FoxPro Evangelist, werden Sie auch einer... heute! 😁  
 Bis denne, JoKi

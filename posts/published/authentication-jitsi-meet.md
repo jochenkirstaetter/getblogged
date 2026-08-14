@@ -195,7 +195,7 @@ Usage: /usr/bin/prosodyctl register USER HOST [PASSWORD]
 
 Unfortunately, this is ***not* GDPR-compliant**, because “enabling users to set their password without the admin knowing it” is a basic and unavoidable security measure.
 
-**Congratulations!**  
+## Congratulations!
 You completed all necessary steps to enable authentication in your instance of Jitsi Meet. All steps described above are mainly based on the official guide to [Secure domain on GitHub](https://github.com/jitsi/jicofo#secure-domain).
 
 Let's try it...

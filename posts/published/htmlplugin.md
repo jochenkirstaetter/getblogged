@@ -55,17 +55,17 @@ codeinjectionFoot:
 ---
 ## HTML Plugin for Active FoxPro Pages
 
-**Motivation**  
+## Motivation
 Html Plugin is primarily a plug-in for [Active FoxPro Pages](https://www.afpages.com/). But that's only half the truth. The plug-in itself is build as a component and offers stand-alone functionality for VFP developers and through COM as well for other programming languages.
 
-**Setup and Installation**  
+## Setup and Installation
 The setup routine installs and registers the component in Windows. The current version of the setup is available here:
 
 [https://jochen.kirstaetter.name/files/html.plugin-0.7.16.exe](xref:htmlplugin)
 
 Just get the file and follow the installation instructions.
 
-**Usage in Visual FoxPro**  
+## Usage in Visual FoxPro
 In VFP you just create an object like so:
 
 <font face="Courier New">Set Procedure To "html.plugin.dll" Additive  

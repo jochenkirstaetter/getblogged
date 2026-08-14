@@ -61,7 +61,7 @@ Nun, in Vorbereitung für den kommenden Webcast zu Visual FoxPro und Visual Stud
   
 Und so habe ich mir dann einen wirklich simplen VFP-Befehl als Vorlage genommen:  
   
-[code]Browse[/code]  
+`Browse`  
   
 Mit dem Browse-Befehl kann man den Inhalt einer Tabelle in einem Grid anzeigen lassen und manipulieren. Sofern keine Tabelle im aktuellen Arbeitsbereich geöffnet ist, bietet Visual FoxPro den Datei-Auswahldialog für DBFs an.  
   
@@ -72,14 +72,18 @@ Und damit wären wir auch bei einer sinnvollen Aufgabe für meine weiteren Schri
 Spass hat es auf Fälle gemacht.  
 Also, Visual Studio angeworfen, neues C# Windows-Anwendung Projekt namens VfpBrowse erstellt. Die automatisch erstellte Form-Klasse polieren wir ein wenig auf und verpassen ihr noch ein paar Felder, die wir im weiteren Verlauf brauchen werden:  
   
-[code]public class frmVfpBrowse : System.Windows.Forms.Form  
+
+```
+public class frmVfpBrowse : System.Windows.Forms.Form  
 {  
 private string path;  
 private string file;  
 private OleDbDataAdapter da;  
 private DataSet ds;  
 //...  
-}[/code]  
+}
+```
+  
   
 Jetzt kümmern wir uns ein wenig um die optische Ausstattung und werfen ein paar Controls auf die leere Form:  
 \* Label  
@@ -95,7 +99,9 @@ Das Ganze hübsch angeordnet und per Anchor-Eigenschaft festgetackert.
   
 So, jetzt kümmern wir uns um die Ereignisse, die Auftreten können. Da hätten wir zuerst den Click für die Dateiauswahl; diesem geben wir die FileDialog-Komponente für die Selektion der anzuzeigenden VFP-Tabelle.  
   
-[code]  
+
+```
+  
 private void cmdSelect\_Click(object sender, System.EventArgs e)  
 {  
 try  
@@ -113,11 +119,15 @@ if(openFileDialog1.ShowDialog() == DialogResult.OK)
 {  
 txtTable.Text = openFileDialog1.FileName;  
 }  
-}[/code]  
+}
+```
+  
   
 Als nächstes das Click-Ereignis des Browse-Button; hier nutzen wir die Fähigkeiten der OleDb-Klassen des .NET Framework. Mittels OleDbConnection öffnen wir die VFP-Tabelle, selektieren alles komplett in einen DataAdapter und füllen ein ungebundenes DataSet, welches dem DataGrid als Datenquelle zum Futtern zugeworfen wird. Fein, fein... damit haben wir die Anzeige der Tabelle.  
   
-[code]  
+
+```
+  
 private void cmdBrowse\_Click(object sender, System.EventArgs e)  
 {  
 try  
@@ -166,11 +176,15 @@ catch (Exception ex)
 {  
 Debug.WriteLine(ex.ToString());  
 }  
-}[/code]  
+}
+```
+  
   
 Als nächstes spendieren wir dem Update-Button die Fähigkeit per DataSet der Änderungen und dem bekannten DataAdapter die geänderten Informationen zurück in die VFP-Tabelle zu schreiben. Achja, dem DataAdapter haben wir natürlich im Vorfeld bereits von einem OleDbCommandBuilder erklären lassen, wie sowas zu funktionieren hat.  
   
-[code]  
+
+```
+  
 private void cmdUpdate\_Click(object sender, System.EventArgs e)  
 {  
 if(this.ds.HasChanges())  
@@ -186,21 +200,23 @@ catch (Exception ex)
 Debug.WriteLine(ex.ToString());  
 }  
 }  
-}[/code]  
+}
+```
+  
   
 Cool, oder?  
 Nunja, das ist erst die halbe Miete, denn die richtige Arbeitserleichterung unter Visual FoxPro besteht darin, dass die Feldinhalte direkt geändert und bei einem Zeilenwechsel ad hoc zurückgeschrieben werden.  
 Hehe, hier für habe ich mir einen Trick einfallen lassen: Das entsprechende Ereignis des DataGrid wird an die gleiche Methode wie der Update-Button gebunden...  
   
-[code]  
-this.grdTable.CurrentCellChanged += new System.EventHandler(this.cmdUpdate\_Click);  
-[/code]  
+`this.grdTable.CurrentCellChanged += new System.EventHandler(this.cmdUpdate\_Click);`  
   
 *flupp* Fertig!  
   
 So, ihr Lieben und jetzt das Ganze noch mal zusammenhängend für die Programmsammlung zuhause. Achja, das komplette Projekt ist als ZIP-Archiv ebenfalls verfügbar. Viel Spass!  
   
-[code]  
+
+```
+  
 using System;  
 using System.Drawing;  
 using System.Diagnostics;  
@@ -459,4 +475,5 @@ Debug.WriteLine(ex.ToString());
 }  
   
 }  
-}[/code]
+}
+```

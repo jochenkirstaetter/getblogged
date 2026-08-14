@@ -63,7 +63,9 @@ Die Breite ist noch einigermaßen easy zu kontrollieren, aber die Höhe des IFra
   
 Hier mal den aktuellen Code der Implementierung, damit klarer wird, wovon ich überhaupt spreche:  
   
-[code]  
+
+```
+  
 function resizeFrame(objectID) {  
 var e;  
 var domFrame = findDOM(objectID);  
@@ -81,7 +83,8 @@ fheight = 1000;
 domFrame.height = fheight;  
 domFrameStyle.display = 'block';  
 }  
-[/code]  
+```
+  
   
 Spannenderweise muss mit einem Try-Catch gearbeitet werden, da FireFox den Zugriff mit einer Exception quittiert. Und darin liegt auch die Sache ein wenig begraben. Ich hab's ebenfalls mittels Statusabfrage von document.readyState probiert, aber auch dann sieht's nicht besser aus.  
   

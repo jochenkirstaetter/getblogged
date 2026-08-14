@@ -12,7 +12,7 @@ tags:
 keywords: Projects, Personal
 metaTitle: Although it was a failure, it was successful
 metaDescription: ''
-image: content/images/2019/02/100DaysOfExam.png
+image: content/images/2019/02/100DaysOfExam.webp
 ogTitle: Although it was a failure, it was successful
 ogDescription: ''
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/successful-failure/
-imageUrl: https://jochen.kirstaetter.name/content/images/2019/02/100DaysOfExam.png
+imageUrl: content/images/2019/02/100DaysOfExam.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2019/02/100DaysOfExam.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2019/02/100DaysOfExam.png
+featureImage: content/images/2019/02/100DaysOfExam.webp
 featured: false
 publishedAt: ''
 updatedAt: 2019-02-08T23:26:47Z
@@ -54,5 +54,3 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
-

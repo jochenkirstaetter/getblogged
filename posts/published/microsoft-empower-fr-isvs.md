@@ -59,9 +59,9 @@ Heute gab's wieder eine tolle Nachricht von unserer CLIP-Betreuerin Dorothea. Ba
 
 Für gerade mal 320 Euro / 12 Monate, also noch nicht mal 27 Euro / Monat gibt's die volle Packung aus dem Hause Microsoft. Entwicklerherz, was willst du mehr? Ich für meinen Part würde, sofern ich nicht bereits die Lizenzen hätte 🤪 direkt zuschlagen und loslegen. Die Voraussetzungen und Zielsetzung für die Nutzungbedingungen sind absolut locker. Und binnen einen Jahres hat jede/r fähige Entwickler/in garantiert ein cooles Projekt aus dem Boden gestampft.
 
-{loadposition content\_adsense}
 
-Hm, falls ich mal Lizenzen brauchen sollte... Werde ich auf alle Fälle die Vorzüge von Empower für ISVs in Anspruch nehmen. Derzeit habe ich keinen Bedarf, aber locker zwei Projekte am Start, die ad hoc die Bedingungen für das Programm erfüllen würden. Über [url=/Projekt--Sunshine-Codename-Moonwalk]Projekt: Sunshine[/url] als Protokollsoftware für sportliche Aktivitäten habe ich ja bereits ein wenig geschrieben. Und das zweite wird noch nicht an die große Glocke gehängt, aber es ist in der Planungs- und Designphase. Mehr dazu frühestens 2007. Sunshine hat aktuell die höhere Priorität.
+
+Hm, falls ich mal Lizenzen brauchen sollte... Werde ich auf alle Fälle die Vorzüge von Empower für ISVs in Anspruch nehmen. Derzeit habe ich keinen Bedarf, aber locker zwei Projekte am Start, die ad hoc die Bedingungen für das Programm erfüllen würden. Über [Projekt: Sunshine](/Projekt--Sunshine-Codename-Moonwalk) als Protokollsoftware für sportliche Aktivitäten habe ich ja bereits ein wenig geschrieben. Und das zweite wird noch nicht an die große Glocke gehängt, aber es ist in der Planungs- und Designphase. Mehr dazu frühestens 2007. Sunshine hat aktuell die höhere Priorität.
 
 Also, ihr vielen Entwickler da draußen in den Weiten des Internets... Nicht lange überlegen, [sondern machen](https://go.microsoft.com/?linkid=5783716). Am besten noch mit dem Zusatz, dass ihr eure Lösungen in [Visual FoxPro](https://msdn.com/vfoxpro/) realisieren werdet.  
 Bis denne, JoKi

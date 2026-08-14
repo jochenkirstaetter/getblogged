@@ -162,4 +162,3 @@ posts:
   tagClass: tag-community
   imageClass: with-image
 ---
-

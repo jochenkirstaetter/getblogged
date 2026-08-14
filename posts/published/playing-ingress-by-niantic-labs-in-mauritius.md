@@ -58,7 +58,7 @@ codeinjectionFoot:
 > "The world around you  
 is not what it seems."
 
-**Absolutely right!**  
+## Absolutely right!
 Using the Ingress scanner app opens your view of your environment to a completely new world of discovery, excitement and you get drawn into an epic battle between the factions in Ingress, namely Enlightenment and Resistance. Niantic Labs is an off-spring from Google and develops Ingress independently from the Big Brother of internet searches and activities.
 
 ## []()What is it all about?

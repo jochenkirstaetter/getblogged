@@ -105,7 +105,7 @@ Due to my professional activities running a software development company I alrea
 
 That's all for the initial setup. More about the apps later...
 
-{loadposition content\_adsense}
+
 
 ## []()Flashing the latest Samsung firmware
 

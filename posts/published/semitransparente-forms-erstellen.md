@@ -57,9 +57,11 @@ Ausgehend von meinem letzten Beitrag zu Projekt Sunshine möchte ich heute ein p
 
 Als Programmierbasis verwende ich VFP 9.0 SP1 und unsere Komponentenbibliothek Acodey, welche in diesem Zusammenhang lediglich einige Helfermethoden zur Verfügung stellt, welche kein Hindernis zur Verwendung ohne Acodey darstellen.
 
-\*\*Transparenz in VFP-Forms realisieren\*\*  
+## Transparenz in VFP-Forms realisieren
 Die Erzeugung von Transparenz, oder besser gesagt Opacity, bei einer VFP-Form geht mittels der Windows 32 API relativ einfach. Man braucht dazu lediglich zwei API-Funktionen und schreibt die folgenden Zeilen etwa in die Init-Methode einer Form:  
-[code]#Define GWL\_EXSTYLE -20  
+
+```
+#Define GWL\_EXSTYLE -20  
 #Define WS\_EX\_LAYERED 0x80000
 
 Declare SetWindowLong In WIN32API ;  
@@ -72,34 +74,37 @@ Local lnOpacity
 m.lnOpacity = 255 \* This.nOpacity / 100 && This.nOpacity = 75 (%)  
 SetWindowLong(This.HWnd, GWL\_EXSTYLE, WS\_EX\_LAYERED)  
 SetLayeredWindowAttributes(This.HWnd, 0, m.lnOpacity, 2)  
-[/code]  
+```
+  
 Sieht ja schon mal recht einfach und effektiv aus. Nur gibt's dabei leider ein Problem. Erstens funktioniert es nur bei Top-Level-Formularen (ShowWindow = 2) und es werden sämtliche Controls auf dem Formular gleichermaßen transparent angezeigt. Sobald die Form In-Screen verwendet wird, haben die Codeanweisungen keine Wirkung. Well, zumindest kann man damit stylische Popups oder Tooltipps schreiben. Insbesondere wenn man den Opacity-Grad mittels Timer verändert. Anbei mal ein Screenshot mit dem Ergebnis:
 
-[img]https://jochen.kirstaetter.name/files/TransparentForm.png[/img]  
+![](https://jochen.kirstaetter.name/files/TransparentForm.png)  
 \*Opacity-Effektiv bei VFP-Form mit Thisform.ShowWindow = 2\*
 
 In den mitgelieferten Solution Samples in VFP ist übrigens ein entsprechendes Beispiel zu finden.  
-[code]Do Home(2) + "solutionsolution.app"[/code]  
+`Do Home(2) + "solutionsolution.app"`  
 Dort dann unter \*Forms :: Transparent forms\* schauen.
 
-\*\*Formulare vor der Kamera\*\*  
+## Formulare vor der Kamera
 Der zweite Ansatz besteht in der Anwendung des Blue-/Green-Screen Verfahrens wie man es bei der Filmproduktion kennt. Die Grundlage des Verhahrens ist, dass man diverse Regionen eines Formulars mit einem bestimmten Farbwert - etwa Rgb(0,0,255) oder Rgb(0,255,0) - maskiert und diese Regionen wiederum mittels Win32 API Funktionen aus dem Formular rausschneidet und damit Platz für den Hintergrund schaffen kann. Diesen Lösungsansatz habe ich zuerst bei [VFPSkin](https://www.vfpskin.com.ar/) entdecken können. Aber auch andere VFP-Coder in der Community, namentlich [Craig Boyd](https://www.sweetpotatosoftware.com/SPSBlog/PermaLink,guid,9a91dea3-6413-42e9-aeff-f0097937474d.aspx) und [Bernard Bout](https://weblogs.foxite.com/bernardbout/archive/2006/10/28/2765.aspx), haben bereits damit experimentiert. In den mitgelieferten Solution Samples von Visual FoxPro findet man ebenfalls einen Verweis auf diese Technik. Unter \*New in Visual FoxPro 8.0 :: Creating Irregularly shaped windows\* findet sich de entsprechende Quellcode für die Umsetzung. Die Lösungen von VFPSkin und Craig Boyd funktionieren jedoch auch für In-Screen-Formulare.
 
 Soweit sieht das ja schon ganz gut aus, aber... der eigentliche Effekt der Semitransparenz haben wir bisher noch nicht erreichen können. Und das größte Problem ist, dass die transparenten Stellen des Formulars immer transparent, also auch Controls 'verschwinden'. Bernard Bout beschreibt in seinem Artikel [Visual Foxpro shows its Glass!](https://weblogs.foxite.com/bernardbout/archive/2006/10/28/2765.aspx) zwar die Vorgehensweise unter Verwendung von zwei überlagerten Formularen, aber ich halte das für zu aufwendig. Letztendlich ist es Ansichtssache.
 
-\*\*Controls mit BackStyle = 0\*\*  
+## Controls mit BackStyle = 0
 VFP bietet von Haus aus bereits Transparenz für einige Controls an, leider befindet die Form-Klasse nicht darunter. Es wäre ja auch zu einfach... 🤪 Wenn man jedoch bedenkt, dass eine Form lediglich ein visueller Container mit ein paar netten Eigenschaften wie Titlebar samt Buttons, Datenumgebung, Beweglichkeit und Größenveränderung ist, dann kommt man doch recht schnell auf die Idee einen 'Form-Container' zu erstellen. Die Vorteile liegen meines Erachtens klar auf der Hand. Man erstellt sich eine generische Basisklasse für diesen Container und simuliert die Funktionsweise eines Formulars. Diesem verpasst man eine eigene Titlebar - hier einfach ein Shape -, ein Icon und die ControlButtons (Minimize, Maximize und Close).
 
-[img]https://jochen.kirstaetter.name/files/TransparentContainer.png[/img]  
+![](https://jochen.kirstaetter.name/files/TransparentContainer.png)  
 \*Generische Basisklasse für Container-basierte 'Form'\*
 
 Weiterhin stattet man dann den Container mit einigen Eigenschaften, wie ein Formular aus: Caption (mit Assign), Icon (mit Assign), Movable, nXCoord und nYCoord (wird für MouseMove gebraucht). Dazu kommen noch ein paar Methoden wie Show, Hide, EventClick und EventMouseMove und fertig ist die Basisklasse.
 
 Warum der ganze Aufwand eigentlich? Nun, der Trick hierbei liegt in der Möglichkeit, dass man auf diese Art und Weise sowohl vollständige Freiheit in der optischen Gestaltung von 'Formularen' besitzt und absolut problemlos mit Opacity in diversen Teilbereichen des Containers arbeiten kann.
 
-\*\*Den Container mit den Formfähigkeiten ausstatten\*\*  
+## Den Container mit den Formfähigkeiten ausstatten
 Damit unser Container das Look & Feel einer Form erhält, müssen wir noch ein paar Zeilen Code in die Basisklasse schreiben. Fangen wir mit den einfachen Dingen, wie etwa Caption und Icon an:  
-[code]Procedure This.Caption\_Assign  
+
+```
+Procedure This.Caption\_Assign  
 \*===================================================  
 \* Weitergabe des Parameters an das zuständige Control.  
 \*===================================================  
@@ -119,11 +124,14 @@ This.imgIcon.Picture = m.vNewVal
 This.imgIcon.Visible = .T.  
 This.Icon = m.vNewVal  
 EndProc  
-[/code]  
+```
+  
 Dies ermöglicht sowohl im Init wie auch zu späteren Zeitpunkten die einfache Veränderung dieser beiden Eigenschaften. Als nächstes wollen wir sicherstellen, dass unser Container verschiebbar wird.
 
 Dazu implementieren wir die verschiedenen Mouse-Methoden des Shapes, welches unsere Titlebar simulieren wird:  
-[code]Procedure This.shpTitlebar.MouseDown  
+
+```
+Procedure This.shpTitlebar.MouseDown  
 LPARAMETERS nButton, nShift, nXCoord, nYCoord
 
 This.Parent.nXCoord = m.nXCoord - Objtoclient(This.Parent, OBJTOCLIENT\_LEFT)  
@@ -149,9 +157,12 @@ LPARAMETERS nButton, nShift, nXCoord, nYCoord
 
 This.Parent.EventMouseMove(nButton, nShift, nXCoord, nYCoord)  
 EndProc  
-[/code]  
+```
+  
 Selbstverständlich kann dies auch per BindEvent()-Funktion gelöst werden. Dabei jedoch an den fünften Parameter (nFlags = 1) denken. Die eigentliche Umsetzung der Bewegung findet dann wieder im Container statt:  
-[code]Procedure This.EventMouseMove  
+
+```
+Procedure This.EventMouseMove  
 \*===================================================  
 \* Bewegung des Containers als Reaktion der Mausschubserei umsetzen  
 \*===================================================  
@@ -170,11 +181,14 @@ EndIf
 EndIf  
 Endwith  
 EndProc  
-[/code]  
+```
+  
 Sofern der Container als beweglich konfiguriert ist, führen wir die entsprechende Aktion auch durch. Warum die Verlagerung auf den Container? Ganz einfach, es könnten ja noch weitere Controls das Moven auslösen, oder die Titlebar setzt sich aus mehreren Controls (Images oder so... ) zusammen. Für unseren Basiscotainer gehen wir von einer rechteckigen Titlebar aus und arbeiten jetzt noch ein wenig mit der ZOrder des Shapes. Das Shape sollte auf alle Fälle über dem Caption-Label und dem Icon-Image liegen, jedoch unter dem Controlbox-Image, da die Buttons ja noch klickbar sein sollen. Apropos Controlbox... dieser wenden wir uns jetzt zu.
 
 In seinem Artikel [Using the Alpha Channel in Visual Foxpro Images](https://weblogs.foxite.com/bernardbout/archive/2006/09/11/2436.aspx) verwendet Bernard Bout unsichtbare Commandbuttons (übrigens Style = 1 und nicht Visible = .F.) für die Realisierung des gewünschten Effekts. Das erscheint mir ehrlich gesagt überflüssig, da das Image-Control über eine Click-Methode verfügt und man mittels der Funktion ObjToClient() rausfinden kann, wo auf dem Image geklickt wurde. Das Konzept ähnelt dabei einer ImageMap aus HTML; Regionen können unterschiedliche Aktionen auslösen. In VFP-Code sieht das Ganze dann so aus:  
-[code]Procedure This.imgControlBox.Click  
+
+```
+Procedure This.imgControlBox.Click  
 \*===================================================  
 \* Click-Ereignisse auf die Grafik 'simulieren'.  
 \* Wir verwenden eine Fallunterscheidung auf Basis der Position des  
@@ -200,9 +214,12 @@ This.Parent.EventClick("Close")
 EndCase  
 EndWith  
 EndProc  
-[/code]  
+```
+  
 Auch hier wieder die Ursache warum ich das so mache. Erstens, braucht man weniger Controls, die zwei bzw. drei CommandButtons sind schlichtweg überflüssig und man kann auf diese Weise auch wiederum irregulare Shapes verwenden. Selbst bei Nutzung von einzelnen Grafiken zur Darstellung der Buttons braucht es lediglich deren Click-Methode. Man denke hierbei an zusätzliche Form-Funktionalitäten wie etwa Menü, Stick und Shade (Linux-Kenner wissen Bescheid). Die Reaktion auf die Buttons wird wiederum im Container in der Methode EventClick implementiert:  
-[code]Procedure This.EventClick  
+
+```
+Procedure This.EventClick  
 \*===================================================  
 \* Reaktion auf die Click-Ereignisse der VistaButtons.  
 \*===================================================  
@@ -231,9 +248,12 @@ Case m.lcSource == "shade"
 Otherwise  
 EndCase  
 EndWith  
-[/code]  
+```
+  
 Selbstverständlich können auch andere Controls mit Click oder MouseDown-Ereignis auf diese Verarbeitungsmethode des Containers umgeleitet werden. Damit kann man auch die Synchronisierung gleichen Verhalten erreichen. Im OK- bzw. Abbrechen-Button ruft man lediglich parametrisiert This.EventClick auf und das war's. Somit haben wir die Grundfunktionalität des Containers erzeugt. Werfen wir noch einen Blick in die Init-Methode, in der einiges zusammengesteckt wird:  
-[code]Procedure This.Init  
+
+```
+Procedure This.Init  
 \*===================================================  
 \* Initialisierung der Container-Form auslösen.  
 \*===================================================  
@@ -278,18 +298,21 @@ EndWith
 
 Return m.llOk  
 EndProc  
-[/code]  
+```
+  
 Durch das Anchoring von VFP 9.0 werden noch ein paar Positionierungen korrigiert. Somit braucht man sich zur Designzeit nicht um solche Kleinigkeiten kümmern. Über die Eigenschaft This.lCustomTitlebar haben wir die oben bereits genannte Flexibilität, dass wir die Titlebar auch an beliebiger Stelle auf dem Form platzieren können, etwa wenn man einen Offset nach rechts oder unten braucht. Gut, der bisherige Code war erst die Pflicht, kommen wir nun zur Kür und zum eigentlich Ziel des Artikels; der Erstellung von semitransparenten Formularen.
 
-{loadposition content\_adsense}
 
-\*\*GDIPlusX aus VFPX hilft für die optische Darstellung\*\*  
+
+## GDIPlusX aus VFPX hilft für die optische Darstellung
 Da die bisherigen Ansätze über die Win32 API nicht zum gewünschten Ergebnis geführt haben, verfolgen wir nun einen anderen Ansatz. Unsere Container-Klasse ist bereits vollständig transparent und durch die Verwendung von PNG-Grafiken (Portable Network Graphics) mit Alpha-Kanal als Hintergrund können wir nun den gewünschten Opacity-Effekt produzieren. Und das sogar in beliebigen Shapes und Farbennuancen. Hier zunächst einmal das zu erreichende Ziel als Grafik:
 
-[img]https://jochen.kirstaetter.name/files/SemitransparentContainer.png[/img]  
+![](https://jochen.kirstaetter.name/files/SemitransparentContainer.png)  
 \*Transparente Container-Form mit semitransparenter Grafik\*  
 Hier kommt ausschliesslich eine Hintergrundgrafik zum Einsatz, die zur Laufzeit mittels GDI+ ad hoc generiert und dargestellt wird. Der Rahmen wird durch Image.BorderStyle = 1 erzeugt. Wie man sehr gut sehen, besteht die Hintergrundgrafik aus zwei Bereichen - semitransparente Titlebar und nichttransparenter Hintergrund. Dies wird in einem Zug in der Methode CreateBackground des Containers erzeugt.  
-[code]Procedure This.CreateBackground  
+
+```
+Procedure This.CreateBackground  
 \*===================================================  
 \* Erstellen der 'Background'-Grafik im Fluge... mittels GDIPlusX aus VFPX  
 \* GDIPlusX wird im Hauptprogramm bereits aktiviert.  
@@ -374,28 +397,25 @@ EndWith
 EndIf  
 EndWith  
 EndProc  
-[/code]  
+```
+  
 Die Kommentare im Quellcode erklären die Vorgehensweise ausreichend. Dennoch möchte ich hier kleinere Anmerkungen zum Code geben. Die Farbgebung der beiden grafischen Elemente - Titlebar und Background - erfolgt durch die Verwendung der Container-Eigenschaften ForeColor (für Titlebar) und BackColor (für Background). Da der Container eh vollständig transparent ist, kann man die Properties bedenkenlos zweckentfremden. Zumindest spart man sich hierdurch eigene Namen und kann den Color Picker im PropertySheet verwenden. Zusätzlich habe ich entsprechende Eigenschaften für die Opacity - ForeOpacity und BackOpacity - in Prozent angelegt. Somit können wir durch Setzen von vier Eigenschaften am Container den gewünschten Effekt unserer Semitransparenz in beliebigen Farben regulieren.
 
-[img]https://jochen.kirstaetter.name/files/BackOpacity.png[/img]  
+![](https://jochen.kirstaetter.name/files/BackOpacity.png)  
 \*Beliebige Variationen für Farbgebung und Opacity sind über Eigenschaften möglich\*
 
 Mit einer wenig Umstellung im Code könnte man auch die nachträgliche Veränderung der Hintergrundgrafik durch erneute Generierung realisieren. Ob das sinnvoll ist, sei dem Entwickler bzw. dem Anwender selbst überlassen.
 
-\*\*Verwaltung der 'Forms' an zentraler Stelle\*\*  
+## Verwaltung der 'Forms' an zentraler Stelle
 Da es sich bei unseren 'Formularen' ja um Container handelt, benötigen wir auch einen Mechanismus zum Laden der Instanzen. Das größte Problem, dass es in Verbindung mit VFP-Containern zu lösen gilt, ist das Fehlen der freien Instanzierung wie es bei Forms und Formklassen möglich ist. Container können in VFP nur aggregiert werden, damit sie sichtbar werden. Bei einer zweiten Betrachtung scheint die Lösung dennoch recht einfach zu sein, da wird bereits ein globales Form immer zur Verfügung haben: \_Screen
 
 Schaut man sich übrigens die Vorgehensweise bei VFP-Forms an, erkennt man auch sehr schnell, dass diese ebenfalls über den \_Screen verwaltet werden: \_Screen-Forms ist ein Array mit sämtlichen Referenzen der Formobjekte. Und durch Nachbildung dieser Funktionalität erreichen wir das gleiche Resultat. Wir aggregieren unsere Container ebenfalls an das \_Screen-Form(set) und legen die Verwaltung in einer Collection (anstelle eines Arrays) ab. Dadurch werden die Containerinstanzen an eine globale Stelle aggregiert und stehen in der gesamten Anwendung jederzeit zur Verfügung. Durch Vergabe von dynamischen Namen können wir ebenfalls stressfrei multiple Instanzen der gleichen Containerklasse erzielen und nutzen.
 
 Dazu erstellen wir uns einen generischen Container-Loader, der diese Aufgabe übernimmt. Die Loaderklasse erstellen wir übrigens in einem PRG namens \*container.prg\*. 🤪 Auf diese Weise können wir unsere Containerobjekte über zwei gleichwertige Wege erzeugen:  
-[code]
-
-[/code]  
+``  
 In Analogie zum Aufruf von VFP-Formularen mittels \*DO Form &lt;SCX&gt; WITH &lt;Parameter&gt;\* bietet unser Programm eine vergleichbare Funktionalität gemäß folgender Syntax:  
-[code]DO Container With &lt;Klasse&gt;, &lt;Bibliothek&gt;, &lt;Parameter&gt;  
-[/code]  
+`DO Container With &lt;Klasse&gt;, &lt;Bibliothek&gt;, &lt;Parameter&gt;`  
 Auf Grund der Aggregation des ContainerLoaders an \_Screen können wir ebenfalls folgenden Aufruf nutzen:  
-[code]\_Screen.Containers.LoadContainer(&lt;Klasse&gt;, &lt;Bibliothek&gt;, &lt;Parameter&gt;)  
-[/code]  
+`\_Screen.Containers.LoadContainer(&lt;Klasse&gt;, &lt;Bibliothek&gt;, &lt;Parameter&gt;)`  
 Durch die Verwendung einer Collection für unsere Container anstelle eines Arrays wie bei \_Screen.Forms haben wir die Möglichkeit sowohl über einen Index als auch über einen Schlüssel (Namen) auf die Objektreferenz zuzugreifen.  
 Bis denne, JoKi

@@ -155,7 +155,7 @@ The Confucius Institute is quite impressive and it was really good fun to spend 
 
 My heart-felt thanks go out to [Naamini Yonazi](https://x.com/naaminiyonazi), [Georgia Rwechungura](https://x.com/georgearwechu), the crew at [GDG Dar es Salaam](https://gdg.community.dev/gdg-dar-es-salaam/), and all WTM ambassadors involved in the preparation and organisation of DevFest Dar es Salaam. You are the real reason we had a wonderful time in Tanzania. Your early assistance and guidance helped us to feel welcome and at ease in Dar es Salaam.
 
-**Asante sana!**
+## Asante sana!
 
 ![Women power: Khadija, Janice, Naamini and Georgia (left to right)](../content/images/2023/12/GDG-Photo-505.webp)
 

@@ -5,12 +5,12 @@ slug: schreiben-an-die-gez
 date: 2005-10-02
 status: published
 type: post
-description: Schreiben an die GEZ Herrje, ist schon phantastisch, was man alles in seinen Unterlagen findet. Hier mal ein Schreiben an die GEZ zwecks Meldung von Rundfunkempf&#228;ngern (oder eben nicht). Das Schreiben wurde am 24.08.2001 verfasst:[i]Sehr geehrte Damen und Herren,vielen Dank f&#252;r Ihre nette Aufmerksamkeit, mir vor Augen zu f&#252;hren, dass
+description: Schreiben an die GEZ Herrje, ist schon phantastisch, was man alles in seinen Unterlagen findet. Hier mal ein Schreiben an die GEZ zwecks Meldung von Rundfunkempf&#228;ngern (oder eben nicht). Das Schreiben wurde am 24.08.2001 verfasst:Sehr geehrte Damen und Herren,vielen Dank f&#252;r Ihre nette Aufmerksamkeit, mir vor Augen zu f&#252;hren, dass
 tags:
 - General
 keywords: General
 metaTitle: Schreiben an die GEZ
-metaDescription: Schreiben an die GEZ Herrje, ist schon phantastisch, was man alles in seinen Unterlagen findet. Hier mal ein Schreiben an die GEZ zwecks Meldung von Rundfunkempf&#228;ngern (oder eben nicht). Das Schreiben wurde am 24.08.2001 verfasst:[i]Sehr geehrte Damen und Herren,vielen Dank f&#252;r Ihre nette Aufmerksamkeit, mir vor Augen zu f&#252;hren, dass
+metaDescription: Schreiben an die GEZ Herrje, ist schon phantastisch, was man alles in seinen Unterlagen findet. Hier mal ein Schreiben an die GEZ zwecks Meldung von Rundfunkempf&#228;ngern (oder eben nicht). Das Schreiben wurde am 24.08.2001 verfasst:Sehr geehrte Damen und Herren,vielen Dank f&#252;r Ihre nette Aufmerksamkeit, mir vor Augen zu f&#252;hren, dass
 image: ''
 ogTitle: Schreiben an die GEZ
 ogDescription: Herrje, ist schon phantastisch, was man alles in seinen Unterlagen findet. Hier mal ein Schreiben an die GEZ zwecks Meldung von Rundfunkempfängern (oder eben nicht). Das Schreiben wurde am 24.08.2001...

@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/customise-jitsi-meet/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 In this third article on Jitsi Meet we are going to explore a few options to customise your instance. And how to make them persistent while upgrading the installation packages. At the time of writing this article any modifications are overwritten when you update the installed packages; at least on Debian/Ubuntu.
 
 Given the architecture and the number of components involved in a Jitsi Meet installation there are multiple locations that allow you to tweak your installation.
@@ -156,7 +155,7 @@ As mentioned, optionally you could add one or more remotely located git reposito
 
 [https://github.com/jitsi/jitsi-meet-electron](https://github.com/jitsi/jitsi-meet-electron)
 
-![Using the Jitsi Meet Desktop (Electron-based) application ](../content/images/2020/04/image-24.png)
+![Using the Jitsi Meet Desktop (Electron-based) application ](../content/images/2020/04/image-24.webp)
 
 ```
 X-Frame-Options SAMEORIGIN;

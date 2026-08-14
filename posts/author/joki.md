@@ -10,7 +10,7 @@ tags: []
 keywords: ''
 metaTitle: Jochen Kirstätter
 metaDescription: The only frontiers are in your mind
-image: content/images/2017/07/DevCon2017Keynote-1-1.png
+image: content/images/2017/07/DevCon2017Keynote-1-1.webp
 ogTitle: Jochen Kirstätter
 ogDescription: The only frontiers are in your mind
 layout: author
@@ -29,7 +29,7 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: https://jochen.kirstaetter.name/
 location: Mauritius
-authorImage: content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/author/joki/
 imageUrl: ''
@@ -52,8 +52,6 @@ facebookImage: content/images/2017/07/DevCon2017Keynote-1-1.png
 codeinjectionHead: ''
 codeinjectionFoot: ''
 ---
-
-
 ## Articles
 
 - [Gemma 3 - missing features despite announcement](xref:gemma-3-missing-features-despite-announcement) - *2025-03-12*

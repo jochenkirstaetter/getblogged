@@ -71,7 +71,7 @@ And I was able to fulfill two of my last year's resolutions...
 
 Yes, 2013 was good, and it is with pleasure to say 'Goodbye'.
 
-{loadposition content\_adsense}
+
 
 ## []()Welcome 2014
 

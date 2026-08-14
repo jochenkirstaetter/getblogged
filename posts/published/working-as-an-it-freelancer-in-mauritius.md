@@ -64,7 +64,7 @@ But there are also other ways, and venturing into your own business is eventuall
 
 ## Cost of ...
 
-**Everything!**
+## Everything!
 
 Frankly, working as a freelancer compared to being an employee has some perks and additional liberty but there is (high) price to consider for that extra freedom. First, all your expenses in terms of equipment, training, licenses, rental fees, electricity, taxes, social security and medical insurance are on your account. But that's not all. You also have to take into consideration that even though you might be able to earn more money per month than an employed person that you won't have any paid benefits like local leave or sick leave.
 

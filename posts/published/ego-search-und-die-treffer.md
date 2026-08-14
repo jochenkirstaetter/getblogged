@@ -57,25 +57,25 @@ Ausgehend vom [vorherigen Blogeintrag](xref:family-website-aktualisiert) und der
 
 Gut, bei Google bin ich mit acht von zehn unter den ersten Treffern aktuell #1. Aber wesentlich interessanter finde ich die weiteren Treffer:
 
-[url=https://www.kirstaetter-massivhaus.de/Intro/intro.html]Kirstätter & Partner Massivhaus GmbH[/url] - Mosbach-Neckarelz  
-[url=https://web2.cylex.de/firma-home/kirstaetter-1542051.html]Brancheneintrag für Beleuchtung[/url] - Mannheim  
-[url=https://www.stadtbranchenbuch.com/karlsruhe/539179.html]Alfred Kirstätter[/url] - Karlsruhe  
-[url=https://kirstaetter.com/]Friedrich Kirstätter Elektrotechnik[/url] - Kleinsendelbach  
-[url=https://www.rhinestream.de/verstorbene%20musiker.htm]Verstorbener Jazz-Musiker: Kiki Kirstätter[/url] - Mannheim  
-[url=https://stayfriends.berlin.de/a/2209425/3335200/Baden-Wuerttemberg/Sersheim/Hauptschule/Hofaeckerschule\_Grund-\_und\_Hauptschule\_mit\_Werkrealschule/Nadja\_Kirstaetter.html]Nadja Kirstätter[/url] - Sersheim  
-[url=https://stayfriends.berlin.de/a/1533759/2258686/Rheinland-Pfalz/Neuwied/Gymnasium/Werner-Heisenberg-Gymnasium/Tamara\_Kirstaetter.html]Tamara Kirstätter[/url] - Neuwied (nicht meine Schwester 🤪)  
-[url=https://www.lehrer.uni-karlsruhe.de/~za874/chronik0506.htm]Lehrer(in) Kirstätter[/url] - Karlsruhe  
-[url=https://greggreno.com/family/search.php?action=soundex]Reno GEDCOM[/url] - Genealogie mit mehreren Verweisen  
-[url=https://freepages.genealogy.rootsweb.com/~njm1/stpaul-zelinop.htm]Einwanderer in die Neue Welt[/url] - Genealogie mit mehreren Verweisen  
-[url=https://www.odenwaldinstitut.de/cms/referent.php?suchstring=K]Rainer Kirstätter[/url] - Psychologe, Körperpsychotherapeut (HP) in freier Praxis, Gruppentrainer.  
-[url=https://www.cartec-bavaria.de/mbgl.htm]Klaus Kirstätter[/url] - Geschäftsführer Cartec GmbH  
-[url=https://fakultaet.geist-soz.uni-karlsruhe.de/ismk/index.php?nodeid=39]Dozent Institut für Soziologie, Medien- und Kulturwissenschaft[/url] - Karlsruhe  
-[url=https://www.meinestadt.de/linkenheim-hochstetten/branchenbuch/brkat/100-95328-96322-94080]Andrea Kirstätter[/url] - Pflegerischer Beratungsdienst, Linkenheim-Hochstetten  
-[url=]Marion Kirstätter[/url] - Beamtin Rathaus Speyer (Abt. 410 - Sozialhilfe und Sozialleistungen)  
-[url=https://www.ncsli.org/organization/index.cfm?fuseaction=home.dsp\_bio&position\_id=1221.0]Ron Kirstatter[/url] - USMC  
+[Kirstätter & Partner Massivhaus GmbH](https://www.kirstaetter-massivhaus.de/Intro/intro.html) - Mosbach-Neckarelz  
+[Brancheneintrag für Beleuchtung](https://web2.cylex.de/firma-home/kirstaetter-1542051.html) - Mannheim  
+[Alfred Kirstätter](https://www.stadtbranchenbuch.com/karlsruhe/539179.html) - Karlsruhe  
+[Friedrich Kirstätter Elektrotechnik](https://kirstaetter.com/) - Kleinsendelbach  
+[Verstorbener Jazz-Musiker: Kiki Kirstätter](https://www.rhinestream.de/verstorbene%20musiker.htm) - Mannheim  
+[Nadja Kirstätter](https://stayfriends.berlin.de/a/2209425/3335200/Baden-Wuerttemberg/Sersheim/Hauptschule/Hofaeckerschule\_Grund-\_und\_Hauptschule\_mit\_Werkrealschule/Nadja\_Kirstaetter.html) - Sersheim  
+[Tamara Kirstätter](https://stayfriends.berlin.de/a/1533759/2258686/Rheinland-Pfalz/Neuwied/Gymnasium/Werner-Heisenberg-Gymnasium/Tamara\_Kirstaetter.html) - Neuwied (nicht meine Schwester 🤪)  
+[Lehrer(in) Kirstätter](https://www.lehrer.uni-karlsruhe.de/~za874/chronik0506.htm) - Karlsruhe  
+[Reno GEDCOM](https://greggreno.com/family/search.php?action=soundex) - Genealogie mit mehreren Verweisen  
+[Einwanderer in die Neue Welt](https://freepages.genealogy.rootsweb.com/~njm1/stpaul-zelinop.htm) - Genealogie mit mehreren Verweisen  
+[Rainer Kirstätter](https://www.odenwaldinstitut.de/cms/referent.php?suchstring=K) - Psychologe, Körperpsychotherapeut (HP) in freier Praxis, Gruppentrainer.  
+[Klaus Kirstätter](https://www.cartec-bavaria.de/mbgl.htm) - Geschäftsführer Cartec GmbH  
+[Dozent Institut für Soziologie, Medien- und Kulturwissenschaft](https://fakultaet.geist-soz.uni-karlsruhe.de/ismk/index.php?nodeid=39) - Karlsruhe  
+[Andrea Kirstätter](https://www.meinestadt.de/linkenheim-hochstetten/branchenbuch/brkat/100-95328-96322-94080) - Pflegerischer Beratungsdienst, Linkenheim-Hochstetten  
+[url=]Marion Kirstätter - Beamtin Rathaus Speyer (Abt. 410 - Sozialhilfe und Sozialleistungen)  
+[Ron Kirstatter](https://www.ncsli.org/organization/index.cfm?fuseaction=home.dsp\_bio&position\_id=1221.0) - USMC  
 [The Kirstatters](https://kirstatter.net/) - Ron's family wie es scheint  
-[url=https://www.chaminade.edu/alumni/classNotes.php?pg=content\_classNotes.php&group=1990]Alumni Abgänger 1990[/url] - Lita Marie und Ronald V. Kirstatter - Hm, Ronald und Lita könnten zusammengehören. Zumindest lassen andere Ressourcen darauf schliessen.  
-[url=https://www.rz.uni-karlsruhe.de/~ea30/szj/aktuell\_archiv.php]Stefan Kirstätter[/url]
+[Alumni Abgänger 1990](https://www.chaminade.edu/alumni/classNotes.php?pg=content\_classNotes.php&group=1990) - Lita Marie und Ronald V. Kirstatter - Hm, Ronald und Lita könnten zusammengehören. Zumindest lassen andere Ressourcen darauf schliessen.  
+[Stefan Kirstätter](https://www.rz.uni-karlsruhe.de/~ea30/szj/aktuell\_archiv.php)
 
 Ist schon ziemlich interessant wie weit verbreitet dieser eher unübliche Name in der Welt vertreten ist. Stellt sich hierbei natürlich auch die Frage wie es mit der Genealogie insgesamt aussieht.
 

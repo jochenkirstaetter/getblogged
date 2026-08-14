@@ -11,7 +11,7 @@ tags:
 keywords: Recension
 metaTitle: Microservices Communication in .NET using gRPC
 metaDescription: ''
-image: content/images/2023/08/Designer.png
+image: content/images/2023/08/Designer.webp
 ogTitle: Microservices Communication in .NET using gRPC
 ogDescription: ''
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/microservices-communication-in-net-using-grpc/
-imageUrl: https://jochen.kirstaetter.name/content/images/2023/08/Designer.png
+imageUrl: content/images/2023/08/Designer.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2023/08/Designer.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2023/08/Designer.png
+featureImage: content/images/2023/08/Designer.webp
 featured: false
 publishedAt: ''
 updatedAt: 2023-08-24T06:48:14Z
@@ -53,5 +53,3 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
-

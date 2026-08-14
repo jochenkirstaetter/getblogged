@@ -5,9 +5,8 @@ layout: tag
 isTagPage: true
 bodyClass: "tag-template tag-personal"
 tagName: "Personal"
-image: "../content/images/2018/10/DnnBJRiW0AAs5vR.jpg-large.jpg"
+image: content/images/2018/10/DnnBJRiW0AAs5vR.jpg-large.webp
 ---
-
 # Tag: Personal
 
 ## Articles

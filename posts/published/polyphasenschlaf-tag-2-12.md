@@ -70,7 +70,7 @@ Genau wie gestern, verabschiede ich mich kurz nach 20:00 Uhr und fahre nach Haus
 
 Nach einem leichten Abendessen (Orangen, rote Grütze mit Sahne und viel Mineralwasser) sitze ich wieder am PC und erledige einige meine privaten Mails, checke die Beiträge in Foren und chatte mit den Freunden über Gott und die Welt. Achja, Musik darf selbstverständlich nicht fehlen. Eigentlich bin ich viel zu fit, um mich schlafen zu legen. Aber die Wachphase ist zu Ende und um 1:10 lege ich mich wieder hin. Countdown-Timer auf 30 Minuten und zweiter Wecker auf weitere 5 Minuten später eingestellt.
 
-\*\*Der Rückschlag\*\*  
+## Der Rückschlag
 Hm, wieso ist hell draußen? Wieviel Uhr ist es eigentlich und wieso fühle ich mich so schlapp? Es ist hell draußen, weil es inzwischen kurz nach 9:00 Uhr morgens ist. Mist, das sind dann gute 8 Stunden Schlaf. Damit habe ich auch die Vermutung für meine Schlaffheit: 8 Stunden sind nicht nur 3 teilbar. Was ist passiert, was ist fehl gelaufen?  
 Nach Prüfung der beiden Wecker ergibt sich folgendes: Ich habe beide ausgeschaltet. Okay, keine Erinnerung daran.
 

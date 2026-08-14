@@ -68,7 +68,7 @@ A quick research on either Google or Bing - you name it - reveals that it is nec
 
 But after trying all of them we came to the conclusion that none was really capable to do the job as required by the original specification. The main problem we had was the lack of navigational buttons for Back, Forward, Refresh or Cancel.
 
-{loadposition content\_adsense}
+
 
 ## Finally, finding Sites-2-Go HD
 

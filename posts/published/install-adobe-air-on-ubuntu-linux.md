@@ -74,9 +74,9 @@ Launch your favorite or standard file manager like thunar or nautilus and browse
 - Open a terminal like xterm
 - Change into the directory where you stored the download
 - Run this command:  
-[code]chmod +x AdobeAIRInstaller.bin[/code]
+`chmod +x AdobeAIRInstaller.bin`
 - Now run this command:  
-[code]sudo ./AdobeAIRInstaller.bin[/code]
+`sudo ./AdobeAIRInstaller.bin`
 
 
 
@@ -86,6 +86,6 @@ The normal installer will open, install it. From now whenever you download a .ai
 
 In case that the installation does not start properly, try to install via console. This gives you more details about the reasons. Should you run into something like this:
 
-[code]AdobeAIRInstaller.bin: 1: Syntax error: "(" unexpected[/code]
+`AdobeAIRInstaller.bin: 1: Syntax error: "(" unexpected`
 
 Double check the execute permission of the installer file and try again.

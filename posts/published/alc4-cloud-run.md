@@ -205,7 +205,7 @@ Cloud Run will respond with a simple `Done.` and provides you with the URL to ru
 
 ![React app running on Cloud Run](../content/images/2019/11/image-42.webp)
 
-**Awesome, well done!**  
+## Awesome, well done!
 You have managed to adjust the Docker image to listen to port 8080 and deployed the container to Cloud Run.
 
 ## Same steps in Cloud Console

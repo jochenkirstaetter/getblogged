@@ -95,16 +95,16 @@ Well, prior to the meetup I already requested our craftsmen to submit their pict
 
 Following an incomplete set of work desks we had a look at and talked about.
 
-![](../content/images/2013/11/mscc-20131116-1.webp)  
+![Work space of Yann](../content/images/2013/11/mscc-20131116-1.webp)  
 *Work space of Yann*
 
-![](../content/images/2013/11/mscc-20131116-2.webp)  
+![Work space of Nirvan](../content/images/2013/11/mscc-20131116-2.webp)  
 *Work space of Nirvan*
 
-![](../content/images/2013/11/mscc-20131116-3.webp)  
+![Work space of Nadim](../content/images/2013/11/mscc-20131116-3.webp)  
 *Work space of Nadim*
 
-![](../content/images/2013/05/multiple-screens.webp)  
+![My work space](../content/images/2013/05/multiple-screens.webp)  
 *My work space*
 
 More pictures of our craftsmen's workspaces and in general of our recent meetup are available [in the photo gallery](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/photos/18584632/ "MSCC creaftsmen show their working desks"). Most interestingly, there is a repetitive pattern in the hardware: multiple screens, high quality peripherals and head-phones or head-set.

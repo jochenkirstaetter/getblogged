@@ -58,7 +58,7 @@ Okay, ich glaub' 'ne verschärfte Runde Joggen oder Sandsack-Kloppen passt auch 
 
 Hachja, das Blog als mentaler Stressabbau, tjoa, Leute, das müsst / dürft ihr nun aushalten. Schliesslich ist das MEIN MOND! Jaaa, genau... MEIN MOND! 🤪
 
-Ach, druff gesch\*\*\*, ich zieh' mir noch 2 Liter Tee in die Birne, werd' mir heute Abend potentiell Fight Club oder Die Passion Christi reinziehen und dann geht's mir wahrscheinlich wieder wesentlich besser. Nur meine aktuelle Stimmung ist mehr als GEREIZT.
+Ach, druff gesch**\*, ich zieh' mir noch 2 Liter Tee in die Birne, werd' mir heute Abend potentiell Fight Club oder Die Passion Christi reinziehen und dann geht's mir wahrscheinlich wieder wesentlich besser. Nur meine aktuelle Stimmung ist mehr als GEREIZT.
 
 Nunja, vllt. auch einfach nur ein Kennzeichen, dass ich menschlich bin und entsprechend reagiere. Who knows...  
 Ciao, ciao, folks.

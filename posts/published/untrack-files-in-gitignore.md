@@ -73,7 +73,7 @@ To undo the previous command, add that single file back using `git add filename`
 
 Occasionally, there is more than a single file to handle. Here's how to untrack *every* file that is now in your `.gitignore` and then add all other files back.
 
-**First commit any outstanding code changes!**
+## First commit any outstanding code changes!
 
 Then, run this command to untrack everything.
 

@@ -79,7 +79,7 @@ Honestly, I simply like the idea of openess with this gaming console. Furthermor
 
 Being a software craftsman I'm also looking forward to use the OUYA console for a couple of my own developments based on [Mono for Android](https://xamarin.com/ "Mono for Android"). Actually, it should be straight forward and easy to 'port' those apps onto the big screen. Also taking into consideration that the upcoming generation of Android devices will likely ship with high-resolution displays as the S4 already does. The next Samsung Unpacked event at the IFA exhibition in Germany will hopefully bring us a new tablet with higher pixel density and resolution.
 
-{loadposition content\_adsense}
+
 
 Another reason to go for OUYA is also based on my slight disappointment about the upcoming products by the big three. Namely, Nintendo with the Wii U, Sone with the PS4 and Microsoft with the XBox 720. I don't know but none of those systems is really catching my full attention. Frankly, the consoles made by Sony and Microsoft never did and I guess wont ever, but even Nintendo doesn't fit my expectations completely. Gaming on Nintendo since the early ages of consoles - I had quite some in the past: NES, SNES, Game Boy, N64, NDS, GameCube, Wii - but I have to have a closer look at the Wii U in order to decide whether I'm going to upgrade my Wii system or not. It all depends on the game experience and available titles. Eventually, I might check out one of the stores in Rose Hill to try the Wii U for some minutes, and have some exchange with other gamers on that.
 

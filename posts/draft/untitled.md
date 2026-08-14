@@ -29,12 +29,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/untitled/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -52,7 +52,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 > Great artists get the details right but continually step back to take in the whole picture. That's the key to software design. Focusing on the smallest details while continually stepping back & taking in the big picture. Ongoing visualisation of the emerging architecture's vital [pic.x.com/CSEzMqvDmn](https://t.co/CSEzMqvDmn)
 >
 > — jasongorman (@jasongorman) [October 4, 2018](https://x.com/jasongorman/status/1047810990040109056?ref_src=twsrc%5Etfw)

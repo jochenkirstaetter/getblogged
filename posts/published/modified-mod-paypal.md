@@ -61,7 +61,9 @@ Well, it could.
 
 Actually, my main problem with this module is about XHTML 1.0 compliance. Sadly to see that the current version (as of writing this article) does not follow the W3C rules about XHTML 1.0. Luckily, the necessary changes are very simple to realize by modfying one PHP file. Following is the modified version:
 
-[code]&lt;form action="https://www.paypal.com/cgi-bin/webscr" method="post"&gt;  
+
+```
+&lt;form action="https://www.paypal.com/cgi-bin/webscr" method="post"&gt;  
 &lt;input type="hidden" name="cmd" value="\_donations" **/**&gt;  
 &lt;input type="hidden" name="business" value="&lt;?php echo $paypal\_emailID; ?&gt;" **/**&gt;  
 &lt;input type="hidden" name="item\_name" value="&lt;?php echo $item\_name; ?&gt;" **/**&gt;  
@@ -90,7 +92,9 @@ echo "&lt;input type=\"image\" **border=\"0\"** src=\"" . $own\_donate\_image . 
 alt=\"PayPal - The safer, easier way to pay online!\" **/**&gt;\r\n";  
 }  
 ?&gt;  
-&lt;/form&gt;[/code]
+&lt;/form&gt;
+```
+
 
 *Modified version of mod\_paypal-j15/tmpl/default.php*
 

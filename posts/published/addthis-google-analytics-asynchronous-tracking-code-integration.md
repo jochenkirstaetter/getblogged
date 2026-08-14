@@ -62,7 +62,9 @@ The steps to use the asynchronous tracking is straight forward:
 - Memorize or copy your web property ID from the existing snippet
 - Remove the synchronous tracking code
 - Insert the asynchronous tracking code  
-[code]&lt;script type="text/javascript"&gt;&lt;!--  
+
+```
+&lt;script type="text/javascript"&gt;&lt;!--  
 var \_gaq = \_gaq || [];  
 \_gaq.push(['\_setAccount', 'UA-XXXXX-X']);  
 \_gaq.push(['\_trackPageview']);  
@@ -72,7 +74,9 @@ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async
 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';  
 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);  
 })();  
-// --&gt;&lt;/script&gt;[/code]
+// --&gt;&lt;/script&gt;
+```
+
 - Replacing UA-XXXXX-X with your web property ID.
 
 That's the easy part...
@@ -81,27 +85,37 @@ That's the easy part...
 
 Anyways, back to this article. You can send AddThis shares to your Google Analytics reports as custom events in the category “addthis” by adding the following configuration code to your existing AddThis sharing code:
 
-[code]addthis\_config = {  
+
+```
+addthis\_config = {  
 data\_ga\_tracker: pageTracker  
-}[/code]
+}
+```
+
 
 The main problem about the interoperability between AddThis and Google Analytics is that the asynchronous tracking code does not provide a pageTracker object anymore. As said, this only works with the synchronous tracking code of Google Analytics. The forum threads actually provides some directions towards the solution of this problem. The link between those two services is to reference the GA pageTracker object in the AddThis configuration.
 
 The Asynchronous Tracking Usage Guide provides the necessary information in the paragraphs about Multiple Tracker Objects and Pushing Functions. It is not clearly described on the spot but with a little bit of logic you can figure it out: Create your own Javascript variable that queries the Google API.
 
-[code]\_gaq.push(function() {  
+
+```
+\_gaq.push(function() {  
 var pageTracker = \_gaq.\_getAsyncTracker('myTracker');  
 var link = document.getElementById('my-link-id');  
 link.href = pageTracker.\_getLinkerUrl('https://example.com/');  
-});[/code]&lt;
+});
+```
+&lt;
 
 The solution lies in the parameter of \_getAsyncTracker(). The samples in the User Guide refer to a named tracker. But what about the initial one? Right, just specify an empty string and you are done!
 
-{loadposition content\_adsense}
+
 
 To summarize this article just use the following code snippet at the very end of your website to integrate Google Analytics : Asynchronous Tracking with your AddThis analytics:
 
-[code]&lt;!-- Google Analytics and AddThis button --&gt;  
+
+```
+&lt;!-- Google Analytics and AddThis button --&gt;  
 &lt;script type="text/javascript"&gt;  
 (function() {  
 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;  
@@ -118,7 +132,9 @@ pageTracker = \_gaq.\_getAsyncTracker('');
 var addthis\_config = {  
 data\_ga\_tracker: pageTracker  
 };&lt;/script&gt;  
-&lt;/body&gt;[/code]
+&lt;/body&gt;
+```
+
 
 The GA user guide recommends to split your asynchronous code over your HTML content. The setup of the tracker should be directly after the &lt;body&gt; tag whereas the rest should be placed at the very end of your document (as described above).
 

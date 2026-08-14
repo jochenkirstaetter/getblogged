@@ -72,7 +72,7 @@ The app is available in two editions:
 
 As soon as I saw the public posting over on Google+ I went to their [official announcement on the Knowledge Seven blog](https://www.knowledge7.com/2014/03/04/mauritius-vibrations-a-mobile-app-to-stop-you-getting-bored/ "official announcement on the Knowlegde Seven blog") to get some more background details. So, shut up and take my money ;-)
 
-{loadposition content\_adsense}
+
 
 Here's my current app review I posted on the Play Store:
 

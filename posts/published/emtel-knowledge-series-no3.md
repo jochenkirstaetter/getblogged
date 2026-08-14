@@ -96,7 +96,7 @@ General access to internet via broadband and/or mobile connectivity is surely a 
 How would it be possible to achieve a knowledge-based society? YouTube to the rescue!  
 Seriously, gaining more knowledge will require to have fast access to educational course material as explained by Dr Kaviraj Sukon, General Director of the [Open University of Mauritius](https://www.open.ac.mu/). According to him a good number of high-profile universities in the world have opened their course libraries to the general public, among them EDX, Coursera and Open University. Nowadays, you're actually able and enabled to learn for and earn a BSc or even MSc certification on your own pace - no need to attend classed on campus. It was really impressive to see the number of available hours - more than enough for a life-long learning experience!
 
-{loadposition content\_adsense}
+
 
 ## []()Networking in the name of MSCC
 

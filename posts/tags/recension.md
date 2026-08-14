@@ -5,9 +5,8 @@ layout: tag
 isTagPage: true
 bodyClass: "tag-template tag-recension"
 tagName: "Recension"
-image: "../content/images/2018/10/100DaysOfExam_Site.jpg"
+image: content/images/2018/10/100DaysOfExam_Site.webp
 ---
-
 # Tag: Recension
 
 ## Articles

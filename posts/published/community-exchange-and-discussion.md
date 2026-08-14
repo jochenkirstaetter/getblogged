@@ -73,7 +73,7 @@ During the first months in Mauritius I was way too busy to think about community
 
 Anyway, having this kind of background and very positive experience with off-line and on-line activities I decided for myself that some day I'm going to found a community in Mauritius for all kind of IT/ICT-related fields. The main focus might be on software development but not on a certain technology or methodology. It was clear to me that it should be an open infrastructure and anyone is welcome to join, to experience, to share and to contribute if they would like to. That was the idea at that time...
 
-{loadposition content\_adsense}
+
 
 Ok, fast-forward to recent events. At the end of October 2012 I was invited to an event called Open Days organised by Microsoft Indian Ocean Islands together with other local partners and resellers. There I got in touch with local Technical Evangelist Arnaud Meslier and we had a good conversation on communities during the breaks. Eventually, I left a good impression on him, as we are having chats on Facebook or Skype irregularly. Well, seeing that my personal and professional surroundings have been settled and running smooth, having that great exchange and contact with Microsoft IOI (again), and being really eager to re-animate my intentions from 2007, I recently founded a new community:
 

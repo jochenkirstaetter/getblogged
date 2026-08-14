@@ -58,7 +58,7 @@ codeinjectionFoot:
 Ich möchte euch natürlich nicht die Beurteilung von Gerd vorenthalten. Dafür gibt's zwei Varianten. Ihr lest entweder direkt bei Gerd oder hier bei mir... Es steht euch frei.  
   
 Verweis zu Gerds Website:  
-[url=https://baiertaler.sct-straub.com/baiertaler.afp3?mc=1003%26mode1=rezVIEW%26id=1]Versionskontrolle mit Subversion[/url]  
+[Versionskontrolle mit Subversion](https://baiertaler.sct-straub.com/baiertaler.afp3?mc=1003%26mode1=rezVIEW%26id=1)  
 Falls es Probleme mit einem Redirect-Fehler geben sollte, dann die Empfehlung von Gerd diesen Link: [https://baiertaler.sct-straub.com/reso.afp3?icf=REZENSION1](https://baiertaler.sct-straub.com/reso.afp3?icf=REZENSION1) zu verwenden.  
   
 Die Ausleihe des Inhalts:  

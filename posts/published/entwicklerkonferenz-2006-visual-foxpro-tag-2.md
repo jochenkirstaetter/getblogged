@@ -53,13 +53,13 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-\*\*Auszeit...\*\*  
+**Auszeit...**  
 Nach einer kurzen Nachtphase geht's ein wenig 'verkatert' in die nächste Runde der diesjährigen Devcon. Zum Auftakt des Tages schaue ich mir zunächst die Verbesserungen und Erweiterungen der VFP 9.0 Reportengine im Zuge des kommenden Service Pack 2 an.
 
-\*\*D-WEB1\*\*  
-\*\*D-NET4\*\*  
-\*\*D-GUI\*\*  
-\*\*D-CLR\*\*  
-\*\*Ausklang des Tages\*\*
+**D-WEB1**  
+**D-NET4**  
+**D-GUI**  
+**D-CLR**  
+**Ausklang des Tages**
 
 Bis denne, JoKi

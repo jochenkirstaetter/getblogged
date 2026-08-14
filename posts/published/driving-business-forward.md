@@ -62,6 +62,6 @@ Thanks to the effort of [Knowledge 7](https://www.knowledge7.com/ "Knowledge 7")
 
 Overall I was very pleased by the level of professionalims in the organisation prior to the event and the actual execution on the premises of the University of Mauritius. The audience was also very diverse and various types of people were present: students, SEO freelancer, ghost writer, marketing manager of local and international brands, and even deligates from local newspaper and magazines. The Q&A session at the end of the meeting gave me a nice overview of other's struggles and success stories as well as new ideas for my businesses.
 
-{loadposition content\_adsense}
+
 
 A big Thank You to the team at Knowledge 7 and the speakers. I'm really looking forward to one of the next gatherings.

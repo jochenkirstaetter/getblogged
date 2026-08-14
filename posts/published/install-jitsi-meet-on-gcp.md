@@ -399,7 +399,7 @@ Open a new browser tab or better an incognito window and navigate to the FQDN yo
 
 ![Welcome to your own Jitsi Meet video conferencing system](../content/images/2020/04/image-11.webp)
 
-**Congratulations!**
+## Congratulations!
 
 When you click on the gear symbol in the top right corner your browser should ask for permissions to access microphone and camera.
 

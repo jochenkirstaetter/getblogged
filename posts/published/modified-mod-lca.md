@@ -69,7 +69,9 @@ Alright, having a look at the source code files of Mod LCA gives a direct glue a
 
 Before any modifications be aware to have a backup at hand. Open the file mod\_lca/helper.php with your favourite text editor and change the query statement like so:
 
-[code]$query = 'SELECT a.id, a.title, a.alias, a.catid, a.sectionid, c.alias as calias, '.  
+
+```
+$query = 'SELECT a.id, a.title, a.alias, a.catid, a.sectionid, c.alias as calias, '.  
 $created.  
 ' FROM #\_\_content AS a'.  
 ' LEFT JOIN #\_\_categories AS c ON c.id=a.catid'.  
@@ -84,7 +86,9 @@ $db-&gt;setQuery($query);
   
 ... some lines down ...  
   
-$out[$d[0]][$month][] = '&lt;a href="'.$link.'"&gt;'.**htmlspecialchars(**$row-&gt;title**)**.'&lt;/a&gt;';[/code]
+$out[$d[0]][$month][] = '&lt;a href="'.$link.'"&gt;'.**htmlspecialchars(**$row-&gt;title**)**.'&lt;/a&gt;';
+```
+
 
 *Modified code of mod\_lca/helper.php*
 
@@ -94,19 +98,25 @@ After running some validation tests according to XHTML 1.0 compliance I did some
 
 To create the tree hierarchy of the article list based on year and month, mod\_lca needs some CSS and JavaScript instructions. Well, for the JavaScript it is not a problem itself but the CSS styles should not be placed with the &lt;body&gt; tag of the rendered page. To improve this situation it is necessary to tidy some code of mod\_lca.
 
-[code]if (!DEFINED("LCA\_HEADER")) {  
+
+```
+if (!DEFINED("LCA\_HEADER")) {  
 // If cache is enabled, we can't add css neither js files  
   
 define("LCA\_HEADER", 1);  
 echo '  
 **(&lt;style&gt; section deleted)**  
-&lt;script type="text/javascript"&gt;[/code]
+&lt;script type="text/javascript"&gt;
+```
+
 
 *Modified code of mod\_lca/tmpl/default.php*
 
 The key of this solution is to move the style information away from the module and into the template CSS file or if you prefer in its own CSS file. To reduce the number of HTTP requests the styles should be in the template.css file.
 
-[code]/\*\*\*\*\*\*\*\*  
+
+```
+/\*\*\*\*\*\*\*\*  
 mod\_LCA  
 \*\*\*\*\*\*\*\*/  
 li.lca {  
@@ -117,7 +127,9 @@ padding: 0px
 }  
 span.lca {  
 cursor: pointer  
-}[/code]
+}
+```
+
 
 *Modified CSS code of template.css*
 

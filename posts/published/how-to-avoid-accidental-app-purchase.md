@@ -80,7 +80,7 @@ Following the breadcrumbs I found out which app might have been the root cause. 
 
 But at least in our house-hold one question remained open: One which device did it happen?
 
-{loadposition content\_adsense}
+
 
 Even though the app has been installed already, you can still again on the **Installed** button and you will be presented with a drop-down selection of compatible devices. But most interestingly, you will also get the information on which smartphone or tablet the app has been installed already.
 

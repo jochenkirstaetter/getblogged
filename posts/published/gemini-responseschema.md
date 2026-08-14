@@ -230,8 +230,8 @@ The generated output looks like this
 Specifying the property `Name` as a **nullable string**. This is conform with the specs of `type` according to [https://json-schema.org/understanding-json-schema/reference/type](https://json-schema.org/understanding-json-schema/reference/type) allowing *instances that can be of multiple primitive types*.
 
 *The type keyword may either be a string or an array:*  
-\*\* If it's a string, it is the name of one of the basic types above.\*  
-\*\* If it is an array, it must be an array of strings, where each string is the name of one of the basic types, and each element is unique. In this case, the JSON snippet is valid if it matches any of the given types.\*
+** If it's a string, it is the name of one of the basic types above.\*  
+** If it is an array, it must be an array of strings, where each string is the name of one of the basic types, and each element is unique. In this case, the JSON snippet is valid if it matches any of the given types.\*
 
 See also [https://json-schema.org/draft/2020-12/json-schema-core#section-7.6.1](https://json-schema.org/draft/2020-12/json-schema-core#section-7.6.1) and following paragraphs.
 

@@ -12,7 +12,7 @@ tags:
 keywords: Community, Andela
 metaTitle: 'You have reached your destination - #150DaysOfALC4'
 metaDescription: It was an incredible journey.
-image: https://images.unsplash.com/photo-1558949623-35b2e2649754?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2019/11/photo-1558949623-35b2e2649754.webp
 ogTitle: 'You have reached your destination - #150DaysOfALC4'
 ogDescription: It was an incredible journey.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/alc4-completed/
-imageUrl: https://images.unsplash.com/photo-1558949623-35b2e2649754?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2019/11/photo-1558949623-35b2e2649754.webp
 twitterImageUrl: https://images.unsplash.com/photo-1558949623-35b2e2649754?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1558949623-35b2e2649754?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2019/11/photo-1558949623-35b2e2649754.webp
 featured: false
 publishedAt: ''
 updatedAt: 2020-01-15T11:59:30Z
@@ -53,8 +53,8 @@ facebookDescription: It was an incredible journey.
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 It was an incredible journey.
 
 <small>Image credit: Patrick Amoy</small>

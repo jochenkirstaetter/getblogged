@@ -90,6 +90,6 @@ And, not to forget to mention I also got some event invitations which I had to a
 
 Anyway, I kept my notes of interesting topics I would like to pin down here on the blog, and during the upcoming weeks I'm confident to share my thoughts on various aspects of software development, community activities in the IT world of Mauritius, and of course life in general.
 
-{loadposition content\_adsense}
+
 
 Stay tuned for more chapters to come...

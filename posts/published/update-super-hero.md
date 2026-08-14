@@ -57,7 +57,7 @@ While I was looking for a completely different article back in 2007, I came acro
 
 ## Your Super Hero results:
 
-**You are Spider-Man**  
+## You are Spider-Man
 You are intelligent, witty,  
 a bit geeky and have great  
 power and responsibility.  

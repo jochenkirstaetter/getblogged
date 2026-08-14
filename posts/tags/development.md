@@ -5,9 +5,8 @@ layout: tag
 isTagPage: true
 bodyClass: "tag-template tag-development"
 tagName: "Development"
-image: "../content/images/2018/10/20626381_10203983204297799_562900680618946131_o.jpg"
+image: content/images/2018/10/20626381_10203983204297799_562900680618946131_o.webp
 ---
-
 # Tag: Development
 
 ## Articles

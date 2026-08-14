@@ -57,6 +57,6 @@ The [National Computer Board](https://www.ncb.mu/) (NCB) invited to visit their 
 
 Actually, I had several chances to meet people from Microsoft Indian Ocean, the [University of Mauritius](https://www.uom.ac.mu/) and the [University of Technology, Mauritius](https://www.utm.ac.mu/)
 
-{loadposition content\_adsense}
+
 
 After all I spend some nice hours at the Convention Centre. Looking forward to Infotech 2009.

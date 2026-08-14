@@ -5,12 +5,12 @@ slug: decorator-im-praktischen-einsatz
 date: 2006-11-02
 status: published
 type: post
-description: "Decorator im praktischen Einsatz Ja, ich wei&#223;... Decorator hier, Decorator dort. :icon_biggrin: - Langsam reicht es doch mal wieder. Nun, ja ihr habt ja recht. Nach den bisherigen Blogeintr&#228;gen[url=/Design-Pattern-Decorator]Design Pattern: Decorator[/url]<a href='/Anmerkungen-zum-Decorator-Design-Pattern'>Anmerkungen zum Decorator Design Pattern</a>m&#246;chte ich die Serie &#252;ber dieses Entwurfsmuster mit diesem Beitrag vorerst abschliessen.Warum der Nachschlag? Wieder einmal"
+description: "Decorator im praktischen Einsatz Ja, ich wei&#223;... Decorator hier, Decorator dort. :icon_biggrin: - Langsam reicht es doch mal wieder. Nun, ja ihr habt ja recht. Nach den bisherigen Blogeintr&#228;genDesign Pattern: Decorator<a href='/Anmerkungen-zum-Decorator-Design-Pattern'>Anmerkungen zum Decorator Design Pattern</a>m&#246;chte ich die Serie &#252;ber dieses Entwurfsmuster mit diesem Beitrag vorerst abschliessen.Warum der Nachschlag? Wieder einmal"
 tags:
 - Community
 keywords: Community
 metaTitle: Decorator im praktischen Einsatz
-metaDescription: "Decorator im praktischen Einsatz Ja, ich wei&#223;... Decorator hier, Decorator dort. :icon_biggrin: - Langsam reicht es doch mal wieder. Nun, ja ihr habt ja recht. Nach den bisherigen Blogeintr&#228;gen[url=/Design-Pattern-Decorator]Design Pattern: Decorator[/url]<a href='/Anmerkungen-zum-Decorator-Design-Pattern'>Anmerkungen zum Decorator Design Pattern</a>m&#246;chte ich die Serie &#252;ber dieses Entwurfsmuster mit diesem Beitrag vorerst abschliessen.Warum der Nachschlag? Wieder einmal"
+metaDescription: "Decorator im praktischen Einsatz Ja, ich wei&#223;... Decorator hier, Decorator dort. :icon_biggrin: - Langsam reicht es doch mal wieder. Nun, ja ihr habt ja recht. Nach den bisherigen Blogeintr&#228;genDesign Pattern: Decorator<a href='/Anmerkungen-zum-Decorator-Design-Pattern'>Anmerkungen zum Decorator Design Pattern</a>m&#246;chte ich die Serie &#252;ber dieses Entwurfsmuster mit diesem Beitrag vorerst abschliessen.Warum der Nachschlag? Wieder einmal"
 image: ''
 ogTitle: Decorator im praktischen Einsatz
 ogDescription: "Ja, ich weiß... Decorator hier, Decorator dort. \U0001F601 - Langsam reicht es doch mal wieder. Nun, ja ihr habt ja recht. Nach den bisherigen Blogeinträgen"

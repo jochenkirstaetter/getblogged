@@ -57,7 +57,7 @@ Yesterday I stumbled over a good article in German language - [Arbeiten mit Para
   
 Well, Tom uses blogger and because I don't have an account there I post my comments here in own 'blog space'. In his article Tom shows some code to transfer the value of the properties of the parameter object to the value properties of controls on the form. Well, I think that this could be way easier using the ControlSource property of the control directly. On the one hand the value is then bound to the parameter object and any changes are directly 'transferred' and on the other hand the concept saves you lots of code. Just configure the ControlSource of each control in the Property Window on the form and you are done. No extra code in Init or Destroy methods necessary.  
   
-[code]Text1.ControlSource = Thisform.oParameters.StartDatum[/code]  
+`Text1.ControlSource = Thisform.oParameters.StartDatum`  
   
 In case of an error change the value of Thisform.BindControls = .F. and one of your last lines in the form Init method is to set the value to .T.  
   

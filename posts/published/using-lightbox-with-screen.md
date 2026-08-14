@@ -186,7 +186,7 @@ This.Visible = .F.
 Endif  
 ```
 
-{loadposition content\_adsense}
+
 
 Are we done? Almost... Although, Bernard says it clearly in his article:
 

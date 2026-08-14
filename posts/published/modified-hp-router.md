@@ -71,16 +71,24 @@ To correct this problem it is necessary to modify two PHP files of the original 
 
 Almost of the end of each file there are the SQL statements to query the database. After you made a backup of your two files you should change them like so:
 
-[code]$db =& JFactory::getDBO();  
+
+```
+$db =& JFactory::getDBO();  
 if($vars['view'] == 'article')  
 {  
 $query = 'SELECT id FROM #\_\_content WHERE **state = 1 AND** alias = '.$db-&gt;Quote($vars['id']);  
-} elseif($vars['view'] == 'category') {[/code]
+} elseif($vars['view'] == 'category') {
+```
+
 
 *Modified version of hprouter/com\_contentrouter.php*
 
-[code]$db =& JFactory::getDBO();  
-$query = 'SELECT id FROM #\_\_contact\_details WHERE **state = 1 AND** alias = '.$db-&gt;Quote($vars['id']);[/code]
+
+```
+$db =& JFactory::getDBO();  
+$query = 'SELECT id FROM #\_\_contact\_details WHERE **state = 1 AND** alias = '.$db-&gt;Quote($vars['id']);
+```
+
 
 *Modified version of hprouter/com\_contactrouter.php*
 

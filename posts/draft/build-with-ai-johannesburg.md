@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: Build with AI Johannesburg
 metaDescription: ''
-image: content/images/2024/06/1714321927716.jpeg
+image: content/images/2024/06/1714321927716.webp
 ogTitle: Build with AI Johannesburg
 ogDescription: ''
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/build-with-ai-johannesburg/
-imageUrl: https://jochen.kirstaetter.name/content/images/2024/06/1714321927716.jpeg
+imageUrl: content/images/2024/06/1714321927716.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2024/06/1714321927716.jpeg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2024/06/1714321927716.jpeg
+featureImage: content/images/2024/06/1714321927716.webp
 featured: false
 publishedAt: ''
 updatedAt: 2024-06-06T13:57:59Z
@@ -53,5 +53,3 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
-

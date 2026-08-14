@@ -5,12 +5,12 @@ slug: kommentar-zu-parameterobjekte
 date: 2006-08-25
 status: published
 type: post
-description: "Kommentar zu 'Parameterobjekte' Grundlage für diesen Beitrag liefert der Blogeintrag von Olaf Doschke: [url=http://blog.dfpug.de/?dnr=2212&amp;id=48]Parameterobjekte[/url] vom 10.06.2006 hier der vollständige Kommentar zu seinem Artikel und meiner 'Weltansicht' zu diesem Sachverhalt: Hallo Olaf, ich finde, dass es ein guter Artikel ist.Wir nutzen das Konzept von Parameter-/Transferobjekten bereits seit Jahren. Dein Ansatz mit"
+description: "Kommentar zu 'Parameterobjekte' Grundlage für diesen Beitrag liefert der Blogeintrag von Olaf Doschke: Parameterobjekte vom 10.06.2006 hier der vollständige Kommentar zu seinem Artikel und meiner 'Weltansicht' zu diesem Sachverhalt: Hallo Olaf, ich finde, dass es ein guter Artikel ist.Wir nutzen das Konzept von Parameter-/Transferobjekten bereits seit Jahren. Dein Ansatz mit"
 tags:
 - Development
 keywords: Development
 metaTitle: Kommentar zu 'Parameterobjekte'
-metaDescription: "Kommentar zu 'Parameterobjekte' Grundlage für diesen Beitrag liefert der Blogeintrag von Olaf Doschke: [url=http://blog.dfpug.de/?dnr=2212&amp;id=48]Parameterobjekte[/url] vom 10.06.2006 hier der vollständige Kommentar zu seinem Artikel und meiner 'Weltansicht' zu diesem Sachverhalt: Hallo Olaf, ich finde, dass es ein guter Artikel ist.Wir nutzen das Konzept von Parameter-/Transferobjekten bereits seit Jahren. Dein Ansatz mit"
+metaDescription: "Kommentar zu 'Parameterobjekte' Grundlage für diesen Beitrag liefert der Blogeintrag von Olaf Doschke: Parameterobjekte vom 10.06.2006 hier der vollständige Kommentar zu seinem Artikel und meiner 'Weltansicht' zu diesem Sachverhalt: Hallo Olaf, ich finde, dass es ein guter Artikel ist.Wir nutzen das Konzept von Parameter-/Transferobjekten bereits seit Jahren. Dein Ansatz mit"
 image: ''
 ogTitle: Kommentar zu 'Parameterobjekte'
 ogDescription: 'Grundlage für diesen Beitrag liefert der Blogeintrag von Olaf Doschke:'

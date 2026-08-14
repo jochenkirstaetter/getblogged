@@ -103,7 +103,7 @@ $ npm start
 
 ![Launching the development server on your local machine](../content/images/2019/10/image-8.webp)
 
-**Well done!**  
+## Well done!
 You created and launched a new React app on your local machine.
 
 Hit `CTRL+c` to stop the local development server.
@@ -166,7 +166,7 @@ git push -u origin master
 
 ![Successful push to the remote repository on GitHub](../content/images/2019/10/image-7.webp)
 
-**Congratulations!**  
+## Congratulations!
 You added your React app to an online repository successfully.
 
 **Note**: The chosen name for the git repository was for demonstration purpose only. Here, you can find my [actual code repository on GitHub](https://github.com/jochenkirstaetter/andela-cloud-challenge).
@@ -284,7 +284,7 @@ The expected result looks like this. Yours might be different, of course.
 
 See the icon and title of the browser tab among other modifications done.
 
-**Awesome!**  
+## Awesome!
 This is the first part of a series regarding the completion of the ALC 4.0 Cloud Challenge I. The article describes the creation and customisation of a React app and how to secure all modifications using an online repository on GitHub.
 
 In the next article we are going to [pack the React app as a Docker image and push it to the Google Container Registry (GCR)](xref:alc4-cloud-docker) for further use.
