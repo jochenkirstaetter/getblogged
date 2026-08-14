@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/die-bahn-ist-pnktlich/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 ...im Vergleich zur Czech Airlines Fluglinie. Da quält man sich früh morgens unter die Dusche, verzichtet aus Zeitmangel auf das üppige Frühstück im Hotel, um sich eine fette Verzögerung beim Flug nach Prag einzufangen. Na ganz toll. 🤯  
 CheckIn, Passkontrolle, alles wunderbar, fehlt jetzt nur noch der Flieger... und der ist nicht da und als noch nicht, und achja, immer noch nicht. Naja, im Laufe der Zeit gibt's dann nette Ansagen wie 'verspätet sich um etwa 30 Minuten', 'immer noch nicht im Anflug, die Abreise verzögert sich um 45 Minuten' oder 'der Gegenflug nach Berlin ist wegen eines mechanischen Problems noch nicht gestartet, die erwartete Abflugzeit ist etwa in 1:30 Stunden'.
 

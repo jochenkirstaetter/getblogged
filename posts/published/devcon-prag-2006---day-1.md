@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: Devcon Prag 2006 - Day 1
 metaDescription: Devcon Prag 2006 - Day 1 Nach einer kurzen Nacht, etwa 5 Std oder so und einem kurzen Fr&#252;hst&#252;ck ging&#39;s sofort zur Registrierung f&#252;r die heute startende VFP-Konferenz in Prag. Gl&#252;cklicherweise lief bis jetzt alles sehr relaxed ab.**Keynote**A tribute to community and everything connects - ich denke, dass d&#252;rfte die
-image: https://images.unsplash.com/photo-1504723433512-1f76737fa834?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=bc80d5d8a1ba76751da069a216d82d61
+image: content/images/2006/09/photo-1504723433512-1f76737fa834.webp
 ogTitle: Devcon Prag 2006 - Day 1
 ogDescription: Nach einer kurzen Nacht, etwa 5 Std oder so und einem kurzen Frühstück ging's sofort zur Registrierung für die heute startende VFP-Konferenz in Prag. Glücklicherweise lief bis jetzt alles sehr relaxed...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/devcon-prag-2006---day-1/
-imageUrl: https://images.unsplash.com/photo-1504723433512-1f76737fa834?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=bc80d5d8a1ba76751da069a216d82d61
+imageUrl: content/images/2006/09/photo-1504723433512-1f76737fa834.webp
 twitterImageUrl: https://images.unsplash.com/photo-1504723433512-1f76737fa834?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=bc80d5d8a1ba76751da069a216d82d61
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1504723433512-1f76737fa834?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=bc80d5d8a1ba76751da069a216d82d61
+featureImage: content/images/2006/09/photo-1504723433512-1f76737fa834.webp
 featured: false
 publishedAt: 2006-09-11T11:24:53Z
 updatedAt: 2018-04-02T08:38:32Z
@@ -52,8 +52,8 @@ facebookDescription: Nach einer kurzen Nacht, etwa 5 Std oder so und einem kurze
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Nach einer kurzen Nacht, etwa 5 Std oder so und einem kurzen Frühstück ging's sofort zur Registrierung für die heute startende [VFP-Konferenz in Prag](https://www.daquas.cz/fox/devcon2006an/). Glücklicherweise lief bis jetzt alles sehr relaxed ab.
 
 \*\*Keynote\*\*  

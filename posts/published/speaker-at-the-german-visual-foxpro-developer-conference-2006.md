@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/speaker-at-the-german-visual-foxpro-developer-conference-2006/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 The UniversalThread conference coverage of the [German Visual FoxPro Developer Conference 2006](https://www.universalthread.com/ViewPageConference.aspx?ID=40 "German Visual FoxPro Developer Conference 2006") was written by Jan Vit and Jan Kral. Unfortunately, both are not familiar with German language on a technological level and therefore only the English sessions have been covered by them. Following, I'm trying to summarize the content of my three sessions of that event.
 
 11.2006 [D-CLR - CLR Host für Visual FoxPro](xref:speaker-at-the-german-visual-foxpro-developer-conference-2006)

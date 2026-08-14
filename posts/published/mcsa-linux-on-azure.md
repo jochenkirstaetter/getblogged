@@ -12,7 +12,7 @@ tags:
 keywords: Linux, Personal
 metaTitle: 'Next stop: MCSA: Linux on Azure'
 metaDescription: Recently I decided to coordinate my work and learning activities a little bit. Turns out that while working with .NET Core, in particular developing an API project, I do quite some coding under Linux...
-image: https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=cc540668b0d8b74626878292f0bafe38
+image: content/images/2018/03/photo-1516321165247-4aa89a48be28.webp
 ogTitle: 'Next stop: MCSA: Linux on Azure'
 ogDescription: Recently I decided to coordinate my work and learning activities a little bit. Turns out that while working with .NET Core, in particular developing an API project, I do quite some coding under Linux...
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mcsa-linux-on-azure/
-imageUrl: https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=cc540668b0d8b74626878292f0bafe38
+imageUrl: content/images/2018/03/photo-1516321165247-4aa89a48be28.webp
 twitterImageUrl: https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=cc540668b0d8b74626878292f0bafe38
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=cc540668b0d8b74626878292f0bafe38
+featureImage: content/images/2018/03/photo-1516321165247-4aa89a48be28.webp
 featured: false
 publishedAt: 2018-03-13T12:20:00Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -53,8 +53,8 @@ facebookDescription: Recently I decided to coordinate my work and learning activ
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Recently I decided to coordinate my work and learning activities a little bit. Turns out that while working with .NET Core, in particular developing an API project, I do quite some coding under Linux using Visual Studio Code.
 
 During office hours I'm fully emerged into Visual Studio 2017 running on my Windows 10 machine but often I'm reviewing and tweaking some of my code during the evening hours on my secondary [Xubuntu](https://xubuntu.org/) system.
@@ -85,7 +85,7 @@ What better than combining two technology stacks? Although, I work on Windows sy
 
 Using Azure to provision a Linux-based virtual machine takes less than 5 minutes and there are various options available.
 
-![Azure offers a variety of Linux distributions to choose from](../content/images/2018/03/LinuxOnAzure.png)
+![Azure offers a variety of Linux distributions to choose from](../content/images/2018/03/LinuxOnAzure.webp)
 
 I'm a big fan of Xubuntu but to prepare myself for MCSA: Linux on Azure I'm going to need a CentOS based system. So, instead of taking resources on my local machine using a virtualisation software like VirtualBox or VMware I'm going to entertain a Linux VM on Azure. It's more convenient after all.
 

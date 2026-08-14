@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/microsoft-and-innovation-iif-method/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 This Saturday I was watching a couple of eLearning videos from [TrainSignal](https://www.trainsignal.com/) (thanks to the subscription I have with [Pluralsight](https://www.pluralsight.com/)) on [Querying Microsoft SQL Server 2012 (exam 70-461)](https://www.trainsignal.com/course/180/sql-server-2012-querying-70-461).
 
 ## []()'Innovation' by Microsoft

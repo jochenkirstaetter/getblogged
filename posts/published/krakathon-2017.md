@@ -12,7 +12,7 @@ tags:
 keywords: Community, Activity
 metaTitle: Krakathon 2017
 metaDescription: The Krakathon is like a hackathon but with a Kraken and a treasure! All teams found their treasure and rewards after this coding marathon. Personally, I'm glad to see that more and more opportunities like this are available in Mauritius.
-image: content/images/2017/10/Krakathon2017.png
+image: content/images/2017/10/Krakathon2017.webp
 ogTitle: Krakathon 2017
 ogDescription: The Krakathon is like a hackathon but with a Kraken and a treasure! All teams found their treasure and rewards after this coding marathon. Personally, I'm glad to see that more and more opportunities like this are available in Mauritius.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/krakathon-2017/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/10/Krakathon2017.png
+imageUrl: content/images/2017/10/Krakathon2017.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/10/Krakathon2017.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/10/Krakathon2017.png
+featureImage: content/images/2017/10/Krakathon2017.webp
 featured: false
 publishedAt: 2017-10-27T04:46:23Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -54,14 +54,13 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Pirates! Pirates everywhere! This year my children urged me to bring them again to the coolest hackathon in Mauritius. They absolutely loved the experience from last year and so the anticipation grew over the last couple of weeks.
 
 The [Krakathon](http://krakathon.com/2017-2/) is in their own words *"Le Krakathon, c’est comme un hackaton mais avec un Kraken et un trésor!"*. This translates freely to:
 
 > The Krakathon is like a hackathon but with a Kraken and a treasure!
 
-![The Krakathon is like a hackathon but with a Kraken and a treasure!](../content/images/2017/10/krakathon2017logo-copy.png)
+![The Krakathon is like a hackathon but with a Kraken and a treasure!](../content/images/2017/10/krakathon2017logo-copy.webp)
 
 ## Code to chase the Kraken!
 
@@ -75,7 +74,7 @@ The progress of a team and the position among each other is updated and publishe
 
 Thanks to the generousity of [ict.io](http://ict.io/) it was possible to form a ship crew to represent the [Mauritius Software Craftsmanship Community](https://www.mscc.mu/) again. Like last year, The Flying Craftsman was manned at an early stage and was ready to sail off the shores. The crew under Captain Saif was freshly put together, and unfortunately had to be shuffled a few days ahead of the event.
 
-![The crew members of The Flying Craftsman](../content/images/2017/10/22550394_10204276614112861_983827520771845746_o.jpg)  
+![The crew members of The Flying Craftsman](../content/images/2017/10/22550394_10204276614112861_983827520771845746_o.webp)  
 *Left to right: Saif, Wasim, Arvind and Alvin*
 
 Luckily, we talked about the Krakathon during the [weekly Code & Coffee breakfast meetings](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/) of the MSCC and Alvin, a digital nomad from Malaysia actually, expressed high interest. Instead of just visiting the Krakathon he boarded The Flying Craftsman and was right in the middle of the chase for the Kraken.

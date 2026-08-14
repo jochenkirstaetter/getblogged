@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/elfen-lied/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Ehrlich gesagt, weiß ich nicht wie ich beginnen soll... probieren wir es mal so: Phantastisch, oberhammercool und Yes, Strike!
 
 Ich interessiere mich seit einigen Jahren für Animes, aber allein die ersten Minuten von [Elfen Lied](https://de.wikipedia.org/wiki/Elfen_Lied) Episode One haben mich richtig von den Socken gehauen. Gleich die volle Ladung als Auftritt in die Staffel. Dieses Erlebnis hatte ich bisher eigentlich nur bei Kill Bill Vol.1 von Quentin Tarantino und Matrix: Revolutions. Und ähnlich spannend geht's weiter... Man kann hier sehr leicht den Eindruck bekommen, dass es sich um ein Mega-Splatter-Anime handelt, aber die Story um Nyu (aka Lucy), Kouta und Yuka und weiteren Charakteren ist weitaus interessanter und tiefgründiger als man zunächst annehmen dürfte.

@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/my-first-cyclone/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Februar ist die Zeit der Wirbelstürme; im [Indischen Ozean Zyklone](https://de.wikipedia.org/wiki/Zyklon) genannt. Gestern war bereits Warnstufe 1 ausgerufen, jedoch sind wir davon ausgegangen, dass es noch bis heute Abend dauern bis es interessant werde dürfte. Nun, unsere Planung für heute sah meinen ersten Arbeitstag auf Mauritius vor, aber bereits um 7:30 Uhr kam Dass an, und meinte, dass wir inzwischen Warnstufe 2 haben und es nicht empfehlenswert sei auf die Arbeit zu gehen. Gerade in Hinblick auf Warnstufe 3 ist die Empfehlung ASAP nach Hause zu gehen. Was sich als schwierig herausstellen könnte. Naja, lange Rede, kurzer Sinn (oder so...): Bleibe ich eben zuhause und quäle den Laptop von hier aus.
 
 Ist ja nicht so, dass ich nichts zu tun hätte... Im Gegenteil, es sind noch einige Programmierarbeiten im laufenden Projekt zu realisieren. Nutzen wir die sturmreiche Zeit für was Sinnvolles.

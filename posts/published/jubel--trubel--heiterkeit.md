@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/jubel--trubel--heiterkeit/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Die närrischen Tage sind auch dieses Jahr unbeschadet an mir vorbeigezogen. Eigentlich geniesse ich die Faschingszeit schon, aber dieses Jahr ist nichts wie es bisher war und mir blieb letztendlich die Entscheidung, ob Party oder Zukunft - ich habe mich daher für Zukunft entschieden... denn Party kann man auch jederzeit selbst machen - da braucht's nicht extra Fasching für.
 
 Ja... Zukunft. Ich denke, dass inzwischen der richtige Zeitpunkt gekommen sein dürfte, um ein wenig mehr Informationen preis geben zu können. Irgendwann im Q3/Q4 2006 kam die Geschäftsführung auf mich zu, ob ich mir vorstellen könnte künftig im Ausland tätig zu sein. Prinzipiell natürlich ja... ich liebe die Ferne und bedingt durch Projektarbeit, etc. konnte ich 2006 auch wenig Auszeit geniessen. Und so entwickelte und manifestierte sich im Laufe der Monate der ganze Ansatz, dass wir im Ausland ein weiteres Büro öffnen werden. Meine Aufgabe dabei, umfasse primär den Kontakt nach Deutschland sowie die Koordination und Führung der neuen Entwicklungsteams - also prinzipiell der typische Offshore- bzw. Outsourcing-Fall. Konkret bedeutet dies für mich, dass ich statt wie bisher ein Projekt-Team aus sieben bis acht Entwicklern künftig eben mehrere Projekt-Teams mit insgesamt bis zu 20 Entwicklern leiten werde. Ich denke, dass meine langjährige Erfahrung als Gruppenführer in der Freiwilligen Feuerwehr hierbei sehr von Nutzen sein wird. Ja, und eben Ausland statt in Deutschland.

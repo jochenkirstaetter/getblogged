@@ -12,7 +12,7 @@ tags:
 keywords: Community, Personal
 metaTitle: The Curse of the Magical Tutorial
 metaDescription: Have you ever read a tutorial about something that you are new to, and really need to get into the subject quickly, just to discover that there is an essential piece of information missing? Yup...
-image: https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=602f534813b009037b58cadc5954c5e6
+image: content/images/2018/10/photo-1513151233558-d860c5398176.webp
 ogTitle: The Curse of the Magical Tutorial
 ogDescription: Have you ever read a tutorial about something that you are new to, and really need to get into the subject quickly, just to discover that there is an essential piece of information missing? Yup...
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/curse-of-magical-tutorial/
-imageUrl: https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=602f534813b009037b58cadc5954c5e6
+imageUrl: content/images/2018/10/photo-1513151233558-d860c5398176.webp
 twitterImageUrl: https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=602f534813b009037b58cadc5954c5e6
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=602f534813b009037b58cadc5954c5e6
+featureImage: content/images/2018/10/photo-1513151233558-d860c5398176.webp
 featured: false
 publishedAt: 2018-10-05T08:34:00Z
 updatedAt: 2018-10-05T08:34:00Z
@@ -53,8 +53,8 @@ facebookDescription: Have you ever read a tutorial about something that you are 
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Have you ever read a tutorial about something that you are new to, and really need to get into the subject quickly, just to discover that there is an essential piece of information missing? Yup, happens to me *all the time*...
 
 Okay, to be fair not really all the time but unfortunately still too often. Especially when I'm scavenging the interweb for some crucial information or instructions about how to get started with technology X, how to use product Y efficiently, or to solve problem Z in a sustainable manner for good.
@@ -71,7 +71,7 @@ The reader of a tutorial is not as familiar with the subject as you, the writer,
 
 First of all, your reader is probably new to the domain hence reading your article about it. With this comes a good chunk of insecurity and lack of (background) knowledge to make an informed decision about bits and pieces that are described in the tutorial. At this stage a reader fully trusts in the author's expertise on the subject.
 
-![Courtesy of [Van Oktop](http://oktop.tumblr.com/post/15352780846)](../content/images/2018/10/howtodrawahorse.jpg)
+![Courtesy of [Van Oktop](http://oktop.tumblr.com/post/15352780846)](../content/images/2018/10/howtodrawahorse.webp)
 
 At least for me, it is quite annoying to follow each particular step in a tutorial meticulously only to realise at a certain stage that the progress does a magical jump from A to B - without providing any further details about what just happened...
 

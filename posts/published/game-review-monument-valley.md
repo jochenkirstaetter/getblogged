@@ -11,7 +11,7 @@ tags:
 keywords: Android
 metaTitle: 'Game Review: Monument Valley'
 metaDescription: The game caught my attention based on the simplicity of the design and the aspect that it seems to be an isometric design. The game relies heavily on optical illusions in order to guide to the silent princess Ida through her illusory adventure of impossible architecture and forgiveness.
-image: content/images/2018/02/game_monumentvalley.png
+image: content/images/2018/02/game_monumentvalley.webp
 ogTitle: 'Game Review: Monument Valley'
 ogDescription: Once again, it was a tweet that caught my attention... and the official description on the Play Store sounds good, too.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/game-review-monument-valley/
-imageUrl: https://jochen.kirstaetter.name/content/images/2018/02/game_monumentvalley.png
+imageUrl: content/images/2018/02/game_monumentvalley.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2018/02/game_monumentvalley.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2018/02/game_monumentvalley.png
+featureImage: content/images/2018/02/game_monumentvalley.webp
 featured: false
 publishedAt: 2014-08-16T16:39:57Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -53,8 +53,7 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
-[![Monument Valley](https://s.kirstaetter.name/images/monumentvalley_logo.png)](https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley "Monument Valley in Google's Play Store")Once again, it was a tweet that caught my attention... and the official description on the Play Store sounds good, too.
+[![Monument Valley](../content/images/2014/08/monumentvalley_logo.webp)](https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley "Monument Valley in Google's Play Store")Once again, it was a tweet that caught my attention... and the official description on the Play Store sounds good, too.
 
 > *"In Monument Valley you will manipulate impossible architecture and guide a silent princess through a stunningly beautiful world. Monument Valley is a surreal exploration through fantastical architecture and impossible geometry. Guide the silent princess Ida through mysterious monuments, uncovering hidden paths, unfolding optical illusions and outsmarting the enigmatic Crow People."*
 

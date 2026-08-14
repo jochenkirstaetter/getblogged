@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/bauen-wir-uns-einen-webserver/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Ausgehend von zwei konkreten Vorlagen (Buch mit Codesnipplet und Eeva) ergab sich direkt die Möglichkeit zur Erstellung eines lokalen Webservers. Dieser wird sozusagen "afp-enabled" gebaut. Dies ermöglicht es uns, dass wir autark ohne externen Webserver arbeiten können. Mögliche Anwendungsszenarien sind hierbei die Auslieferung auf CD und vorallem zum vereinfachten Entwickeln und Debuggen.
 
 Die aktuelle Implementierung basiert auf dem Microsoft Winsock2 ActiveX Control. Dieses hat jedoch nach MSKB und einigen Onlinebeiträgen kleinere Bugs und die Limitierung auf 5 concurrent Connections. Naja, nicht weiter brutal, da man jederzeit eine andere Socketimplementierung drunter setzen könnte.

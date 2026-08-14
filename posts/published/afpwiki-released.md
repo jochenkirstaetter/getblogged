@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/afpwiki-released/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Today is the day!  
 Zwar bereits seit gestern online geschaltet, so ist doch heute erst der offizielle Launch des AfpWiki vollzogen. Nach einem kleinen Chat per MSN mit Peter Herzog, dem ursprünglichen Entwickler des AfpWiki kamen wir zur Entscheidung, dass das AfpWiki ab jetzt OpenSource ist und die Weiterentwicklung in der Community vollzogen werden darf. Hier meinen Dank an Peter, Danke!  
   

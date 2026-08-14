@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/flash-prsentation-zu-vfp-sp2-ctp/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Da sowohl beim letzten Treffen unseres monatlichen VFP-Stammtisch in Speyer als auch im Forum der dFPUG kam die Frage aus, was denn das Service Pack 2 für Visual FoxPro 9.0 zu bieten hätte? Nun, mangels aktueller BugFix-Liste kann man da aktuell leider nur wenig sagen. Was jedoch auf der Download-Seite bei Microsoft genannt wird, ist der Umstand, dass das Reporting weitere Verbesserungen erhalten hat. Und die haben es in sich!.
 
 Glücklicherweise ist unsere VFP-Community sehr aktiv in den Belangen des Produkts und daher möchte ich einfach auf eine Demonstration von Lisa Nicolls-Slater aufmerksam machen. Sie ist unter anderem auch für das Reporting System in VFP 9.0 mitverantwortlich gewesen und wenn sie es nicht wissen sollte, wer dann? 🤪

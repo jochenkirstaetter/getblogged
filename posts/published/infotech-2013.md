@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/infotech-2013/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,8 +53,7 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
-[![NCB Technopreneur Programme](https://s.kirstaetter.name/images/ncb_technopreneur.png)](https://technopreneur.ncb.mu/)These recent days are packed with a series of great events... Starting [last Saturday, at the monthly meetup of the MSCC](xref:mssc-16112013-clean-code-developer-your-workspace "Clean Code Development & Your workspace") I talked about my experience having a conversation with representatives of the [National Computer Board (NCB)](https://www.ncb.mu/ "National Computer Board (NCB)") about the feasibility of getting one of their presentation slots at the Infotech 2013. At that time, the overview for three days was **completely (!) empty** - with less than 10 days before the event and the presentations are about too happen! Well, short answer of the NCB:
+[![NCB Technopreneur Programme](../content/images/2013/11/ncb_technopreneur.webp)](https://technopreneur.ncb.mu/)These recent days are packed with a series of great events... Starting [last Saturday, at the monthly meetup of the MSCC](xref:mssc-16112013-clean-code-developer-your-workspace "Clean Code Development & Your workspace") I talked about my experience having a conversation with representatives of the [National Computer Board (NCB)](https://www.ncb.mu/ "National Computer Board (NCB)") about the feasibility of getting one of their presentation slots at the Infotech 2013. At that time, the overview for three days was **completely (!) empty** - with less than 10 days before the event and the presentations are about too happen! Well, short answer of the NCB:
 
 > *"No, those slots are only for paying exhibitors. But I'll check with my manager and we'll call you back."*
 
@@ -64,7 +63,7 @@ Kind of disappointing for organisations and communities like the [MSCC](https://
 
 Since my first visit to [Infotech](https://www.infotech.mu/ "InfoTech") a couple of years back, I have to admit that the whole event has gone from hardly acceptable to bad to absolutely unnecessary. Seriously, [Infotech 2013](https://www.infotech.mu/info13/home.asp "InfoTech 2013") is not about latest technology and trends available here on the island...
 
-![Infotech 2013 at SVICC, Pailles](https://s.kirstaetter.name/images/infotech2013.png)  
+![Infotech 2013 at SVICC, Pailles](../content/images/2013/11/infotech2013.webp)  
 *Infotech 2013 - the annual computer bazaar and discount market here on the island*
 
 It's about lots of discounts and sell as much as you can. Empty the dust-covered shelves and sell it to the masses. Oh, you might day I'm too sarcastic about that? Hm, no I don't think so. Even when you have a conversation at some of the booths, and you ask for a couple of products being advertised - guess what? "Well, we didn't receive the item yet. Maybe tomorrow afternoon."
@@ -85,20 +84,20 @@ Despite the set time slots we decided to swap the sequence of our three presenta
 - Mauritius Software Craftsmanship Community
 - [openSUSE Project / openSUSE Advocate Program](https://hacklog.in/linuxfest-2013-highlights/ "openSUSE Project / openSUSE Advocate Program")
 
-![Our exclusively selected Infotech 2013 session audience](https://s.kirstaetter.name/images/infotech2013_audience.png)  
+![Our exclusively selected Infotech 2013 session audience](../content/images/2013/11/infotech2013_audience.webp)  
 *Our exclusively selected Infotech2013 session audience*
 
 Kicking of the sessions, I went quickly through my slides and spent more time on the actual demonstration on how to run Windows software on Linux. Apart from a small hiccup in Microsoft Word 2007 Reading View all went smooth and stable. Overall it took me about 40 minutes to talk the various options and possibilities that could simplify your move from a Windows desktop to a Linux-based system. But for sure, I have to get rid off some visual effects on the slides and cut some demo material for Monday. I'm going to have 20 minutes only... Nice challenge!
 
-![Infotech2013 - Running Windows applications on Linux](https://s.kirstaetter.name/images/infotech2013_windows.png)  
+![Infotech2013 - Running Windows applications on Linux](../content/images/2013/11/infotech2013_windows.webp)  
 *Infotech 2013 - Running Windows applications on Linux  
 *
 
-![Infotech2013 - Mauritius Software Craftsmanship Community](https://s.kirstaetter.name/images/infotech2013_mscc.png)  
+![Infotech2013 - Mauritius Software Craftsmanship Community](../content/images/2013/11/infotech2013_mscc.webp)  
 *Infotech 2013 - Mauritius Software Craftsmanship Community presented by  
 Nirvan and Nayar*
 
-![Infotech2013 - openSUSE Project and openSUSE Advocate Program](https://s.kirstaetter.name/images/infotech2013_opensuse.png)  
+![Infotech2013 - openSUSE Project and openSUSE Advocate Program](../content/images/2013/11/infotech2013_opensuse.webp)  
 *Infotech 2013 - openSUSE Project and openSUSE Advocate Program presented by Ish  
 *
 

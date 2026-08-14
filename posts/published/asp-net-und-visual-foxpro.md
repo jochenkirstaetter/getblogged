@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/asp-net-und-visual-foxpro/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 ASP.NET, COM, OLE DB, VFP, XML, Web Services
 
 Der Vollständigkeit wegen möchte ich ebenfalls einen Eintrag zum Thema ASP.NET in Verbindung mit Visual FoxPro hier publizieren. In meinem WebCast zum Thema [url=https://www.microsoft.com/germany/MSDN/webcasts/library.aspx?id=118758879]Visual FoxPro als Datenbank für Visual Studio 2005[/url] weise ich bereits auf die Möglichkeiten der Verwendung von VFP im .NET Framework hin. Der WebCast beschäftigt sich mit der Anzeige und Manipulation beliebiger VFP-Tabellen über ADO.NET.

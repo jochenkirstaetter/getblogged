@@ -12,7 +12,7 @@ tags:
 keywords: Development, Andela
 metaTitle: Considerations for production readiness (ALC 4.0 Cloud Challenge I)
 metaDescription: This is the fourth and last part of a series regarding the completion of the ALC 4.0 Cloud Challenge I. Covering a few aspects of production readiness of the React app as Docker image on GKE and further steps to consider.
-image: https://images.unsplash.com/photo-1568194157720-8bbe7114ebe8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2019/11/photo-1568194157720-8bbe7114ebe8.webp
 ogTitle: Considerations for production readiness (ALC 4.0 Cloud Challenge I)
 ogDescription: This is the fourth and last part of a series regarding the completion of the ALC 4.0 Cloud Challenge I. Covering a few aspects of production readiness of the React app as Docker image on GKE and further steps to consider.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/alc4-cloud-ready/
-imageUrl: https://images.unsplash.com/photo-1568194157720-8bbe7114ebe8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2019/11/photo-1568194157720-8bbe7114ebe8.webp
 twitterImageUrl: https://images.unsplash.com/photo-1568194157720-8bbe7114ebe8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1568194157720-8bbe7114ebe8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2019/11/photo-1568194157720-8bbe7114ebe8.webp
 featured: false
 publishedAt: 2019-11-09T14:30:00Z
 updatedAt: 2019-11-15T01:24:27Z
@@ -53,8 +53,8 @@ facebookDescription: This is the fourth and last part of a series regarding the 
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 The mandatory steps to finish the challenge are now behind us and we have time for a few thoughts and considerations when working with containerized web applications.
 
 ## Configure DNS to ease access
@@ -65,7 +65,7 @@ However, it is more common to have a domain name in place instead of using an IP
 
 Apart from checking out Google Cloud DNS to purchase a new domain it might be more likely that either you or your company already has an existing domain name. This enables us to create a subdomain for the cluster.
 
-![Using an A record in DNS to abstract the external IP address of the cluster](../content/images/2019/11/image-17.png)
+![Using an A record in DNS to abstract the external IP address of the cluster](../content/images/2019/11/image-17.webp)
 
 I'm using Cloudflare to configure DNS records for one of my domains. I created an A record for the public IP address of my cluster, i.e. alc4cloud.kirstaetter.name which is also proxied by Cloudflare.
 
@@ -73,11 +73,11 @@ I'm using Cloudflare to configure DNS records for one of my domains. I created a
 
 Using Cloudflare comes with SSL certificate free of charge. And it's flipping a switch only.
 
-![Enabling `Always Use HTTPS` option in Cloudflare](../content/images/2019/11/image-18.png)
+![Enabling `Always Use HTTPS` option in Cloudflare](../content/images/2019/11/image-18.webp)
 
 Any request to the HTTP-based URL of the React app will be redirected automatically to the secure HTTPS-based address. No further set up needed.
 
-![Cloudflare proxy with DNS record and HTTPS protocol in action](../content/images/2019/11/alc4cloudchallengedns.png)
+![Cloudflare proxy with DNS record and HTTPS protocol in action](../content/images/2019/11/alc4cloudchallengedns.webp)
 
 ## Update README
 
@@ -230,7 +230,7 @@ This way we generate environmental information into the `window._env_` JavaScrip
 
 In Google Kubernetes Engine we are offered to specify Environment variables for use in the cluster.
 
-![Use of environment variables to adjust the React app](../content/images/2019/11/image-13.png)
+![Use of environment variables to adjust the React app](../content/images/2019/11/image-13.webp)
 
 Changing any value of a environmental variable does not require a full build and deploy circle anymore but a mere termination and start of the pod running the React app.
 
@@ -247,7 +247,7 @@ Last but least, a few recommendations to extend Visual Studio Code with some too
 - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) with built-in Kubernetes syntax support
 - [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) - a meta package for three extensions
 
-![The Docker extension makes it easy to build, manage and deploy containerized applications](../content/images/2019/10/image-23.png)
+![The Docker extension makes it easy to build, manage and deploy containerized applications](../content/images/2019/10/image-23.webp)
 
 ## GitHub repository
 

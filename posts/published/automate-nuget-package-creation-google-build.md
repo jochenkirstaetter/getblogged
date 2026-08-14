@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: Automate NuGet package creation using Google Build
 metaDescription: Taking multiple steps to build, pack and publish a NuGet package manually is a distraction and error-prone. Use Google Cloud Build to handle the boring parts of the SDLC.
-image: content/images/2024/03/Gemini_Generated_Image-1-.jpeg
+image: content/images/2024/03/Gemini_Generated_Image-1-.webp
 ogTitle: Automate NuGet package creation using Google Build
 ogDescription: Taking multiple steps to build, pack and publish a NuGet package manually is a distraction and error-prone. Use Google Cloud Build to handle the boring parts of the SDLC.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/automate-nuget-package-creation-google-build/
-imageUrl: https://jochen.kirstaetter.name/content/images/2024/03/Gemini_Generated_Image-1-.jpeg
+imageUrl: content/images/2024/03/Gemini_Generated_Image-1-.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2024/03/Gemini_Generated_Image-1-.jpeg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2024/03/Gemini_Generated_Image-1-.jpeg
+featureImage: content/images/2024/03/Gemini_Generated_Image-1-.webp
 featured: false
 publishedAt: 2024-03-04T13:35:00Z
 updatedAt: 2024-03-04T13:35:00Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 In a previous article on [Create NuGet packages with Visual Studio / Visual Studio Code](xref:create-nuget-packages-vs-code) the software development lifecycle (SDLC) from build, pack, and deployment is done manually. Which can be quite time-consuming, tedious and tends to be error-prone given human interaction necessary. How about automating that process completely using Google Build?
 
 ## What's Google Build?
@@ -72,7 +71,7 @@ Learn more about [Google Cloud Build Pricing](https://cloud.google.com/build/pri
 
 Navigate to Google Cloud Console, select your project and then enable the Google Build API for that project (and associated billing account).
 
-![Enable the Google Build API in Google Cloud Console ](../content/images/2024/03/Screenshot-from-2024-03-01-20-14-19.png)
+![Enable the Google Build API in Google Cloud Console ](../content/images/2024/03/Screenshot-from-2024-03-01-20-14-19.webp)
 
 Or if you prefer to use the `gcloud` CLI tool run the following command.
 
@@ -94,7 +93,7 @@ Writing such a build configuration file from scratch manually would be quite tim
 
 > How to use Google Build to automate the build process?
 
-![Duet AI gets the build configuration file done within seconds.](../content/images/2024/03/Screenshot-from-2024-03-01-20-33-55.png)
+![Duet AI gets the build configuration file done within seconds.](../content/images/2024/03/Screenshot-from-2024-03-01-20-33-55.webp)
 
 ### Build, pack and push
 
@@ -283,39 +282,39 @@ The sample source code is hosted on GitHub. This gives us two options, either we
 
 Open the Triggers section of Cloud Build in the Google Cloud Console.
 
-![Cloud Build needs a trigger to start automatically](../content/images/2024/03/Screenshot-from-2024-03-03-09-45-47.png)
+![Cloud Build needs a trigger to start automatically](../content/images/2024/03/Screenshot-from-2024-03-03-09-45-47.webp)
 
 Click on Connect Repository in the top area and complete the connection.
 
-![Select the source code management provider](../content/images/2024/03/image.png)
+![Select the source code management provider](../content/images/2024/03/image.webp)
 
 In case of first connection, GitHub asks for your consent to authorize Google Cloud Build to access your repositories.
 
-![Grant permissions to Cloud Build and authorize access to repositories](../content/images/2024/03/image-1.png)
+![Grant permissions to Cloud Build and authorize access to repositories](../content/images/2024/03/image-1.webp)
 
 Eventually, the list of repositories on GitHub might be incomplete.
 
-![Select the repository to connect to from GitHub](../content/images/2024/03/image-2.png)
+![Select the repository to connect to from GitHub](../content/images/2024/03/image-2.webp)
 
 Click on Edit repositories on GitHub to extend the Repository access.
 
-![Adjust repository access, if needed](../content/images/2024/03/image-3.png)
+![Adjust repository access, if needed](../content/images/2024/03/image-3.webp)
 
 After adding the target repository, we can establish the connection to use in Cloud Build.
 
-![Connect to the repository on GitHub](../content/images/2024/03/image-4.png)
+![Connect to the repository on GitHub](../content/images/2024/03/image-4.webp)
 
 ### Create a Cloud Trigger
 
 Last, we create a trigger using the connection. You can accept the suggested one at the end of the connection or create a new trigger.
 
-![Optionally, create a sample trigger given suggestion](../content/images/2024/03/image-5.png)
+![Optionally, create a sample trigger given suggestion](../content/images/2024/03/image-5.webp)
 
 Click on Create sample trigger and you are done.
 
 Out of laziness I created the sample trigger but I'm going to edit it directly afterwards. Why? Because I don't like the suggested name, the suggested description, I don't want the trigger to monitor every branch but the `main`, and most importantly the substitution variables are missing.
 
-![Add any substitution variables needed to run the Cloud Build configuration](../content/images/2024/03/image-9.png)
+![Add any substitution variables needed to run the Cloud Build configuration](../content/images/2024/03/image-9.webp)
 
 The following `gcloud` command creates the same trigger including the user-defined substitutions.
 
@@ -345,19 +344,19 @@ Learn more about [Create and manage build triggers](https://cloud.google.com/bui
 
 I made some changes to my source code and I'm about to push those commits.
 
-![Ready to push commits to the remote repository](../content/images/2024/03/image-10.png)
+![Ready to push commits to the remote repository](../content/images/2024/03/image-10.webp)
 
 After click on Sync Changes, I open the History section of Cloud Build to check the status.
 
-![Spinning status indicates an active build is running](../content/images/2024/03/image-12.png)
+![Spinning status indicates an active build is running](../content/images/2024/03/image-12.webp)
 
 You can directly observe the build steps and see the result of each in the details of a build.
 
-![Automated NuGet package build, pack and push](../content/images/2024/03/image-13.png)
+![Automated NuGet package build, pack and push](../content/images/2024/03/image-13.webp)
 
 The substitution variables, here the NuGet API key, have been applied and the package has been pushed to nuget.org successfully.
 
-![Published package produced by Google Cloud Build](../content/images/2024/03/image-14.png)
+![Published package produced by Google Cloud Build](../content/images/2024/03/image-14.webp)
 
 Now with a complete, working CI/CD pipeline using Google Cloud Build, I can concentrate on the source code and the implementation of new features. Gone are the boring and error-prone, manual steps to build, pack and push a new version of the NuGet package.
 
@@ -369,7 +368,7 @@ But there is more...
 
 There are reasons you don't want to trigger a new build automatically, like i.e. fixing a typo, amending the documentation, or adding a new test, etc. Any kind of changes to the repository that would not justify / satisfy the deployment of a new version of a NuGet package.
 
-![Last two commits (marked in red) did not trigger a build (marked in green)](../content/images/2024/03/Screenshot-from-2024-03-03-14-54-51.png)
+![Last two commits (marked in red) did not trigger a build (marked in green)](../content/images/2024/03/Screenshot-from-2024-03-03-14-54-51.webp)
 
 Triggers in Cloud Build provide at least two ways to reduce unnecessary builds and avoid wasting valuable build-minutes in your billing account.
 
@@ -377,7 +376,7 @@ Triggers in Cloud Build provide at least two ways to reduce unnecessary builds a
 
 In such case, you can either specify an `Included files filter` or an `Ignored files filter` using [glob strings](https://en.wikipedia.org/wiki/Glob_%28programming%29) to define which files need to be affected or shall be ignored to trigger a build.
 
-![Filters control which changes affecting files will trigger builds](../content/images/2024/03/image-16.png)
+![Filters control which changes affecting files will trigger builds](../content/images/2024/03/image-16.webp)
 
 The corresponding `gcloud` options are called `--included-files` and `ignored-files` to manage when a build is triggered or not.
 

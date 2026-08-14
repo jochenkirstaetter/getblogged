@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: 'MSCC: Entrepreneurship and start-up culture (in Mauritius)'
 metaDescription: Seriously, even though the idea of starting a business right after graduation might be tempting, take into consideration that there's a lot to learn and it's definitely not the big bucks you should after. Building your own company takes a lot of energy and investment in terms of time and money. Be smart, learn from others' experience, team up in start-up if you prefer a more flexible life-style.
-image: https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=2332c76de96a6c5f40b1ff67c6c39f9d
+image: content/images/2014/08/photo-1455849318743-b2233052fcff.webp
 ogTitle: 'MSCC: Entrepreneurship and start-up culture (in Mauritius)'
 ogDescription: After skipping a monthly meetup back in July it was highly anticipated that we are going to get together again during August. And wow, what an experience it has been... Not only the event itself but...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mscc-20140830-entrepreneurship-and-startup-culture/
-imageUrl: https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=2332c76de96a6c5f40b1ff67c6c39f9d
+imageUrl: content/images/2014/08/photo-1455849318743-b2233052fcff.webp
 twitterImageUrl: https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=2332c76de96a6c5f40b1ff67c6c39f9d
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=2332c76de96a6c5f40b1ff67c6c39f9d
+featureImage: content/images/2014/08/photo-1455849318743-b2233052fcff.webp
 featured: false
 publishedAt: 2014-08-31T02:51:44Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -52,9 +52,9 @@ facebookDescription: After skipping a monthly meetup back in July it was highly 
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
-[![Logo of the Mauritius Software Craftsmanship Community](https://s.kirstaetter.name/images/mscc.jpg)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community")After skipping a monthly meetup back in July it was highly anticipated that [we are going to get together again during August](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/events/201179772/). And wow, what an experience it has been... Not only the event itself but also the week before, and topics and conversations during the meeting, and the first responses and comments these days. But let's start from the beginning and let me directly announce this: **New Record!**
+[![Logo of the Mauritius Software Craftsmanship Community](../content/images/2013/11/mscc.webp)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community")After skipping a monthly meetup back in July it was highly anticipated that [we are going to get together again during August](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/events/201179772/). And wow, what an experience it has been... Not only the event itself but also the week before, and topics and conversations during the meeting, and the first responses and comments these days. But let's start from the beginning and let me directly announce this: **New Record!**
 
 Yes, we did it once more again, and topped the previous number of attendees. Prior to the meetup we already had 29 member and 3 guest registration, and yesterday we had about **35 IT-loving craftsmen** literally cramped into both meeting rooms at the Ebene Accelerator - Thanks again!
 
@@ -217,13 +217,13 @@ If you cannot answer those questions, you should reflect on them and get in bett
 
 Pictures are courtesy of Pritiv and Kevin.
 
-![MSCC: Sharing my experience on founding and running a start-up. There have been ups and downs throughout the years](https://s.kirstaetter.name/images/meetup20140830-1.png)  
+![MSCC: Sharing my experience on founding and running a start-up. There have been ups and downs throughout the years](../content/images/2014/08/meetup20140830-1.webp)  
 *MSCC: Sharing my experience on founding and running a start-up. There have been ups and downs throughout the years.*
 
-![MSCC: Crowded audience - we had 35 attendees during our sessions on Entrepreneurship and start-up culture in Mauritius](https://s.kirstaetter.name/images/meetup20140830-2.png)  
+![MSCC: Crowded audience - we had 35 attendees during our sessions on Entrepreneurship and start-up culture in Mauritius](../content/images/2014/08/meetup20140830-2.webp)  
 *MSCC: Crowded audience - we had 35 attendees during our sessions on Entrepreneurship and start-up culture in Mauritius.*
 
-![MSCC: Paying close attention to other speakers' experience as entrepreneurs - at least I got quite some new ideas during those couple of hours](https://s.kirstaetter.name/images/meetup20140830-3.png)  
+![MSCC: Paying close attention to other speakers' experience as entrepreneurs - at least I got quite some new ideas during those couple of hours](../content/images/2014/08/meetup20140830-3.webp)  
 *MSCC: Paying close attention to other speakers' experience as entrepreneurs - at least I got quite some new ideas during those couple of hours.*
 
 ## []()Upcoming Events and networking

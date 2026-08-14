@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/kuehe-auf-nachtwanderung/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Mal wieder eine Anekdote aus dem privaten Bereich. Was passiert wenn man mal länger in der Feuerwehr zusammen mit den Kameraden den Abend gestaltet und daher nach Mitternacht Richtung Domizil fährt? Nun, in unserer ländlichen Gegend scheinen des Bauers Kühe erweiterten Auslauf zu haben... Ich weiß ja nicht wie man die nächtlichen Herumtreiber sonst verstehen sollte, aber ich glaube, dass den beiden Kälbern schlichtweg zu langweilig auf der Weide war.  
   
 Wir hatten auf alle Fälle unseren Spass. Zuerst Sturmklingeln beim Kuhbesitzer, dann noch einen weiteren Mann zur Unterstützung aus den Federn ziehen und dann 'bewaffnet' mit Warnblinker vom Fahrzeug, zwei Taschenlampen quer über die unteren Wiesen, um die Milchviecher auf die Koppel zu treiben.  

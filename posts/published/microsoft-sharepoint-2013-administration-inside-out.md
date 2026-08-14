@@ -11,7 +11,7 @@ tags:
 keywords: Recension
 metaTitle: Microsoft SharePoint 2013 Administration Inside Out
 metaDescription: For a software development job I had to set up a Microsoft SharePoint 2013 test lab, and honestly without this book it wouldn't have been possible.
-image: https://images.unsplash.com/photo-1427751840561-9852520f8ce8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=5cf2ad393e27f7e508573c7df59f2d77
+image: content/images/2014/11/photo-1427751840561-9852520f8ce8.webp
 ogTitle: Microsoft SharePoint 2013 Administration Inside Out
 ogDescription: Microsoft SharePoint is a great product to work with - no doubt, no questions asked but it can be (and is) quite confusing at any stage of your knowledge. Luckily, I had access to this title when I...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/microsoft-sharepoint-2013-administration-inside-out/
-imageUrl: https://images.unsplash.com/photo-1427751840561-9852520f8ce8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=5cf2ad393e27f7e508573c7df59f2d77
+imageUrl: content/images/2014/11/photo-1427751840561-9852520f8ce8.webp
 twitterImageUrl: https://images.unsplash.com/photo-1427751840561-9852520f8ce8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=5cf2ad393e27f7e508573c7df59f2d77
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1427751840561-9852520f8ce8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=5cf2ad393e27f7e508573c7df59f2d77
+featureImage: content/images/2014/11/photo-1427751840561-9852520f8ce8.webp
 featured: false
 publishedAt: 2014-11-13T12:18:16Z
 updatedAt: 2019-01-31T15:25:09Z
@@ -52,8 +52,8 @@ facebookDescription: Microsoft SharePoint is a great product to work with - no d
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 [![](https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0735675392&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=geblbyjo-20)](https://www.amazon.com/gp/product/0735675392/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0735675392&linkCode=as2&tag=geblbyjo-20&linkId=BQA65JLW2P2B4TI5 "Microsoft SharePoint 2013 Administration Inside Out is available on Amazon")![](https://ir-na.amazon-adsystem.com/e/ir?t=geblbyjo-20&l=as2&o=1&a=0735675392)
 
 Microsoft SharePoint is a great product to work with - no doubt, no questions asked but it can be (and is) quite confusing at any stage of your knowledge. Luckily, I had access to this title when I needed it most... For a software development job I had to set up a Microsoft SharePoint 2013 test lab, and honestly without this book it wouldn't have been possible.
@@ -70,7 +70,7 @@ Check out the original (and first) review as [published on Amazon](https://www.a
 
 As stated initially, I started to read this book already last year during my [30 Days of SharePoint challenge](xref:the-30-days-microsoft-sharepoint-challenge "30 Days of SharePoint challenge - a try ;-)") prior to implement a SharePoint client using the Client Side Object Model (CSOM) interface. This book on installation, configuration and administration of Microsoft SharePoint 2013 was a heck of an asset and even though I initially had to deal with an installation of SharePoint 2010 at customer's site, I was in pretty good position to move on to a fully virtualised test bed on Microsoft Azure.
 
-![Microsoft SharePoint](https://s.kirstaetter.name/images/sharepoint.png)
+![Microsoft SharePoint](../content/images/2013/09/sharepoint.webp)
 
 Overall it took approximately four to five hours from creating the private network (VPN) on Azure, allocating the various Windows servers for the "perfect" development infrastructure and to get Visual Studio 2013 hooked up for some serious software development. I'd assume that it might have taken me days without the lecture of this title.
 

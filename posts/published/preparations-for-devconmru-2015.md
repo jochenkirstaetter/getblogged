@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: Preparations for Developers Conference 2015
 metaDescription: Mauritius has been branded Cyber Island in the Indian Ocean... Opinions in those matters vary but with this conference we strive to improve the general attribution of our island. Mauritius has great political stability and economical advantages for foreign investors, and the most precious resource Mauritius has to offer is people's knowledge.
-image: content/images/2017/08/DevelopersConference_large.png
+image: content/images/2017/08/DevelopersConference_large.webp
 ogTitle: Preparations for Developers Conference 2015
 ogDescription: Developers Conference 2015 is the first event in Mauritius, maybe even in the Indian Ocean which is organised as a "classic" conference. Yes, there have been various vendor-specific bootcamps in the...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/preparations-for-devconmru-2015/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/08/DevelopersConference_large.png
+imageUrl: content/images/2017/08/DevelopersConference_large.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/08/DevelopersConference_large.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/08/DevelopersConference_large.png
+featureImage: content/images/2017/08/DevelopersConference_large.webp
 featured: false
 publishedAt: 2015-02-20T06:18:33Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 ## The First of its Kind in Mauritius
 
 [Developers Conference 2015](https://2015.mscc.mu/) is the first event in Mauritius, maybe even in the Indian Ocean which is organised as a "classic" conference. Yes, there have been various vendor-specific bootcamps in the past but never anything like this.

@@ -11,7 +11,7 @@ tags:
 keywords: Linux
 metaTitle: Configure IPv6 on your Linux system (Ubuntu)
 metaDescription: Using IPv6 network addresses on your Linux system, here Ubuntu, is fairly easy to configure. This article will guide you through the basic steps.
-image: https://images.unsplash.com/photo-1456428746267-a1756408f782?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=219d7355f55ac13fdf580c5222e76a54
+image: content/images/2014/03/photo-1456428746267-a1756408f782.webp
 ogTitle: Configure IPv6 on your Linux system (Ubuntu)
 ogDescription: After the presentation on IPv6 at the first event of the Emtel Knowledge Series and some recent discussion on social media networks with other geeks and Linux interested IT people here in Mauritius, I...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/configure-ipv6-on-ubuntu/
-imageUrl: https://images.unsplash.com/photo-1456428746267-a1756408f782?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=219d7355f55ac13fdf580c5222e76a54
+imageUrl: content/images/2014/03/photo-1456428746267-a1756408f782.webp
 twitterImageUrl: https://images.unsplash.com/photo-1456428746267-a1756408f782?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=219d7355f55ac13fdf580c5222e76a54
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1456428746267-a1756408f782?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=219d7355f55ac13fdf580c5222e76a54
+featureImage: content/images/2014/03/photo-1456428746267-a1756408f782.webp
 featured: false
 publishedAt: 2014-03-10T07:12:26Z
 updatedAt: 2018-04-02T08:38:44Z
@@ -52,8 +52,8 @@ facebookDescription: After the presentation on IPv6 at the first event of the Em
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 After the presentation on IPv6 at the [first event of the Emtel Knowledge Series](xref:emtel-knowledge-series-no1) and some recent discussion on social media networks with other geeks and Linux interested IT people here in Mauritius, I thought that I should give it a try (finally) and tweak my local network infrastructure. Honestly, I have been to busy with contractual project work and it never really occurred to me to set up IPv6 in my LAN. Well, the following paragraphs are going to shed some light on those aspects of modern computer and network technology.
 
 This is the first article in a series on IPv6 configuration:

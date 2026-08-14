@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/speaker-at-the-german-visual-foxpro-developer-conference-2005/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 The following is an excerpt from the UniversalThread conference coverage of the [German Visual FoxPro Developer Conference 2005](https://www.universalthread.com/ViewPageConference.aspx?ID=27 "German Visual FoxPro Developer Conference 2005") written by Armin Neudert and Jan Vit. Unfortunately, my sessions were not covered at all but I was there as a speaker after all:
 
 > [...]
@@ -68,5 +67,5 @@ The following is an excerpt from the UniversalThread conference coverage of the 
 >
 > [...]
 >
-> ![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 006](https://s.kirstaetter.name/images/speaker/Frankfurt_2005_006.JPG)![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 076](https://s.kirstaetter.name/images/speaker/Frankfurt_2005_076.JPG)![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 203](https://s.kirstaetter.name/images/speaker/Frankfurt_2005_203.JPG)  
-![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 023](https://s.kirstaetter.name/images/speaker/Frankfurt_2005_023.JPG)![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 194](https://s.kirstaetter.name/images/speaker/Frankfurt_2005_194.JPG)![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 182](https://s.kirstaetter.name/images/speaker/Frankfurt_2005_182.JPG)
+> ![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 006](../content/images/2013/07/Frankfurt_2005_006.webp)![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 076](../content/images/2013/07/Frankfurt_2005_076.webp)![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 203](../content/images/2013/07/Frankfurt_2005_203.webp)  
+![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 023](../content/images/2013/07/Frankfurt_2005_023.webp)![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 194](../content/images/2013/07/Frankfurt_2005_194.webp)![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 182](../content/images/2013/07/Frankfurt_2005_182.webp)

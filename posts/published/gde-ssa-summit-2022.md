@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: GDE SSA Summit 2022
 metaDescription: Did you ever hear about the Google Developers Expert (GDE) Summit in the Sub-Saharan Africa (SSA) region? No? Well, then let me tell you it was the same experience for me.
-image: content/images/2023/08/GDE_SSA_Summit_2022.jpg
+image: content/images/2023/08/GDE_SSA_Summit_2022.webp
 ogTitle: GDE SSA Summit 2022
 ogDescription: Did you ever hear about the Google Developers Expert (GDE) Summit in the Sub-Saharan Africa (SSA) region? No? Well, then let me tell you it was the same experience for me.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/gde-ssa-summit-2022/
-imageUrl: https://jochen.kirstaetter.name/content/images/2023/08/GDE_SSA_Summit_2022.jpg
+imageUrl: content/images/2023/08/GDE_SSA_Summit_2022.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2023/08/GDE_SSA_Summit_2022.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2023/08/GDE_SSA_Summit_2022.jpg
+featureImage: content/images/2023/08/GDE_SSA_Summit_2022.webp
 featured: false
 publishedAt: 2022-09-27T17:27:00Z
 updatedAt: 2023-08-31T16:15:51Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Did you ever hear about the Google Developers Expert (GDE) Summit in the Sub-Saharan Africa (SSA) region? No? Well, then let me tell you it was the same experience for me. This year, read: 2022, was the first-time ever that the community leads at Google Lagos, Nigeria organised the regional GDE SSA Summit and invited approximately [30 experts from all over the African continent](https://developers.google.com/community/experts/directory) to Kigali, Rwanda.
 
 Reading about the GDE summit and getting the chance to attend this in-person event stirred up quite a bit of excitement in me. It's not like I haven't been travelling lately. It's more about the outlook to meet some old friends and to probably make new friends.
@@ -101,7 +100,7 @@ I know, I know, Mauritius is really located at the most Eastern edge of the cont
 
 Given those few examples you might imagine the travel times and cost involved. Total flight times ranged between 15 hours and over 40 hours, whereas prices for air tickets somewhere between USD $700 at the lower end and close to or even beyond USD $4,000 at the upper end. Travelling in economy class... not that you might expect business class or anything more comfortable. A number of route / airline combinations surprisingly turned out way more expensive than expected and others would cost less but would also take a larger chunk of time out of your personal schedule.
 
-![](../content/images/2023/08/PXL_20220921_173132913.jpg)
+![](../content/images/2023/08/PXL_20220921_173132913.webp)
 
 Well, after a few hours exploring available options forth and back, and email exchange with the travel agency I finally decided to stick with the known. I traded a couple of additional hours for the comfort and services of Emirates while keeping the expenses for the air tickets within an acceptable range. Finally, I chose the two-stop, long-way round trip via Dubai and Nairobi. Thanks to past travelling experience, ie. [SSA Community Summit 2018](xref:ssa-community-summit-2018), I know both airports and the facilities they offer. It had always been manageable to spent a couple of hours there. Also considering easy access to their corresponding business lounges for travellers.
 
@@ -111,13 +110,13 @@ Can't imagine the adventure it might be travelling to a future GDE SSA Summit on
 
 What a beautiful city you are!
 
-![The hills of Kigali, Rwanda by night](../content/images/2023/08/PXL_20220923_162346274.jpg)
+![The hills of Kigali, Rwanda by night](../content/images/2023/08/PXL_20220923_162346274.webp)
 
 Honestly, I have been slightly gobsmacked after exiting and leaving the airport even at the night. Everywhere you could look it was both very clean and very green. No graffiti on the wall, no dirt or rubbish on the streets or in the curbs, lots of plants, trees, and flowers anywhere. Proper lighting and fantastic state of roads. Speaking of roads, the Kigali is in close vicinity of the city and therefore speed limits of the city apply - a general limit of 60 km/h. Which is great and safe at the same time. Plan your car ride well ahead of schedule and don't rush around the suburbs. Quite impressive I have to say, and surely European cities can learn a bit or two from Kigali.
 
 While waiting for the transfer to the hotel I was exchanging a little bit with our GDE leads Eunice and John who told me that other GDEs would arrive soon from Johannesburg due to delayed flights. Alright, let's see who's it going to be. First came Android GDE [Ahmed Tikiwa](https://developers.google.com/profile/u/116420014702255504929) and shortly after we were joined by Android GDE [Maia Grotepass](https://developers.google.com/profile/u/102973769178785575270). Finally, Eunice came together with [Josue Mutabazi](https://www.linkedin.com/in/josue-mutabazi-84bb33163/), who runs the [GDG Kigali](https://gdg.community.dev/gdg-kigali/) to give us a heart-warming welcome. Great to meet such lovely people at that time and talking about the various travel experiences. Interestingly both Ahmed and Maia came from Cape Town however on different routes with different obstacles and observations.
 
-![](../content/images/2023/08/PXL_20220924_135300087.jpg)
+![](../content/images/2023/08/PXL_20220924_135300087.webp)
 
 Lastly, we got an additional car to cater for our transfer to the hotel and off we went. On the way I also noticed that the local offices of one of our partners of the annual [Developers Conference](https://conference.mscc.mu/) - Liquid Technologies - are close to the hotel. Arriving at the hotel late in the evening took a toll on my fitness. After I had a quick shower and video chat with my wife I headed straight into the bed and caught some Zzzz's.
 
@@ -127,27 +126,27 @@ Thanks to the difference in time zones - GMT+2 vs GMT+4 - I won two hours extra 
 
 During breakfast I joined a few early folks and together we were joined by more GDEs and our community leads. Whew, it has been four years since I last time spoke to John Kimani as well as Auwal Samu in-person. It was also great to meet again with [Robert John](https://developers.google.com/profile/u/116658437450076744358) after his speaker appearance at DevFest Mauritius back in 2019. During DevFest Nairobi 2018 I attended an interesting session by [Kenneth Kinyanjui](https://developers.google.com/profile/u/111651598581688211516) on Progressive Web Apps (PWA) who joined us a little later morning. Plus, there were lots of other experts like [Hannah Olukoye](https://developers.google.com/profile/u/118284986324237426670) and [Maina Wycliffe](https://developers.google.com/profile/u/109747621541582973567) joining in.
 
-![First breaakfast, then full program of expert networking](../content/images/2023/08/PXL_20220922_060448242.jpg)
+![First breaakfast, then full program of expert networking](../content/images/2023/08/PXL_20220922_060448242.webp)
 
 Ohhh, and I was delighted to meet [Ezekias Bozoke](https://developers.google.com/profile/u/115882415835040942715) who participated in this year's Road to GDE mentorship program. Why you might wonder? Initially I was chosen to mentor Ezekias during that journey to become a GDE however due to my limitations in speaking technical French I requested that he'd be reassigned to another French speaking GDE, [Guillame Blaquiere](https://developers.google.com/profile/u/105720125162556042467). I'm really happy that Ezekias became a GDE.
 
 Now, well fed and full of energy it was time to explore the hotel a little bit before the meetings of the GDE SSA Summit would start. Heading back to my room I came across [Alex Koller](https://developers.google.com/profile/u/107485619813148377733) in the hallway. He seemed a bit surprised that I recognised him or maybe it was just too early. Who knows. OK, back to hotel facilities, so the gym as well as the heated pool are on first floor and just around the corner of the meeting room of the summit. Hmm, maybe we should spent the afternoon talks in and around the pool.
 
-![](../content/images/2023/08/PXL_20220921_014522534.jpg)
+![](../content/images/2023/08/PXL_20220921_014522534.webp)
 
 ### Great stuff coming for GDEs and for Africa
 
 The main topic during the summit was [Next Billion Users](https://blog.google/technology/next-billion-users/). All about the latest news and trends about Google's new products and features for the next billion users. And its $1 billion commitment to Africa.
 
-![](../content/images/2023/08/PXL_20220922_070809412.MP.jpg)
+![](../content/images/2023/08/PXL_20220922_070809412.MP.webp)
 
 And there will GDE membership certificates coming. Hoorah!
 
-![](../content/images/2023/08/RAS-B_3.JPG)
+![](../content/images/2023/08/RAS-B_3.webp)
 
 Due to the constraints and difficulties caused by the pandemic there had been honorable mentions of a couple of GDEs who remained active during those tempting times. Can you imagine my surprise seeing myself on that slide? Apart from that COVID stuff I had struggles of my own during 2021 and I'm still impacted by aftermath.
 
-![](../content/images/2023/08/PXL_20220922_093925727.MP-1.jpg)
+![](../content/images/2023/08/PXL_20220922_093925727.MP-1.webp)
 
 Big kudos and shout out to all other GDEs. You are amazing and we all do an amazing voluntary work in our region.
 
@@ -155,15 +154,15 @@ Big kudos and shout out to all other GDEs. You are amazing and we all do an amaz
 
 To avoid hanging around the hotel all day long a local GDE organised a kind of Meet & Greet mentoring workshop kind of style date for us. So we went on a short trip from the hotel to the [Co-creation Hub (CcHub) Design Lab](https://designlab.cchub.africa/) in Kigali.
 
-![](../content/images/2023/08/PXL_20220922_124623780.MP.jpg)
+![](../content/images/2023/08/PXL_20220922_124623780.MP.webp)
 
-![](../content/images/2023/08/PXL_20220922_124716815.MP.jpg)
+![](../content/images/2023/08/PXL_20220922_124716815.MP.webp)
 
-![](../content/images/2023/08/PXL_20220922_133616311-1.jpg)
+![](../content/images/2023/08/PXL_20220922_133616311-1.webp)
 
-![](../content/images/2023/08/PXL_20220922_130509013.jpg)
+![](../content/images/2023/08/PXL_20220922_130509013.webp)
 
-![](../content/images/2023/08/20220922_144531.jpg)
+![](../content/images/2023/08/20220922_144531.webp)
 
 Apart from some interactive session among ourselves we were asked to offer expert advice to a group of start-ups which are part of the CcHub development program.
 
@@ -175,7 +174,7 @@ We were divided into several groups and then it was time for "Dragon's Den". Lis
 
 Like the previous morning I woke up full of energy and ready for another day of community and fun. But first duty called. Together with a few GDEs for Google Cloud I had a joined meeting with Googlers in Singapore to join our experience and views on Google Cloud Platform for Africa. The major question was ['How can GCP be ready for the next billion users?'](https://blog.google/technology/next-billion-users/) and the specific requirements of African people and governments. In general, data access on mobile is still scarce and expensive across the continent, and yes, back in Mauritius we can be really happy with what we already have compared to other African countries and regions. Both in regards to bandwidth capacity as well as affordability of mobile data plans.
 
-![Work hard, play hard... :-)](../content/images/2023/08/PXL_20220922_091304428.MP.jpg)
+![Work hard, play hard... :-)](../content/images/2023/08/PXL_20220922_091304428.MP.webp)
 
 Right before lunch time we had concluded the official parts of the SSA GDE Community Summit agenda and it was time for more entertainment that would require our full attention, might and skills to complete the tasks ahead of us.
 
@@ -183,29 +182,29 @@ Right before lunch time we had concluded the official parts of the SSA GDE Commu
 
 Following a brief bus ride through the beautiful city of Kigali we stopped on the parking area of a football pitch or kind of community playground. Turns out the nearby located facility has been converted into an Escape Game. We have been split into two groups - each tasked with different challenges - and the competitive game play was on. Who would be first to escape?
 
-![](../content/images/2023/08/PXL_20220923_123635882.MP.jpg)
+![](../content/images/2023/08/PXL_20220923_123635882.MP.webp)
 
-![](../content/images/2023/08/PXL_20220923_094908416.jpg)
+![](../content/images/2023/08/PXL_20220923_094908416.webp)
 
-![](../content/images/2023/08/RAS-B_201.JPG)
+![](../content/images/2023/08/RAS-B_201.webp)
 
 Honestly, our group had additional challenges to master but at the end we finally managed to escape alive.
 
 After all that excitement and challenges we escaped to a cool location for lunch time. The place has an open space for large gatherings with a authentic rustic kitchen area in one fo the cursors sporting a furnace made out of bricks. Very chilled atmosphere and great ambiente to hang out and just network.
 
-![](../content/images/2023/08/PXL_20220923_121903085.jpg)
+![](../content/images/2023/08/PXL_20220923_121903085.webp)
 
-![](../content/images/2023/08/PXL_20220923_115021029.jpg)
+![](../content/images/2023/08/PXL_20220923_115021029.webp)
 
-![](../content/images/2023/08/PXL_20220923_114909368.jpg)
+![](../content/images/2023/08/PXL_20220923_114909368.webp)
 
-![](../content/images/2023/08/PXL_20220923_114652763.jpg)
+![](../content/images/2023/08/PXL_20220923_114652763.webp)
 
 ### A picture says more than a thousand words
 
 Next, we drove across half the city for an artistic session. "Paint & Drink" was the motto of the afternoon reaching one of the rooftop bars in downtown Kigali. Each of us was greeted with a cocktailof choice and... an empty canvas.
 
-![](../content/images/2023/08/RAS-B_4.JPG)
+![](../content/images/2023/08/RAS-B_4.webp)
 
 This was a completely new experience for me. I have never done anything like that before... However it was good fun and entertainment. Some paintings are really impressive pieces of art. Surely not mine. ;-)
 
@@ -213,7 +212,7 @@ This was a completely new experience for me. I have never done anything like tha
 
 To wrap up the day we were hanging out for dinner at another cool location called The Hut.
 
-![](../content/images/2023/08/PXL_20220923_200100222.jpg)
+![](../content/images/2023/08/PXL_20220923_200100222.webp)
 
 That dinner was purely networking and having great conversations with other GDEs. With further progress I was enjoying myself speaking with a group of fancophone GDEs, among them Ezekias, and we had good laughters all around. It was great to learn more about their countries and the activities of their communities there.
 
@@ -229,7 +228,7 @@ This year's edition of [DevFest Kigali](https://gdg.community.dev/events/details
 
 The organising team of GDG Kigali decided to go for a mixed setup. Two registration desks - one for attendees, one for speakers and helpers - were located outdoors right after the entrance. Easy to spot and lots of space to gather around the tables to receive a precious badge.
 
-![Impressions from DevFest Kigali 2022](../content/images/2023/08/PXL_20220924_095553621.jpg)
+![Impressions from DevFest Kigali 2022](../content/images/2023/08/PXL_20220924_095553621.webp)
 
 Directly next to those desks was a large pavilion with an approximate seating capacity of 150 to 180 seats. Visually an amazing place to welcome attendees at DevFest Kigali and to conduct the opening keynotes held by John on anything Google as well as [Chuka Ofili](https://developers.google.com/profile/u/102038231824089813432) about fruitful advice on personal and professional career development. Afterwards, the schedule split into multiple tracks and the audience was guided to three additional break-out areas based on their interest and choice of presentation.
 
@@ -241,7 +240,7 @@ Unfortunately, I couldn't stay for the whole day of DevFest Kigali but had to he
 
 A big shout-out to our regional leads of the GDE and GDG programs (in no particular order) - John, Eunice, Auwal, Dhanija, Ada, and Sodiq - this first-ever GDE SSA Summit went down like a breeze. The mixture of informative presentations, fun sessions, community activities, and evening program was well-balanced, well organised and executed. The choice of inviting us to Kigali was fantastic and a hassle-free experience of travelling (at least for me and I had fun despite the long hours).
 
-![SSA GDE Community Summit 2022 in Kigali, Rwanda was great fun - Kudos!](../content/images/2023/08/GDE_SSA_Summit_2022-2.jpg)
+![SSA GDE Community Summit 2022 in Kigali, Rwanda was great fun - Kudos!](../content/images/2023/08/GDE_SSA_Summit_2022-2.webp)
 
 All the best and lots of success to Femi and the lovely people at CcHub Kigali in their quest to discover fresh entrepreneurs and nourish their creative talents for the benefit of Rwanda and perhaps whole Africa. Would love to see success stories coming from there.
 
@@ -253,10 +252,10 @@ Thanks to anyone involved which I missed mentioning. It's not intentional and yo
 
 Words can hardly describe the atmosphere during those events and activities described above. Following are a couple more impressions from my three days spent in Kigali. See for yourself and kindly consider to visit Kigali in the future. On my side, I already suggested to my wife that we should come back/again to Rwanda. Even for the children it seems an interesting country to explore.
 
-![Loving it...](../content/images/2023/08/RAS-B_234.JPG)
+![Loving it...](../content/images/2023/08/RAS-B_234.webp)
 
 In case that you visited Rwanda and you'd like to share some tips. Please leave your remarks and suggestions in the comment section below. That's really appreciated from me.
 
-![](../content/images/2023/08/PXL_20220923_200252156.jpg)
+![](../content/images/2023/08/PXL_20220923_200252156.webp)
 
 **Note**: Some of the links above are affiliate links which don't hurt anyone's wallet but provide a little bonus for my personal interest in books and other gadgets.

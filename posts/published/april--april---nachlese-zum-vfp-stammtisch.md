@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/april--april---nachlese-zum-vfp-stammtisch/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Ich glaube, dass sich heute (und die letzten beiden Tage) ein paar Stammtischteilnehmer vielleicht wie am 1. April vorkamen. Tut mir leid, alles meine Schuld, ich hab's verbockt. Laut der Website zum Stammtisch - [https://speyer.dfpug.de](https://speyer.dfpug.de) - und meiner Erinnerungsmail sollte sich der Abend mit dem Internet Explorer in VFP-Anwendungen beschäftigen. Nun, sollte... irgendwie habe ich es verpeilt, dass Jörg bereits im März mir zur Kenntnis gab, dass er diese Woche in Urlaub ist, und daher nicht zur Verfügung steht. Gut, alternativ hätte man dann Automation von Microsoft Winword für Druckausgaben anstreben können. Aber Moment mal, da wäre Jörg ebenfalls als Redner aktiv gewesen. Herrje, wieder nichts, okay, dann eben Plan B und das zweite Thema vom März - Dynamic-Link Libraries in VFP verwenden - nachholen.
 
 Ihr könnt euch vielleicht vorstellen, dass wir hiermit den zweiten Satz der Thermodynamik ziemlich gut erfüllt haben. Nun, zumindest stand der Termin; wie bisher immer am 3. Mittwoch des Monats. Pünktlich um 19:30 durften wir uns im frisch renovierten (großen) Nebenraum unseres Lokals versammeln und loslegen. Zunächst wie üblich die Neuigkeiten aus der Community:

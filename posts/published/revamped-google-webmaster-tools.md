@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/revamped-google-webmaster-tools/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 With a positive surprise I realized today that [Google's Webmaster Tools](https://www.google.com/webmasters/tools/ "Google's Webmaster Tools") had some minor overhauling and provide some more details than before. Most obvious are the changes on the dashboard where the Top Search Queries now provide information about impressions and clicktroughs instead of the rankings before. Only the links of the search expressions are missing.
 
 It seems that the Top search queries were in the focus of this update. The section is now spiced with detailed graphs about what happened during selectable periods on your site. Well, seems that the Webmaster Tools mimic a stripped-down version of [Google Analytics](https://www.google.com/analytics/ "Google Analytics")...

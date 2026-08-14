@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/ctp-fr-sedna-und-visual-foxpro-90-sp2/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Das solche Neuigkeiten immer kurz vor dem Wochenende kommen müssen. Tss, da ist man gedanklich schon auf Entspannung und dann wird man von [Microsoft mit neuen Gimmicks](https://msdn.microsoft.com/vfoxpro/letters/) versorgt. Ausgelöst durch einen RSS Feed auf andere Blogs habe ich erfahren, dass sowohl ein neuer [Community Techology Preview (CTP) für Sedna wie auch für das kommende Service Pack 2](https://www.microsoft.com/downloads/details.aspx?FamilyId=808E96E1-3D87-421F-9BA5-4AAFE70C7B21&displaylang=en) für Visual FoxPro 9.0 veröffentlicht wurden.
 
 \*\*Sedna und NET4COM\*\*  

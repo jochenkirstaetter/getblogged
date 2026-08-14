@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/loss-of-power-even-wo-cyclone/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 It's quite funny to write these lines at the moment... because the place I live is completely without any electricity. So, you may wonder 'How is able to write a blog article?' - Hehehe, quite easy. Using a laptop and internet connectivity via mobile. Simple but effective.  
   
 Also interesting is the matter of fact that there are no bad weather conditions or whatever that seems to be of natural sources. Hm, so I guess that someone hit a pole on the road and cut the power line. Yeah, things like this can happen. We gonna know tomorrow (hopefully).  

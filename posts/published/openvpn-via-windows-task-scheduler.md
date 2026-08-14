@@ -12,7 +12,7 @@ tags:
 keywords: Windows, Projects
 metaTitle: Using OpenVPN connections via Windows Task Scheduler
 metaDescription: There might be scenarios where you need a VPN connection on demand and for a limited time only.
-image: content/images/2023/08/_64d3a6de-7553-4b7c-95be-8bf5cc0023fc.jpeg
+image: content/images/2023/08/_64d3a6de-7553-4b7c-95be-8bf5cc0023fc.webp
 ogTitle: Using OpenVPN connections via Windows Task Scheduler
 ogDescription: There might be scenarios where you need a VPN connection on demand and for a limited time only.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/openvpn-via-windows-task-scheduler/
-imageUrl: https://jochen.kirstaetter.name/content/images/2023/08/_64d3a6de-7553-4b7c-95be-8bf5cc0023fc.jpeg
+imageUrl: content/images/2023/08/_64d3a6de-7553-4b7c-95be-8bf5cc0023fc.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2023/08/_64d3a6de-7553-4b7c-95be-8bf5cc0023fc.jpeg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2023/08/_64d3a6de-7553-4b7c-95be-8bf5cc0023fc.jpeg
+featureImage: content/images/2023/08/_64d3a6de-7553-4b7c-95be-8bf5cc0023fc.webp
 featured: false
 publishedAt: 2023-06-28T08:42:00Z
 updatedAt: 2023-08-28T14:25:56Z
@@ -54,7 +54,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 There might be scenarios where you need a VPN connection on demand and for a limited time only.
 
 What else than using an OpenVPN connection which is triggered by a scheduled task in the Windows Task Scheduler? It seems to be the most obvious approach to handle this. No? Well, let me give you a little bit context on the actual requirement and what kind of unexpected obstacles came around the corner.
@@ -79,17 +78,17 @@ To solve this riddle we decided to stick with plain `rsync` but operating throug
 
 Given previous experience creating a task in the Windows Task Scheduler here is a quick run-down of how I defined it. We are using PowerShell for the actual handling of the OpenVPN connection and the rsync data transfer.
 
-![Define the General attributes a scheduled task](../content/images/2023/08/238945840-55b98746-b04c-419d-b613-15a969804a5e.jpg)
+![Define the General attributes a scheduled task](../content/images/2023/08/238945840-55b98746-b04c-419d-b613-15a969804a5e.webp)
 
 The general attributes of the scheduled are task are mainly default. Except that the user account used to run the task has been adjusted to a non-privileged user account and is different to the currently logged in user account.
 
-![The scheduled task is launched by a non-privileged user account](../content/images/2023/08/238954099-05caa426-0bfd-4aa2-94b5-9fa418b47d52.jpg)
+![The scheduled task is launched by a non-privileged user account](../content/images/2023/08/238954099-05caa426-0bfd-4aa2-94b5-9fa418b47d52.webp)
 
 Quick check to show that the selected user account, here "MSCC", is a non-privileged one but assigned to administrative OpenVPN features.
 
 Next, the Action(s) for that scheduled task is to launch an instance of PowerShell (Core) and execute a PowerShell script to open and establish an OpenVPN connection, run the `rsync` command to synchronise data between source and target systems, and then terminate the connection at the end.
 
-![Define the Actions launched by the scheduled task](../content/images/2023/08/238945728-26a029e3-7f09-4bb6-94b0-72525937ed5a.jpg)![Show of the task launching an instance PowerShell (Core) and executing a script ](../content/images/2023/08/238945451-03400387-af19-41cf-925c-2216880feba4.jpg)
+![Define the Actions launched by the scheduled task](../content/images/2023/08/238945728-26a029e3-7f09-4bb6-94b0-72525937ed5a.webp)![Show of the task launching an instance PowerShell (Core) and executing a script ](../content/images/2023/08/238945451-03400387-af19-41cf-925c-2216880feba4.webp)
 
 Literally nothing fancy or extra-ordinary about the actual task scheduling. Kind of business as usual on a Windows operating system.
 

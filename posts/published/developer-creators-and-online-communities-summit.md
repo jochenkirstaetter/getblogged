@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: Developer Creators and Online Communities Summit
 metaDescription: The Google Developer Community organised the first Developer Creators and Online Communities Summit in Singapore. I had the honour to join approx. 120 people and learn a lot over there.
-image: content/images/2024/01/PXL_20240125_094817421.MP.jpg
+image: content/images/2024/01/PXL_20240125_094817421.MP.webp
 ogTitle: Developer Creators and Online Communities Summit
 ogDescription: The Google Developer Community organised the first Developer Creators and Online Communities Summit in Singapore. I had the honour to join approx. 120 people and learn a lot over there.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/developer-creators-and-online-communities-summit/
-imageUrl: https://jochen.kirstaetter.name/content/images/2024/01/PXL_20240125_094817421.MP.jpg
+imageUrl: content/images/2024/01/PXL_20240125_094817421.MP.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2024/01/PXL_20240125_094817421.MP.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2024/01/PXL_20240125_094817421.MP.jpg
+featureImage: content/images/2024/01/PXL_20240125_094817421.MP.webp
 featured: false
 publishedAt: 2024-02-01T10:13:34Z
 updatedAt: 2024-02-01T17:44:15Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 New year, new activities. It's still January and I'm already on tour. I was heading to the [Developer Creators and Online Communities Summit](https://rsvp.withgoogle.com/events/developer-creators-and-online-communities-summit) - [#GoogleDCOC](https://x.com/hashtag/GoogleDCOC?src=hashtag_click) - in Singapore. It's a global hybrid event - meaning in-person and online. The purpose is to bring together content creators and online community managers in the developer space from all around the world.
 
 ## Why attending in-person?
@@ -106,7 +105,7 @@ After the welcoming stop-over at the Emirates Business Lounge at the Dubai airpo
 
 I've been to a few airports around the world so far and Changi is by far the most impressive one. Think of an airport inside a huge shopping mall and entertainment facility and you might get an idea about it. This thing is huge! Did I mention that free WiFi is offered everywhere?
 
-![The Jewel at Changi airport in Singapore](../content/images/2024/01/PXL_20240123_134933957.MP.jpg)
+![The Jewel at Changi airport in Singapore](../content/images/2024/01/PXL_20240123_134933957.MP.webp)
 
 Next task was to purchase one of those NFC cards for public transport. To my understanding there are at least two possibilities - ezLink and SimpleGo. I spent like $S 10 for the ezLink card which came pre-loaded with a balance of $S 5 to ride the MRT lines and busses.
 
@@ -140,7 +139,7 @@ I boarded the MRT green line shortly after 22.00 hrs, and had to change to the D
 
 The capsule hotel I booked was within 5 minutes walking distance from the station exit Pagoda Street, and following the directions on Google Maps got me there easily. A quick scan of my passport at their automated check-in kiosk checked me in, and I received the key card in exchange. Again, really smooth and user-friendly processing. Here are a few impressions.
 
-![Exploring Chinatown by night on the hunt for food and accommodation (capsule hotel)](../content/images/2024/01/PXL_20240123_152238217.jpg)
+![Exploring Chinatown by night on the hunt for food and accommodation (capsule hotel)](../content/images/2024/01/PXL_20240123_152238217.webp)
 
 With the key card you get access to the different levels and amenities of the hotel. I reached my sleeping capsule, dropped of the luggage in the designated, key card secured locker storage, and then went on tour in Chinatown for dinner. I wasn't sure how long restaurants would be open but thought that probably midnight might be a closing time anywhere. In short distance across the hotel I found a place with yummy-looking dishes and I decided to give it shot. I mean, what could possible go wrong? BTW, the ratings on Google Maps for that joint are positive and their range of dishes offered is wide.
 
@@ -156,11 +155,11 @@ First day in Singapore had no fixed agenda and it gave me the opportunity to exp
 
 As I spent the night in Chinatown what's more obvious than to discover the suburban during the morning hours? A quick check on Google Maps that the famous [Buddha Tooth Relic Temple](https://maps.app.goo.gl/BgT3dcyWb4HabU7p7) is literally just around the corner. By the time I got there prayers were still in full swing and it has an enlightening experience to stay for a while
 
-![Strolling around Chinatown and discovering amazing locations](../content/images/2024/01/PXL_20240124_010812001.jpg)
+![Strolling around Chinatown and discovering amazing locations](../content/images/2024/01/PXL_20240124_010812001.webp)
 
 Down that same road I went to visit the [Sri Mariamman Temple](https://maps.app.goo.gl/mgtLCYEhhpz8QE4q9) and there also had been prayers. Taking into consideration that Thaipoosam Cavadee was on Thursday I assumed devotees would be at the temple for prayers. Although I went back through Pagoda Street towards the colonial street shops I only saw the [Jamae (Chulia) Mosque](https://maps.app.goo.gl/J9FwQ2BCH7nTPpri9) from a short distance but didn't go there. I was reminded of Mauritius with those three places in close, peaceful coexistence.
 
-![](../content/images/2024/01/PXL_20240124_015502071.jpg)
+![](../content/images/2024/01/PXL_20240124_015502071.webp)
 
 ### The Bay area
 
@@ -170,7 +169,7 @@ Despite the light rain, yeah I brought a lightweight rain jacket with me, I then
 
 The Cloud Forest with its indoor waterfall and six levels of nature exploration is impressive and amazing to visit.
 
-![Impressions from the Gardens by the Bay landmarks](../content/images/2024/01/PXL_20240124_033113263.jpg)
+![Impressions from the Gardens by the Bay landmarks](../content/images/2024/01/PXL_20240124_033113263.webp)
 
 There are different sections of floral diversity which the Flower Dome has to offer. I enjoyed the smells, the tranquility in certain areas, and the massive educational factor across the dome. One could easily spend the whole day there.
 
@@ -186,15 +185,15 @@ Our organising team from Google invited us to an informal welcome/reception dinn
 
 Shortly after I spotted [Yesaya Athuman](https://www.linkedin.com/in/yesayaathuman) who I missed talking to at [DevFest Dar es Salaam](xref:devfest-dar-es-salaam-2023). I went over to him joining others standing and chatting about all kind of community stuff. There I got introduced to [Dariusz Kalbarczyk](https://www.linkedin.com/in/ngkalbarczyk), organiser of ngPolandConf, and we exchanged a bit about our common friend [Dhananjay Kumar](https://www.linkedin.com/in/dhananjaykumar07), organiser of ngIndia. By chance we were also joined by [Mazlum Tosun](https://www.linkedin.com/in/mazlum-tosun-900b1812) whose YouTube videos fascinate me as he creates Google Cloud content in French and English language, and promotes them equally. We instantly spoke about common friends in the community like [Ezekias Bokove](https://www.linkedin.com/in/ezekias-bokove), [Louis Japheth Kouassi](https://www.linkedin.com/in/louis-japheth-kouassi), and [Guillaume Blaquiere](https://www.linkedin.com/in/guillaume-blaquiere-38693b15). While having dinner fellow creator and book author [Muhammed Ahsan Ayaz](https://www.linkedin.com/in/ahsanayaz) spent some time and interesting stories with us.
 
-![](../content/images/2024/01/PXL_20240124_102040771.MP.jpg)
+![](../content/images/2024/01/PXL_20240124_102040771.MP.webp)
 
-![](../content/images/2024/01/1706108657703.jpeg)
+![](../content/images/2024/01/1706108657703.webp)
 
-![](../content/images/2024/01/1706108656940.jpeg)
+![](../content/images/2024/01/1706108656940.webp)
 
-![](../content/images/2024/01/IMG_2937.jpeg)
+![](../content/images/2024/01/IMG_2937.webp)
 
-![](../content/images/2024/01/IMG_8359.JPG)
+![](../content/images/2024/01/IMG_8359.webp)
 
 With the evening progressing and having had dinner from the buffet you could observe the forming of multiple groups based on either geographical vicinity or established connections on Discord. It always amazes me how easy it is to connect with other during such in-person gatherings. Together with Yesaya, I then sat down with [Daisy Auma](https://www.linkedin.com/in/daisyfaithauma) and [Ezinne Osuamadi](https://www.linkedin.com/in/ezinne-osuamadi-216167146) to learn more about their professional whereabouts and community involvements. It was actually fascinating to learn that Daisy moved from Kenya to the UK, whereas Ezinne is from Nigeria and working in Germany since a few years.
 
@@ -212,31 +211,31 @@ An empty stomach isn't capable to study. Hence breakfast buffet had been offered
 
 Our two Masters of Ceremony [Alicja Heisig-Chiarello](https://www.linkedin.com/in/alicja-heisig-chiarello/) and [Dirk Primbs](https://www.linkedin.com/in/dirkprimbs/) launched the Summit officially and also welcomed everyone on the live stream. Meanwhile our two radio / live streaming moderators [Nathalie Pereira](https://www.linkedin.com/in/nathalie-pereira-063a513/) and [Alfredo Morresi](https://www.linkedin.com/in/alfredomorresi/) had started already. Oh yes, amazingly the whole summit was a hybrid event with in-person and online participation.
 
-![](../content/images/2024/01/PXL_20240124_235148317.jpg)
+![](../content/images/2024/01/PXL_20240124_235148317.webp)
 
-![](../content/images/2024/01/1706509845551.jpeg)
+![](../content/images/2024/01/1706509845551.webp)
 
-![](../content/images/2024/01/PXL_20240125_013946374.MP.jpg)
+![](../content/images/2024/01/PXL_20240125_013946374.MP.webp)
 
-![](../content/images/2024/01/20240125_092722.jpg)
+![](../content/images/2024/01/20240125_092722.webp)
 
-![](../content/images/2024/01/IMG_8482.jpg)
+![](../content/images/2024/01/IMG_8482.webp)
 
-![](../content/images/2024/01/PXL_20240125_095630367.MP.jpg)
+![](../content/images/2024/01/PXL_20240125_095630367.MP.webp)
 
-![](../content/images/2024/01/IMG_0729.jpg)
+![](../content/images/2024/01/IMG_0729.webp)
 
-![](../content/images/2024/01/PXL_20240125_101828139.MP.jpg)
+![](../content/images/2024/01/PXL_20240125_101828139.MP.webp)
 
 BTW, here's the agenda: [https://rsvp.withgoogle.com/events/developer-creators-and-online-communities-summit/agenda](https://rsvp.withgoogle.com/events/developer-creators-and-online-communities-summit/agenda)
 
 Next up [Janise Tan](https://www.linkedin.com/in/jantan) welcomed us to Singapore and the SEA developer community landscape giving us some details about the region, its numbers regarding to communities and activities. Fun fact, while introducing Singapore to the audience she highlighted some of the key factors of the city's success which miraculously match the secret ingredients being a successful content creator online or running thriving communities.
 
-![Shared key success factors among Singapore and content creation online](../content/images/2024/02/PXL_20240125_020831262.jpg)
+![Shared key success factors among Singapore and content creation online](../content/images/2024/02/PXL_20240125_020831262.webp)
 
 True to the nature of a hybrid summit, we then watched the Creator keynote as a remote session with [Stephanie Wong](https://www.linkedin.com/in/stephrwong/). After the [Google Cloud Tech](https://x.com/GoogleCloudTech) X/Twitter Space in April last year about [How to make the most of Innovators Plus](https://x.com/GoogleCloudTech/status/1646544002085269506?s=20) subscription I was eager to meet Stephanie IRL. Hmm, didn't happen this time...
 
-![Content creation is about telling a story](../content/images/2024/02/PXL_20240125_022750294.jpg)
+![Content creation is about telling a story](../content/images/2024/02/PXL_20240125_022750294.webp)
 
 Her talk gave some good insights based on her long-year experience as a successful content creator. Building and telling a concise story is one of those golden aspects to take into consideration.
 
@@ -246,7 +245,7 @@ The following panel shared more tips on being successful creating content as wel
 
 After the well-deserved morning break that allowed us to reflect and network we got an Intro to Gemini, presented by [Dirk Primbs](https://www.linkedin.com/in/dirkprimbs/).
 
-![Recent timeline of AI development and milestones achieved by Google](../content/images/2024/02/PXL_20240125_034133638.jpg)
+![Recent timeline of AI development and milestones achieved by Google](../content/images/2024/02/PXL_20240125_034133638.webp)
 
 During the past decade there had been major breakthroughs in the field of Artificial Intelligence (AI). And although these days most people might talk about AI in the context of conversational bots or generative content creation there have been more highlights, i.e. in research & development sector, in the medical sector, and others. One should also understand that Machine Learning (ML) and Artificial Intelligence go way further back into the past than a decade but it's the magnitude of advancements that has happened recently only thanks to broader access to information and more capable computing power thanks to hyper-scaling data centres.
 
@@ -286,7 +285,7 @@ Back at the hotel I didn't even bother to go upstairs to the room but stayed rig
 
 Meanwhile [Muhammed Ahsan Ayaz](https://www.linkedin.com/in/ahsanayaz) reached out to me asking where I would be around. I suggested to him to join us down in the hotel lobby. Already last week Ahsan posted in our DCOC summit channel on Discord and kindly offered physical copies of his updated, second edition book [Angular Cookbook](https://amzn.to/47PV9ra). I'm really happy about this addition to our community's book library.
 
-![Got a signed copy of the Angular Cookbook, 2nd Edition by [Muhammed Ahsan Ayaz](https://www.linkedin.com/in/ahsanayaz)](../content/images/2024/01/1706607127753.jpeg)
+![Got a signed copy of the Angular Cookbook, 2nd Edition by [Muhammed Ahsan Ayaz](https://www.linkedin.com/in/ahsanayaz)](../content/images/2024/01/1706607127753.webp)
 
 Funnily, he was a bit surprised when I asked him to have the book signed by him. "That's the first time someone is asking for a signature!" - I'm grateful for this. How often do you have a chance to meet a book author in person?
 
@@ -300,21 +299,21 @@ That night I managed to catch a few more Zzzz's, and like the previous morning w
 
 Following yesterday's sessions mainly provided by Googlers and partners, the content for today was sourced from the community itself. A total of nine creators offered their knowledge and expertise. Plus, the various time slots in the podcast studio. Our fantastic masters of ceremony - Alicja and Nathalie - launched the day with a brief overview of what to expect and introduced the speakers. Each presenter had an opportunity to pitch their content in front of the audience. Another tough decision process to choose three out of nine.
 
-![](../content/images/2024/01/PXL_20240126_020213851.jpg)
+![](../content/images/2024/01/PXL_20240126_020213851.webp)
 
-![](../content/images/2024/01/PXL_20240125_100753661.jpg)
+![](../content/images/2024/01/PXL_20240125_100753661.webp)
 
-![](../content/images/2024/01/PXL_20240126_025330302.jpg)
+![](../content/images/2024/01/PXL_20240126_025330302.webp)
 
-![](../content/images/2024/01/PXL_20240126_085756227.jpg)
+![](../content/images/2024/01/PXL_20240126_085756227.webp)
 
-![](../content/images/2024/01/PXL_20240126_082748003.MP.jpg)
+![](../content/images/2024/01/PXL_20240126_082748003.MP.webp)
 
-![](../content/images/2024/01/PXL_20240126_044625862.MP.jpg)
+![](../content/images/2024/01/PXL_20240126_044625862.MP.webp)
 
-![](../content/images/2024/01/20240126_144335.jpg)
+![](../content/images/2024/01/20240126_144335.webp)
 
-![](../content/images/2024/01/1706548262742-1.jpg)
+![](../content/images/2024/01/1706548262742-1.webp)
 
 ### Breakout sessions I attended
 
@@ -341,23 +340,23 @@ As the hunger kicked in slowly but surely we decided to head over to the hawker 
 
 Finding enough seats for such a big group at this time seems very challenging. And so unfortunately we had to split into smaller units, chope'd our places and went off exploring the different stalls sourcing for food. There is an incredible variety of dishes available.
 
-![](../content/images/2024/01/PXL_20240126_115852680.jpg)
+![](../content/images/2024/01/PXL_20240126_115852680.webp)
 
-![](../content/images/2024/01/PXL_20240126_120637129.jpg)
+![](../content/images/2024/01/PXL_20240126_120637129.webp)
 
-![](../content/images/2024/01/PXL_20240126_121343185.jpg)
+![](../content/images/2024/01/PXL_20240126_121343185.webp)
 
-![](../content/images/2024/01/PXL_20240126_122638029.jpg)
+![](../content/images/2024/01/PXL_20240126_122638029.webp)
 
-![](../content/images/2024/01/PXL_20240126_140807246.jpg)
+![](../content/images/2024/01/PXL_20240126_140807246.webp)
 
-![](../content/images/2024/01/PXL_20240126_145419126.jpg)
+![](../content/images/2024/01/PXL_20240126_145419126.webp)
 
-![](../content/images/2024/01/PXL_20240126_141928466.jpg)
+![](../content/images/2024/01/PXL_20240126_141928466.webp)
 
-![](../content/images/2024/01/PXL_20240126_163101042.MP--1-.jpg)
+![](../content/images/2024/01/PXL_20240126_163101042.MP--1-.webp)
 
-![](../content/images/2024/01/PXL_20240126_163319430.jpg)
+![](../content/images/2024/01/PXL_20240126_163319430.webp)
 
 After we concluded our culinary adventures we headed to the Waterfront Promenade and attended the [Spectra - A Light & Water Show](https://maps.app.goo.gl/ihDs8Z66CtjUFahe7). What a joy for eyes and ears.
 
@@ -377,17 +376,17 @@ Starting at the People's Park Complex mall I explored the street market in China
 
 Unsurprisingly I had to buy another backpack (50l volume) to fit in all the items purchased. Given this half-day shopping spree I am not so sure about organising a (one week) vacation with the family here in Singapore is such a good idea. Especially around the time of Chinese New Year. Just kidding!
 
-![](../content/images/2024/01/PXL_20240127_063034017.MP.jpg)
+![](../content/images/2024/01/PXL_20240127_063034017.MP.webp)
 
-![](../content/images/2024/01/PXL_20240127_074141192.jpg)
+![](../content/images/2024/01/PXL_20240127_074141192.webp)
 
-![](../content/images/2024/01/PXL_20240127_071904331.jpg)
+![](../content/images/2024/01/PXL_20240127_071904331.webp)
 
-![](../content/images/2024/01/PXL_20240127_064044562.jpg)
+![](../content/images/2024/01/PXL_20240127_064044562.webp)
 
-![](../content/images/2024/01/PXL_20240127_065142448.jpg)
+![](../content/images/2024/01/PXL_20240127_065142448.webp)
 
-![](../content/images/2024/01/PXL_20240127_063910135.jpg)
+![](../content/images/2024/01/PXL_20240127_063910135.webp)
 
 ### See you soon!
 

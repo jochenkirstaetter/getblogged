@@ -12,7 +12,7 @@ tags:
 keywords: Community, Andela
 metaTitle: ALC 4.0 Cloud - Access to Qwiklabs
 metaDescription: The following collection of hands-on-labs on Qwiklabs has been made available to scholars of the Andela Learning Community (ALC) 4.0 program. A collaboration between Andela, Google and Pluralsight to...
-image: https://images.unsplash.com/photo-1529007196863-d07650a3f0ea?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2019/09/photo-1529007196863-d07650a3f0ea.webp
 ogTitle: ALC 4.0 Cloud - Access to Qwiklabs
 ogDescription: The following collection of hands-on-labs on Qwiklabs has been made available to scholars of the Andela Learning Community (ALC) 4.0 program. A collaboration between Andela, Google and Pluralsight to...
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/alc4-qwiklabs/
-imageUrl: https://images.unsplash.com/photo-1529007196863-d07650a3f0ea?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2019/09/photo-1529007196863-d07650a3f0ea.webp
 twitterImageUrl: https://images.unsplash.com/photo-1529007196863-d07650a3f0ea?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1529007196863-d07650a3f0ea?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2019/09/photo-1529007196863-d07650a3f0ea.webp
 featured: false
 publishedAt: 2019-09-04T14:30:00Z
 updatedAt: 2019-09-04T15:24:02Z
@@ -53,8 +53,8 @@ facebookDescription: The following collection of hands-on-labs on Qwiklabs has b
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 The following collection of hands-on-labs on Qwiklabs has been made available to scholars of the Andela Learning Community (ALC) 4.0 program. A collaboration between Andela, Google and Pluralsight to grow with Google technology.
 
 The links require that you're logged into your account on [Pluralsight](https://www.pluralsight.com/). Eventually, the links might stop to work after expiration of the program in January 2020. Alternatively, you can go directly to [Qwiklabs](https://www.qwiklabs.com/) and create an account on their platform.

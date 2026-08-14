@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/golo--der-gartenzwerg/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Da haben wir schon einen alltäglichen Namen wie Golo und dann auch noch in der Kombination. Ich find's klasse... Auch wenn ich heute extremst schlecht drauf bin. Oder um es deutlicher zu formulieren: Heute ist einer der "Geh mir aus dem Weg, oder du heulst" Tage...  
   
 Wassup? Ganz einfach, vorhin kam von Golo selbst der folgende Hyperlink per Messenger:  

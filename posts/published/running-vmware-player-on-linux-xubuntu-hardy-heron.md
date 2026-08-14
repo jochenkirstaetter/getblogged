@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/running-vmware-player-on-linux-xubuntu-hardy-heron/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 A new article since a long time. Sorry, I was and still am very busy on my job but I need to write these lines first.  
 Since last month I modified my main development system a little bit and instead of running a native Windows operating system I gave xubuntu 7.10 a try. For developing purposes I installed VMware Player and therefore run virtual machines with Windows XP and Windows Vista. That's way more practical then a multiboot system. By the way, you can do this as well under Windows directly and use Microsoft Virtual PC instead of VMware, too.
 

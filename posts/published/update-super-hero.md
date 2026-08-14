@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/update-super-hero/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 While I was looking for a completely different article back in 2007, I came across my [Super Hero & Super Villain](xref:super-hero-or-super-villain "Super Hero & Super Villain") rating... Well, it was time for an update:
 
 ## Your Super Hero results:
@@ -62,4 +61,4 @@ While I was looking for a completely different article back in 2007, I came acro
 You are intelligent, witty,  
 a bit geeky and have great  
 power and responsibility.  
-![](https://www.thesuperheroquiz.com/pics/spidy.jpg) [Click here to take the Superhero Personality Test](https://www.thesuperheroquiz.com/)
+![](../content/images/2013/09/spidy.webp) [Click here to take the Superhero Personality Test](https://www.thesuperheroquiz.com/)

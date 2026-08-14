@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/darfs-ein-wenig-kultur-sein/
-imageUrl: https://jochen.kirstaetter.name/content/images/2023/09/Potsdam007.JPG
+imageUrl: content/images/2023/09/Potsdam007.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2023/09/Potsdam007.JPG
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Und wieder ein erfolgreicher Workshop-Tag neigt sich dem Ende. Spannenderweise wurden wir heute auf Grund einer Bombenentschärfung umquartiert. Gleich wieder 'diese Hektik' am frühen Morgen... 😁 - da wir ein wenig früher als gestern begonnen haben, starteten wir dennoch zeitig und wieder einmal sehr umfangreich. Nach den Grundlagen und den ersten Programmierschritten mit den Active FoxPro Pages haben wir heute uns mit den fortgeschritteneren Themen, wie Applikationskonfiguration, Session-Management und weiteren Fähigkeiten der AFP beschäftigt. Zwischendurch immer mal wieder den ein oder anderen Exkurs ins Unterholz des Fuchs oder des Internets (HTML/XML). Insgesamt hoffentlich wieder ein gelungener Tag.
 
 Auf Grund der Nähe zu Sans Souci liessen wir den arbeitsreichen Tagesverlauf unternahmen wir einen gemeinsamen Entspannungsspaziergang in der riesigen Parkanlage. Es fasziniert mich immer wieder aufs Neue in welchem Umfang aber auch Detailgrad die Anlage insgesamt und die Gebäude im Besonderen angelegt oder gebaut wurden. Ergänzend durch die Informationen über die Situation vor der Öffnung der Mauer - 'genau dort hinter den Kolonaden verlief die Mauer.' - freut es mich umso mehr, dass wir in Deutschland (noch) solch imposante Sehenswürdigkeiten für die Welt zu offerieren haben. Sicherlich auch ein Urteilsgrund für die UNESCO Potsdam den Status eines Weltkulturerbe zu geben.

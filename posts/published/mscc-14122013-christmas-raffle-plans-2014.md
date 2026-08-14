@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: 'MSCC: Christmas raffle and plans for 2014'
 metaDescription: Our last monthly meetup for 2013 had been organised at the Ebene Accelerator, Orange Tower, Ebene. Already the pre-registration or commonly known the RSVPs look very promising. At least 17 craftsmen were expected to show up. And... it was better than that.
-image: https://images.unsplash.com/photo-1510545973694-c3190af89c24?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2013/12/photo-1510545973694-c3190af89c24.webp
 ogTitle: 'MSCC: Christmas raffle and plans for 2014'
 ogDescription: Our last monthly meetup for 2013 had been organised at the Ebene Accelerator, Orange Tower, Ebene. Already the pre-registration or commonly known the RSVPs look very promising. At least 17 craftsmen...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mscc-14122013-christmas-raffle-plans-2014/
-imageUrl: https://images.unsplash.com/photo-1510545973694-c3190af89c24?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2013/12/photo-1510545973694-c3190af89c24.webp
 twitterImageUrl: https://images.unsplash.com/photo-1510545973694-c3190af89c24?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1510545973694-c3190af89c24?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2013/12/photo-1510545973694-c3190af89c24.webp
 featured: false
 publishedAt: 2013-12-17T07:19:22Z
 updatedAt: 2019-01-18T16:47:48Z
@@ -52,9 +52,9 @@ facebookDescription: Our last monthly meetup for 2013 had been organised at the 
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
-[![Logo of the Mauritius Software Craftsmanship Community](https://s.kirstaetter.name/images/mscc.jpg)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community")Our last monthly meetup for 2013 had been organised at the [Ebene Accelerator](https://ebeneaccelerator.intnet.mu/ "Ebene Accelerator"), Orange Tower, Ebene. Already the pre-registration or commonly known the RSVPs look very promising. At least 17 craftsmen were expected to show up. And... it was better than that. We cracked down the 20-people mark and had a total of 23 craftsmen (and -women) in the conference room(s) at the Ebene Accelerator, again a good number of 'first-timers'.
+[![Logo of the Mauritius Software Craftsmanship Community](../content/images/2013/11/mscc.webp)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community")Our last monthly meetup for 2013 had been organised at the [Ebene Accelerator](https://ebeneaccelerator.intnet.mu/ "Ebene Accelerator"), Orange Tower, Ebene. Already the pre-registration or commonly known the RSVPs look very promising. At least 17 craftsmen were expected to show up. And... it was better than that. We cracked down the 20-people mark and had a total of 23 craftsmen (and -women) in the conference room(s) at the Ebene Accelerator, again a good number of 'first-timers'.
 
 If this trend is going to continue we have to see for another location with a bigger room. Soon...
 
@@ -66,7 +66,7 @@ Actually, it was Ish that came up with a fantastic idea. Any winner of our Chris
 
 > *"The exchange of ideas with professionals was enriching, business and research wise. The members seem to master the knowledge in their fields."* -- Irfaan on [The first meeting MSCC](https://imcmscc.blogspot.com/2013/12/the-first-meeting-mscc.html "The first meeting MSCC")
 >
-> *"As part of the deal to get free access to tons of online videos, I’ve accepted to blog, under my own terms ![:-)](https://s0.wp.com/wp-includes/images/smilies/icon_smile.gif?m=1129645325g) Today I went to the MSCC, and I met a bunch of software developers, and saw a bunch of familiar faces that I will decline to name for their own safety."* -- sysadmin on [First MSCC meeting](https://ramblingsofasysadmin.wordpress.com/2013/12/14/first-mscc-meeting/ "First MSCC meeting")
+> *"As part of the deal to get free access to tons of online videos, I’ve accepted to blog, under my own terms ![:-)](../content/images/2013/12/icon_smile.webp) Today I went to the MSCC, and I met a bunch of software developers, and saw a bunch of familiar faces that I will decline to name for their own safety."* -- sysadmin on [First MSCC meeting](https://ramblingsofasysadmin.wordpress.com/2013/12/14/first-mscc-meeting/ "First MSCC meeting")
 >
 > *"As expected, today's meetup was full and met with new peeps. That's great the group is growing even bigger."* -- Ibraahim on [MSCC meetup - last one for 2013](https://ibraahimatchia.skyrock.com/3199591865-MSCC-meetup-Last-one-for-2013.html "MSCC meetup - last one for 2013")
 >

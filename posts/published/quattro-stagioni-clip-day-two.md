@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: Quattro stagioni (CLIP Day Two)
 metaDescription: Quattro stagioni (CLIP Day Two) 5:45 Zimmer 330 - In the middle of the nightWenn man schon im Hotel übernachtet, dann muss man auch gleich aus den Vollen schöpfen? Herrje, was ein Glück waren meine Schlafübergangsphasen extrem kurz. Ins Bett und weg in den Tiefschlaf und jetzt *flupp* raus dem
-image: https://images.unsplash.com/photo-1536090219743-b4d977a0d9f2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=c66b6d9f038c45f1ed3aa0fc85c6c873
+image: content/images/2004/10/photo-1536090219743-b4d977a0d9f2.webp
 ogTitle: Quattro stagioni (CLIP Day Two)
 ogDescription: Wenn man schon im Hotel übernachtet, dann muss man auch gleich aus den Vollen schöpfen? Herrje, was ein Glück waren meine Schlafübergangsphasen extrem kurz. Ins Bett und weg in den Tiefschlaf und...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/quattro-stagioni-clip-day-two/
-imageUrl: https://images.unsplash.com/photo-1536090219743-b4d977a0d9f2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=c66b6d9f038c45f1ed3aa0fc85c6c873
+imageUrl: content/images/2004/10/photo-1536090219743-b4d977a0d9f2.webp
 twitterImageUrl: https://images.unsplash.com/photo-1536090219743-b4d977a0d9f2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=c66b6d9f038c45f1ed3aa0fc85c6c873
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1536090219743-b4d977a0d9f2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=c66b6d9f038c45f1ed3aa0fc85c6c873
+featureImage: content/images/2004/10/photo-1536090219743-b4d977a0d9f2.webp
 featured: false
 publishedAt: 2004-10-21T00:00:00Z
 updatedAt: 2018-10-23T10:16:04Z
@@ -52,8 +52,8 @@ facebookDescription: Wenn man schon im Hotel übernachtet, dann muss man auch gl
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 ## 5:45 Zimmer 330 - In the middle of the night
 
 Wenn man schon im Hotel übernachtet, dann muss man auch gleich aus den Vollen schöpfen? Herrje, was ein Glück waren meine Schlafübergangsphasen extrem kurz. Ins Bett und weg in den Tiefschlaf und jetzt \*flupp\* raus dem Tiefschlaf ab ins Bad. Woah, was ist denn das für'n Zombie im Spiegel?  

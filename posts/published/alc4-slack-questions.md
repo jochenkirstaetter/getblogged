@@ -12,7 +12,7 @@ tags:
 keywords: Community, Andela
 metaTitle: ALC 4.0 Cloud - Slack questions
 metaDescription: A collection of questions that popped up in Slack recently. I'm going to give my opinion based on the knowledge I have gained so far. Surely, this is not going to be complete and there are different...
-image: https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2019/08/photo-1531206715517-5c0ba140b2b8.webp
 ogTitle: ALC 4.0 Cloud - Slack questions
 ogDescription: A collection of questions that popped up in Slack recently. I'm going to give my opinion based on the knowledge I have gained so far. Surely, this is not going to be complete and there are different...
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/alc4-slack-questions/
-imageUrl: https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2019/08/photo-1531206715517-5c0ba140b2b8.webp
 twitterImageUrl: https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2019/08/photo-1531206715517-5c0ba140b2b8.webp
 featured: false
 publishedAt: 2019-08-10T08:49:18Z
 updatedAt: 2019-09-03T18:46:48Z
@@ -53,8 +53,8 @@ facebookDescription: A collection of questions that popped up in Slack recently.
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 A collection of questions that popped up in Slack recently. I'm going to give my opinion based on the knowledge I have gained so far. Surely, this is not going to be complete and there are different experiences and points of view.
 
 Feel free to join the conversation in the comment section below.

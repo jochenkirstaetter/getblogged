@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: Feedback on meeting of the Linux User Group of Mauritius
 metaDescription: Quick review on the meeting of the Linux User Group of Mauritius (LUGM) on the 15th June 2013 at L'Escalier. It was a great gathering with interesting topics and activities afterwards.
-image: content/images/2018/11/Lugm_20130615.jpg
+image: content/images/2018/11/Lugm_20130615.webp
 ogTitle: Feedback on meeting of the Linux User Group of Mauritius
 ogDescription: Once upon a time in a country far far away...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/feedback-on-lugm-meeting-15-06-2013/
-imageUrl: https://jochen.kirstaetter.name/content/images/2018/11/Lugm_20130615.jpg
+imageUrl: content/images/2018/11/Lugm_20130615.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2018/11/Lugm_20130615.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2018/11/Lugm_20130615.jpg
+featureImage: content/images/2018/11/Lugm_20130615.webp
 featured: false
 publishedAt: 2013-06-17T15:05:43Z
 updatedAt: 2018-11-20T10:35:24Z
@@ -53,12 +53,11 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Once upon a time in a country far far away...
 
 Okay, actually it's not that bad but it has been a while since the last meeting of the [Linux User Group of Mauritius (LUGM)](https://lugm.org/ "Linux User Group of Mauritius (LUGM)"). There have been plans in the past but it never really happened. Finally, Selven took the opportunity and organised a [new meetup](https://lugm.org/2013/05/21/lugm-meeting-15th-of-june-2013-meeting-restylized-venue-lescalier/ "new meetup") with low administrative overhead, proper scheduling on alternative dates and a small attendee's survey on the preferred option. All the pre-work was nicely executed. First, I wasn't sure whether it would be possible to attend. Luckily I got some additional information, like children should come, too, and I was sold to this community gathering. According to other long-term members of the LUGM it was the first time 'ever' that a gathering was organised outside of Quatre Bornes, and I have to admit it was great!
 
-![LUGM User group members (15.06.2013)](https://s.kirstaetter.name/images/lugm_20130615_usergroup_members.jpg)*LUGM - user group meeting on the 15.06.2013 in L'Escalier*
+![LUGM User group members (15.06.2013)](../content/images/2013/06/lugm_20130615_usergroup_members.webp)*LUGM - user group meeting on the 15.06.2013 in L'Escalier*
 
 ## []()Quick overview of Linux & the LUGM
 
@@ -76,7 +75,7 @@ I didn't know about it until this presentation. In the past, I was mainly attach
 
 But I have to admit that putting OpenELEC on a Raspberry Pi would be a cool DIY project in the near future.
 
-![LUGM our next generation linux users (15.06.2013)](https://s.kirstaetter.name/images/lugm_20130615_nextgeneration.jpg)*LUGM - our next generation of linux users (15.06.2013)*
+![LUGM our next generation linux users (15.06.2013)](../content/images/2013/06/lugm_20130615_nextgeneration.webp)*LUGM - our next generation of linux users (15.06.2013)*
 
 ## []()Project Evil Genius (PEG)
 
@@ -86,7 +85,7 @@ Check out Ish's personal blog over at [hacklog.in](https://hacklog.in/ "hacklog.
 
 Why India? Simply because the registration fees per year for an Indian domain are approximately 20 times less than for a Mauritian domain (.mu).
 
-![LUGM after-party at the beach of L'Escalier (15.06.2013)](https://s.kirstaetter.name/images/lugm_20130615_beach.jpg)  
+![LUGM after-party at the beach of L'Escalier (15.06.2013)](../content/images/2013/06/lugm_20130615_beach.webp)  
 *Exploring the beach of L'Escalier af the meeting*
 
 ## []()'After-party' at the beach of L'Escalier

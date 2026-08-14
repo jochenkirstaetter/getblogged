@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/die-cebit-ruft---/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Auch dieses Jahr lädt Microsoft sein CLIP-Mitglieder zum Community GetTogether in die niedersächsische Hauptstadt ein. Und ich habe den Ruf wieder einmal vernommen. Selbstverständlich geht's mit Sack und Pack, öhem... Laptop und Rucksack auf in den Norden.
 
 Spontane Aktionen sind an der Tagesordnung, denn irgendwie hat mal wieder die Frühbuchung für 'ne Übernachtung nicht hingehauen, da berufliche Aufgaben in den letzten Wochen im Vordergrund standen. Well, who cares? Ein Plätzchen zum Nächtigen findet sich in der kleinsten Hütte und wir lassen uns einfach mal überraschen... ;-)

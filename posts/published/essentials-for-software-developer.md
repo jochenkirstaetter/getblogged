@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: Essentials for software developer or any computer job
 metaDescription: A couple of abilities are essential to any software developer. It is compulsory to get those ones right.
-image: https://images.unsplash.com/photo-1511072303409-7e8ddb93a0a5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=4c0840a01b64d41e0ef571654691cff7
+image: content/images/2013/05/photo-1511072303409-7e8ddb93a0a5.webp
 ogTitle: Essentials for software developer or any computer job
 ogDescription: "This article is the first one in a series of articles on 'Essentials for Software Craftsmanship':"
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/essentials-for-software-developer/
-imageUrl: https://images.unsplash.com/photo-1511072303409-7e8ddb93a0a5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=4c0840a01b64d41e0ef571654691cff7
+imageUrl: content/images/2013/05/photo-1511072303409-7e8ddb93a0a5.webp
 twitterImageUrl: https://images.unsplash.com/photo-1511072303409-7e8ddb93a0a5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=4c0840a01b64d41e0ef571654691cff7
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1511072303409-7e8ddb93a0a5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=4c0840a01b64d41e0ef571654691cff7
+featureImage: content/images/2013/05/photo-1511072303409-7e8ddb93a0a5.webp
 featured: false
 publishedAt: 2013-05-13T04:03:34Z
 updatedAt: 2019-01-21T11:30:17Z
@@ -52,8 +52,8 @@ facebookDescription: "This article is the first one in a series of articles on '
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 I have been talking about the following on many occasions during the last years already. Actually, it is always part of my consulting services when companies ask for advice on what they should do to improve the overall satisfaction of their software developers. But in general, it's pretty simple: The following are my essentials for any software developer or craftsman that is taking her or his profession seriously.
 
 Originally, I started my list with the first four topics only but experience taught me that there is more to this. And even nowadays, I would clearly say that this overview scratches the surface only.
@@ -84,7 +84,7 @@ So what is the actual problem about the fact that most developers I meet here on
 
 Know your tools... well, getting a glimpse at the various curriculum at the tertiary educational institutes reveals a little bit more. Touch-typing isn't part of the education and therefore ignored. Any software developer without touch-type capability would have difficulties with my equipment - [das keyboard](https://www.amazon.com/gp/product/B003F7WXTG/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B003F7WXTG&linkCode=as2&tag=geblbyjo-20 "das keyboard") Ultimate:
 
-![Das Keyboard ultimate is a blank keyboard and the ultimate experience of touch-typing](https://s.kirstaetter.name/images/touch-type-or-die.png?1)  
+![Das Keyboard ultimate is a blank keyboard and the ultimate experience of touch-typing](../content/images/2013/05/touch-type-or-die.webp)  
 *das keyboard Ultimate is a keyboard with blank keys and the ultimate experience of touch-typing*
 
 Most people really don't understand the consequences. It's not only about time, effort and cost but also plays a great role in daily motivation. I know that developers want to **write** code first, uhm, maybe I should say to **type** code first. But what's the purpose of creating wonderful code when your physical capabilities are far behind your mental ones? It's like producing a lot of output that gets finally stuck in the I/O buffers of your body.
@@ -98,7 +98,7 @@ Anyway, latest hardware means faster processing, lower latency and higher produc
 
 Oh before I forget to write about that one: Get yourself at least a second screen!
 
-![Working with multiple screens increases a software developers productivity](https://s.kirstaetter.name/images/multiple-screens.png)  
+![Working with multiple screens increases a software developers productivity](../content/images/2013/05/multiple-screens.webp)  
 *Working with multiple screens increases a software developers productivity*
 
 No matter the screen size, okay at least 19" should do, put an additional screen on your desk. If you are working on a laptop, use the VGA or HDMI output for the better. In worst case you could use an older machine and [install Synergy on both of them](xref:synergy-easy-share-of-keyboard-and-mouse-between-multiple-computers "install Synergy on both of them").
@@ -163,7 +163,7 @@ And compared to my colleagues I had absolutely no trouble to install patches, up
 
 In case that you have to provide support for older operating systems for your customers. No problem, put that old-faggot in a VM and enjoy the latest OS you can get on your amazing hardware.
 
-![Virtualise your work environment to ease your life](https://s.kirstaetter.name/images/virtualise_your_work.png)  
+![Virtualise your work environment to ease your life](../content/images/2013/05/virtualise_your_work.webp)  
 *Virtualise your work environment to ease your life*
 
 Need to test your latest web project with various browsers on another operating system or older versions of a particular browser, use a virtual machine and be happy!
@@ -197,7 +197,7 @@ Seriously, do not keep any kind of food or snacks or whatsoever edible in the re
 
 Please, feel free and tell me in the comment section about how your desktop currently looks like. If you'd like to, take a picture and send it to me via email. I would be glad to write a follow-up article on this one with your contributions, seriously. Looking at my desk at the moment, I'm not too happy either. And as a matter of fact I just interrupted my work on this article, cleared up my desk and took a picture for you:
 
-![Keep your desk as clean as possible to avoid any kind of distraction](https://s.kirstaetter.name/images/multiple-screens.png)  
+![Keep your desk as clean as possible to avoid any kind of distraction](../content/images/2013/05/multiple-screens.webp)  
 *Keep your desk as clean as possible to avoid any kind of distraction*
 
 Now, I'm feeling more comfortable and more important: Less distracted!

@@ -12,7 +12,7 @@ tags:
 keywords: Community, Andela
 metaTitle: 'Share your journey - #150DaysOfALC4'
 metaDescription: Following my participation as a mentor in the program 3.1 of the Andela Learning Community (ALC) end of last year, I seized the opportunity to be part of the ALC 4.0 program. Again as a mentor for the Mobile Web Specialist certification and additionally as a learner for the Google Cloud track.
-image: content/images/2019/08/-150DaysOfALC-01-Medium-1.jpg
+image: content/images/2019/08/-150DaysOfALC-01-Medium-1.webp
 ogTitle: 'Share your journey - #150DaysOfALC4'
 ogDescription: Following my participation as a mentor in the program 3.1 of the Andela Learning Community (ALC) end of last year, I seized the opportunity to be part of the ALC 4.0 program. Again as a mentor for the Mobile Web Specialist certification and additionally as a learner for the Google Cloud track.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/share-your-journey-150daysofalc4/
-imageUrl: https://jochen.kirstaetter.name/content/images/2019/08/-150DaysOfALC-01-Medium-1.jpg
+imageUrl: content/images/2019/08/-150DaysOfALC-01-Medium-1.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2019/08/-150DaysOfALC-01-Medium-1.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2019/08/-150DaysOfALC-01-Medium-1.jpg
+featureImage: content/images/2019/08/-150DaysOfALC-01-Medium-1.webp
 featured: false
 publishedAt: 2019-08-23T16:30:00Z
 updatedAt: 2019-09-17T06:01:58Z
@@ -54,7 +54,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Following my participation as a mentor in the program 3.1 of the [Andela Learning Community (ALC)](https://andela.com/alc/) end of last year, I seized the opportunity again to be part of the ALC 4.0 program. As a mentor for the Mobile Web Specialist certification and additionally as a learner for the Google Cloud track.
 
 ## Why participate?
@@ -101,7 +100,7 @@ When I got the email, I thought that 30,000 seats would be too small for such a 
 
 The selection phase ran till end of May, and by mid of June I received the confirmation that I've been selected for Phase 1 of the ALC 4.0 program.
 
-![Let's continue the journey in Phase 1 of the ALC 4.0 program](../content/images/2019/08/SelectionPhase1.png)
+![Let's continue the journey in Phase 1 of the ALC 4.0 program](../content/images/2019/08/SelectionPhase1.webp)
 
 Selected participants got an invitation to a dedicated Slack workspace in order to keep informed about the latest news, updates, and activities in the program.
 
@@ -120,7 +119,7 @@ That was good fun, at least for me.
 
 Given that access to all Qwiklabs as part of the video modules that had been available since the very beginning of phase 1, I completed some of them already ahead of the challenge announcements. Oh, and surprisingly both challenges had been extended by a few days.
 
-![Email confirmation on completion of a lab on Qwiklabs, here: Cloud SQL v1.5](../content/images/2019/08/Cloud_Lab11.png)
+![Email confirmation on completion of a lab on Qwiklabs, here: Cloud SQL v1.5](../content/images/2019/08/Cloud_Lab11.webp)
 
 Having had those two challenges with their tight schedule seemed to have separated the amount of participants. Surely, there were the ones that completed all labs and submitted their screenshots within the given deadlines. Then, there were the ones struggling with technical issues on the Qwiklabs platform or with environmental constraints at their location, i.e. power outage, lack of access to stable internet connectivity, only temporary access to a computer, etc. And last but not least, the *passive* ones who might have lost interest to continue.
 
@@ -132,7 +131,7 @@ Either way, phase 1 ended on a positive note for me. I managed to watch all vide
 
 Watching learning videos on Pluralsight became an almost daily morning routine, and completing the two challenges regarding GCP was good fun, too. I even managed to tweet (ir-)regularly about my progress during that time. The official end of phase 1 came... and by mid of August the following appeared in my inbox:
 
-![You’ve been selected to move forward in your Google Cloud track](../content/images/2019/08/SelectionPhase2.png)
+![You’ve been selected to move forward in your Google Cloud track](../content/images/2019/08/SelectionPhase2.webp)
 
 Wow! It feels great to stay in the program and to be able to continue this amazing journey with approximately 10,000 other learners from Africa. Earlier this week, I read that MWS learner A-J Roos also progressed to phase 2. Congrats on that. He penned down another great article on his blog: [Being selected for Google Africa Certification Scholarship Phase 2](https://asjas.co.za/blog/being-selected-for-google-africa-certification-scholarship-phase-2/).
 
@@ -146,7 +145,7 @@ Pluralsight assimilated tons of video material for phase 2, and I really mean it
 
 More interesting, what started with a possible certification as Associate Cloud Engineer as main target has now been extended with course material covering [Professional Cloud Architect](https://cloud.google.com/certification/cloud-architect) and [Professional Data Engineer](https://cloud.google.com/certification/data-engineer).
 
-![ALC 4.0 Phase 2 - Current roadmap to Google certification](../content/images/2019/08/Phase2Roadmap.png)
+![ALC 4.0 Phase 2 - Current roadmap to Google certification](../content/images/2019/08/Phase2Roadmap.webp)
 
 Given the additional content I'm really looking forward to get deeper into GCP. And how the numerous services and features directly compare to the ones in Microsoft Azure. Rest assured there are going to be more articles soon.
 
@@ -170,7 +169,7 @@ That's my speculation at the moment. I'd be glad to see a capstone project. Let'
 
 *Update:* It seems that the Cloud "project" is working with even more Qwiklabs. Okay, that should work well for me.
 
-![ALC 4.0 Phase 2 - Project access](../content/images/2019/08/Phase2Project.png)
+![ALC 4.0 Phase 2 - Project access](../content/images/2019/08/Phase2Project.webp)
 
 ## The ALC 4.0 program on Youtube
 
@@ -195,7 +194,7 @@ If you would like to know more or in case you would like to share some of your e
 
 ### Number of participants
 
-![Number of followers in the various learning paths offered by Pluralsight](../content/images/2019/08/Screen-Shot-2019-08-16-at-13.51.01.png)
+![Number of followers in the various learning paths offered by Pluralsight](../content/images/2019/08/Screen-Shot-2019-08-16-at-13.51.01.webp)
 
 With the announcement of phase 2 I had a look at the figures on Pluralsight as well as the #general channels on Slack, and came up with the following observation:
 
@@ -221,7 +220,7 @@ That's not even half the amount in total, and some participants are subscribed t
 
 *Update:* During the recent Google Africa Developer Scholarship Learner Onboarding call the actual numbers of phase 2 have been revealed. More than previously expected.
 
-![ALC 4.0 Phase 2 - Number of participants](../content/images/2019/08/Phase2Participation.png)
+![ALC 4.0 Phase 2 - Number of participants](../content/images/2019/08/Phase2Participation.webp)
 
 With that extensive amount of time plus the reduced number of participants in phase 2 I'm wondering whether there is going to be the initially mentioned capstone project at the end of phase 2.
 

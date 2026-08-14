@@ -11,7 +11,7 @@ tags:
 keywords: Linux
 metaTitle: Installing Visual Studio Code on Linux (Ubuntu)
 metaDescription: Linux users are currently confronted with some lack of comfort compared to their Windows and Mac OS X friends. Try Visual Studio Code under Linux...
-image: content/images/2017/08/vscode_menulauncher.png
+image: content/images/2017/08/vscode_menulauncher.webp
 ogTitle: Installing Visual Studio Code on Linux (Ubuntu)
 ogDescription: During this year's //build conference Microsoft officially announced a new member of the Visual Studio series called Code. As described by several people already it is a HTML5, JavaScript/TypeScript...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/install-visual-studio-code-on-linux-ubuntu/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/08/vscode_menulauncher.png
+imageUrl: content/images/2017/08/vscode_menulauncher.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/08/vscode_menulauncher.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/08/vscode_menulauncher.png
+featureImage: content/images/2017/08/vscode_menulauncher.webp
 featured: false
 publishedAt: 2015-07-24T15:42:06Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 During [this year's //build conference](https://www.buildwindows.com/) Microsoft officially announced a new member of the Visual Studio series called Code. As described by several people already it is a HTML5, JavaScript/TypeScript based text editor hosted inside the Electron shell and it runs natively on Windows, Mac OS X and Linux. This article hopefully gives you some ideas during installation and assistance to have an improved experience out of the box compared to the standard option - at least at the time of writing this article.
 
 ## []()Getting Visual Studio Code

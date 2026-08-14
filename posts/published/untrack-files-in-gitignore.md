@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: Untrack files in .gitignore
 metaDescription: Despite best effort and preparation of your precious source code one day you might be facing the situation that there is one or more files in your development workspace that doesn't belong into your git repository.
-image: content/images/2024/04/Gemini_Generated_Image_pxek4spxek4spxek.jpeg
+image: content/images/2024/04/Gemini_Generated_Image_pxek4spxek4spxek.webp
 ogTitle: Untrack files in .gitignore
 ogDescription: Despite best effort and preparation of your precious source code one day you might be facing the situation that there is one or more files in your development workspace that doesn't belong into your git repository.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/untrack-files-in-gitignore/
-imageUrl: https://jochen.kirstaetter.name/content/images/2024/04/Gemini_Generated_Image_pxek4spxek4spxek.jpeg
+imageUrl: content/images/2024/04/Gemini_Generated_Image_pxek4spxek4spxek.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2024/04/Gemini_Generated_Image_pxek4spxek4spxek.jpeg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2024/04/Gemini_Generated_Image_pxek4spxek4spxek.jpeg
+featureImage: content/images/2024/04/Gemini_Generated_Image_pxek4spxek4spxek.webp
 featured: false
 publishedAt: 2024-04-05T12:22:27Z
 updatedAt: 2024-04-05T12:22:27Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Despite best effort and preparation of your precious source code one day you might be facing the situation that there is one or more files in your development workspace that doesn't belong into your git repository.
 
 In general, that's a scenario to use the `.gitignore` file and exclude such file(s) from being considered or tracked for your repository. This works great but requires that you cover all your tracks regarding potential files, file extensions or folders you don't want to set under version control. Predicting the future is hard.

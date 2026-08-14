@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: Why we decided to postpone Developers Conference 2020
 metaDescription: Brief inside view into the thought process behind the decision to postpone the most important IT event in Mauritius.
-image: https://images.unsplash.com/photo-1507415492521-917f60c93bfe?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2020/03/photo-1507415492521-917f60c93bfe.webp
 ogTitle: Why we decided to postpone Developers Conference 2020
 ogDescription: Brief inside view into the thought process behind the decision to postpone the most important IT event in Mauritius.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/why-we-decided-to-postpone-developers-conference-2020/
-imageUrl: https://images.unsplash.com/photo-1507415492521-917f60c93bfe?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2020/03/photo-1507415492521-917f60c93bfe.webp
 twitterImageUrl: https://images.unsplash.com/photo-1507415492521-917f60c93bfe?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1507415492521-917f60c93bfe?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2020/03/photo-1507415492521-917f60c93bfe.webp
 featured: false
 publishedAt: 2020-03-17T16:50:43Z
 updatedAt: 2020-03-17T16:50:43Z
@@ -52,8 +52,8 @@ facebookDescription: Brief inside view into the thought process behind the decis
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Hi everyone, yes the most important IT event in Mauritius has been postponed. If you don't mind I'd like to share our activity yesterday about [postponing our Developers Conference 2020 in Mauritius](https://www.mscc.mu/newsletter-20200316-devcon-postponed/).
 
 Starting in the morning the organising team reached out to all partners and supporters of the event via telephone to have a personal conversation with each decision maker on their side asking for their view and opinion in regards to COVID-19 situation on the island. There had been a number of international calls, particularly to the UK and South Africa among the many local ones. Every (!) partner showed great understanding and agreement for our upcoming decision and announcement, some even offered additional support.

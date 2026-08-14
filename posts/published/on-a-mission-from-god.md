@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/on-a-mission-from-god/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Das erste Treffen der Mitglieder vom CLIP Community Programm 2006 steht an. Und dieses Mal ist es aus mehreren unterschiedlichen Gründen spannend. Zunächst einmal sei gesagt, dass wir uns nicht wie bei allen bisherigen Treffen im bavarischen Großstadtbereich von München zusammenfinden, sondern dieses Mal geht's in den Nordwesten Deutschlands. Genauer gesagt in die Heimat der längsten Theke der Welt - Düsseldorf. Weiterhin ist es eigentlich ein exklusives Treffen für CLIP Mitglieder - sozusagen ein CLIP Summit... Und wir sind dieses Mal nicht in irgendwelchen Konferenzräumen unter, sondern laut den bisherigen Announcements in der Gaststätte [Das Uerige](https://www.das-uerige.de). Also, absolut lockere Atmosphäre und IMHO auch das geeignete Umfeld für Community-Angelegenheiten. Zumindest 'meine' Community trifft sich monatlich ebenfalls in einer Gaststätte und das mit ausschliesslich positiven Erfahrungen. Vielleicht lässt sich ja dadurch das ein oder andere CLIP Mitglied ebenfalls dazu bewegen ein Offlinetreffen zu organisieren. Die [Jungs von MyCSharp.de](https://www.mycsharp.de) haben es ja schon letztes Jahr erfolgreich vorgemacht. Schade, dass ich keine Zeit hatte...
 
 Unser Treffen wird sich hoffentlich vor allem wieder um die Kernbelange von CLIP annehmen. Und... so ebenfalls meine Hoffnung, dass wieder konstruktive Vorschläge, Ideen und Konzepte für die Aufgaben der Community herausspringen. Ich muss ehrlich gesagt gestehen, dass ich leider - aus unterschiedlichsten Gründen - meine derzeitige Community-Website [AFP FAQ](https://www.afpfaq.de) ein wenig vernachlässigt habe. Begonnen hat der Spass mit dem kompletten Serverauswahl und meiner intensiven Recherche in den Internetcaches der Welt, um zumindest mal den bisherigen Content wieder zusammen zu tragen. Hm, von den existierenden 310 Artikeln habe ich wenigstens round about 267 Artikel restaurieren können. Nunja, aber die Programmierung der Website in Visual FoxPro bzw. Active FoxPro Pages ging halt leider auch flöten... Weiterhin ergaben sich in den letzten Monaten auch einige Änderungen in meinem beruflichen Umfeld, so dass für meine 'Freizeitaktivitäten' leider nicht sonderlich viel übrig blieb.

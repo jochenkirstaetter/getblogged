@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/vfp-devcon-prag-2005---day-3/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Schade... der letzte Tag der Konferenz beginnt - eigentlich nur ein halber Tag mit noch drei Sessions. Aber diese sind dafür umso spannender.  
   
 Zum Einstieg nach einem kurzen Frühstück mit Cola Light und Croissant gönne ich mir das Thema Codeoptimierung. Man kann seinen eigenen Sourcecode eigentlich nie oft genug von Zeit zu Zeit mal durchchecken und auf Performance testen. Während der Session zeigten sich auch erstaunliche Tatsachen in Bezug auf die Indexverwertung in VFP.  

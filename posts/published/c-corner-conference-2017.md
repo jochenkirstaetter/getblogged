@@ -12,7 +12,7 @@ tags:
 keywords: Community, Personal
 metaTitle: C# Corner Annual Conference 2017
 metaDescription: Speaking at the C# Conference 2017 in Delhi was an amazing experience. Both, the event and the exploration of Delhi. Visiting the Taj Mahal was a highlight.
-image: content/images/2024/05/17796494_1503202119690423_6013537920441171383_n.jpg
+image: content/images/2024/05/17796494_1503202119690423_6013537920441171383_n.webp
 ogTitle: C# Corner Annual Conference 2017
 ogDescription: Speaking at the C# Conference 2017 in Delhi was an amazing experience. Both, the event and the exploration of Delhi. Visiting the Taj Mahal was a highlight.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/c-corner-conference-2017/
-imageUrl: https://jochen.kirstaetter.name/content/images/2024/05/17796494_1503202119690423_6013537920441171383_n.jpg
+imageUrl: content/images/2024/05/17796494_1503202119690423_6013537920441171383_n.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2024/05/17796494_1503202119690423_6013537920441171383_n.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2024/05/17796494_1503202119690423_6013537920441171383_n.jpg
+featureImage: content/images/2024/05/17796494_1503202119690423_6013537920441171383_n.webp
 featured: false
 publishedAt: 2024-05-30T09:00:00Z
 updatedAt: 2024-08-25T09:00:15Z
@@ -54,7 +54,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Recently I have been watching the travel documentary "James May, our man in India". One of the episodes, in particular #2, while he is visiting Delhi and Agra, it hit a chord in my memories. Time to write about my trip to India and speaking at the C# Corner Annual Conference 2017.
 
 [C# Corner Annual Conference 2017](http://www.c-sharpcorner.com/news/c-sharp-corner-annual-conference-2017-official-recap), Delhi  
@@ -70,7 +69,7 @@ Whether you are Mauritian or not like in my case, India seems to ask quite a num
 
 For the arrangements for air travel there are multiple options available. Among them are flights on Air Mauritius, Air India, Emirates and others. I do not recall whether there is a direct flight between Delhi and Mauritius though. Probably yes but limited to certain days of the week only. Given the marginal difference in total travel time inclusive stop-over and the comfort offered by the airline, I booked my trip on Emirates with the usual short stop in Dubai. Otherwise, it would have been a stop-over in Chennai or Bangalore.
 
-![Travelling with Emirates is quiet, comfortable and enjoyable](../content/images/2024/05/WP_20170406_09_58_15_Selfie.jpg)
+![Travelling with Emirates is quiet, comfortable and enjoyable](../content/images/2024/05/WP_20170406_09_58_15_Selfie.webp)
 
 With the additional flexibility of multiple flights per day I opted for Emirates, again. And I even got a nice deal to upgrade to Business Class.
 
@@ -82,7 +81,7 @@ Thankfully Manish is used to all of this and we arrived at the hotel in adequate
 
 Anyway, there was a heartwarming reception procedure while waiting for the check-in process to be completed. A bit exhausted I happily reached the hotel room to stretch out and relax a bit. My community fellow and room-mate Chervine arrived a day earlier.
 
-![Arriving in Dehli, India](../content/images/2024/05/WP_20170406_15_42_24_Pro.jpg)
+![Arriving in Dehli, India](../content/images/2024/05/WP_20170406_15_42_24_Pro.webp)
 
 Later this evening, we met with [Dhananjay (DJ) Kumar](https://x.com/debug_mode) and we talked a bit about Mauritius, India, developer communities in general, and all kind of other interesting topics. Totally unexpected and surprising, DJ gifted me the book "The power of habit" by Charles Duhigg. Very much appreciated.
 
@@ -98,7 +97,7 @@ Interestingly, the [Yamuna Expressway](https://en.wikipedia.org/wiki/Yamuna_Expr
 
 Joining the other speakers and checking out the agenda of the day there was little perparations for my talk on "Advantages and Opportunities of Cross-Platform Development". During my session I explained to the students present the different options and tools available to dive into cross-platform development. Afterwards, there had been quite a number of questions regarding Cordova, Xamarin and Electron which I gladly answered to my best knowledge. I wasn't aware about certain customs, the whole at the university we have been treated with utterly importance. I felt as some kind of celebrity; just showing up and taking the stage to talk. Positive although unusual impressions.
 
-![Day trip to the Confrencia at GLA University in Mathura](../content/images/2024/05/WP_20170407_10_30_46_Pro.jpg)
+![Day trip to the Confrencia at GLA University in Mathura](../content/images/2024/05/WP_20170407_10_30_46_Pro.webp)
 
 The trip back to Delhi got us into a bit of rush hour. I mean, it's not like there's no traffic all day long but around early evening it seems to intensify by a magnitude or two. Mind-boggling driving experience! Compared to that, driving in Mauritius is like secured road education for young learners at kindergarten. And I figured that the constant honking is just a way to say 'Hello, I'm doing great and I'm an active participant on the road'. Nothing special about that.
 
@@ -112,7 +111,7 @@ As mentioned, there were multiple tracks in parallel and my session had been ass
 
 Throughout the day it became appeared that we experienced an increasing delay regarding the starting times of the sessions. Well, nothing to worry about in India, and I have to admit that I was glad for some extra time to prepare myself for the talk. Quick hardware check and also verifying that all code samples and demos were working as expected and I was ready to rumble. It didn't go as smoothly as I hoped for but I had some source code to show on how to develop .NET Core applications on Linux. Back in the days I used Visual Studio Code and the `dotnet` CLI to convey the message to the audience.
 
-![Speaking in the main track of C# Corner Conference 2017](../content/images/2024/08/WP_20170408_18_24_07_Pro.jpg)
+![Speaking in the main track of C# Corner Conference 2017](../content/images/2024/08/WP_20170408_18_24_07_Pro.webp)
 
 Afterwards, I had some great conversation with Joseph Guadagno about the Microsoft MVP program in general, and we cross-checked our list of MVP contacts. It was pretty amusing to exchange stories regarding some of the folks we both know. Later on, I chit-chatted a bit with [Magnus Mårtensson](https://se.linkedin.com/in/noopman), [David McCarter](https://www.linkedin.com/in/davidmccarter), [Pinal Dave](https://in.linkedin.com/in/pinaldave), and a couple more speakers about their activities related to .NET, SQL Server and of course the C# Corner community. The had been numerous nuggets of great advice for growing our community in Mauritius and I got some ideas for the annual Developers Conference in Mauritius, too.
 
@@ -122,29 +121,29 @@ Later that evening, all speakers and helpers of the conference were invited for 
 
 A day to relax and go sight-seeing. Chervine came up with the idea of visiting places. First and foremost, the Taj Mahal.
 
-![](../content/images/2024/06/WP_20170409_15_17_47_Pro-1.jpg)
+![](../content/images/2024/06/WP_20170409_15_17_47_Pro-1.webp)
 
-![](../content/images/2024/06/WP_20170409_14_37_09_Pro.jpg)
+![](../content/images/2024/06/WP_20170409_14_37_09_Pro.webp)
 
-![](../content/images/2024/06/WP_20170409_15_08_58_Pro.jpg)
+![](../content/images/2024/06/WP_20170409_15_08_58_Pro.webp)
 
-![](../content/images/2024/06/WP_20170409_15_43_03_Selfie.jpg)
+![](../content/images/2024/06/WP_20170409_15_43_03_Selfie.webp)
 
-![](../content/images/2024/06/WP_20170409_16_26_01_Pro.jpg)
+![](../content/images/2024/06/WP_20170409_16_26_01_Pro.webp)
 
-![](../content/images/2024/06/WP_20170409_16_16_43_Pro.jpg)
+![](../content/images/2024/06/WP_20170409_16_16_43_Pro.webp)
 
-![](../content/images/2024/06/WP_20170409_15_50_37_Pro.jpg)
+![](../content/images/2024/06/WP_20170409_15_50_37_Pro.webp)
 
-![](../content/images/2024/06/WP_20170409_16_33_12_Pro.jpg)
+![](../content/images/2024/06/WP_20170409_16_33_12_Pro.webp)
 
-![](../content/images/2024/06/WP_20170409_15_54_10_Pro.jpg)
+![](../content/images/2024/06/WP_20170409_15_54_10_Pro.webp)
 
 ## Exploring Delhi
 
 Last day in India for this trip and my flight is early in the evening. Hence, we decided to explore the city of Delhi. After a savvy breakfast Chervine and I were
 
-![](../content/images/2024/06/WP_20170410_18_01_08_Panorama.jpg)
+![](../content/images/2024/06/WP_20170410_18_01_08_Panorama.webp)
 
 ## Personal thoughts
 

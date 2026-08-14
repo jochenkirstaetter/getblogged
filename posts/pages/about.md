@@ -11,7 +11,7 @@ tags:
 keywords: Personal
 metaTitle: About Me
 metaDescription: The only frontiers are in your mind. Hi, my name is Jochen Kirstätter, also known as JoKi. I am a software craftsman, blogger, community founder, and speaker.
-image: content/images/2026/08/PXL_20260725_055734262.jpg
+image: content/images/2026/08/PXL_20260725_055734262.webp
 ogTitle: About Me
 ogDescription: The only frontiers are in your mind. Hi, my name is Jochen Kirstätter, also known as JoKi. I am a software craftsman, blogger, community founder, and speaker.
 layout: page
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/about/
-imageUrl: https://jochen.kirstaetter.name/content/images/2026/08/PXL_20260725_055734262.jpg
+imageUrl: content/images/2026/08/PXL_20260725_055734262.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2026/08/PXL_20260725_055734262.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2026/08/PXL_20260725_055734262.jpg
+featureImage: content/images/2026/08/PXL_20260725_055734262.webp
 featured: false
 publishedAt: 2017-08-07T14:47:58Z
 updatedAt: 2026-08-10T19:51:39Z
@@ -53,10 +53,9 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 > "The only frontiers are in your mind"
 
-![Jochen Kirstätter (coding style - 800x800 px)](../content/images/2017/08/17903945_10203451673249855_5178365158445356591_n.jpg)
+![Jochen Kirstätter (coding style - 800x800 px)](../content/images/2017/08/17903945_10203451673249855_5178365158445356591_n.webp)
 
 Hi, my name is Jochen Kirstätter, also known as "JoKi". I'm a [senior software crafter](https://github.com/jochenkirstaetter), [blogger](https://jochen.kirstaetter.name), [community founder](xref:mscc), and [speaker](xref:speaking). I have been awarded as [Microsoft Most Valuable Professional](https://mvp.microsoft.com/en-US/MVP/profile/53d40e60-fe70-490e-8e73-2185b648f26f) (MVP) for Developer Technologies and as [Google Developer Expert (GDE) for Cloud and AI](https://g.dev/jkirstaetter). These awards are a recognition of my community contributions, my passion to share knowledge, and my activities to engage with their respective services and products over years.
 
@@ -68,7 +67,7 @@ Jochen is a Google Developer Expert (GDE) for Google Cloud and AI; he is also a 
 
 ## Headshot Photo
 
-![Jochen Kirstätter (speaker style - 800x800 px)](../content/images/2023/09/JoKi_MVP.jpeg)![Jochen Kirstätter (business style - 800x800 px)](../content/images/2025/10/1756533352435.png)
+![Jochen Kirstätter (speaker style - 800x800 px)](../content/images/2023/09/JoKi_MVP.webp)![Jochen Kirstätter (business style - 800x800 px)](../content/images/2025/10/1756533352435.webp)
 
 ## Mauritius Software Craftsmanship Community
 

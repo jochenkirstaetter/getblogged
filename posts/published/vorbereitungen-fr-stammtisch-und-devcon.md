@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/vorbereitungen-fr-stammtisch-und-devcon/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Hallo zusammen,  
   
 nach einem feucht-fröhlichen Wochenende auf dem diesjährigen Herbstfest in Rockenhausen geht's diese Woche wieder an den Ernst der Lage und damit auch an die Gedanken an die Community. Neben aktuellen Neuigkeiten von O'Reilly, INETA, PASS und Co gibt's auch heiße Themen zur VFP-Programmierung.  

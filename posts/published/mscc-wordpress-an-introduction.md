@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: 'MSCC: WordPress - An Introduction'
 metaDescription: Our meetup this month is themed towards WordPress. Some say it is one of the best content management systems in the world... Well, have a look for yourself.
-image: https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2014/02/photo-1504711434969-e33886168f5c.webp
 ogTitle: 'MSCC: WordPress - An Introduction'
 ogDescription: Having more sessions from our very own community members seems to be the right way to go.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mscc-wordpress-an-introduction/
-imageUrl: https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2014/02/photo-1504711434969-e33886168f5c.webp
 twitterImageUrl: https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2014/02/photo-1504711434969-e33886168f5c.webp
 featured: false
 publishedAt: 2014-02-28T08:05:05Z
 updatedAt: 2019-01-18T16:42:56Z
@@ -52,9 +52,9 @@ facebookDescription: Having more sessions from our very own community members se
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
-[![Logo of the Mauritius Software Craftsmanship Community](https://s.kirstaetter.name/images/mscc.jpg)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community")Having more sessions from our very own community members seems to be the right way to go.
+[![Logo of the Mauritius Software Craftsmanship Community](../content/images/2013/11/mscc.webp)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community")Having more sessions from our very own community members seems to be the right way to go.
 
 After last month's session on HTML5, CSS3 and a bit of JavaScript, our craftman Rikesh voluntarily gave his presentation on [WordPress - An Introduction](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/events/161733962/ "WordPress - An Introduction").
 
@@ -106,13 +106,13 @@ The Q&A session after the presentation was great, too. Very good questions, all 
 
 Following some more impressions of the day:
 
-![Rikesh demonstrates the possibilities of WordPress configuration in the dashboard](https://s.kirstaetter.name/images/mscc-20140222_3.jpg)  
+![Rikesh demonstrates the possibilities of WordPress configuration in the dashboard](../content/images/2014/02/mscc-20140222_3.webp)  
 *Rikesh demonstrates the possibilities of WordPress configuration in the dashboard*
 
-![Captivated audience following the demos and code samples](https://s.kirstaetter.name/images/mscc-20140222_1.jpg)  
+![Captivated audience following the demos and code samples](../content/images/2014/02/mscc-20140222_1.webp)  
 *Captivated audience following the demos and code samples*
 
-![Conference room full of MSCC craftsmen - again a good number of first time attendees](https://s.kirstaetter.name/images/mscc-20140222_2.jpg)  
+![Conference room full of MSCC craftsmen - again a good number of first time attendees](../content/images/2014/02/mscc-20140222_2.webp)  
 *Conference room full of MSCC craftsmen - again a good number of first time attendees*
 
 Thanks to our uploaders! Courtesy of pictures is theirs of course!
@@ -142,7 +142,7 @@ As usual, our craftsmen use any free minute to have vivid conversations on recen
 
 Also, I would like to thank [Sebastian Kippe](https://sebastian.kip.pe/ "Sebastian Kippe") of [5apps.com](https://5apps.com/deploy/home "5apps.com") for his generous giveaways in form of geeky stickers on JavaScript, HTML5 and very own App deployment service.
 
-![Got some nice swag at the recent meeting of the Mauritius Software Craftsmanship Community. Thanks to Sebastian Kippe. ](https://s.kirstaetter.name/images/mscc-20140222_4.jpg)  
+![Got some nice swag at the recent meeting of the Mauritius Software Craftsmanship Community. Thanks to Sebastian Kippe. ](../content/images/2014/02/mscc-20140222_4.webp)  
 *Got some nice swag at the recent meeting of the Mauritius Software Craftsmanship Community. Thanks to Sebastian Kippe.*
 
 ## []()My resume of the day

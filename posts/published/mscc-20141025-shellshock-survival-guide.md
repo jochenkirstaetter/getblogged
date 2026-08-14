@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: 'MSCC: Shellshock Survival Guide'
 metaDescription: Shellshock is one the most dangerous security holes that has hit the internet, since heartbleed. BASH is a widely used shell found in Servers and embedded appliances. It allows hackers to run remote code, and potentially take over your servers.
-image: https://images.unsplash.com/photo-1505759156876-2f393d5b909c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=49070f37dc2802b2639be51edb773775
+image: content/images/2014/10/photo-1505759156876-2f393d5b909c.webp
 ogTitle: 'MSCC: Shellshock Survival Guide'
 ogDescription: The media coverage related to vulnerabilities in Linux has been quite immense lately.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mscc-20141025-shellshock-survival-guide/
-imageUrl: https://images.unsplash.com/photo-1505759156876-2f393d5b909c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=49070f37dc2802b2639be51edb773775
+imageUrl: content/images/2014/10/photo-1505759156876-2f393d5b909c.webp
 twitterImageUrl: https://images.unsplash.com/photo-1505759156876-2f393d5b909c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=49070f37dc2802b2639be51edb773775
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1505759156876-2f393d5b909c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=49070f37dc2802b2639be51edb773775
+featureImage: content/images/2014/10/photo-1505759156876-2f393d5b909c.webp
 featured: false
 publishedAt: 2014-10-27T07:11:33Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -52,9 +52,9 @@ facebookDescription: The media coverage related to vulnerabilities in Linux has 
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
-[![Logo of the Mauritius Software Craftsmanship Community](https://s.kirstaetter.name/images/mscc.jpg)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community")The media coverage related to vulnerabilities in Linux has been quite immense lately.
+[![Logo of the Mauritius Software Craftsmanship Community](../content/images/2013/11/mscc.webp)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community")The media coverage related to vulnerabilities in Linux has been quite immense lately.
 
 After Heartbleed during the early months of 2014, we had a second major wave of problems based on a very old "feature" in the commonly used bash - Bourne Again Shell - on Linux- and BSD-based systems including Mac OS X. Well, there has been quite some activities and controversial discussion around this feature but it was obvious that it could be exploited and therefore a fix had to be done. Taking into consideration that there are literally millions of systems connected on the internet which are based on a Linux or BSD system, this obviously isn't a quick and easy task to improve.
 
@@ -76,7 +76,7 @@ Quite frankly, I was kind of disappointed by the lack of practical guidance. I m
 
 Actually, I thought about my statement for some time, but it didn't come out better than this. Yes, I learned about the implications why shellshock is dangerous and that there are patched versions of all major distributions available but apart from that.... I didn't learn anything new in order to be better aware of such situation or to avoid it completely.
 
-![MSCC meetup: Discussion about the bash shellshock vulnerability and practical advice to secure your systems.](https://s.kirstaetter.name/images/mscc-20141025-shellshock-1.jpg)  
+![MSCC meetup: Discussion about the bash shellshock vulnerability and practical advice to secure your systems.](../content/images/2014/10/mscc-20141025-shellshock-1.webp)  
 *MSCC meetup: Discussion about the bash shellshock vulnerability and practical advice to secure your systems.*
 
 ## []()Reactions of other attendees

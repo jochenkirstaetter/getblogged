@@ -12,7 +12,7 @@ tags:
 keywords: Andela, Community
 metaTitle: GADS 2020 - Spotlight
 metaDescription: Following my recent announcement of being a GDE for Cloud Emem Jonah got in touch with a few questions about what motivates me to be a software developer.
-image: content/images/2020/10/Group-104-1.png
+image: content/images/2020/10/Group-104-1.webp
 ogTitle: GADS 2020 - Spotlight
 ogDescription: Following my recent announcement of being a GDE for Cloud Emem Jonah got in touch with a few questions about what motivates me to be a software developer.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/gads-2020-spotlight/
-imageUrl: https://jochen.kirstaetter.name/content/images/2020/10/Group-104-1.png
+imageUrl: content/images/2020/10/Group-104-1.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2020/10/Group-104-1.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2020/10/Group-104-1.png
+featureImage: content/images/2020/10/Group-104-1.webp
 featured: false
 publishedAt: 2020-10-06T17:20:03Z
 updatedAt: 2020-10-06T19:24:59Z
@@ -54,7 +54,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Following my recent announcement of being a GDE for Cloud [Emem Jonah (@ememjonah2)](https://x.com/ememjonah2) got in touch with a few questions about what motivates me to be a software developer.
 
 Emem is a Program Assistant (PA) in the current [Google Africa Developer Scholarship 2020 program](https://community.andela.com/index.php/google-africa-developer-scholarship-2020/) and among other tasks runs the weekly Happy Hour activities on our Slack workspace. Following are her questions and my remarks on each. This spotlight was published during the happy hour session on Friday, 2nd of October 2020.

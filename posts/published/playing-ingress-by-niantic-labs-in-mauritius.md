@@ -11,7 +11,7 @@ tags:
 keywords: Android
 metaTitle: Playing Ingress by Niantic Labs in Mauritius
 metaDescription: Playing Ingress by Niantic Labs is still a tough challenge on Mauritius. Hopefully, this article will increase awareness and recruit more agents.
-image: content/images/2018/11/PortLouisHarbour.jpg
+image: content/images/2018/11/PortLouisHarbour.webp
 ogTitle: Playing Ingress by Niantic Labs in Mauritius
 ogDescription: As of writing this article it is quite tough to play Ingress here in Mauritius. Unfortunately, it seems that there is only a low awareness of this great Android app by Niantic Labs.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/playing-ingress-by-niantic-labs-in-mauritius/
-imageUrl: https://jochen.kirstaetter.name/content/images/2018/11/PortLouisHarbour.jpg
+imageUrl: content/images/2018/11/PortLouisHarbour.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2018/11/PortLouisHarbour.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2018/11/PortLouisHarbour.jpg
+featureImage: content/images/2018/11/PortLouisHarbour.webp
 featured: false
 publishedAt: 2013-04-21T04:36:34Z
 updatedAt: 2018-11-20T10:32:21Z
@@ -53,8 +53,7 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
-![Ingress logo - courtesy of Niantic Labs](https://s.kirstaetter.name/images/ingress_logo.png)As of writing this article it is quite tough to play Ingress here in Mauritius. Unfortunately, it seems that there is only a low awareness of this great Android app by Niantic Labs.
+![Ingress logo - courtesy of Niantic Labs](../content/images/2013/04/ingress_logo.webp)As of writing this article it is quite tough to play Ingress here in Mauritius. Unfortunately, it seems that there is only a low awareness of this great Android app by Niantic Labs.
 
 > "The world around you  
 is not what it seems."

@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/polyphasenschlaf---tag-1/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Der erste Tag beginnt direkt im Alltag. Früher als sonst bin ich ohne sonstige Ermüdungsanzeichen Richtung Bahnhof gegangen, um mit dem nächsten Zug ins Büro zu fahren. Soweit alles okay - ein wenig ungewohnt, da eine gute Stunde früher als sonst komme ich also in Kaiserslautern an und richte mir wie sonst auch den Arbeitsplatz ein - Laptop anschliessen und Bootprozess anwerfen. Gutes Stichwort, denn 9:00 steht der nächste persönliche Reboot an. Da ich mir Schlafsack und leichte Decke mitgenommen habe, kein Problem. Schlafsack ausgeworfen und hingelegt. Countdown-Timer auf 30 Minuten und ab geht's ins Traumland. Naja, die geräuschliche Kulisse hat schon wesentlich mehr Umfang als in meiner Wohnung. Zudem ist hier auch mehr los... Schliesslich kommen ja die Kollegen ebenfalls um diese Uhrzeit ins Büro.
 
 Erste positive Überraschung: "Find' ich gut." - O-Ton von meinem Chef. Hey, cool, da steht dem Polynapping ja hoffentlich nichts im Wege. Okay, erst mal 30 Minuten schlafen, dann geht's weiter. Es dauert schon einiges an Zeit bis ich das Gefühl bekomme, dass ich ziemlich entspannt und relaxed liege. Fühlt sich eigentlich mehr wie Autogenes Training denn Schlaf an. Nun, ich hoffe, dass das mit der Zeit besser werden dürfte. Glücklicherweise bin ich ziemlich empfänglich für Autogenes Training - es wirkt sozusagen immens bei mir. Keine Ahnung warum, aber unabhängig, ob nun Wellenprinzip und Fluß innerhalb des Körpers oder die große Schwere, ich habe bisher immer die volle Packung mitgenommen. Übrigens ohne externe Audiostimulationen, allein durch eigene Suggestion und Klärung der Gedanken. .o( Hm, klingt wahrscheinlich ziemlich abgedreht für andere... )

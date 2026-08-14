@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: Fox Is Anywhere!
 metaDescription: Da soll noch einmal einer sagen, dass VFP keinen Einsatzzweck hätte... Himalayan Database Absolut coole Sache!
-image: https://images.unsplash.com/photo-1540153448870-af780343526e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=fc392ef3aa3a96d7c50131e4b7e96ea1
+image: content/images/2005/02/photo-1540153448870-af780343526e.webp
 ogTitle: Fox Is Anywhere!
 ogDescription: Da soll noch einmal einer sagen, dass VFP keinen Einsatzzweck hätte...Himalayan DatabaseAbsolut coole Sache!Vor allem unter der Prämisse, dass die App sauber von CD unter Windows und Mac läuft. Ein...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/fox-is-anywhere/
-imageUrl: https://images.unsplash.com/photo-1540153448870-af780343526e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=fc392ef3aa3a96d7c50131e4b7e96ea1
+imageUrl: content/images/2005/02/photo-1540153448870-af780343526e.webp
 twitterImageUrl: https://images.unsplash.com/photo-1540153448870-af780343526e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=fc392ef3aa3a96d7c50131e4b7e96ea1
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1540153448870-af780343526e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=fc392ef3aa3a96d7c50131e4b7e96ea1
+featureImage: content/images/2005/02/photo-1540153448870-af780343526e.webp
 featured: false
 publishedAt: 2005-02-20T23:00:00Z
 updatedAt: 2018-10-23T05:20:37Z
@@ -52,8 +52,8 @@ facebookDescription: Da soll noch einmal einer sagen, dass VFP keinen Einsatzzwe
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Da soll noch einmal einer sagen, dass VFP keinen Einsatzzweck hätte...  
   
 [Himalayan Database](https://www.himalayandatabase.com/support.html "Himalayan Database")  

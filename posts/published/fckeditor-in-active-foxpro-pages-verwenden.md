@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/fckeditor-in-active-foxpro-pages-verwenden/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 \*\*Download und AFP Beispiele\*\*  
 Dank der Bereitstellung der Klassendefinition und Beispiele von Sönke Freitag ist die Integration des [FCKeditor](https://www.fckeditor.net/) in Active FoxPro Pages eines wahres Heimspiel. Das Beispiel selbst ist als AFP Applikation (\*.afpa) aufgesetzt und zeigt wie man in einem Dokument den FCKeditor integriert und anwendet, während im zweiten Beispiel die Verarbeitung des erstellten Text in einer Übersicht gelistet wird. Absolut ausreichend für den ersten Einstieg in die Materie.  
 Es war lediglich eine kleine Anpassung durchzuführen: Die Pfadkorrektur auf den Basispfad für die eigentliche Funktionalität des FCKeditors. Ich führe dies jedoch auf meine atypische Speicherung des Archivs zurück.

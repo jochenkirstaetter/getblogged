@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/vfpconversion-vfp-andor-net/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 After the Community GetTogether at CeBIT fair I'd like to talk a little bit about VFPConversion. VFPConversion? Never heard of? Well, fine. VFPConversion is a corporation of several companies that share high experiences in Visual FoxPro as well as .NET programming skills. There are a lot of well-known developers onboard.
 
 There are several training events all over the globe - okay mainly U.S.A. and Europe - that explain the principals of the .NET Framework as well as programming concepts in C# and VB to VFP developers. I think the whole stuff is more than worth to attend because it's a vey good chance to talk to .NET developers as well as VFP developers and share experiences.

@@ -12,7 +12,7 @@ tags:
 keywords: Development, Andela
 metaTitle: Create React App (ALC 4.0 Cloud Challenge I)
 metaDescription: This is the first part of a series regarding the completion of the ALC 4.0 Cloud Challenge I. The article describes the creation and customisation of a React app and how to secure all modifications using an online repository on GitHub.
-image: content/images/2019/10/alc4cloudchallengepwa.png
+image: content/images/2019/10/alc4cloudchallengepwa.webp
 ogTitle: Create React App (ALC 4.0 Cloud Challenge I)
 ogDescription: This is the first part of a series regarding the completion of the ALC 4.0 Cloud Challenge I. The article describes the creation and customisation of a React app and how to secure all modifications using an online repository on GitHub.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/alc4-cloud-react/
-imageUrl: https://jochen.kirstaetter.name/content/images/2019/10/alc4cloudchallengepwa.png
+imageUrl: content/images/2019/10/alc4cloudchallengepwa.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2019/10/alc4cloudchallengepwa.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2019/10/alc4cloudchallengepwa.png
+featureImage: content/images/2019/10/alc4cloudchallengepwa.webp
 featured: false
 publishedAt: 2019-10-20T11:01:32Z
 updatedAt: 2019-10-24T03:43:02Z
@@ -54,7 +54,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Creating a React application marks the first part of the ALC 4.0 Cloud Challenge I given to scholars.
 
 That process is well-described in the [Getting Started](https://create-react-app.dev/docs/getting-started/) page of official website of [Create React App](https://create-react-app.dev/) and I'm going to add a few remarks below only.
@@ -80,7 +79,7 @@ $ npx create-react-app alc4-react
 
 The Create React App template engine generates a new React application with the provided name, here `alc4-react` in a sub-folder of the same name. This will take a few minutes to fetch the necessary node modules and create the application structure. You might grab a cup of coffee/tea until the process has been completed successfully.
 
-![Run the 'Create React App' template to jumpstart your new application](../content/images/2019/10/image-1.png)
+![Run the 'Create React App' template to jumpstart your new application](../content/images/2019/10/image-1.webp)
 
 After completion, change into the new created folder
 
@@ -94,7 +93,7 @@ and inspect the project files with your favourite text editor. Mine is Visual St
 $ code .
 ```
 
-![Inspect the React app in Visual Studio Code](../content/images/2019/10/image-4.png)
+![Inspect the React app in Visual Studio Code](../content/images/2019/10/image-4.webp)
 
 To check whether everything is as expected you should run the following command to launch a local development server:
 
@@ -102,7 +101,7 @@ To check whether everything is as expected you should run the following command 
 $ npm start
 ```
 
-![Launching the development server on your local machine](../content/images/2019/10/image-8.png)
+![Launching the development server on your local machine](../content/images/2019/10/image-8.webp)
 
 **Well done!**  
 You created and launched a new React app on your local machine.
@@ -129,7 +128,7 @@ As a good practice it is recommended that any local source code should be replic
 
 In this tutorial we are going to use GitHub. Navigate over to the GitHub web site, log into your account or create a new, free one, and create a new repository for the freshly generated React app.
 
-![](../content/images/2019/10/image-6.png)
+![](../content/images/2019/10/image-6.webp)
 
 Keep the checkbox `Initialize this repository with a README` unchecked. We already have this file and it would create a conflict situation. Do not add a `.gitignore` file for same reason.
 
@@ -165,7 +164,7 @@ git push -u origin master
 
 ‍The output is going to look similar to the following.
 
-![Successful push to the remote repository on GitHub](../content/images/2019/10/image-7.png)
+![Successful push to the remote repository on GitHub](../content/images/2019/10/image-7.webp)
 
 **Congratulations!**  
 You added your React app to an online repository successfully.
@@ -253,11 +252,11 @@ Right now, the React app is still in its original state of visual appearance. Th
 
 All styling is found in the file `App.css` under the `src` folder. I didn't like the default background colour and changed it.
 
-![Changes to the application CSS file](../content/images/2019/10/image-9.png)
+![Changes to the application CSS file](../content/images/2019/10/image-9.webp)
 
 I also added another CSS class for an additional status indicator of my application (more on that later).
 
-![Customisation of the App.js file](../content/images/2019/10/image-10.png)
+![Customisation of the App.js file](../content/images/2019/10/image-10.webp)
 
 ### Activate service worker
 
@@ -265,7 +264,7 @@ With all modifications in place I wanted to make sure that my React app is PWA-r
 
 Open the file `src/index.js` and follow the instructions given at the end.
 
-![Register the React app in the browser via ServiceWorker](../content/images/2019/10/image-12.png)
+![Register the React app in the browser via ServiceWorker](../content/images/2019/10/image-12.webp)
 
 It also enables that your web site can be added to the home screen on mobile devices, and recently on desktop systems.
 
@@ -281,7 +280,7 @@ $ npm start
 
 The expected result looks like this. Yours might be different, of course.
 
-![](../content/images/2019/10/image-11.png)
+![](../content/images/2019/10/image-11.webp)
 
 See the icon and title of the browser tab among other modifications done.
 

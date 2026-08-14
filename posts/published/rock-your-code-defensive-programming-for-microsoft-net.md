@@ -12,7 +12,7 @@ tags:
 keywords: Recension, Development
 metaTitle: 'Rock Your Code: Defensive Programming for Microsoft .NET by David McCarter'
 metaDescription: Talking about Defensive Programming during times of Test Driven Development, Clean Code, Domain Driven Development and all other kinds of buzzwords seems a bit unusual. From his long-year experience David McCarter shares a collection of rules of thumb to write better, rock-solid code.
-image: https://images.unsplash.com/photo-1496169514208-d9affacc58ba?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2019/02/photo-1496169514208-d9affacc58ba.webp
 ogTitle: 'Rock Your Code: Defensive Programming for Microsoft .NET by David McCarter'
 ogDescription: Talking about Defensive Programming during times of Test Driven Development, Clean Code, Domain Driven Development and all other kinds of buzzwords seems a bit unusual. From his long-year experience David McCarter shares a collection of rules of thumb to write better, rock-solid code.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/rock-your-code-defensive-programming-for-microsoft-net/
-imageUrl: https://images.unsplash.com/photo-1496169514208-d9affacc58ba?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2019/02/photo-1496169514208-d9affacc58ba.webp
 twitterImageUrl: https://images.unsplash.com/photo-1496169514208-d9affacc58ba?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1496169514208-d9affacc58ba?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2019/02/photo-1496169514208-d9affacc58ba.webp
 featured: false
 publishedAt: 2019-02-03T13:16:29Z
 updatedAt: 2019-02-07T05:45:52Z
@@ -53,8 +53,8 @@ facebookDescription: Talking about Defensive Programming during times of Test Dr
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Talking about Defensive Programming during times of Test Driven Development, Clean Code, Domain Driven Development and all other kinds of buzzwords seems a bit unusual. From his long-year experience David McCarter shares a collection of rules of thumb to write better, rock-solid code. The book is part of his conference series titled *Improving Code Quality... One Developer at A Time*.
 
 Back in 2017 I met David at the C# Corner conference in Delhi, India. While I gave a session on .NET Core on Linux, he had several sessions on how to be successful as a software developer and how to improve programming skills by sharing his experience as a programmer for over two decades.

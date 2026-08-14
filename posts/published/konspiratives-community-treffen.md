@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/konspiratives-community-treffen/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Willkommen zur Trainingsrunde des SV Grün/Weiß Mainz.  
 Wie vielleicht schon der ein oder andere geneigte Leser mitbekommen haben könnte, sind meine Community-Kollegen Willi und Tiger in meinen heimatlichen Gefilden unterwegs. Bereits letzte Woche liefen die erste Grobplanungen, die sich am Montag konkretisierten. Thomas sammelt Alex in Mannheim ein, und wir treffen uns dann mir, um den Rest des Abends mit lockerem Klönen und starker Musik im Kult zu verbringen. Also, während die beiden noch auf Tour waren, habe ich mir die Zeit noch mit einem Klassiker auf DVD verdingt: [Time Bandits](https://www.google.com/url?sa=t&ct=res&cd=1&url=http%3A//www.imdb.com/title/tt0081633/&ei=aC0-RK-LJqO0wgGAupSHCw&sig2=7NiDnQTmMC0434vkINEogA) von Terry Gilliam. Herrlich, insbesondere das Interview mit einem französischen Team.
 

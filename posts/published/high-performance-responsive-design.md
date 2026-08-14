@@ -11,7 +11,7 @@ tags:
 keywords: Recension
 metaTitle: High Performance Responsive Design by Tom Barker
 metaDescription: "Although, as good as everyone working in the field of web sites or web application development is talking about Responsive Web Development (RWD) Tom Barker has a simple but nevertheless shocking statement: You're doing it wrong!"
-image: https://images.unsplash.com/photo-1470436079497-37aebf0a66cf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=6f75c35ee20d7a9cf1c6e0415a0ff7d9
+image: content/images/2014/11/photo-1470436079497-37aebf0a66cf.webp
 ogTitle: High Performance Responsive Design by Tom Barker
 ogDescription: It seems that I have a little bit of time these days. Luckily and thanks to the O'Reilly Reader Review Program I was able to get access to "High Performance Responsive Design" by Tom Barker. Actually...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/high-performance-responsive-design/
-imageUrl: https://images.unsplash.com/photo-1470436079497-37aebf0a66cf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=6f75c35ee20d7a9cf1c6e0415a0ff7d9
+imageUrl: content/images/2014/11/photo-1470436079497-37aebf0a66cf.webp
 twitterImageUrl: https://images.unsplash.com/photo-1470436079497-37aebf0a66cf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=6f75c35ee20d7a9cf1c6e0415a0ff7d9
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1470436079497-37aebf0a66cf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=6f75c35ee20d7a9cf1c6e0415a0ff7d9
+featureImage: content/images/2014/11/photo-1470436079497-37aebf0a66cf.webp
 featured: false
 publishedAt: 2014-11-16T11:18:59Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -52,8 +52,8 @@ facebookDescription: It seems that I have a little bit of time these days. Lucki
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 [![](https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1491949988&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=geblbyjo-20)](https://www.amazon.com/gp/product/1491949988/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1491949988&linkCode=as2&tag=geblbyjo-20&linkId=NLMIT7TLUM52ZX3I "High Performance Responsive Design")![](https://ir-na.amazon-adsystem.com/e/ir?t=geblbyjo-20&l=as2&o=1&a=1491949988)
 
 It seems that I have a little bit of time these days. Luckily and thanks to the [O'Reilly Reader Review Program](https://www.oreilly.com/reviews/ "O'Reilly Reader Review Program") I was able to get access to "High Performance Responsive Design" by Tom Barker. Actually, after my last review it was a tough preference compared to "MongoDB - The Definitive Guide" - which is hopefully now next on my reading list. Thanks to approximately 176 pages I was able to dig through this title very quickly, and honestly it was a great experience. Looking forward to see more on this topic.

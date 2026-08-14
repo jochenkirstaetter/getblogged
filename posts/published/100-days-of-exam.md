@@ -13,7 +13,7 @@ tags:
 keywords: Projects, Personal, Community
 metaTitle: 100 Days of Exam
 metaDescription: "A new adventure is on its way: #100DaysOfExam which has been inspired by two factors. First, my personal 30-day challenges I did in the past and the concept of '100 Days of Code'."
-image: https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=d557e8389d3de84546b2f9a41c7ba456
+image: content/images/2018/03/photo-1504384764586-bb4cdc1707b0.webp
 ogTitle: 100 Days of Exam
 ogDescription: "A new adventure is on its way: #100DaysOfExam which has been inspired by two factors. First, my personal 30-day challenges I did in the past and the concept of '100 Days of Code'."
 layout: post
@@ -32,16 +32,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/100-days-of-exam/
-imageUrl: https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=d557e8389d3de84546b2f9a41c7ba456
+imageUrl: content/images/2018/03/photo-1504384764586-bb4cdc1707b0.webp
 twitterImageUrl: https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=d557e8389d3de84546b2f9a41c7ba456
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=d557e8389d3de84546b2f9a41c7ba456
+featureImage: content/images/2018/03/photo-1504384764586-bb4cdc1707b0.webp
 featured: false
 publishedAt: 2018-03-13T18:22:00Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -54,8 +54,8 @@ facebookDescription: "A new adventure is on its way: #100DaysOfExam which has be
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 A new adventure is on its way: [#100DaysOfExam](https://www.100daysofexam.com/) which has been inspired by two factors. First, my personal 30-day challenges I did in the past and the concept of [100 Days of Code](http://100daysofcode.com/) by [Alexander Kallaway](https://x.com/ka11away).
 
 Much to my dislike I noticed during the last couple of months (or even years) that there are fewer challenges than in previous times. For example Microsoft's "Know It, Prove It" (KiPi) campaign isn't alive anymore. The KiPi challenge was about watching a curated list of online videos in order to learn (more) about a certain development stack or Microsoft technology. I really enjoyed that challenge several times, and managed to complete them within the given period of 30 days.
@@ -90,7 +90,7 @@ From the first day on you are going to tweet about your progress daily. Using th
 
 Even then use Twitter connection between you and other participations to pay it forward. Encourage others, give them feedback where needed, share your resources and knowledge for the greater good. But remember:
 
-![Be polite and excellent to each other.](../content/images/2018/03/100DaysOfExam_be-excellent-to-each-other.jpg)  
+![Be polite and excellent to each other.](../content/images/2018/03/100DaysOfExam_be-excellent-to-each-other.webp)  
 *Be polite and excellent to each other.*
 
 Recently, I signed up for the [#BlogMore](https://x.com/hashtag/blogmore) section of the [#CNC2018](https://x.com/hashtag/cnc2018) challenge in order to commit myself to write more regularly on this and other blogs. Yes, it was tough at the beginning. Not to ponder about possible topics but simply to find the motivation and actually start typing the content.
@@ -108,7 +108,7 @@ Well, I can't tell you...
 
 If there is at least one "Yes" among the answers I would say you are already one third on your way into this challenge.
 
-![100DaysOfExam_A-journey-of-a-thousand-miles-begins-with-a-single-step](../content/images/2018/03/100DaysOfExam_A-journey-of-a-thousand-miles-begins-with-a-singl-step.jpg)
+![100DaysOfExam_A-journey-of-a-thousand-miles-begins-with-a-single-step](../content/images/2018/03/100DaysOfExam_A-journey-of-a-thousand-miles-begins-with-a-singl-step.webp)
 
 Now, move over to the [#100DaysOfExam repository on GitHub](https://github.com/jochenkirstaetter/100-days-of-exam/) - either sign up for an account or log in, if you have one - and hit the `Fork` button at the top right, not far from your profile image.
 
@@ -122,7 +122,7 @@ Then change the header line and replace `[Your exam goal]` with your own outcome
 
 Stay committed! Check out the [Rules](https://www.100daysofexam.com/rules/) of the #100DaysOfExam challenge and prepare yourself for at least one hour each day for your exam. Block a certain time period in your calendar - make an appointment with yourself!
 
-![Put a daily event with notification into your personal calendar, i.e. Google Calendar](../content/images/2018/03/100DaysOfExam_GoogleCalendarEvent.png)
+![Put a daily event with notification into your personal calendar, i.e. Google Calendar](../content/images/2018/03/100DaysOfExam_GoogleCalendarEvent.webp)
 
 The notification acts like a daily alarm, too. Just don't ignore it. Need motivation? Browse the hashtag on Twitter... just not for too long. ;-)
 

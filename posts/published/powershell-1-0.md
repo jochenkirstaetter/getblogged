@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/powershell-1-0/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 RSS Feeds machen echt Laune... man ist ständig auf dem Laufenden und wird aktiv informiert. Inzwischen ist die Microsoft PowerShell aka Monad in der Version 1.0 offiziell veröffentlicht: [Download bei Microsoft](https://www.microsoft.com/technet/scriptcenter/topics/msh/download.mspx). Fein, ziehen, installieren und wohlfühlen.
 
 Pustekuchen! Auf der Downloadseite steht zwar der nette Hinweis, dass... aber sind die Setup-Scripter bei Microsoft nicht in der Lage so etwas Peinliches wie das hier zu vermeiden?

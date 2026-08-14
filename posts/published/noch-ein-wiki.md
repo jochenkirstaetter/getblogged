@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/noch-ein-wiki/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Als ob ein Wiki nicht genug wäre... Nein, der Herr entwickelt ein eigenes System auf Basis der Active Foxpro Pages. Fairerweise sollte ich dabei erwähnen, dass ich bereits im August 2004 während meines mehrwöchigen Sommerurlaubs die Möglichkeit erhielt, das damalige Wiki der deutschsprachigen FoxPro Usergroup zu begutachten und ein wenig zu überarbeiten. Das Ergebnis dieses ersten Schrittes ist nun seit einiger Zeit als LiveFAQ der dFPUG online.  
   
 Letztendlich war dieser Schritt nur ein Anfang und in der Zwischenzeit sind noch einige Ideen und Features auf meiner Festplatte herangereift.  

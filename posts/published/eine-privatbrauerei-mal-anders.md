@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/eine-privatbrauerei-mal-anders/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 \*\*Was ein Tag!\*\*  
 Ich liebe es in einem Ort mit [eigener Privatbrauerei](https://www.bischoff-bier.de/) zu wohnen. 😎  
 So auch gestern wieder. Etwa gegen Nachmittag habe ich mich auf den Weg gemacht, schliesslich interessieren die vielen Bands, die gute Stimmung und das Ganze drumherum. Da rentiert sich ruhig mal 'ne Ausnahme gegenüber den üblichen Ausgehzeiten.

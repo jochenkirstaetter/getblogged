@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/side-load-and-read-your-ebooks-on-kindle-for-android/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 [![](xref:side-load-and-read-your-ebooks-on-kindle-for-android)](https://www.amazon.com/kindle "Amazon Kindle")
 
 Although, I'm using the freely available [Kindle app for Android](https://play.google.com/store/apps/details?hl=en&id=com.amazon.kindle "Kindle for Android") it only happened recently that I run into the situation to upload an existing ebook in mobi format to my Android tablet. To be more precise, I purchased some titles from [O'Reilly's Ebook](https://shop.oreilly.com/category/ebooks.do "O'Reilly's Ebook") library.

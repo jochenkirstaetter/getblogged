@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/nichts-ist-unmglich/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 ...wenn man einer Idee Leben einhaucht und die Chance nutzt, diese zu realisieren. Ähnlich wie bei der Active FoxPro Pages 3.0 IntelliSense Extension (AFP3IE) schwirrte mir seit Monaten die Vorstellung durch den Kopf, dass man die Kommunikation zwischen Webserver und der AFP Core Engine auch über andere Wege als die ISAPI realisieren müsste / könnte.  
 Mein ursprünglicher Ansatz dabei galt der Erstellung eines Dynamic Shared Object (DSO) für den Apache Webserver. Mangels Kenntnisse und Fähigkeiten in C++ habe ich diesen Ansatz jedoch frühzeitig auf Eis gelegt. Also... falls ein ambitionierter C++-Coder mit Wissen zur DSO-Erstellung hier lesen sollte, bitte melden.  
 Well, parallel zur Entstehung der Idee hatte ich mir bereits einiges Wissen über das .NET Framework und insbesondere C# - egal ob System.Windows.Forms oder System.Web - angeeignet. Und darin lag auch der Schlüssel zur ersten Implementierung der Lösung. Glücklicherweise stehen mir als Regionalleiter der dFPUG und damit als Mitglied der INETA die Buchzuwendungen der letzten Quartale zur Verfügung. Und das Wälzen in eben dieser Literatur verlieh Flügel. Insbesondere die folgenden Bücher waren extremst lehrreich:  

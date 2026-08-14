@@ -11,7 +11,7 @@ tags:
 keywords: Linux
 metaTitle: Accessing your web server via IPv6
 metaDescription: The following article will guide through the steps on how to enable Apache2 httpd to listen and respond to incoming IPv6 requests.
-image: https://images.unsplash.com/photo-1492515114975-b062d1a270ae?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=24bcab6dc09b4d46b648321080c94d23
+image: content/images/2014/03/photo-1492515114975-b062d1a270ae.webp
 ogTitle: Accessing your web server via IPv6
 ogDescription: Being able to run your systems on IPv6, have automatic address assignment and the ability to resolve host names are the necessary building blocks in your IPv6 network infrastructure. Now, that...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/accessing-apache2-web-server-via-ipv6/
-imageUrl: https://images.unsplash.com/photo-1492515114975-b062d1a270ae?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=24bcab6dc09b4d46b648321080c94d23
+imageUrl: content/images/2014/03/photo-1492515114975-b062d1a270ae.webp
 twitterImageUrl: https://images.unsplash.com/photo-1492515114975-b062d1a270ae?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=24bcab6dc09b4d46b648321080c94d23
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1492515114975-b062d1a270ae?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=24bcab6dc09b4d46b648321080c94d23
+featureImage: content/images/2014/03/photo-1492515114975-b062d1a270ae.webp
 featured: false
 publishedAt: 2014-03-16T02:51:22Z
 updatedAt: 2018-04-02T08:38:44Z
@@ -52,8 +52,8 @@ facebookDescription: Being able to run your systems on IPv6, have automatic addr
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Being able to [run your systems on IPv6](xref:configure-ipv6-on-ubuntu), have [automatic address assignment](xref:dhcpv6-ipv6-in-your-local-network) and the ability to [resolve host names](xref:enabling-dns-for-ipv6-infrastructure) are the necessary building blocks in your IPv6 network infrastructure. Now, that everything is in place it is about time that we are going to enable another service to respond to IPv6 requests. The following article will guide through the steps on how to enable Apache2 httpd to listen and respond to incoming IPv6 requests.
 
 This is the fourth article in a series on IPv6 configuration:
@@ -170,7 +170,7 @@ $ sudo nano /etc/apache2/sites-enabled/000-default
 
 Here, we have to check and modify the VirtualHost directive and enable it to respond to the IPv6 address and port our web server is listening to. Save your changes, run the configuration test and reload Apache2 in order to apply your modifications. After successful steps you can launch your favourite browser and navigate to your IPv6 enabled web server.
 
-![Accessing an IPv6 address in the browser](https://s.kirstaetter.name/images/ipv6-apache2-browser.png)  
+![Accessing an IPv6 address in the browser](../content/images/2014/03/ipv6-apache2-browser.webp)  
 *Accessing an IPv6 address in the browser*
 
 That looks like a successful surgery to me...

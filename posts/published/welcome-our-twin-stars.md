@@ -11,7 +11,7 @@ tags:
 keywords: Personal
 metaTitle: Welcome - Our twin stars!
 metaDescription: 'Like with previous posts to announce new members to the family I was informed that I totally missed our latest ones: Akira and Dexter - our twin cats.'
-image: content/images/2019/02/AkiraDexter.jpg
+image: content/images/2019/02/AkiraDexter.webp
 ogTitle: Welcome - Our twin stars!
 ogDescription: 'Like with previous posts to announce new members to the family I was informed that I totally missed our latest ones: Akira and Dexter - our twin cats.'
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/welcome-our-twin-stars/
-imageUrl: https://jochen.kirstaetter.name/content/images/2019/02/AkiraDexter.jpg
+imageUrl: content/images/2019/02/AkiraDexter.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2019/02/AkiraDexter.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2019/02/AkiraDexter.jpg
+featureImage: content/images/2019/02/AkiraDexter.webp
 featured: false
 publishedAt: 2019-02-01T10:53:07Z
 updatedAt: 2019-02-01T10:53:07Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Like with previous posts to announce new members to the family I was informed that I totally missed our latest ones.
 
 So, to catch up in that matter...

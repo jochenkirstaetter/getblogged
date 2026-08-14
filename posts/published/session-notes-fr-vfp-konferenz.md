@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/session-notes-fr-vfp-konferenz/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Eigentlich ist Abgabezeit, aber bedingt durch die Projektprogrammierung sitze ich noch an den Session-Notes für die [diesjährige Entwicklerkonferenz in Frankfurt](https://devcon.dfpug.de). Im Beitrag [Visual FoxPro Konferenz Frankfurt 2006 - Geplante Sessions](xref:visual-foxpro-konferenz-frankfurt-2006---geplante-sessions) habe ich ja bereits einen Ausblick auf die Themen gegeben:
 
 Active FoxPro Pages - was sonst? 😁  

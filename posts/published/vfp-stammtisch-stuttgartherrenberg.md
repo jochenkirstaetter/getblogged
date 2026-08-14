@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/vfp-stammtisch-stuttgartherrenberg/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 On the road again...  
   
 Einmal im Jahr sollte es sein, und auch dieses Mal hat es wieder geklappt. Leider mit einem kleinen Nebeneffekt von einer halben Stunde Verspätung, aber es gibt wahrscheinlich schlimmeres. Trotzdem meine Entschuldigung an die Teilnehmer gestern, dass wir nicht wie ausgemacht ab 19:30 starten konnten.  

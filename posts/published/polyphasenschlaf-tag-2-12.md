@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/polyphasenschlaf-tag-2-12/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Der erste Rückschlag ist zu verzeichnen. Dazu später mehr.
 
 Nachdem ich mich mit dem Gedanken angefreundet habe, endlich [mehr Zeit zur Erledigung meiner Aufgaben](xref:polyphasenschlaf-tag-2-12 "Mehr Zeit zur Erledigung von Aufgaben") zu haben, habe ich den Tag wesentlich lockerer betrachtet und bin diesen auch, wie soll ich sagen, mit weniger Hektik angegangen. Somit dann morgens im Bad noch ein wenig Zeit verbracht - Rasieren, was ich bisher meistens nur am Wochenende mit Muße erledigen konnte, danach einen kleinen Happen der frisch gekochten Grütze und dann ab an den Bahnhof, so dass ich den Zug kurz vor 8:00 noch erwische. Allein diese Tatsache, dass ich so früh ins Büro fahre, ist außergewöhnlich!

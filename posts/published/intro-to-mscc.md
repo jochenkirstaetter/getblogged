@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: Introduction to Mauritius Software Craftsmanship Community
 metaDescription: The MSCC is technology-agnostic community and spans an umbrella over any kind of technology. Simply because you can't ignore other technologies anymore in a connected IT world as we have. A front-end developer for iOS applications should have the chance to connect with a Python back-end coder and eventually with a DBA for MySQL or PostgreSQL and exchange their experience.
-image: content/images/2017/08/mscc-20140503-scripting-1.png
+image: content/images/2017/08/mscc-20140503-scripting-1.webp
 ogTitle: Introduction to Mauritius Software Craftsmanship Community
 ogDescription: Whether you are working in the field of Internet Technology (IT) since a long time or you just started your studies in Computer Science recently, at some point in time you might have the urge to meet...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/intro-to-mscc/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/08/mscc-20140503-scripting-1.png
+imageUrl: content/images/2017/08/mscc-20140503-scripting-1.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/08/mscc-20140503-scripting-1.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/08/mscc-20140503-scripting-1.png
+featureImage: content/images/2017/08/mscc-20140503-scripting-1.webp
 featured: false
 publishedAt: 2015-03-01T04:00:00Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Whether you are working in the field of Internet Technology (IT) since a long time or you just started your studies in Computer Science recently, at some point in time you might have the urge to meet and exchange with other like-minded people. Communities and user groups are surely the way to go and most likely there is an active user group already not far from you. Although user groups are not new concepts it was a bit surprising for me that discover the lack of an active community here in Mauritius - I mean active ones. According to some search queries on Google you can easily find relicts of previously existing user groups; but unfortunately most of them aren't active anymore.
 
 While having a closer look at the search results and with the experience I gained during earlier years as a member of various communities and even being responsible to organise monthly meetings for more than two years, I finally decided that Mauritius should have a vital and thriving IT community again. No offense towards the other existing ones but as said, they were either long forgotten and abandonded or acted very dormant in some remote corner of the island. Anyway, back in May 2013 I started to organise myself a little bit and officially announced the existence of the Mauritius Software Craftsmanship Community, or short: MSCC, on various social media channels.

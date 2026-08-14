@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: Viel Wasser läuft den Rhein runter...
 metaDescription: Es ist schon einige Tage (oder doch schon Monate?) her, dass ich einen Eintrag getätigt habe. Mal sehen, ob ich noch eine Zusammenfassung hinbekomme...
-image: https://images.unsplash.com/photo-1517777322704-0630b47b8de2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=0cf8c8a761eb64c27563b281cb893d24
+image: content/images/2005/01/photo-1517777322704-0630b47b8de2.webp
 ogTitle: Viel Wasser läuft den Rhein runter...
 ogDescription: Es ist schon einige Tage (oder doch schon Monate?) her, dass ich einen Eintrag getätigt habe. Mal sehen, ob ich noch eine Zusammenfassung hinbekomme...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/viel-wasser-luft-den-rhein-runter/
-imageUrl: https://images.unsplash.com/photo-1517777322704-0630b47b8de2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=0cf8c8a761eb64c27563b281cb893d24
+imageUrl: content/images/2005/01/photo-1517777322704-0630b47b8de2.webp
 twitterImageUrl: https://images.unsplash.com/photo-1517777322704-0630b47b8de2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=0cf8c8a761eb64c27563b281cb893d24
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1517777322704-0630b47b8de2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=0cf8c8a761eb64c27563b281cb893d24
+featureImage: content/images/2005/01/photo-1517777322704-0630b47b8de2.webp
 featured: false
 publishedAt: 2005-01-15T00:00:00Z
 updatedAt: 2018-10-23T07:26:40Z
@@ -52,6 +52,6 @@ facebookDescription: Es ist schon einige Tage (oder doch schon Monate?) her, das
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Es ist schon einige Tage (oder doch schon Monate?) her, dass ich einen Eintrag getätigt habe. Mal sehen, ob ich noch eine Zusammenfassung hinbekomme...

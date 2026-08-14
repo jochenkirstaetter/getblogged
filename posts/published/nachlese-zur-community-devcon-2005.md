@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/nachlese-zur-community-devcon-2005/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Cool, heute kam die CD von der Community Devcon 2005 vom Februar in Mörfelden. So ziemlich alles ist drauf gepackt - Klasse.  
   
 Gerade die Slides und die Zusatzinformationen der CodeZone sind sehr informativ und garantiert nochmal lesenswert. Achja, da ich es gerade in den Unterlagen der CD sehe, die Microsoft HellHounds sind Deutscher Meister im Robot-Fußball geworden. Gratulation meinerseits.  

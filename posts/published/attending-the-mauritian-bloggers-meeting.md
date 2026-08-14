@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/attending-the-mauritian-bloggers-meeting/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Through social media networks, especially Facebook, I got aware of the fact that there would be a gathering of [Mauritian Bloggers](https://www.facebook.com/groups/mauritianbloggers/ "Facebook group of Mauritian Bloggers"). What a cool idea! Interestingly, it wasn't the first meet-up and if I'm correctly informed there had been meetings like this one since 2009. At a time, I was already on this beautiful island, and others knew that I was blogging. Well, there had been quite some rain lately, and honestly I don't want to dig up rotten corpse from the dead. Initially, I discovered the Facebook event through a comment or Like by a connected friend, as I wasn't part of the [organising group 'Mauritian Bloggers'](https://www.facebook.com/groups/mauritianbloggers/ "organising group 'Mauritian Bloggers'") but luckily the event was open to anyone and I could follow the organisers and the comments.
 
 ## []()2013 - Meet-up at Bagatelle

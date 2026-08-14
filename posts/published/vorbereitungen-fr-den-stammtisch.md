@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/vorbereitungen-fr-den-stammtisch/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,5 +53,4 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 ...beginnen zunächst einmal mit einer zweistündigen Session in der Badewanne. Bei den molligen Temperaturen lässt sich gleich viel angenehmer entspannen und über die Materie nachdenken. In der letzten Woche hatte ich das auch schon mal probiert - Ja, ich steig' öfters als nur an Geburtstag und Weihnachten in die Wanne. 😎 Aber lest selbst...

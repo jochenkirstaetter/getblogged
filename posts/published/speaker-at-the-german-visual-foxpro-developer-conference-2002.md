@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/speaker-at-the-german-visual-foxpro-developer-conference-2002/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 First time experience as a conference speaker, and directly in a Vendor session on our latest software product: Active FoxPro Pages 3.0 (AFP).
 
 > It was our first presentation of AFP since the whole make-over. AFP 3.0 was explicitly developed having performance in mind and the execution of code is multiple times faster than the previous version 2.4. Thanks to multi-threading we were able to improve memory management by magnitudes, and combined with an improved and flexible session management AFP 3.0 scales effortless, even in a web server farm. The newly created AFP ControlCenter provides information about number of worker process, their latest execution time and currently active requests. Plugins allow almost unlimited extensibility of AFP.

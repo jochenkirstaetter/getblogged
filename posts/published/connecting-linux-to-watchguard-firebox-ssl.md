@@ -11,7 +11,7 @@ tags:
 keywords: Linux
 metaTitle: Connecting Linux to WatchGuard Firebox SSL (OpenVPN client)
 metaDescription: Tutorial to configure a Linux machine as OpenVPN client to connect to WatchGuard Firebox SSL inclusive routing, iptables and connect on boot feature.
-image: content/images/2017/08/watchguard-sslvpn.png
+image: content/images/2017/08/watchguard-sslvpn.webp
 ogTitle: Connecting Linux to WatchGuard Firebox SSL (OpenVPN client)
 ogDescription: Recently, I got a new project assignment that requires to connect permanently to the customer's network through VPN. They are using a so-called SSL VPN. As I am using OpenVPN since more than 5 years...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/connecting-linux-to-watchguard-firebox-ssl/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/08/watchguard-sslvpn.png
+imageUrl: content/images/2017/08/watchguard-sslvpn.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/08/watchguard-sslvpn.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/08/watchguard-sslvpn.png
+featureImage: content/images/2017/08/watchguard-sslvpn.webp
 featured: false
 publishedAt: 2013-07-23T18:29:18Z
 updatedAt: 2019-02-07T05:48:48Z
@@ -53,12 +53,11 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Recently, I got a new project assignment that requires to connect permanently to the customer's network through VPN. They are using a so-called SSL VPN. As I am using [OpenVPN](https://openvpn.net/ "OpenVPN") since more than 5 years within my company's network I was quite curious about their solution and how it would actually be different from OpenVPN. Well, short version: It is a disguised version of OpenVPN.
 
 Unfortunately, the company only offers a client for Windows and Mac OS which shouldn't bother any Linux user after all. OpenVPN is part of every recent distribution and can be activated in a couple of minutes - both client as well as server (if necessary).
 
-[![WatchGuard Firebox SSL - About dialog](https://s.kirstaetter.name/images/watchguard-about.png)](https://www.watchguard.com "WatchGuard Firebox SSL")  
+[![WatchGuard Firebox SSL - About dialog](../content/images/2013/07/watchguard-about.webp)](https://www.watchguard.com "WatchGuard Firebox SSL")  
 *WatchGuard Firebox SSL - About dialog*
 
 ## []()Borrowing some files from a Windows client installation
@@ -71,7 +70,7 @@ Initially, I didn't know about the product, so therefore I went through the inst
 
 in your Windows/File Explorer and confirm with Enter/Return. This will display the following files:
 
-![Application folder below user profile with configuration and certificate files](https://s.kirstaetter.name/images/watchguard-appdata.png)  
+![Application folder below user profile with configuration and certificate files](../content/images/2013/07/watchguard-appdata.webp)  
 *Application folder below user profile with configuration and certificate files*
 
 From there we are going to borrow four files, namely:
@@ -111,14 +110,14 @@ https://1.2.3.4/sslvpn.html
 
 This will give you a login dialog like so:
 
-![Login into the WatchGuard Firebox to get the Mobile VPN with SSL Client information](https://s.kirstaetter.name/images/watchguard-sslvpn-login.png)  
+![Login into the WatchGuard Firebox to get the Mobile VPN with SSL Client information](../content/images/2013/07/watchguard-sslvpn-login.webp)  
 *Login into the WatchGuard Firebox to get the Mobile VPN with SSL Client information*
 
 Enter your credentials given by your network administrator and you will be able to download various client information.
 
 This is the regular "Mobile VPN with SSL client" area:
 
-![Download the Mobile VPN with SSL Client Profile directly from the WatchGuard appliance](https://s.kirstaetter.name/images/watchguard-sslvpn.png)  
+![Download the Mobile VPN with SSL Client Profile directly from the WatchGuard appliance](../content/images/2013/07/watchguard-sslvpn.webp)  
 *Download the Mobile VPN with SSL Client Profile directly from the WatchGuard appliance*
 
 We simply ignore the software for Windows and Mac and choose to download the client profile. Save the provided file "client.ovpn" to a location on your computer.
@@ -151,7 +150,7 @@ $ sudo openvpn --config client.ovpn
 
 Pay attention to the correct path to your configuration and certificate files. OpenVPN will ask you to enter your Auth Username and Auth Password in order to establish the VPN connection, same as the Windows client.
 
-![Remote server and user authentication to establish the VPN](https://s.kirstaetter.name/images/watchguard-connect.png)  
+![Remote server and user authentication to establish the VPN](../content/images/2013/07/watchguard-connect.webp)  
 *Remote server and user authentication to establish the VPN*
 
 Please complete the test run and see whether all went well. You can disconnect pressing Ctrl+C.
@@ -235,12 +234,12 @@ $ sudo service openvpn stop client
 
 For newer Linux users or the ones with 'console-phobia' I'm going to describe now how to use Network Manager to setup the OpenVPN client. For this move your mouse to the systray area and click on Network Connections =&gt; VPN Connections =&gt; Configure VPNs... which opens your Network Connections dialog. Alternatively, use the HUD and enter 'Network Connections'.
 
-![Network connections overview in Ubuntu](https://s.kirstaetter.name/images/network-connections.png)  
+![Network connections overview in Ubuntu](../content/images/2013/07/network-connections.webp)  
 *Network connections overview in Ubuntu*
 
 Click on 'Add' button. On the next dialog select 'Import a saved VPN configuration...' from the dropdown list and click on 'Create...'
 
-![Choose connection type to import VPN configuration](https://s.kirstaetter.name/images/choose-connection-type-vpn.png)  
+![Choose connection type to import VPN configuration](../content/images/2013/07/choose-connection-type-vpn.webp)  
 *Choose connection type to import VPN configuration*
 
 Now you navigate to your folder where you put the client files from the Windows system and you open the 'client.ovpn' file. Next, on the tab 'VPN' proceed with the following steps (directives from the configuration file are referred):

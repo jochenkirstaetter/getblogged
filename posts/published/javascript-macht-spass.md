@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: JavaScript macht Spass
 metaDescription: JavaScript macht Spass Vielleicht kennt ihr auch das Problem...Man hat eine brauchbare GUI in HTML server-seitig mittels einer Skriptsprache wie die Active FoxPro Pages - http://www.afpages.de - zusammengesetzt und die Kommunikation zwischen Client und Server harmoniert auch sehr gut, aber irgendwie bleibt das Gefühl, daß noch etwas fehlt.Nun, so ging
-image: https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=014a8fb0191be5641c1be5b55e747076
+image: content/images/2004/07/photo-1517180102446-f3ece451e9d8.webp
 ogTitle: JavaScript macht Spass
 ogDescription: Vielleicht kennt ihr auch das Problem...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/javascript-macht-spass/
-imageUrl: https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=014a8fb0191be5641c1be5b55e747076
+imageUrl: content/images/2004/07/photo-1517180102446-f3ece451e9d8.webp
 twitterImageUrl: https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=014a8fb0191be5641c1be5b55e747076
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=014a8fb0191be5641c1be5b55e747076
+featureImage: content/images/2004/07/photo-1517180102446-f3ece451e9d8.webp
 featured: false
 publishedAt: 2004-07-13T23:00:00Z
 updatedAt: 2018-10-23T05:18:58Z
@@ -52,8 +52,8 @@ facebookDescription: Vielleicht kennt ihr auch das Problem...
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Vielleicht kennt ihr auch das Problem...
 
 Man hat eine brauchbare GUI in HTML server-seitig mittels einer Skriptsprache wie die Active FoxPro Pages - [https://www.afpages.de](https://www.afpages.de) - zusammengesetzt und die Kommunikation zwischen Client und Server harmoniert auch sehr gut, aber irgendwie bleibt das Gefühl, daß noch etwas fehlt.

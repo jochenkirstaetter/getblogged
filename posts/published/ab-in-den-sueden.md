@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/ab-in-den-sueden/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Ich mag es ja überhaupt nicht, morgens früh aufzustehen, aber heute war mal wieder einer dieser Tage. Der Wecker foltert mich kurz nach 6:00 Uhr in der Nacht - herrje, schrecklich... Aber was soll's. Ich muss eh aufstehen, denn es geht in den Süden Deutschlands.  
   
 Nach der morgendlichen Schlacht im Bad und einer erfrischend, belebenden Fahrt nach Kaiserslautern - noch 'n Kollegen einpacken ![icon_cool](https://jochen.kirstaetter.name/ab-in-den-sueden/smilies/icon_cool.gif) - geht's pronto per Autobahnexpress Richtung Ludwigshafen, und die ersten Probleme treten auf - Verkehrsfunk und die Entscheidung welche Route wir fahren: über Heilbronn oder über Karlsruhe. Wir haben uns dann für die Baustellentour über Heilbronn entschieden und es war gut... ![icon_cool](https://jochen.kirstaetter.name/ab-in-den-sueden/smilies/icon_cool.gif)  

@@ -12,7 +12,7 @@ tags:
 keywords: Development, Projects
 metaTitle: How to get your computer from blank disk(s) to fully operational in no time... (Windows edition)
 metaDescription: The following article is about my process of setting up a fresh machine quickly, and hopefully it covers some areas where you might be able to take away something. Based on a few exchanges I had with other peers over various social media networks, including Twitter, Google+ and FB.
-image: https://images.unsplash.com/photo-1532691403316-d08a19730ed9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=e25d38cdecc6403f2dc7a301736bd934
+image: content/images/2018/07/photo-1532691403316-d08a19730ed9.webp
 ogTitle: How to get your computer from blank disk(s) to fully operational in no time... (Windows edition)
 ogDescription: The following article is about my process of setting up a fresh machine quickly, and hopefully it covers some areas where you might be able to take away something. Based on a few exchanges I had with other peers over various social media networks, including Twitter, Google+ and FB.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/windows10-quick-installation/
-imageUrl: https://images.unsplash.com/photo-1532691403316-d08a19730ed9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=e25d38cdecc6403f2dc7a301736bd934
+imageUrl: content/images/2018/07/photo-1532691403316-d08a19730ed9.webp
 twitterImageUrl: https://images.unsplash.com/photo-1532691403316-d08a19730ed9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=e25d38cdecc6403f2dc7a301736bd934
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1532691403316-d08a19730ed9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=e25d38cdecc6403f2dc7a301736bd934
+featureImage: content/images/2018/07/photo-1532691403316-d08a19730ed9.webp
 featured: false
 publishedAt: 2018-07-28T04:30:00Z
 updatedAt: 2019-02-14T02:37:09Z
@@ -53,8 +53,8 @@ facebookDescription: The following article is about my process of setting up a f
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Perhaps an unusual blog title this time. Somehow, it is actually based on a few exchanges I had with other peers over various social media networks, including Twitter, Google+ and Facebook. Over the past few weeks there had been a few postings about struggles, obstacles and fears connected to a full installation of a Windows 10 system. The following article is about my process of setting up a fresh machine quickly, and hopefully it covers some areas where you might be able to take away something.
 
 Some might say that it is a lot easier to install Linux compared to Windows or macOS. Others mentioned that it is painful to install necessary software packages in order to be able to actually use a Windows system productively. Here is an example that sparked the discussions:
@@ -84,11 +84,11 @@ Now it is time to prepare the actual *magic* of the post-installation step in Wi
 
 **Note:** In OneDrive online it is not possible to set the file extension. If you want to create a batch file with `.cmd` file extension you have to do it on an existing machine and upload the file into OneDrive.
 
-![Create a new Plain text file directly in OneDrive](../content/images/2018/07/OneDrive_CreatePlaintextFile.png)
+![Create a new Plain text file directly in OneDrive](../content/images/2018/07/OneDrive_CreatePlaintextFile.webp)
 
 In this article I'm going to use the file name `Choco.cmd` and I prefer to create it below the `Documents` folder.
 
-![OneDrive: Installation of Chocolatey and software application](../content/images/2018/07/OneDrive_Chocolatey.png)
+![OneDrive: Installation of Chocolatey and software application](../content/images/2018/07/OneDrive_Chocolatey.webp)
 
 Add the Chocolatey installation right at the top, as described here: [Install with cmd.exe](https://chocolatey.org/install):
 
@@ -171,11 +171,11 @@ Purchase and [Get Windows 10](https://www.microsoft.com/en-us/windows/get-window
 
 [Download Windows 10](https://www.microsoft.com/en-us/software-download/windows10) with the Update Assistant that can help you update to the latest version of Windows 10. Use this option when you are already running Windows 7, 8.1 or 10, and you want the latest build.
 
-![Download Windows 10 using the Update Assistant and create an ISO file for general use](../content/images/2018/07/Windows10_UpdateAssistant.png)
+![Download Windows 10 using the Update Assistant and create an ISO file for general use](../content/images/2018/07/Windows10_UpdateAssistant.webp)
 
 **Note:** In case that you are using an operating system other than Windows Microsoft is going to route you to a page that offers you the download of a Windows 10 ISO file directly. You can choose the edition from the drop-down list.
 
-![Download Windows 10 ISO file directly from Linux or macOS](../content/images/2018/08/Windows10_ISO.png)
+![Download Windows 10 ISO file directly from Linux or macOS](../content/images/2018/08/Windows10_ISO.webp)
 
 Joining the [Windows Insider Program](https://insider.windows.com/) gives you early access to the upcoming builds of Windows 10. You can download an ISO of [Windows 10 Insider Preview](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewiso) to start your installation.
 
@@ -191,11 +191,11 @@ Depending on your taste you might choose one of the following options to burn th
 
 [Windows USB/DVD Download Tool](https://www.microsoft.com/en-us/download/details.aspx?id=56485) *(ignore the Windows 7 attribution, it just works)*
 
-![Windows USB/DVD Download Tool to burn an ISO file on a USB pendrive](../content/images/2018/07/Windows_USBDVD_DownloadTool.png)
+![Windows USB/DVD Download Tool to burn an ISO file on a USB pendrive](../content/images/2018/07/Windows_USBDVD_DownloadTool.webp)
 
 [UUI - Universal USB Installer](https://www.pendrivelinux.com/) *(don't fear the Linux stuff)*
 
-![UUI - Universal USB Installer has an option to create bootable Windows USB pendrive](../content/images/2018/07/UUI-UniversalUSBInstaller.png)
+![UUI - Universal USB Installer has an option to create bootable Windows USB pendrive](../content/images/2018/07/UUI-UniversalUSBInstaller.webp)
 
 Or any other software that is capable to create a bootable USB pendrive from an ISO file. You can do that step on Linux or macOS, too.
 
@@ -219,7 +219,7 @@ Access the file you created during the preparation step in your local OneDrive D
 
 Open Windows Explorer to navigate into the OneDrive folder where you stored the batch file. Right click the file and choose the option `Run as administrator` to launch the remaining installation sequence.
 
-![Access your batch file in your local OneDrive Documents folder](../content/images/2018/07/OneDrive_Documents.png)
+![Access your batch file in your local OneDrive Documents folder](../content/images/2018/07/OneDrive_Documents.webp)
 
 Windows will present you the User Account Control (UAC) dialog which you confirm with `Yes` to allow this app to make changes to your device.
 

@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: Adjust timezone of an AVM Fritz!Box 7390
 metaDescription: Lately, I had some spare time to address an issue in my Fritz!Box, and the following article describes how to adjust the timezone settings in general.
-image: https://images.unsplash.com/photo-1519354754184-e1d9c46182c0?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2013/07/photo-1519354754184-e1d9c46182c0.webp
 ogTitle: Adjust timezone of an AVM Fritz!Box 7390
 ogDescription: It's been a while that I purchased an AVM Fritz!Box 7390 but since I'm using this 'PABX' here in Mauritius, I'm not really happy about the wrong time in the logs or handsets connected. Lately, I had...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/adjust-timezone-of-an-avm-fritzbox-7390/
-imageUrl: https://images.unsplash.com/photo-1519354754184-e1d9c46182c0?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2013/07/photo-1519354754184-e1d9c46182c0.webp
 twitterImageUrl: https://images.unsplash.com/photo-1519354754184-e1d9c46182c0?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1519354754184-e1d9c46182c0?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2013/07/photo-1519354754184-e1d9c46182c0.webp
 featured: false
 publishedAt: 2013-07-30T04:19:16Z
 updatedAt: 2019-01-07T22:39:54Z
@@ -52,8 +52,8 @@ facebookDescription: It's been a while that I purchased an AVM Fritz!Box 7390 bu
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 It's been a while that I purchased an AVM Fritz!Box 7390 but since I'm using this 'PABX' here in Mauritius, I'm not really happy about the wrong time in the logs or handsets connected. Lately, I had some spare time to address this issue, and the following article describes how to adjust the timezone settings in general. The original idea came from an [FAQ found in c't 21/11](https://www.heise.de/ct/hotline/Fritzbox-in-anderer-Zeitzone-1344317.html "FAQ found in c't 21/11 - Fritzbox in anderer Zeitzone") (for a 7270 written in German language) but I added a couple of things based on other resources online.
 
 The following tutorial may be valid for other models, too. Use your common sense and think before you act.

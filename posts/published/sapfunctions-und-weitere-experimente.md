@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/sapfunctions-und-weitere-experimente/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 ## Szenario mit SAP R/3
 
 Von SAP hat sicherlich schon jede/r Aktive in der Softwarebranche gehört oder gelesen. In unserem laufenden Projekt steht in den nächsten Tagen die Erstellung einer Kommunikationsschnittstelle zu SAP R/3 an. Glücklicherweise kann ich hierzu auf ein paar frühe Umsetzungen von unserem Kunden zurückgreifen; spart ein wenig Zeit bei der Einarbeitung in die eigentliche Materie. Hintergrund für diese Anforderung ist u.a. das Buchen von Dokumenten in SAP aus unserer VFP-Projektentwicklung.

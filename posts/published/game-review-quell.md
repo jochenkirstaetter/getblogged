@@ -11,7 +11,7 @@ tags:
 keywords: Android
 metaTitle: 'Game Review: Quell'
 metaDescription: Quell is a puzzle game in its own league. I mean seriously... it keeps you captivated.
-image: content/images/2018/02/quell-stage.jpg
+image: content/images/2018/02/quell-stage.webp
 ogTitle: 'Game Review: Quell'
 ogDescription: Only by chance reading a posting from one of my FB contacts I got a hint about Quell.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/game-review-quell/
-imageUrl: https://jochen.kirstaetter.name/content/images/2018/02/quell-stage.jpg
+imageUrl: content/images/2018/02/quell-stage.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2018/02/quell-stage.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2018/02/quell-stage.jpg
+featureImage: content/images/2018/02/quell-stage.webp
 featured: false
 publishedAt: 2014-01-10T05:46:24Z
 updatedAt: 2018-04-02T08:38:44Z
@@ -53,8 +53,7 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
-![Quell logo](https://s.kirstaetter.name/images/quell-logo.jpg)Only by chance reading a posting from one of my FB contacts I got a hint about Quell.
+![Quell logo](../content/images/2014/01/quell-logo.webp)Only by chance reading a posting from one of my FB contacts I got a hint about Quell.
 
 > *"Quell is an enchanting game of logic which has taken the puzzle world by storm. Don’t take our word for it! Read our user reviews (thanks guys!), and see for yourself!"*
 
@@ -69,10 +68,10 @@ Quell is available on the Google Play Store in two editions - one free, ad-suppo
 I took me a couple of evening hours to complete all levels but it was worth the time.  
 Following some impressions taken from the actual game and the links to the Play Store.
 
-![Quell: Level overview in a stage](https://s.kirstaetter.name/images/quell-stage.jpg)  
+![Quell: Level overview in a stage](../content/images/2014/01/quell-stage.webp)  
 *Quell: Level overview in a stage*
 
-![Quell: Push the water drop to collect all coins in a level](https://s.kirstaetter.name/images/quell-level.jpg)  
+![Quell: Push the water drop to collect all coins in a level](../content/images/2014/01/quell-level.webp)  
 *Quell: Push the water drop to collect all coins in a level*
 
 Play Store: [Quell](https://play.google.com/store/apps/details?id=com.fallentreegames.quellfree "Quell") (free edition) & [Quell+](https://play.google.com/store/apps/details?id=com.fallentreegames.quell "Quell+")

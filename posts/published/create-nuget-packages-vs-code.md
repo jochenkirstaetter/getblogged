@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: Create NuGet packages with Visual Studio / Visual Studio Code
 metaDescription: An essential tool for any modern development platform is a mechanism through which developers can create, share, and consume useful code. For .NET it's NuGet packages to the rescue!
-image: content/images/2024/03/Gemini_Generated_Image.jpeg
+image: content/images/2024/03/Gemini_Generated_Image.webp
 ogTitle: Create NuGet packages with Visual Studio / Visual Studio Code
 ogDescription: An essential tool for any modern development platform is a mechanism through which developers can create, share, and consume useful code. For .NET it's NuGet packages to the rescue!
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/create-nuget-packages-vs-code/
-imageUrl: https://jochen.kirstaetter.name/content/images/2024/03/Gemini_Generated_Image.jpeg
+imageUrl: content/images/2024/03/Gemini_Generated_Image.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2024/03/Gemini_Generated_Image.jpeg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2024/03/Gemini_Generated_Image.jpeg
+featureImage: content/images/2024/03/Gemini_Generated_Image.webp
 featured: false
 publishedAt: 2024-03-01T10:34:57Z
 updatedAt: 2024-03-03T07:20:16Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Using NuGet packages gives developers a great amount of flexibility and fast pace to implement their own ideas. Whether you are using packages from other authors or prefer to use your own ones. The following article summarises my findings in how to get started building NuGet packages with Visual Studio, Visual Studio Code, or even the command line only.
 
 During one of the last assignments and more recently working on some Gemini AI related coding I came across the need for NuGet packages.
@@ -68,7 +67,7 @@ For .NET (including .NET Core), the Microsoft-supported mechanism for sharing co
 
 Following is the flow of NuGet package.
 
-![The flow of packages between creators, hosts, and consumers](../content/images/2024/02/image-11.png)
+![The flow of packages between creators, hosts, and consumers](../content/images/2024/02/image-11.webp)
 
 Learn more [about NuGet in the documentation](https://learn.microsoft.com/en-us/nuget/what-is-nuget).
 
@@ -162,11 +161,11 @@ After package creation you can still check and inspect the generated `.nupkg` fi
 
 Note: *A NuGet package with the `.nupkg` extension is simply a ZIP file. To easily examine any package's contents, change the extension to `.zip` and expand its contents as usual. Just be sure to change the extension back to `.nupkg` before attempting to upload it to a host.*
 
-![A `.nupkg` file is simply a ZIP archive. Here checking assets](../content/images/2024/02/image-12.png)
+![A `.nupkg` file is simply a ZIP archive. Here checking assets](../content/images/2024/02/image-12.webp)
 
 This also allows you to quickly review the generated `.nuspec` file.
 
-![The package contains the assemblies for each targetted .NET version](../content/images/2024/02/image-13.png)
+![The package contains the assemblies for each targetted .NET version](../content/images/2024/02/image-13.webp)
 
 You can check all assets needed per targetted .NET version.
 

@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: Quoted on MVA Voices
 metaDescription: Microsoft Virtual Academy published a statement I made during the 'Advanced Windows Store App Development with HTML5 Jump Start' session.
-image: content/images/2017/08/mva_voices.png
+image: content/images/2017/08/mva_voices.webp
 ogTitle: Quoted on MVA Voices
 ogDescription: A couple of weeks ago, I received an email from the Dean of Microsoft Virtual Academy (MVA) asking for permission to quote a statement I made during a jump start. Following is an excerpt from that...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/quoted-on-mva-voices/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/08/mva_voices.png
+imageUrl: content/images/2017/08/mva_voices.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/08/mva_voices.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/08/mva_voices.png
+featureImage: content/images/2017/08/mva_voices.webp
 featured: false
 publishedAt: 2013-07-04T08:04:04Z
 updatedAt: 2018-04-02T08:38:55Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 A couple of weeks ago, I received an email from the Dean of [Microsoft Virtual Academy (MVA)](https://www.microsoftvirtualacademy.com/ "Microsoft Virtual Academy (MVA)") asking for permission to quote a statement I made during a jump start. Following is an excerpt from that request:
 
 > "Dear Jochen,
@@ -66,7 +65,7 @@ I really enjoy those free MVA jump starts - live and later the recordings. Actua
 
 By chance, I discovered today that my quote has been published in the MVA Voices section:
 
-[![mva voices small](https://s.kirstaetter.name/images/mva_voices_small.png)](https://s.kirstaetter.name/images/mva_voices.png "MVA Voices of 04.07.2013")  
+[![mva voices small](../content/images/2013/07/mva_voices_small.webp)](https://s.kirstaetter.name/images/mva_voices.png "MVA Voices of 04.07.2013")  
 *Click to enlarge: Screenshot of Microsoft Virtual Academy web site taken on 04.07.2013*
 
 Thank you very much, MVA - this made my day and I'm very happy to be quoted.

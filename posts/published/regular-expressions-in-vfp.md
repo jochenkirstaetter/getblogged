@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/regular-expressions-in-vfp/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 **Motivation  
 ** Based on some research I did in december 2005 and currently refreshed due to a vital discussion in on of Microsoft's news groups at [news://msnews.microsoft.com/microsoft.public.de.fox](news://msnews.microsoft.com/microsoft.public.de.fox) (German) about the future of Visual FoxPro, I decided to finalize and deploy my **COM Proxy for .NET**. As you might guess the name of this component is its main purpose. It is a dynamic-link library that provides features of the .NET framework classes via COM to any *legacy* programming language like Visual FoxPro. Contrary to current Sedna CTP this component has the same interface for Regular Expressions as the VBScript object has. So, this way it is a lot easier to switch between different implementations.
 

@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/kommune-33/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Alter Schwede! Es ist sicherlich schwierig während der Zeit eines so großartigen Events wie das [Ready to Rock the Launch](https://www.sie-sind-da.de) noch eine Übernachtungsmöglichkeit zu finden. Okay, ich bin gewissermaßen selbst schuld, da ich mich relativ spät um eine Unterkunft gekümmert habe, aber okay, es gibt immer Möglichkeiten. Zuerst ging's ins Internet: Hotels in Karlsruhe googlen. Alles klar, nach zwei, drei Anrufen die Ernüchterung... alles ausgebucht, keine Chance!
 
 Öhem, Mist. Also, Plan B - Kollegen und Freunde interviewen ob weiterer Ideen und Anregungen. Well, den entscheidenden Impuls erhielt ich von meinem 'Schwager in spe' 🙂 Schau dir mal [die folgenden Pensionen](https://www.deutsche-pensionen.de/pension-karlsruhe/) an, da ist sicherlich was dabei... Jaoh okay...  

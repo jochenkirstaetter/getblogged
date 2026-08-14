@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: Projekt - Sunshine
 metaDescription: Projekt - Sunshine Als Software-Entwickler gehen mir ständig irgendwelche Ideen für Konzepte und Programmierung durch den Kopf... ich nehme an, dass das zum Berufsrisiko gehört. So auch in den letzten Tagen. Es lässt sich einfach nicht vermeiden. Okay, da wir mit der aktuellen Projektentwicklung so ziemlich vor dem Abschluß stehen,
-image: content/images/2019/01/Sunshine1.png
+image: content/images/2019/01/Sunshine1.webp
 ogTitle: Projekt - Sunshine
 ogDescription: Als Software-Entwickler gehen mir ständig irgendwelche Ideen für Konzepte und Programmierung durch den Kopf... ich nehme an, dass das zum Berufsrisiko gehört. So auch in den letzten Tagen. Es lässt...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/projekt-sunshine/
-imageUrl: https://jochen.kirstaetter.name/content/images/2019/01/Sunshine1.png
+imageUrl: content/images/2019/01/Sunshine1.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2019/01/Sunshine1.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2019/01/Sunshine1.png
+featureImage: content/images/2019/01/Sunshine1.webp
 featured: false
 publishedAt: 2006-10-28T00:00:00Z
 updatedAt: 2019-01-28T03:13:05Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Als Software-Entwickler gehen mir ständig irgendwelche Ideen für Konzepte und Programmierung durch den Kopf... ich nehme an, dass das zum Berufsrisiko gehört. So auch in den letzten Tagen. Es lässt sich einfach nicht vermeiden.
 
 Okay, da wir mit der aktuellen Projektentwicklung so ziemlich vor dem Abschluß stehen, und ich ab und zu mal ein wenig Abwechslung und Entspannung benötige, fröhne ich in meiner geringen Freizeit ein wenig dem Sport. Nicht sonderlich viel aber immerhin...
@@ -64,7 +63,7 @@ Das Interessante an diesem Projekt wird jedoch die Herangehensweise der Entwickl
 
 Okay, also ausgehend vom Grundsatz \*\*Hauptsache, es sieht gut aus!\*\* schreibe ich aktuell an der Gesamtoberfläche und an den visuellen Komponenten. Und in der Tat sieht die Software bereits schon ein wenig stylisch aus. Anbei mal ein Screenshot:
 
-![Datensatznavigation und weitere Navigation stehen noch aus...](../content/images/2019/01/Sunshine1-1.png)
+![Datensatznavigation und weitere Navigation stehen noch aus...](../content/images/2019/01/Sunshine1-1.webp)
 
 Und damit sind wir sicherlich auch beim ersten Problem des Abends... Entwickler sind keine Designer, und wirklich gut aussehende Grafiken, Icons und Pictures sind auch in den Weiten des Internets schwer zu bekommen, zumindest wenn man sehr genaue Vorstellungen für das Gesamtbild der Anwendung hat. Falls sich also jemand oder auch mehrere Grafiker/Designer bereit erklären möchten, dem Projekt ein wenig was beizusteuern. Gerne, schreibt mir eine Mail, skypt mich an, etc...
 

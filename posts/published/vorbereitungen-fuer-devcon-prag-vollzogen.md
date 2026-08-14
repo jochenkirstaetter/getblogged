@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/vorbereitungen-fuer-devcon-prag-vollzogen/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Ahhh, ein leichter Hoffnungsschimmer im Programmieralltag...  
 Die Chance ein wenig dem Alltag zu entfliehen. Die Vorbereitungen für den Besuch der Entwicklungkonferenz in Prag sind umgesetzt. Die Ausfallzeit im aktuellen Projekt ist geregelt, die Registrierung für die Konferenz getätigt und die notwendigen Buchungen für Flug und Hotel ebenfalls. Herrlich.  
   

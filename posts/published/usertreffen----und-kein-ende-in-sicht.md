@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: Usertreffen... und kein Ende in Sicht
 metaDescription: Usertreffen... und kein Ende in Sicht Beinahe k&#246;nnte man es schon als Stress auslegen - positiven Stress stellt es garantiert schon dar. Und wenn man nur &#39;ne Stunde auf der Autobahn steht oder Odysee-like &#252;ber unbekannte Landstra&#223;en zuckelt... da bekommt das Wort &#39;Telefonkonferenz&#39; bzw. &#39;Navigationssystem&#39; ebenfalls noch eine neue Bedeutung.
-image: content/images/2023/09/conference-room-full-of-attendees--pastel---utopian--in-the-style-of-Pierre-Auguste-Renoir-an.png
+image: content/images/2023/09/conference-room-full-of-attendees--pastel---utopian--in-the-style-of-Pierre-Auguste-Renoir-an.webp
 ogTitle: Usertreffen... und kein Ende in Sicht
 ogDescription: Beinahe könnte man es schon als Stress auslegen - positiven Stress stellt es garantiert schon dar. Und wenn man nur 'ne Stunde auf der Autobahn steht oder Odysee-like über unbekannte Landstraßen...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/usertreffen----und-kein-ende-in-sicht/
-imageUrl: https://jochen.kirstaetter.name/content/images/2023/09/conference-room-full-of-attendees--pastel---utopian--in-the-style-of-Pierre-Auguste-Renoir-an.png
+imageUrl: content/images/2023/09/conference-room-full-of-attendees--pastel---utopian--in-the-style-of-Pierre-Auguste-Renoir-an.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2023/09/conference-room-full-of-attendees--pastel---utopian--in-the-style-of-Pierre-Auguste-Renoir-an.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2023/09/conference-room-full-of-attendees--pastel---utopian--in-the-style-of-Pierre-Auguste-Renoir-an.png
+featureImage: content/images/2023/09/conference-room-full-of-attendees--pastel---utopian--in-the-style-of-Pierre-Auguste-Renoir-an.webp
 featured: false
 publishedAt: 2004-10-17T10:16:37Z
 updatedAt: 2023-09-18T16:38:29Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Beinahe könnte man es schon als Stress auslegen - positiven Stress stellt es garantiert schon dar. Und wenn man nur 'ne Stunde auf der Autobahn steht oder Odysee-like über unbekannte Landstraßen zuckelt... da bekommt das Wort 'Telefonkonferenz' bzw. 'Navigationssystem' ebenfalls noch eine neue Bedeutung. 😎  
 Unterwegs zu einem Usertreffen, daß man als Redner ausfüllen soll. Naja, so ein Stau hat aber auch Vorteile - vorallem wenn man zu zweit unterwegs ist. Tjoa, da werden dann mal so nebenbei noch die Slides für den Abend zusammengezimmert, bzw. etliche Rechtschreibkorrekturen in den begleitenden Unterlagen vollzogen... \*wink zu Golo\* - diesbzgl. nochmals Danke.  
 Nunja, mit dem Ergebnis oder besser formuliert der eigenen Leistung vom Freitag bin ich wirklich nicht zufrieden und hoffe, daß ich von den Teilnehmern noch Kritik per Mail oder irgendwie bekomme. Schliesslich soll es an der diesjährigen Entwicklerkonferenz besser werden.  

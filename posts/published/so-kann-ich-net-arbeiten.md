@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: So kann ich net arbeiten!
 metaDescription: So kann ich net arbeiten! Sodele, die Vorbereitungen f&#252;r den Abend n&#228;hern sich dem Ende. Nach ein paar Installationsorgien auf dem Laptop kann ich mir endlich vorstellen, morgen Abend einigerma&#223;en komfortabel arbeiten zu k&#246;nnen. Aber der Hammer hat wieder einmal Visual Studio 2003 gebracht.Da werkelt man fr&#246;hlich mit einigen Tools
-image: https://images.unsplash.com/photo-1579618215542-2ed5e10b65ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDc2fHxvaWwlMjByaWclMjB3b3JrZXJ8ZW58MHx8fHwxNjk1MDYwNzMwfDA&ixlib=rb-4.0.3&q=80&w=2000
+image: content/images/2005/02/photo-1579618215542-2ed5e10b65ed.webp
 ogTitle: So kann ich net arbeiten!
 ogDescription: Sodele, die Vorbereitungen für den Abend nähern sich dem Ende. Nach ein paar Installationsorgien auf dem Laptop kann ich mir endlich vorstellen, morgen Abend einigermaßen komfortabel arbeiten zu...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/so-kann-ich-net-arbeiten/
-imageUrl: https://images.unsplash.com/photo-1579618215542-2ed5e10b65ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDc2fHxvaWwlMjByaWclMjB3b3JrZXJ8ZW58MHx8fHwxNjk1MDYwNzMwfDA&ixlib=rb-4.0.3&q=80&w=2000
+imageUrl: content/images/2005/02/photo-1579618215542-2ed5e10b65ed.webp
 twitterImageUrl: https://images.unsplash.com/photo-1579618215542-2ed5e10b65ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDc2fHxvaWwlMjByaWclMjB3b3JrZXJ8ZW58MHx8fHwxNjk1MDYwNzMwfDA&ixlib=rb-4.0.3&q=80&w=2000
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1579618215542-2ed5e10b65ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDc2fHxvaWwlMjByaWclMjB3b3JrZXJ8ZW58MHx8fHwxNjk1MDYwNzMwfDA&ixlib=rb-4.0.3&q=80&w=2000
+featureImage: content/images/2005/02/photo-1579618215542-2ed5e10b65ed.webp
 featured: false
 publishedAt: 2005-02-15T23:00:00Z
 updatedAt: 2023-09-18T18:13:22Z
@@ -52,8 +52,8 @@ facebookDescription: Sodele, die Vorbereitungen für den Abend nähern sich dem 
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Sodele, die Vorbereitungen für den Abend nähern sich dem Ende. Nach ein paar Installationsorgien auf dem Laptop kann ich mir endlich vorstellen, morgen Abend einigermaßen komfortabel arbeiten zu können. Aber der Hammer hat wieder einmal Visual Studio 2003 gebracht.  
   
 Da werkelt man fröhlich mit einigen Tools in den Tiefen von XML rum und schaut sich auch mal so einiges in VS 2003 an. Schliesslich blickt man ja über den Tellerrand und interessiert immer für die anderen. Nunja, sowas kann auch ernüchternd wirken. So auch diesmal bei dem 'netten' Menüpunkt '' - lasst die Finger davon, wenn ihr eure Optik der XML-Datei erhalten wollt.  

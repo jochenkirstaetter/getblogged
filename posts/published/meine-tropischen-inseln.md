@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/meine-tropischen-inseln/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Südsee-Flair mit Strand, Palmen und Cocktails mitten in Brandenburg? Klar, kein Problem mit der Schwimmoase [My Tropical Islands](https://my-tropical-islands.com). Nach diesem ausgiebigen Tag der Fuchsprogrammierung steht der heutige Abend ganz im Zeichen der Entspannung. Und wenn man schon mal im Teltow unterwegs ist, was böte sich dann mehr an, als mal einen Besuch in Tropical Islands zu zu tätigen. Das Freizeitbad ist 24h rund um die Uhr geöffnet und selbst Übernachtung mit Frühstück ist buchbar. Noch kurz ins Hotel, Badehose und Handtücher geschnappt und ab in den Süden... wortwörtlich 🤪
 
 Der ehemalige Flughangar für Zeppeline hat schon eindrucksvolle Ausmaße... und mit der Beleuchtung von innen heraus, sieht das Teil ziemlich cool aus. Die Nacht ist mit 20,5°C ziemlich lau und in der Halle wird's gleich noch ein paar Grade angenehmer. Und ab geht's in die Bali Lagune und ein wenig Schultermassage unterm Wasserfall, danach in den Strömungskanal... Herrlich, genau das richtige nach einem Tag wie diesem. Leider konnten wir nicht zu lange bleiben, da morgen ja noch ein weiterer Tag Workshop angesetzt ist, und so machen wir uns kurz vor Mitternacht wieder auf den Rückweg zum Hotel.

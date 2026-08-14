@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/geocaching-casela-bird-park/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 ![](https://jochen.kirstaetter.name/geocaching-casela-bird-park/images/joooid/geocaching_-_casela_bird_park_20130126112429.jpg)
 
 Usually on Saturdays, we are on tour somewhere here on the island and trying hard to kill our time until mummy is done with her customers. But today we, or better I decided to take the children on our first real treasure hunt. Of course, the kids were super-excited about this. Due to the lack of a real treasure map and proper pirate outfit, I explained them that in [modern times hunters are equipped with modern tools](xref:geocaching-world-wide-treasure-hunt). What better to use than a tablet these days?
@@ -64,6 +63,6 @@ Using the [Geocaching client c:geo](https://play.google.com/store/apps/details?i
 
 As it was our first cache ever it wasn't clear what to expect but after all the micro cache is clearly to identify and the astonishment for both was high. There was even a coin in. Unfortunately, I couldn't figure out what the currency was. Maybe someone else can tell. Anyways, we left an item in the cache and the children took care of that it is well hidden again. Of course, as good modern pirates we made sure that no one else watched us...
 
-[![Profile for ParadiseIsland](https://img.geocaching.com/stats/img.aspx?txt=Let's+Go+Geocaching!&uid=32685fae-5368-4779-9c3e-ee1329cd7574&bg=1)](https://www.geocaching.com/profile/?guid=32685fae-5368-4779-9c3e-ee1329cd7574)
+[![Profile for ParadiseIsland](../content/images/2013/01/geocaching-casela-bird-park.webp)](../content/images/2013/01/geocaching-casela-bird-park.webp)
 
 Totally happy about their find we talked about future treasures here in Mauritius. I guess that this one wasn't the last one for sure. More reports coming up soon, too.

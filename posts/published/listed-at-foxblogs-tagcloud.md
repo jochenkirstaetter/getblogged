@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/listed-at-foxblogs-tagcloud/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Just like to mention, that ITA Software provides an OMPL list of blogs about Visual FoxPro and related stuff. I like this kind of compressed information. I already was very confident with the list of bloggers at the FoxWiki - [https://fox.wikis.com/wc.dll?Wiki~BlogWatch~People](https://fox.wikis.com/wc.dll?Wiki%7EBlogWatch%7EPeople)
 
 But using OMPL is very cool!

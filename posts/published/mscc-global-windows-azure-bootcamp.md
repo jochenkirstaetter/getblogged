@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: 'MSCC: Global Windows Azure Bootcamp'
 metaDescription: Mauritius participated and contributed to the Global Windows Azure Bootcamp 2014 (GWAB). Again! And this time stronger than ever, and together with 137 other locations in 56 countries world-wide.
-image: https://images.unsplash.com/photo-1531498860502-7c67cf02f657?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2014/04/photo-1531498860502-7c67cf02f657.webp
 ogTitle: 'MSCC: Global Windows Azure Bootcamp'
 ogDescription: Mauritius participated and contributed to the Global Windows Azure Bootcamp 2014 (GWAB). Again! And this time stronger than ever, and together with 137 other locations in 56 countries world-wide.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mscc-global-windows-azure-bootcamp/
-imageUrl: https://images.unsplash.com/photo-1531498860502-7c67cf02f657?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2014/04/photo-1531498860502-7c67cf02f657.webp
 twitterImageUrl: https://images.unsplash.com/photo-1531498860502-7c67cf02f657?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1531498860502-7c67cf02f657?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2014/04/photo-1531498860502-7c67cf02f657.webp
 featured: false
 publishedAt: 2014-04-02T07:18:30Z
 updatedAt: 2019-01-07T22:33:37Z
@@ -52,9 +52,9 @@ facebookDescription: Mauritius participated and contributed to the Global Window
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
-[![Logo of the Mauritius Software Craftsmanship Community](https://s.kirstaetter.name/images/mscc.jpg)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community")Mauritius participated and contributed to the [Global Windows Azure Bootcamp 2014 (GWAB)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/events/160871862/ "Global Windows Azure Bootcamp 2014 (GWAB)"). Again! And this time stronger than ever, and together with 137 other locations in 56 countries world-wide.
+[![Logo of the Mauritius Software Craftsmanship Community](../content/images/2013/11/mscc.webp)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community")Mauritius participated and contributed to the [Global Windows Azure Bootcamp 2014 (GWAB)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/events/160871862/ "Global Windows Azure Bootcamp 2014 (GWAB)"). Again! And this time stronger than ever, and together with 137 other locations in 56 countries world-wide.
 
 We had 62 named registrations, 7 guest additions and approximately 10 offline participants prior to the event day. Most interestingly the organisation of the GWAB through the [MSCC](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/ "MSCC") helped to increased the number of craftsmen.
 
@@ -116,16 +116,16 @@ At the end of the day we had a great Q&A session and we finalised the event with
 
 Just to give you an idea about what has happened during the GWAB 2014 at Ebene...
 
-![Speakers and Microsoft Student Partners are getting ready for the Global Windows Azure Bootcamp 2014](https://s.kirstaetter.name/images/mscc-20140329-1.png)  
+![Speakers and Microsoft Student Partners are getting ready for the Global Windows Azure Bootcamp 2014](../content/images/2014/04/mscc-20140329-1.webp)  
 *Speakers and Microsoft Student Partners are getting ready for the Global Windows Azure Bootcamp 2014*
 
-![GWAB 2014 attendees are fully integrated into the hands-on-labs and setting up their individuals cloud computing services](https://s.kirstaetter.name/images/mscc-20140329-2.png)  
+![GWAB 2014 attendees are fully integrated into the hands-on-labs and setting up their individuals cloud computing services](../content/images/2014/04/mscc-20140329-2.webp)  
 *GWAB 2014 attendees are fully integrated into the hands-on-labs and setting up their individuals cloud computing services*
 
-![60 attendees at the GWAB 2014. Despite some technical difficulties we had a great time running the event](https://s.kirstaetter.name/images/mscc-20140329-3.png)  
+![60 attendees at the GWAB 2014. Despite some technical difficulties we had a great time running the event](../content/images/2014/04/mscc-20140329-3.webp)  
 *60 attendees at the GWAB 2014. Despite some technical difficulties we had a great time running the event*
 
-![GWAB 2014: Using the lunch break for networking and exchange of ideas - Great conversations and topics amongst attendees](https://s.kirstaetter.name/images/mscc-20140329-4.png)  
+![GWAB 2014: Using the lunch break for networking and exchange of ideas - Great conversations and topics amongst attendees](../content/images/2014/04/mscc-20140329-4.webp)  
 *GWAB 2014: Using the lunch break for networking and exchange of ideas - Great conversations and topics amongst attendees*
 
 There are more pictures on the original event page:
@@ -151,7 +151,7 @@ In case that I missed a question and answer, please use the comment section at t
 
 Every participant was instructed during the hands-on-lab session on how to set up a cloud computing service in their account. Of course, I won't keep the results from you... [Global Azure Lab](https://globalazurelab.azurewebsites.net/ "Global Azure Lab")
 
-[![GWAB 2014: Our cloud computing contribution to the research of diabetes](https://s.kirstaetter.name/images/mscc-gwab2014-result.png)  
+[![GWAB 2014: Our cloud computing contribution to the research of diabetes](../content/images/2014/04/mscc-gwab2014-result.webp)  
 ](https://globalazurelab.azurewebsites.net/Country.aspx?country=Mauritius)*GWAB 2014: Our cloud computing contribution to the research of diabetes*
 
 And I would say Mauritius did a good job!

@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/ja-ist-denn-schon-weihnachten/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 So ging es mir als ich gestern Abend nach Hause kam und ein freundlicher Zettel meiner Nachbarn an der Tür klebte: "Wir haben ein Paket für dich angenommen, Gruß." - Hm, Paket? Ich hab' doch gar nichts bestellt. Naja, okay, kann noch ein bisschen warten...  
   
 Zuerst wollte ich mich noch ein wenig Entspannen und bin 4.25 Kilometer über Feldwege bei 2° Celsius durch die Gegend gejoggt. Es ist herrlich bei dem Wetter unterwegs zu sein. Absolut empfehlenswert.  

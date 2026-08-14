@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: Gemma 3 - missing features despite announcement
 metaDescription: Congrats to the team to provide the new Gemma 3 models and the new endpoint on the Google AI API. The announcement blog - https://blog.google/technology/developers/gemma-3/ - reads wonderfully. Until...
-image: content/images/2025/03/Gemma3.png
+image: content/images/2025/03/Gemma3.webp
 ogTitle: Gemma 3 - missing features despite announcement
 ogDescription: Congrats to the team to provide the new Gemma 3 models and the new endpoint on the Google AI API. The announcement blog - https://blog.google/technology/developers/gemma-3/ - reads wonderfully. Until...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/gemma-3-missing-features-despite-announcement/
-imageUrl: https://jochen.kirstaetter.name/content/images/2025/03/Gemma3.png
+imageUrl: content/images/2025/03/Gemma3.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2025/03/Gemma3.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2025/03/Gemma3.png
+featureImage: content/images/2025/03/Gemma3.webp
 featured: false
 publishedAt: 2025-03-12T04:45:00Z
 updatedAt: 2025-03-25T04:45:55Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Congrats to the team to provide the new Gemma 3 models and the new endpoint on the Google AI API. The announcement blog - [https://blog.google/technology/developers/gemma-3/](https://blog.google/technology/developers/gemma-3/) - reads wonderfully. Until someone puts it to the test...
 
 ## Create AI with advanced text and visual reasoning capabilities

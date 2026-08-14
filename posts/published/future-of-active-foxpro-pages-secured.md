@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/future-of-active-foxpro-pages-secured/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Finally some official news about Active FoxPro Pages, aka AFP. ![Wink](https://jochen.kirstaetter.name/future-of-active-foxpro-pages-secured/plugins/editors/jce/tiny_mce/plugins/emotions/img/smiley-wink.gif "Wink")
 
 The German company [BvL Bürosysteme Vertriebs GmbH](https://www.bvl-buerosysteme.de/ "BvL Bürosysteme Vertriebs GmbH") bought all rights of Active FoxPro Pages from the insolvency stock. Being a former customer and intensive user of AFP since version 2.0 BvL has own interest in the continuation of AFP on current and future web servers.

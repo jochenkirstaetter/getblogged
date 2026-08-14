@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/schlaflos-in----/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Dümdidüm... Irgendwas läuft in meinem Tagesablauf verkehrt. Oder wie sonst könnte man die Beantwortung von lockeren 20 bis 30 Beiträgen in Foren und Newsgruppe um diese Uhrzeit erklären. Vielleicht ist es die Orientierung an den Men In Black zu ernst genommen. Aber was soll man auch grossartig machen, wenn man weder müde ist, noch einschlafen kann? - Logisch, Community!
 
 Zwar schaue ich auch tagsüber in die Newsgruppen, insbesondere in unsere AFP Newsgruppe sowie die öffentlichen und privaten bei Microsoft, aber der eigentliche Spass in den Foren kommt nach dem Tageswerk. Und so geschieht es eben auch, dass man in den frühmorgendlichen Stunden noch munter Antworten, Tipps und Code in die Weiten des Internets hinaustackert.

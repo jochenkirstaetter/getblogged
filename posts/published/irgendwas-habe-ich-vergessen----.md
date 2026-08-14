@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/irgendwas-habe-ich-vergessen----/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Ich bin mir wirklich sehr sicher, dass ich irgendetwas vergessen habe. Ich komm' zwar aktuell nicht drauf, aber da war 100% noch was gewesen. Hmm, mal drüber nachgrübeln und weiterschreiben; vielleicht fällt es mir ja wieder ein.
 
 \*\*2007 - neues Jahr, neues Glück, neue Aufgaben und Ziele\*\*  

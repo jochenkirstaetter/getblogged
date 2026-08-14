@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/representing-mauritius-in-the-2013-bench-games/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,8 +53,7 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
-[![benchgames logo](https://s.kirstaetter.name/images/benchgames_logo.png)](https://www.brainbench.com/xml/bb/landing/offer/home/promotion.xml?contentId=3049 "2013 Bench Games by Brainbench")Only by chance I came across an interesting option for professionals and enthusiasts in IT, and quite honestly I can't even remember where I caught attention of [Brainbench and their 2013 Bench Games event](https://www.brainbench.com/xml/bb/landing/offer/home/promotion.xml?contentId=3049 "Brainbench and their 2013 Bench Games event"). But having access to 600+ free exams in a friendly international intellectual competition doesn't happen to be available every day. So, it was actually a no-brainer to sign up and browse through the various categories.  
+[![benchgames logo](../content/images/2013/10/benchgames_logo.webp)](https://www.brainbench.com/xml/bb/landing/offer/home/promotion.xml?contentId=3049 "2013 Bench Games by Brainbench")Only by chance I came across an interesting option for professionals and enthusiasts in IT, and quite honestly I can't even remember where I caught attention of [Brainbench and their 2013 Bench Games event](https://www.brainbench.com/xml/bb/landing/offer/home/promotion.xml?contentId=3049 "Brainbench and their 2013 Bench Games event"). But having access to 600+ free exams in a friendly international intellectual competition doesn't happen to be available every day. So, it was actually a no-brainer to sign up and browse through the various categories.  
 Most interestingly, Brainbench is not only IT-related. They offer a vast variety of fields in their Test Center, like Languages and Communication, Office Skills, Management, Aptitude, etc., and it can be a little bit messy about how things are organised. Anyway, while browsing through their test offers I added a couple of exams to 'My Plan' which I would give a shot afterwards.
 
 ## Self-assessments
@@ -71,7 +70,7 @@ Until... the next update of the [Bench Games Leaderboard](https://www.brainbench
 
 Other participants were merciless, eh, more successful than me, produced better test results than I did. But still I managed to stay on the final score board:
 
-![2013 Bench Games - Individual Leader Board](https://s.kirstaetter.name/images/benchgames2013.png)  
+![2013 Bench Games - Individual Leader Board](../content/images/2013/10/benchgames2013.webp)  
 *An 'exotic' combination of exam, test result, country and person itself*  
 Representing Mauritius and the Visual FoxPro community in that fun event.
 

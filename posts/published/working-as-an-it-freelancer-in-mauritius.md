@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: Working as an IT freelancer in Mauritius
 metaDescription: Working as a freelancer is eventually a dream situation for most people. But is it for everyone? What are the advantages and eventual obstacles to tackle in reward of some liberty and flexibility in life?
-image: content/images/2017/08/freelancer-stylish.jpg
+image: content/images/2017/08/freelancer-stylish.webp
 ogTitle: Working as an IT freelancer in Mauritius
 ogDescription: Working as a freelancer is eventually a dream situation for most people. Usually, you would complete your school activities, go for lectures and studies in IT, and then finally you would end up with a...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/working-as-an-it-freelancer-in-mauritius/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/08/freelancer-stylish.jpg
+imageUrl: content/images/2017/08/freelancer-stylish.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/08/freelancer-stylish.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/08/freelancer-stylish.jpg
+featureImage: content/images/2017/08/freelancer-stylish.webp
 featured: false
 publishedAt: 2015-08-17T06:10:00Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Working as a freelancer is eventually a dream situation for most people. Usually, you would complete your school activities, go for lectures and studies in IT, and then finally you would end up with a job in a well-known company. Here in Mauritius there are regular IT job fairs where local companies are offering their job listings and trying to get the best talent directly out of the universities. And after having seen a good number of resumes of candidates applying for a job at my company [IOS Indian Ocean Software Ltd.](http://www.ios.mu/) there is also a certain pattern visible.
 
 ![Young graduates starting their own career as freelancers - Source: https://pixabay.com/p-703003/?no_redirect](https://s.kirstaetter.name/images/young-freelancers.jpg "Young graduates starting their own career as freelancers")  

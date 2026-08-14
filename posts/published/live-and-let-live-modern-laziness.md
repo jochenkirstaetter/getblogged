@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: Live and let live - modern laziness...
 metaDescription: Remember, Rome wasn't built in a day and adventuring a journey of 1,000 miles starts with a first single step. And writing an article for your blog doesn't have to be done in one go...
-image: https://images.unsplash.com/photo-1486591038957-19e7c73bdc41?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=5f885f08ecb9fdff3a3ef98c35976c92
+image: content/images/2015/06/photo-1486591038957-19e7c73bdc41.webp
 ogTitle: Live and let live - modern laziness...
 ogDescription: Wow, it has been a while since I managed to visit the author's corner of my blog. Well, quite frankly there had been a variety aspects and quite a number of excuses to avoid coming to this place and...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/live-and-let-live-modern-laziness/
-imageUrl: https://images.unsplash.com/photo-1486591038957-19e7c73bdc41?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=5f885f08ecb9fdff3a3ef98c35976c92
+imageUrl: content/images/2015/06/photo-1486591038957-19e7c73bdc41.webp
 twitterImageUrl: https://images.unsplash.com/photo-1486591038957-19e7c73bdc41?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=5f885f08ecb9fdff3a3ef98c35976c92
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1486591038957-19e7c73bdc41?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=5f885f08ecb9fdff3a3ef98c35976c92
+featureImage: content/images/2015/06/photo-1486591038957-19e7c73bdc41.webp
 featured: false
 publishedAt: 2015-06-28T13:45:33Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -52,8 +52,8 @@ facebookDescription: Wow, it has been a while since I managed to visit the autho
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Wow, it has been a while since I managed to visit the author's corner of my blog. Well, quite frankly there had been a variety aspects and quite a number of excuses to avoid coming to this place and I'd like to write a little bit about it. Eventually, this article might be a little bit boring for some of the readers but I would like you to join the comment section at the bottom - maybe after reading the following lines.
 
 ## Thank you! Stay sharp!
@@ -70,7 +70,7 @@ And of course, there is the business side of the medal. Spending quite some time
 
 You can't just stop doing your daily job...
 
-![Guinness - Well deserved refreshment after the preparations and successful execution of the first ever Developers Conference in Mauritius](https://s.kirstaetter.name/images/Guinness.png)*Well deserved refreshment after the preparations and successful execution of the first ever Developers Conference in Mauritius*
+![Guinness - Well deserved refreshment after the preparations and successful execution of the first ever Developers Conference in Mauritius](../content/images/2015/06/Guinness.webp)*Well deserved refreshment after the preparations and successful execution of the first ever Developers Conference in Mauritius*
 
 Obviously, there had been some catch-up to be done right after the event in order to keep my clients and my chief financial officer (read: BWE) happy. And so, instead of hanging out on the beach enjoying the perks of living on a tropical island, this meant to keep the caps on the keyboard warm and in constant movement. Like a well-oiled machinery that just needs some TLC from time to time I was hacking down lines of code during the last two months actually. Again, I really do love my profession and from that point of view, it never felt like an obligation or burden to get rid off of a pile of queued up work. Aux contraire, it felt great to be "back" and stay focused on coding lines after lines for my customers' requirements.
 

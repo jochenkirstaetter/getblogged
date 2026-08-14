@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/learning-content-for-mcsds-web-applications-and-windows-store-apps-using-html5/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Recently, I started again to learn for various Microsoft certifications. First candidate on my way to MSCD: Web Applications is the [Exam 70-480: Programming in HTML5 with JavaScript and CSS3](https://www.microsoft.com/learning/en/us/exam.aspx?id=70-480 "Exam 70-480: Programming in HTML5 with JavaScript and CSS3").
 
 ## Motivation to go for a Microsoft exam  

@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: Synergy - easy share of keyboard and mouse between multiple computers
 metaDescription: An ode to Synergy - a tool that lets you easily share your mouse and keyboard between multiple computers on your desk, and it's Free and Open Source.
-image: content/images/2018/02/synergy_banner.png
+image: content/images/2018/02/synergy_banner.webp
 ogTitle: Synergy - easy share of keyboard and mouse between multiple computers
 ogDescription: Did you ever have the urge to share one set of keyboard and mouse between multiple machines? If so, please read on...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/synergy-easy-share-of-keyboard-and-mouse-between-multiple-computers/
-imageUrl: https://jochen.kirstaetter.name/content/images/2018/02/synergy_banner.png
+imageUrl: content/images/2018/02/synergy_banner.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2018/02/synergy_banner.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2018/02/synergy_banner.png
+featureImage: content/images/2018/02/synergy_banner.webp
 featured: false
 publishedAt: 2012-07-23T18:00:00Z
 updatedAt: 2018-04-02T08:38:55Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Did you ever have the urge to share one set of keyboard and mouse between multiple machines? If so, please read on...
 
 ## Using multiple machines

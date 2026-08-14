@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: Getting started with Gemini using Visual Studio
 metaDescription: Visual Studio 2022 comes with an integrated HTTP client using .http files. The article shows how to access Gemini AI using .http files. Which also works in VS Code using REST Client extension.
-image: content/images/2024/02/gemini-visualstudio.jpg
+image: content/images/2024/02/gemini-visualstudio.webp
 ogTitle: Getting started with Gemini using Visual Studio
 ogDescription: Visual Studio 2022 comes with an integrated HTTP client using .http files. The article shows how to access Gemini AI using .http files. Which also works in VS Code using REST Client extension.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/getting-started-with-gemini-using-vs-http/
-imageUrl: https://jochen.kirstaetter.name/content/images/2024/02/gemini-visualstudio.jpg
+imageUrl: content/images/2024/02/gemini-visualstudio.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2024/02/gemini-visualstudio.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2024/02/gemini-visualstudio.jpg
+featureImage: content/images/2024/02/gemini-visualstudio.webp
 featured: false
 publishedAt: 2024-02-22T12:56:58Z
 updatedAt: 2024-02-22T12:56:58Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 With the release of Visual Studio 2022 Version 17.5 there is a new feature available that allows for better, faster API development using `.http`/`.rest` files with an integrated HTTP client. Those files enable you to "run" your API endpoints and manipulate various REST calls to iterate within parameters and see the outputs in a structured way.
 
 Access to Gemini is currently offered through SDKs for various programming languages like Python, Go, Node.js, and so forth, including the barebone REST API. You can get an overview here: [https://ai.google.dev/tutorials](https://ai.google.dev/tutorials)
@@ -72,7 +71,7 @@ Learn more about [Visual Studio 2022 - 17.5 release announcement](https://devblo
 
 To use the Gemini API, you'll need an API key. If you don't already have one, create a key in [Google AI Studio](https://aistudio.google.com/app/apikey).
 
-[Get an API key](https://aistudio.google.com/app/apikey) ![Create an API key to access Gemini REST API](../content/images/2024/02/Screenshot-from-2024-02-22-13-47-53.png)
+[Get an API key](https://aistudio.google.com/app/apikey) ![Create an API key to access Gemini REST API](../content/images/2024/02/Screenshot-from-2024-02-22-13-47-53.webp)
 
 In order to keep private, sensitive information and secrets out of your source code repositories, it is recommended to use either Environment Variables, User Secrets, or Azure Key Vault to retrieve data like an API key. Here, I'm going to create an `.env` file and place it into the project folder with the following content.
 
@@ -117,7 +116,7 @@ Get model details from Gemini API
 
 The response might look like this.
 
-![Details and default values of gemini-pro model](../content/images/2024/02/image.png)
+![Details and default values of gemini-pro model](../content/images/2024/02/image.webp)
 
 ## Gemini and Content based APIs
 
@@ -182,13 +181,13 @@ Multimodal prompt with image analysis using gemini-pro-vision model
 
 The various elements of your input are defined as `parts` in your prompt. Like previously, the `text` part contains your actual prompt and an additional file like an image is added as base64-encoded inline data including its mime type. The `data` key has a base64 encoded representation of the image to inspect using the prompt.
 
-![Response from Gemini AI](../content/images/2024/02/image-4.png)
+![Response from Gemini AI](../content/images/2024/02/image-4.webp)
 
 > The picture shows a table with a white tablecloth. On the table are two cups of coffee, two small bowls, one filled with blueberries and the other with a silver spoon. There are also three scones with blueberries on the table. Next to the scones are some peony flowers.
 
 Here are the steps to get the sample image and encode it in base64. The image is available here. It has been resized to a width of 512px prior to base64 encoding.
 
-![Image used as part of multimodal prompt using gemini-pro-vision model](../content/images/2024/02/scones.jpg)
+![Image used as part of multimodal prompt using gemini-pro-vision model](../content/images/2024/02/scones.webp)
 
 ```bsh
 https://storage.googleapis.com/generativeai-downloads/images/scones.jpg
@@ -310,9 +309,9 @@ I successfully used the same set of .http files in the following text editors an
 - Google Cloud Shell Editor (Code OSS for the Web)
 - Project IDX - [https://idx.dev/](https://idx.dev/)
 
-![Using REST Client extension in Code to prompt Gemini API](../content/images/2024/02/image-2.png)
+![Using REST Client extension in Code to prompt Gemini API](../content/images/2024/02/image-2.webp)
 
-![](../content/images/2024/02/image-3.png)
+![](../content/images/2024/02/image-3.webp)
 
 ## Source code: Gemini Playground
 
@@ -322,7 +321,7 @@ I created a repository on GitHub [gemini-playground](https://github.com/mscrafts
 
 Unfortunately, if you are residing in a country that has no access to the API endpoints of Gemini AI you will get an HTTP 400 response like the following one.
 
-![Access to Gemini API is still restricted in some countries](../content/images/2024/02/image-1.png)
+![Access to Gemini API is still restricted in some countries](../content/images/2024/02/image-1.webp)
 
 ## Lastly, a story about a magic backpack
 

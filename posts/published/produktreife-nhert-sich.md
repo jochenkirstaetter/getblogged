@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/produktreife-nhert-sich/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Nachdem ich ja bereits über [Nichts ist unmöglich...](xref:nichts-ist-unmglich "Nichts ist unmoeglich") geplaudert hatte, ging es heute Morgen mit den ersten Schritten der Verfeinerung weiter. Zunächst einmal war Aufräumen angesagt. Etlichen Testcode, unterschiedliche Projekte in unterschiedlichen Solutions bereinigt und so weiter...  
 Achja, und Vereinheitlichung auf ein .NET Framework... ;-) - Irgendwie hatte ich ein heiles Chaos in meinem Entwicklungsbaum. Naja, auch nicht weiter schlimm. Neue Verzeichnisse, neue Solution, frische Projekte und dann Pi mal Daumen die einzelnen Klassendateien reingewürfelt. Die Referenzen neu gesetzt, ein paar Errormessages aus dem Weg programmiert und tada... Ein nahezu fertiges, deploybares Produkt.
 

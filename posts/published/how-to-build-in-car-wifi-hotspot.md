@@ -11,7 +11,7 @@ tags:
 keywords: Android
 metaTitle: How to build your own 'Emtel In-Car WiFi' hot-spot
 metaDescription: Crisp and brief instructions about how to use a Samsung Galaxy Gio (GT-S5660) as tethering hot-spot in your vehicle. This provides internet access to WiFi-only devices while being on the road.
-image: https://images.unsplash.com/photo-1531253618426-52f67d1567d1?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2013/12/photo-1531253618426-52f67d1567d1.webp
 ogTitle: How to build your own 'Emtel In-Car WiFi' hot-spot
 ogDescription: Inspired by a recent advertisement of Emtel In-Car WiFi, I thought (again) about possibilities of having my very own in-car wireless always-on internet solution. Emtel suggests that you should go to...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/how-to-build-in-car-wifi-hotspot/
-imageUrl: https://images.unsplash.com/photo-1531253618426-52f67d1567d1?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2013/12/photo-1531253618426-52f67d1567d1.webp
 twitterImageUrl: https://images.unsplash.com/photo-1531253618426-52f67d1567d1?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1531253618426-52f67d1567d1?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2013/12/photo-1531253618426-52f67d1567d1.webp
 featured: false
 publishedAt: 2013-12-20T20:53:51Z
 updatedAt: 2019-01-18T16:47:15Z
@@ -52,9 +52,9 @@ facebookDescription: Inspired by a recent advertisement of Emtel In-Car WiFi, I 
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
-![wifi-car](https://s.kirstaetter.name/images/wifi-car.jpg)Inspired by a recent advertisement of [Emtel In-Car WiFi](https://www.emtel.com/ "Emtel In-Car WiFi"), I thought (again) about possibilities of having my very own in-car wireless always-on internet solution. Emtel suggests that you should go to one of their nearest showrooms and buy a MIFI device...
+![wifi-car](../content/images/2013/12/wifi-car.webp)Inspired by a recent advertisement of [Emtel In-Car WiFi](https://www.emtel.com/ "Emtel In-Car WiFi"), I thought (again) about possibilities of having my very own in-car wireless always-on internet solution. Emtel suggests that you should go to one of their nearest showrooms and buy a MIFI device...
 
 > *"La nouvelle innovation Emtel est là"*
 

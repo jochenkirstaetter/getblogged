@@ -11,7 +11,7 @@ tags:
 keywords: Recension
 metaTitle: 'Learn to Code in Swift: The new language of iOS Apps by Kevin McNeish'
 metaDescription: Only by looking at the table of content I knew that this is going to be a fun read. The book is actually structured like a set of full-day classes or better said a training workshop for beginners in Swift. It starts with the basic elements of Swift, then covers code workflow and finishes of with more advanced topics like closures and error handling.
-image: content/images/2018/02/recension_learnswift.png
+image: content/images/2018/02/recension_learnswift.webp
 ogTitle: 'Learn to Code in Swift: The new language of iOS Apps by Kevin McNeish'
 ogDescription: As a subscriber of a mailing list curated by Kevin McNeish I received his call to action around begin of December last year,
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/learn-to-code-in-swift/
-imageUrl: https://jochen.kirstaetter.name/content/images/2018/02/recension_learnswift.png
+imageUrl: content/images/2018/02/recension_learnswift.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2018/02/recension_learnswift.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2018/02/recension_learnswift.png
+featureImage: content/images/2018/02/recension_learnswift.webp
 featured: false
 publishedAt: 2016-02-28T11:26:47Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -53,12 +53,11 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 [![](https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00QDQZA78&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=geblbyjo-20)](https://www.amazon.com/gp/product/B00QDQZA78/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00QDQZA78&linkCode=as2&tag=geblbyjo-20&linkId=IAHJSKUVGAVCODOA)![](https://ir-na.amazon-adsystem.com/e/ir?t=geblbyjo-20&l=as2&o=1&a=B00QDQZA78)
 
 As a subscriber of a mailing list curated by Kevin McNeish I received his call to action around begin of December last year,
 
-![Call for action: Review Kevin's book "Learn to Code in Swift"](https://s.kirstaetter.name/images/recension/swift_email.png)  
+![Call for action: Review Kevin's book "Learn to Code in Swift"](../content/images/2016/02/swift_email.webp)  
 *Call for action: Review Kevin's book "Learn to Code in Swift"*
 
 and following his request I sent him an email that I'd be interested to read and review his title. Luckily, I was among the first 20 to respond and after some quick exchange of emails I had his book title ["Learn to Code in Swift: The new language of iOS Apps"](https://amzn.to/1Qlmnee "Learn to Code in Swift: The new language of iOS Apps by Kevin McNeish") on my Kindle device.

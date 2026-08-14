@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/polyphasenschlaf---tag-3/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 \*\*25 Minuten\*\*  
 Die Umstellung auf 25 Minuten hat bisher keine negativen Erscheinungen im Vergleich zu den 30 Minuten zum Vorschein gebracht. Ich denke, hier wird es sich erst mit der Zeit zeigen, ob es besser oder schlechter war. Ich werde aktuell bei den 25 Minuten bleiben. Denn lieber innerhalb der REM-Phase wach werden, als danach nicht mehr oder nur sehr schwer. Gerade nachts habe ich nun den zweiten Wecker, der immer mit "plus 5 Minuten" zusätzlich aktiv ist, außerhalb meiner direkten Reichweite platziert. Zum Ausschalten heißt es nun entweder aufstehen oder aus dem Bett fallen. ;-)
 

@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: 'MSCC: Global Windows Azure Bootcamp - 29th March 2014'
 metaDescription: In Mauritius, the Global Windows Azure Bootcamp will be organised by Microsoft Indian Ocean Islands & French Pacific in partnership with The Mauritius Software Craftsmanship Community (MSCC) and sponsored by Microsoft, Ceridian and Emtel.
-image: https://images.unsplash.com/photo-1513415277900-a62401e19be4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2014/03/photo-1513415277900-a62401e19be4.webp
 ogTitle: 'MSCC: Global Windows Azure Bootcamp - 29th March 2014'
 ogDescription: The Mauritius Software Craftsmanship Community proudly presents you the Global Windows Azure Bootcamp 2014 in Mauritius.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mscc-global-windows-azure-bootcamp-2014/
-imageUrl: https://images.unsplash.com/photo-1513415277900-a62401e19be4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2014/03/photo-1513415277900-a62401e19be4.webp
 twitterImageUrl: https://images.unsplash.com/photo-1513415277900-a62401e19be4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1513415277900-a62401e19be4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2014/03/photo-1513415277900-a62401e19be4.webp
 featured: false
 publishedAt: 2014-03-22T07:03:49Z
 updatedAt: 2019-01-07T22:35:23Z
@@ -52,11 +52,11 @@ facebookDescription: The Mauritius Software Craftsmanship Community proudly pres
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 The Mauritius Software Craftsmanship Community proudly presents you the Global Windows Azure Bootcamp 2014 in Mauritius.
 
-![Global Windows Azure Bootcamp 2014 in Mauritius](https://s.kirstaetter.name/images/gwab2014_map.png)  
+![Global Windows Azure Bootcamp 2014 in Mauritius](../content/images/2014/03/gwab2014_map.webp)  
 *Global Windows Azure Bootcamp 2014 in Mauritius - MSCC together with Microsoft, Ceridian and Emtel*
 
 We are very happy and excited about our participation in this global event and would like to draw your attention to the official invitation letter below. Please sign up and RSVP on the official website of the MSCC. Participation is for free!

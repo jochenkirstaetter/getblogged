@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/pathinfo-oder-wozu-gibt-es-eigentlich-rfcs/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 An manchen Tagen sollte man erst gar nicht mit dem Programmieren anfangen und einfach im Bett liegen bleiben. So auch heute. Nach etlichen Jahren holte mich heute aus ganz konspirativen Gründen die Vergangenheit ein. Da ich bereits seit 1996 dynamische Webseiten entwickle, kommt potentiell einiges an Wissen und Informationen - engl. Knowledge - zu bestimmten Themen im Bereich der Webentwicklung zusammen. Und eines hat mich dabei bestimmt mehr als einmal interessiert:
 
 \*\*Servervariablen\*\*  

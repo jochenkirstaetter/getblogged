@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/special-edition-using-visual-foxpro-6/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Sicher, der Titel des Artikels wirkt auf den ersten Blick ein wenig angestaubt, da Visual FoxPro 6.0 seit Jahren nicht mehr die aktuelle Version ist. Aber mal ehrlich... welchen Einfluss hat die Versionsnummer eines Produkts wie Visual FoxPro auf verfügbare Dokumentation? Meines Erachtens überhaupt keine, denn eine der ganz großen Features von VFP ist schon immer die herausragende Abwärtskompatibilität gewesen. Daher empfehle ich euch die Lektüre [Special Edition Using Visual FoxPro 6](https://docs.rinet.ru/GlyadiLisu/index.htm) online zu geniessen. Eigentlich ist es wirklich schade, dass es nur wenige Bücher zu Visual FoxPro gibt und da ist jede Ressource sicherlich willkommen.
 
 Das Copyright liegt bei SAMS Publishing, aber der Titel selbst ist nicht mehr verfügbar. Schade eigentlich, denn neben dem Anwendersentwickler ist dies sicherlich ein sehr gutes Grundlagenbuch für Visual FoxPro Ein- und Umsteiger.

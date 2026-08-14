@@ -13,7 +13,7 @@ tags:
 keywords: Podcast, Personal, Community
 metaTitle: Mau pas konpran!? SIM Registration
 metaDescription: Feeling overwhelmed with the daily amount of technological news and announcements? Don't know what the benefits and potential implications might be? Listen to our podcast 'Mau pas konpran!?' to get answers.
-image: content/images/2023/11/MauPasKonpran-1.jpg
+image: content/images/2023/11/MauPasKonpran-1.webp
 ogTitle: Mau pas konpran!? SIM Registration
 ogDescription: Feeling overwhelmed with the daily amount of technological news and announcements? Don't know what the benefits and potential implications might be? Listen to our podcast 'Mau pas konpran!?' to get answers.
 layout: post
@@ -32,16 +32,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mau-pas-konpran/
-imageUrl: https://jochen.kirstaetter.name/content/images/2023/11/MauPasKonpran-1.jpg
+imageUrl: content/images/2023/11/MauPasKonpran-1.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2023/11/MauPasKonpran-1.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2023/11/MauPasKonpran-1.jpg
+featureImage: content/images/2023/11/MauPasKonpran-1.webp
 featured: false
 publishedAt: 2023-11-19T12:42:00Z
 updatedAt: 2023-12-19T18:39:35Z
@@ -55,7 +55,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 I don't understand!? - Exactly this is how I feel quite often reading through the large amount of technological news and announcements every day. In this podcast we are going to pick up various topics that happened recently and going to shed some light on them with our points of view and experiences. The podcast's hosts are Loïc Forget, Ish Sookun and myself.
 
 I invite you, my dear readers, to embark with us onto this new journey. Let's see where the winds and tides of the internet are going to carry us. I'm excited for this adventure and it finally opens the world of podcasts for me.
@@ -92,6 +91,6 @@ I hope it connects with you and I'm looking forward to tons of interesting quest
 
 The initial release of ["Mau pas konpran!?"](https://open.spotify.com/episode/5YFI1lJE1OWqvYeOBj1xDW?si=1387d9d0f88d423a) is on Spotify. More podcast platforms might follow in the future. Stay tuned!
 
-![The 'Wall of Controllers' mentioned during our first episode](../content/images/2023/11/MauPasKonpran_20231119.jpg)
+![The 'Wall of Controllers' mentioned during our first episode](../content/images/2023/11/MauPasKonpran_20231119.webp)
 
 Please let us know what you think about the show and how we could improve it further.

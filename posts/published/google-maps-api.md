@@ -12,7 +12,7 @@ tags:
 keywords: Development, Community
 metaTitle: 'Build anything with Google: Google Maps APIs'
 metaDescription: Starting with a first integration of the Google Maps JavaScript API to add a map into your web site, you could add additional APIs and hence more value to your site and provide interesting features.
-image: content/images/2018/02/GoogleApiConsoleDashboard.png
+image: content/images/2018/02/GoogleApiConsoleDashboard.webp
 ogTitle: 'Build anything with Google: Google Maps APIs'
 ogDescription: Starting with a first integration of the Google Maps JavaScript API to add a map into your web site, you could add additional APIs and hence more value to your site and provide interesting features.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/google-maps-api/
-imageUrl: https://jochen.kirstaetter.name/content/images/2018/02/GoogleApiConsoleDashboard.png
+imageUrl: content/images/2018/02/GoogleApiConsoleDashboard.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2018/02/GoogleApiConsoleDashboard.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2018/02/GoogleApiConsoleDashboard.png
+featureImage: content/images/2018/02/GoogleApiConsoleDashboard.webp
 featured: false
 publishedAt: 2018-01-31T12:58:14Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -54,7 +54,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Starting with a first integration of the Google Maps JavaScript API to add a map into your web site, you could add additional APIs and hence more value to your site and provide interesting features.
 
 ## Google Developers - Build **anything** with Google
@@ -80,11 +79,11 @@ First, you would need to sign up for a developer account with Google. You can to
 
 Next, you would hit the `Get a Key` button to create a project on the Google API Console, activate the Maps JavaScript API and any related services, and get an API key.
 
-![Get your API key](../content/images/2018/02/GoogleMapsApiGetAKey.png)
+![Get your API key](../content/images/2018/02/GoogleMapsApiGetAKey.webp)
 
 Like mentioned the APIs you would like to use have to be enabled in your developer account.
 
-![GoogleApiConsoleCredentials](../content/images/2018/02/GoogleApiConsoleCredentials.png)
+![GoogleApiConsoleCredentials](../content/images/2018/02/GoogleApiConsoleCredentials.webp)
 
 ### Use Google Maps API on your website
 
@@ -139,7 +138,7 @@ The resulting HTML should look similar to this:
 
 The above code will load a map of Mauritius, like so:
 
-![Using Google Maps JavaScript API to initiate a map of Mauritius](../content/images/2018/01/gdg_googlemaps_mauritius.png)
+![Using Google Maps JavaScript API to initiate a map of Mauritius](../content/images/2018/01/gdg_googlemaps_mauritius.webp)
 
 Check out the numerous samples provided by Google to see what other options are available and how to create more sophisticated maps on your site.
 

@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/super-hero-or-super-villain/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,10 +53,9 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 ## SuperHero result:## Your results:  
 **You are <font size="6">The Flash</font>** Fast, athletic and flirtatious.  
-![](https://www.thesuperheroquiz.com/pics/flash.jpg)[Click here to take the Superhero Personality Test](https://www.thesuperheroquiz.com/)  
+![](../content/images/2007/01/flash.webp)[Click here to take the Superhero Personality Test](https://www.thesuperheroquiz.com/)  
 ##Super Villain result:## Your results:  
 **You are <font size="6">Mr. Freeze</font>** You are cold and you think everyone else should be also, literally.  
-![](https://www.thesuperheroquiz.com/villain/pics/freeze.jpg)[Click here to take the Supervillain Personality Quiz](https://www.thesuperheroquiz.com/villain)
+![](../content/images/2007/01/freeze.webp)[Click here to take the Supervillain Personality Quiz](https://www.thesuperheroquiz.com/villain)

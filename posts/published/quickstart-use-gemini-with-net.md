@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: 'Quickstart: Use Gemini with .NET (Google AI)'
 metaDescription: Less than five minutes to get started with Google Gemini API in .NET using the Mscc.GenerativeAI package. It's like a few lines of code only to empower your app with generative AI powered by Google Gemini.
-image: content/images/2024/04/Gemini_Generated_Image-4-.jpeg
+image: content/images/2024/04/Gemini_Generated_Image-4-.webp
 ogTitle: 'Quickstart: Use Gemini with .NET (Google AI)'
 ogDescription: Less than five minutes to get started with Google Gemini API in .NET using the Mscc.GenerativeAI package. It's like a few lines of code only to empower your app with generative AI powered by Google Gemini.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/quickstart-use-gemini-with-net/
-imageUrl: https://jochen.kirstaetter.name/content/images/2024/04/Gemini_Generated_Image-4-.jpeg
+imageUrl: content/images/2024/04/Gemini_Generated_Image-4-.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2024/04/Gemini_Generated_Image-4-.jpeg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2024/04/Gemini_Generated_Image-4-.jpeg
+featureImage: content/images/2024/04/Gemini_Generated_Image-4-.webp
 featured: false
 publishedAt: 2024-04-02T12:54:43Z
 updatedAt: 2024-04-02T17:47:13Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 This quickstart shows you how to get started with the Gemini API using an SDK for .NET called [Mscc.GenerativeAI](https://www.nuget.org/packages/Mscc.GenerativeAI/).
 
 ## Prerequisites
@@ -69,7 +68,7 @@ The NuGet package also supports .NET Standard 2.0.
 
 To use the Gemini API, you'll need an API key. If you don't already have one, create a key in [Google AI Studio](https://aistudio.google.com/app/apikey).
 
-[Get an API key](https://aistudio.google.com/app/apikey) ![Create an API key to access Gemini REST API](../content/images/2024/02/Screenshot-from-2024-02-22-13-47-53.png)
+[Get an API key](https://aistudio.google.com/app/apikey) ![Create an API key to access Gemini REST API](../content/images/2024/02/Screenshot-from-2024-02-22-13-47-53.webp)
 
 In order to keep private, sensitive information and secrets out of your source code repositories, it is recommended to use either Environment Variables, User Secrets, or a Key/Secrets Manager to retrieve data like an API key. Here, I'm going to create an `.env` file and place it into the project folder with the following content.
 
@@ -119,7 +118,7 @@ Console.WriteLine(response.Text);
 
 Explore the [README](https://www.nuget.org/packages/Mscc.GenerativeAI/) of the NuGet package which has more samples documented. All unit tests are accessible in the [GitHub repository](https://github.com/mscraftsman/generative-ai):
 
-[GitHub - mscraftsman/generative-ai: Gemini AI Client for .NETGemini AI Client for .NET. Contribute to mscraftsman/generative-ai development by creating an account on GitHub.![](https://github.githubassets.com/favicons/favicon.svg)GitHubmscraftsman![](https://opengraph.githubassets.com/75de26a26c206cf142204c77b13e5c9bcf75e72f9558f35bc27484c20585a4fe/mscraftsman/generative-ai)](https://github.com/mscraftsman/generative-ai)
+[GitHub - mscraftsman/generative-ai: Gemini AI Client for .NETGemini AI Client for .NET. Contribute to mscraftsman/generative-ai development by creating an account on GitHub.![](https://github.githubassets.com/favicons/favicon.svg)GitHubmscraftsman![](../content/images/2024/04/generative-ai.webp)](../content/images/2024/04/generative-ai.webp)
 
 If you're new to generative AI models, you might want to look at the [concepts guide](https://ai.google.dev/docs/concepts) and the [Gemini API overview](https://ai.google.dev/docs/gemini_api_overview) before trying a quickstart.
 

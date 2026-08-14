@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: Getting Started with SQL Server on GCP
 metaDescription: My impression of Cloud SQL for SQL Server is quite positive. I like the idea to run SQL Server databases on GCP together with other services like Compute Engine, App Engine, Kubernetes Engine, or even BigQuery to analyse data.
-image: content/images/2019/11/GCP_SqlServer2017.png
+image: content/images/2019/11/GCP_SqlServer2017.webp
 ogTitle: Getting Started with SQL Server on GCP
 ogDescription: My impression of Cloud SQL for SQL Server is quite positive. I like the idea to run SQL Server databases on GCP together with other services like Compute Engine, App Engine, Kubernetes Engine, or even BigQuery to analyse data.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/sql-server-on-gcp/
-imageUrl: https://jochen.kirstaetter.name/content/images/2019/11/GCP_SqlServer2017.png
+imageUrl: content/images/2019/11/GCP_SqlServer2017.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2019/11/GCP_SqlServer2017.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2019/11/GCP_SqlServer2017.png
+featureImage: content/images/2019/11/GCP_SqlServer2017.webp
 featured: false
 publishedAt: 2020-01-18T00:39:56Z
 updatedAt: 2023-08-28T21:36:13Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 When talking about Cloud SQL instances on the Google Cloud Platform usually it relates to flexible and convenient handling of MySQL. Eventually and probably less common someone might speak about PostgreSQL. However in recent times Google added a third option to the Cloud SQL service: [Microsoft SQL Server](https://aka.ms/sql).
 
 [Cloud SQL](https://cloud.google.com/sql/) is a fully managed relational database service for MySQL, PostgreSQL, and SQL Server on the Google Cloud Platform (GCP).
@@ -68,47 +67,47 @@ There is an interesting read on the Google Cloud blog: [Leave no database behind
 
 Log into the Cloud Console and choose the menu entry `SQL` in the navigation bar on the side. In case your selected project does not have any instances you click on `Create Instance` to continue.
 
-![Microsoft SQL Server is offered as Cloud SQL instance](../content/images/2019/11/image-19.png)
+![Microsoft SQL Server is offered as Cloud SQL instance](../content/images/2019/11/image-19.webp)
 
 Next, select the `SQL Server` option on the right-hand side to begin the configuration of SQL Server.
 
-![Although marked as `beta` it's ready to use (as time of writing)](../content/images/2019/11/image-20.png)
+![Although marked as `beta` it's ready to use (as time of writing)](../content/images/2019/11/image-20.webp)
 
 There are just a few parameters to enter and you are literally good to go, read: Click on the Create button at the bottom of the page. Most probably it is interesting to review each single configuration setting to gain more familiarity with Cloud SQL in the first place.
 
 Give your instance a unique identifier, either set or generate a password for your administrative user.
 
-![Wide range of options to configure a SQL Server based Cloud SQL instance](../content/images/2019/11/image-21.png)
+![Wide range of options to configure a SQL Server based Cloud SQL instance](../content/images/2019/11/image-21.webp)
 
 **Note:** Your default service admin username is `sqlserver`. Instead of the common `sa` username. A generated password would look something like this: `d3Ptgz30EAiygtMn`
 
 Then choose from the available editions of SQL Server 2017. If you are familiar with SQL Server and its licensing you know that the various editions have different features, limitations and cost factors. The cost calculation of SQL Server is neatly described here: [Cloud SQL Pricing](https://cloud.google.com/sql/pricing#sql-server).
 
-![Various editions of SQL Server 2017 are available. More versions to be expected (soon)](../content/images/2019/11/image-22.png)
+![Various editions of SQL Server 2017 are available. More versions to be expected (soon)](../content/images/2019/11/image-22.webp)
 
 You can activate automatic backups and high availability of your Cloud SQL instance, if needed. However this might incur additional cost.
 
-![Easy to configure backup and high availability](../content/images/2019/11/image-23.png)
+![Easy to configure backup and high availability](../content/images/2019/11/image-23.webp)
 
 The configuration of Cloud SQL for SQL Server offers a section called `Flags and parameters` that allows you to go deep down into the nuts and bolts of SQL Server configuration as it might be needed for a production system.
 
-![If needed, you can configure a SQL Server instance with all kind of flags](../content/images/2019/11/image-24.png)
+![If needed, you can configure a SQL Server instance with all kind of flags](../content/images/2019/11/image-24.webp)
 
 This list of flags is exhaustive and advanced settings shall be known to an experienced database administrator. For testing or development purpose you might skip this area.
 
 Similarly the section on `Maintenance` allows you to define your preferred window of downtime.
 
-![Define the maintenance period according to your conveniences](../content/images/2019/11/image-25.png)
+![Define the maintenance period according to your conveniences](../content/images/2019/11/image-25.webp)
 
 Lastly, hit the `Create` button at the bottom of the page to create an instance of Cloud SQL for SQL Server. It takes a few minutes to deploy. Perhaps time for a little stretch and a sip of fluids.
 
 After completion you see the instance on the overview page of Cloud SQL.
 
-![Cloud SQL instance running SQL Server: Ready to rumble](../content/images/2019/11/image-26.png)
+![Cloud SQL instance running SQL Server: Ready to rumble](../content/images/2019/11/image-26.webp)
 
 The instance connection information is the essential information you would need to connect your client applications to the instance. Click on the instance identifier to access the overview and dashboard of SQL Server.
 
-![Easy access to connect to a Cloud SQL instance](../content/images/2020/01/image-5.png)
+![Easy access to connect to a Cloud SQL instance](../content/images/2020/01/image-5.webp)
 
 Copy the information and use any client application to connect to your newly created instance of SQL Server.
 
@@ -182,7 +181,7 @@ You will be able to connect to your newly created instance of SQL Server using t
 
 Following are a few screenshots of various client applications, like SQL Server Management Studio, Azure Data Studio and Visual Studio 2019. Other client applications should work as expected.
 
-![Using various client applications to connect to Cloud SQL instance](../content/images/2020/01/Gcp_SqlAzureDataStudio.png)
+![Using various client applications to connect to Cloud SQL instance](../content/images/2020/01/Gcp_SqlAzureDataStudio.webp)
 
 Connecting to the Cloud SQL instance using ODBC driver works perfectly well, too.
 
@@ -192,11 +191,11 @@ During the creation steps of a Cloud SQL instance you might have seen the sectio
 
 GCP recommends the use of [Cloud SQL Proxy](https://cloud.google.com/sql/docs/sqlserver/sql-proxy) instead of whitelisting IP address ranges to enable external applications to connect to the instance.
 
-![Default access to Cloud SQL suggests use of Cloud SQL Proxy](../content/images/2020/01/image-1.png)
+![Default access to Cloud SQL suggests use of Cloud SQL Proxy](../content/images/2020/01/image-1.webp)
 
 **Note:** Using the Cloud SQL Proxy requires that the [Cloud SQL Admin API is enabled](https://console.cloud.google.com/flows/enableapi?apiid=sqladmin&redirect=https://console.cloud.google.com&_ga=2.205742355.-1649613044.1542902327) in your GCP project.
 
-![Verify that the Cloud SQL Admin API is enabled in your GCP project](../content/images/2020/01/image-8.png)
+![Verify that the Cloud SQL Admin API is enabled in your GCP project](../content/images/2020/01/image-8.webp)
 
 The following diagram shows how the proxy connects to Cloud SQL:
 
@@ -290,7 +289,7 @@ Or to use a non-reserved TCP port instead.
 2020/01/18 03:59:56 Client closed local connection on 127.0.0.1:1470
 ```
 
-![Connecting to local Cloud SQL Proxy and custom TCP port](../content/images/2020/01/image-9.png)
+![Connecting to local Cloud SQL Proxy and custom TCP port](../content/images/2020/01/image-9.webp)
 
 The later approach provides better flexibility without *messing up* the local machine with permanent changes. You might not remember this change in a few weeks time.
 
@@ -300,7 +299,7 @@ For more information about Cloud SQL Proxy options and connection strings, see t
 
 Alternatively authorisation for any external networks is possible. You would specify at least one network in [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation) (Classless Inter-Domain Routing) to allow access to your instance.
 
-![Whitelist your host or network using CIDR notation](../content/images/2020/01/image-2.png)
+![Whitelist your host or network using CIDR notation](../content/images/2020/01/image-2.webp)
 
 Authorising external hosts or networks is the easier option and my current choice for Cloud SQL instances used for development or staging environments. Nonetheless, Cloud SQL Proxy is more secure and with a little practice shall be your preferred way to connect to an instance.
 
@@ -314,7 +313,7 @@ The managed relational database service offers the full range of features availa
 
 Compared to Microsoft's Azure SQL Database it shall be noted that SQL Server on GCP currently runs as virtual machine, read: using predefined images of Compute Engine, under the hood.
 
-![Cloud SQL of SQL Server seems to run as a VM](../content/images/2020/01/image.png)
+![Cloud SQL of SQL Server seems to run as a VM](../content/images/2020/01/image.webp)
 
 However your Cloud SQL instances are not visible under VM instances of your Compute Engine area.
 

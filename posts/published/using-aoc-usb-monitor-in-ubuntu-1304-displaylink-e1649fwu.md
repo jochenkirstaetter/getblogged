@@ -11,7 +11,7 @@ tags:
 keywords: Linux
 metaTitle: Using a portable USB monitor in Ubuntu 13.04 (AOC e1649Fwu - DisplayLink)
 metaDescription: Connecting an AOC e1649Fwu external USB display under Ubuntu 13.04 requires a Linux kernel 3.9 or higher. The DisplayLink driver has been integrated to work
-image: content/images/2017/08/usb_display_win8.png
+image: content/images/2017/08/usb_display_win8.webp
 ogTitle: Using a portable USB monitor in Ubuntu 13.04 (AOC e1649Fwu - DisplayLink)
 ogDescription: Having access to a little bit of IT hardware extravaganza isn't that easy here in Mauritius for exactly two reasons - either it is simply not available or it is expensive like nowhere. Well, by chance...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/using-aoc-usb-monitor-in-ubuntu-1304-displaylink-e1649fwu/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/08/usb_display_win8.png
+imageUrl: content/images/2017/08/usb_display_win8.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/08/usb_display_win8.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/08/usb_display_win8.png
+featureImage: content/images/2017/08/usb_display_win8.webp
 featured: false
 publishedAt: 2013-10-15T16:22:50Z
 updatedAt: 2018-04-02T08:38:44Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 [![AOC E1649FWU 16" USB-Powered Portable LED Monitor - Glossy Black](https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B005SEZR0G&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=geblbyjo-20)](https://www.amazon.com/gp/product/B005SEZR0G/ref=as_li_ss_il?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005SEZR0G&linkCode=as2&tag=geblbyjo-20)![](https://ir-na.amazon-adsystem.com/e/ir?t=geblbyjo-20&l=as2&o=1&a=B005SEZR0G)Having access to a little bit of IT hardware extravaganza isn't that easy here in Mauritius for exactly two reasons - either it is simply not available or it is expensive like nowhere. Well, by chance I came across an advert by a local hardware supplier and their offer of the week caught my attention - [a portable USB monitor](https://www.amazon.com/gp/product/B005SEZR0G/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005SEZR0G&linkCode=as2&tag=geblbyjo-20). Sounds cool, and [the specs are okay](https://us.aoc.com/monitor_displays/e1649fwu) as well. It's completely driven via USB 2.0, has a light weight, the dimensions would fit into my laptop bag and the resolution of 1366 x 768 pixels is okay for a second screen. Long story, short ending: I called them and only got to understand that they are out of stock - how convenient! Well, as usual I left some contact details and got the regular 'We call you back' answer. Surprisingly, I didn't receive a phone call as promised and after starting to complain via social media networks they finally came back to me with new units available - and \*drum-roll\* still the same price tag as promoted (and free delivery on top as one of their employees lives in Flic en Flac). Guess, it was a no-brainer to get at least one unit to fool around with. In worst case it might end up as image frame on the shelf or so...
 
 ## []()The usual suspects... Ubuntu first!
@@ -100,7 +99,7 @@ But still no reaction on the external display which supposedly should have been 
 
 Just to be on the safe side and to exclude any hardware related defects or whatsoever - you never know what happened during delivery. I moved the display to a new position on the opposite side of my laptop, installed the display drivers first in Windows Vista (I know, I know...) as recommended in the manual, and then finally hooked it up on that machine. Tada! Display has been recognised correctly and I have a proper choice between cloning and extending my desktop.
 
-![Portable USB display connected to Windows Vista](https://s.kirstaetter.name/images/usb_display_windows.png)  
+![Portable USB display connected to Windows Vista](../content/images/2013/10/usb_display_windows.webp)  
 *Testing whether the display is working properly - using Windows Vista*
 
 Okay, good to know that there is nothing wrong on the hardware side just software...
@@ -176,7 +175,7 @@ Okay, back to the original situation in which **udl is allowed** and **udlfb bla
 
 Next, it's time to enable the display for our needs... This can be done either via UI or console, just as you'd prefer it.
 
-![Using the Display dialog in Xubuntu's Settings Manager](https://s.kirstaetter.name/images/usb_display_ui.png)  
+![Using the Display dialog in Xubuntu's Settings Manager](../content/images/2013/10/usb_display_ui.webp)  
 *Adding the external USB display under Linux isn't an issue after all... Settings Manager =&gt; Display*
 
 Personally, I like the console. With the help of xrandr we get the screen identifier first
@@ -195,7 +194,7 @@ and then give it the usual shot with auto-configuration. Let the system decide w
 
 And there we go... Cloned output of main display:
 
-![Portable USB display connected to Ubuntu 13.04 using Linux kernel 3.9](https://s.kirstaetter.name/images/usb_display_ubuntu.png)  
+![Portable USB display connected to Ubuntu 13.04 using Linux kernel 3.9](../content/images/2013/10/usb_display_ubuntu.webp)  
 *New kernel, new display... The external USB display works out-of-the-box with a Linux kernel &gt; 3.9.0.*
 
 Despite of a good number of resources it is absolutely **not** necessary to create a Device or Screen section in one of Xorg.conf files. This information belongs to the past and is not valid on kernel 3.9 or higher.
@@ -206,7 +205,7 @@ Of course, I wanted to know how the latest incarnation from Redmond would handle
 
 Most interesting aspect here: I did not use the driver installation medium on purpose. And I was right... not too long afterwards a dialog with the EULA of DisplayLink appeared on the main screen. And after confirmation of same it took some more seconds and the external USB monitor was ready to rumble. Well, and not only that one... but see for yourself.
 
-![Portable USB display connected to Windows 8](https://s.kirstaetter.name/images/usb_display_win8.png)  
+![Portable USB display connected to Windows 8](../content/images/2013/10/usb_display_win8.webp)  
 *This time Windows 8 was the easiest solution after all.*
 
 ## []()Resume

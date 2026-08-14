@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/ate-auf-der-love-roadshow/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 LOVE - Launch Office 2007, Windows Vista und Exchange 2007 Roadshow
 
 Cooles Akronym, muss man wirklich sagen. Gefällt mir extremst gut und drückt scheinbar die aktuelle und zukünftige Stimmungslage von Microsoft mit seinen Kunden aus - voll auf Schmusekurs?  
@@ -64,4 +63,4 @@ Dennoch meldet sich im Hinterstübchen natürlich der warnende Zeigefinger... ni
 Gut, zunächst geht's nächste Woche auf die 13. Entwicklerkonferenz Visual FoxPro aka 5. SQL und .NET Konferenz der deutschsprachigen FoxPro User Group, und Anfang Dezember gleich auf zwei Termine der LOVE Roadshow. Ich bin gespannt, was mich und euch(?) erwarten wird.  
 Bis denne, JoKi
 
-PS: Wem ist eigenlich aufgefallen, dass Microsoft zum einiger Zeit ein neues Favicon - ![Microsoft Favicon](https://www.microsoft.com/favicon.ico) - verwendet?
+PS: Wem ist eigenlich aufgefallen, dass Microsoft zum einiger Zeit ein neues Favicon - ![Microsoft Favicon](../content/images/2006/11/favicon.webp) - verwendet?

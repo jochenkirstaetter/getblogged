@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: Request timed out
 metaDescription: Request timed out Es ist schon faszinierend aber auch ebenso nervig zu beobachten, da&#223; auch das Netz der Netze etliche T&#252;cken und Fallen zu bieten hat. Naja, mal fix &#39;ne Mail an die DNS-Verwalter rausgejagt - mal sehen, was da als Response zu erwarten ist. Vllt. sind es ja nur
-image: https://images.unsplash.com/photo-1537716069347-b3a81eb09f24?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=5b878441402479482c03bed0f0ccf856
+image: content/images/2004/07/photo-1537716069347-b3a81eb09f24.webp
 ogTitle: Request timed out
 ogDescription: Es ist schon faszinierend aber auch ebenso nervig zu beobachten, daß auch das Netz der Netze etliche Tücken und Fallen zu bieten hat. Naja, mal fix 'ne Mail an die DNS-Verwalter rausgejagt - mal...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/request-timed-out/
-imageUrl: https://images.unsplash.com/photo-1537716069347-b3a81eb09f24?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=5b878441402479482c03bed0f0ccf856
+imageUrl: content/images/2004/07/photo-1537716069347-b3a81eb09f24.webp
 twitterImageUrl: https://images.unsplash.com/photo-1537716069347-b3a81eb09f24?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=5b878441402479482c03bed0f0ccf856
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1537716069347-b3a81eb09f24?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=5b878441402479482c03bed0f0ccf856
+featureImage: content/images/2004/07/photo-1537716069347-b3a81eb09f24.webp
 featured: false
 publishedAt: 2004-07-13T10:11:10Z
 updatedAt: 2018-10-23T05:14:51Z
@@ -52,8 +52,8 @@ facebookDescription: Es ist schon faszinierend aber auch ebenso nervig zu beobac
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Es ist schon faszinierend aber auch ebenso nervig zu beobachten, daß auch das Netz der Netze etliche Tücken und Fallen zu bieten hat. Naja, mal fix 'ne Mail an die DNS-Verwalter rausgejagt - mal sehen, was da als Response zu erwarten ist. Vllt. sind es ja nur irgendwelche nächtlichen Wartungsarbeiten, wer weiß...
 
 Aber wenn man während des 'gestörten' Zeitraums selbst ein paar Wartungsarbeiten oder Erweiterungen in den eigenen Sites integriert, dann ist es mehr als nervig, wenn andauernd - bisweilen sogar im 5 Minuten-Rhythmus - die Connection abreißt, egal welches Protokoll man sich auch zurecht gelegt hat... Nunja, es wird vorübergehen und bessere Zeiten kommen.

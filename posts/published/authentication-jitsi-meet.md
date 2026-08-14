@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: Enable authentication in your instance of Jitsi Meet
 metaDescription: The second article on Jitsi Meet describes how to enable authentication to avoid Zoom-bombing and unwanted raiding of your video conferences.
-image: content/images/2020/04/Jitsi_Authentication.png
+image: content/images/2020/04/Jitsi_Authentication.webp
 ogTitle: Enable authentication in your instance of Jitsi Meet
 ogDescription: The second article on Jitsi Meet describes how to enable authentication to avoid Zoom-bombing and unwanted raiding of your video conferences.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/authentication-jitsi-meet/
-imageUrl: https://jochen.kirstaetter.name/content/images/2020/04/Jitsi_Authentication.png
+imageUrl: content/images/2020/04/Jitsi_Authentication.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2020/04/Jitsi_Authentication.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2020/04/Jitsi_Authentication.png
+featureImage: content/images/2020/04/Jitsi_Authentication.webp
 featured: false
 publishedAt: 2020-04-20T16:30:00Z
 updatedAt: 2020-05-03T08:56:17Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 A basic installation of Jitsi Meet gets you up and running within shortest time, probably in less than 15 minutes. There are hardly any configuration changes necessary. Most important information is a fully qualified domain name (FQDN), and that's it.
 
 However such a default installation of Jitsi Meet is open. Meaning, that anyone knowing the URL of your server can create a new meeting room and start to have video conferences using your instance and probably causing additional cost.
@@ -64,7 +63,7 @@ Securing your instance of Jitsi Meet requires three configuration changes plus t
 
 Let's have a look at the architecture of Jitsi Meet to get a better understanding.
 
-![Courtesy of [https://www.brring.com/2020/04/04/setting-up-a-jitsi-server-in-less-than-15-minutes/](https://www.brring.com/2020/04/04/setting-up-a-jitsi-server-in-less-than-15-minutes/)](../content/images/2020/04/image-22.png)
+![Courtesy of [https://www.brring.com/2020/04/04/setting-up-a-jitsi-server-in-less-than-15-minutes/](https://www.brring.com/2020/04/04/setting-up-a-jitsi-server-in-less-than-15-minutes/)](../content/images/2020/04/image-22.webp)
 
 It is possible to allow only authenticated users for creating new conference rooms. Whenever a new room is about to be created Jitsi Meet will prompt for user name and password. After the room is created others will still be able to join from an anonymous domain.
 
@@ -207,21 +206,21 @@ Open a browser and navigate to your URL of Jitsi Meet. The site should load as b
 
 Either you choose an existing meeting room or you enter a new name and click on `GO` to start the video conference session. If you are not authenticated the site will now place you in some kind of virtual lobby until a moderator or host arrives.
 
-![Guests and non-authenticated users cannot create a meeting room](../content/images/2020/04/image-19.png)
+![Guests and non-authenticated users cannot create a meeting room](../content/images/2020/04/image-19.webp)
 
 In case that you are the host of the meeting click on `I am the host` and you will be asked to enter your credentials. You can either enter just the user name without your domain or the fully qualified user name including the domain - both approaches will work.
 
-![Enter your credentials to continue to your video conference](../content/images/2020/04/image-20.png)
+![Enter your credentials to continue to your video conference](../content/images/2020/04/image-20.webp)
 
 Enter your passphrase and click `OK`. With successful authentication against Prosody the Jitsi Meet component will grant you access to the meeting room and assign moderator permissions to your account.
 
 Public access is still possible as soon as a moderator (host) is present in the meeting room.
 
-![Guests can still access the meeting room, now that a moderator / host is present](../content/images/2020/04/image-21.png)
+![Guests can still access the meeting room, now that a moderator / host is present](../content/images/2020/04/image-21.webp)
 
 As a moderator you will get additional options under Settings &gt; More which allow you to control what should happen when someone enters the meeting room, e.g. being automatically muted or not being visible to other participants.
 
-![](../content/images/2020/05/image-3.png)
+![](../content/images/2020/05/image-3.webp)
 
 Enjoy your next, secure video conference.
 
@@ -231,7 +230,7 @@ An additional level of protection against "[Zoom-bombing](https://en.wikipedia.o
 
 Click on the `i` circle in the bottom right area and click on `Add password` in the popup dialog.
 
-![Set a room-specific password to avoid Zoom-bombing and unauthorised access](../content/images/2020/04/image-23.png)
+![Set a room-specific password to avoid Zoom-bombing and unauthorised access](../content/images/2020/04/image-23.webp)
 
 Enter your room-specific password and hit `Enter` to confirm your choice.
 

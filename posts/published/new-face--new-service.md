@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/new-face--new-service/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Ahhhhh, heute hat definitiv eine zweite Bescherung stattgefunden. Warum? - Ganz einfach, ich tippere hier gerade ein wenig am Blog und betrachte die neue Hardware auf meinem Schreibtisch. Hm, okay, Hardware alleine ist nicht ausreichend... Nach der Bestellung am Dienstag mittag und der prompten Zustellung heute Abend kann ich mich ein wenig ausgiebiger an den Leistungsdaten, dem Gehäuseaufbau und der Software (\*hüstel\*) meines zappelfrischen Notebooks ergötzen.
 
 Hier mal ein kurzer Überblick zu den Leistungsdaten:  

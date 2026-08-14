@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: Mugg & Bean - Nightmare at Bagatelle
 metaDescription: Seriously, it is not my intention to blackmail a brand with this posting but frankly speaking after all those months of continuous negative experience at Mugg & Bean in Bagatelle, I won't have another meal for a very long time in one of their branches. No matter where it is located. And believe me Mugg & Bean isn't the first franchise I completely ditched for more than a decade.
-image: https://images.unsplash.com/photo-1505544268199-46687f164d10?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=9cc13a1b14e5b077d757ad7f3d3132f7
+image: content/images/2015/05/photo-1505544268199-46687f164d10.webp
 ogTitle: Mugg & Bean - Nightmare at Bagatelle
 ogDescription: It took me quite some while to decide whether I should write about this culinary topic or not. In general, I try to keep it like Thumper - "If you can't say something nice, don't say nothin' at...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mb-nightmare-at-bagatelle/
-imageUrl: https://images.unsplash.com/photo-1505544268199-46687f164d10?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=9cc13a1b14e5b077d757ad7f3d3132f7
+imageUrl: content/images/2015/05/photo-1505544268199-46687f164d10.webp
 twitterImageUrl: https://images.unsplash.com/photo-1505544268199-46687f164d10?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=9cc13a1b14e5b077d757ad7f3d3132f7
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1505544268199-46687f164d10?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=9cc13a1b14e5b077d757ad7f3d3132f7
+featureImage: content/images/2015/05/photo-1505544268199-46687f164d10.webp
 featured: false
 publishedAt: 2015-05-04T14:13:22Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -52,8 +52,8 @@ facebookDescription: It took me quite some while to decide whether I should writ
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 It took me quite some while to decide whether I should write about this culinary topic or not. In general, I try to keep it like Thumper - "If you can't say something nice, don't say nothin' at all..." but unfortunately this won't change the situation in the first place and second, it's not recommended to hold back (constructive) criticism in order to assist to improve things. In case of Mugg & Bean at Bagatelle particularly it's already since a very long time that I'm saying nothin'...
 
 ## Bright and shiny opening

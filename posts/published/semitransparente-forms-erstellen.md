@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/semitransparente-forms-erstellen/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Ausgehend von meinem letzten Beitrag zu Projekt Sunshine möchte ich heute ein paar Tipps & Tricks darüber geben, wie man den Semitransparenz-Effekt selbst produzieren kann. Gleich vorab möchte ich sagen, dass diverse Lösungsansätze nicht von mir stammen, sondern aus diversen Blogs der VFP-Community entlehnt sind. Ich habe lediglich die verschiedenen Teillösungen ein wenig zusammengeschrieben und daraus generische Komponenten erzeugt. Oder zumindest versucht... 😁
 
 Als Programmierbasis verwende ich VFP 9.0 SP1 und unsere Komponentenbibliothek Acodey, welche in diesem Zusammenhang lediglich einige Helfermethoden zur Verfügung stellt, welche kein Hindernis zur Verwendung ohne Acodey darstellen.

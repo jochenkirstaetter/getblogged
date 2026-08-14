@@ -11,7 +11,7 @@ tags:
 keywords: Linux
 metaTitle: Enabling DNS for IPv6 infrastructure
 metaDescription: Usually, we would simply use host names in order to communicate with other machines instead of their bare IPv6 addresses. During the following paragraphs we are going to enable our own DNS name server with IPv6 address resolving.
-image: https://images.unsplash.com/photo-1494059980473-813e73ee784b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=9fdab1a5e303b06cfecf931f069fa3e9
+image: content/images/2014/03/photo-1494059980473-813e73ee784b.webp
 ogTitle: Enabling DNS for IPv6 infrastructure
 ogDescription: After successful automatic distribution of IPv6 address information via DHCPv6 in your local network it might be time to start offering some more services. Usually, we would use host names in order to...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/enabling-dns-for-ipv6-infrastructure/
-imageUrl: https://images.unsplash.com/photo-1494059980473-813e73ee784b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=9fdab1a5e303b06cfecf931f069fa3e9
+imageUrl: content/images/2014/03/photo-1494059980473-813e73ee784b.webp
 twitterImageUrl: https://images.unsplash.com/photo-1494059980473-813e73ee784b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=9fdab1a5e303b06cfecf931f069fa3e9
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1494059980473-813e73ee784b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=9fdab1a5e303b06cfecf931f069fa3e9
+featureImage: content/images/2014/03/photo-1494059980473-813e73ee784b.webp
 featured: false
 publishedAt: 2014-03-12T05:34:52Z
 updatedAt: 2018-04-02T08:38:44Z
@@ -52,8 +52,8 @@ facebookDescription: After successful automatic distribution of IPv6 address inf
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 After successful automatic distribution of IPv6 address information via DHCPv6 in your local network it might be time to start offering some more services. Usually, we would use host names in order to communicate with other machines instead of their bare IPv6 addresses. During the following paragraphs we are going to enable our own DNS name server with IPv6 address resolving.
 
 - [Configure IPv6 on your Linux system](xref:configure-ipv6-on-ubuntu)

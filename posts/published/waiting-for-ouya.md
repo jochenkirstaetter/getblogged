@@ -11,7 +11,7 @@ tags:
 keywords: Android
 metaTitle: Waiting for OUYA
 metaDescription: OUYA game console is shippin'. That's very exciting news (at least for me) and I'm really looking forward to get my hands on that open gaming console based on Android.
-image: https://images.unsplash.com/photo-1533654238074-8841f6e8e610?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2013/04/photo-1533654238074-8841f6e8e610.webp
 ogTitle: Waiting for OUYA
 ogDescription: 'Good Friday brought some interesting updates into my mail inbox:'
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/waiting-for-ouya/
-imageUrl: https://images.unsplash.com/photo-1533654238074-8841f6e8e610?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2013/04/photo-1533654238074-8841f6e8e610.webp
 twitterImageUrl: https://images.unsplash.com/photo-1533654238074-8841f6e8e610?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1533654238074-8841f6e8e610?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2013/04/photo-1533654238074-8841f6e8e610.webp
 featured: false
 publishedAt: 2013-04-03T07:15:27Z
 updatedAt: 2019-01-07T22:45:19Z
@@ -52,8 +52,8 @@ facebookDescription: 'Good Friday brought some interesting updates into my mail 
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Good Friday brought some interesting updates into my mail inbox:
 
 ## OUYA game console is [shippin'](https://www.ouya.tv/shippin/ "shippin")

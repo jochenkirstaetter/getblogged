@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/randale-ein-normaler-samstag/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Die Vorbereitungen für Sperrmüll - Entsorgung von überfälligen Ablagerungen in Haus, Keller und Garten - waren recht kurzfristig und spontan angesetzt. Die eigentliche Kernaufgabe hiess: Schwimmbecken im Garten abschlagen, zerkleinern und an der Straße für den Sperrmüll lagern. Okidoki...  
   
 Und so ging es mit der tatkräftigen Unterstützung von Golo und Thomas gegen 11:00 heute Morgen ans Werk. Der Rost hatte bereits einiges an Vorarbeit am Becken geleistet, so dass die Hauptaufgabe lediglich darin bestand, sich nicht zu verletzen. ![icon_biggrin](https://jochen.kirstaetter.name/randale-ein-normaler-samstag/smilies/icon_biggrin.gif)  

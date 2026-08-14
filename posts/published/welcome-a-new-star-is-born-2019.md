@@ -11,7 +11,7 @@ tags:
 keywords: Personal
 metaTitle: Welcome - A new star is born!
 metaDescription: Hello dear family & friends,we would like to introduce you to our latest project "Jamba" or better said experiment 'William Balthazar Kirstätter'.The little boy was born in the evening some days...
-image: content/images/2019/03/WilliamAnnouncement.png
+image: content/images/2019/03/WilliamAnnouncement.webp
 ogTitle: Welcome - A new star is born!
 ogDescription: Hello dear family & friends,we would like to introduce you to our latest project "Jamba" or better said experiment 'William Balthazar Kirstätter'.The little boy was born in the evening some days...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/welcome-a-new-star-is-born-2019/
-imageUrl: https://jochen.kirstaetter.name/content/images/2019/03/WilliamAnnouncement.png
+imageUrl: content/images/2019/03/WilliamAnnouncement.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2019/03/WilliamAnnouncement.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2019/03/WilliamAnnouncement.png
+featureImage: content/images/2019/03/WilliamAnnouncement.webp
 featured: false
 publishedAt: 2019-03-01T16:55:05Z
 updatedAt: 2019-03-01T16:55:05Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Hello dear family & friends,  
   
 we would like to introduce you to our latest project "Jamba" or better said experiment 'William Balthazar Kirstätter'.  

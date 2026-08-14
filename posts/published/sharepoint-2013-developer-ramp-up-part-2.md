@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/sharepoint-2013-developer-ramp-up-part-2/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,8 +53,7 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
-![Microsoft SharePoint](https://s.kirstaetter.name/images/sharepoint.png)As stated already yesterday, today I continued with the available course material on Pluralsight. For sure interesting topics in the second part of the series but not the field of operation I'm going to work in later. During the course you get a lot of information about how to create and deploy SharePoint Solutions and hosted SharePoint Apps.
+![Microsoft SharePoint](../content/images/2013/09/sharepoint.webp)As stated already yesterday, today I continued with the available course material on Pluralsight. For sure interesting topics in the second part of the series but not the field of operation I'm going to work in later. During the course you get a lot of information about how to create and deploy SharePoint Solutions and hosted SharePoint Apps.
 
 ## []()Today's resource(s)
 

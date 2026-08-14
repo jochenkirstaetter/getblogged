@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/ego-search-und-die-treffer/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Ausgehend vom [vorherigen Blogeintrag](xref:family-website-aktualisiert) und der regen Unterhaltung mit Thomas habe ich mal wieder eine 'Ego-Search' in Betracht gezogen. Dabei geht's einfach mal darum zu sehen, welche Treffer in den Suchmaschinen gelistet werden, wenn man seinen Namen oder nur den Familiennamen eingibt.
 
 Gut, bei Google bin ich mit acht von zehn unter den ersten Treffern aktuell #1. Aber wesentlich interessanter finde ich die weiteren Treffer:

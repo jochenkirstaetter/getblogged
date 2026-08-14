@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/polyphasenschlaf---woche-1/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Eine Woche seit Beginn des Experiments "polyphasiger Schlaf" ist inzwischen vergangen und in diesem Beitrag schreibe ich mal meine Erfahrungen, Vermutungen und sonstige Erkenntnisse zusammen.  
 Sicherlich lässt sich hier sagen, dass es sich nicht um der Weisheit letzter Schluß handelt. Dennoch fasse ich einfach mal ein paar Dinge zusammen. Dabei geht's über verschiedene Teilbereiche meines Körpers, meines GeÃ­stes und meiner Umwelt.
 

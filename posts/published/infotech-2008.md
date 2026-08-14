@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/infotech-2008/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 The [National Computer Board](https://www.ncb.mu/) (NCB) invited to visit their annually [InfoTech](https://www.infotech.mu/) fair at the Swami Vivekananda International Convention Centre. This event marks the peak of IT sector here on the island and a lot of well-known companies showed their business stuff at the Exhibition Space.
 
 Actually, I had several chances to meet people from Microsoft Indian Ocean, the [University of Mauritius](https://www.uom.ac.mu/) and the [University of Technology, Mauritius](https://www.utm.ac.mu/)

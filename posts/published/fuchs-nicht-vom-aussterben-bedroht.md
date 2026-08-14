@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/fuchs-nicht-vom-aussterben-bedroht/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Die öffentlichen Artikel zu Visual FoxPro mehren sich doch in der letzten Zeit. Sei es in Verbindung mit den aktuellen Entwicklungen zum Produkt selbst - Service Pack 1 ist veröffentlicht - oder zu den kommenden Entwürfen von Microsoft in Bezug auf die Weiterentwicklungen im .NET Framework.
 
 Die Tage habe ich mir den folgenden Artikel des Redmondmag.com:

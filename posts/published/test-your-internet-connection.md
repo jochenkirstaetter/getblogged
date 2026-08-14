@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: Test your internet connection - Emtel Fixed Broadband
 metaDescription: From time to time you should check the speed of your internet connection. Here are my observations on a symmetric WiMAX provided by Emtel Ltd.
-image: content/images/2019/01/speedtest-20130530.png
+image: content/images/2019/01/speedtest-20130530.webp
 ogTitle: Test your internet connection - Emtel Fixed Broadband
 ogDescription: Already at the begin of April, I had a phone conversation with my representative at Emtel Ltd. about some upcoming issues due to the ongoing construction work in my neighbourhood. Unfortunately, they...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/test-your-internet-connection/
-imageUrl: https://jochen.kirstaetter.name/content/images/2019/01/speedtest-20130530.png
+imageUrl: content/images/2019/01/speedtest-20130530.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2019/01/speedtest-20130530.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2019/01/speedtest-20130530.png
+featureImage: content/images/2019/01/speedtest-20130530.webp
 featured: false
 publishedAt: 2013-05-30T07:00:48Z
 updatedAt: 2019-01-28T03:07:05Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Already at the begin of April, I had a phone conversation with my representative at [Emtel Ltd.](https://www.emtel.com/ "Emtel Ltd.") about some upcoming issues due to the ongoing construction work in my neighbourhood. Unfortunately, they finally raised the house two levels above ours, and of course this has to have a negative impact on the visibility between the WiMAX outdoor unit on the roof and the aimed access point at Medine. So, today I had a technical team here to do a site survey and to come up with potential solutions. Short version: It doesn't look good after all.
 
 ## [The site survey]()
@@ -78,11 +77,11 @@ Okay, over at speedtest.net you can use their Flash-based test suite to check yo
 
 Following are the results of Rose Hill (hosted by Emtel) and respectively Frankfurt, Germany (hosted by Vodafone DE):
 
-![Speedtest.net result of 30.05.2013 between Flic en Flac and Rose Hill](https://s.kirstaetter.name/images/speedtest-20130530.png)  
+![Speedtest.net result of 30.05.2013 between Flic en Flac and Rose Hill](../content/images/2013/05/speedtest-20130530.webp)  
 *Speedtest.net result of 30.05.2013 between Flic en Flac and Rose Hill, Mauritius (Emtel - Fixed Broadband)  
 *
 
-![Speedtest.net result of 30.05.2013 between Flic en Flac and Frankfurt, Germany](https://s.kirstaetter.name/images/speedtest-20130530-frankfurt.png)  
+![Speedtest.net result of 30.05.2013 between Flic en Flac and Frankfurt, Germany](../content/images/2013/05/speedtest-20130530-frankfurt.webp)  
 *Speedtest.net result of 30.05.2013 between Flic en Flac and Frankfurt, Germany (Emtel - Fixed Broadband)*
 
 Luckily, the results are quite similar in terms of connection speed; which is good. I'm currently on [a WiMAX tariff called 'Classic Browsing 2',](https://www.emtel.com/home-fixed-broadband/ "a WiMAX tariff called 'Classic Browsing 2'") or Fixed Broadband as they call it now, which provides a symmetric line of 768 Kbps (or roughly 0.75 Mbps). In terms of downloads or uploads this means that I would be able to transfer files in either direction with approximately 96 KB/s. Frankly speaking, thanks to compression, my choice of browser and operating system I usually exceed this value and I have download rates up to 120 KB/s - not too bad after all.

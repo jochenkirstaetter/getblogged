@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/php-web-services/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 [![](https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1449356567&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=geblbyjo-20)](https://www.amazon.com/gp/product/1449356567/ref=as_li_ss_il?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449356567&linkCode=as2&tag=geblbyjo-20)![](https://ir-na.amazon-adsystem.com/e/ir?t=geblbyjo-20&l=as2&o=1&a=1449356567)
 
 Thanks to the membership in the O'Reilly User Group Programme the [Mauritius Software Craftsmanship Community](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/ "Mauritius Software Craftsmanship Community") (short: MSCC) recently received a welcome package with several book titles. Among them is the latest publication of [Lorna Jane Mitchell](https://www.lornajane.net/ "Lorna Jane Mitchell") - '[PHP Web Services: APIs for the Modern Web](https://shop.oreilly.com/product/0636920028291.do "PHP Web Services: APIs for the Modern Web")'.

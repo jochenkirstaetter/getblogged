@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/nice-smeagol/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Ich glaube, dass der Release der Visual Studio Express Editionen bei Microsoft potentiell noch einige Kopfschmerzen bereiten könnte...  
   
 Ich hab' mir mal den folgenden Blogeintrag - [FLLs mit MS Visual C++ 2005 Express Edition](https://blog.dfpug.de/blogdfpug.afp3?dnr=2212&mc=0&id=24) - angesehen und finde das wiederum sehr spannend. Endlich kann der ambitionierte VFP-Entwickler sein angestaubtes Visual Studio 98 beiseite legen und auf die neuen Features der Express Editionen zugreifen.  

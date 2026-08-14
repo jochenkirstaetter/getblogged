@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/the-day-before---/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Wow, endlich wieder Konferenzzeit. Ich bin gerade im Lindner Hotel in Frankfurt angekommen. Anreise und Check-In verliefen absolut stressfrei. Der weitere Abend scheint auch recht locker zu werden. Noch einmal kurz über die Slides schauen, ein wenig trainieren für die morgige Session und dann mal sehen, wer bereits von den anderen Redner und/oder Teilnehmer vor Ort ist.
 
 Am Abend zuvor gibt's das sogenannte Speaker's Diner, in dem unser Veranstalter (Rainer Becker) aktuelle Informationen und Last-Minute-Notizen zur Konferenz an uns weitergibt. Danach heißt es 'Ran ans Buffet'... 😁  

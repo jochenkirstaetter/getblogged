@@ -12,7 +12,7 @@ tags:
 keywords: Development, Linux
 metaTitle: Installing SQL Server 2019 and tools on Ubuntu 20.04
 metaDescription: Up to date, complete tutorial on how to install SQL Server 2019, the command-line tools, and alternatives to SQL Server Management Studio on Ubuntu 20.04.
-image: https://images.unsplash.com/photo-1642775196125-38a9eb496568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDEyfHxkYXRhYmFzZXxlbnwwfHx8fDE2NDg3NjI3MTk&ixlib=rb-1.2.1&q=80&w=2000
+image: content/images/2022/03/photo-1642775196125-38a9eb496568.webp
 ogTitle: Installing SQL Server 2019 and tools on Ubuntu 20.04
 ogDescription: Up to date, complete tutorial on how to install SQL Server 2019, the command-line tools, and alternatives to SQL Server Management Studio on Ubuntu 20.04.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/sql-server-2019-on-ubuntu/
-imageUrl: https://images.unsplash.com/photo-1642775196125-38a9eb496568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDEyfHxkYXRhYmFzZXxlbnwwfHx8fDE2NDg3NjI3MTk&ixlib=rb-1.2.1&q=80&w=2000
+imageUrl: content/images/2022/03/photo-1642775196125-38a9eb496568.webp
 twitterImageUrl: https://images.unsplash.com/photo-1642775196125-38a9eb496568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDEyfHxkYXRhYmFzZXxlbnwwfHx8fDE2NDg3NjI3MTk&ixlib=rb-1.2.1&q=80&w=2000
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1642775196125-38a9eb496568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDEyfHxkYXRhYmFzZXxlbnwwfHx8fDE2NDg3NjI3MTk&ixlib=rb-1.2.1&q=80&w=2000
+featureImage: content/images/2022/03/photo-1642775196125-38a9eb496568.webp
 featured: false
 publishedAt: 2022-03-25T21:27:00Z
 updatedAt: 2023-08-28T13:28:40Z
@@ -53,8 +53,8 @@ facebookDescription: Up to date, complete tutorial on how to install SQL Server 
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Why writing a blog article about the installation of Microsoft SQL Server 2019, related command-line tools, and UI-based management solution despite the official documentation by Microsoft?
 
 There are two main reasons:
@@ -153,7 +153,7 @@ Or if you prefer less details, like this.
 apt list mssql*
 ```
 
-![](../content/images/2022/03/image.png)
+![](../content/images/2022/03/image.webp)
 
 The output of the command above is going to give a list of available packages for SQL Server 2019. Your choice might be different but I'm going to install the actual database engine, with full-text search, the latest command-line tools, and additionally ODBC driver support for Unix/Linux systems.
 
@@ -177,7 +177,7 @@ After completing the setup, verify that the service is running as expected.
 systemctl status mssql-server --no-pager
 ```
 
-![](../content/images/2022/03/image-1.png)
+![](../content/images/2022/03/image-1.webp)
 
 Finally, add the SQL Server tools to the path by default.
 
@@ -199,7 +199,7 @@ You will be prompted to enter the password of SA. If you are not familiar with t
 
 The resulting output should look similar to this.
 
-![](../content/images/2022/03/image-2.png)
+![](../content/images/2022/03/image-2.webp)
 
 Congratulations!
 
@@ -218,7 +218,7 @@ There are at least two possibilities to replace SQL Server Management Studio whi
 - Visual Studio Code with SQL Server (*mssql*) extension
 - Azure Data Studio
 
-![Azure Data Studio and Visual Studio Code shown in the application menu](../content/images/2022/03/Launch_Studio.png)
+![Azure Data Studio and Visual Studio Code shown in the application menu](../content/images/2022/03/Launch_Studio.webp)
 
 Both applications have their pros and cons. If you are already developing and writing code in Visual Studio Code you might probably prefer to use the extension and to stay within the same window. In case that you are more into SQL Server handling and Azure you might opt-in for Data Studio.
 
@@ -228,7 +228,7 @@ Download and install Azure Data Studio following this article.
 
 Then launch the application via Application menu or run **azuredatastudio** in a terminal.
 
-![Add a connection to a local instance of SQL Server in Azure Data Studio](../content/images/2022/03/image-8.png)![Azure Data Studio connected to local instance of SQL Server 2019](../content/images/2022/03/image-5.png)
+![Add a connection to a local instance of SQL Server in Azure Data Studio](../content/images/2022/03/image-8.webp)![Azure Data Studio connected to local instance of SQL Server 2019](../content/images/2022/03/image-5.webp)
 
 Install Visual Studio Code using *apt*.
 
@@ -238,7 +238,7 @@ sudo apt install -y code
 
 Then launch the application via menu or run **code** in a terminal.
 
-![SQL Server (mssql) extension in Visual Studio Code](../content/images/2022/03/image-6.png)
+![SQL Server (mssql) extension in Visual Studio Code](../content/images/2022/03/image-6.webp)
 
 More details on SQL Server tools can be found here.
 

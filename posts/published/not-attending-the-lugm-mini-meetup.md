@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/not-attending-the-lugm-mini-meetup/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,8 +53,7 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
-[![Conversation about LUGM mini-meetup on 05.10.2013](https://s.kirstaetter.name/images/fb_lugm_20131005_small.png)](https://s.kirstaetter.name/images/fb_lugm_20131005.png "Click to enlarge")Not attending a meeting of the LUGM can be fun, too. It's getting a bit of a habit that Ish is organising small gatherings, aka mini-meetups, of the [Linux User Group Mauritius/Meta (LUGM)](https://lugm.org/) almost every Saturday. There they mainly discuss and talk about various elements of using Linux as ones main operating systems and the possibilities you are going to have. On top of course, some tips & tricks about mastering the command line and initial steps in scripting or even writing HTML. In general, sounds like a good portion of fun and great spirit of community. Unfortunately, I'm usually quite busy with private and family matters during the weekend and so I already signalised that I wouldn't be around. Well, at least not physically...
+[![Conversation about LUGM mini-meetup on 05.10.2013](../content/images/2013/10/fb_lugm_20131005_small.webp)](https://s.kirstaetter.name/images/fb_lugm_20131005.png "Click to enlarge")Not attending a meeting of the LUGM can be fun, too. It's getting a bit of a habit that Ish is organising small gatherings, aka mini-meetups, of the [Linux User Group Mauritius/Meta (LUGM)](https://lugm.org/) almost every Saturday. There they mainly discuss and talk about various elements of using Linux as ones main operating systems and the possibilities you are going to have. On top of course, some tips & tricks about mastering the command line and initial steps in scripting or even writing HTML. In general, sounds like a good portion of fun and great spirit of community. Unfortunately, I'm usually quite busy with private and family matters during the weekend and so I already signalised that I wouldn't be around. Well, at least not physically...
 
 But this Saturday a couple of things worked out faster than expected and so I was [hanging out on my machine](xref:microsoft-and-innovation-iif-method "Microsoft and innovation: IIF() method"). I made virtual contact with one of Pawan's messages over on Facebook... And somehow that kicked off some kind of an online game fun on basic configuration of Apache HTTPd 2.2.x, PHP 5.x and how to improve the overall performance of a newly installed blog based on WordPress.
 

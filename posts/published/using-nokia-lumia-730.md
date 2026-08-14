@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: My first month using a Lumia 730
 metaDescription: It's already one month since I bought a Nokia / Microsoft Lumia 730 during one of my business trips in Europe. And quite frankly I'm going to summarise my impressions, up & downs during this time using the device itself, the Windows Phone 8.1 operating system and the apps during this period.
-image: content/images/2017/08/wp8-change-name.png
+image: content/images/2017/08/wp8-change-name.webp
 ogTitle: My first month using a Lumia 730
 ogDescription: It's already one month since I bought a Nokia / Microsoft Lumia 730 during one of my business trips in Europe. And quite frankly I'm going to summarise my impressions, up & downs during this time...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/using-nokia-lumia-730/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/08/wp8-change-name.png
+imageUrl: content/images/2017/08/wp8-change-name.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/08/wp8-change-name.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/08/wp8-change-name.png
+featureImage: content/images/2017/08/wp8-change-name.webp
 featured: false
 publishedAt: 2015-01-03T22:25:40Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -53,8 +53,7 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
-[![Lumia 730/735 on Amazon](https://s.kirstaetter.name/images/wp8-lumia730.jpg)](https://www.amazon.com/gp/product/B00NOZLU52/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00NOZLU52&linkCode=as2&tag=geblbyjo-20&linkId=RULT2CFXGUTQRFKV)![](https://ir-na.amazon-adsystem.com/e/ir?t=geblbyjo-20&l=as2&o=1&a=B00NOZLU52)  
+[![Lumia 730/735 on Amazon](../content/images/2015/01/wp8-lumia730.webp)](https://www.amazon.com/gp/product/B00NOZLU52/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00NOZLU52&linkCode=as2&tag=geblbyjo-20&linkId=RULT2CFXGUTQRFKV)![](https://ir-na.amazon-adsystem.com/e/ir?t=geblbyjo-20&l=as2&o=1&a=B00NOZLU52)  
 *Source: Nokia Lumia 730/735 on Amazon*
 
 It's already one month since I bought a Nokia / Microsoft Lumia 730 during one of my business trips in Europe. And quite frankly I'm going to summarise my impressions, up & downs during this time using the device itself, the Windows Phone 8.1 operating system and the apps during this period.
@@ -93,12 +92,12 @@ Let me solve the puzzle: **No chance at all to change it from the device.**
 
 You have to connect the device to a computer in order to change the device's name / identification. Seriously? It's not only quite weird but kind of painful in case that you're using an operating system like Mac OS X or Linux. As soon as you hook up the device via USB you have 2 options at hand. Either you download and install the Windows Phone app for Desktop:
 
-![Change name of Windows Phone 8.1 device in Windows Phone App for Desktop](https://s.kirstaetter.name/images/wp8-change-name.png)  
+![Change name of Windows Phone 8.1 device in Windows Phone App for Desktop](../content/images/2015/01/wp8-change-name.webp)  
 *Change name of Windows Phone 8.1 device in Windows Phone App for Desktop*
 
 or you do it the classic way: Folder properties in Windows Explorer:
 
-![Change name of Windows Phone 8.l1 device in Windows Explorer](https://s.kirstaetter.name/images/wp8-change-name-explorer.png)  
+![Change name of Windows Phone 8.l1 device in Windows Explorer](../content/images/2015/01/wp8-change-name-explorer.webp)  
 *Change name of Windows Phone 8.l1 device in Windows Explorer*
 
 ## A couple of General Settings

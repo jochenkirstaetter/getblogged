@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/250-artikel-in-gut-2-jahren/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Bei der Betrachtung der Archivsektion in der linken Navigationsleiste beschlich mich der Gedanke, dass es mal interessant wäre zu sehen, wieviele Artikel im Zeitraum seit Juli 2004 bis heute so entstanden sind... Inzwischen schreibe ich seit mehr als 2 Jahren. Wow, ich bin erfreut, dass es doch geneigte Leser geben soll, die schon sehnsüchtig auf mehr Input warten... \*winke-winke ins Schwabeländle\* 😎
 
 Well, die aktuelle Blogsoftware basiert datentechnisch auf einer MySQL Datenbank 4.irgendwas. Und in Verbindung mit dem MySQL Query Browser oder dem Fuchs ist es auch keine echte Herausforderung:  

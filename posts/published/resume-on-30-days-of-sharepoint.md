@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/resume-on-30-days-of-sharepoint/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,8 +53,7 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
-![Microsoft SharePoint](https://s.kirstaetter.name/images/sharepoint.png)Dear readers, as you might have noticed... It was an organisational desaster on my end!
+![Microsoft SharePoint](../content/images/2013/09/sharepoint.webp)Dear readers, as you might have noticed... It was an organisational desaster on my end!
 
 Even though I continued my studies and research on Microsoft SharePoint 2013 during [the last 30 days](xref:the-30-days-microsoft-sharepoint-challenge), I wasn't able to write an article a day to keep you posted on my progress. Nonetheless, I gathered a good number of additional blogs, mainly SharePoint MVP sites, and online forums which will be helpful in the next couple of weeks while I'm actually going to develop a C#-based client which will enable an existing 'legacy' application to SharePoint as a document management system (DMS) besides other already existing solutions.
 

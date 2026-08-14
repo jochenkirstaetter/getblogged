@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/speaker-at-the-german-visual-foxpro-developer-conference-2004/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 The following is an excerpt from the UniversalThread conference coverage of the [German Visual FoxPro Developer Conference 2004](https://www.universalthread.com/ViewPageConference.aspx?ID=19 "German Visual FoxPro Developer Conference 2004") written by Hans-Otto Lochmann, Armin Neudert and myself.
 
 > ## TRACK Active FoxPro Pages
@@ -67,7 +66,7 @@ Welcome at least two new speakers - Nina Schwanzer and Bernhard Reiter. Both are
 >
 > [...]
 >
-> ![JoKi at the German Visual FoxPro Developer Conference 2004 - Image 1](https://s.kirstaetter.name/images/speaker/ffm.2004.068.jpg)![JoKi at the German Visual FoxPro Developer Conference 2004 - Image 2](https://s.kirstaetter.name/images/speaker/ffm.2004.069.jpg)![JoKi at the German Visual FoxPro Developer Conference 2004 - Image 3](https://s.kirstaetter.name/images/speaker/ffm.2004.070.jpg)
+> ![JoKi at the German Visual FoxPro Developer Conference 2004 - Image 1](../content/images/2013/07/ffm.2004.068.webp)![JoKi at the German Visual FoxPro Developer Conference 2004 - Image 2](../content/images/2013/07/ffm.2004.069.webp)![JoKi at the German Visual FoxPro Developer Conference 2004 - Image 3](../content/images/2013/07/ffm.2004.070.webp)
 >
 > In the next session JoKi described how to extend Active FoxPro Pages. On the one hand AFP provides a plugin interface, and on the other hand any addon for Visual FoxPro might be usable as well. During the first half he spoke about the plugin interface and wrote live a new AFP extension - the Devcon plugin. Later he questioned any former step and showed that a single AFP document may solve the problem as well. So, developing extensions is only interesting if they are re-usable and generic. At the end he talked about multiple interfaces for the same business logic. For instance plain VFP class, COM server and .NET integration. Currently there are several specialized AFP extensions for sending mail, for using cryptographic routines (ie. based on .NET classes), or enhanced methods to handle HTML/XML strings.  
 Rainer Becker and Peter Herzog introduced a new development for Visual Extend (VFX) - an AFP form builder. With this builder creating an AFP Web form designed with Visual FoxPro's form designer was a matter of seconds. The builder itself is currently in pre-release status and will be part of the VFX framework in the future. It was very impressive to see that the whole design of a form as well as most parts of its functionality were exported to a combination of HTML, JavaScript and Active FoxPro Pages. At half-time Jürgen "wOOdy" Wondzinski and JoKi changed places with Rainer and Peter, and presented some Web solutions in AFP.

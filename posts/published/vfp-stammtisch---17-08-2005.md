@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/vfp-stammtisch---17-08-2005/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Sommerpause? - Pfft... von wegen. Echte Füchse brauchen so etwas nicht. Auch diesen Monat hatten wir wieder eine konstante Zahl an Teilnehmern. Um genau zu sein, waren wir heute / gestern Abend ein volles Dutzend mich eingeschlossen. Und ich glaube, dass wir wieder richtigen Spass hatten... zumindest ging's mir so. Wie sieht's bei euch aus?  
   
 Zum Anfang gleich ein wenig Chaos: welcher Raum eigentlich? Wieso sitzt da eine Seniorengruppe in 'unserem' Nebenzimmer? Und wär's nicht funny, wenn wir draußen zusammensitzen? Ja ja, letztendlich wurden wir in den kleineren Nebenraum verfrachtet und brauchten hier erstmal ca. 'ne Viertelstunde zum Sortieren der Stühle, Beine, Bücher und Laptops und Beamer. Jaaaaa.... Laptops (Mehrzahl) waren dieses Mal vertreten. Nicht nur weil's eine Doppelsession von Golo und mir gab, nein, auch ein 'übermütiger Altfuchs' 😁 konnte endlich seine Scheu überwinden. Mal sehen, ob beim nächsten Mal weitere Mobilcomputer auf den Tischen vertreten sein werden...  

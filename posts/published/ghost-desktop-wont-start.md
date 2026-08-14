@@ -12,7 +12,7 @@ tags:
 keywords: Linux, Development
 metaTitle: Ghost Desktop on Xubuntu 17.04 won't start
 metaDescription: Ghost Desktop won't start on Debian/Ubuntu via the application menu or any other GUI launcher. Check permissions to fix the issue.
-image: content/images/2017/08/GhostDesktopApp.png
+image: content/images/2017/08/GhostDesktopApp.webp
 ogTitle: Ghost Desktop on Xubuntu 17.04 won't start
 ogDescription: Ghost Desktop won't start on Debian/Ubuntu via the application menu or any other GUI launcher. Check permissions to fix the issue.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/ghost-desktop-wont-start/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/08/GhostDesktopApp.png
+imageUrl: content/images/2017/08/GhostDesktopApp.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/08/GhostDesktopApp.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/08/GhostDesktopApp.png
+featureImage: content/images/2017/08/GhostDesktopApp.webp
 featured: false
 publishedAt: 2017-08-08T19:50:39Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -54,7 +54,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Already before the [migration from Joomla to Ghost](xref:migration-joomla-ghost) last weekend I run the [Ghost Desktop](https://ghost.org/downloads/) application on Windows. Now, after the successful completion it was about time to get going on my other machines. You know, the ones away from the main rig... Usually used during the evening hours, just for fun, or experimenting.
 
 Tonight, I decided to give one of my Linux systems some attention, started to upgrade some packages, and installed new software. Among those also [Ghost Desktop App for Linux](https://ghost.org/downloads/). On the Ghost website you get version 1.3.0 (as of writing), and it's a Debian package.

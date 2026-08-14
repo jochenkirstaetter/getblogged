@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/ate-fr-roadshow-office-2007-windows-vista/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 ATE steht für 'Ask The Experts'. Ursprünglich hatte ich mich nicht als ATE für [die kommende Roadshow](https://www.microsoft.com/germany/events/launch2007/default.aspx) beworben und mich auch bereits für die Veranstaltung in Frankfurt angemeldet. Doch erstens kommt es anders, und zweitens als man denkt... oder so?
 
 Letztes Wochende, genauer Sonntag, hatte ich einen kleinen Plausch mit meinem Azubi Thomas über seine Bewerbung als ATE für Windows Vista, da wir ja sehr oft gemeinsam auf Achse (insbesondere bei Microsoft Events) sind. Well, im Laufe des Gespräch stellte sich heraus, dass scheinbar noch freie Plätze für Stuttgart zur Verfügung stehen und ob ich denn nicht auch Interesse hätte aktiv zu sein. Nun, für den 4.12.2006 habe ich bisher nichts im Terminplan stehen und über die Neuerungen zu Vista bzw. Office 12 lässt sich sicherlich sehr viel berichten.

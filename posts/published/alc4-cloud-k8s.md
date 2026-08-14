@@ -12,7 +12,7 @@ tags:
 keywords: Development, Andela
 metaTitle: Google Kubernetes Engine (ALC 4.0 Cloud Challenge I)
 metaDescription: This is the third part of a series regarding the completion of the ALC 4.0 Cloud Challenge I. The article covers the deployment of a Docker image on Google Kubernetes Engine (GKE).
-image: content/images/2019/11/kubernetes.jpg
+image: content/images/2019/11/kubernetes.webp
 ogTitle: Google Kubernetes Engine (ALC 4.0 Cloud Challenge I)
 ogDescription: This is the third part of a series regarding the completion of the ALC 4.0 Cloud Challenge I. The article covers the deployment of a Docker image on Google Kubernetes Engine (GKE).
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/alc4-cloud-k8s/
-imageUrl: https://jochen.kirstaetter.name/content/images/2019/11/kubernetes.jpg
+imageUrl: content/images/2019/11/kubernetes.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2019/11/kubernetes.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2019/11/kubernetes.jpg
+featureImage: content/images/2019/11/kubernetes.webp
 featured: false
 publishedAt: 2019-11-09T09:50:59Z
 updatedAt: 2019-11-13T05:06:20Z
@@ -54,7 +54,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 During the third part of the series we are covering the steps needed to deploy the previously created Docker image in Google Kubernetes Engine (GKE).
 
 Whether you are going to use Cloud Console or Cloud Shell with `gcloud` command is totally up to your personal preference. I'm trying to cover both ways in the following paragraphs.
@@ -86,7 +85,7 @@ More details on each step in the following paragraphs.
 
 First, let's quickly check that we have the image to deploy available in the container registry. On the GCP you would check the Container Registry for an entry.
 
-![Available images to deploy with Kubernetes in Container Registry](../content/images/2019/11/image-1.png)
+![Available images to deploy with Kubernetes in Container Registry](../content/images/2019/11/image-1.webp)
 
 In case that you're using an external registry make sure that access to your image is granted. Otherwise, you might not be able to pull it into your cluster.
 
@@ -94,11 +93,11 @@ In case that you're using an external registry make sure that access to your ima
 
 Although it might an obvious choice to opt-in for the `Create cluster` option in Kubernetes Engine for this tutorial it is recommended to keep things easy and click on `Deploy container`. You might skip to the next paragraph then.
 
-![Standard choice to create a Kubernetes cluster](../content/images/2019/11/image-2.png)
+![Standard choice to create a Kubernetes cluster](../content/images/2019/11/image-2.webp)
 
 The amount of options and detailed control over the cluster might be overwhelming and distracting at this stage. However, the brave reader might go ahead and create the cluster using an existing template now...
 
-![Various templates to choose from to create a cluster](../content/images/2019/11/image-3.png)
+![Various templates to choose from to create a cluster](../content/images/2019/11/image-3.webp)
 
 In case you prefer Cloud Shell, you could run the following command and options to create your cluster.
 
@@ -133,11 +132,11 @@ Keep in mind that those computing resources are going to cost you money. You mig
 
 If you choose to `Deploy container` or you navigate to `Workloads` and click on `Deploy` you will be guided by a deployment wizard through every single step.
 
-![Create a deployment for an existing container](../content/images/2019/11/image-4.png)
+![Create a deployment for an existing container](../content/images/2019/11/image-4.webp)
 
 Keep the pre-selected option of `Existing container image` and click on `Select` to navigate to your Docker image in the Container Registry.
 
-![Select the image from the Google Container Registry](../content/images/2019/11/image-5.png)
+![Select the image from the Google Container Registry](../content/images/2019/11/image-5.webp)
 
 When you use an image that is located in an external registry like on Docker you would specify the value of `Image path` with the tag you used previously, like we used `u12345678/alc4cloud` to tag the image on Docker.
 
@@ -147,7 +146,7 @@ Optionally, you could define environment variables or add another container to t
 
 Next, you enter a few values for the configuration of your deployment. Give it a unique application name and perhaps a label in the process.
 
-![Complete the compulsory values for the deployment configuration](../content/images/2019/11/image-6.png)
+![Complete the compulsory values for the deployment configuration](../content/images/2019/11/image-6.webp)
 
 You should be sure to set the Zone to `us-central1-a`. The free tier of using Google Cloud Platform gives you certain quota for resources for free per month. Would be positive to take advantage of this perk.
 
@@ -205,7 +204,7 @@ $ kubectl apply -f deployment.yaml
 
 Finally, hit the `Deploy` button and watch the progress of deployment.
 
-![Active deployment on Google Kubernetes Engine](../content/images/2019/11/image-8.png)![Almost there...](../content/images/2019/11/image-14.png)
+![Active deployment on Google Kubernetes Engine](../content/images/2019/11/image-8.webp)![Almost there...](../content/images/2019/11/image-14.webp)
 
 Maybe it's time for another cup of tea or a light snack to stretch your legs. The deployment of the cluster is going to take a few minutes at least.
 
@@ -238,15 +237,15 @@ You can read more about [Configuring cluster access for kubectl](https://cloud.g
 
 After completion of deployment you are going to be greeted by the `Deployment details`. Verify that all details are as expected.
 
-![Details after successful deployment of the cluster](../content/images/2019/11/image-9.png)
+![Details after successful deployment of the cluster](../content/images/2019/11/image-9.webp)
 
 At the top you'll see a notification bar suggesting to create a service to `Expose` your cluster in order to let others access it.
 
-![Create a LoadBalancer service to provide access to the cluster](../content/images/2019/11/image-10.png)
+![Create a LoadBalancer service to provide access to the cluster](../content/images/2019/11/image-10.webp)
 
 Our React app is exposed on TCP port 80 by default and we use that same port on the load balancer. No further changes needed in the above configuration. Click on `Expose` and wait until the service has been deployed completely.
 
-![Waiting for the load balancer with external IP address](../content/images/2019/11/image-11.png)
+![Waiting for the load balancer with external IP address](../content/images/2019/11/image-11.webp)
 
 The YAML declaration can be stored as `service.yaml` file for further reference.
 
@@ -281,7 +280,7 @@ Give it a minute or so to complete.
 
 Approximately one minute later you should see the `Service details` like shown below.
 
-![Details of the load balancer service deployed](../content/images/2019/11/image-12.png)
+![Details of the load balancer service deployed](../content/images/2019/11/image-12.webp)
 
 Under `External endpoints` you can see the external IP address that has been assigned to the load balancer service.
 
@@ -296,7 +295,7 @@ kubernetes              ClusterIP      10.0.0.1     <none>          443/TCP     
 
 Here it is 34.70.0.91. Let's have a look at our deployed React app running as Docker image in a cluster on a Google Kubernetes Engine.
 
-![Cloud Challenge: Completed and with an updated URL](../content/images/2019/11/image-16.png)
+![Cloud Challenge: Completed and with an updated URL](../content/images/2019/11/image-16.webp)
 
 **Congratulations!**  
 The Cloud Challenge has been completed successfully.

@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/vacations-on-rodrigues/
-imageUrl: https://jochen.kirstaetter.name/content/images/2018/02/CIMG4586.JPG
+imageUrl: content/images/2018/02/CIMG4586.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2018/02/CIMG4586.JPG
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 And now something completely different compared to the usual technical or community related articles here on this blog. Yes, this time I'm writing some lines on my (and my family's) activities during our long weekend stay on Rodrigues. So, please bear with me, it's eventually a bit more personal...
 
 Grab a soda, some popcorn and a cosy place to continue to read.

@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/the-niantic-project-ingress-by-felicia-hajra-lee/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 [![The Niantic Project: Ingress \[Kindle Edition\] by Felicia Hajra-Lee](https://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&ASIN=B00CTSZQ9Q&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=geblbyjo-20)](https://www.amazon.com/gp/product/B00CTSZQ9Q/ref=as_li_ss_il?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00CTSZQ9Q&linkCode=as2&tag=geblbyjo-20)![](https://www.assoc-amazon.com/e/ir?t=geblbyjo-20&l=as2&o=1&a=B00CTSZQ9Q)
 
 Despite the current fact that the augmented reality game for Android is still in beta phase, it is amazing to see that the world of literature is already taking momentum on this 'real-life' universe. After reading ['The Alignment: Ingress' by Thomas Greanias](xref:the-alignment-ingress-by-thomas-greanias "'The Alignment: Ingress' by Thomas Greanias") it took only a blink of the eye to go for ['The Niantic Project: Ingress'](https://www.amazon.com/gp/product/B00CTSZQ9Q/ref=as_li_ss_il?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00CTSZQ9Q&linkCode=as2&tag=geblbyjo-20) by [Felicia Hajra-Lee](https://www.amazon.com/s/ref=ntt_athr_dp_sr_1?_encoding=UTF8&field-author=Felicia%20Hajra-Lee&search-alias=digital-text&sort=relevancerank&tag=0200-20 "Felicia Hajra-Lee"), too.

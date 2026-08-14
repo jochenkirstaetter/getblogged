@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: 'MSCC: Clean Code Development & Your workspace'
 metaDescription: In this article I would like to take the chance to quickly summarize the topics we covered and the ideas we worked out for upcoming meetings. And it was also pleasant to welcome more 'first-timers' this month.
-image: content/images/2019/01/mscc-20131116-2.jpg
+image: content/images/2019/01/mscc-20131116-2.webp
 ogTitle: 'MSCC: Clean Code Development & Your workspace'
 ogDescription: Last weekend the Mauritius Software Craftsmanship Community (MSCC) had been organising their latest monthly meetup. Once again, we met at the Ebene Accelerator, Orange Tower, Ebene.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mssc-16112013-clean-code-developer-your-workspace/
-imageUrl: https://jochen.kirstaetter.name/content/images/2019/01/mscc-20131116-2.jpg
+imageUrl: content/images/2019/01/mscc-20131116-2.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2019/01/mscc-20131116-2.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2019/01/mscc-20131116-2.jpg
+featureImage: content/images/2019/01/mscc-20131116-2.webp
 featured: false
 publishedAt: 2013-11-18T06:39:31Z
 updatedAt: 2019-01-28T03:04:04Z
@@ -53,8 +53,7 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
-[![Logo of the Mauritius Software Craftsmanship Community](https://s.kirstaetter.name/images/mscc.jpg)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community")Last weekend the [Mauritius Software Craftsmanship Community (MSCC)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/events/147562602/ "Mauritius Software Craftsmanship Community (MSCC)") had been organising their latest monthly meetup. Once again, we met at the [Ebene Accelerator](https://ebeneaccelerator.intnet.mu/ "Ebene Accelerator"), Orange Tower, Ebene.
+[![Logo of the Mauritius Software Craftsmanship Community](../content/images/2013/11/mscc.webp)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community")Last weekend the [Mauritius Software Craftsmanship Community (MSCC)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/events/147562602/ "Mauritius Software Craftsmanship Community (MSCC)") had been organising their latest monthly meetup. Once again, we met at the [Ebene Accelerator](https://ebeneaccelerator.intnet.mu/ "Ebene Accelerator"), Orange Tower, Ebene.
 
 > *"Thank You to Ebene Accelerator for offering us the use of their conference rooms. It's really helpful and we like to be here."*
 
@@ -75,7 +74,7 @@ Based on an initiative of Yann, we started to organise small meetings with local
 
 It would be awesome to have the ability to introduce our community to more software developers, system administrators or DevOps during the next couple of month. Actually, we are very ambitious to reach 100+ craftsmen before the end of 2013. Dear reader, did you already join the MSCC? No, it's for free and anyone is [welcome on our official site](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/). Thanks!
 
-![A typical setup and relaxed environment during our monthly MSCC meetups](https://s.kirstaetter.name/images/mscc-20131116-0.jpg)  
+![A typical setup and relaxed environment during our monthly MSCC meetups](../content/images/2013/11/mscc-20131116-0.webp)  
 *Typical setup: Relaxed and non-formal environment during our monthly MSCC meetups.*
 
 ## []()Clean Code Developer
@@ -96,16 +95,16 @@ Well, prior to the meetup I already requested our craftsmen to submit their pict
 
 Following an incomplete set of work desks we had a look at and talked about.
 
-![](https://s.kirstaetter.name/images/mscc-20131116-1.jpg)  
+![](../content/images/2013/11/mscc-20131116-1.webp)  
 *Work space of Yann*
 
-![](https://s.kirstaetter.name/images/mscc-20131116-2.jpg)  
+![](../content/images/2013/11/mscc-20131116-2.webp)  
 *Work space of Nirvan*
 
-![](https://s.kirstaetter.name/images/mscc-20131116-3.jpg)  
+![](../content/images/2013/11/mscc-20131116-3.webp)  
 *Work space of Nadim*
 
-![](https://s.kirstaetter.name/images/multiple-screens.png)  
+![](../content/images/2013/05/multiple-screens.webp)  
 *My work space*
 
 More pictures of our craftsmen's workspaces and in general of our recent meetup are available [in the photo gallery](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/photos/18584632/ "MSCC creaftsmen show their working desks"). Most interestingly, there is a repetitive pattern in the hardware: multiple screens, high quality peripherals and head-phones or head-set.

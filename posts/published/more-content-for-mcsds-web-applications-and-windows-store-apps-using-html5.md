@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/more-content-for-mcsds-web-applications-and-windows-store-apps-using-html5/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 This article is a follow-up to [Learning content for MCSDs: Web Applications and Windows Store Apps using HTML5](xref:learning-content-for-mcsds-web-applications-and-windows-store-apps-using-html5 "Learning content for MCSDs: Web Applications and Windows Store Apps using HTML5") and I am going to focus a bit on learning material for the second exam [70-481 Essentials of Developing Windows Store Apps using HTML5 and JavaScript](https://www.microsoft.com/learning/en/us/exam.aspx?id=70-481 "70-481 Essentials of Developing Windows Store Apps using HTML5 and JavaScript").
 
 ## Step by step towards MCSD

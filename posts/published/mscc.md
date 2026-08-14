@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: Mauritius Software Craftsmanship Community (aka User Group)
 metaDescription: The Mauritius Software Craftsmanship Community is a technology-agnostic user group simply because you can't ignore other technologies anymore in a connected IT world as we are living in.
-image: content/images/2018/02/mscc-liquid-banner.png
+image: content/images/2018/02/mscc-liquid-banner.webp
 ogTitle: Mauritius Software Craftsmanship Community (aka User Group)
 ogDescription: I finally managed to push myself forward and pick up an old, actually too old, idea since I ever arrived here in Mauritius more than six years ago. I'm talking about a community for all kind of ICT...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mscc/
-imageUrl: https://jochen.kirstaetter.name/content/images/2018/02/mscc-liquid-banner.png
+imageUrl: content/images/2018/02/mscc-liquid-banner.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2018/02/mscc-liquid-banner.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2018/02/mscc-liquid-banner.png
+featureImage: content/images/2018/02/mscc-liquid-banner.webp
 featured: false
 publishedAt: 2013-07-01T04:50:13Z
 updatedAt: 2018-04-02T08:38:55Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 ## There we go!
 
 I finally managed to push myself forward and pick up an old, actually too old, idea since I ever arrived here in Mauritius more than six years ago. I'm talking about a community for all kind of ICT connected people. In the past (back in Germany), I used to be involved in various community activities. For example, I was part of the Microsoft Community Leader/Influencer Program (CLIP) due to an [FAQ website on Visual FoxPro](https://www.afpfaq.de "AFP FAQ"), actually Active FoxPro Pages (AFP) to be more precise. Then in 2003/2004 I addressed the responsible person of the dFPUG user group in Speyer in order to assist him in organising monthly user group meetings. Well, he handed over management completely, and attended our meetings regularly.
@@ -71,7 +70,7 @@ Since back in 2007 I did my [usual research, eh Google searches](https://www.goo
 
 As I've already written in my article on '[Communities - The importance of exchange and discussion](xref:community-exchange-and-discussion "Communities - The importance of exchange and discussion")' I think it is essential in a world of IT to stay 'connected' with a good number of other people in the same field. There is so much dynamic and every day's news that it is almost impossible to keep on track with all of them. The MSCC is going to provide a common platform to exchange experience and share knowledge between each other. You might be a newbie and want to know what to expect working as a software developer, or as a database administrator, or maybe as an IT systems administrator, or you're an experienced geek that loves to share your ideas or solutions that you implemented to solve a specific problem, or you're the business (or HR) guy that is looking for 'fresh' blood to enforce your existing team. Or... you're just interested and you'd like to communicate with like-minded people.
 
-![Meetup of 26.06.2013 @ L'arabica](https://s.kirstaetter.name/images/mscc_arabica-26-06-2013.png)  
+![Meetup of 26.06.2013 @ L'arabica](../content/images/2013/07/mscc_arabica-26-06-2013.webp)  
 *Meetup of 26.06.2013 @ L'arabica: Of course there are laptops around. Free WiFi, power outlet, coffee, code and Linux in one go.*
 
 The [MSCC](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/ "MSCC") is technology-agnostic and spans an umbrella over any kind of technology. Simply because you can't ignore other technologies anymore in a connected IT world as we have. A front-end developer for iOS applications should have the chance to connect with a Python back-end coder and eventually with a DBA for MySQL or PostgreSQL and exchange their experience. Furthermore, I'm a huge fan of cross-platform development, and it is very pleasant to have pure Web developers - with all that HTML5, CSS3, JavaScript and JS libraries stuff - and passionate C# or Java coders at the same table. This diversity of knowledge can assist and boost your personal situation. And last but not least, there are projects and open positions 'flying' around... People might like to hear others opinion about an employer or get new impulses on how to tackle down an issue at their workspace, etc. This is about community. And that's how I see the [MSCC](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/ "MSCC") in general - free of any limitations be it by programming language or technology.

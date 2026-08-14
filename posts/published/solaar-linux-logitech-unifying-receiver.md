@@ -11,7 +11,7 @@ tags:
 keywords: Linux
 metaTitle: Solaar - Managing Logitech Unifying Receiver peripherals
 metaDescription: With Solaar you get access to the battery status and more configuration settings of your Logitech Unifying Receiver peripherals on Linux.
-image: https://images.unsplash.com/photo-1503495731986-41d521ecbb32?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2013/08/photo-1503495731986-41d521ecbb32.webp
 ogTitle: Solaar - Managing Logitech Unifying Receiver peripherals
 ogDescription: "Despite the fact that I'm using Logitech products since ages it is only now that I accidentally came across a Linux application that allows me to configure their Unifying devices: Solaar"
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/solaar-linux-logitech-unifying-receiver/
-imageUrl: https://images.unsplash.com/photo-1503495731986-41d521ecbb32?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2013/08/photo-1503495731986-41d521ecbb32.webp
 twitterImageUrl: https://images.unsplash.com/photo-1503495731986-41d521ecbb32?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1503495731986-41d521ecbb32?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2013/08/photo-1503495731986-41d521ecbb32.webp
 featured: false
 publishedAt: 2013-08-29T03:35:04Z
 updatedAt: 2019-01-07T22:37:59Z
@@ -52,8 +52,8 @@ facebookDescription: "Despite the fact that I'm using Logitech products since ag
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Despite the fact that I'm using Logitech products since ages it is only now that I accidentally came across a Linux application that allows me to configure their Unifying devices: [Solaar](https://pwr.github.io/Solaar/index.html "Solaar")
 
 > *Solaar is a Linux device manager for Logitech's [Unifying Receiver](https://logitech.com/en-us/66/6079 "Unifying Receiver") peripherals. It is able to pair/unpair devices to the receiver, and for most devices read battery status.*
@@ -62,13 +62,13 @@ Despite the fact that I'm using Logitech products since ages it is only now that
 
 Sounds great, or? And finally, the tool gives you some comfort compared to the existing application available for Windows or Mac OS, like battery status indicator or the ability to pair devices to the receiver you would like to have them (in case that you use multiple receiver at the same time).
 
-![Solaar system tray indicator shows battery status of connected devices](https://s.kirstaetter.name/images/solaar-traymenu.png)  
+![Solaar system tray indicator shows battery status of connected devices](../content/images/2013/08/solaar-traymenu.webp)  
 *Solaar system tray indicator shows battery status of connected devices*
 
-![Solaar displays the connected Logitech Unifying Receiver](https://s.kirstaetter.name/images/solaar-receiver.png)  
+![Solaar displays the connected Logitech Unifying Receiver](../content/images/2013/08/solaar-receiver.webp)  
 *Solaar displays the connected Logitech Unifying Receiver*
 
-![Some Logitech devices can be configured with Solaar](https://s.kirstaetter.name/images/solaar-config.png)  
+![Some Logitech devices can be configured with Solaar](../content/images/2013/08/solaar-config.webp)  
 *Some Logitech devices can be configured with Solaar*
 
 ## []()Supported devices

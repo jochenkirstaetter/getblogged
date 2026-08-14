@@ -12,7 +12,7 @@ tags:
 keywords: Development, Andela
 metaTitle: Working with Docker (ALC 4.0 Cloud Challenge I)
 metaDescription: This is the second part of a series regarding the completion of the ALC 4.0 Cloud Challenge I. The article describes the packing and image creation on Docker and how to push it to GCR.
-image: content/images/2019/10/alc4cloudchallengegcr.png
+image: content/images/2019/10/alc4cloudchallengegcr.webp
 ogTitle: Working with Docker (ALC 4.0 Cloud Challenge I)
 ogDescription: This is the second part of a series regarding the completion of the ALC 4.0 Cloud Challenge I. The article describes the packing and image creation on Docker and how to push it to GCR.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/alc4-cloud-docker/
-imageUrl: https://jochen.kirstaetter.name/content/images/2019/10/alc4cloudchallengegcr.png
+imageUrl: content/images/2019/10/alc4cloudchallengegcr.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2019/10/alc4cloudchallengegcr.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2019/10/alc4cloudchallengegcr.png
+featureImage: content/images/2019/10/alc4cloudchallengegcr.webp
 featured: false
 publishedAt: 2019-10-24T03:41:03Z
 updatedAt: 2019-11-09T09:51:43Z
@@ -54,7 +54,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Containerising and pushing a previously created React application is the second part of the ALC 4.0 Cloud Challenge I.
 
 The following instructions are agnostic to the referred web application however probably you might like to have a read about how to [Create an React App](xref:alc4-cloud-react), if you're not familiar with the React app.
@@ -150,7 +149,7 @@ This might take a while depending on your machine. Maybe time to have a break.
 
 The switch `-t` gives the image a name and optionally a tag, using the format `name:tag`. In our case we specify a name only. In absence of a tag value Docker automatically uses `latest` as tag.
 
-![Successful build of image. Our React app has been containerised.](../content/images/2019/10/image-22.png)
+![Successful build of image. Our React app has been containerised.](../content/images/2019/10/image-22.webp)
 
 Other command switches and more details are described in the Docker reference documentation: [Build an image from a Dockerfile](https://docs.docker.com/engine/reference/commandline/build/).
 
@@ -233,11 +232,11 @@ Optionally, you can create a designated project in your GCP account used for the
 
 The API for the Container Registry is not enabled by default. In the main menu choose `APIs & Services` &gt; `Library` and search for `Container`.
 
-![Choose the Google Container Registry API in the library](../content/images/2019/10/image-15.png)
+![Choose the Google Container Registry API in the library](../content/images/2019/10/image-15.webp)
 
 On the next page make sure that the right GCP project is active and click on `Enable`.
 
-![API for Google Container Registry has to be enabled](../content/images/2019/10/image-16.png)
+![API for Google Container Registry has to be enabled](../content/images/2019/10/image-16.webp)
 
 With the Google Container Registry API enabled you can now use the Docker CLI client to manage your images on GCP.
 
@@ -253,11 +252,11 @@ Either you open the built-in terminal in Visual Studio Code or you use a termina
 > gcloud auth login
 ```
 
-![Log into Google Cloud Platform and authenticate your local gcloud session](../content/images/2019/10/image-13.png)
+![Log into Google Cloud Platform and authenticate your local gcloud session](../content/images/2019/10/image-13.webp)
 
 This opens your browser and you should log into your Google Cloud account. Confirm the consent dialog to grant certain permissions to the Google Cloud SDK and click on `Allow`.
 
-![Successful authentication of Google Cloud SDK](../content/images/2019/10/image-14.png)
+![Successful authentication of Google Cloud SDK](../content/images/2019/10/image-14.webp)
 
 Review the currently active project and maybe change project context, if needed.
 
@@ -291,7 +290,7 @@ Check which gcloud components are already installed on your machine.
 > gcloud components list
 ```
 
-![List of gcloud components and installation status](../content/images/2019/10/image-17.png)
+![List of gcloud components and installation status](../content/images/2019/10/image-17.webp)
 
 If the Docker credential helper is not installed already, run the following command.
 
@@ -307,7 +306,7 @@ Then, configure Docker to use your Container Registry credentials when interacti
 
 This is going to add relevant entries of Google Container Registry to your local Docker configuration file, located at `%UserProfile%\.docker\config.json`. After successful completion your JSON file should have the credentials helper and several entries of gcr.io domains.
 
-![Docker configuration to connect to Google Container Registry](../content/images/2019/10/image-18.png)
+![Docker configuration to connect to Google Container Registry](../content/images/2019/10/image-18.webp)
 
 **Great!**  
 Your machine is ready to rumble the container registry.
@@ -331,7 +330,7 @@ Container Registry expects those values.
 
 The resulting list of images should look like this.
 
-![Docker images available on local machine](../content/images/2019/10/image-19.png)
+![Docker images available on local machine](../content/images/2019/10/image-19.webp)
 
 More information on how to create a tag can be found in the [Docker reference](https://docs.docker.com/engine/reference/commandline/tag/). You can also use the ID to tag a local image.
 
@@ -343,7 +342,7 @@ Then share your image to Container Registry.
 
 In the Cloud Console go to `Container Registry` &gt; `Images` to verify your image has been uploaded correctly.
 
-![Our Docker image has been pushed to Container Registry](../content/images/2019/10/image-21.png)
+![Our Docker image has been pushed to Container Registry](../content/images/2019/10/image-21.webp)
 
 **Note:** Images stored in Container Registry can be [deployed to the App Engine flexible environment](https://cloud.google.com/container-registry/docs/using-with-google-cloud-platform#flexible_environment).
 
@@ -351,7 +350,7 @@ In the Cloud Console go to `Container Registry` &gt; `Images` to verify your ima
 
 The ALC 4.0 Cloud Challenge specified to share the image to Docker Hub originally. However, you can use any other repository provider available in Google Kubernetes Engine.
 
-![Selection of Repository Providers in Google Kubernetes Engine](../content/images/2019/10/image-20.png)
+![Selection of Repository Providers in Google Kubernetes Engine](../content/images/2019/10/image-20.webp)
 
 The choice is yours.
 

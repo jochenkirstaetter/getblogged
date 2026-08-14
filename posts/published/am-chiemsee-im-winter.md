@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/am-chiemsee-im-winter/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Well, eigentlich dürfte diese Region Deutschlands um Neujahr eigentlich mehr für weiße Landschaft, gefrorene Seepartien und vielleicht Eislaufen und/oder Skilanglauf bekannt sein, aber bei annähernd sommerlichen Temperaturen 🤪 sieht es dann doch wieder ganz anders aus, als man annimmt. Direkt am Neujahrstag machte ich mich auf, um mal wieder in unserem Büro in Süddeutschland ein wenig Unwesen - aka Code schreiben - zu treiben. Nun gut, das Jahr 2007 startet ja gleich wieder richtig gut.
 
 Apropos gut... wer hat eigentlich den Beitrag über die Verlässlichkeit der Deutschen Bahn hier in diesem Blog geschrieben? Der Typ dürfte echt keine Ahnung gehabt haben... Nee nee nee... Zumindest war meine Zugreise diesmal eher eine Odysee. Und eigentlich hatte es noch einigermaßen akzeptabel in Kaiserslautern begonnen, aber irgendwie mochte mich das Online-Ticket-Buchungssystem der DB nicht so wirklich. Die Werbung verspricht zumindest, dass man bis etwa 10 Minuten vor Fahrtantritt für die gewünschte Strecke seine Fahrkarte online buchen kann, eh, könnte... Denn irgendwie mochte mich der Login nicht... Korrekte Daten eingegeben (scheinbar korrekt) und prompt nach dem zweiten Versuch wegen irgendwelcher Refreshprobleme mal fett für 30 Minuten aus dem System gesperrt worden. Hm, okay, no problem, bis Heidelberg dauert's etwa 'ne Stunde und zumindest für den EC wäre 'ne Fahrkarte optimal. Nun, nach besagten 60 Minuten immer noch kein Login (geschweige denn Passwortanforderung) gestattet. Öhem, okay... schauen wir mal weiter...  

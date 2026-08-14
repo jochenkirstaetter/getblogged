@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/taking-web-sites-offline-for-demonstration-on-ipad/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 This article is the iOS sequel to the initial article about how to prepare an offline version of your web site for the purpose of demonstration or for exhibitions: [Taking web sites offline for demonstration](xref:taking-web-sites-offline-for-demonstration "Taking web sites offline for demonstration"). If you didn't read the original article, please take some minutes (5 to 10 maximum) to gain a better understanding on the following. Thanks.
 
 I'm going to describe my steps using a new iPad (3rd generation) running on iOS 6. Originally, I did this procedure on iOS 5 which actually provides the same results. Due to a lack of hardware I'm not able to tell you whether this will work on the iPad mini, any iPhone (3, 4, 4S or 5), or an iPod touch. But probably it will just work as described here...

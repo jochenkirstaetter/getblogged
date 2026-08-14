@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: Community DevCon 2005
 metaDescription: Community DevCon 2005 Endlich!Die Einladung kam bereits im Dezember - noch vor Weihnachten - und bis heute zieht sich die Zeit doch wie ein Kaugummi. Aber endlich ist wieder Microsoft Coummnity DevCon! Yeah, allein die Aussicht, wieder andere CLIP Mitglieder, MVPs und INETA Mitglieder offline zu treffen und Gespr&#228;che zu
-image: https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=45138111b012e654687d585bc3b921f6
+image: content/images/2005/02/photo-1522071820081-009f0129c71c.webp
 ogTitle: Community DevCon 2005
 ogDescription: Endlich!Die Einladung kam bereits im Dezember - noch vor Weihnachten - und bis heute zieht sich die Zeit doch wie ein Kaugummi. Aber endlich ist wieder Microsoft Coummnity DevCon! Yeah, allein die...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/community-devcon-2005/
-imageUrl: https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=45138111b012e654687d585bc3b921f6
+imageUrl: content/images/2005/02/photo-1522071820081-009f0129c71c.webp
 twitterImageUrl: https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=45138111b012e654687d585bc3b921f6
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=45138111b012e654687d585bc3b921f6
+featureImage: content/images/2005/02/photo-1522071820081-009f0129c71c.webp
 featured: false
 publishedAt: 2005-02-19T23:00:00Z
 updatedAt: 2018-10-23T05:42:36Z
@@ -52,8 +52,8 @@ facebookDescription: Endlich!Die Einladung kam bereits im Dezember - noch vor We
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Endlich!  
 Die Einladung kam bereits im Dezember - noch vor Weihnachten - und bis heute zieht sich die Zeit doch wie ein Kaugummi. Aber endlich ist wieder Microsoft Coummnity DevCon! Yeah, allein die Aussicht, wieder andere CLIP Mitglieder, MVPs und INETA Mitglieder offline zu treffen und Gespräche zu führen, erfreut mich. Ich find's wirklich klasse.  
   

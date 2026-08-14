@@ -11,7 +11,7 @@ tags:
 keywords: Personal
 metaTitle: Curriculum Vitae
 metaDescription: Curriculum Vitae Personal data Name Jochen Michael Wolfgang Kirstätter Alias JoKi Passport photograph Date of birth 22th May 1976 Location of birth Ludwigshafen (Rhein), Germany Family status Married Parents Wolfgang Wilhelm KirstätterDagmar Ruth Ursula Waltraut Kirstätter, nee Obser Career summary Experience in project and change request management,
-image: https://images.unsplash.com/photo-1521798509035-1c05acf2d840?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2009/12/photo-1521798509035-1c05acf2d840.webp
 ogTitle: Curriculum Vitae
 ogDescription: Windows (NT 4, 2000, XP, Server 2003, Vista and Server 2008)Microsoft SQL Server 2005 and 2008, MySQL 4.x and higher, Oracle 9.x, PostgreSQLMicrosoft Visual FoxPro (6.0 till 9.0), C# with Visual...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/cv/
-imageUrl: https://images.unsplash.com/photo-1521798509035-1c05acf2d840?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2009/12/photo-1521798509035-1c05acf2d840.webp
 twitterImageUrl: https://images.unsplash.com/photo-1521798509035-1c05acf2d840?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1521798509035-1c05acf2d840?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2009/12/photo-1521798509035-1c05acf2d840.webp
 featured: false
 publishedAt: 2009-12-14T02:55:57Z
 updatedAt: 2019-01-07T22:58:32Z
@@ -52,8 +52,8 @@ facebookDescription: Windows (NT 4, 2000, XP, Server 2003, Vista and Server 2008
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 ## Personal data
 
 | Name | [Jochen Michael Wolfgang Kirstätter](https://jochen.kirstaetter.name) |

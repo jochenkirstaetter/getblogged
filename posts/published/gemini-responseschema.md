@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: Gemini ResponseSchema vs JSON Schema specs of "type" as array
 metaDescription: Recently, while developing some changes in the Gemini SDK for .NET and given a reported issue on GitHub I had a look at the possibilities of passing an object as the expected structured output in JSON...
-image: content/images/2025/01/Snapshot_2025-01-20_11-02-42.png
+image: content/images/2025/01/Snapshot_2025-01-20_11-02-42.webp
 ogTitle: Gemini ResponseSchema vs JSON Schema specs of "type" as array
 ogDescription: Recently, while developing some changes in the Gemini SDK for .NET and given a reported issue on GitHub I had a look at the possibilities of passing an object as the expected structured output in JSON...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/gemini-responseschema/
-imageUrl: https://jochen.kirstaetter.name/content/images/2025/01/Snapshot_2025-01-20_11-02-42.png
+imageUrl: content/images/2025/01/Snapshot_2025-01-20_11-02-42.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2025/01/Snapshot_2025-01-20_11-02-42.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2025/01/Snapshot_2025-01-20_11-02-42.png
+featureImage: content/images/2025/01/Snapshot_2025-01-20_11-02-42.webp
 featured: false
 publishedAt: 2025-01-20T07:10:08Z
 updatedAt: 2025-01-20T09:29:03Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Recently, while developing some changes in the Gemini SDK for .NET and given a reported issue on GitHub I had a look at the possibilities of passing an object as the expected structured output in JSON format in order to get the response from the Gemini API.
 
 Turns out it's not trivial and there are several options available, each with of their own obstacles. Let's have a look...
@@ -269,7 +268,7 @@ And therefor indicating that the value of `type` cannot be a list/array of primi
 
 Adding to this observation on the API side, using the same response schema in AIS gives me the following error message on Save.
 
-![image|690x162](../content/images/2025/01/4b0c3a7b76ce041d4a05c14bf642a2bdc0a85de4_2_690x162.png)
+![image|690x162](../content/images/2025/01/4b0c3a7b76ce041d4a05c14bf642a2bdc0a85de4_2_690x162.webp)
 
 Sorry to say but this seems to be a short-coming on Gemini's side regarding the interpretation of JSON Schema specifications.
 

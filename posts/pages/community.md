@@ -10,7 +10,7 @@ tags: []
 keywords: ''
 metaTitle: Community
 metaDescription: Sharing is Caring!
-image: content/images/2017/08/20116908_10203910928450948_74478864427909437_o.jpg
+image: content/images/2017/08/20116908_10203910928450948_74478864427909437_o.webp
 ogTitle: Community
 ogDescription: Sharing is Caring!
 layout: page
@@ -29,16 +29,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/community/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/08/20116908_10203910928450948_74478864427909437_o.jpg
+imageUrl: content/images/2017/08/20116908_10203910928450948_74478864427909437_o.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/08/20116908_10203910928450948_74478864427909437_o.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/08/20116908_10203910928450948_74478864427909437_o.jpg
+featureImage: content/images/2017/08/20116908_10203910928450948_74478864427909437_o.webp
 featured: false
 publishedAt: 2017-08-07T15:17:25Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -52,7 +52,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 > Sharing is Caring!
 
 ## Networking & Community

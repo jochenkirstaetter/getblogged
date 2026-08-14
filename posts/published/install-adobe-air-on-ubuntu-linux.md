@@ -11,7 +11,7 @@ tags:
 keywords: Linux
 metaTitle: Install Adobe AIR on Ubuntu/Linux
 metaDescription: Since quite some time Adobe Technologies released the Linux version of Adobe AIR to bring web applications and widgets to your desktop. Installing new applications on a Linux system is not always as easy as switching the computer on. The following instructions might be helpful to install Adobe AIR on any Linux system.
-image: content/images/2019/02/adobeair.png
+image: content/images/2019/02/adobeair.webp
 ogTitle: Install Adobe AIR on Ubuntu/Linux
 ogDescription: Since quite some time Adobe Technologies released the Linux version of Adobe AIR to bring web applications and widgets to your desktop. Installing new applications on a Linux system is not always as...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/install-adobe-air-on-ubuntu-linux/
-imageUrl: https://jochen.kirstaetter.name/content/images/2019/02/adobeair.png
+imageUrl: content/images/2019/02/adobeair.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2019/02/adobeair.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2019/02/adobeair.png
+featureImage: content/images/2019/02/adobeair.webp
 featured: false
 publishedAt: 2010-03-19T12:32:04Z
 updatedAt: 2019-02-13T03:07:55Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Since quite some time Adobe Technologies released the Linux version of Adobe AIR to bring web applications and widgets to your desktop. Installing new applications on a Linux system is not always as easy as switching the computer on. The following instructions might be helpful to install Adobe AIR on any Linux system.
 
 First of all, get the latest installer of [Adobe AIR](https://get.adobe.com/air/ "Installer of Adobe AIR") from https://get.adobe.com/air/ - as of writing this article the file name is **AdobeAIRInstaller.bin**. Save the download in your preferred folder.

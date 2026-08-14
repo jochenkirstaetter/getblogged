@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/some-more-articles-migrated/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Finally, I got access to one of my local SQL databases with a couple of more articles from my previous blog. It's really interesting to see what I've written throughout the past. Well, today I was able to migrate about 50 more articles from that database. It seems that the content is still a little bit weird but I'm going to correct this behaviour with regular expressions here in the new blog software. That's easier than to modify all those entries.
 
 Funnily, most of the articles are from the year 2006 and 2007. Personally, I like the reports about my poly phase sleeping experiment in spring 2006 the most. It really worked and was a cool experience. Maybe I'll start this again later this year... Who knows.

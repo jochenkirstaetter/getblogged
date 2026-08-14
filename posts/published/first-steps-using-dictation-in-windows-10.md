@@ -11,7 +11,7 @@ tags:
 keywords: Windows
 metaTitle: First steps using dictation in Windows 10
 metaDescription: It looks pretty simple when you see it in movies that dictates into a recording device. Dictating an article requires a lot more concentration than typing.
-image: https://images.unsplash.com/photo-1453738773917-9c3eff1db985?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2019/01/photo-1453738773917-9c3eff1db985.webp
 ogTitle: First steps using dictation in Windows 10
 ogDescription: It looks pretty simple when you see it in movies or watching a practitioner that dictates something into a recording device. Trying to write or better said to dictate an article the first time requires a lot more concentration than typing.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/first-steps-using-dictation-in-windows-10/
-imageUrl: https://images.unsplash.com/photo-1453738773917-9c3eff1db985?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2019/01/photo-1453738773917-9c3eff1db985.webp
 twitterImageUrl: https://images.unsplash.com/photo-1453738773917-9c3eff1db985?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1453738773917-9c3eff1db985?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2019/01/photo-1453738773917-9c3eff1db985.webp
 featured: false
 publishedAt: 2019-01-07T14:00:00Z
 updatedAt: 2019-01-07T20:16:55Z
@@ -52,15 +52,15 @@ facebookDescription: It looks pretty simple when you see it in movies or watchin
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Let's try to do an experiment using dictation mode in Windows 10 to write a whole article.
 
 Dictation mode in Windows 10 can be launched instantly hitting the Win + H hotkey. This opens a small information bar at the of your screen and enables active listening to your microphone. Eventually, you might have to allow permissions.
 
 Currently, [dictation in Windows 10](https://support.microsoft.com/en-us/help/4042244/windows-10-use-dictation) seems to be limited to certain languages, i.e. English (United States). Other languages like German or English (United Kingdom) might be available in the near future.
 
-![Availability of dictation feature is currently limited to certain languages](../content/images/2019/01/Windows10DictationUnknownLanguage.jpg)
+![Availability of dictation feature is currently limited to certain languages](../content/images/2019/01/Windows10DictationUnknownLanguage.webp)
 
 Although dictation mode sounds very easy to use; it's actually not.
 
@@ -76,11 +76,11 @@ At the current stage there seems to be a number of glitches. For example, dictat
 
 Dictation mode also notifies me that the current app, meaning the story editor in Ghost Desktop, is not fully supported at this stage.
 
-![Some apps are not fully supported](../content/images/2019/01/Windows10DictationUnsupportedApp.png)
+![Some apps are not fully supported](../content/images/2019/01/Windows10DictationUnsupportedApp.webp)
 
 Another observation is that dictation mode seems to rely on a proper Internet connectivity in order to work as expected.
 
-![Stable internet connection seems to be a must to use dictation](../content/images/2019/01/Windows10DictationSomethingWrong.png)
+![Stable internet connection seems to be a must to use dictation](../content/images/2019/01/Windows10DictationSomethingWrong.webp)
 
 ## OneNote
 
@@ -110,7 +110,7 @@ For the first attempt I'm using Firefox on Windows, later on I will try Microsof
 
 A quick test with Microsoft Notepad did not succeed. It seems that the scenarios to use dictation mode are limited at the moment. Which seems kind of strange because other online references showed an earlier version of Dictation used in Notepad.
 
-![After several attempts dictation worked in Notepad](../content/images/2019/01/Windows10DictationNotepad.png)
+![After several attempts dictation worked in Notepad](../content/images/2019/01/Windows10DictationNotepad.webp)
 
 Okay, it took me several attempts to successfully dictate some sentences into Notepad. It was mainly to stop and launch Dictation several times hitting Win + H hotkey. Patience seems to be key...
 

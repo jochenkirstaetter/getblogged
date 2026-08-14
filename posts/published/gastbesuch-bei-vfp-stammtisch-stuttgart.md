@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: Gastbesuch bei VFP Stammtisch Stuttgart
 metaDescription: Gastbesuch bei VFP Stammtisch Stuttgart Auf Einladung, oder sollte ich sagen besser &#39;Revanche&#39; sagen?, von Armin Neudert (dFPUG Regionalleiter Stuttgart) bin ich am FR Abend in Herrenberg bei Stuttgart anzutreffen. Dankeswerterweise darf ich den Stuttgarter Stammtisch f&#252;r eine Generalprobe einer AFP-Session f&#252;r die Devcon 2004 &#39;mi&#223;brauchen&#39;. Ich bin mal gespannt,
-image: https://images.unsplash.com/photo-1587196824241-2a289b7d1693?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fHN0dXR0Z2FydHxlbnwwfHx8fDE2OTQ5ODA5NTd8MA&ixlib=rb-4.0.3&q=80&w=2000
+image: content/images/2004/10/photo-1587196824241-2a289b7d1693.webp
 ogTitle: Gastbesuch bei VFP Stammtisch Stuttgart
 ogDescription: Auf Einladung, oder sollte ich sagen besser 'Revanche' sagen?, von Armin Neudert (dFPUG Regionalleiter Stuttgart) bin ich am FR Abend in Herrenberg bei Stuttgart anzutreffen. Dankeswerterweise darf...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/gastbesuch-bei-vfp-stammtisch-stuttgart/
-imageUrl: https://images.unsplash.com/photo-1587196824241-2a289b7d1693?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fHN0dXR0Z2FydHxlbnwwfHx8fDE2OTQ5ODA5NTd8MA&ixlib=rb-4.0.3&q=80&w=2000
+imageUrl: content/images/2004/10/photo-1587196824241-2a289b7d1693.webp
 twitterImageUrl: https://images.unsplash.com/photo-1587196824241-2a289b7d1693?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fHN0dXR0Z2FydHxlbnwwfHx8fDE2OTQ5ODA5NTd8MA&ixlib=rb-4.0.3&q=80&w=2000
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1587196824241-2a289b7d1693?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fHN0dXR0Z2FydHxlbnwwfHx8fDE2OTQ5ODA5NTd8MA&ixlib=rb-4.0.3&q=80&w=2000
+featureImage: content/images/2004/10/photo-1587196824241-2a289b7d1693.webp
 featured: false
 publishedAt: 2004-10-09T10:14:59Z
 updatedAt: 2023-09-17T20:04:51Z
@@ -52,8 +52,8 @@ facebookDescription: Auf Einladung, oder sollte ich sagen besser 'Revanche' sage
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Auf Einladung, oder sollte ich sagen besser 'Revanche' sagen?, von Armin Neudert (dFPUG Regionalleiter Stuttgart) bin ich am FR Abend in Herrenberg bei Stuttgart anzutreffen. Dankeswerterweise darf ich den Stuttgarter Stammtisch für eine Generalprobe einer AFP-Session für die Devcon 2004 'mißbrauchen'. Ich bin mal gespannt, wie fertig ich da raus komme... Wenn überhaupt lebend 😁
 
 Aber es freut mich auch, wieder an einem Treffen mit Entwicklerkollegen aus weiteren Regionen teilzunehmen. Die meiste Zeit kommunizieren wir entweder über das dFPUG Forum, die MS Newsgruppen oder direkt per Mail. Da empfinde ich diese Offline-Treffen als sehr viel persönlicher und vorallem wesentlich spassiger.

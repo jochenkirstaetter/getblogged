@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/vfpconversion-de/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Neben der Klärung der philosophischen Frage, ob ein VFP-Entwickler sich mit dem .NET Framework beschäftigen sollte oder nicht, gibt der zweitägige Workshop zu VFPConversion zunächst einen guten Überblick über die Vor- und Nachteile der beiden unabhängigen Entwicklungssysteme aus dem Hause Microsoft.
 
 Die Anreise wurde bereits auf den Vortag abends geplant und so konnten wir auch ganz locker mit einem Frühstück den heutigen Tag starten. Als Redner geben heute wOOdy, Markus und Gerhard die Unterschiede zum Besten. Als Einstieg gab's einen kurzen Statusbericht zu Visual\_FoxPro und dessen Zukunft. Keine Sorge, diese sieht für die nächsten Jahre auf alle Fälle positiv aus. Zum einen läuft VFP auf den kommenden Betriebssystemen wie etwa Windows Vista und zum anderen besteht ein Produktsupport bis zum Jahr 2014, der von Microsoft zugesichert ist. Ergänzend dazu hat VFP eine sehr starke und vor allem aktive Community, die alle Weichen stellt und alternative Lösungen anstreben wird, dass das Produkt weiterhin stark am Markt bleibt. Hier sind nur mal einige genannt: [deutschsprachige Foxpro User Group](https://www.dfpug.de) (dFPUG), die Programminitiative unter dem Codenamen [SednaX](https://www.sednax.com), welche künftig unter VFPX firmieren wird, sowie [FoxWiki](https://fox.wikis.com).

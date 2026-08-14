@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: 'Launch Event: Windows 10 and Visual Studio 2015'
 metaDescription: Honestly, it's always great to attend social events for software developers, eh craftsmen. Those unique opportunities to meet with other geeks in the field are undenyable and there should be more events like this throughout the year. Apart from getting introduced to new peeps and got quite a number of questions regarding the past and future Developers Conference.
-image: content/images/2017/08/VisualStudioCode_DevConMru.png
+image: content/images/2017/08/VisualStudioCode_DevConMru.webp
 ogTitle: 'Launch Event: Windows 10 and Visual Studio 2015'
 ogDescription: The month July 2015 marked two more great milestones in the history of Microsoft. First, on the 20th of July Visual Studio 2015 has been released and second, just a couple of days later on the 29th of...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/launch-event-windows-10-and-visual-studio-2015/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/08/VisualStudioCode_DevConMru.png
+imageUrl: content/images/2017/08/VisualStudioCode_DevConMru.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/08/VisualStudioCode_DevConMru.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/08/VisualStudioCode_DevConMru.png
+featureImage: content/images/2017/08/VisualStudioCode_DevConMru.webp
 featured: false
 publishedAt: 2015-08-06T07:23:43Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 The month July 2015 marked two more great milestones in the history of Microsoft. First, on the 20th of July [Visual Studio 2015](https://www.visualstudio.com) has been released and second, just a couple of days later on the 29th of July was the global launch of Windows 10. Both latest incarnations of world-wide known and used products coming from Redmond. Back at the begin of June I already got in touch with our local Technical Evangelist asking whether there might be any plans regarding those two activities. And the following weeks I bumped my questions here and there in order to see what's going on here on "Cyber Island". Finally, on the 21st of July I got an official invitation to attend the Windows 10 Launch:
 
 ![Windows 10 official event invitation at Microsoft Indian Ocean Islands & French Pacific](https://s.kirstaetter.name/images/Windows10_EventInvite.png "Windows 10 official event invitation at Microsoft Indian Ocean Islands & French Pacific")  

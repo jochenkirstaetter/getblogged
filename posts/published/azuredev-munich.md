@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: Azure DEV Meetup Munich
 metaDescription: While I was on a business trip to Germany back in February I thought that it might be a good idea to check out some of the local user groups. Azure DEV Meetup Munich offered an interesting topic not far from the hotel I stayed.
-image: content/images/2020/04/WP_20200213_21_52_16_Pro--2-.jpg
+image: content/images/2020/04/WP_20200213_21_52_16_Pro--2-.webp
 ogTitle: Azure DEV Meetup Munich
 ogDescription: While I was on a business trip to Germany back in February I thought that it might be a good idea to check out some of the local user groups. Azure DEV Meetup Munich offered an interesting topic not far from the hotel I stayed.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/azuredev-munich/
-imageUrl: https://jochen.kirstaetter.name/content/images/2020/04/WP_20200213_21_52_16_Pro--2-.jpg
+imageUrl: content/images/2020/04/WP_20200213_21_52_16_Pro--2-.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2020/04/WP_20200213_21_52_16_Pro--2-.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2020/04/WP_20200213_21_52_16_Pro--2-.jpg
+featureImage: content/images/2020/04/WP_20200213_21_52_16_Pro--2-.webp
 featured: false
 publishedAt: 2020-04-24T09:53:58Z
 updatedAt: 2020-04-24T09:53:58Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 While I was on a business trip to Germany back in February I thought that it might be a good idea to check out some of the local user groups. During the day I would be at the customer's site but I wanted to use the evening hours to discover new opportunities.
 
 Turned out that there are quite a number of active user groups in Munich. However their dates either didn't fit my schedule or the maximum limit of attendees had been reached already or I would have been too late to join the event because of distance and public transport.
@@ -64,7 +63,7 @@ Actually, I arrived a few minutes after the official starting time, being slight
 
 After being welcomed by one of the hosts, [Thomas Pentenrieder](https://x.com/th_p), I was asked to note down my name on the attendance sheet - on paper BTW -, and stick one of those fancy name tag badges you might know from the movies onto my chest.
 
-![Name tag sticker - courtesy of [TeePublic](https://www.teepublic.com/sticker/3115706-name-tag)](../content/images/2020/04/image-25.png)
+![Name tag sticker - courtesy of [TeePublic](https://www.teepublic.com/sticker/3115706-name-tag)](../content/images/2020/04/image-25.webp)
 
 "Hi, my name is 'JoKi'"...
 
@@ -76,7 +75,7 @@ It quickly turned out that Thomas is a Microsoft Windows Insider MVP like myself
 
 While munching some slices of delicious pizza others got interested into my technical and professional background as well as how I ended up in Mauritius. Interestingly, some participants knew about Visual FoxPro but were surprised that it still in productive use. Oh yes, it is and it's paying the bills quite nicely too.
 
-![Thomas and Ralf - founders and hosts of Azure DEV Meetup Munich](../content/images/2020/04/WP_20200213_18_50_51_Pro--2-.jpg)
+![Thomas and Ralf - founders and hosts of Azure DEV Meetup Munich](../content/images/2020/04/WP_20200213_18_50_51_Pro--2-.webp)
 
 Inspired by the Aqualung branded T-shirt I finally engaged in a conversation with the other co-host of the evening, [Ralf Richter](https://x.com/rari2003). Turns out that he goes regularly diving in the nearby lakes in the surroundings of Munich, and that he had been to quite a number of dive spots worldwide. IIRC, Mauritius might be still on his list of 'wanna-go' destinations.
 
@@ -86,7 +85,7 @@ Funnily, it turned out that Gregor and I have several common friends. First and 
 
 They witnessed our wedding while they were on their honeymoon in Mauritius. I know both since my early days of working with VFP. Actually, Markus and I worked on the same project(s) back then, we met regularly at the annual dFPUG Entwicklerkonferenz (German FoxPro User Group Developer Conference), and we both run a regional user group of the dFPUG.
 
-![Gregor Biswanger, MVP and me](../content/images/2020/04/WP_20200213_21_07_31_Pro--2-.jpg)
+![Gregor Biswanger, MVP and me](../content/images/2020/04/WP_20200213_21_07_31_Pro--2-.webp)
 
 Turns out that Marina fixed up Gregor's computer at some stage and Markus got him into public speaking back then. Fascinating!
 
@@ -96,7 +95,7 @@ Our conversation could have lasted for hours. However it was time to get started
 
 The topic of the evening was about MongoDB and then Azure Cosmos DB. In particular about how to use the MongoDB-API of Azure Cosmos DB.
 
-![Yes, zu NoSQL! by Gregor Biswanger](../content/images/2020/04/WP_20200213_19_03_21_Pro--2-.jpg)
+![Yes, zu NoSQL! by Gregor Biswanger](../content/images/2020/04/WP_20200213_19_03_21_Pro--2-.webp)
 
 Do you know where the name MongoDB actually originates from?  
 *(Answer at the end of the article)*

@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/learning-from-jquery/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 ![Learning from jQuery by Callum Macrae (O'Reilly)](https://akamaicovers.oreilly.com/images/0636920026280/cat.gif)Frankly speaking, I had to sleep a night over before typing this review.
 
 And even now it is not an easy, straight-forward task to write this recension. I'm not sure whether I'm the right kind of audience this title is actually addressed to. It clearly states that this book is for web developers which are very familiar with jQuery library but would like to extend their knowledge to vanilla JavaScript. Not being part of this particular group it felt strange to go through the various chapters after all. This title is clearly addressed to experienced jQuery users and developers especially while looking for improvements in performance and better ways of optimisations. Sometimes just to simplify the existing jQuery code in order to avoid the heavy load of the complete jQuery library and sometimes for the better understanding of JavaScript and its syntax.

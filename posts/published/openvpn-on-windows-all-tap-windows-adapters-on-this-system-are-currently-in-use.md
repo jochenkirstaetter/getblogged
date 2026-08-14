@@ -13,7 +13,7 @@ tags:
 keywords: Development, Linux, Windows
 metaTitle: 'OpenVPN: All TAP-Windows adapters on this system are currently in use'
 metaDescription: An OpenVPN client error like 'All TAP-Windows adapters on this system are currently in use.' can be resolved easily given a proper installation of OpenVPN.
-image: https://images.unsplash.com/photo-1517373116369-9bdb8cdc9f62?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=1477902d871f75ce35d69ab0dc5631c0
+image: content/images/2018/08/photo-1517373116369-9bdb8cdc9f62.webp
 ogTitle: 'OpenVPN: All TAP-Windows adapters on this system are currently in use'
 ogDescription: An OpenVPN client error like 'All TAP-Windows adapters on this system are currently in use.' can be resolved easily given a proper installation of OpenVPN.
 layout: post
@@ -32,16 +32,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/openvpn-on-windows-all-tap-windows-adapters-on-this-system-are-currently-in-use/
-imageUrl: https://images.unsplash.com/photo-1517373116369-9bdb8cdc9f62?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=1477902d871f75ce35d69ab0dc5631c0
+imageUrl: content/images/2018/08/photo-1517373116369-9bdb8cdc9f62.webp
 twitterImageUrl: https://images.unsplash.com/photo-1517373116369-9bdb8cdc9f62?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=1477902d871f75ce35d69ab0dc5631c0
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1517373116369-9bdb8cdc9f62?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=1477902d871f75ce35d69ab0dc5631c0
+featureImage: content/images/2018/08/photo-1517373116369-9bdb8cdc9f62.webp
 featured: false
 publishedAt: 2018-08-31T08:49:42Z
 updatedAt: 2018-08-31T08:52:09Z
@@ -54,8 +54,8 @@ facebookDescription: An OpenVPN client error like 'All TAP-Windows adapters on t
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Working with several clients or partners might be an interesting challenge sometimes. While adding a new connection to an [existing OpenVPN infrastructure](xref:openvpn-revisited) I came across the following error message in the client log file: All TAP-Windows adapters on this system are currently in use.
 
 Depending on how you actually installed your VPN client software you might be facing this issue while adding an additional client configuration for another connection. Especially when you are using a client software by a third-party provider, ie. [WatchGuard Mobile VPN](xref:connecting-linux-to-watchguard-firebox-ssl) or Sophos. Perhaps you might be struggling to resolve it.
@@ -66,9 +66,9 @@ Check whether you have the full installation of OpenVPN software. If yes, you mi
 
 Otherwise, please navigate to the [Community Downloads](https://openvpn.net/index.php/download/community-downloads.html) of OpenVPN and either get the latest OpenVPN package, or if you think that this might be an issue, scroll down a little bit on same page and get Tap-windows package for your system. After the download is complete, run the installation routine and make sure to select *TAP Virtual Ethernet Adapter* like so:
 
-![Choose Components during the setup of OpenVPN](../content/images/2018/08/OpenVPN-Setup.png)
+![Choose Components during the setup of OpenVPN](../content/images/2018/08/OpenVPN-Setup.webp)
 
-![Install the OpenVPN tools for TAP-Windows based on NDIS](../content/images/2018/08/OpenVPN-TapWindows.png)
+![Install the OpenVPN tools for TAP-Windows based on NDIS](../content/images/2018/08/OpenVPN-TapWindows.webp)
 
 You might have to reboot Windows to complete the network driver installation.
 
@@ -76,7 +76,7 @@ You might have to reboot Windows to complete the network driver installation.
 
 Now, you should be able to add an additional TAP interface to your system, and make it available for your new OpenVPN connection. Hit the Start button or press the Win key, then type `tap` and wait for Windows to give you its matches found on the system. Here is how it looks like on my Windows 10:
 
-![Launch the addition of a TAP virtual ethernet adapter via Windows Start menu](../content/images/2018/08/OpenVPN-StartMenuTap.png)
+![Launch the addition of a TAP virtual ethernet adapter via Windows Start menu](../content/images/2018/08/OpenVPN-StartMenuTap.webp)
 
 Click on the entry *Add a new TAP virtual ethernet adapter* and confirm the User Account Control (UAC) dialog with *Yes*. You then see an administrative command prompt that adds another network interface to your Windows.
 
@@ -96,7 +96,7 @@ And your OpenVPN client is ready to roll.
 
 The shortcut below the Windows Start menu is linked to a batch file which you can also access and launch directly from **%ProgramFiles%\TAP-Windows\bin**
 
-![Use the OpenVPN TAP installer directly in Windows Explorer](../content/images/2018/08/OpenVPN-Explorer.png)
+![Use the OpenVPN TAP installer directly in Windows Explorer](../content/images/2018/08/OpenVPN-Explorer.webp)
 
 **Note:** Ensure to run the batch file with administrative permissions. Otherwise, the driver installation will fail.
 
@@ -104,7 +104,7 @@ The shortcut below the Windows Start menu is linked to a batch file which you ca
 
 Perhaps you would like to inspect the existing TAP-Windows Adapters? You find them in the Control Panel under Network Connections.
 
-![The TAP adapters are accessible in the Windows Network Connections](../content/images/2018/08/OpenVPN-NetworkConnections.png)
+![The TAP adapters are accessible in the Windows Network Connections](../content/images/2018/08/OpenVPN-NetworkConnections.webp)
 
 The adapters are classified as *TAP-Windows Adapter V9*. Here you can enable, disable or even delete an existing network interface.
 

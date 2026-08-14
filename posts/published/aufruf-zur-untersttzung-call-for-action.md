@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/aufruf-zur-untersttzung-call-for-action/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Bei der Recherche zu den Sessionnotes der [Devcon Prag 2006](https://www.daquas.cz/fox/devcon2006an/) bin ich gestern im [DevBlog von Craig Bernston](https://www.craigberntson.com/blog/) hängengeblieben. Dort steht ein Beitrag mit einem Verweis auf [FoxPro Successes](https://www.foxprosuccess.com/). Dabei handelt es sich um eine Website zum Zusammentragen und Veröffentlichen von Erfolgsgeschichten bzw. Fallstudien zu Visual FoxPro Projekten.
 
 \*The FoxProSuccess.com site is intended to be a resource for the community to let the world know what a productive community can do with a vital tool like Visual FoxPro. We hope to gather success stories from guest writers into this central repository.

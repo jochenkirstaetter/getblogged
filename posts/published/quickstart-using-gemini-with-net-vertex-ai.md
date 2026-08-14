@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: 'Quickstart: Use Gemini with .NET (Vertex AI)'
 metaDescription: Use Gemini in .NET in shortest time following this quickstart to configure Vertex AI on Google Cloud and add generative AI features to your apps.
-image: content/images/2024/04/Gemini_Generated_Image.jpeg
+image: content/images/2024/04/Gemini_Generated_Image.webp
 ogTitle: 'Quickstart: Use Gemini with .NET (Vertex AI)'
 ogDescription: Use Gemini in .NET in shortest time following this quickstart to configure Vertex AI on Google Cloud and add generative AI features to your apps.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/quickstart-using-gemini-with-net-vertex-ai/
-imageUrl: https://jochen.kirstaetter.name/content/images/2024/04/Gemini_Generated_Image.jpeg
+imageUrl: content/images/2024/04/Gemini_Generated_Image.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2024/04/Gemini_Generated_Image.jpeg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2024/04/Gemini_Generated_Image.jpeg
+featureImage: content/images/2024/04/Gemini_Generated_Image.webp
 featured: false
 publishedAt: 2024-04-03T09:31:20Z
 updatedAt: 2024-04-03T09:32:49Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 This quickstart shows you how to get started with the Gemini API in Vertex AI on Google Cloud using an SDK for .NET called [Mscc.GenerativeAI](https://www.nuget.org/packages/Mscc.GenerativeAI/).
 
 ## Prerequisites
@@ -145,7 +144,7 @@ await foreach (var response in responseStream)
 
 Explore the [README](https://www.nuget.org/packages/Mscc.GenerativeAI/) of the NuGet package which has more samples documented. All unit tests are accessible in the [GitHub repository](https://github.com/mscraftsman/generative-ai):
 
-[GitHub - mscraftsman/generative-ai: Gemini AI Client for .NETGemini AI Client for .NET. Contribute to mscraftsman/generative-ai development by creating an account on GitHub.![](https://github.githubassets.com/favicons/favicon.svg)GitHubmscraftsman![](https://opengraph.githubassets.com/75de26a26c206cf142204c77b13e5c9bcf75e72f9558f35bc27484c20585a4fe/mscraftsman/generative-ai)](https://github.com/mscraftsman/generative-ai)
+[GitHub - mscraftsman/generative-ai: Gemini AI Client for .NETGemini AI Client for .NET. Contribute to mscraftsman/generative-ai development by creating an account on GitHub.![](https://github.githubassets.com/favicons/favicon.svg)GitHubmscraftsman![](../content/images/2024/04/generative-ai.webp)](../content/images/2024/04/generative-ai.webp)
 
 If you're new to generative AI models, you might want to look at the [concepts guide](https://ai.google.dev/docs/concepts) and the [Gemini API overview](https://ai.google.dev/docs/gemini_api_overview) before trying a quickstart.
 

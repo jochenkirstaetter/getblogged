@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: "MSCC: Scripting - Administrator's­ toolbox of magic..."
 metaDescription: Ish and Dan had well prepared presentations on shell scripting, mainly focused towards Bourne Again Shell (bash), and the pros and cons of scripting versus actually writing something in a decent programming language. I thought that I could cut myself out of the equation but the demand for information about PowerShell was higher than expected...
-image: https://images.unsplash.com/photo-1533229613598-751dc97ec35f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2014/05/photo-1533229613598-751dc97ec35f.webp
 ogTitle: "MSCC: Scripting - Administrator's­ toolbox of magic..."
 ogDescription: Finally, we made it to have our April meetup - in May. The most obvious explanation is the increased amount of open source and IT activities that either the MSCC, the Linux User Group of Mauritius...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mscc-scripting-administrators-toolbox-of-magic/
-imageUrl: https://images.unsplash.com/photo-1533229613598-751dc97ec35f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2014/05/photo-1533229613598-751dc97ec35f.webp
 twitterImageUrl: https://images.unsplash.com/photo-1533229613598-751dc97ec35f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1533229613598-751dc97ec35f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2014/05/photo-1533229613598-751dc97ec35f.webp
 featured: false
 publishedAt: 2014-05-04T03:22:40Z
 updatedAt: 2019-01-07T22:30:27Z
@@ -52,9 +52,9 @@ facebookDescription: Finally, we made it to have our April meetup - in May. The 
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
-[![Logo of the Mauritius Software Craftsmanship Community](https://s.kirstaetter.name/images/mscc.jpg)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community")Finally, we made it to have our April meetup - in May. The most obvious explanation is the increased amount of open source and IT activities that either the MSCC, the Linux User Group of Mauritius (LUGM), or the University of Mauritius Student's Computer Club is organising. It's absolutely incredible to see the recent hype of events here on the island. And I'm loving it!
+[![Logo of the Mauritius Software Craftsmanship Community](../content/images/2013/11/mscc.webp)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community")Finally, we made it to have our April meetup - in May. The most obvious explanation is the increased amount of open source and IT activities that either the MSCC, the Linux User Group of Mauritius (LUGM), or the University of Mauritius Student's Computer Club is organising. It's absolutely incredible to see the recent hype of events here on the island. And I'm loving it!
 
 Unfortunately, we also had to deal with arranging for a location this time. It was kind of an odyssey as my requests (and phone calls) haven't been answered, even though I tried it several times - well, kind of disappointing and I have to look into that for future gatherings. In my opinion, it is essential that two parameters of a community meeting are fixed as early as possible:
 
@@ -85,7 +85,7 @@ Glad to see a couple of first time attendees, especially students from the unive
 
 ## []()Some details on the presentations
 
-![MSCC: First time visit at the University of Mauritius - Phase II Engineering Tower, room 2.9](https://s.kirstaetter.name/images/mscc-20140503-scripting-1.png)  
+![MSCC: First time visit at the University of Mauritius - Phase II Engineering Tower, room 2.9](../content/images/2014/05/mscc-20140503-scripting-1.webp)  
 *MSCC: First time visit at the University of Mauritius - Phase II Engineering Tower, room 2.9*
 
 ### Gimme some love ... bash and other shells
@@ -104,11 +104,11 @@ What's the output?
 
 As a conclusion, Daniel suggests that shell scripting should be limited but not restricted to automatic repetitive command stacks and batch jobs, startup wrapper for applications in order to set up the execution environment, and other not too sophisticated jobs. But as soon as it might involve a little bit more logic or you might rely on performance it's better to write an application in Ruby, Python, or Perl (among others of course). This is also enables the possibility to test your code properly.
 
-![MSCC: Ish talking about bash and shell scripting](https://s.kirstaetter.name/images/mscc-20140503-scripting-2.jpg)*MSCC: Ish talking about Bourne Again Shell (bash) and shell scripting to automate regular tasks*
+![MSCC: Ish talking about bash and shell scripting](../content/images/2014/05/mscc-20140503-scripting-2.webp)*MSCC: Ish talking about Bourne Again Shell (bash) and shell scripting to automate regular tasks*
 
-![MSCC: Daniel gives an overview about the pros and cons of shell scripting versus programming](https://s.kirstaetter.name/images/mscc-20140503-scripting-3.jpg)*MSCC: Daniel gives an overview about the pros and cons of shell scripting versus programming*
+![MSCC: Daniel gives an overview about the pros and cons of shell scripting versus programming](../content/images/2014/05/mscc-20140503-scripting-3.webp)*MSCC: Daniel gives an overview about the pros and cons of shell scripting versus programming*
 
-![MSCC: PowerShell as your scripting solution on Windows operating systems](https://s.kirstaetter.name/images/mscc-20140503-scripting-4.jpg)*MSCC: PowerShell as your scripting solution on Windows operating systems*
+![MSCC: PowerShell as your scripting solution on Windows operating systems](../content/images/2014/05/mscc-20140503-scripting-4.webp)*MSCC: PowerShell as your scripting solution on Windows operating systems*
 
 ### The path of the Enlightened is long ...
 

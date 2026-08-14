@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/finally----afp-faq-wieder-online/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Puuuuuh, was ein Alptraum...  
 ...nach etlichen Stunden ist der Artikelbestand der AFP FAQ beinahe vollständig wiederhergestellt - ca. 300 Artikel auf deutsch, englisch und spanisch. Ist wirklich spannend zu sehen, wieviel und vorallem wo man seine Spuren im Internet hinterlässt. Wirklich faszinierend und diesem speziellen Fall ein wahrer Segen.  
   

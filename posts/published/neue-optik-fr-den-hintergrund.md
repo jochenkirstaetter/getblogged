@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/neue-optik-fr-den-hintergrund/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Die bei Windows XP und anderen Windows Betriebssystemen mitgelieferten Hintergrundbilder, neudt. Wallpapers, haben bereits ihren Charme. Jedoch ist der bekannte Anblick über die Jahre hinweg ein wenig ausgelutscht. Also, was tun? Nun, in den Weiten des Internets gibt es wie immer unendliche Möglichkeiten und auf der Suche nach Abwechselung habe ich mir mal diverse Websites für Wallpaper angeschaut.
 
 Zuerst ein wenig in der Erinnerung gekramt und bei [deviantART](https://browse.deviantart.com/wallpaper) reingeschaut. Dort hatte ich mir zuletzt vor zwei, drei Jahren mal wirklich coole Bilder für meine Linux-Maschinen gezogen. Absolut empfehlenswerte Seite. Selbstverständlich dürfen in dieser Auswahl die Schlagseiten und Cover der Fachzeitschrift c't des [Heise Verlag](https://www.heise.de) nicht fehlen. Weiter geht's zu den diversen Themes-Sites. Hier mal 'ne kleine Auflistung dazu:

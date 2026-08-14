@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: Switch to English language
 metaDescription: Switch to English language Yeah, finally I switch to English language.Starting in 2008 I write future articles in this blog in English language only. Well, maybe sometimes there will be also some German sentences but the main focus is on English, for sure. This is for several reasons... First, more
-image: https://images.unsplash.com/photo-1529514498599-74ebec1ecc28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2008/01/photo-1529514498599-74ebec1ecc28.webp
 ogTitle: Switch to English language
 ogDescription: Yeah, finally I switch to English language.Starting in 2008 I write future articles in this blog in English language only. Well, maybe sometimes there will be also some German sentences but the main...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/switch-to-english-language/
-imageUrl: https://images.unsplash.com/photo-1529514498599-74ebec1ecc28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2008/01/photo-1529514498599-74ebec1ecc28.webp
 twitterImageUrl: https://images.unsplash.com/photo-1529514498599-74ebec1ecc28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1529514498599-74ebec1ecc28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2008/01/photo-1529514498599-74ebec1ecc28.webp
 featured: false
 publishedAt: 2008-01-17T11:55:06Z
 updatedAt: 2020-02-27T03:10:38Z
@@ -52,8 +52,8 @@ facebookDescription: Yeah, finally I switch to English language.Starting in 2008
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Yeah, finally I switch to English language.  
   
 Starting in 2008 I write future articles in this blog in English language only. Well, maybe sometimes there will be also some German sentences but the main focus is on English, for sure. This is for several reasons...  

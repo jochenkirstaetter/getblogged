@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: 'MSCC: Clean Code Development & Flexible work environment'
 metaDescription: Professional - It's getting better with our meetups and I really appreciated that 'seniors' and 'juniors' were present today. Despite running a little bit out of time it was really great to see more students coming to the gathering.
-image: content/images/2019/01/highres_285414502-1.jpeg
+image: content/images/2019/01/highres_285414502-1.webp
 ogTitle: 'MSCC: Clean Code Development & Flexible work environment'
 ogDescription: Finally, some spare time to summarize my impressions and experiences of the recent meetup of Mauritius Software Craftsmanship Community. I already posted my comment on the event and on our social...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mscc-26102013-clean-code-developer-flexible-work-environment/
-imageUrl: https://jochen.kirstaetter.name/content/images/2019/01/highres_285414502-1.jpeg
+imageUrl: content/images/2019/01/highres_285414502-1.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2019/01/highres_285414502-1.jpeg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2019/01/highres_285414502-1.jpeg
+featureImage: content/images/2019/01/highres_285414502-1.webp
 featured: false
 publishedAt: 2013-10-28T05:19:32Z
 updatedAt: 2019-01-28T03:01:47Z
@@ -53,8 +53,7 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
-[![Banner of Clean Code Developer](https://s.kirstaetter.name/images/ccd.jpg)](https://clean-code-developer.com "Clean Code Developer")Finally, some spare time to summarize my impressions and experiences of [the recent meetup of Mauritius Software Craftsmanship Community](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/events/142138022/ "the recent meetup of Mauritius Software Craftsmanship Community"). I already posted my comment on the event and on our social media networks:
+[![Banner of Clean Code Developer](../content/images/2013/09/mscc-21092013-clean-code-developer-certification.webp)](https://clean-code-developer.com "Clean Code Developer")Finally, some spare time to summarize my impressions and experiences of [the recent meetup of Mauritius Software Craftsmanship Community](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/events/142138022/ "the recent meetup of Mauritius Software Craftsmanship Community"). I already posted my comment on the event and on our social media networks:
 
 > *Professional - It's getting better with our meetups and I really appreciated that 'seniors' and 'juniors' were present today. Despite running a little bit out of time it was really great to see more students coming to the gathering.*
 
@@ -89,7 +88,7 @@ What seems to be like a personal mantra is working out pretty well for me since 
 Actually, it is not a coincidence that one of the questions new craftsmen should answer during registration asks about having a personal blog. Whether you are just curious about IT, right in the middle of your Computer Studies, or already working in software development or system administration since a while you should consider to advertise and market yourself online. Easiest way to resolve this are to have online profiles on professional social media networks like [LinkedIn](https://www.linkedin.com/ "LinkedIn"), [Xing](https://www.xing.com/ "Xing"), [Twitter](https://x.com/ "Twitter"), and [Google+](https://plus.google.com/ "Google+") (no Facebook should be considered for private only), and considering to have a personal blog.  
 **Why?** -- Be yourself, be proud of your work, and let other people know that you're passionate about your profession. Trust me, this is going to open up opportunities you might not have dreamt about...
 
-![MSCC meetup on the 26th October 2013](https://s.kirstaetter.name/images/mscc-20131026-2.png)  
+![MSCC meetup on the 26th October 2013](../content/images/2013/10/mscc-20131026-2.webp)  
 *Exchanging ideas about having a professional online presence - MSCC meetup on the 26th October 2013*
 
 Furthermore, consider to put your Curriculum Vitae online, too. There are quite a number of service providers like [1ClickCV](https://www.1clickcv.com/ "1ClickCV"), [Stack Overflow Careers 2.0](https://careers.stackoverflow.com "Stack Overflow Careers 2.0"), etc. which give you the ability to have an up to date CV online. At least put it on your site, next to your personal blog. Similar to what you would be able to [see on my site here](xref:cv).
@@ -126,7 +125,7 @@ We also had a good exchange on the extended topic of 'Reviews' - which to my opi
 
 Honestly, I have no evidence about why these are the two 'solutions' on reviews but that's the situation that I had to face over the last couple of years. Sitting together and talking about problematic issues, tackling down root causes of de-motivational activities and working on general improvements doesn't seem to have a ground within the IT world of Mauritius.
 
-![MSCC meetup on the 26th October 2013](https://s.kirstaetter.name/images/mscc-20131026-1.png)  
+![MSCC meetup on the 26th October 2013](../content/images/2013/10/mscc-20131026-1.webp)  
 *Are you a typist or a creative software craftsman? - MSCC meetup on the 26th October 2013*
 
 One very good example that we talked about was the fact of 'job hoppers' as you can easily observe it on someone's CV - those people change job every single year; for no obvious reason! Frankly speaking, I wouldn't even consider an IT person like to for an interview. As a company you're investing money and effort into the abilities of your employees. Hiring someone that won't stay for a longer period is out of question. And sorry to say, these kind of IT guys smell fishy about their capabilities and more likely to cause problems than actually produce productive results. One of the reasons why there is a probation period on an employment contract is to give you the liberty to leave as early as possible in case that you don't like your new position. Don't fool yourself or waste other people's time and money by hanging around a full year only to snatch off the bonus payment...

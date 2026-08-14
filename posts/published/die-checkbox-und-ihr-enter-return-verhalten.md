@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/die-checkbox-und-ihr-enter-return-verhalten/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 ## Das Problem
 
 Heute mal wieder etwas aus der Programmierküche mit dem Fuchs. Ausgehend von einer Anforderung in einem laufenden Projekt sollte es ermöglicht werden, dass man innerhalb eines VFP Grids sowohl mit der Tab-Taste wie auch der Enter-Taste durch die Zellen navigieren kann. Nun, soweit stellt dies eigentlich kein Problem dar.

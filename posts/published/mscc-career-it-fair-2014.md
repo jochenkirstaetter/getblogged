@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: 'MSCC: Career & IT Fair 2014'
 metaDescription: The first Career & IT Fair 2014 organised by the UoM Computer Club was a great experience, and as representative of the MSCC I was able to get in touch with a number of local IT companies
-image: https://images.unsplash.com/photo-1528105692100-1d1b784e7019?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2014/04/photo-1528105692100-1d1b784e7019.webp
 ogTitle: 'MSCC: Career & IT Fair 2014'
 ogDescription: Already a couple of weeks ago, I've been addressed by Ibraahim and Yunus to see whether it would be interesting to participate in the 1st Career & IT Fair organised by the UoM Computer Club. Well...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mscc-career-it-fair-2014/
-imageUrl: https://images.unsplash.com/photo-1528105692100-1d1b784e7019?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2014/04/photo-1528105692100-1d1b784e7019.webp
 twitterImageUrl: https://images.unsplash.com/photo-1528105692100-1d1b784e7019?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1528105692100-1d1b784e7019?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2014/04/photo-1528105692100-1d1b784e7019.webp
 featured: false
 publishedAt: 2014-04-26T09:21:07Z
 updatedAt: 2019-01-07T22:29:48Z
@@ -52,9 +52,9 @@ facebookDescription: Already a couple of weeks ago, I've been addressed by Ibraa
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
-[![Logo of the Mauritius Software Craftsmanship Community](https://s.kirstaetter.name/images/mscc.jpg)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community")Already a couple of weeks ago, I've been addressed by Ibraahim and Yunus to see whether it would be interesting to participate in the 1st [Career & IT Fair organised by the UoM Computer Club](https://www.facebook.com/events/294960053999856/). Well, luckily we met at the [Global Windows Azure Bootcamp](xref:mscc-global-windows-azure-bootcamp "Global Windows Azure Bootcamp") and I wasn't too sure whether it would be possible for me to attend after all. The main reason is given because of work demand and furthermore due to the fact that the [Mauritius Software Craftsmanship Community](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/ "Mauritius Software Craftsmanship Community") currently has no advertising material at all.
+[![Logo of the Mauritius Software Craftsmanship Community](../content/images/2013/11/mscc.webp)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community")Already a couple of weeks ago, I've been addressed by Ibraahim and Yunus to see whether it would be interesting to participate in the 1st [Career & IT Fair organised by the UoM Computer Club](https://www.facebook.com/events/294960053999856/). Well, luckily we met at the [Global Windows Azure Bootcamp](xref:mscc-global-windows-azure-bootcamp "Global Windows Azure Bootcamp") and I wasn't too sure whether it would be possible for me to attend after all. The main reason is given because of work demand and furthermore due to the fact that the [Mauritius Software Craftsmanship Community](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/ "Mauritius Software Craftsmanship Community") currently has no advertising material at all.
 
 Here's the brief statement of the event:
 
@@ -89,10 +89,10 @@ So far, all of the representatives were really interested in our concepts and ac
 
 ## Some pictures from the event
 
-![MSCC: Fantastic outlook for the near future. Announcements were made on Big data, nanotechnology, and space control centre in Mauritius. Interesting!](https://s.kirstaetter.name/images/mscc-uomcc-career-fair-1.jpg)  
+![MSCC: Fantastic outlook for the near future. Announcements were made on Big data, nanotechnology, and space control centre in Mauritius. Interesting!](../content/images/2014/04/mscc-uomcc-career-fair-1.webp)  
 *MSCC: Fantastic outlook for the near future. Announcements were made on Big data, nanotechnology, and space control centre in Mauritius. Interesting!*
 
-![MSCC: The lobby area was cramped with students. Great way to exchange and network. Good luck to all candidates!](https://s.kirstaetter.name/images/mscc-uomcc-career-fair-2.png)  
+![MSCC: The lobby area was cramped with students. Great way to exchange and network. Good luck to all candidates!](../content/images/2014/04/mscc-uomcc-career-fair-2.webp)  
 *MSCC: The lobby area was cramped with students. Great way to exchange and network. Good luck to all candidates!*
 
 ## []()Passing the relay staff to...

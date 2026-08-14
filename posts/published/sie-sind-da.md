@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/sie-sind-da/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 "Ja, wo laufen sie denn?", "Mein Gott, warum machen sie das denn?" - diese netten Zitate von Loriot sind mir spontan bei der deutschen Werbekampagne für [Visual Studio 2005](https://msdn.microsoft.com/vstudio/), [SQL Server 2005](https://msdn.microsoft.com/sql/) und [Biztalk Server 2006](https://msdn.microsoft.com/biztalk/) in den Sinn gekommen. Nun, im Vergleich zur amerikanischen Variante "Ready to Rock the Launch" wirkt "Sie sind da" ein wenig spröde...  
   
 Aber okay, andere Kultur, andere Sitten, andere Bräuche... ![icon_cool](https://jochen.kirstaetter.name/sie-sind-da/smilies/icon_cool.gif)  

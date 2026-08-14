@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/surfin-hotspots/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Hm, schon praktisch, wenn man WLAN an beliebigen Stellen und Orten nutzen kann. Sitze hier gerade wartend im Maritim in Stuttgart rum - während ich auf die anderen für den Start der morgigen VFP-Roadshow warte - und verdinge mir die Zeit mit Blogging... Was auch sonst?  
   
 Für's Abendprogramm sind noch ein paar Kleinigkeiten abzusprechen, dann geht's weiter... Hm, wenn ich Zugriff auf meine T-Onlinedaten hätte, dann bräuchte ich mir weniger Gedanken über die Zeit zu machen, aber... Naja, ich werd's überleben. Dennoch ist es spannend zu betrachten wie sehr doch der Alltag eines Entwicklers und Community-Aktivisten auf das Internet ausgelegt ist - ah, inzwischen sind die Mailaccounts abgerufen...  

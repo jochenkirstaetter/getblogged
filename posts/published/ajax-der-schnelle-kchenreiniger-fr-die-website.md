@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/ajax-der-schnelle-kchenreiniger-fr-die-website/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Zumindest war das mein erster Gedanke nachdem ich von einem Kollegen einen Überblick über [Asynchronous JavaScript and XML](https://de.wikipedia.org/wiki/AJaX) (AJaX) vermittelt bekomme habe. Der aktuelle Hype um diesen Kommunikationsansatz zwischen Client (in Form des Browsers) und Server (beliebiger Webserver) scheint mir auf alle Fälle mal wieder ziemlich aufgeblasen. Wenn man bedenkt, dass AJaX eigentlich schon seit 1998 Bestand in der Webentwicklung hat, nunja, Guten Morgen Webentwickler!
 
 Microsoft stellte in Verbindung mit dem Outlook Web Access (OWA) die Kombination von JScript/VBScript und HTML/XML erstmalig vor. Die Verbreitung dieses wirklich coolen Arbeitsumfeldes wurde jedoch bedingt durch die eingesetzte ActiveX-Technologie, der Reduzierung auf die Windowsplattform und damit dem Internet Explorer, sowie den fast täglichen Schlagzeilen zu Sicherheitslücken bei ActiveX-Komponenten in Webseiten extremst in den Hintergrund gedrängt. Wirklich schade...

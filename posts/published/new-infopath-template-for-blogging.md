@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/new-infopath-template-for-blogging/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Today, I finally switched my InfoPath template from SimpleBlogger to CSBlogger. Now I'm again able to write my postings to the Foxite weblog offline in InfoPath and submit the content anytime later. Editing articles and reading comments is possible as well. Personally, I'd like this kind of front-end to web sites. The InfoPath template is more comfortable than the web client, and therefore I'm able to write my entries in chunks even while not connected to the internet.
 
 So, if you're interested in CSBlogger take a look at the URL

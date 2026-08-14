@@ -12,7 +12,7 @@ tags:
 keywords: Community, Activity
 metaTitle: InterCommunity 2017
 metaDescription: Share more local content - Mauritius is still consuming more content than actually creating and sharing information. With better understanding and corporation between local service providers and a revised price structure this could be achieved soon, given the existing technology available today.
-image: content/images/2017/10/WP_20170919_10_34_03_Pro.jpg
+image: content/images/2017/10/WP_20170919_10_34_03_Pro.webp
 ogTitle: InterCommunity 2017
 ogDescription: Share more local content - Mauritius is still consuming more content than actually creating and sharing information. With better understanding and corporation between local service providers and a revised price structure this could be achieved soon, given the existing technology available today.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/icomm17/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/10/WP_20170919_10_34_03_Pro.jpg
+imageUrl: content/images/2017/10/WP_20170919_10_34_03_Pro.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/10/WP_20170919_10_34_03_Pro.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/10/WP_20170919_10_34_03_Pro.jpg
+featureImage: content/images/2017/10/WP_20170919_10_34_03_Pro.webp
 featured: false
 publishedAt: 2017-10-12T11:56:42Z
 updatedAt: 2019-01-31T15:21:23Z
@@ -54,7 +54,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Following an informative posting by Duskh Koonjoobeeharry, founder of the [Atlassian User Group Mauritius](https://aug.atlassian.com/mauritius/) on Facebook, I signed up first time to attend the annual [InterCommunity 2017](https://www.internetsociety.org/intercommunity/2017/) by the [Internet Society (ISOC)](https://www.internetsociety.org/).
 
 This year marked the [25th anniversairy](https://www.internetsociety.org/blog/2017/09/internet-societys-25th-anniversary-renewal-commitment/) of the Internet Society, and a 24 hours live stream among several nodes across the globe gave me an opportunity to learn more about the association.
@@ -79,7 +78,7 @@ Before the sessions kicked off I managed to chat a bit with [Logan](https://x.co
 
 According to the schedule the local panel discussion was set for one hour starting at 10:00 hrs (6:00 hrs UTC). Vymala Thuron from [AFRINIC](https://afrinic.net/) managed the handover from the broadcasting HQ in Brussels and kicked off the conversation with some interesting questions for the four panelists.
 
-![InterComm 2017 - Node hand-over to panelists in Mauritius](../content/images/2017/10/WP_20170919_09_48_33_Pro.jpg)
+![InterComm 2017 - Node hand-over to panelists in Mauritius](../content/images/2017/10/WP_20170919_09_48_33_Pro.webp)
 
 Following I'm trying to summarise what was discussed.
 
@@ -117,6 +116,6 @@ It was also mentioned that the adaption of IPv6 is increasing and that current i
 
 Right now Mauritius is still consuming more content than actually creating and sharing information.
 
-![Mauritius - Share more local content](../content/images/2017/10/WP_20170919_10_49_30_Pro.jpg)
+![Mauritius - Share more local content](../content/images/2017/10/WP_20170919_10_49_30_Pro.webp)
 
 Whether it is through video services like Netflix, Hulu or Amazon Prime several attendees showed their concerns that our island could be cut-off from the interweb very easily. The recent incident on one of the internet sea cables also made this very prominent. On the one hand it would be positive to gain more resilience and redundancy on internet connectivity and on the other hand it is welcoming to offer more content and information produced locally. As stated, with better understanding and corporation between local service providers and a revised price structure this could be achieved soon, given the existing technology available today.

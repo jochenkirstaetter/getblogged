@@ -13,7 +13,7 @@ tags:
 keywords: Community, Activity, General
 metaTitle: Infotech/InnovTech 2017
 metaDescription: Infotech or commonly known as the annual IT tech bazaar in Mauritius was looking for possibilities to change in 2017 - moving away from the dominant sales activities during the past years back to its...
-image: content/images/2018/02/innovtech2017_title.jpeg
+image: content/images/2018/02/innovtech2017_title.webp
 ogTitle: Infotech/InnovTech 2017
 ogDescription: Infotech or commonly known as the annual IT tech bazaar in Mauritius was looking for possibilities to change in 2017 - moving away from the dominant sales activities during the past years back to its...
 layout: post
@@ -32,16 +32,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/innovtech-2017/
-imageUrl: https://jochen.kirstaetter.name/content/images/2018/02/innovtech2017_title.jpeg
+imageUrl: content/images/2018/02/innovtech2017_title.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2018/02/innovtech2017_title.jpeg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2018/02/innovtech2017_title.jpeg
+featureImage: content/images/2018/02/innovtech2017_title.webp
 featured: false
 publishedAt: 2018-02-03T16:09:31Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -55,7 +55,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Infotech or commonly known as the annual IT tech bazaar in Mauritius was looking for possibilities to change in 2017 - moving away from the dominant sales activities during the past years back to its original roots of being an innovative and informative IT event.
 
 And they did it!
@@ -74,23 +73,23 @@ But unfortunately that seemed to have been one of the major reasons why the [rep
 
 Interestingly, Infotech 2017 had less booths of retailers than in previous years and there were a good number of technology representatives. Among them someone advertising the possibilities that Mauritius could go for its own satellite in space. How cool would that be?
 
-![Infotech 2017 offered various technology zones, like 3D printing](../content/images/2018/02/innovtech2017_exhibition_3dprinting.jpeg)  
+![Infotech 2017 offered various technology zones, like 3D printing](../content/images/2018/02/innovtech2017_exhibition_3dprinting.webp)  
 *Source: [https://www.facebook.com/InfotechMauritius/](https://www.facebook.com/InfotechMauritius/)*
 
 Also the organisers arranged the available exhibition space into several zones, most remarkable a designated area for 3D printing only. Then there was the LAN gaming zone strategically well placed at the back of the convention centre. And many more others.
 
 The foyer area had also more to offer than the usual food court. Most outstanding change was that the booth of the National Computer Board sprung right in your face at the entry. Fantastic placement and so easy to reach for every visitor. Really loved it. Like in previous years the NCB offered part of their booth to the [Linux User Group of Mauritius (LUGM)](https://lugm.org) to advocate for [Free and Open Source Software (FOSS)](https://www.fsf.org/).
 
-![Linux User Group of Mauritius (LUGM) to advocate for Free and Open Source Software (FOSS)](../content/images/2018/02/innovtech2017_lugm1200.jpg)  
+![Linux User Group of Mauritius (LUGM) to advocate for Free and Open Source Software (FOSS)](../content/images/2018/02/innovtech2017_lugm1200.webp)  
 *Linux User Group of Mauritius (LUGM) to advocate for Free and Open Source Software (FOSS)*
 
 The guys of the LUGM did a great job during those few days and the demonstration of Linux inclusive standard software like office, email, browser, graphics, etc. as well as show casing a complete multimedia centre running on the TV, openElec if I remember correctly, provided a solid overview and insight to visitors that there is more than just Windows for their computers.
 
 Also in the foyer there was a booth run by students of the University of Mauritius. Here they demonstrated some of their final year assignments in action. My children were really into it and glad that they were allowed to literally try everything.
 
-![Final year assignments and projects by students of the University of Mauritius](../content/images/2018/02/innovtech2017_uomprojects1200.jpg)  
+![Final year assignments and projects by students of the University of Mauritius](../content/images/2018/02/innovtech2017_uomprojects1200.webp)  
 *Final year assignments and projects by students of the University of Mauritius*  
-![Interesting prototypes of robotic hands - even with remote controlled operation mode](../content/images/2018/02/innovtech2017_uomrobotics1200.jpg)  
+![Interesting prototypes of robotic hands - even with remote controlled operation mode](../content/images/2018/02/innovtech2017_uomrobotics1200.webp)  
 *Interesting prototypes of robotic hands - even with remote controlled operation mode*
 
 Check out more [Photos section on the Infotech page on Facebook](https://www.facebook.com/InfotechMauritius/).
@@ -105,7 +104,7 @@ And I'm grateful about this unique opportunity to have worked with the National 
 
 Eventually inspired by the annual [Developers Conference](https://conference.mscc.mu) of the [Mauritius Software Craftsmanship Community](https://www.mscc.mu) the NCB got in touch with several representatives of local IT communities, and invited us to several meetings in regards to InnovTech. It was a great experience, and I'm glad that some of our ideas were taken into consideration.
 
-![Almost all chairs were occupied during the InnovTech presentations](../content/images/2018/02/innovtech2017_crowd_day11200.jpg)  
+![Almost all chairs were occupied during the InnovTech presentations](../content/images/2018/02/innovtech2017_crowd_day11200.webp)  
 *Approximately 280 attendees came to InnovTech*
 
 During Infotech the convention centre is completely used by the NCB but in the past years the various conference rooms upstairs were given no importance or value. By helping to create and to organise InnovTech I think (and hope) that future events will offer greater value to all visitors.

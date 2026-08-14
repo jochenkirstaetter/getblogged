@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: Mauritius Open Data Readiness Assessment (ODRA)
 metaDescription: Open Data has been initiated in Mauritius back in 2012, it is only this year that there seems to be more momentum towards an Open Data initiative.
-image: content/images/2017/08/odra_workshop.png
+image: content/images/2017/08/odra_workshop.webp
 ogTitle: Mauritius Open Data Readiness Assessment (ODRA)
 ogDescription: Although Open Data is around since several years in other countries and has been initiated in Mauritius already back in 2012, it is only this year that there seems to be more momentum towards an Open...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mauritius-open-data/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/08/odra_workshop.png
+imageUrl: content/images/2017/08/odra_workshop.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/08/odra_workshop.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/08/odra_workshop.png
+featureImage: content/images/2017/08/odra_workshop.webp
 featured: true
 publishedAt: 2015-11-07T08:37:10Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 ![Workshop on Open Data Readiness Assessment for Mauritius organised by the Ministry of Technology, Communication and Innovation](https://s.kirstaetter.name/images/odra_workshop.png "Workshop on Open Data Readiness Assessment for Mauritius organised by the Ministry of Technology, Communication and Innovation")Although Open Data is around since several years in other countries and has been initiated in Mauritius already back in 2012, it is only this year that there seems to be more momentum towards an Open Data initiative. Back in May 2015 I was kindly contacted by Alla Morrison, Program Officer at the World Bank, in regards of showing genuine interest in open government data for members of the [Mauritius Software Craftsmanship Community (MSCC)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/).
 
 ## Initial information and workshop on Open Data

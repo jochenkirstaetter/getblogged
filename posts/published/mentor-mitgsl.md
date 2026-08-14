@@ -12,7 +12,7 @@ tags:
 keywords: Community, Personal
 metaTitle: Tech Mentor at MIT Global Startup Lab in Mauritius
 metaDescription: It took almost four years from initial conversation between Dhaval and me until the first MIT Global Startup Lab was organised and launched in Mauritius. As a technological mentor I shared my experience and gave guidance to project team(s).
-image: https://images.unsplash.com/photo-1498622205843-3b0ac17f8ba4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=c43f07498af1957149d622f5ccd91ac4
+image: content/images/2017/08/photo-1498622205843-3b0ac17f8ba4.webp
 ogTitle: Tech Mentor at MIT Global Startup Lab in Mauritius
 ogDescription: It took almost four years from initial conversation between Dhaval and me until the first MIT Global Startup Lab was organised and launched in Mauritius. As a technological mentor I shared my experience and gave guidance to project team(s).
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mentor-mitgsl/
-imageUrl: https://images.unsplash.com/photo-1498622205843-3b0ac17f8ba4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=c43f07498af1957149d622f5ccd91ac4
+imageUrl: content/images/2017/08/photo-1498622205843-3b0ac17f8ba4.webp
 twitterImageUrl: https://images.unsplash.com/photo-1498622205843-3b0ac17f8ba4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=c43f07498af1957149d622f5ccd91ac4
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1498622205843-3b0ac17f8ba4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=c43f07498af1957149d622f5ccd91ac4
+featureImage: content/images/2017/08/photo-1498622205843-3b0ac17f8ba4.webp
 featured: false
 publishedAt: 2017-08-16T16:34:39Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -53,8 +53,8 @@ facebookDescription: It took almost four years from initial conversation between
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Being part of the first [Global Startup Lab by the Massachusetts Institute of Technology (MIT) in Mauritius](http://www.telecomcampus.mu/mit-gsl-program) as a technological mentor for the participating project teams didn't come overnight.
 
 ## Let's start from the beginning...
@@ -74,7 +74,7 @@ Next time, we exchanged updates back in March, just a couple of days before the 
 
 Finally, in April the official announcement came that the MIT Global Startup Lab in corporation with Mauritius Telecom is looking for applicants to join the program. The information was shared to all MSCC members immediately.
 
-![MIT Global Startup Lab 2017 in Mauritius](../content/images/2017/08/mitgsl2017.png)
+![MIT Global Startup Lab 2017 in Mauritius](../content/images/2017/08/mitgsl2017.webp)
 
 ## Kick-off...
 
@@ -106,34 +106,34 @@ Outstanding perseverance... And **"Thumbs Up!"** already to all teams.
 
 Following are snapshots of each team (in no particular order)
 
-![Law Engine by Exponent AI](../content/images/2017/08/WP_20170810_10_38_19_Pro.jpg)  
+![Law Engine by Exponent AI](../content/images/2017/08/WP_20170810_10_38_19_Pro.webp)  
 *Exponent AI - Search engine for lawyers*
 
-![Cart-U - An online platform for delivering goods and groceries within 2 hrs](../content/images/2017/08/WP_20170810_10_54_12_Pro.jpg)  
+![Cart-U - An online platform for delivering goods and groceries within 2 hrs](../content/images/2017/08/WP_20170810_10_54_12_Pro.webp)  
 *AVR-Tech - AR Study-aid for medical students*
 
-![BioSphere - Intelligent Energy Management System](../content/images/2017/08/WP_20170810_11_11_01_Pro.jpg)  
+![BioSphere - Intelligent Energy Management System](../content/images/2017/08/WP_20170810_11_11_01_Pro.webp)  
 *BioSphere - Intelligent Energy Management System*
 
-![motrackr - Virtual Coach Assistant](../content/images/2017/08/WP_20170810_11_27_18_Pro.jpg)  
+![motrackr - Virtual Coach Assistant](../content/images/2017/08/WP_20170810_11_27_18_Pro.webp)  
 *motrackr - Virtual coach assistant*
 
-![mo Aprann - Peer to Peer tutoring service](../content/images/2017/08/WP_20170810_11_45_46_Pro.jpg)  
+![mo Aprann - Peer to Peer tutoring service](../content/images/2017/08/WP_20170810_11_45_46_Pro.webp)  
 *mo Aprann - Peer to Peer tutoring service*
 
-![FoodBAE - Online Food Ordering](../content/images/2017/08/WP_20170810_13_05_21_Pro.jpg)  
+![FoodBAE - Online Food Ordering](../content/images/2017/08/WP_20170810_13_05_21_Pro.webp)  
 *FoodBAE - Online Food Ordering*
 
-![AVR-Tech - Med-AR, AR Study-aid for medical students](../content/images/2017/08/WP_20170810_13_20_18_Pro.jpg)  
+![AVR-Tech - Med-AR, AR Study-aid for medical students](../content/images/2017/08/WP_20170810_13_20_18_Pro.webp)  
 *AVR-Tech - Med-AR, AR Study-aid for medical students*
 
-![CodaxFi - Learn it, code it, live it: Connecting platform empowering women and girls in coding](../content/images/2017/08/WP_20170810_13_36_50_Pro.jpg)  
+![CodaxFi - Learn it, code it, live it: Connecting platform empowering women and girls in coding](../content/images/2017/08/WP_20170810_13_36_50_Pro.webp)  
 *CodaxFi - Learn it, code it, live it: Connecting platform empowering women and girls in coding*
 
-![TechGardeners Bubble Garden - Your garden at your fingertips](../content/images/2017/08/WP_20170810_13_55_00_Pro.jpg)  
+![TechGardeners Bubble Garden - Your garden at your fingertips](../content/images/2017/08/WP_20170810_13_55_00_Pro.webp)  
 *TechGardeners Bubble Garden - Your garden at your fingertips*
 
-![Schoolify - School Management System](../content/images/2017/08/WP_20170810_14_08_24_Pro.jpg)  
+![Schoolify - School Management System](../content/images/2017/08/WP_20170810_14_08_24_Pro.webp)  
 *Schoolify - School Management System*
 
 Demo Day was done in a similar way as the "Dragon's Den" test-run earlier. Major difference was the official aspect, the presence of the press, media and a broader audience from the public, and last but not least potential investors to pick up and support one or two teams.
@@ -151,9 +151,9 @@ Proudly I can say, that three of the winning teams have MSCC craftsmen among the
 
 All finalists had their MVPs set up and ready for demonstration. Even though it was a long day already many people from the audience went to see their products in use.
 
-![WP_20170810_15_02_47_Pro](../content/images/2017/08/WP_20170810_15_02_47_Pro.jpg)
+![WP_20170810_15_02_47_Pro](../content/images/2017/08/WP_20170810_15_02_47_Pro.webp)
 
-![WP_20170810_15_05_45_Pro](../content/images/2017/08/WP_20170810_15_05_45_Pro.jpg)
+![WP_20170810_15_05_45_Pro](../content/images/2017/08/WP_20170810_15_05_45_Pro.webp)
 
 See also related articles in the media:
 

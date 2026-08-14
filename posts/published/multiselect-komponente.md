@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/multiselect-komponente/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Heute mal einen technischen Eintrag zu Visual FoxPro und komponentenbasierter Programmierung. Die Selektion von mehreren Elementen in einem Control wie etwa dem Grid (Datenrasterelement bzw. DataGrid) oder einem TreeView-Control ist sicherlich praktisch und generell interessant. Daher meine Idee eine passable Komponente für Acodey zu schreiben.  
   
 Warum eine Komponente? Nun, zum einen ist in Acodey alles in kleine Bauteile aufgeteilt und wird dann wieder in Komposits zusammengesteckt und zum anderen habe ich wenig Interesse eine zu starke Bindung mit dem Zielobjekt einzugehen. Daher lieber einen Baustein, der genau eine Aufgabe besitzt und diese entsprechend zu erfüllen weiß.  

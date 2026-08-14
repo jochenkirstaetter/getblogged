@@ -12,7 +12,7 @@ tags:
 keywords: Development, General
 metaTitle: Migration to Ghost
 metaDescription: The article describes how to migrate content from Joomla 1.x to Ghost 1.x. Eventually, it might be partial but enough to modernise my blog.
-image: content/images/2017/08/ray-hennessy-233438.jpg
+image: content/images/2017/08/ray-hennessy-233438.webp
 ogTitle: Migration to Ghost
 ogDescription: With the announcement of Ghost 1.0 I gained some motivation to take care of my blog. It's been untouched since a very long time and honestly I didn't feel like writing my articles in plain HTML...
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/migration-joomla-ghost/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/08/ray-hennessy-233438.jpg
+imageUrl: content/images/2017/08/ray-hennessy-233438.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/08/ray-hennessy-233438.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/08/ray-hennessy-233438.jpg
+featureImage: content/images/2017/08/ray-hennessy-233438.webp
 featured: false
 publishedAt: 2017-08-07T06:02:28Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -54,7 +54,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 With the [announcement of Ghost 1.0](https://blog.ghost.org/1-0/) I gained some motivation to take care of my blog. It's been untouched since a very long time and honestly I didn't feel like writing my articles in plain HTML anymore. Instead, using Markdown feels more "natural" than HTML.
 
 Surprisingly, I also discovered that Ghost 1.0 is now using MySQL or MariaDB as data store. During the [camp-site fire conversation with John O'Nolan](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/events/237470307/) back in February 2017 the emphasis was clearly on SQLite as the fastest option. Seems that enterprise requirements in regards to backup and load balancing might have given the decision a different turn. Which to my opinion is positive. No worries, SQLite is still around for local development.
@@ -217,7 +216,7 @@ Please, don't just copy and paste those queries. You have to check the tables na
 
 MySQL Workbench has a built-in feature to *Export recordset to an external file* with multiple format choices. Set the export format to JSON and give your query results a proper file name.
 
-![mysqlworkbench_export](../content/images/2017/08/mysqlworkbench_export.png)
+![mysqlworkbench_export](../content/images/2017/08/mysqlworkbench_export.webp)
 
 After this, I had three JSON files to play with.
 
@@ -422,7 +421,7 @@ Eventually the ciphers might be too harsh as some older browsers are falling off
 
 [Qualys SSL Labs](https://www.ssllabs.com/ssltest/index.html) gives the current version of this site an A+ rating. Right now, there is only the configuration of CSP and HPKP missing. Something to address within the next couple of days/weeks.
 
-![ssllabs_jochen.kirstaetter.name](../content/images/2017/08/ssllabs_jochen.kirstaetter.name.png)
+![ssllabs_jochen.kirstaetter.name](../content/images/2017/08/ssllabs_jochen.kirstaetter.name.webp)
 
 Hopefully, my journey to migrate from Joomla 1.x to Ghost 1.x gave you some interesting information and please leave your feedback in the Disqus comments below. I'm relatively new to Ghost and would like to know whether there are more knobs and switches to tweak the experience.
 

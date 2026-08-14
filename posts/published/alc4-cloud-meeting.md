@@ -12,7 +12,7 @@ tags:
 keywords: Community, Andela
 metaTitle: ALC 4.0 Cloud - Phase II Online Meet up
 metaDescription: With Phase 2 being kicked off a few days ago, there have been some changes communicated by the program admins of the Andela Learning Community (ALC). One of those improvements is that there are going...
-image: content/images/2019/09/gcp.png
+image: content/images/2019/09/gcp.webp
 ogTitle: ALC 4.0 Cloud - Phase II Online Meet up
 ogDescription: With Phase 2 being kicked off a few days ago, there have been some changes communicated by the program admins of the Andela Learning Community (ALC). One of those improvements is that there are going...
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/alc4-cloud-meeting/
-imageUrl: https://jochen.kirstaetter.name/content/images/2019/09/gcp.png
+imageUrl: content/images/2019/09/gcp.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2019/09/gcp.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2019/09/gcp.png
+featureImage: content/images/2019/09/gcp.webp
 featured: false
 publishedAt: 2019-09-02T16:50:46Z
 updatedAt: 2019-09-02T18:11:15Z
@@ -54,7 +54,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 With Phase 2 being kicked off a few days ago, there have been some changes communicated by the program admins of the Andela Learning Community (ALC). One of those improvements is that there are going to be regular meetings - offline and online - to assist all learners in their endeavour.
 
 In preparation of the first online meetup aka. Google Africa Developer Scholarship Online Meetup, ALC admins contacted me to run a session being a Learning Community Ambassador (LCA). Great stuff I thought given that I'm in the 4.0 program as an LCA for mobile web development. However, to my astounishment, I was elected as LCA for the **Cloud** track. Uhm...
@@ -69,7 +68,7 @@ I volunteered to provide premises, internet connectivity and light catering for 
 
 As usual on a Saturday, I have my children with me, and they gave me a helping hand to arrange the venue a little in preparation for our guests.
 
-![More ALC 4.0 scholars in Mauritius - both are on the Android track](../content/images/2019/09/image-6.png)
+![More ALC 4.0 scholars in Mauritius - both are on the Android track](../content/images/2019/09/image-6.webp)
 
 Despite the *confirmed* RSVPs two learners from the Android track actually came. We had good conversations about the ALC 4.0 program in general, the challenges during phase 1, and about the targets they want to achieve. Most interestingly, both are from abroad and they are currently studying for their masters at a local university.
 
@@ -77,7 +76,7 @@ Despite the *confirmed* RSVPs two learners from the Android track actually came.
 
 The projected time came and the meeting started as scheduled on Zoom plus additional live streaming on Youtube.
 
-![The agenda of Google Africa Developer Scholarship Online Meetup on 31st August 2019](../content/images/2019/09/image-1.png)
+![The agenda of Google Africa Developer Scholarship Online Meetup on 31st August 2019](../content/images/2019/09/image-1.webp)
 
 With the web track starting we used the first hour to talk about our expectations for phase 2, and how tough it might get to stay in the program for the upcoming project period. Remember, the current number of 11,000 participants is going to be reduced to roughly 4,000 only.
 
@@ -116,11 +115,11 @@ If you are more into the practical exercises I recommend that you have a look th
 
 Next, it was about time to actually talk about architectural decisions using Google Cloud Platform. Let's start with the following flow chart regarding the multiple options to store data on GCP.
 
-![Choosing a Storage Option on Google Cloud Platform](../content/images/2019/09/image-2.png)
+![Choosing a Storage Option on Google Cloud Platform](../content/images/2019/09/image-2.webp)
 
 After another sessions of questions, see below, I continued to cover a few more aspects of storage options.
 
-![Comparing Storage Options on Google Cloud Platform](../content/images/2019/09/image-3.png)
+![Comparing Storage Options on Google Cloud Platform](../content/images/2019/09/image-3.webp)
 
 Wilson Mar wrote an excellent article about what he calls [GCP (Google Compute Platform/Google Certified Professional)](https://wilsonmar.github.io/gcp/). That article is an invaluable resource of information. If there is only one take away from this session then it shall be Wilson's article.
 
@@ -128,7 +127,7 @@ After storage options we had a closer look into the available Compute options on
 
 Back to Pluralsight, I showed how to use *Notes* in order to bookmark certain information in a video course.
 
-![Use the Notes feature on Pluralsight to bookmark specific information](../content/images/2019/09/image-4.png)![Another video Note taken to compare the App Engine environments](../content/images/2019/09/image-5.png)
+![Use the Notes feature on Pluralsight to bookmark specific information](../content/images/2019/09/image-4.webp)![Another video Note taken to compare the App Engine environments](../content/images/2019/09/image-5.webp)
 
 This gives you a quick and easy access to key aspects of cloud services or features. Or any other type of specific information that you would consider important.
 
@@ -140,7 +139,7 @@ From the questions during the live session I picked a few on Google Cloud, on th
 
 With a successful pass of either the Associate Cloud Engineer or perhaps the Professional Cloud Architect you confirm your knowledge of the Google Cloud Platform. Those exams are standardized on a global level. Meaning, that you will have to provide the right answers on the same level of difficulty like anyone else on the planet. Those exams do not have regional or cultural difference. By passing one of those exams you are in an equal position to someone from any other country including any of the industrialised countries. There is a whole job market looking for certified professionals.
 
-![An increasing number of IT positions will be in the cloud](../content/images/2019/09/image-7.png)
+![An increasing number of IT positions will be in the cloud](../content/images/2019/09/image-7.webp)
 
 Maybe you like to watch my presentation [Switch Conference Talk by Jochen Kirstätter: Confirm your knowledge with a certification](https://www.youtube.com/watch?v=z79SfE7fLag) on Youtube were I provide more background information on the importance of professional exams and industry certifications.
 

@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: Stammtisch-Seite aktualisiert
 metaDescription: "Stammtisch-Seite aktualisiert Tsss, da kann man noch nicht einmal aktuelle Infos &#252;ber den Mailverteiler bzw. das dFPUG-Forum rausjagen, ohne dass man auf die Nichtaktualit&#228;t der <a href='http://speyer.dfpug.de'>Speyerer Stammtisch</a> hingewiesen wird. Frechheit! :icon_biggrin: Aber... Ja, geb&#39;s mir. Das ist genau der richtige Weg, denn ich freue mich &#252;ber Feedback aus der"
-image: https://images.unsplash.com/photo-1578231177134-f1bbe379b054?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2005/09/photo-1578231177134-f1bbe379b054.webp
 ogTitle: Stammtisch-Seite aktualisiert
 ogDescription: "Tsss, da kann man noch nicht einmal aktuelle Infos über den Mailverteiler bzw. das dFPUG-Forum rausjagen, ohne dass man auf die Nichtaktualität der Speyerer Stammtisch hingewiesen wird. Frechheit! \U0001F601..."
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/stammtisch-seite-aktualisiert/
-imageUrl: https://images.unsplash.com/photo-1578231177134-f1bbe379b054?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2005/09/photo-1578231177134-f1bbe379b054.webp
 twitterImageUrl: https://images.unsplash.com/photo-1578231177134-f1bbe379b054?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1578231177134-f1bbe379b054?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2005/09/photo-1578231177134-f1bbe379b054.webp
 featured: false
 publishedAt: 2005-09-20T22:00:00Z
 updatedAt: 2020-02-27T03:21:50Z
@@ -52,8 +52,8 @@ facebookDescription: "Tsss, da kann man noch nicht einmal aktuelle Infos über d
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Tsss, da kann man noch nicht einmal aktuelle Infos über den Mailverteiler bzw. das dFPUG-Forum rausjagen, ohne dass man auf die Nichtaktualität der [Speyerer Stammtisch](https://speyer.dfpug.de) hingewiesen wird. Frechheit! 😁  
   
 Aber... Ja, geb's mir. Das ist genau der richtige Weg, denn ich freue mich über Feedback aus der Teilnehmergruppe des Stammtischs und der Community. Die Reaktion dazu ist, dass ich die Infos der Webseite auf den aktuellen Stand für diesen und den nächsten Monat gebracht habe. Und das ist die einzig richtige Lösung.  

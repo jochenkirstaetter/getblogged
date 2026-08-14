@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: 'MSCC: Purpose and benefits of Version Control Systems (VCS)'
 metaDescription: You're working in IT and not using any kind of version control system? Sorry, then you're doing something wrong!
-image: https://images.unsplash.com/photo-1518065896235-a4c93e088e7a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2014/06/photo-1518065896235-a4c93e088e7a.webp
 ogTitle: 'MSCC: Purpose and benefits of Version Control Systems (VCS)'
 ogDescription: You're working in IT and not using any kind of version control system? Sorry, then you're doing something wrong!
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mscc-version-control-systems-git-tfs-vso/
-imageUrl: https://images.unsplash.com/photo-1518065896235-a4c93e088e7a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2014/06/photo-1518065896235-a4c93e088e7a.webp
 twitterImageUrl: https://images.unsplash.com/photo-1518065896235-a4c93e088e7a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1518065896235-a4c93e088e7a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2014/06/photo-1518065896235-a4c93e088e7a.webp
 featured: false
 publishedAt: 2014-06-18T04:17:00Z
 updatedAt: 2019-01-07T22:32:21Z
@@ -52,8 +52,8 @@ facebookDescription: You're working in IT and not using any kind of version cont
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 You're working in IT and not using any kind of version control system? Sorry, then you're doing something wrong!
 
 [RSVP for MSCC meetup of June](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/events/189522892/ "RSVP for MSCC meetup of June")

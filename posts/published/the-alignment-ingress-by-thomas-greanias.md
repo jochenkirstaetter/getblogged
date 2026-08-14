@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/the-alignment-ingress-by-thomas-greanias/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 [![](https://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&ASIN=B00C4W5NVI&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=geblbyjo-20)](https://www.amazon.com/gp/product/B00C4W5NVI/ref=as_li_ss_il?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00C4W5NVI&linkCode=as2&tag=geblbyjo-20 "The Alignment: Ingress")![](https://www.assoc-amazon.com/e/ir?t=geblbyjo-20&l=as2&o=1&a=B00C4W5NVI)
 
 Based on various postings on my Google+ stream on [Ingress](https://plus.google.com/103320655754019011706 "Ingress"), I came across The Alignment series by [Thomas Greanias](https://www.amazon.com/Thomas-Greanias/e/B001IGOAQU/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=geblbyjo-20 "Thomas Greanias"). His recent publication [The Alignment: Ingress](https://www.amazon.com/gp/product/B00C4W5NVI/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00C4W5NVI&linkCode=as2&tag=geblbyjo-20 "The Alignment: Ingress") marks the start of the new series and it wets your appetite for more episodes in the universe of Ingress.

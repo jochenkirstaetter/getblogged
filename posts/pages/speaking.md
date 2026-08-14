@@ -12,7 +12,7 @@ tags:
 keywords: Community, Personal
 metaTitle: Public Speaking Engagements
 metaDescription: Over the past years I have done a couple of talks, from small user group gatherings to large-scale audience at international conferences.
-image: content/images/2023/09/_Z627384-221_1920.jpg
+image: content/images/2023/09/_Z627384-221_1920.webp
 ogTitle: Public Speaking Engagements
 ogDescription: Over the past years I have done a couple of talks, from small user group gatherings to large-scale audience at international conferences.
 layout: page
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/speaking/
-imageUrl: https://jochen.kirstaetter.name/content/images/2023/09/_Z627384-221_1920.jpg
+imageUrl: content/images/2023/09/_Z627384-221_1920.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2023/09/_Z627384-221_1920.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2023/09/_Z627384-221_1920.jpg
+featureImage: content/images/2023/09/_Z627384-221_1920.webp
 featured: false
 publishedAt: 2017-08-07T15:21:41Z
 updatedAt: 2026-08-05T12:41:01Z
@@ -54,7 +54,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Over the past years I have done a couple of talks, from small user group gatherings to large-scale audience at international conferences.
 
 Here are a few highlights so far:

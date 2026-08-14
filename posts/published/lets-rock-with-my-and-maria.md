@@ -11,7 +11,7 @@ tags:
 keywords: Linux
 metaTitle: Lets rock with MySQL and MariaDB
 metaDescription: MariaDB is an inplace-replacement for MySQL. In case that you're operating your website or blog on MySQL you can simply install and use MariaDB instead of. It works flawlessly.
-image: https://images.unsplash.com/photo-1470305585628-a7d2cb18efa2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=46fd51fecd6c84e0c6fa8b4b81fa3f32
+image: content/images/2015/01/photo-1470305585628-a7d2cb18efa2.webp
 ogTitle: Lets rock with MySQL and MariaDB
 ogDescription: Some weeks months ago...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/lets-rock-with-my-and-maria/
-imageUrl: https://images.unsplash.com/photo-1470305585628-a7d2cb18efa2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=46fd51fecd6c84e0c6fa8b4b81fa3f32
+imageUrl: content/images/2015/01/photo-1470305585628-a7d2cb18efa2.webp
 twitterImageUrl: https://images.unsplash.com/photo-1470305585628-a7d2cb18efa2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=46fd51fecd6c84e0c6fa8b4b81fa3f32
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1470305585628-a7d2cb18efa2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=46fd51fecd6c84e0c6fa8b4b81fa3f32
+featureImage: content/images/2015/01/photo-1470305585628-a7d2cb18efa2.webp
 featured: false
 publishedAt: 2015-01-02T21:00:00Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -52,9 +52,9 @@ facebookDescription: Some weeks months ago...
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
-[![Logo of MariaDB Sealion mascot](https://s.kirstaetter.name/images/MariaDB_Logo_Full_WhiteBck_Lettering.png)](https://mariadb.com "MariaDB homepage")Some weeks months ago...
+[![Logo of MariaDB Sealion mascot](../content/images/2015/01/MariaDB_Logo_Full_WhiteBck_Lettering.webp)](https://mariadb.com "MariaDB homepage")Some weeks months ago...
 
 ## What happens on Facebook
 
@@ -83,7 +83,7 @@ The full presentation of a whooping 107 slides is available on SlideShare - Than
 
 On my side, I have to admit that I was a bit interruptive as I had a good number of questions regarding certain features I'm used to using either VFP or SQL Server. Especially given the fact that I was involved in the software architecture and development of client-server applications that run on roughly 100 instances of SQL Server including different types of data replication. Yes, we did partitioning and the database has a variety of replication scenarios for different tables; including typical master-slave replication but also enhanced 2-way replication. Also dealing with data volumes in 2-digit and even 3-digit regions is not unusual with my clients. And there is quite a difference between writing and running queries against a low amount of records compared to tables with 15+ million records. Not to forget about write and update operations. Patiently, Joffrey took note of my questions and he had very good answers how certain setups and requirements could be solved and handled with MariaDB. One of the interesting topics was the discussion about data types of "uniqueidentifier" versus "UUID" versus "Global Transaction ID (GTID)". Well, basically they are the same... Whereas SQL Server handles replication based on that specific data type, MySQL or MariaDB remains on dealing with integer-based column data types (comparable to Auto-Increment in SQL Server) - which I find problematic.
 
-![MariaDB Enterprise Architecture v3.1](https://s.kirstaetter.name/images/mariadb_enterprise_architecture_v3.1.png)  
+![MariaDB Enterprise Architecture v3.1](../content/images/2015/01/mariadb_enterprise_architecture_v3.1.webp)  
 *MariaDB is not just the database anymore; it's a platform for application developers and database administrators*
 
 Anyway, the evening had some interesting chunks of information for me and I enjoyed the whole presentation. Joffrey knows how to keep the audience focused and engaged into the topic. And shamelessly we extending the scheduled 1-hour session by at least 30 minutes or so. Until all questions have been asked and answered. And after all this talking and listening it was time to move over to the social aspects of the evening and to get some refreshments.

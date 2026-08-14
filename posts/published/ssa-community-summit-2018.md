@@ -12,7 +12,7 @@ tags:
 keywords: Community, Personal
 metaTitle: SSA Community Summit 2018
 metaDescription: The purpose of the Sub-Saharan Africa (SSA) Community Summit was to bring together organisers of Google Developer Groups (GDGs) from various locations in the region to talk about their user groups, to share their experience, and to inspire each other with success stories.
-image: content/images/2018/10/DSC_0617.jpg
+image: content/images/2018/10/DSC_0617.webp
 ogTitle: SSA Community Summit 2018
 ogDescription: The purpose of the Sub-Saharan Africa (SSA) Community Summit was to bring together organisers of Google Developer Groups (GDGs) from various locations in the region to talk about their user groups, to share their experience, and to inspire each other with success stories.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/ssa-community-summit-2018/
-imageUrl: https://jochen.kirstaetter.name/content/images/2018/10/DSC_0617.jpg
+imageUrl: content/images/2018/10/DSC_0617.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/DSC_0617.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2018/10/DSC_0617.jpg
+featureImage: content/images/2018/10/DSC_0617.webp
 featured: false
 publishedAt: 2018-10-04T04:48:00Z
 updatedAt: 2018-10-04T08:38:40Z
@@ -54,7 +54,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Following the invitation from the Google folks over in Nigeria I went on a journey to Nairobi, Kenya. The purpose of the Sub-Saharan Africa (SSA) Community Summit was to bring together organisers of Google Developer Groups (GDGs) from various locations in the region to talk about their user groups, to share their experience, and to inspire each other with success stories.
 
 As an organising delegate of the GDG Mauritius chapter I was really looking forward to meet other passionate user group leads and to learn from their struggles and successes. Our local GDG turned one year recently and we are still working on several ideas to be able to deliver any content based on Google technology in the best possible way.
@@ -67,7 +66,7 @@ Anyway, as the document was nowhere to be found we went to the national vaccinat
 
 The visa regulations for Kenya are visitor-friendly - both in regards to Mauritian nationality as well as German.
 
-![[Mount Kilimanjaro](https://en.wikipedia.org/wiki/Mount_Kilimanjaro) during sunrise...](../content/images/2018/10/WP_20180920_07_44_00_Pro--2-.jpg)![Sunrise over the clouds - wow!](../content/images/2018/10/WP_20180920_02_23_47_Pro.jpg)
+![[Mount Kilimanjaro](https://en.wikipedia.org/wiki/Mount_Kilimanjaro) during sunrise...](../content/images/2018/10/WP_20180920_07_44_00_Pro--2-.webp)![Sunrise over the clouds - wow!](../content/images/2018/10/WP_20180920_02_23_47_Pro.webp)
 
 Thanks to a direct connection on Kenya Airways between Mauritius and Nairobi it only took four hours something to reach destination. The passport and visa handling as well as the security checks were done quickly.
 
@@ -83,7 +82,7 @@ The [Women Techmakers](https://www.womentechmakers.com/) is an initiative that i
 
 Although male GDG leads were *not invited* to attend the [#WTMSummit](https://x.com/hashtag/WTMSummit), we were most *welcome* to hang around (thanks Aniedi!)...
 
-![Fantastic crowd of passionate women in technology from over 16 African countries](../content/images/2018/10/DSC_4755.JPG)
+![Fantastic crowd of passionate women in technology from over 16 African countries](../content/images/2018/10/DSC_4755.webp)
 
 Seeing so many women living their passion in technology was an inspiration for me to reflect on our past activities and to review the way how we address our regular meetings.
 
@@ -101,7 +100,7 @@ Gratefully my session proposal for the SSA Community Summit 2018 had been accept
 
 ### From Idea to Inspiring IT Communities
 
-![Encourage your community members and work as a TEAM](../content/images/2018/10/DSC_0229.jpg)
+![Encourage your community members and work as a TEAM](../content/images/2018/10/DSC_0229.webp)
 
 The talk was spinning around the creation of the MSCC based on an ambitious idea some years back, the up's and down's that we experienced to have a vital and inspiring eco-system of various user groups in Mauritius nowadays.
 
@@ -129,23 +128,23 @@ Funding of events and how to deal with absent attendees.
 
 Even I addressed the former during my talk. And thanks to building healthy relationships with various partners in Mauritius we are nowadays somehow secured in those matters. Nonetheless, we are still working on the no-show situation. Ideas and tips are most welcome!
 
-![](../content/images/2018/10/DSC_0494.JPG)
+![](../content/images/2018/10/DSC_0494.webp)
 
-![](../content/images/2018/10/DSC_0631.JPG)
+![](../content/images/2018/10/DSC_0631.webp)
 
-![](../content/images/2018/10/DSC_0027.JPG)
+![](../content/images/2018/10/DSC_0027.webp)
 
-![](../content/images/2018/10/DSC_0042.JPG)
+![](../content/images/2018/10/DSC_0042.webp)
 
-![](../content/images/2018/10/DSC_0136.JPG)
+![](../content/images/2018/10/DSC_0136.webp)
 
-![](../content/images/2018/10/DSC_0149.JPG)
+![](../content/images/2018/10/DSC_0149.webp)
 
-![](../content/images/2018/10/DSC_0158.JPG)
+![](../content/images/2018/10/DSC_0158.webp)
 
-![](../content/images/2018/10/DSC_0304.JPG)
+![](../content/images/2018/10/DSC_0304.webp)
 
-![](../content/images/2018/10/DSC_0341.JPG)
+![](../content/images/2018/10/DSC_0341.webp)
 
 Above are just a few impressions of the awesome experience during the [#GDGSummit](https://x.com/hashtag/GDGSummit).
 
@@ -156,27 +155,27 @@ Big ups to [@aniediudo](https://x.com/aniediudo?ref_src=twsrc%5Etfw), [@Olaiw0la
 
 I made new friends from all over Africa and finally had a chance to meet some of the people that participate in our regular Hangouts on Air.
 
-![GDG Mauritius was represented by Tabot, Olfa and myself](../content/images/2018/10/WP_20180921_18_37_29_Pro--2-.jpg)
+![GDG Mauritius was represented by Tabot, Olfa and myself](../content/images/2018/10/WP_20180921_18_37_29_Pro--2-.webp)
 
 ## After a hard day's work... Party!
 
 What happens in Nairobi, stays in Nairobi! ;-)
 
-![](../content/images/2018/10/20180921_194024.jpg)
+![](../content/images/2018/10/20180921_194024.webp)
 
-![](../content/images/2018/10/DSC_0708.JPG)
+![](../content/images/2018/10/DSC_0708.webp)
 
-![](../content/images/2018/10/IMG_20180921_203225.jpg)
+![](../content/images/2018/10/IMG_20180921_203225.webp)
 
-![](../content/images/2018/10/IMG_20180921_212533.jpg)
+![](../content/images/2018/10/IMG_20180921_212533.webp)
 
-![](../content/images/2018/10/IMG_20180921_212541.jpg)
+![](../content/images/2018/10/IMG_20180921_212541.webp)
 
-![](../content/images/2018/10/IMG_20180921_220038.jpg)
+![](../content/images/2018/10/IMG_20180921_220038.webp)
 
 Okay, a few clicks from the evening. Without any doubt we had a great time and a well-deserved break from that long day. And it was a great opportunity to make (more) new friends and to start technological relationships across Africa.
 
-![GDG DevFest Nairobi 2018: Networking around the central auditorium of the USIU campus](../content/images/2018/10/WP_20180922_14_23_12_Panorama.jpg)
+![GDG DevFest Nairobi 2018: Networking around the central auditorium of the USIU campus](../content/images/2018/10/WP_20180922_14_23_12_Panorama.webp)
 
 ## GDG DevFest Nairobi 2018
 
@@ -190,7 +189,7 @@ According to the event announcement on Meetup there had been 1,200 RSVPs and I w
 
 The agenda covered six parallel tracks on anything Google in Android, Web, IoT, AI, ML and Cloud technologies. One had to be very selective in regards to the choice of sessions...
 
-![Impressions of Google DevFest Nairobi 2018](../content/images/2018/10/20180922_130116.jpg)
+![Impressions of Google DevFest Nairobi 2018](../content/images/2018/10/20180922_130116.webp)
 
 Hopefully, I was able to wet your appetite to know more about [DevFest](https://developers.google.com/events/devfest/). Check out the [official website by Google](https://developers.google.com/events/devfest/). Perhaps there is already a [DevFest planned near you](https://devfest.withgoogle.com/#devfest-map) or you might even consider to organise one yourself.
 
@@ -202,13 +201,13 @@ Getting back to the hotel early I tried an Uber - thanks to Vivian for arranging
 
 ## A few impressions from Nairobi
 
-![Panorama view from 14th floor at the GDG Summit venue](../content/images/2018/10/WP_20180920_11_20_04_Panorama--2-.jpg)
+![Panorama view from 14th floor at the GDG Summit venue](../content/images/2018/10/WP_20180920_11_20_04_Panorama--2-.webp)
 
 Literally everything here in Kenya seems to be larger. There is so much space... it's kind of impressive and mind-boggling. Only taking [Nairobi](https://en.wikipedia.org/wiki/Nairobi), a.k.a. the Green City in the Sun, into consideration there are approx. 3.1 to 6.5 million people living in an area of roughly 700 km^2^ - that is easily five times the population of Mauritius.
 
 Coming out of the airport there are four to six lanes on the motorway - in one direction only...
 
-![Random clicks driving around in Nairobi...](../content/images/2018/10/WP_20180922_16_49_59_Pro.jpg)
+![Random clicks driving around in Nairobi...](../content/images/2018/10/WP_20180922_16_49_59_Pro.webp)
 
 ## Thanks and Thoughts
 

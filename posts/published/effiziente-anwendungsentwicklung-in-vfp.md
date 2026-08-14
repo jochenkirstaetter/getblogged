@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/effiziente-anwendungsentwicklung-in-vfp/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Anwendungsentwicklung, Softwaredesign, Design, Visual FoxPro
 
 Den heutigen Tag habe ich für die Korrekturlesung des deutschsprachigen Buches "Effiziente Anwendungsentwicklung in VFP" aus dem Verlag Hentzenwerke genutzt. Eigentlich sollte der Titel bereits Anfang des Jahres erschienen sein, aber die gegenwärtige Fassung bedarf noch einiger Anpassungen. Es handelt sich bei diesem Buch übrigens um die Übersetzung und Aktualisierung des englischen Titels "Effective Techniques for Application Development with Visual FoxPro" für Visual FoxPro 9.0. Mit der stetigen Weiterentwicklung von VFP und neuen Features wie etwa aktualisierbare Cursor, CursorAdapter-Klasse und die ganzen XML-Fähigkeiten ergeben sich natürlich auch neue Bewertungen für die effiziente Anwendungsentwicklung. Das Buch umfasst derzeit 14 Kapitel und vier Anhänge verteilt auf über 370 Seiten.

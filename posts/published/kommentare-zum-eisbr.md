@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/kommentare-zum-eisbr/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Irgendwie reicht die Kommentarfunktion [url=https://www.des-eisbaeren-blog.de/Default.aspx?Guid=e6465127-dc27-4e49-a40d-992e33a45beb]beim Eisbären[/url] nicht mehr bzw. die notwendige Funktionalität fehlt im Blog. Daher schreibe ich meine Gedanken und Anmerkungen hier.  
   
 Also deine Einleitung ist ja schon ein leichter 'Brüller': 'uebrigens, bitte nicht wegen der Umlaute wundern, aber die Terminals hier auf der PDC verfuegen logischerweise nicht ueber deutsche Tastaturen' - Öhem, schon mal was von Lokalisierung gehört? Evtl. auch die Tastenkombination Alt+Shift - Naja, wenn auf der PDC die Terminals keine multiplen Layouts anbieten, zeugt das von ... [zensiert]. Wenn man als Veranstalter einer \*\*internationalen\*\* Konferenz noch nicht einmal lokalisierte Terminals anbietet... - Neee, ich schreib' nix weiter. Und wieso logischerweise?  

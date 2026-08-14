@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: Integrate Google AdSense into your Ghost
 metaDescription: Ghost doesn't provide integration of Google AdSense out of the box in their default template. Adding and referencing a partial view can solve this issue and show affiliated advertisement on your site.
-image: content/images/2017/09/GoogleAdsense_banner.png
+image: content/images/2017/09/GoogleAdsense_banner.webp
 ogTitle: Integrate Google AdSense into your Ghost
 ogDescription: Ghost doesn't provide integration of Google AdSense out of the box in their default template. Adding and referencing a partial view can solve this issue and show affiliated advertisement on your site.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/integrate-google-adsense-ghost/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/09/GoogleAdsense_banner.png
+imageUrl: content/images/2017/09/GoogleAdsense_banner.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/09/GoogleAdsense_banner.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/09/GoogleAdsense_banner.png
+featureImage: content/images/2017/09/GoogleAdsense_banner.webp
 featured: false
 publishedAt: 2017-09-25T09:05:54Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 A little bit of extra pocket money at the beginning can with some effort turn into a solid passive income. [Google AdSense](https://www.google.com/adsense/) is one of the many platforms to monetize your site.
 
 > Turn your passion into profit.  

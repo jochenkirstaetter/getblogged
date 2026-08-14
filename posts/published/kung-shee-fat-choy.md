@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/kung-shee-fat-choy/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Happy New Year in chinese language. Today is Chinese Spring Festivaland we are celebrating the start of a new chinese year. You may think'Why are you celebrating?' Well, the answer is straight forward. Mylovely girlfriend and future wife is half chinese. Any more questions?  
   
 And together with all the family we are enjoying this public holiday inMauritius. The interesting difference here is that the date of 'NewYear' variies from year to year compared to the occidential knowledge,whereas Silvester is always on the 31st of December. But still thereare a lot of fireworks and fire crackers in the surroundings. It'sreally nice to see and hear those spectacles.  

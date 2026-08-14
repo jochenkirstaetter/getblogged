@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: Guest lecturer for the Africa Industrial Internet Programme (AIIP)
 metaDescription: As an active member in the IT communities of Mauritius it seizes to amaze me to see the increasing number of events and activities happening. Some of the local universities started to look out for...
-image: https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2019/09/photo-1517245386807-bb43f82c33c4.webp
 ogTitle: Guest lecturer for the Africa Industrial Internet Programme (AIIP)
 ogDescription: As an active member in the IT communities of Mauritius it seizes to amaze me to see the increasing number of events and activities happening. Some of the local universities started to look out for...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/aiip-azure-devops/
-imageUrl: https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2019/09/photo-1517245386807-bb43f82c33c4.webp
 twitterImageUrl: https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2019/09/photo-1517245386807-bb43f82c33c4.webp
 featured: false
 publishedAt: 2019-09-06T07:20:00Z
 updatedAt: 2019-09-06T07:20:00Z
@@ -52,8 +52,8 @@ facebookDescription: As an active member in the IT communities of Mauritius it s
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 As an active member in the IT communities of Mauritius it seizes to amaze me to see the increasing number of events and activities happening. Some of the local universities started to look out for guest lecturers to share their professional experience with their students.
 
 Mid of August I received an email from the [African Leadership University](https://www.alueducation.com/campuses/alc-mauritius/) to participate as a guest speaker in their adult training program called [Africa Industrial Internet Programme (AIIP)](https://www.alueducation.com/aiip/). Particularly, to talk during one of their webinar intensives.
@@ -74,13 +74,13 @@ Unfortunately due to a little misunderstanding on my side, I initially drove to 
 
 The AIIP uses Zoom to run their webinar intensives. Good, I have already attended a few sessions on Zoom, mainly as attendee, and with the client application installed I managed to quickly join. Shivanand introduced me quickly to the approximately 35 participants and after a few questions to the audience I launched into [Microsoft Azure](https://azure.microsoft.com/). As it turned out most attendees did not have access to Azure (yet) I showed them briefly the sign up process for the free account.
 
-![Portal home page of Microsoft Azure](../content/images/2019/09/image-8.png)
+![Portal home page of Microsoft Azure](../content/images/2019/09/image-8.webp)
 
 Then, I logged into the [Azure portal](https://portal.azure.com/) using my credentials and gave a short tour of the Home page and the Dashboard area. One or two questions came up in regards to the customisation and management of the dashboard which is very flexible and adjustable.
 
 Next, I moved forward to `Create a resource` from the sidebar navigation and showed the various options in the `Compute` section of the Azure Marketplace, as shown below.
 
-![Featured options in the Compute section of the Azure Marketplace](../content/images/2019/09/image-9.png)
+![Featured options in the Compute section of the Azure Marketplace](../content/images/2019/09/image-9.webp)
 
 By searching the Marketplace I made it obvious that there are way more possibilities offered than just the featured ones.
 
@@ -96,7 +96,7 @@ A VM in the cloud might be easiest option to start with but moving forward I exp
 
 Using an existing app service I covered the general settings and answered a few questions. Then I explained the ability to set up own custom domains for an app service. Following some questions regarding scaling we had a look at the App Service plan and how both options - Scale up and Scale out - can be handled. Next, I demonstrated the use of Deployment slots and how easy it is to have multiple variants of the same application at your finger tips.
 
-![Deployment slots of an App Service on Azure](../content/images/2019/09/image-10.png)
+![Deployment slots of an App Service on Azure](../content/images/2019/09/image-10.webp)
 
 As I was about to move on to the next option of application development on Azure we got surprised by power outage in the building, interestingly the Wi-Fi and internet connection remained active, followed by fire alarm. Luckily, it was a false alarm but somehow the flow of the webinar had been interrupted harshly.
 

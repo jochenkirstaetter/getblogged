@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: FoxPro - das Urzeitmonster aus der Tiefe...
 metaDescription: FoxPro - das Urzeitmonster aus der Tiefe... Irgendwie trifft der Spruch den Nagel auf den Kopf. FoxPro oder in aktueller Version unter der Bezeichnung Visual FoxPro 9.0 Public Beta in aller Munde ist unter den Sprachen ein modernes Urgestein der Programmierung. Und vielleicht lasse sich &#196;hnlichkeiten zu Godzilla finden...---- Nein,
-image: https://images.unsplash.com/photo-1443803992021-689478c50dcc?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=a4f41321ccedff047e65d722bdfbedc1
+image: content/images/2004/07/photo-1443803992021-689478c50dcc.webp
 ogTitle: FoxPro - das Urzeitmonster aus der Tiefe...
 ogDescription: Irgendwie trifft der Spruch den Nagel auf den Kopf. FoxPro oder in aktueller Version unter der Bezeichnung Visual FoxPro 9.0 Public Beta in aller Munde ist unter den Sprachen ein modernes Urgestein...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/foxpro---das-urzeitmonster-aus-der-tiefe---/
-imageUrl: https://images.unsplash.com/photo-1443803992021-689478c50dcc?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=a4f41321ccedff047e65d722bdfbedc1
+imageUrl: content/images/2004/07/photo-1443803992021-689478c50dcc.webp
 twitterImageUrl: https://images.unsplash.com/photo-1443803992021-689478c50dcc?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=a4f41321ccedff047e65d722bdfbedc1
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1443803992021-689478c50dcc?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=a4f41321ccedff047e65d722bdfbedc1
+featureImage: content/images/2004/07/photo-1443803992021-689478c50dcc.webp
 featured: false
 publishedAt: 2004-07-16T10:13:08Z
 updatedAt: 2018-10-23T07:22:06Z
@@ -52,8 +52,8 @@ facebookDescription: Irgendwie trifft der Spruch den Nagel auf den Kopf. FoxPro 
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Irgendwie trifft der Spruch den Nagel auf den Kopf. FoxPro oder in aktueller Version unter der Bezeichnung Visual FoxPro 9.0 Public Beta in aller Munde ist unter den Sprachen ein modernes Urgestein der Programmierung. Und vielleicht lasse sich Ähnlichkeiten zu Godzilla finden...  
 ----  
 Nein, wollen wir mal den Spass außen vor lassen. Denn auch  

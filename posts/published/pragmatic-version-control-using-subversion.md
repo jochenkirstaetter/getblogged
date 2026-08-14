@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/pragmatic-version-control-using-subversion/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Es gibt bereits einige Bücher zu Subversion (SVN) aber dieser Titel geht einen anderen Weg. Angefangen mit einer kurzen Erläuterung, was denn Versionskontrolle überhaupt bedeutet, beschreibt Mike Mason sehr detailiert die notwendigen und empfohlenen Schritte zur Realisierung gewisser Problemstellungen im täglichen Umgang mit Subversion. Anhand vieler Beispiele und einleuchtender Erläuterungen lässt sich Subversion schnell und nutzbringend als Versionskontrolle einsetzen.  
   
 Die komplette Rezension ist wieder einmal bei Amazon veröffentlicht:  

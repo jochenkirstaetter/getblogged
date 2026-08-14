@@ -11,7 +11,7 @@ tags:
 keywords: Android
 metaTitle: 'App Review: Mauritius Vibrations'
 metaDescription: Very often in Mauritius, we have the feeling that nothing is happening. Or we learn about interesting events only after they have occurred. This is specially true for tourists who often find it difficult to get timely information on the latest happenings in Mauritius. As a result, a lot of tourists tend to stay in their hotel and miss the real Mauritius!
-image: content/images/2018/02/mauritius-vibrations-event.jpg
+image: content/images/2018/02/mauritius-vibrations-event.webp
 ogTitle: 'App Review: Mauritius Vibrations'
 ogDescription: Finally, someone was able to realize one of 'my' ideas for an app. Since I'm here on the island I was always kind of annoyed by the simple fact that you could only read the articles about events that...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mauritius-vibrations/
-imageUrl: https://jochen.kirstaetter.name/content/images/2018/02/mauritius-vibrations-event.jpg
+imageUrl: content/images/2018/02/mauritius-vibrations-event.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2018/02/mauritius-vibrations-event.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2018/02/mauritius-vibrations-event.jpg
+featureImage: content/images/2018/02/mauritius-vibrations-event.webp
 featured: false
 publishedAt: 2014-03-05T09:32:26Z
 updatedAt: 2018-04-02T08:38:44Z
@@ -53,17 +53,16 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Finally, someone was able to realize one of 'my' ideas for an app. Since I'm here on the island I was always kind of annoyed by the simple fact that you could only read the articles about events that had happened already. Any kind of advertisement or pre-event information was and still is hardly available for quite a number of good events here in Mauritius.
 
 ## Event calendar and details in Mauritius
 
 Luckily, the development team at [Knowledge Seven](https://www.knowledge7.com/ "Knowledge Seven") in Quatre Bornes took care of this issue and they recently published their Android app "Mauritius Vibrations" on the Play Store.
 
-[![Mauritius Vibrations: Overview of events - Click to enlarge](https://s.kirstaetter.name/images/mauritius-vibrations-overview-small.jpg)](https://s.kirstaetter.name/images/mauritius-vibrations-overview.jpg)  
+[![Mauritius Vibrations: Overview of events - Click to enlarge](../content/images/2014/03/mauritius-vibrations-overview-small.webp)](../content/images/2014/03/mauritius-vibrations-overview.webp)  
 *Mauritius Vibrations: Overview of events*
 
-[![Mauritius Vibrations: Event details - Click to enlarge](https://s.kirstaetter.name/images/mauritius-vibrations-event-small.jpg)](https://s.kirstaetter.name/images/mauritius-vibrations-event.jpg)  
+[![Mauritius Vibrations: Event details - Click to enlarge](../content/images/2014/03/mauritius-vibrations-event-small.webp)](../content/images/2014/03/mauritius-vibrations-event.webp)  
 *Mauritius Vibrations: Event details*
 
 The app is available in two editions:

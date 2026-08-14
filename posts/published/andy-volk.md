@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: Dinner with Andy Volk
 metaDescription: While exchanging with the nice GDG folks over at Google Nigeria about the possibility to get Google interested to assist during the annual Developers Conference of the MSCC, some magic happened again.
-image: content/images/2018/03/IMG_20180306_205902-1.jpg
+image: content/images/2018/03/IMG_20180306_205902-1.webp
 ogTitle: Dinner with Andy Volk
 ogDescription: While exchanging with the nice GDG folks over at Google Nigeria about the possibility to get Google interested to assist during the annual Developers Conference of the MSCC, some magic happened again.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/andy-volk/
-imageUrl: https://jochen.kirstaetter.name/content/images/2018/03/IMG_20180306_205902-1.jpg
+imageUrl: content/images/2018/03/IMG_20180306_205902-1.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2018/03/IMG_20180306_205902-1.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2018/03/IMG_20180306_205902-1.jpg
+featureImage: content/images/2018/03/IMG_20180306_205902-1.webp
 featured: false
 publishedAt: 2018-03-08T10:05:34Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 While exchanging with the nice GDG folks over at Google Nigeria about the possibility to get Google interested to assist during the annual [Developers Conference](https://conference.mscc.mu/) of the [MSCC](https://www.mscc.mu/), some magic happened again.
 
 In an email response with my GDG leads at Google, Aniedi came up with an information that Andy Volk would be in Mauritius from 6th to 8th of March for a Google-led event. Hence he suggested *to meet with Andy over dinner and share your experience, insights, challenges and opportunities for developers in Mauritius.* Of course, you don't have to ask me twice for such an opportunity.
@@ -77,8 +76,8 @@ At agreed time, Yovan was already expecting us and Andy joined us a bit later as
 Andy introduced himself and gave us an overview of his activities and involvements in Africa, and that he'd interested to get to know a bit more about the software development and  
 entrepreneur scenery in Mauritius. It was rally interesting to hear about the [Launchpad Africa](https://developers.google.com/programs/launchpad/regional/) acceleration program for the region, how the game development scene in South Africa has evolved and contributes to the country's GDP.
 
-![Dinner with Andy Volk and various organisers of local user groups in Mauritius](../content/images/2018/03/IMG_20180306_205902.jpg)
+![Dinner with Andy Volk and various organisers of local user groups in Mauritius](../content/images/2018/03/IMG_20180306_205902.webp)
 
-![Dinner with Andy Volk and various organisers of local user groups in Mauritius](../content/images/2018/03/MeetingAndyVolkEdited.jpg)
+![Dinner with Andy Volk and various organisers of local user groups in Mauritius](../content/images/2018/03/MeetingAndyVolkEdited.webp)
 
 Those two hours went too quickly, and it would have been a pleasure to listen more to Andy's activities in the Sub-Saharan Africa region. I'm hooked up for more content and engagement with Google during the coming months. Simply because I love the cross-platform experience and I'd like to broaden my options as a [professional software developer](http://www.ios.mu).

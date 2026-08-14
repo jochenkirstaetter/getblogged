@@ -11,7 +11,7 @@ tags:
 keywords: iOS
 metaTitle: Side-load and read your mobi ebooks on Kindle for iOS
 metaDescription: Easily sideload your own book titles to your Kindle for iPad app, not only titles from the Amazon shop.
-image: content/images/2019/01/itunes_kindle-file-sharing.png
+image: content/images/2019/01/itunes_kindle-file-sharing.webp
 ogTitle: Side-load and read your mobi ebooks on Kindle for iOS
 ogDescription: Inspired by my own article on side-loading ebooks on Kindle for Android I wanted to know how to do it for iOS-based devices like the iPhone, the iPad, or the iPod. It seems that the possibilities are...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/side-load-and-read-your-mobi-ebooks-on-kindle-for-ios/
-imageUrl: https://jochen.kirstaetter.name/content/images/2019/01/itunes_kindle-file-sharing.png
+imageUrl: content/images/2019/01/itunes_kindle-file-sharing.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2019/01/itunes_kindle-file-sharing.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2019/01/itunes_kindle-file-sharing.png
+featureImage: content/images/2019/01/itunes_kindle-file-sharing.webp
 featured: false
 publishedAt: 2013-05-01T04:20:29Z
 updatedAt: 2019-01-28T02:42:18Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Inspired by my own article on [side-loading ebooks on Kindle for Android](xref:side-load-and-read-your-ebooks-on-kindle-for-android "side-loading ebooks on Kindle for Android") I wanted to know how to do it for iOS-based devices like the iPhone, the iPad, or the iPod. It seems that the possibilities are on the one side different but on the other side somehow 'richer' compared to Android.
 
 First of all, due to the 'walled garden' concept in iOS you can not simply hook up your device to your Mac or PC and transfer the files 'as-is'. This is the major difference to Android which is a huge drawback according to my perception but not too bad after all for the majority of users in general.
@@ -75,7 +74,7 @@ But iExplorer seems to require the installation of iTunes which brings us to the
 
 This might be the easiest version after all. Connect your device via USB, navigate within iTunes to Apps &gt; File Sharing &gt; Apps: Kindle &gt; Kindle Documents and simply drag & drop your MOBIs from Mac Finder or Windows Explorer there. Or choose your files via the Add... dialog.
 
-![Transfer your .mobi files to your Kindle for iPad with iTunes](https://s.kirstaetter.name/images/itunes_kindle-file-sharing.png)  
+![Transfer your .mobi files to your Kindle for iPad with iTunes](../content/images/2013/05/itunes_kindle-file-sharing.webp)  
 *Transfer your .mobi files to your Kindle for iPad with iTunes*
 
 Of course, always assuming that you are actually having a Mac or Windows system at your fingertips. This looks completely different while running on Linux.
@@ -88,12 +87,12 @@ Since Kindle version 2.5 (~ November 2011) it is possible to use the registered 
 
 Sounds too good to be true?
 
-![While accessing .mobi files Safari offers a dialog to 'Open in Kindle'](https://s.kirstaetter.name/images/safari_open-in-kindle-ipad.png)  
+![While accessing .mobi files Safari offers a dialog to 'Open in Kindle'](../content/images/2013/05/safari_open-in-kindle-ipad.webp)  
 *While accessing .mobi files Safari offers a dialog to 'Open in Kindle'*
 
 No, it actually works pretty smart but as stated in the release notes it is somehow restricted to the native iOS apps like Safari or Mail. Unfortunately, I couldn't manage to download a file in mobi format from the [Project Gutenberg](https://www.gutenberg.org/ "Project Gutenberg") web site in Chrome:
 
-![Chrome fails to open .mobi files for Kindle for iPad](https://s.kirstaetter.name/images/chrome_open-in-kindle-failed.png)  
+![Chrome fails to open .mobi files for Kindle for iPad](../content/images/2013/05/chrome_open-in-kindle-failed.webp)  
 *Chrome fails to open .mobi files for Kindle for iPad*
 
 "Download Failed - Chrome cannot download this file. **Error 102 (): Unknown File Type.**" - Thanks for that!
@@ -102,7 +101,7 @@ No, it actually works pretty smart but as stated in the release notes it is some
 
 As already mentioned in the Android experience your Kindle for iPad app or your Kindle for iPhone/iPod app has the ability to receive documents (in)directly through your Amazon's Cloud storage. Either you change to the tab 'Docs' (Kindle for iPad, might be different on iPhone/iPod) or you open the Settings menu in your Kindle app to discover your device-specific 'Send-to-Kindle Email Address'.
 
-![Lookup your 'Send-to-Kindle' Email Address in the Settings menu](https://s.kirstaetter.name/images/kindle-settings-ipad.png)  
+![Lookup your 'Send-to-Kindle' Email Address in the Settings menu](../content/images/2013/05/kindle-settings-ipad.webp)  
 *Lookup your 'Send-to-Kindle' Email Address in the Settings menu*
 
 Next, send an email to that particular mail address with your MOBI file or any other kind of document as attachment. Wait for some minutes and synchronise your device.

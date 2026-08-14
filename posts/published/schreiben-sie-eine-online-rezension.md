@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/schreiben-sie-eine-online-rezension/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Nach der Erstellung meiner ersten Rezension für die deutschsprachige FoxPro User Group letzten Monat habe ich mir vorgenommen, dass ich für jedes Buch, dass durch meine Badewanne geht...  
   
 ...künftig eine Rezension schreiben werde. Ich finde das ziemlich fair gegenüber dem Verlag und gegenüber dem Autor, oder? Well, da ich zwecks meiner Experimente zu VFP Datenbank in .NET ein wenig Schützenhilfe hatte, nahm ich dies als Anlass um eine weitere Rezension zu schreiben:  

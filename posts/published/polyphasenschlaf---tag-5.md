@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/polyphasenschlaf---tag-5/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 \*\*Weniger Schlaf\*\*  
 Heute ergab sich kaum die Möglichkeit während der Arbeit einzuschlafen. Die Geräuschkulisse war leider ein wenig zu hoch. Ich möchte mich mit der Aussage nicht beschweren, sondern lediglich feststellen, dass ich nicht wirklich schlafen konnte. Stattdessen begnügte ich mich mit ein paar Minuten geschlossener Augen und autogenem Training, welches eigentlich bisher zum Schlaf führte, nicht so heute. Naja, ab nächster Woche werde ich mich ins Besprechungszimmer - sofern ungenutzt - verziehen und dort die Schlafeinheiten während des Tages umsetzen.
 

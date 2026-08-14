@@ -12,7 +12,7 @@ tags:
 keywords: Community, Activity
 metaTitle: Campsite fire talk with John O'Nolan
 metaDescription: Good things take time. After more than a year I finally managed to sit down and write about the experience of welcoming John O'Nolan, founder of Ghost blogging platform, to one of our MSCC meetings.
-image: content/images/2018/03/mscc_johnonolan_campsitetalk.jpeg
+image: content/images/2018/03/mscc_johnonolan_campsitetalk.webp
 ogTitle: Campsite fire talk with John O'Nolan
 ogDescription: Good things take time. After more than a year I finally managed to sit down and write about the experience of welcoming John O'Nolan, founder of Ghost blogging platform, to one of our MSCC meetings.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/john-onolan/
-imageUrl: https://jochen.kirstaetter.name/content/images/2018/03/mscc_johnonolan_campsitetalk.jpeg
+imageUrl: content/images/2018/03/mscc_johnonolan_campsitetalk.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2018/03/mscc_johnonolan_campsitetalk.jpeg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2018/03/mscc_johnonolan_campsitetalk.jpeg
+featureImage: content/images/2018/03/mscc_johnonolan_campsitetalk.webp
 featured: false
 publishedAt: 2018-11-13T16:38:24Z
 updatedAt: 2019-01-07T20:35:11Z
@@ -54,14 +54,13 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Good things take time. After more than a year I finally managed to sit down and write about the experience of welcoming [John O'Nolan](https://x.com/JohnONolan), founder of [Ghost](https://x.com/TryGhost/) blogging platform, to one of our [MSCC](https://www.mscc.mu/) meetings.
 
 ## How did you manage that?
 
 Honestly, it wasn't me but one of our female craftsman, [Humeira](https://x.com/echdee). She is a subscriber to [John's YouTube channel](https://www.youtube.com/channel/UCfgQ94JiO45CeFkQHUR1f3Q) and given his vlogging activity he mentioned that he would be [En route to Mauritius](https://john.onolan.org/en-route-to-mauritius/) soon.
 
-![Left to right: Sandeep, Ish and Humeira - all happy about the talk](../content/images/2018/03/mscc_johnonolan_happiness.jpeg)
+![Left to right: Sandeep, Ish and Humeira - all happy about the talk](../content/images/2018/03/mscc_johnonolan_happiness.webp)
 
 So, Humeira poked me over Twitter asking whether it could be interesting to meet with John or not. Given such a great opportunity you don't have to ask me: Yes, of course!  
 Living on a remote, tropical island like Mauritius doesn't offer you too many options to meet with *famous* people from the rest of the world. Hence, we seize every chance to meet and to get to know someone's story. Dear reader, in case that you decide to come and visit our lovely island, get in touch with either me or any other MSCC craftsmen. Everybody is eager to meet and hear your story.
@@ -72,7 +71,7 @@ Well, effectively I encouraged Humeira to check out whether John would be okay t
 
 The event [Ghost - Happy Hour Q&A with John O'Nolan](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/events/237470307/) was organised and announced on quite a short notice. And despite a low number of RSVPs more craftsmen than expected came that evening. If I counted properly we had **27** attendees in total.
 
-![Interested MSCC craftsmen listening to John O'Nolan](../content/images/2018/03/mscc_johnonolan_crowd.jpeg)
+![Interested MSCC craftsmen listening to John O'Nolan](../content/images/2018/03/mscc_johnonolan_crowd.webp)
 
 ### A little history
 
@@ -104,7 +103,7 @@ Did you know that the whole Ghost blog universe is open source and available on 
 
 Getting into development of Ghost themes for example is very easy and straight forward. Themes are based on Handlebars and the documentation provides all information needed to create appealing and modern UIs for a blog running on Ghost. The environment to develop Ghost itself is a bit trickier but doable as soon as you are more familiar with the architecture and the various components.
 
-![Discussing about Ghost blogging platform](../content/images/2018/11/Ghost_highres_458198425.jpeg)
+![Discussing about Ghost blogging platform](../content/images/2018/11/Ghost_highres_458198425.webp)
 
 ## Get Blogged: Long overdue upgrade
 
@@ -140,7 +139,7 @@ Over there you will also find an article inclusive video link about John's exper
 
 Talking about Vlogs...
 
-![The whole conversation has been recorded](../content/images/2018/03/mscc_johnonolan_camera.jpeg)
+![The whole conversation has been recorded](../content/images/2018/03/mscc_johnonolan_camera.webp)
 
 The whole conversation has been recorded. Kudos to the folks of [LSL Digital](https://www.lsl.digital/). If you are interested to watch it, check out the [MSCC channel on YouTube](https://www.youtube.com/channel/UCeLiAZ5TlJla_uDj8_KndyA).
 
@@ -149,7 +148,7 @@ The whole conversation has been recorded. Kudos to the folks of [LSL Digital](ht
 Thank You!  
 It was an amazing evening and I'm sure that our craftsmen appreciated your talk. I learned a lot from that *camp-site fire talk* with John and the elegance of Ghost motivated me to launch this website with a new look and fresh content.
 
-![Meeting John O'Nolan was really fun! Thanks!](../content/images/2018/03/mscc_johnonolan_joki_cropped.jpeg)
+![Meeting John O'Nolan was really fun! Thanks!](../content/images/2018/03/mscc_johnonolan_joki_cropped.webp)
 
 Meeting John O'Nolan was really fun! Thanks!
 

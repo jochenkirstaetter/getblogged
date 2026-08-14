@@ -12,7 +12,7 @@ tags:
 keywords: General, Personal
 metaTitle: Inspecting internet router in Mauritius
 metaDescription: An internet modem provided by your service provider (ISP) might have some hidden gems. Eventually this article gives you some tips to improve your configuration in regards to security and safety.
-image: content/images/2017/10/rucksack-magazine.jpg
+image: content/images/2017/10/rucksack-magazine.webp
 ogTitle: Inspecting internet router in Mauritius
 ogDescription: An internet modem provided by your service provider (ISP) might have some hidden gems. Eventually this article gives you some tips to improve your configuration in regards to security and safety.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/router-in-mauritius/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/10/rucksack-magazine.jpg
+imageUrl: content/images/2017/10/rucksack-magazine.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/10/rucksack-magazine.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/10/rucksack-magazine.jpg
+featureImage: content/images/2017/10/rucksack-magazine.webp
 featured: false
 publishedAt: 2017-10-18T13:06:42Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -54,7 +54,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Inspired by a [posting on Facebook](https://www.facebook.com/abdoolirshaad/posts/10212819924564944) and a developing late night conversation with [Irshaad Abdool](https://www.facebook.com/abdoolirshaad) on Monday I got some motivation to have a closer look myself.
 
 Irshaad mentioned in his article on [Vulnerabilities on MT FTTH Routers](http://irshaad.me/wp/vulnerabilities-on-mt-ftth-routers) that the local IT community [hackers.mu](https://hackers.mu) organised their first vidcast, or better said Hangouts On Air, talking about same issue actually. Please find the recording on [YouTube](https://www.youtube.com/watch?v=eqTjPkCK5mU):
@@ -63,7 +62,7 @@ Irshaad mentioned in his article on [Vulnerabilities on MT FTTH Routers](http://
 
 The hangout session explains and shows several security concerns related to the FTTH modem/router/gateway provided by Mauritius Telecom. This is related to an article [Behind the Masq: Yet more DNS, and DHCP, vulnerabilities](https://security.googleblog.com/2017/10/behind-masq-yet-more-dns-and-dhcp.html) on the Google Security Blog. The main issue is due to a popular software used in such devices: [Dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html).
 
-![Huawei's HG8245H gateway uses vulnerable open software like dnsmasq](../content/images/2017/10/mt_dnsmasq.png)
+![Huawei's HG8245H gateway uses vulnerable open software like dnsmasq](../content/images/2017/10/mt_dnsmasq.webp)
 
 Although, I find this report already serious I was a bit more concerned about the default settings, enabled features, and login credentials of same router. So, let's get a bit more into the details.
 
@@ -71,7 +70,7 @@ Although, I find this report already serious I was a bit more concerned about th
 
 After successful installation of a fiber line at your premises you'd be given access to the new modem. The default password to access the WiFi network might be written on the box already, and you might be told that the login credentials for you are default.
 
-![Log into the HG8245H modem with your "root" account](../content/images/2017/10/mt_loginroot.png)
+![Log into the HG8245H modem with your "root" account](../content/images/2017/10/mt_loginroot.webp)
 
 Just in case, it's *root : admin* - and as tech-savvy person you feel like master of the fiber connection at your place. In my case, I started to explore the web interface to immediately change the account password, then to review all the current settings, and to make minor adjustments like SSID and password of the wireless network, etc.
 
@@ -87,7 +86,7 @@ During the conversation with Irshaad and based on other indications where people
 
 The router actually has a second, more powerful user account enabled by default. Yup, that one isn't communicated to mere mortals like the regular consumer. That additional account gives you an extended web interface to manage your device. Depending on the preferences of your ISP this might vary but here in Mauritius the credentials are *telecomadmin : admintelecom*
 
-![More options using the "telecomadmin" account](../content/images/2017/10/mt_logintelecomadmin.png)
+![More options using the "telecomadmin" account](../content/images/2017/10/mt_logintelecomadmin.webp)
 
 Eventually, you have to search the default credentials on the web in case those ones don't work for you.
 
@@ -101,11 +100,11 @@ Well, there is just one major problem here: That password **cannot** be changed!
 
 Referring back to the Hangout by hackers.mu there are other default settings and features sleeping in your modem. For example, apart from the familiar web interface to manage your router there is another access via Telnet enabled by default. Telnet itself is an unencrypted protocol to connect to remote systems and manage them. Telnet is from the early days of internet usage when security concerns were not that obvious or present.
 
-![Review and disable Telnet access to your modem](../content/images/2017/10/mt_telnet.png)
+![Review and disable Telnet access to your modem](../content/images/2017/10/mt_telnet.webp)
 
 Log in with the **super user account** and navigate to `Security > ONT Access Control Configuration` to review and uncheck any Telnet access options, as shown in the screenshot above. If you logged in using the regular *root* account you might see the following instead.
 
-![The regular root account might not allow you to disable Telnet](../content/images/2017/10/mt_ontroot.png)
+![The regular root account might not allow you to disable Telnet](../content/images/2017/10/mt_ontroot.webp)
 
 Afterwards, you should verify that Telnet service has been disabled using a Command Prompt, PowerShell or Terminal, like so:
 
@@ -142,7 +141,7 @@ Reading [Vulnerability Note VU#922681 - Portable SDK for UPnP Devices (libupnp) 
 
 The vulnerability note reports that several manufacturers have been notified about this issue, Huawei is among them.
 
-![Huawei devices using libupnp exposing the vulnerabilities to the internet](../content/images/2017/10/huawei_upnp.png)
+![Huawei devices using libupnp exposing the vulnerabilities to the internet](../content/images/2017/10/huawei_upnp.webp)
 
 Literally, any HG8245H modem by Mauritius Telecom can be accessed and exploited remotely without you knowing it. Thanks for that...
 
@@ -165,7 +164,7 @@ Fear not, let's have a closer look...
 
 Some years back Emtel introduced a GSM gateway device to offer their customers more comfort and options than the USB dongles available at that time. Branded as *Home & Office* internet connectivity you received a device with 4 LAN ports, POTS outlet for a regular telephone and some wires. Emtel operates on the mobile network solely, and that device is a 2G/3G router for their network. The SIM card in the device is locked and therefore cannot be used in a regular mobile phone. The B68A device, also known as the *black modem*, is capable of transfer speeds of up to 21 Mbps.
 
-![Emtel's modem comes with a default account](../content/images/2017/10/emtel_admin.png)
+![Emtel's modem comes with a default account](../content/images/2017/10/emtel_admin.webp)
 
 Initially, you would log into the device using the default credentials *admin : admin*. Next, you are requested to change the password for security reasons. Maybe you might interested in other default [Router Username and Password for Huawei Routers](http://setuprouter.com/router/huawei/passwords.htm).
 
@@ -200,7 +199,7 @@ Error code: SEC_ERROR_CA_CERT_INVALID
 
 Further inspection of the SSL certificate might give you the following details.
 
-![HTTPS access not safe due to an expired SSL certificate](../content/images/2017/10/emtel_sslcertificate.png)
+![HTTPS access not safe due to an expired SSL certificate](../content/images/2017/10/emtel_sslcertificate.webp)
 
 Clearly, this is a self-signed certificate. It's kind of surprising to see that it has been created back in 2007, long before this device even existed.
 
@@ -226,13 +225,13 @@ PORT     STATE SERVICE    VERSION
 
 DNS service is available on the device, as expected, and there are three ports for a web interface. Accessing the HTTP address would be the standard. Navigating to the HTTPS address in Firefox gives you a hint regarding a network login, like this:
 
-![Accessing the HTTPS web interface gives you a Login to Network information](../content/images/2017/10/emtel_networklogin.png)
+![Accessing the HTTPS web interface gives you a Login to Network information](../content/images/2017/10/emtel_networklogin.webp)
 
 Although interesting I didn't get anything useful out of this. And the proxy URL on port 8080 simply redirects you back to the regular HTTP address. Nothing to see here.
 
 Compared to the B68A modem the self-signed SSL certificate in the B310S is still valid, and can be added to your local certificate store for future reference.
 
-![Valid self-signed SSL certificate in Huawei B310S modem](../content/images/2017/10/emtel_sslcertificate2.png)
+![Valid self-signed SSL certificate in Huawei B310S modem](../content/images/2017/10/emtel_sslcertificate2.webp)
 
 And at least the Common Name (CN) as well as the Organization (O) fields are better choices, too. Only drawback would be that the modem announces itself as *homerouter.cpe* in DNS instead of *mobile.wifi* which could lead to another SSL warning.
 

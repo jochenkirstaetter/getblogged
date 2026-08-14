@@ -12,7 +12,7 @@ tags:
 keywords: Personal, Activity
 metaTitle: I am Iron Man!
 metaDescription: Hovering over the sea like Iron Man is possible thanks to Flyboard. For my birthday I received a gift voucher from my wife. Such great fun in the water and in the air.
-image: content/images/2017/08/FlyboardMauritius.png
+image: content/images/2017/08/FlyboardMauritius.webp
 ogTitle: I am Iron Man!
 ogDescription: Hovering over the sea like Iron Man is possible thanks to Flyboard. For my birthday I received a gift voucher from my wife. Such great fun in the water and in the air.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/i-am-iron-man/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/08/FlyboardMauritius.png
+imageUrl: content/images/2017/08/FlyboardMauritius.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/08/FlyboardMauritius.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/08/FlyboardMauritius.png
+featureImage: content/images/2017/08/FlyboardMauritius.webp
 featured: false
 publishedAt: 2017-08-13T08:43:59Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -54,7 +54,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Living near the sea side offers a number of fun and leisure activities on, in, and under the water. Thanks to my BWE I was given a generous gift voucher for my birthday back in May. Due to our work, private constraints and the children being at school, it's only now that we finally managed to get our stuff together.
 
 ## Fly what?
@@ -63,7 +62,7 @@ The voucher is for a session using a [Flyboard](https://en.wikipedia.org/wiki/Fl
 
 Driving up to the North was pretty smooth and after a decent breakfast at [La Croisette](http://www.gblc.mu/) it was about time to meet the crew.
 
-![Despite reports of bad weather by local meteo service... awesome blue skies this morning in Mauritius](../content/images/2017/08/WP_20170809_09_44_41_Pro.jpg)
+![Despite reports of bad weather by local meteo service... awesome blue skies this morning in Mauritius](../content/images/2017/08/WP_20170809_09_44_41_Pro.webp)
 
 We met on the public beach near Sunset Boulevard and despite a little hiccup in the booking, (nah, not really important), my lovely wife and I finally ventured out on the boat.
 

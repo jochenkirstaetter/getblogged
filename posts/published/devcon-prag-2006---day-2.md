@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: Devcon Prag 2006 - Day 2
 metaDescription: Devcon Prag 2006 - Day 2 **Windows Component Services**Alle Jahre wieder vergibt Microsoft neue Namen f&#252;r vorhandene Technologien. Okay, es ist weitaus mehr als nur eine schlichte Namens&#228;nderung. Schliesslich wird damit auch angezeigt, dass Neuerungen realisiert wurden.SetComplete() beendet die Transaktion und entsorgt das COM+ Objekt im Speicher.F&#252;r Windows Component Services
-image: https://images.unsplash.com/photo-1514994173729-9cd2e1750e35?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=56107f1f2476a77d6cd1e6a8d5a3672b
+image: content/images/2006/09/photo-1514994173729-9cd2e1750e35.webp
 ogTitle: Devcon Prag 2006 - Day 2
 ogDescription: '**Windows Component Services**Alle Jahre wieder vergibt Microsoft neue Namen für vorhandene Technologien. Okay, es ist weitaus mehr als nur eine schlichte Namensänderung. Schliesslich wird damit auch...'
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/devcon-prag-2006---day-2/
-imageUrl: https://images.unsplash.com/photo-1514994173729-9cd2e1750e35?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=56107f1f2476a77d6cd1e6a8d5a3672b
+imageUrl: content/images/2006/09/photo-1514994173729-9cd2e1750e35.webp
 twitterImageUrl: https://images.unsplash.com/photo-1514994173729-9cd2e1750e35?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=56107f1f2476a77d6cd1e6a8d5a3672b
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1514994173729-9cd2e1750e35?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=56107f1f2476a77d6cd1e6a8d5a3672b
+featureImage: content/images/2006/09/photo-1514994173729-9cd2e1750e35.webp
 featured: false
 publishedAt: 2006-09-12T11:27:19Z
 updatedAt: 2018-04-02T08:38:32Z
@@ -52,8 +52,8 @@ facebookDescription: '**Windows Component Services**Alle Jahre wieder vergibt Mi
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 \*\*Windows Component Services\*\*  
 Alle Jahre wieder vergibt Microsoft neue Namen für vorhandene Technologien. Okay, es ist weitaus mehr als nur eine schlichte Namensänderung. Schliesslich wird damit auch angezeigt, dass Neuerungen realisiert wurden.  
 SetComplete() beendet die Transaktion und entsorgt das COM+ Objekt im Speicher.  

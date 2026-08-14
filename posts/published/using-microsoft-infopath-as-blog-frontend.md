@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/using-microsoft-infopath-as-blog-frontend/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Well, last night I found an very interesting source about how to use Microsoft InfoPath in a useful way. Actually I searched some information about tweaking the template of .Text blog - like this is…
 
 Here's the URL - [http://blogs.msdn.com/guowu/archive/2004/07/20/187990.aspx](https://web.archive.org/web/20060915162340/http://blogs.msdn.com/guowu/archive/2004/07/20/187990.aspx) - I started and wow, this is tremendious. Actually this entire posting is written in a InfoPath template instead of using the web-based frontend in a browser. Cool, isn't it?  

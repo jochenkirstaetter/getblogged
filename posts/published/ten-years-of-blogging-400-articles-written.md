@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: Ten years of blogging - 400+ articles written
 metaDescription: View back on over 10 years of writing blog articles (ir)regularly.
-image: content/images/2017/08/niketh-vellanki-202943.jpg
+image: content/images/2017/08/niketh-vellanki-202943.webp
 ogTitle: Ten years of blogging - 400+ articles written
 ogDescription: There are 86400 seconds every day, and literally every single one matters...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/ten-years-of-blogging-400-articles-written/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/08/niketh-vellanki-202943.jpg
+imageUrl: content/images/2017/08/niketh-vellanki-202943.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/08/niketh-vellanki-202943.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/08/niketh-vellanki-202943.jpg
+featureImage: content/images/2017/08/niketh-vellanki-202943.webp
 featured: false
 publishedAt: 2014-12-13T18:20:20Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 There are 86400 seconds every day, and literally every single one matters...
 
 ## Delayed entry - delayed jubilee
@@ -68,7 +67,7 @@ So far, I managed to kick myself more than 400 times to sit down and type some c
 
 But there had been other forces during those 10 years which had a mayor impact on the consistency of my writing. First of all, I immigrated to Mauritius back in 2007 and was completely occupied with building up a new company for my former employer, then there were huge changes in my personal life with at least three big events to report, and due to some financial issues I kept myself extremely busy with [founding and running a start-up back in 2009](https://www.ios.mu/ "IOS Indian Ocean Software Ltd.") in order to keep the food on the table. Most interestingly, you will see that impact on the number of articles written here on the blog.
 
-![Stats: Blog articles per year](https://s.kirstaetter.name/images/blog_stats.png)  
+![Stats: Blog articles per year](../content/images/2014/12/blog_stats.webp)  
 *Stats: Blog articles per year*
 
 Let me give you a brief summary on each year...

@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/taking-web-sites-offline-for-demonstration-on-galaxy-tablet/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 This article is the Android sequel to the initial article about how to prepare an offline version of your web site for the purpose of demonstration or for exhibitions: [Taking web sites offline for demonstration](xref:taking-web-sites-offline-for-demonstration "Taking web sites offline for demonstration"). If you didn't read the original article, please take some minutes (5 to 10 maximum) to gain a better understanding on the following. Thanks.
 
 I'm going to describe my steps using a Samsung Galaxy Tab 10.1 running on [Ice Cream Sandwich (ICS - version 4.0.4)](https://www.android.com/about/ice-cream-sandwich/ "Ice Cream Sandwich (ICS - version 4.0.4)") but I would assume that any other Android-based device will show more or less the same results.

@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/upgrade-to-xubuntu-1304-raring-ringtail/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Over the last couple of years, I had various levels of upgrade experience with Ubuntu, or more precise [Xubuntu](https://xubuntu.org/ "Xubuntu") in my case. Those ones range from complete disaster (due to hardware issues) over good fun with some minor tweaks up to seamless. Following describes the steps and aftermath I did to upgrade my main working machine from Xubuntu 12.10 Quantal Quetzal to version 13.04 aka Raring Ringtail.
 
 ## []()Preparations
@@ -62,10 +61,10 @@ In general, it is highly recommended that you read the [official upgrade documen
 
 As for the UI, launch either the Ubuntu Software Centre or Synaptic Package Manager and check the status of your system.
 
-![ubuntu_software_centre](https://s.kirstaetter.name/images/ubuntu_software_centre.png)  
+![ubuntu_software_centre](../content/images/2013/05/ubuntu_software_centre.webp)  
 *Check your system's status in Ubuntu Software Centre*
 
-![synaptic_package_manager](https://s.kirstaetter.name/images/synaptic_package_manager.png)  
+![synaptic_package_manager](../content/images/2013/05/synaptic_package_manager.webp)  
 *The Synaptic Package Manager is a good alternative to check your system*
 
 and for those ones who prefer to work on the console, you might already know the procedure
@@ -84,7 +83,7 @@ That should do the work to put your machine in a clean state. One last step: Ter
 
 Start the process graphically via Applications menu &gt; Settings Manager &gt; Scroll down to section 'System' &gt; Software Updater
 
-![settings_manager](https://s.kirstaetter.name/images/settings_manager.png)  
+![settings_manager](../content/images/2013/05/settings_manager.webp)  
 *Accessing the Software Updater in the Settings Manager*
 
 or run the following command to launch the visual Software Updater
@@ -93,7 +92,7 @@ or run the following command to launch the visual Software Updater
 
 Eventually, you have to adjust your settings for the available Ubuntu versions. Simply open the settings dialog and check that 'For any new version' is the selected value.
 
-![software_updater_settings](https://s.kirstaetter.name/images/software_updater_settings.png)  
+![software_updater_settings](../content/images/2013/05/software_updater_settings.webp)  
 *Check your notification setting on new Ubuntu versions*
 
 Afterwards, the updater should offer you Ubuntu version 13.04 as upgrade path.
@@ -148,7 +147,7 @@ $ sudo apt-get dist-upgrade
 
 Now, it's time to lean back, wait for the packages to be downloaded and confirm a couple of questions from time to time. Depending on your amount of installed packages and your bandwidth it will take some while to get everything. As a reference, I had to upgrade 1720 packages with a total download size of approximately 1.1 GB. Due to my restricted bandwidth I left my machine alone overnight and do all the fun stuff. Next morning, some minor checks and rebooting the machine. The first fresh boot took a little longer than usual but the graphical login screen appeared as expected and after successful login my system was up to date.
 
-![ubuntu_uptodate](https://s.kirstaetter.name/images/ubuntu_uptodate.png)  
+![ubuntu_uptodate](../content/images/2013/05/ubuntu_uptodate.webp)  
 *When all is said and done, work can be fun!*
 
 In case that you like to be on the safe side, you might consider to download the packages completely first and then do the upgrade itself afterwards:

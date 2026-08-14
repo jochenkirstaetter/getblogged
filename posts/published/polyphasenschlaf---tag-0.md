@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/polyphasenschlaf---tag-0/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Ausgehend von den Erwähnung auf dem Blog von [Benjamin Nitschke](https://abi.exdream.com/) zum Thema PolyNapping haben die Erfahrungsberichte von [Steve Pavlina](https://www.stevepavlina.com/) den Wunsch bei mir erzeugt, wieder ein wenig mehr in Experimente am eigenen Körper einzusteigen.
 
 Diese Phase wäre nun inzwischen die dritte. Nachdem ich etwa mit 15, 16 Jahren erste Schritte in den Bereichen Autogenes Training und Selbstsuggestion unternommen habe. Sowie später dann wieder mit meditativen Übungen entsprechende Erholung und Ausgleich erfahren konnte, interessiert es mich schon inwiefern sich die Erfahrungen von Steve auf den eigenen Körper übertragen lassen.

@@ -11,7 +11,7 @@ tags:
 keywords: Linux
 metaTitle: Ubuntu Jam at the University of Mauritius
 metaDescription: I have to admit that even though I use Microsoft Windows on a daily base to earn my living, I'm also using Linux since almost two decades on various machines. Together with different types of virtualisation I actually do not care whether an OS is running on bare-metal or inside a virtual machine.
-image: content/images/2017/08/ubuntujam-20150207-1.png
+image: content/images/2017/08/ubuntujam-20150207-1.webp
 ogTitle: Ubuntu Jam at the University of Mauritius
 ogDescription: Operating systems are simply tools to do a job...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/ubuntu-jam-uom/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/08/ubuntujam-20150207-1.png
+imageUrl: content/images/2017/08/ubuntujam-20150207-1.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/08/ubuntujam-20150207-1.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/08/ubuntujam-20150207-1.png
+featureImage: content/images/2017/08/ubuntujam-20150207-1.webp
 featured: false
 publishedAt: 2015-07-18T11:25:42Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Operating systems are simply tools to do a job...
 
 And therefore, I have to admit that even though I use Microsoft Windows on a daily base to earn my living, I'm also using Linux since almost two decades on various machines. Together with different types of virtualisation I actually do not care whether an OS is running on bare-metal or inside a virtual machine. And given the computing power of recent machines it's not a question after all anymore. Given this little insight, let's directly hop into the Ubuntu Jam event from February 2015.

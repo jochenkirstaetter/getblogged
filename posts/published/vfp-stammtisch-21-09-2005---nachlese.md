@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/vfp-stammtisch-21-09-2005---nachlese/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Well, heute hatten wir noch 'Nachwirkungen' von der Urlaubszeit zu spüren bekommen, da wir heute / gestern Abend ein kleineres Grüppchen von etwa 7 Leuten waren. Teilweise wusste ich bereits im Vorfeld, dass einige nicht kommen können und andere waren leider verhindert. Naja, nicht so wild, nächsten Monat gibt's einen weiteren Stammtisch 😁  
   
 Okay, den pünktlichen Einstieg konnten wir auch diesen Monat nicht ganz hinbekommen und so haben wir uns ca. 19:45 dem Design Pattern des Abends gewidmet - der Zuständigkeitskette (neudt. Chain Of Responsibility.)  

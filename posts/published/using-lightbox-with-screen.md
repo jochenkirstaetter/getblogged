@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/using-lightbox-with-screen/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Although, I have to admit that I discovered Bernard Bout's ideas and concepts about implementing a lightbox in Visual FoxPro quite a while ago, there was no "spare" time in active projects that allowed me to have a closer look into his solution(s). Luckily, these days I received a demand to focus a little bit more on this. This article describes the steps about how to integrate and make use of Bernard's lightbox class in combination with \_Screen in Visual FoxPro.
 
 The requirement in this project was to be able to visually lock the whole application (\_Screen area) and guide the user to an information that should not be ignored easily. Depending on the importance any current user activity should be interrupted and focus put onto the notification.

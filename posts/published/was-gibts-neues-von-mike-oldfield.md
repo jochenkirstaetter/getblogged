@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/was-gibts-neues-von-mike-oldfield/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Ich hab' keine Ahnung. Sorry.  
   
 Nur weiß ich, dass die Musik von Mike Oldfield seit nun mehr guten 25 Jahren mein ständiger Begleiter ist. Zwar nicht permanent und täglich, aber immer wieder und in letzter Zeit auch wieder verstärkt. Der Mann ist für der Musiker schlichtweg der letzten Jahrzehnte... Allein die Tatsache, weiviele Instrumente von ihm gespielt werden können, ist phantastisch.  

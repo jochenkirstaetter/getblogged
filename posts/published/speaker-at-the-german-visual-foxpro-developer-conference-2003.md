@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/speaker-at-the-german-visual-foxpro-developer-conference-2003/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 The following is an excerpt from the UniversalThread conference coverage of the [German Visual FoxPro Developer Conference 2003](https://www.universalthread.com/ViewPageConference.aspx?ID=10 "German Visual FoxPro Developer Conference 2003") written by Hans-Otto Lochmann and Armin Neudert.
 
 > ## Track: Visual FoxPro and Linux
@@ -66,7 +65,7 @@ The following is an excerpt from the UniversalThread conference coverage of the 
 >
 > [...]
 >
-> ![JoKi at the German Visual FoxPro Developer Conference 2003 - Image 1](https://s.kirstaetter.name/images/speaker/ffm.2003.056.jpg)![JoKi at the German Visual FoxPro Developer Conference 2003 - Image 2](https://s.kirstaetter.name/images/speaker/ffm.2003.078.jpg)![JoKi at the German Visual FoxPro Developer Conference 2003 - Image 3](https://s.kirstaetter.name/images/speaker/ffm.2003.079.jpg)
+> ![JoKi at the German Visual FoxPro Developer Conference 2003 - Image 1](../content/images/2013/07/ffm.2003.056.webp)![JoKi at the German Visual FoxPro Developer Conference 2003 - Image 2](../content/images/2013/07/ffm.2003.078.webp)![JoKi at the German Visual FoxPro Developer Conference 2003 - Image 3](../content/images/2013/07/ffm.2003.079.webp)
 >
 > These sessions provided a broad, complete overview of where Linux fits into the current computing landscape from the perspective of a VFP developer, where VFP can be used with Linux, and a conceptual plan for how to approach the incorporation of Linux into your day-to-day work. In order for you to be able to work with a Linux back end, you're going to need to know something about how Linux works. The best way involves a two-step process:
 >

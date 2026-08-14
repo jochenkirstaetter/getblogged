@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/modified-hp-router/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 While looking for some improvements of Joomla! native SEF engine I found the following extension quite interesting and easy to use: [HP Router](https://extensions.joomla.org/extensions/site-management/sef/5973) of Hannes Papenberg. Installation is straight forward and no struggles at all. For best results you might install this extension before starting any kind of search engine optimization for your website.
 
 But after a short time I was confronted with some 'nasty' behaviour in my website that was introduced by this extension. Some articles did not show up properly and ended in an HTTP 404 error message. Well, actually reading the description of HP Router gave me an idea of the problem:

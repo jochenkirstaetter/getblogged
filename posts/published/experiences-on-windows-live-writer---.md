@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/experiences-on-windows-live-writer---/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 After reading the [blog entry of Eric](https://weblogs.foxite.com/ericdendoop/archive/2006/08/14/2229.aspx) I gave Windows Live Writer a try. Well, the installation is really annoying. Especially the addtional options after the core installation of Writer. What the heck do those funny marketing names stand for? Okay, it's an new toolbar for IE but if I choose not the install Desktop Search engine why is another setup routine asking me that crap again? On Folio? Phishing Filter, etc... sounds nice but in my opinion phishing has primarly to deal with handles and I hardly remember that IE is a mail client - maybe I missed something in the past?
 
 Eric already mentioned the gimmick w/ F2 key and setting a time stamp. Funny, it's only a date picker... time, eh? Time doesn't matter...

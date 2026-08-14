@@ -12,7 +12,7 @@ tags:
 keywords: Windows, Projects
 metaTitle: DIY Windows Game Box (Steam, Itch, Xbox, Store, Scumm, etc.)
 metaDescription: Working in IT has its up's and down's. One of the up's is probably the circumstance of purchasing new hardware on a regular base. (Un)fortunately two events came together this year - an aging machine...
-image: content/images/2018/10/WP_20180723_19_45_23_Pro.jpg
+image: content/images/2018/10/WP_20180723_19_45_23_Pro.webp
 ogTitle: DIY Windows Game Box (Steam, Itch, Xbox, Store, Scumm, etc.)
 ogDescription: Working in IT has its up's and down's. One of the up's is probably the circumstance of purchasing new hardware on a regular base. (Un)fortunately two events came together this year - an aging machine...
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/diy-windows-game-box/
-imageUrl: https://jochen.kirstaetter.name/content/images/2018/10/WP_20180723_19_45_23_Pro.jpg
+imageUrl: content/images/2018/10/WP_20180723_19_45_23_Pro.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/WP_20180723_19_45_23_Pro.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2018/10/WP_20180723_19_45_23_Pro.jpg
+featureImage: content/images/2018/10/WP_20180723_19_45_23_Pro.webp
 featured: false
 publishedAt: 2018-10-17T19:33:47Z
 updatedAt: 2018-10-18T15:06:25Z
@@ -54,7 +54,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Working in IT has its up's and down's. One of the up's is probably the circumstance of purchasing new hardware on a regular base. (Un)fortunately two events came together this year - an aging machine and tax depreciation purpose - which *encouraged* me to purchase a new rig for software development.
 
 As for the aging machine, an MSI GS70 2PE Stealth Pro, I had a few issues cropping up lately, and so I decided to get in touch with the original supplier to discuss possibilities to refurbish the system. My main sorrow was a partially broken display connector cable, meaning I couldn't open the display beyond a certain angle anymore. Otherwise, the screen would either freeze or would show stripe patterns from a different world. While this would be manageable by using an external screen, two actually, there were other glitches in the matrix...
@@ -67,7 +66,7 @@ Having a spare system with such a powerful specification it was somehow obvious 
 
 Previously, I was using mainly VMs to explore Windows 10 Insider versions, and now using a dedicated bare metal system would surely improve my experience in that area. If you're interested in setting up a new system, please read on here: [How to get your computer from blank disk(s) to fully operational in no time... (Windows edition)](xref:windows10-quick-installation)
 
-![Using Windows 10 Insider - build version 1809 (17.10.2018)](../content/images/2018/10/Windows10Insider1809.png)
+![Using Windows 10 Insider - build version 1809 (17.10.2018)](../content/images/2018/10/Windows10Insider1809.webp)
 
 The nice side-effect of using a Windows 10 Insider version is that it comes for free, too. And actually, I like the thrill to get the latest features and the ability to provide feedback - positive and negative - to Microsoft. It's kind of fun...
 
@@ -77,13 +76,13 @@ On a common Windows system you might like to install and to use [Steam](https://
 
 Its main purpose is getting the maximum out of it for gaming at home. After installation of the latest Steam version ([via chocolatey](xref:windows10-quick-installation): steam) I opened the `File` menu and checked under Settings &gt; Account &gt; Beta participation whether a vNext might be available.
 
-![Running Steam Beta Update instead of the regular version](../content/images/2018/10/SteamVersion.png)
+![Running Steam Beta Update instead of the regular version](../content/images/2018/10/SteamVersion.webp)
 
 Tada! The option to opt-in into the Steam beta program is given. Let's do it! After quick download and restart of Steam software we are all set.
 
 Now, the system is ready for the big screen and therefore needs to launch into the Big Picture mode of Steam automatically. Open the `File` menu and navigate to Settings &gt; Interface in order to tick the two checkboxes - Run Steam when my computer starts & Start Steam in Big Picture Mode, as shown in the screenshot below.
 
-![Launch Steam and its Big Picture Mode automatically](../content/images/2018/10/SteamStartBigPicture.png)
+![Launch Steam and its Big Picture Mode automatically](../content/images/2018/10/SteamStartBigPicture.webp)
 
 ## HDMI and a bit of cabling
 
@@ -95,11 +94,11 @@ I directly bought an HDMI cable with version 1.4 specification which in case of 
 
 Having everything in place it is finally time to give the whole system a test run. I shutdown the machine completely, and then let it boot again. After entering login pin for my account it takes a short moment and Steam starts automatically into Big Picture Mode on the TV screen.
 
-![Game library in Big Picture Mode of Steam](../content/images/2018/10/WP_20180723_19_45_23_Pro-2.jpg)
+![Game library in Big Picture Mode of Steam](../content/images/2018/10/WP_20180723_19_45_23_Pro-2.webp)
 
 Well, that went very well for a first attempt.
 
-![Micro Machines racing... Children have fun to drive around](../content/images/2018/10/WP_20180723_19_44_06_Pro--2--1.jpg)
+![Micro Machines racing... Children have fun to drive around](../content/images/2018/10/WP_20180723_19_44_06_Pro--2--1.webp)
 
 Launching an installed Steam game works as expected and it appears nicely on the TV, too.
 
@@ -109,7 +108,7 @@ Let the games begin...
 
 Next, I installed the [desktop version](https://itch.io/app) of [Itch.io](https://itch.io/) and went through my library of games. One of my current titles I absolutely adore is "[Return of the Tentacle - Prologue](https://catmic.itch.io/return-of-the-tentacle)" by game developer [catmic](https://catmic.itch.io/) - a fan project and the unofficial sequel to the iconic adventure game "Day of the Tentacle".
 
-!["[Return of the Tentacle - Prologue](https://catmic.itch.io/return-of-the-tentacle)" by game developer [catmic](https://catmic.itch.io/)](../content/images/2018/10/Itch_ReturnOfTheTentacle.png)
+!["[Return of the Tentacle - Prologue](https://catmic.itch.io/return-of-the-tentacle)" by game developer [catmic](https://catmic.itch.io/)](../content/images/2018/10/Itch_ReturnOfTheTentacle.webp)
 
 It is a good old 2D point and click adventure game developed on Unity and has astonishing graphics and superb soundtrack. Highly recommended for any gamer that misses titles like [Sam & Max](https://en.wikipedia.org/wiki/Sam_%26_Max), [Zak McKracken and the Alien Mindbenders](https://en.wikipedia.org/wiki/Zak_McKracken_and_the_Alien_Mindbenders), or even the [Monkey Island series](https://en.wikipedia.org/wiki/Monkey_Island_%28series%29).
 
@@ -119,7 +118,7 @@ Again, no surprises and the game launches nicely into full screen mode on the TV
 
 Of course, it's interesting to check out the Microsoft Store for any kind of games.
 
-![Explore and browse the Games section in the Microsoft Store](../content/images/2018/10/Store_Games.png)
+![Explore and browse the Games section in the Microsoft Store](../content/images/2018/10/Store_Games.webp)
 
 Your mileage may vary... For testing purpose I installed Asphalt 9: Legends. Although the download took a while to complete, launching and playing the game on the TV was a breeze. It's actually good fun to drift around on the big screen, and the sound from the TV is amazing compared to the laptop speakers.
 

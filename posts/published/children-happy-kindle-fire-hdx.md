@@ -11,7 +11,7 @@ tags:
 keywords: Android
 metaTitle: Children are happy using their Kindle Fire HDX
 metaDescription: Even though I already use a variety of tablets - both iOS- and Android-based - for professional reasons I was looking for a more secure solution for children than what is possible with the default systems.
-image: https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=781ff4ef8484f9515e3e9372f8703dff
+image: content/images/2015/01/photo-1491841550275-ad7854e35ca6.webp
 ogTitle: Children are happy using their Kindle Fire HDX
 ogDescription: Another bargain from Amazon made it to our paradise island. This time I went on the hunt for tablet for our children. Even though I already use a variety of tablets - both iOS- and Android-based - for...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/children-happy-kindle-fire-hdx/
-imageUrl: https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=781ff4ef8484f9515e3e9372f8703dff
+imageUrl: content/images/2015/01/photo-1491841550275-ad7854e35ca6.webp
 twitterImageUrl: https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=781ff4ef8484f9515e3e9372f8703dff
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=781ff4ef8484f9515e3e9372f8703dff
+featureImage: content/images/2015/01/photo-1491841550275-ad7854e35ca6.webp
 featured: false
 publishedAt: 2015-01-04T08:08:28Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -52,8 +52,8 @@ facebookDescription: Another bargain from Amazon made it to our paradise island.
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 [![Kindle Fire HDX 7" Tablet on Amazon](https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00BWYRF7E&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=geblbyjo-20 "Kindle Fire HDX 7\" Tablet on Amazon")](https://www.amazon.com/gp/product/B00BWYRF7E/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00BWYRF7E&linkCode=as2&tag=geblbyjo-20&linkId=U4DDCV3SF7FYDEJM)![](https://ir-na.amazon-adsystem.com/e/ir?t=geblbyjo-20&l=as2&o=1&a=B00BWYRF7E)  
 *Source: Kindle Fire HDX 7" Tablet on Amazon*
 

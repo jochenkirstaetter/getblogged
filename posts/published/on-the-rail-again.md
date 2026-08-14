@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/on-the-rail-again/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 In Anlehnung des Standardspruchs "On the road again..." schreibe ich diesen Beitrag gerade direkt im RegionalExpress zurück in die Heimat. Puuuh Leute, ich bin ehrlich gesagt mehr als glücklich, dass die letzten vier Tage relativ stressfrei und vor allem mit sehr viel Spass, Community-Aktivität und Networking über die Bühne gegangen sind. Wie in den meisten Fällen bei solchen Events lag mein tägliches Schlafpensum bei ca. drei bis max. vier Stunden pro Nacht. Leider konnte ich meine Sessionpräsentationen und die Beispiele nicht vollständig vor der Konferenz fertigstellen bzw. hatte noch durch Anregungen anderer Konferenzsprecher und Teilnehmer bekommen, die ich noch gerne verwerten wollte. Daher gab's dann doch wieder verlängerte Arbeitstage, äh, verkürzte Nächte... ![icon_biggrin](https://jochen.kirstaetter.name/on-the-rail-again/smilies/icon_biggrin.gif)  
   
 Well, die Gesundheit macht's aktuell mit und ich habe mir auch bereits anderweitige Konzepte für künftige Sessions ausgedacht. Mal sehen, ob und wann ich diese umsetzen, respektive praktizieren kann. Auf alle Fälle waren die Ergebnisse meiner nächtlichen Aktivitäten bis auf kleinere Patzer - in der Subversion-Session wollte der PushOK SVN SCC Proxy nicht so richtig mit dem Repository harmonieren und in der Linux-Session stresste die Tasenwiederholung während der Ausführung von Visual FoxPro unter wine. Nunja, shit happens and life goes on...  

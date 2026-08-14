@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/polyphasenschlaf---tag-4/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 \*\*25 Minuten Intervall definitiv besser\*\*  
 So, inzwischen kann ich ganz klar behaupten, dass die Umstellung auf 25 Minuten für die Dauer meiner Schlafphasen definitiv eine gute Entscheidung war. Tagsüber würde ich zwar weiterhin zu 30 tendieren, aber gerade nachts erweisen sich die 25 Minuten als sehr gut. Die Ursache sehe ich darin begründet, dass ich zuhause wesentlich weniger Umweltgeräusche - lediglich der Kühlschrank brummelt als mal vor sich hin - vorfinde. Dies wirkt sich positiv auf den initialen Wechsel in die REM-Phase aus und damit wird diese ebenfalls früher verlassen und das "Risiko" des Überschlafens steigt. Mal sehen, vielleicht werde ich in der Mitte der nächsten Woche mal einen MixedModus probieren.
 

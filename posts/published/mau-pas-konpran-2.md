@@ -13,7 +13,7 @@ tags:
 keywords: Podcast, Personal, Community
 metaTitle: Mau Pas Konpran!? Brain Drain
 metaDescription: In our latest episode we - Loic, Ish and I - sat together and talked about the situation, possible reasons, and considerations regarding the emigration of Mauritians towards other countries and the potential impact on the society here on the island.
-image: content/images/2023/12/MauPasKonpran_20231213.jpg
+image: content/images/2023/12/MauPasKonpran_20231213.webp
 ogTitle: Mau Pas Konpran!? Brain Drain
 ogDescription: In our latest episode we - Loic, Ish and I - sat together and talked about the situation, possible reasons, and considerations regarding the emigration of Mauritians towards other countries and the potential impact on the society here on the island.
 layout: post
@@ -32,16 +32,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mau-pas-konpran-2/
-imageUrl: https://jochen.kirstaetter.name/content/images/2023/12/MauPasKonpran_20231213.jpg
+imageUrl: content/images/2023/12/MauPasKonpran_20231213.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2023/12/MauPasKonpran_20231213.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2023/12/MauPasKonpran_20231213.jpg
+featureImage: content/images/2023/12/MauPasKonpran_20231213.webp
 featured: false
 publishedAt: 2023-12-19T18:37:15Z
 updatedAt: 2023-12-19T18:41:23Z
@@ -55,12 +55,11 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 I don't understand!? - In our latest episode we - Loic, Ish and I - sat together and talked about the situation, possible reasons, and considerations regarding the emigration of Mauritians towards other countries and the potential impact on the society here on the island.
 
 The so-called "brain drain" is happening since years and it kind of amazes me to see that people are looking for their chances and luck abroad when there are opportunities available in the country.
 
-![A chilled evening session to discuss about the "brain drain" phenomena happening in Mauritius](../content/images/2023/12/Screenshot-from-2023-12-13-22-15-10.png)
+![A chilled evening session to discuss about the "brain drain" phenomena happening in Mauritius](../content/images/2023/12/Screenshot-from-2023-12-13-22-15-10.webp)
 
 > "The Grass is always greener on the other side."
 

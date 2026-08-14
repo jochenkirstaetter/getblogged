@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: Die Zukunft von VFP
 metaDescription: Die Zukunft von VFP Mahlzeit,hier &#39;ne Kleinigkeit zu lesen ;-)http://msdn.microsoft.com/vfoxpro/roadmap/http://msdn.microsoft.com/vfoxpro/letters/http://www.craigberntson.com/archives/2005_06_01_archive.asp#111764598359410031Tja, daf&#252;r, dass er alles offenlegen will, ist die Roadmap wirklich sehr d&#252;nn.Im Universalthread ist Ken etwas offener. Hier ein paar Auschnitte aus Messages von Ken von gestern und heute im UT:Thanks for the feedback. I just did a video interview
-image: https://images.unsplash.com/photo-1508250318180-862994eb0e80?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=64707698b45eccbd4d7bd1720cf3dab4
+image: content/images/2005/06/photo-1508250318180-862994eb0e80.webp
 ogTitle: Die Zukunft von VFP
 ogDescription: Mahlzeit,
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/die-zukunft-von-vfp/
-imageUrl: https://images.unsplash.com/photo-1508250318180-862994eb0e80?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=64707698b45eccbd4d7bd1720cf3dab4
+imageUrl: content/images/2005/06/photo-1508250318180-862994eb0e80.webp
 twitterImageUrl: https://images.unsplash.com/photo-1508250318180-862994eb0e80?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=64707698b45eccbd4d7bd1720cf3dab4
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1508250318180-862994eb0e80?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=64707698b45eccbd4d7bd1720cf3dab4
+featureImage: content/images/2005/06/photo-1508250318180-862994eb0e80.webp
 featured: false
 publishedAt: 2005-06-13T22:00:00Z
 updatedAt: 2018-04-02T08:38:31Z
@@ -52,8 +52,8 @@ facebookDescription: Mahlzeit,
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Mahlzeit,
 
 hier 'ne Kleinigkeit zu lesen ;-)

@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/normaler-tagesablauf/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Der Tag müsste ein paar Stunden mehr haben. Die Umsetzung in MIB gefällt mir ziemlich gut, aber leider dürfte das bei uns utopisch sein. Es sei denn, Geschäfte und Behörden hätten mal bessere Öffnungszeiten, aber welcher Arbeitnehmer braucht das denn schon?  
   
 Halben bis ganzen Tag Urlaub für mal aufs Amt oder zum Arzt zu gehen... Hey, wen interessiert's?  

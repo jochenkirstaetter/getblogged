@@ -12,7 +12,7 @@ tags:
 keywords: Development, Community
 metaTitle: Install Jitsi Meet on Compute Engine (GCP)
 metaDescription: This first article of a series on Jitsi Meet describes the basic installation of an instance on the Google Cloud Platform.
-image: content/images/2020/04/mscc-jitsi-default.png
+image: content/images/2020/04/mscc-jitsi-default.webp
 ogTitle: Install Jitsi Meet on Compute Engine (GCP)
 ogDescription: This first article of a series on Jitsi Meet describes the basic installation of an instance on the Google Cloud Platform.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/install-jitsi-meet-on-gcp/
-imageUrl: https://jochen.kirstaetter.name/content/images/2020/04/mscc-jitsi-default.png
+imageUrl: content/images/2020/04/mscc-jitsi-default.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2020/04/mscc-jitsi-default.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2020/04/mscc-jitsi-default.png
+featureImage: content/images/2020/04/mscc-jitsi-default.webp
 featured: false
 publishedAt: 2020-04-16T15:57:20Z
 updatedAt: 2020-04-30T10:37:43Z
@@ -54,7 +54,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Irrespective of the current situation I already had a look at the Jitsi Meet platform some time back last year. Due to a lack of necessity and organising most community meetings offline - both MSCC and GDG Mauritius - there was no motivation to look closer into any video conferencing platform.
 
 Inspired by the announcement that [meet.mixp.org](https://meet.mixp.org) offers free access to host video conferencing calls locally in Mauritius and the fact that past few meetings of the MSCC had been conducted virtually using [Google Hangouts Meet](https://meet.google.com/), I reserved some time to do a little research. The result is a series of tutorials on how to get started with [Jitsi Meet](https://jitsi.org/), how to customise it for your own branding, and how to enable more features beyond the basic installation.
@@ -76,11 +75,11 @@ First, you reserve a static IP address. We are going to use this IP address for 
 
 In Cloud Console navigate to [VPC network > External IP addresses](https://console.cloud.google.com/networking/addresses/list) and reserve a new static address. Although the IP address is not attached to anything yet we are going to use it shortly.
 
-![Reserve a static external IP address](../content/images/2020/04/image-5.png)
+![Reserve a static external IP address](../content/images/2020/04/image-5.webp)
 
 The result should look similar to this. Of course, your external IP address will be different.
 
-![Overview of reserved external IP addresses](../content/images/2020/04/image-16.png)
+![Overview of reserved external IP addresses](../content/images/2020/04/image-16.webp)
 
 ## Create a DNS entry
 
@@ -88,7 +87,7 @@ Now, packed with the newly created IP address it is time to create a DNS record 
 
 I'm going to describe how it is done using [Cloudflare](https://dash.cloudflare.com/). Under DNS management create a new A record with the subdomain `meet` and the external IP address provided by Google Cloud Platform.
 
-![Create an A record for your domain - here: Cloudflare DNS management](../content/images/2020/04/image-17.png)
+![Create an A record for your domain - here: Cloudflare DNS management](../content/images/2020/04/image-17.webp)
 
 The resulting DNS configuration should look similar to above. Global DNS propagation can take up to 24 hours and it is important to wait that your DNS record has been deployed successfully.
 
@@ -132,7 +131,7 @@ Log into Cloud Console and navigate to [Compute Engine > VM instances](https://c
 
 The default values provided by GCP shall work just fine. However you might like to adjust region, zone and machine configuration according to your liking.
 
-![Set up a VM instance to host Jitsi Meet server on GCP](../content/images/2020/04/image-4.png)
+![Set up a VM instance to host Jitsi Meet server on GCP](../content/images/2020/04/image-4.webp)
 
 ### Specify the hostname
 
@@ -140,19 +139,19 @@ The default values provided by GCP shall work just fine. However you might like 
 
 Click on `Management, security, disks, networking, sole tenancy` and enter your FQDN under `Hostname`.
 
-![Enter your FQDN as hostname during creation of the VM](../content/images/2020/04/image-1.png)
+![Enter your FQDN as hostname during creation of the VM](../content/images/2020/04/image-1.webp)
 
 ### Choose the External IP address
 
 While you are at the details of Networking click on the pen symbol of the Network interface and select the external IP address that we created earlier. The entry shall look like so.
 
-![Attach the external IP address to the VM instance](../content/images/2020/04/image-3.png)
+![Attach the external IP address to the VM instance](../content/images/2020/04/image-3.webp)
 
 Click `Done` when your networking options are complete.
 
 If ever you missed the initial creation of an external IP address you can open the dropdown selection under External IP and choose to `Create IP address`. Give the new static IP address a name and click on Reserve.
 
-![Late reservation of an external IP address is possible](../content/images/2020/04/image-2.png)
+![Late reservation of an external IP address is possible](../content/images/2020/04/image-2.webp)
 
 However this still requires proper DNS configuration as described earlier.
 
@@ -168,11 +167,11 @@ The first two ports can be configured during the creation of the VM instance. Ti
 
 For the UDP port you are going to enter a Network tag for the moment. That tag is used to connect the VM instance to a (new) firewall rule.
 
-![Allow HTTP/S traffic and enter a tag to link to another firewall rule](../content/images/2020/04/image.png)
+![Allow HTTP/S traffic and enter a tag to link to another firewall rule](../content/images/2020/04/image.webp)
 
 Finally, click on `Create` to complete your VM instance. This is going to take a few seconds and you will be notified as soon as the VM instance is ready.
 
-![Overview of VM instances with External IP address and SSH access](../content/images/2020/04/image-18.png)
+![Overview of VM instances with External IP address and SSH access](../content/images/2020/04/image-18.webp)
 
 ## Create and verify firewall rules
 
@@ -184,13 +183,13 @@ The value for the `Source IP ranges` is 0.0.0.0/0 which represents any IP addres
 
 Under `Protocols and ports` you tick UDP protocol and you enter the port number 10000.
 
-![Firewall rule to allow access to UDP port 10000 on any tagged VM instance](../content/images/2020/04/image-6.png)
+![Firewall rule to allow access to UDP port 10000 on any tagged VM instance](../content/images/2020/04/image-6.webp)
 
 Finally, click on `Create` to enable the firewall rule.
 
 The result should look similar to the list of rules below.
 
-![Partial list of firewall rules. The relevant rules for Jitsi Meet are shown](../content/images/2020/04/image-7.png)
+![Partial list of firewall rules. The relevant rules for Jitsi Meet are shown](../content/images/2020/04/image-7.webp)
 
 ## Access the VM instance
 
@@ -260,11 +259,11 @@ apt-get install -y jitsi-meet
 
 During the process you will be asked to enter the FQDN or hostname of your instance of Jitsi Meet. Enter the hostname that we verified already and hit `OK` to continue the installation.
 
-![Enter hostname used in Jitsi Videobridge](../content/images/2020/04/image-8.png)
+![Enter hostname used in Jitsi Videobridge](../content/images/2020/04/image-8.webp)
 
 Next, you will be ask to configure SSL certificate of your Jitsi Meet domain. Here keep the default selection to generate a self-signed certificate and hit `OK`.
 
-![Choose the default option to generate an SSL certificate](../content/images/2020/04/image-9.png)
+![Choose the default option to generate an SSL certificate](../content/images/2020/04/image-9.webp)
 
 We are going to generate an SSL certificate provided by [Let's Encrypt](https://letsencrypt.org/) in the next step.
 
@@ -289,7 +288,7 @@ Now, run the following shell script as mentioned in the quick install guide.
 
 The script is going to ask you for an email address to send notifications from Let's Encrypt to. Then your terminal is going to provide you with tons of information and the outcome should look similar to below. Look for `Congratulations!` to be sure that the SSL certificate has been successfully requested from [Let's Encrypt](https://letsencrypt.org/) and applied to your system.
 
-![Successful generation and distribution of SSL certificate by Let's Encrypt](../content/images/2020/04/image-10.png)
+![Successful generation and distribution of SSL certificate by Let's Encrypt](../content/images/2020/04/image-10.webp)
 
 Basically your installation is complete now.  
 You shall be able to load your FQDN in your browser. In case you run into any trouble kindly repeat the steps above or refer to the official [Jitsi Meet quick install](https://github.com/jitsi/jitsi-meet/blob/master/doc/quick-install.md) or the [Jitsi Community Forum](https://community.jitsi.org/).
@@ -398,27 +397,27 @@ xited, status=0/SUCCESS)
 
 Open a new browser tab or better an incognito window and navigate to the FQDN you specified during the installation. You shall be greeted by the Jitsi Meet default page.
 
-![Welcome to your own Jitsi Meet video conferencing system](../content/images/2020/04/image-11.png)
+![Welcome to your own Jitsi Meet video conferencing system](../content/images/2020/04/image-11.webp)
 
 **Congratulations!**
 
 When you click on the gear symbol in the top right corner your browser should ask for permissions to access microphone and camera.
 
-![Grant permissions to access your microphone and camera](../content/images/2020/04/image-12.png)
+![Grant permissions to access your microphone and camera](../content/images/2020/04/image-12.webp)
 
 Click `Allow` in both cases and continue to configure your devices you would like to use in Jitsi Meet.
 
-![It's working - customise your attendee profile](../content/images/2020/04/image-13.png)
+![It's working - customise your attendee profile](../content/images/2020/04/image-13.webp)
 
 Change to the tab `Profile` to provide more information like your displayed name in the meeting rooms. On the tab `More` you are able to configure your preferred language.
 
 Finally, enter any value to start a new meeting and click on GO.
 
-![Enter any meeting room in CamelCase writing](../content/images/2020/04/image-14.png)
+![Enter any meeting room in CamelCase writing](../content/images/2020/04/image-14.webp)
 
 The use of camel-case writing forms the URL to access the meeting and is automatically converted into blanks after you entered the meeting room.
 
-![CamelCase is converted to blanks in the room name](../content/images/2020/04/image-15.png)
+![CamelCase is converted to blanks in the room name](../content/images/2020/04/image-15.webp)
 
 Enjoy your very own Jitsi Meet video conferencing system.
 

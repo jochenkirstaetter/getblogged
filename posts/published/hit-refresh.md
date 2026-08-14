@@ -12,7 +12,7 @@ tags:
 keywords: Personal, Community
 metaTitle: Hit Refresh
 metaDescription: Changing my life in such a drastic way was an experience of a life-time. It turned out for the better. I have no regrets about this decision, and I would do it again any time.
-image: content/images/2018/01/hitrefreshcover.png
+image: content/images/2018/01/hitrefreshcover.webp
 ogTitle: Hit Refresh
 ogDescription: Changing my life in such a drastic way was an experience of a life-time. It turned out for the better. I have no regrets about this decision, and I would do it again any time.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/hit-refresh/
-imageUrl: https://jochen.kirstaetter.name/content/images/2018/01/hitrefreshcover.png
+imageUrl: content/images/2018/01/hitrefreshcover.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2018/01/hitrefreshcover.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2018/01/hitrefreshcover.png
+featureImage: content/images/2018/01/hitrefreshcover.webp
 featured: false
 publishedAt: 2018-01-02T13:41:41Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -54,7 +54,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Mid of October I received an interesting opportunity from our regional MVP lead Hande asking for contributions to support [Satya Nadella's book 'Hit Refresh'](https://news.microsoft.com/hitrefresh/) on the MVP Award Blog.
 
 Following is an excerpt of my 'hit refresh moment' which has been published on the MVP Award blog in full here: [We Love Hearing About How These MVPs Have #HitRefresh!](https://blogs.msdn.microsoft.com/mvpawardprogram/2017/11/28/mvp-hit-refresh-part-2/)

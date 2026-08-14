@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/new-msdn-forums/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Wow...  
 ...kam gerade per RSS rein:  
 Those of you reading this blog for a while know that I'm very committed to improving our feedback loop here at Microsoft. In that spirit, I just wanted to give a congrats to the team that has just launched our new MSDN forums. Currently in use for VS2005, I hope that these get picked up by other teams over time (and yes, we're looking into it for Fox). The ease of a web interface, RSS feeds for tracking, IM or Email when your question gets answered, integration with the VS2005 shell, easy searching to lok for an answer to your question (something that I always found missing with newsgroups). I'm really excited by the possibilities...  

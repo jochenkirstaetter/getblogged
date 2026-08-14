@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/besinnliche-weihnachtszeit/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Aktuell könnte ich Bäume ausreissen und irgendwelche gewalttätigen Aktivitäten durchführen. Warum? Weil mich ab und zu meine Mitmenschen ein wenig abnerven. Insbesondere auf Grund irgendwelcher dümmlicher Aussagen...  
 Okay, ich glaub' 'ne verschärfte Runde Joggen oder Sandsack-Kloppen passt auch zum Adrenalin abbauen. Herrje, manchmal stellt man sich doch echt die Frage, wurde diejenige oder derjenige als Kind mit dem Klammersack gepudert oder durch den Trog gezogen? \*grummel\*
 

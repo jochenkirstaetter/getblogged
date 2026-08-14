@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/upgrade-to-windows-server-update-services-3-0-sp1/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Already last week I upgraded our local [Windows Server Update Services (WSUS)](https://www.microsoft.com/wsus) from version 2.0 to version 3.0 Service Pack 1. This step wasn't really neccessary but after having a look at the new features and capabilities of version 3.0 I decided to upgrade. So far, it was a good decission. Following the deployment and upgrade documentation on TechNet the whole process worked like a charm and I had no problems.  
   
 As we are running WSUS on a Small Business Server 2003 R2, the upgrade routine deinstalled the existing SQL Server 2000 Desktop Engine (&lt;Servername&gt;WSUS) and therefore installed the Windows Internal Database. Well, this is something that I didn't understand properly. As there are instances of SQL Server 2005 already available on this machine, I really wonder why the setup didn't offer to choose one of these instances instead. Anyways, doesn't really matter.  

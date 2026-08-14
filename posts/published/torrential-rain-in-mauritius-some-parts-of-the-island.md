@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: Torrential rain in Mauritius - some parts of the island
 metaDescription: Occassional heavy (torrential) rains tightens up traffic in Mauritius. Schools and public offices are closed and the capital is partly flooded.
-image: https://images.unsplash.com/photo-1428592953211-077101b2021b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2013/02/photo-1428592953211-077101b2021b.webp
 ogTitle: Torrential rain in Mauritius - some parts of the island
 ogDescription: Getting rain during the dry summer months is always a welcoming change for a while. Some tourists may moan that they can't enjoy the sunny beaches for a couple of days, but locals are simply glad that...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/torrential-rain-in-mauritius-some-parts-of-the-island/
-imageUrl: https://images.unsplash.com/photo-1428592953211-077101b2021b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2013/02/photo-1428592953211-077101b2021b.webp
 twitterImageUrl: https://images.unsplash.com/photo-1428592953211-077101b2021b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1428592953211-077101b2021b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2013/02/photo-1428592953211-077101b2021b.webp
 featured: false
 publishedAt: 2013-02-13T07:09:19Z
 updatedAt: 2019-01-07T22:48:24Z
@@ -52,8 +52,8 @@ facebookDescription: Getting rain during the dry summer months is always a welco
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Getting rain during the dry summer months is always a welcoming change for a while. Some tourists may moan that they can't enjoy the sunny beaches for a couple of days, but locals are simply glad that it cools down a little bit and that there are chances that the water reservoirs get filled to a more comfortable level. Just to get rid of those unpleasant water cuts.
 
 ## Torrential rain - it can happen...
@@ -66,7 +66,7 @@ Due to low occurrence of such torrential rain falls the general population isn't
 
 Following some recent impressions posted by various accounts on Twitter:
 
-![Waterfront in Port Louis flooded](https://s.kirstaetter.name/images/mauritius/20130213-caudan1.jpg) ![Waterfront in Port Louis flooded](https://s.kirstaetter.name/images/mauritius/20130213-harbourfront.jpg) ![Waterfront in Port Louis flooded](https://s.kirstaetter.name/images/mauritius/20130213-caudan2.jpg) ![Waterfront in Port Louis flooded](https://s.kirstaetter.name/images/mauritius/20130213-caudan3.jpg) ![Waterfront in Port Louis flooded](https://s.kirstaetter.name/images/mauritius/20130213-caudan4.jpg) ![Land slides near Pailles](https://s.kirstaetter.name/images/mauritius/20130213-pailles.jpg) ![Swollen streams in Mauritius](https://s.kirstaetter.name/images/mauritius/20130213-floodedriver.jpg)
+![Waterfront in Port Louis flooded](../content/images/2013/02/20130213-caudan1.webp) ![Waterfront in Port Louis flooded](../content/images/2013/02/20130213-harbourfront.webp) ![Waterfront in Port Louis flooded](../content/images/2013/02/20130213-caudan2.webp) ![Waterfront in Port Louis flooded](../content/images/2013/02/20130213-caudan3.webp) ![Waterfront in Port Louis flooded](../content/images/2013/02/20130213-caudan4.webp) ![Land slides near Pailles](../content/images/2013/02/20130213-pailles.webp) ![Swollen streams in Mauritius](../content/images/2013/02/20130213-floodedriver.webp)
 
 *Images are courtesy of various Twitter accounts.*
 

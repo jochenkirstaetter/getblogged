@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/every-rose-has-its-thorn/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Im Zuge der Community GetTogethers besteht glücklicherweise die Chance, dass man mit geschätzten Kollegen und Freunden zusammenkommt. Leider verhindert die räumliche Distanz oftmals die gemeinsamen Treffen, nunja, in Zeiten digitaler Kommunikationsmittel und Flatrate für's Telefonieren ist das nicht weiter bedauernswert. Aber... sind wir mal ehrlich, die Offline-Meetings sind doch wesentlich emotionaler und ergreifender. Es war mir eine Herzensfreude endlich mal wieder Tiger (aka Alexander) die Pfote zu schütteln zu dürfen.  
 Same procedure with my good fellow The Icebeer (aka Special Agent G aka Golo). Well, to all other common readers of my blog I apologize to write this paragraph in my poor English tongue but probably there could be misinterpretations... So, please don't take these sentences too serious. I try be to nice^W gentle.
 

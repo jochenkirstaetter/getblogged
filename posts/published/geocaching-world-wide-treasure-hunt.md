@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: Geocaching - World wide treasure hunt
 metaDescription: Geocaching is a high-tech outdoor treasure hunting game that's a great way to explore the world with friends, family or on your own. Participants use GPS-enabled devices to locate hidden containers called geocaches.
-image: https://images.unsplash.com/photo-1452193550078-d7e45d3b834d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=0eda6cc924c6241f2c059bc327f58af9
+image: content/images/2012/12/photo-1452193550078-d7e45d3b834d.webp
 ogTitle: Geocaching - World wide treasure hunt
 ogDescription: Geocaching is a high-tech outdoor treasure hunting game that's a great way to explore the world with friends, family or on your own. Participants use GPS-enabled devices to locate hidden containers called geocaches.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/geocaching-world-wide-treasure-hunt/
-imageUrl: https://images.unsplash.com/photo-1452193550078-d7e45d3b834d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=0eda6cc924c6241f2c059bc327f58af9
+imageUrl: content/images/2012/12/photo-1452193550078-d7e45d3b834d.webp
 twitterImageUrl: https://images.unsplash.com/photo-1452193550078-d7e45d3b834d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=0eda6cc924c6241f2c059bc327f58af9
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1452193550078-d7e45d3b834d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=0eda6cc924c6241f2c059bc327f58af9
+featureImage: content/images/2012/12/photo-1452193550078-d7e45d3b834d.webp
 featured: false
 publishedAt: 2012-12-07T05:08:08Z
 updatedAt: 2018-11-06T05:22:42Z
@@ -52,8 +52,8 @@ facebookDescription: Geocaching is a high-tech outdoor treasure hunting game tha
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 I'm not quite sure how I came across this topic but actually I find it absolutely interesting, challenging and most of all a great fun for the family and friends. The interesting part is for sure that you can follow other peoples treasures and their preferred locations where a cache might be hidden.
 
 Of course, it wont be easy to find a cache after all. Sometimes there are even 'mystery caches' which have either riddles, further instructions or little brain games for you in order to find the actual cache - that's the challenge. And last but not least, those caches are hidden outdoor. A great experience to explore nature either on your own, or your family especially with children, or as a treasure hunting pack with a couple of friends.
@@ -93,7 +93,7 @@ But also bear in mind, that a geocache might have been removed or is lost due to
 
 Yes, there are currently about 45 geocaches spread all over the island, and even a single one in Rodrigues - that's gonna be a tough one. Hopefully, we will get increasing numbers as Geocaching.com allows, no better, even encourages you to hide new containers at your locations of choice. I think this is going to be real fun for us during the upcoming weeks and months. Especially, when we are travelling to other countries and transfer so-called trackable items between geocaches.
 
-[![Profile for ParadiseIsland](https://img.geocaching.com/stats/img.aspx?txt=Let's+Go+Geocaching!&uid=32685fae-5368-4779-9c3e-ee1329cd7574&bg=1)](https://www.geocaching.com/profile/?guid=32685fae-5368-4779-9c3e-ee1329cd7574)
+[![Profile for ParadiseIsland](../content/images/2013/01/geocaching-casela-bird-park.webp)](../content/images/2013/01/geocaching-casela-bird-park.webp)
 
 On my first impression, Geocaching.com seems to be very mature, open and community-oriented. There are literally hundreds of thousands geocache 'hunters' all over the world. And usually finding a container remote from your home is very rewarding.
 

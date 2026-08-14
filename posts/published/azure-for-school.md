@@ -13,7 +13,7 @@ tags:
 keywords: Linux, Personal, Development
 metaTitle: ICT skills at primary school
 metaDescription: Our children have computer lectures at their primary school since this year. In general, it's a great idea that students are exposed to computer literacy at an early stage. But sometimes it comes with...
-image: content/images/2018/02/mie_icttextbook.png
+image: content/images/2018/02/mie_icttextbook.webp
 ogTitle: ICT skills at primary school
 ogDescription: Our children have computer lectures at their primary school since this year. In general, it's a great idea that students are exposed to computer literacy at an early stage. But sometimes it comes with...
 layout: post
@@ -32,16 +32,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/azure-for-school/
-imageUrl: https://jochen.kirstaetter.name/content/images/2018/02/mie_icttextbook.png
+imageUrl: content/images/2018/02/mie_icttextbook.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2018/02/mie_icttextbook.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2018/02/mie_icttextbook.png
+featureImage: content/images/2018/02/mie_icttextbook.webp
 featured: false
 publishedAt: 2018-02-26T18:44:09Z
 updatedAt: 2018-08-23T15:29:42Z
@@ -55,7 +55,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Our children have computer lectures at their primary school since this year. In general, it's a great idea that students are exposed to computer literacy at an early stage. But sometimes it comes with small hiccups. Like in our case...
 
 ## Curriculum, literature and exercise book
@@ -121,13 +120,13 @@ To start with this educational system for my children I went into the [Azure Por
 
 ### Size of the VM
 
-![azure_b4ms](../content/images/2018/02/azure_b4ms.png)  
+![azure_b4ms](../content/images/2018/02/azure_b4ms.webp)  
 I chose a (hopefully) decent hardware setup running the virtual machine on a Standard B4MS (4 cores with 16 GB RAM) tier. This should be sufficient enough for Microsoft Office 2016, Paint.net and Firefox.
 
 ### Auto-shutdown
 
 Also, I activated the auto-shutdown feature which restricts the use of the system until a specified time, and helps me to save a heap of money, too.  
-![azure_autoshutdown](../content/images/2018/02/azure_autoshutdown.png)  
+![azure_autoshutdown](../content/images/2018/02/azure_autoshutdown.webp)  
 The main purpose of that VM is to allow the children to follow the exercises and steps in their school book. At the given time the system simply shuts down, and it's dinner time in the off-line world.
 
 ### Starting the VM
@@ -152,7 +151,7 @@ Welcome to the cool new Azure CLI!
 ```
 
 Usually, I have Visual Studio Code open almost the whole day and starting the kids' virtual machine is done using the Azure CLI Tools extension.  
-![azure_codeazurecli](../content/images/2018/02/azure_codeazurecli.png)
+![azure_codeazurecli](../content/images/2018/02/azure_codeazurecli.webp)
 
 I'm currently using the following `.azcli` file to manage that VM:
 
@@ -168,13 +167,13 @@ az vm stop -g Personal -n windows4kids --no-wait
 ```
 
 The `az login` triggers the device login on Azure and after entering a generated code to authenticate your machine you get access to your resources on Azure, like this:  
-![azure_devicelogin](../content/images/2018/02/azure_devicelogin.png)
+![azure_devicelogin](../content/images/2018/02/azure_devicelogin.webp)
 
 ## Accessing the VM
 
 Windows machines on Azure are accessed via RDP and Linux has a variety of client applications for that protocol. In the portal you should assign a static domain name to your VM as the public IP address is most likely to change between daily uses. The portal allows you to download the Connect parameters as a `.rdp` file that you can open in any text editor on Linux.
 
-![azure_rdpaccess](../content/images/2018/02/azure_rdpaccess.png)  
+![azure_rdpaccess](../content/images/2018/02/azure_rdpaccess.webp)  
 Using the details from the `.rdp` it is possible to set up a new connection in remmina for future use. I'm storing the password to keep it simple for the children to access their new Windows machine.
 
 Now, `remmina` is configured to start automatically after they logged into their account and the Windows VM on Azure is easy accessible via shortcut from the system tray area.

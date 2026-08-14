@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: Getting Started with the Vertex AI Gemini API with Visual Studio
 metaDescription: Access to Vertex AI Gemini API is currently offered through SDKs not including C#. Visual Studio 2022 comes with an integrated HTTP client using .http files. The article shows how to access Vertex AI Gemini API using .http files.
-image: content/images/2024/02/vertex-gemini-visualstudio.jpg
+image: content/images/2024/02/vertex-gemini-visualstudio.webp
 ogTitle: Getting Started with the Vertex AI Gemini API with Visual Studio
 ogDescription: Access to Vertex AI Gemini API is currently offered through SDKs not including C#. Visual Studio 2022 comes with an integrated HTTP client using .http files. The article shows how to access Vertex AI Gemini API using .http files.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/getting-started-with-the-vertex-ai-gemini-with-vs-http/
-imageUrl: https://jochen.kirstaetter.name/content/images/2024/02/vertex-gemini-visualstudio.jpg
+imageUrl: content/images/2024/02/vertex-gemini-visualstudio.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2024/02/vertex-gemini-visualstudio.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2024/02/vertex-gemini-visualstudio.jpg
+featureImage: content/images/2024/02/vertex-gemini-visualstudio.webp
 featured: false
 publishedAt: 2024-02-23T09:24:53Z
 updatedAt: 2024-02-23T10:46:58Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Naming things in information technology is a hard nut to crack, and so it is not surprising that recent announcements about the line of Gemini products might be confusing. This article focuses on using the [Vertex AI Gemini API](https://cloud.google.com/vertex-ai/docs/generative-ai/learn/overview) provided by Google Cloud Platform.
 
 > Generative AI on Vertex AI (also known as *genAI* or *gen AI*) gives you access to Google's large generative AI models so you can test, tune, and deploy them for use in your AI-powered applications.
@@ -66,11 +65,11 @@ First, you need an account on [Google Cloud](https://console.cloud.google.com/).
 
 To use Vertex AI it is necessary to create or use an existing project, billing needs to be enabled for that project, and the Vertex AI API needs to be enabled.
 
-![Enable the Vertex AI API in a project with billing](../content/images/2024/02/image-5.png)
+![Enable the Vertex AI API in a project with billing](../content/images/2024/02/image-5.webp)
 
 Then navigate to the Artificial Intelligence section, choose Vertex AI menu and open the Multimodal entry under Vertex AI Studio. This should be your launch base to prompts and the documentation, if necessary.
 
-![Accessing multimodal models in Vertex AI Studio](../content/images/2024/02/image-6.png)
+![Accessing multimodal models in Vertex AI Studio](../content/images/2024/02/image-6.webp)
 
 ### Gemini API offerings
 
@@ -265,13 +264,13 @@ Content-Type: application/json
 
 Here's the excerpt from the streamed response.
 
-![Response from Vertex AI using Gemini API](../content/images/2024/02/image-7.png)
+![Response from Vertex AI using Gemini API](../content/images/2024/02/image-7.webp)
 
 > The picture shows a table with a cup of coffee, a bowl of blueberries, and several blueberry scones. There are also pink flowers on the table.
 
 Here are the steps to get the sample image and encode it in base64. The image is available here. It has been resized to a width of 512px prior to base64 encoding.
 
-![Image used as part of multimodal prompt using gemini-pro-vision model](../content/images/2024/02/scones.jpg)
+![Image used as part of multimodal prompt using gemini-pro-vision model](../content/images/2024/02/scones.webp)
 
 ```bsh
 https://storage.googleapis.com/generativeai-downloads/images/scones.jpg
@@ -295,7 +294,7 @@ Note: *At the time of writing .http/.rest files in Visual Studio 2022 do not pro
 
 Specify the Cloud Storage URI of the image to include in the prompt. The bucket that stores the file must be in the same Google Cloud project that's sending the request. You must also specify the `mime_type` field. The supported image MIME types include `image/png` and `image/jpeg`.
 
-![](../content/images/2024/02/cat.jpg)
+![](../content/images/2024/02/cat.webp)
 
 ```
 @projectId={{$dotenv PROJECT_ID}}
@@ -370,9 +369,9 @@ I successfully used the same set of .http files in the following text editors an
 - Google Cloud Shell Editor (Code OSS for the Web)
 - Project IDX - [https://idx.dev/](https://idx.dev/)
 
-![Using REST Client extension in Code to prompt Vertex AI Gemini API](../content/images/2024/02/image-2.png)
+![Using REST Client extension in Code to prompt Vertex AI Gemini API](../content/images/2024/02/image-2.webp)
 
-![](../content/images/2024/02/image-3.png)
+![](../content/images/2024/02/image-3.webp)
 
 ## Source code: Gemini Playground
 

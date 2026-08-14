@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: The future is now!
 metaDescription: Ich glaube, dass der heutige Themenabend ziemlich starken Tobak für die Anwesenden beinhaltet hat. Stellenweise hatte ich den Eindruck, dass der Einsatz von XML und den damit verbundenen Möglichkeiten noch zu weit entfernt vom Tagesgeschäft eines Entwicklers sind. Vielleicht liege ich dabei auch verkehrt. Well, we will see...
-image: content/images/2023/09/futuristic_bladerunner.png
+image: content/images/2023/09/futuristic_bladerunner.webp
 ogTitle: The future is now!
 ogDescription: "Der monatliche Stammtisch zu Visual FoxPro ist gelaufen; Willkommen in der Zukunft... \U0001F609Ich glaube, dass der heutige Themenabend ziemlich starken Tobak für die Anwesenden beinhaltet hat. Stellenweise..."
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/the-future-is-now/
-imageUrl: https://jochen.kirstaetter.name/content/images/2023/09/futuristic_bladerunner.png
+imageUrl: content/images/2023/09/futuristic_bladerunner.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2023/09/futuristic_bladerunner.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2023/09/futuristic_bladerunner.png
+featureImage: content/images/2023/09/futuristic_bladerunner.webp
 featured: false
 publishedAt: 2005-02-17T00:00:00Z
 updatedAt: 2023-09-18T18:19:12Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Der monatliche Stammtisch zu Visual FoxPro ist gelaufen; Willkommen in der Zukunft... 😉  
   
 Ich glaube, dass der heutige Themenabend ziemlich starken Tobak für die Anwesenden beinhaltet hat. Stellenweise hatte ich den Eindruck, dass der Einsatz von XML und den damit verbundenen Möglichkeiten noch zu weit entfernt vom Tagesgeschäft eines Entwicklers sind. Vielleicht liege ich dabei auch verkehrt. Well, we will see...

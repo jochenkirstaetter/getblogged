@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/community-day-at-sos-kinderdorf-bambous/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Easter is not only an occassion of public holidays but an opportunity to share and celebrate with your neighborhood. The team of [IOS Indian Ocean Software Ltd.](https://www.ios.mu/ "IOS Indian Ocean Software Ltd.") spent Easter Monday with the children and "mothers" of [SOS Children's Village](https://www.soscvmauritius.org/ "SOS Kinderdorf Bambous, Mauritius") in Bambous.
 
 Together with the employees' family members we enjoyed some wonderful hours together. Starting the community day with a common lunch, IOS contributed mainly stationery, educational gifts and games like Scrabble or Sudoku. And of course, a little give-away with chocolate eggs...

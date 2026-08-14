@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: 'MSCC: HTML5, CSS3 and JavaScript'
 metaDescription: Good to see new craftsmen and regular attendees during our meetups. Especially on Saturdays, we are getting more people together and it is improving from month to month.
-image: https://images.unsplash.com/photo-1472437774355-71ab6752b434?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2014/01/photo-1472437774355-71ab6752b434.webp
 ogTitle: 'MSCC: HTML5, CSS3 and JavaScript'
 ogDescription: Today's meetup has been an interesting experience for me... for two reasons actually. First, I have to be more active with our craftsmen, especially with our speakers of the day. And second, we...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mscc-25012014-html5-css3-javascript/
-imageUrl: https://images.unsplash.com/photo-1472437774355-71ab6752b434?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2014/01/photo-1472437774355-71ab6752b434.webp
 twitterImageUrl: https://images.unsplash.com/photo-1472437774355-71ab6752b434?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1472437774355-71ab6752b434?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2014/01/photo-1472437774355-71ab6752b434.webp
 featured: false
 publishedAt: 2014-01-25T17:44:18Z
 updatedAt: 2019-02-07T05:47:51Z
@@ -52,9 +52,9 @@ facebookDescription: Today's meetup has been an interesting experience for me...
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
-[![Logo of the Mauritius Software Craftsmanship Community](https://s.kirstaetter.name/images/mscc.jpg)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community")Today's [meetup](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/events/156390412/) has been an interesting experience for me... for two reasons actually. First, I have to be more active with our craftsmen, especially with our speakers of the day. And second, we definitely need more space. Even both conference rooms together at the Ebene Accelerator are not enough anymore for our monthly meetings. We set a new record: 27 attendees!
+[![Logo of the Mauritius Software Craftsmanship Community](../content/images/2013/11/mscc.webp)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community")Today's [meetup](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/events/156390412/) has been an interesting experience for me... for two reasons actually. First, I have to be more active with our craftsmen, especially with our speakers of the day. And second, we definitely need more space. Even both conference rooms together at the Ebene Accelerator are not enough anymore for our monthly meetings. We set a new record: 27 attendees!
 
 Following my impression on today's event:
 
@@ -66,7 +66,7 @@ I'm really really glad and grateful about the growing interest in our community.
 
 ## Prediction of harsh weather conditions
 
-![Harsh weather conditions have been predicted by Facebook](https://s.kirstaetter.name/images/mscc-20140125_1.png)  
+![Harsh weather conditions have been predicted by Facebook](../content/images/2014/01/mscc-20140125_1.webp)  
 *Harsh weather conditions have been predicted by Facebook for our monthly meetup... even probability of snow!*
 
 ## []()Reactions from other craftsmen
@@ -131,16 +131,16 @@ Also, please don't forget to get in touch with the Ebene Accelerator for their d
 
 Following some pictures from today's event:
 
-![MSCC meetup of 25.01.2014 - craftsmen #1](https://s.kirstaetter.name/images/mscc-20140125_2.png)  
+![MSCC meetup of 25.01.2014 - craftsmen #1](../content/images/2014/01/mscc-20140125_2.webp)  
 *MSCC meetup of 25.01.2014: Craftsmen listing to the presentation on Responsive Web Development (RWD)*
 
-![MSCC meetup of 25.01.2014 - craftsmen #2](https://s.kirstaetter.name/images/mscc-20140125_3.png)  
+![MSCC meetup of 25.01.2014 - craftsmen #2](../content/images/2014/01/mscc-20140125_3.webp)  
 *MSCC meetup of 25.01.2014: More craftsmen occupying the conference rooms of Ebene Accelerator*
 
-![MSCC meetup of 25.01.2014 - craftsmen #3](https://s.kirstaetter.name/images/mscc-20140125_4.png)  
+![MSCC meetup of 25.01.2014 - craftsmen #3](../content/images/2014/01/mscc-20140125_4.webp)  
 *MSCC meetup of 25.01.2014: Our usual outfit during our gatherings... laptops, smartphones and books everywhere*
 
-![MSCC meetup of 25.01.2014 - craftsmen #4](https://s.kirstaetter.name/images/mscc-20140125_5.png)  
+![MSCC meetup of 25.01.2014 - craftsmen #4](../content/images/2014/01/mscc-20140125_5.webp)  
 *MSCC meetup of 25.01.2014: We need more space! Today, there were 27 (+2) attendees...*
 
 ## []()My resume of the day

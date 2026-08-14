@@ -31,12 +31,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/welcome-a-new-star-is-born/
-imageUrl: https://jochen.kirstaetter.name/content/images/2019/01/IMG_0374.JPG
+imageUrl: content/images/2019/01/IMG_0374.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2019/01/IMG_0374.JPG
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -54,7 +54,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Hello dear family & friends,  
   
 we would like to introduce you to our latest project "Stitch" or better said experiment 'Tristan Kane Kirstätter'.  

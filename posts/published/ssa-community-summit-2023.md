@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: SSA Community Summit 2023
 metaDescription: Those two Summit days had been packed with greatness. The combination of different talk formats and activities kept my attention in high gears, and I learned quite a bunch from other amazing community leads in Africa.
-image: content/images/2023/11/SSACommunitySummit2023_Group.jpeg
+image: content/images/2023/11/SSACommunitySummit2023_Group.webp
 ogTitle: SSA Community Summit 2023
 ogDescription: Those two Summit days had been packed with greatness. The combination of different talk formats and activities kept my attention in high gears, and I learned quite a bunch from other amazing community leads in Africa.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/ssa-community-summit-2023/
-imageUrl: https://jochen.kirstaetter.name/content/images/2023/11/SSACommunitySummit2023_Group.jpeg
+imageUrl: content/images/2023/11/SSACommunitySummit2023_Group.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2023/11/SSACommunitySummit2023_Group.jpeg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2023/11/SSACommunitySummit2023_Group.jpeg
+featureImage: content/images/2023/11/SSACommunitySummit2023_Group.webp
 featured: false
 publishedAt: 2023-11-15T13:12:36Z
 updatedAt: 2023-11-15T18:47:10Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 It's this time of the year, again. Google invited numerous selected people from their various community programs to meet and greet in Kigali, Rwanda. Gratefully, I have been invited as a Google Developer Expert (GDE) and I was really happy to represent Mauritius during the summit.
 
 Speaking of representatives from Mauritius. This year I was actually in company with an alumni of Google Developer Student Clubs (GDSC) University of Mauritius, Ankshita Maunthrooa. I hope she enjoyed the event and that she's going to join either the Google Develop Groups (GDG) Mauritius or the Women TechMaker (WTM) program in the near future.
@@ -87,7 +86,7 @@ Compared to last time, I decided to make a few minor changes here and there rega
 
 Again, the focus was clearly on everything using a single connector, USB-C. As the keyboard on the Chromebook is again working perfectly there was no need to bring along the Logitech peripherals. And to charge my gear at the same time I brought along my Hama USB-C charger which has sufficient power output. Nice accessory I purchased during the trip to Europe earlier this year.
 
-![](../content/images/2023/11/PXL_20231004_063500289.jpg)
+![](../content/images/2023/11/PXL_20231004_063500289.webp)
 
 Now onto some essential utilities I always bring along while travelling.
 
@@ -125,7 +124,7 @@ Alright, I seized the opportunity to check out the MTN booth just opposite the a
 
 While walking back to the coach bus I collected another three "stranded and seemingly lost" community members and we managed to squeeze everyone into the bus. Another trip through the night to reach the hotel - same as last year BTW, sweet.
 
-![](../content/images/2023/11/20231005_013238.jpg)
+![](../content/images/2023/11/20231005_013238.webp)
 
 Around 3:00am I finally managed to settle down and sleep.
 
@@ -145,11 +144,11 @@ Time for our Summit badges! I went as early as possible to snatch my lanyard and
 
 Our Master of Ceremony, [Ada Oyom](https://www.linkedin.com/in/ada-nduka-oyom/), started day 1 of the SSA Community Summit with a couple of notes, house rules and last information for participants before handling the microphone over to [John Kimani](https://www.linkedin.com/in/johnkimani/).
 
-![](../content/images/2023/11/PXL_20231005_081343722.jpg)
+![](../content/images/2023/11/PXL_20231005_081343722.webp)
 
 John gave a great overview of the current state of the four Google Developer programs, the overall situation across the African population as being the youngest continent, and Google's commitment for the expected 1.4 billion people by the year 2030. Very reassuring for the current and next generation of IT and technology folks in Africa.
 
-![](../content/images/2023/11/PXL_20231005_090747264.MP.jpg)
+![](../content/images/2023/11/PXL_20231005_090747264.MP.webp)
 
 ### Lightning talk: Stop begging! Create value and opportunity!
 
@@ -189,7 +188,7 @@ Lead by [Khadija Juma](https://www.linkedin.com/in/khadija-%F0%9F%87%B0%F0%9F%87
 
 to provide a safe environment to nurture and grow a tech community. And the positive effects those can have on the daily life of participants.
 
-![Fireside Chat: Hacks to grow impact & metrics for small communities](../content/images/2023/11/20231005_124431.jpg)
+![Fireside Chat: Hacks to grow impact & metrics for small communities](../content/images/2023/11/20231005_124431.webp)
 
 ### Fireside Chat: Building new gen communities in Africa
 
@@ -218,7 +217,7 @@ And overall keep it human. Remember, it's a community not a business!
 
 Our last panel was spearheaded by [Eunice Allela](https://www.linkedin.com/in/eunice-allela-230531110/) and it covered a potential path of personal growth from GDSC over GDG or WTM to GDE.
 
-![GDEs sharing their story](../content/images/2023/11/Snapshot_2023-11-14_23-30-05.png)
+![GDEs sharing their story](../content/images/2023/11/Snapshot_2023-11-14_23-30-05.webp)
 
 What better crowd than having three GDEs?
 
@@ -232,7 +231,7 @@ More information about the [Google Developer Experts](https://developers.google.
 
 After such a long and information-loaded day it was time to wind down a bit. What better than to take a stroll from the hotel to the "market" as it was called, and see what we would explore. We went in a small group and a few had clear ideas about what to look for. Things like local tea and honey, mosquito repellent as well as a local SIM card were in demand, if I remember correctly.
 
-![](../content/images/2023/11/20231005_173950.jpg)
+![](../content/images/2023/11/20231005_173950.webp)
 
 Later on, we met for dinner time - gents and ladies separated as there had been the exclusive WTM Dinner with another panel just for the women. Well, during dinner I managed to exchange quite a bit with John Kimani, [Robert John](https://x.com/robert_thas) and [Francis Akol](https://www.linkedin.com/in/francis-akol/) on various topics regarding our Google developer communities, the recently launched DevFest events, and some general aspects on African countries. It was really helpful for me to get a better idea regarding my scheduled DevFest activities in Tanzania and Uganda.
 
@@ -244,7 +243,7 @@ Finally I managed to catch some well-deserved Zzz's and I slept a few hours more
 
 Nothing better to head into the breakfast zone of the hotel and hug, fist-bump, handshake and greet other summit participants.
 
-![](../content/images/2023/11/20231006_143148.jpg)
+![](../content/images/2023/11/20231006_143148.webp)
 
 It's an amazing way to start the day, even before the first sip or bite.
 
@@ -252,7 +251,7 @@ It's an amazing way to start the day, even before the first sip or bite.
 
 Jumping right into the action, [Alfredo Moressi](https://www.linkedin.com/in/alfredomorresi/) provided us valuable statistics on the curve of commitment among community members and how you could shift things into your favour as a GDG organiser.
 
-![Use a pseudo-scientific approach to increase commitment towards your community](../content/images/2023/11/PXL_20231006_085909856.MP.jpg)
+![Use a pseudo-scientific approach to increase commitment towards your community](../content/images/2023/11/PXL_20231006_085909856.MP.webp)
 
 The typical phases are
 
@@ -267,7 +266,7 @@ and their corresponding activities to increase the commitment of participants.
 
 Out of the two options offered I chose to stay in the room and to attend the workshop lead by [Sodiq Akinjobi](https://www.linkedin.com/in/geektutor/). Mainly to see what are the improvements we could use for our existing process to process registrations and check-ins at the annual [Developers Conference](https://conference.mscc.mu/) in Mauritius.
 
-![Always work smart, not hard](../content/images/2023/11/PXL_20231006_093549812.jpg)
+![Always work smart, not hard](../content/images/2023/11/PXL_20231006_093549812.webp)
 
 Turned out that Sodiq had his own plans and recruited me ad hoc as an assistant by aid others keeping the pace and to resolve any issues one might get stuck. It was good fun and fullfilment on my side to help in that workshop. Which is actually based on the following to two Apps Scripts samples:
 
@@ -280,15 +279,15 @@ Check them out and be lazy (read: smart) for your next community event.
 
 I didn't attend but looking at the pictures from the Photos album it must have been fantastic. Kudos to [Eunice Allela](https://www.linkedin.com/in/eunice-allela-230531110/) and Robert John for that one.
 
-![](../content/images/2023/11/PXL_20231006_103250797-1.jpg)
+![](../content/images/2023/11/PXL_20231006_103250797-1.webp)
 
-![](../content/images/2023/11/PXL_20231006_095442430.jpg)
+![](../content/images/2023/11/PXL_20231006_095442430.webp)
 
 ### Program Specific Breakout Session: GDE Q&A
 
 This slot was used to split the participants of the community programs. Us GDEs went off to a smaller conference room and we sat down to ask a few questions about the status and progress of the GDE program, we got clarification on how to better report our activities, and the travel policies for this year's DevFest season had been elaborated on.
 
-![Our fine group of Google Developer Experts](../content/images/2023/11/SSACommunitySummit2023_GDE.jpeg)
+![Our fine group of Google Developer Experts](../content/images/2023/11/SSACommunitySummit2023_GDE.webp)
 
 Concluding our session we gathered on the side terrace for traditional GDE group photo. As might notice in the shot, there are women missing. As a mentor of the recently completed Women Developers Academy (WDA) SSA I'm looking forward for more female experts joining soon. Wishing my mentees Gbemisola and Velda best of luck!
 
@@ -307,7 +306,7 @@ In case that you had a look at the official agenda of the SSA Community Summit y
 - GDG High Impact Award - [Marvin Ngesa](https://www.linkedin.com/in/engngesamarvin/)
 - Community Mentor Award -[Jochen Kirstätter](https://www.linkedin.com/in/jochenkirstaetter/)
 
-![Community Awardees (categories from left to right)](../content/images/2023/11/PXL_20231006_133101504.jpg)
+![Community Awardees (categories from left to right)](../content/images/2023/11/PXL_20231006_133101504.webp)
 
 Let me say this, we are all winners! Attending this exquisite SSA Community Summit proved it.
 
@@ -315,7 +314,7 @@ Let me say this, we are all winners! Attending this exquisite SSA Community Summ
 
 With the "official" part of the summit done it was time to go out and celebrate. The Google team explicitly requested us to bring a national sports jersey representing each country for this evening.
 
-![Awesome colours and sport jerseys from across Africa](../content/images/2023/11/IMG_7436.jpg)
+![Awesome colours and sport jerseys from across Africa](../content/images/2023/11/IMG_7436.webp)
 
 And we did celebrate! ;-)
 
@@ -327,13 +326,13 @@ Again, GDG Kigali organised their DevFest at the same time as the SSA Community 
 
 Shout out to our various Google community leads. Once again they did an amazing job bringing together the top 100 community leads & contributors from SSA for knowledge sharing, networking and learning. **Thank You!**
 
-![Our Google community leads with support from Italy](../content/images/2023/11/SSACommunitySummit_Googlers.png)
+![Our Google community leads with support from Italy](../content/images/2023/11/SSACommunitySummit_Googlers.webp)
 
 ## My takeaway
 
 Those two Summit days had been packed with greatness. The combination of different talk formats and activities kept my attention in high gears, and I learned quite a bunch from other amazing community leads in Africa. Having a mixture of participants from all Google community programs has been the right choice.
 
-![A few impressions from the SSA Community Summit 2023](../content/images/2023/11/20231005_122649.jpg)
+![A few impressions from the SSA Community Summit 2023](../content/images/2023/11/20231005_122649.webp)
 
 I can't recall the number of chats I had with young fellows from GDSC and WTM factions asking about progressing into a GDG chapter or how to choose the path to become a GDE. The level of sharing, the celebrated achievements and the inspirational networking over those past two days filled my mind with lots of ideas and future projects to consider.
 

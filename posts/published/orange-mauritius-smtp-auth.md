@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: Some mail details about Orange Mauritius
 metaDescription: Being an internet service provider is not easy after all for a lot of companies. Luckily, there are quite some good international operators in this world.
-image: https://images.unsplash.com/photo-1518309913525-82928de3a51f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2011/02/photo-1518309913525-82928de3a51f.webp
 ogTitle: Some mail details about Orange Mauritius
 ogDescription: Being an internet service provider is not easy after all for a lot of companies. Luckily, there are quite some good international operators in this world. For example Orange Mauritius aka Mauritius...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/orange-mauritius-smtp-auth/
-imageUrl: https://images.unsplash.com/photo-1518309913525-82928de3a51f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2011/02/photo-1518309913525-82928de3a51f.webp
 twitterImageUrl: https://images.unsplash.com/photo-1518309913525-82928de3a51f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1518309913525-82928de3a51f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2011/02/photo-1518309913525-82928de3a51f.webp
 featured: false
 publishedAt: 2011-02-11T05:34:36Z
 updatedAt: 2019-01-28T02:55:45Z
@@ -52,8 +52,8 @@ facebookDescription: Being an internet service provider is not easy after all fo
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Being an internet service provider is not easy after all for a lot of companies. Luckily, there are quite some good international operators in this world. For example [Orange Mauritius](https://www.orange.mu/ "Orange Mauritius") aka [Mauritius Telecom](https://www.mauritiustelecom.com/ "Mauritius Telecom") aka Wanadoo(?) aka [MyT](https://www.mauritiustelecom.com/myt/ "MyT") here in Mauritius.
 
 The local circumstances give them a quasi-monopol position on fixed lines for telephony and therefore cable-based DSL internet connectivity. So far, not bad but as usual... the details. Just for the records, I am only using the services of Orange for mobile but friends and customers are bound, eh stuck, with other services of Orange Mauritius. And usually, being the IT guy, they get in touch with me to complain about problems or to ask questions on either their ADSL / MyT connection, mail services or whatever. Most of those issues are user-related and easily to solve by tweaking the configuration of their computer a little bit but sometimes it's getting weird.

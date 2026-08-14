@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: 'NuGet: Better release notes and versioning'
 metaDescription: Release notes or better a Changelog is an important part of a package to inform other developers about new features, changes and fixes. Enjoy rich formatting and re-usable content for a NuGet package.
-image: content/images/2024/04/_913c222e-d6c8-4431-9586-3c2d42883014.jpeg
+image: content/images/2024/04/_913c222e-d6c8-4431-9586-3c2d42883014.webp
 ogTitle: 'NuGet: Better release notes and versioning'
 ogDescription: Release notes or better a Changelog is an important part of a package to inform other developers about new features, changes and fixes. Enjoy rich formatting and re-usable content for a NuGet package.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/nuget-better-release-notes-versioning/
-imageUrl: https://jochen.kirstaetter.name/content/images/2024/04/_913c222e-d6c8-4431-9586-3c2d42883014.jpeg
+imageUrl: content/images/2024/04/_913c222e-d6c8-4431-9586-3c2d42883014.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2024/04/_913c222e-d6c8-4431-9586-3c2d42883014.jpeg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2024/04/_913c222e-d6c8-4431-9586-3c2d42883014.jpeg
+featureImage: content/images/2024/04/_913c222e-d6c8-4431-9586-3c2d42883014.webp
 featured: false
 publishedAt: 2024-03-31T09:00:00Z
 updatedAt: 2024-04-02T12:55:09Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Providing release notes for a NuGet package is an essential part of the development and distribution of the package itself. Commonly it shall be the first source of information to describe latest updates regarding the improvements and changes.
 
 However, the current way of authoring release notes in a .NET project is sub-optimal. The following approach might offer a simpler way to achieve this including formatting and additional purpose on GitHub.
@@ -119,11 +118,11 @@ Using Markdown to create richly formatted release notes compared to plain text m
 
 Here's how it looks in the NuGet Gallery.
 
-![NuGet doesn't have a Markdown viewer but links are clickable](../content/images/2024/04/image.png)
+![NuGet doesn't have a Markdown viewer but links are clickable](../content/images/2024/04/image.webp)
 
 In comparison the same release notes on GitHub.
 
-![Rich formatted release notes with hyperlinks](../content/images/2024/04/image-1.png)
+![Rich formatted release notes with hyperlinks](../content/images/2024/04/image-1.webp)
 
 With a small amount of extra work same `CHANGELOG.md` could be used as a source of [GitHub Pages](https://pages.github.com/) and be part of a generated, static website of your project.
 
@@ -143,7 +142,7 @@ The path might be different for you and depending on how you structured your pro
 
 Both approaches - `CHANGELOG.md` and `VERSION` - are used in the NuGet packages `Mscc.GenerativeAI*`. It's an open-source library to integrate Google Gemini into .NET applications.
 
-![Synchronized package versions thanks to injection during compilation](../content/images/2024/04/image-2.png)
+![Synchronized package versions thanks to injection during compilation](../content/images/2024/04/image-2.webp)
 
 The repository of [Gemini AI Client for .NET and ASP.NET Core](https://github.com/mscraftsman/generative-ai) is hosted on GitHub.
 

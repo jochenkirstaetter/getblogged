@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: Corsair Hackers Reboot
 metaDescription: The Linux User Group of Mauritius (LUGM) organised another get-together for any open source enthusiast here on the island. Strangely named Corsair Hackers Reboot
-image: content/images/2017/08/lugm-corsair-hacker-20140419-2.png
+image: content/images/2017/08/lugm-corsair-hacker-20140419-2.webp
 ogTitle: Corsair Hackers Reboot
 ogDescription: It wasn't easy for me to attend but it was absolutely worth to go. The Linux User Group of Mauritius (LUGM) organised another get-together for any open source enthusiast here on the island. Strangely...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/lugm-corsair-hackers-reboot/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/08/lugm-corsair-hacker-20140419-2.png
+imageUrl: content/images/2017/08/lugm-corsair-hacker-20140419-2.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/08/lugm-corsair-hacker-20140419-2.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/08/lugm-corsair-hacker-20140419-2.png
+featureImage: content/images/2017/08/lugm-corsair-hacker-20140419-2.webp
 featured: false
 publishedAt: 2014-04-21T02:57:54Z
 updatedAt: 2018-04-02T08:38:44Z
@@ -53,8 +53,7 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
-[![Logo of the Linux User Group of Mauritius](https://s.kirstaetter.name/images/lugm.png)](https://lugm.org/corsair/ "Linux User Group of Mauritius - Corsair Hackers Reboot")It wasn't easy for me to attend but it was absolutely worth to go. The [Linux User Group of Mauritius (LUGM)](https://lugm.org "Linux User Group of Mauritius (LUGM)") organised another get-together for any open source enthusiast here on the island. Strangely named "[Corsair Hackers Reboot](https://lugm.org/corsair/ "Corsair Hackers Reboot")" but it stands for a positive cause:
+[![Logo of the Linux User Group of Mauritius](../content/images/2014/04/lugm.webp)](https://lugm.org/corsair/ "Linux User Group of Mauritius - Corsair Hackers Reboot")It wasn't easy for me to attend but it was absolutely worth to go. The [Linux User Group of Mauritius (LUGM)](https://lugm.org "Linux User Group of Mauritius (LUGM)") organised another get-together for any open source enthusiast here on the island. Strangely named "[Corsair Hackers Reboot](https://lugm.org/corsair/ "Corsair Hackers Reboot")" but it stands for a positive cause:
 
 > *"**Corsair Hackers Reboot Event***
 >
@@ -93,18 +92,18 @@ And last but not least there were a small number of vendors. Amongst them was Em
 
 ## []()Some pictures of the event
 
-![LUGM: Great conversations on Linux, open source and free software during the Corsair Hackers Reboot](https://s.kirstaetter.name/images/lugm-corsair-hacker-20140419-2.png)  
+![LUGM: Great conversations on Linux, open source and free software during the Corsair Hackers Reboot](../content/images/2014/04/lugm-corsair-hacker-20140419-2.webp)  
 *LUGM: Great conversations on Linux, open source and free software during the Corsair Hackers Reboot*
 
-![LUGM: Educational workstation running GCompris suite attracted the youngest attendees of the day. Of course, face painting had to be done prior to hacking...](https://s.kirstaetter.name/images/lugm-corsair-hacker-20140419-1.png)  
+![LUGM: Educational workstation running GCompris suite attracted the youngest attendees of the day. Of course, face painting had to be done prior to hacking...](../content/images/2014/04/lugm-corsair-hacker-20140419-1.webp)  
 *LUGM: Educational workstation running GCompris suite attracted the youngest attendees of the day. Of course, face painting had to be done prior to hacking...*
 
-![LUGM: Nadim demoing some Linux specifics to interested visitors. Everyone was pretty busy during the whole day](https://s.kirstaetter.name/images/lugm-corsair-hacker-20140419-3.png)  
+![LUGM: Nadim demoing some Linux specifics to interested visitors. Everyone was pretty busy during the whole day](../content/images/2014/04/lugm-corsair-hacker-20140419-3.webp)  
 *LUGM: Nadim demoing some Linux specifics to interested visitors. Everyone was pretty busy during the whole day*
 
-![LUGM: The hacking competition, here pen-testing a wireless connection and access point between multiple machines](https://s.kirstaetter.name/images/lugm-corsair-hacker-20140419-4.png)*LUGM: The hacking competition, here pen-testing a wireless connection and access point between multiple machines*
+![LUGM: The hacking competition, here pen-testing a wireless connection and access point between multiple machines](../content/images/2014/04/lugm-corsair-hacker-20140419-4.webp)*LUGM: The hacking competition, here pen-testing a wireless connection and access point between multiple machines*
 
-![LUGM: Well prepared workstations to be able to 'upgrade' visitors' machines to any Linux operating system](https://s.kirstaetter.name/images/lugm-corsair-hacker-20140419-5.png)  
+![LUGM: Well prepared workstations to be able to 'upgrade' visitors' machines to any Linux operating system](../content/images/2014/04/lugm-corsair-hacker-20140419-5.webp)  
 *LUGM: Well prepared workstations to be able to 'upgrade' visitors' machines to any Linux operating system*
 
 ## []()Final thoughts

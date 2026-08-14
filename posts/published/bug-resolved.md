@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/bug-resolved/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Zwar habe ich die Mail von Microsoft schon einigen Tagen erhalten, aber erst heute wirklich die Zeit und Muße darüber zu schreiben. Ich hoffe, dass dies bei euch auf Verständnis stößt. Worum geht's eigentlich? Nun, da über das Service Pack 2 für Visual FoxPro 9.0 ja die wildesten Gerüchte unterwegs sind, konzentriere ich mich lieber auf die Möglichkeiten des Feedbacks an Microsoft zur Verbesserung des Produkts.
 
 Zu sämtlichen Microsoft Produkten kann man über das [MSDN Product Feedback Center](https://connect.microsoft.com/VisualStudio/Feedback) Anfragen, Wünsche und Fehlermeldungen online einstellen. Da wir im laufenden Projekt über eine Kuriosität mit dem Grid gestolpert sind, hatte ich einen entsprechenden Bugreport samt Democode eingestellt. Nun, die Tage kam die Mail, dass der Eintrag als 'Resolved' klassizifiert ist und dies bedeutet, dass es mit dem Service Pack 2 behoben sein wird. Mal sehen, ob ich es mit dem nächsten CTP bereits prüfen kann.

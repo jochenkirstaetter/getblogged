@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/skydiving-in-mauritius/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Finally, I did it or better said we did it. Already back in November last year I saw the big billboard advertisement of [Skydive Austral Mauritius](https://www.skydivemauritius.com/ "Skydive Austral Mauritius") near Caudan Waterfront in Port Louis and decided for myself that this is going to be the perfect birthday gift for my wife. Simply out of curiosity I would join her tandem jump with a second instructor. Due to her pregnancy of our son I had to be patient... But then finally, her birthday had arrived and on our midnight celebration session I showed her her netbook with the website preloaded.
 
 Actually, it was the "perfect" timing... Recovery from her cesarean is fine, local weather conditions are gorgious and the children were under surveillance of my mum - spending her annual holidays on the island.

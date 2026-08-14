@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: Goodbye 2013 - Welcome 2014
 metaDescription: Personal thoughts about events and activities during 2013.
-image: https://images.unsplash.com/photo-1498931299472-f7a63a5a1cfa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=a6175f0f3a01fd511dfdce59f5c35c42
+image: content/images/2014/01/photo-1498931299472-f7a63a5a1cfa.webp
 ogTitle: Goodbye 2013 - Welcome 2014
 ogDescription: This time only some personal thoughts about what happened during 2013, and what might be an outlook in 2014...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/goodbye-2013-welcome-2014/
-imageUrl: https://images.unsplash.com/photo-1498931299472-f7a63a5a1cfa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=a6175f0f3a01fd511dfdce59f5c35c42
+imageUrl: content/images/2014/01/photo-1498931299472-f7a63a5a1cfa.webp
 twitterImageUrl: https://images.unsplash.com/photo-1498931299472-f7a63a5a1cfa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=a6175f0f3a01fd511dfdce59f5c35c42
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1498931299472-f7a63a5a1cfa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=a6175f0f3a01fd511dfdce59f5c35c42
+featureImage: content/images/2014/01/photo-1498931299472-f7a63a5a1cfa.webp
 featured: false
 publishedAt: 2014-01-02T05:38:33Z
 updatedAt: 2018-04-02T08:38:44Z
@@ -52,8 +52,8 @@ facebookDescription: This time only some personal thoughts about what happened d
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 This time only some personal thoughts about what happened during 2013, and what might be an outlook in 2014...
 
 ## []()Goodbye 2013

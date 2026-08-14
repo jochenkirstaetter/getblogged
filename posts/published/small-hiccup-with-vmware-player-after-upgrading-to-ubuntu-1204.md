@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/small-hiccup-with-vmware-player-after-upgrading-to-ubuntu-1204/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 ## The upgrade process  
 Finally, it was time to upgrade to a new LTS version of [Ubuntu](https://www.ubuntu.com/ "https://www.ubuntu.com/ - Ubuntu") - 12.04 aka Precise Pangolin. I scheduled the weekend for this task and despite the nickname of Mauritius (Cyber Island) it took roughly 6 hours to download nearly 2.400 packages. No problem in general, as I have spare machines to work on, and it was weekend anyway. All went very smooth and only a few packages required manual attention due to local modifications in the configuration. With the new kernel 3.2.0-24 it was necessary to reboot the system and compared to the last upgrade, I got my graphical login as expected.
 

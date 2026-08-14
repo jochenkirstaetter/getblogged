@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/plans-for-mauritius-software-developer-user-group-msdug/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 ## You know... Old habits don't fall off!
 
 And so, I'm still interested in starting and operating (again) a local user group. This one is more in general about topics according to software development, design and data storage than my last ones back in Germany. Because I was maintainer of a [regional user group](https://speyer.dfpug.de) of the [German FoxPro User Group](https://www.dfpug.de) I'd like to use my experiences in this field to kick-off a new user group here in Mauritius. This idea is already since the very first beginning on my mind, but because of my work I didn't have the time yet to get more details and so on....  

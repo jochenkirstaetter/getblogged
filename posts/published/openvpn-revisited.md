@@ -12,7 +12,7 @@ tags:
 keywords: Linux, Personal
 metaTitle: OpenVPN re-visited
 metaDescription: Earlier versions of OpenVPN are vulnerable to SWEET32. The attack vector can be mitigated by changing the default cipher. OpenVPN currently recommends using AES-256-CBC or AES-128-CBC.
-image: https://images.unsplash.com/photo-1508416163602-e4eb39645e86?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=df89fd00920df727218842cce7113c14
+image: content/images/2018/08/photo-1508416163602-e4eb39645e86.webp
 ogTitle: OpenVPN re-visited
 ogDescription: Earlier versions of OpenVPN are vulnerable to SWEET32. The attack vector can be mitigated by changing the default cipher. OpenVPN currently recommends using AES-256-CBC or AES-128-CBC.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/openvpn-revisited/
-imageUrl: https://images.unsplash.com/photo-1508416163602-e4eb39645e86?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=df89fd00920df727218842cce7113c14
+imageUrl: content/images/2018/08/photo-1508416163602-e4eb39645e86.webp
 twitterImageUrl: https://images.unsplash.com/photo-1508416163602-e4eb39645e86?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=df89fd00920df727218842cce7113c14
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1508416163602-e4eb39645e86?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=df89fd00920df727218842cce7113c14
+featureImage: content/images/2018/08/photo-1508416163602-e4eb39645e86.webp
 featured: false
 publishedAt: 2018-08-28T13:23:05Z
 updatedAt: 2018-08-29T04:43:26Z
@@ -53,11 +53,11 @@ facebookDescription: Earlier versions of OpenVPN are vulnerable to SWEET32. The 
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 It's been a very long time since I set up the VPN infrastructure at the office using OpenVPN. Today, I came across an interesting log entry that I would like to document quickly.
 
-![OpenVPN is commonly used to establish virtual private networks world-wide](../content/images/2018/08/OpenVPN.png)
+![OpenVPN is commonly used to establish virtual private networks world-wide](../content/images/2018/08/OpenVPN.webp)
 
 At the time of writing I have OpenVPN 2.4.6 running on my Windows 10 machine. The existing infrastructure though is on a different version, and this morning I observed the following entries in the log file:
 

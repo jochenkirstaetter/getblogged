@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/virtual-launch-of-visual-studo-2013-dubai/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 These recent days are packed with a series of great events. Not only that the [Mauritius Software Craftsmanship Community (MSCC)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/ "Mauritius Software Craftsmanship Community (MSCC)") gets more momentum, it's also the situation that there are quite a number of product launches and version releases. Already last week, the [official launch of Visual Studio 2013](https://events.visualstudio.com/eng/home/ "official launch of VIsual Studio 2013") happened but quite frankly I couldn't follow the online show as I had a jump start on Microsoft Virtual Academy to attend. And thanks to Technical Evangelist Arnaud Meslier I had an invitation to participate in the virtual launch event at the offices of [Microsoft Indian Ocean Islands and French Pacific](https://www.microsoft.com/africa/fr/press/Pages/Country.aspx?id=2 "Microsoft Indian Ocean Islands and French Pacific"), [Port Louis](https://www.microsoft.com/worldwide/phone/contact.aspx?country=Indian%20Ocean%20Islands "Microsoft Indian Ocean Islands").
 
 Luckily, morning traffic down to Port Louis wasn't that cramped as usual - well, I guess that might be related that more and more companies are moving their offices into other areas of the island and the capital is starting to 'die'. But don't let us complain about those circumstances. Finding the Microsoft office on the 7th floor of the Dias Pier Building was straight forward, even though it seems that they don't want to be found. Of course, the premises are a huge difference compared to the campuses at Microsoft Germany in Munich or Microsoft HQ in Redmond. Actually, it is more likely to one of those regional offices like in Neuss.
@@ -64,7 +63,7 @@ Some Microsoft Student Partners (MSP) and a few other guests were already presen
 
 > *"Overcoming some technical issues here and got the opportunity to speak quickly about [#mscc](https://x.com/search?q=%23mscc). Thanks to [@arnaudmeslier](https://x.com/arnaudmeslier/)"*
 
-![Introducing the Mauritius Software Craftsmanship Community in front of the attendees of the Virtual Launch event of Visual Studio 2013](https://s.kirstaetter.name/images/vs2013-4.png)  
+![Introducing the Mauritius Software Craftsmanship Community in front of the attendees of the Virtual Launch event of Visual Studio 2013](../content/images/2013/11/vs2013-4.webp)  
 *Introducing the Mauritius Software Craftsmanship Community in front of the attendees of the Virtual Launch event of Visual Studio 2013*
 
 So instead of everyone waiting Arnaud asked me to give a brief introduction about the Mauritius Software Craftsmanship Community. Thanks for that! Talking about the MSCC provided some interesting follow-up conversations during the breaks later that day. As we started to get in touch with some local IT companies already, it was very positive to have this opportunity. And thanks to a number of students from the [Middlesex University, Mauritius](https://www.middlesex.mu/ "Middlesex University, Mauritius") we will also try to arrange an appointment with their Dean during the next couple of weeks.
@@ -73,7 +72,7 @@ So instead of everyone waiting Arnaud asked me to give a brief introduction abou
 
 As modern software development of applications and apps is moving more and more to cloud-based environments it only seems to be a logical consequence to offer an integrated development environment in the browser, too. Once again, I got the impression that Telerik Icenium might have been a good inspiration for Visual Studio One (VSO) but eventually I might be wrong on that one. Who knows... ;-)
 
-![Visual Studio 2013 - Connect Create Transform](https://s.kirstaetter.name/images/vs2013-1.png)  
+![Visual Studio 2013 - Connect Create Transform](../content/images/2013/11/vs2013-1.webp)  
 *Visual Studio 2013 - Connect Create Transform - #VS2013Dubai  
 *
 
@@ -87,7 +86,7 @@ I love this bold statement, and I'm really looking forward to see whether the sp
 
 Oh man, this already gave me a big big smile on the face last week, but once again it was great fun to have this announcement while watching others' faces in the conference room. [Microsoft](https://microsoft.com/ "Microsoft") and [Xamarin](https://xamarin.com/ "Xamarin") collaborate - read: [Microsoft and Xamarin Partner Globally to Help You Build Great Apps](https://blog.xamarin.com/microsoft-and-xamarin-partner-globally/ "Microsoft and Xamarin Partner Globally to Help You Build Great Apps") - on the support of real cross platform software development for mobiles and smartphones. Seeing the fact that I'm using Xamarin already since last year it's just great to be on the right track. Actually, we spoke about that topic during the last Saturday meetup of the MSCC.
 
-![Impressions of other attendees at the Virtual Launch of Visual Studio 2013 Dubai](https://s.kirstaetter.name/images/vs2013-2.png)  
+![Impressions of other attendees at the Virtual Launch of Visual Studio 2013 Dubai](../content/images/2013/11/vs2013-2.webp)  
 *Impressions of other attendees at the Virtual Launch of Visual Studio 2013 Dubai - Microsoft Indian Ocean Islands  
 *
 
@@ -109,7 +108,7 @@ Anyway, it's great to see those enhancements as part of the product now, and tha
 
 Awesome!
 
-![Using the time during the breaks for some networking... Community, Community, Community!](https://s.kirstaetter.name/images/vs2013-3.png)  
+![Using the time during the breaks for some networking... Community, Community, Community!](../content/images/2013/11/vs2013-3.webp)  
 *Using the time during the breaks for some networking... Community, Community, Community! - Source: [Pawan](https://yodhunjay.wordpress.com/)  
 *
 

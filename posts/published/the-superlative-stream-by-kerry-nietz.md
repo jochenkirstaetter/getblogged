@@ -11,7 +11,7 @@ tags:
 keywords: Recension
 metaTitle: The Superlative Stream by Kerry Nietz
 metaDescription: Forced by the circumstances of his own liberation SandFly and HardCandy board the ultra-modern spaceship DarkTrench and continue their journey of enlightenment in the remote star system of Betelgeuse. Following their exploration of the superlative stream they are getting confronted with more than they expected to...
-image: https://images.unsplash.com/photo-1450849608880-6f787542c88a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2014/01/photo-1450849608880-6f787542c88a.webp
 ogTitle: The Superlative Stream by Kerry Nietz
 ogDescription: Reading, reading and more reading... The last couple of days have been a great experience. Despite having excursions into the fictitious future of our civilisation it was also interesting to see the...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/the-superlative-stream-by-kerry-nietz/
-imageUrl: https://images.unsplash.com/photo-1450849608880-6f787542c88a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2014/01/photo-1450849608880-6f787542c88a.webp
 twitterImageUrl: https://images.unsplash.com/photo-1450849608880-6f787542c88a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1450849608880-6f787542c88a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2014/01/photo-1450849608880-6f787542c88a.webp
 featured: false
 publishedAt: 2014-01-07T09:43:40Z
 updatedAt: 2019-01-18T16:46:00Z
@@ -52,8 +52,8 @@ facebookDescription: Reading, reading and more reading... The last couple of day
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 [![](https://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&ASIN=0982598726&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=geblbyjo-20)](https://www.amazon.com/gp/product/0982598726/ref=as_li_ss_il?ie=UTF8&camp=1789&creative=390957&creativeASIN=0982598726&linkCode=as2&tag=geblbyjo-20)
 
 Reading, reading and more reading... The last couple of days have been a great experience. Despite having excursions into the fictitious future of our civilisation it was also interesting to see the ongoing twists in the realms of religion. Not that I'm really into that but I like to the various facets. The second book of the DarkTrench science-fiction novel by [Kerry Nietz](https://www.amazon.com/Kerry-Nietz/e/B001K7TFGM/ref=ntt_athr_dp_pel_1?tag=0200-20 "Kerry Nietz") takes place in the remote star system of [Betelgeuse *-* approximately 642.5 light years distance to Earth](https://www.google.com/search?q=distance+to+betelgeuse "Betelgeuse")...

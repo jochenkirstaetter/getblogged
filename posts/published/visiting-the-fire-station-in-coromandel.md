@@ -13,7 +13,7 @@ tags:
 keywords: General, Personal, Activity
 metaTitle: Visiting the Fire Station in Coromandel
 metaDescription: What an experience for my family. We went for a visit at the fire station in Coromandel. Aside from exploring their ladder truck we got a tour through the station and insights in their daily work.
-image: content/images/2018/11/CoromandelFireDepartment.jpg
+image: content/images/2018/11/CoromandelFireDepartment.webp
 ogTitle: Visiting the Fire Station in Coromandel
 ogDescription: Hm, I just tried to remember how we actually came up with this cool idea... but it's already too blurred and it doesn't really matter after all. Anyway, if I remember correctly (IIRC), it happened...
 layout: post
@@ -32,16 +32,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/visiting-the-fire-station-in-coromandel/
-imageUrl: https://jochen.kirstaetter.name/content/images/2018/11/CoromandelFireDepartment.jpg
+imageUrl: content/images/2018/11/CoromandelFireDepartment.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2018/11/CoromandelFireDepartment.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2018/11/CoromandelFireDepartment.jpg
+featureImage: content/images/2018/11/CoromandelFireDepartment.webp
 featured: false
 publishedAt: 2013-09-09T15:20:22Z
 updatedAt: 2018-11-20T10:26:48Z
@@ -55,7 +55,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Hm, I just tried to remember how we actually came up with this cool idea... but it's already too blurred and it doesn't really matter after all. Anyway, if I remember correctly (IIRC), it happened during one of the Linux meetups at Mugg & Bean, Bagatelle where Ajay and I brought our children along and we had a brief conversation about how cool it would be to check out one of the fire stations here in Mauritius. We both thought that it would be a great experience and adventure for the little ones.
 
 ## []()An idea takes shape
@@ -70,17 +69,17 @@ Well, we went through the sugar cane fields towards Chebel and then down into th
 
 As we were there a little bit too early, we parked the car and the kids started to explore the area and outskirts of the fire station. Some minutes later, as if we had placed an order a unit of two cars had to go out for an alarm and the kids could witness them leaving as closely as possible. Sirens on and wow!!!
 
-![Ladder truck L32 - MAN truck with Rosenbauer built-up and equipment by Metz](https://s.kirstaetter.name/images/coromandel_laddertruck_32a.jpg)  
+![Ladder truck L32 - MAN truck with Rosenbauer built-up and equipment by Metz](../content/images/2013/09/coromandel_laddertruck_32a.webp)  
 *Ladder truck L32 - MAN truck with Rosenbauer built-up and equipment by Metz*
 
 ## []()Taking the tour
 
 Ajay arrived shortly after that and guided us finally inside the station to meet with his pal. The three guys were absolutely well-prepared and showed us around in the hall, explaining that there two units out at the moment. But the ladder truck (with max. 32m expandable height) was still around we all got a great insight into the technique and equipment on the vehicle. It was amazing to see all three kids listening to Mambo as give some figures about the truck and how the fire fighters are actually it.
 
-![coromandel laddertruck](https://s.kirstaetter.name/images/coromandel_laddertruck.jpg)  
+![coromandel laddertruck](../content/images/2013/09/coromandel_laddertruck.webp)  
 *The children and 'our' fire fighters of the day had great fun with the various fire engines*
 
-![coromandel opseat 1](https://s.kirstaetter.name/images/coromandel_opseat_1.jpg) ![coromandel opseat 2](https://s.kirstaetter.name/images/coromandel_opseat_2.jpg)  
+![coromandel opseat 1](../content/images/2013/09/coromandel_opseat_1.webp) ![coromandel opseat 2](../content/images/2013/09/coromandel_opseat_2.webp)  
 *Absolutely fantastic that the children were allowed to experience this - we had so much fun!*
 
 Ajay's son brought two of his toy fire engines along, shared them with ours, and they all played very well together. As a parent it was really amazing to see them at such an ease.
@@ -89,16 +88,16 @@ Ajay's son brought two of his toy fire engines along, shared them with ours, and
 
 Shortly afterwards the ladder truck was moved outside, got stabilised and ready to go for 'real-life' exercising. With the additional equipment of safety helmets, security belts and so on, we all got a first-hand impression about how it could be as a fire-fighter. Actually, I was totally amazed by the curiousity and excitement of my BWE. She was really into it and asked lots of interesting questions - in general but also technical. And while our fighters were busy with Ajay and family, I gave her some more details and explanations about the truck, the expandable ladder, the safety cage at the top and other equipment available.
 
-![coromandel safety first](https://s.kirstaetter.name/images/coromandel_safety_first.jpg)  
+![coromandel safety first](../content/images/2013/09/coromandel_safety_first.webp)  
 *Safety first! No exceptions and always be prepared for the worst case...*
 
-![coromandel rescuecage preps](https://s.kirstaetter.name/images/coromandel_rescuecage_preps.jpg)  
+![coromandel rescuecage preps](../content/images/2013/09/coromandel_rescuecage_preps.webp)  
 *Also, the equipped has been checked prior to excuse - This is your life saver...*
 
-![coromandel rescuecage ready](https://s.kirstaetter.name/images/coromandel_rescuecage_ready.jpg)  
+![coromandel rescuecage ready](../content/images/2013/09/coromandel_rescuecage_ready.webp)  
 *Hooked up and ready to go...*
 
-![coromandel rescuecage go](https://s.kirstaetter.name/images/coromandel_rescuecage_go.jpg)  
+![coromandel rescuecage go](../content/images/2013/09/coromandel_rescuecage_go.webp)  
 *...of course not too high. This is just a demonstration - and 32 meters above ground isn't for everyone.*
 
 Well, after that it was me that had the asking looks on me, and I finally revealed to the local fire fighters that I was in the auxiliary fire brigade, more precisely in the hazard department, for more than 10 years. So not a professional fire fighter but at least a passionate and educated one as them.
@@ -107,17 +106,17 @@ Well, after that it was me that had the asking looks on me, and I finally reveal
 
 Our fire fighters really took their time to explain their daily job to kids, provided them access to operation seat on the ladder truck and how the truck cabin is actually equipped with the different radios and so on. It was really a great time. Later on we had a brief tour through the building itself, and again all of our questions were answered. We had great fun and started to joke about bits and pieces. For me it was also very interesting to see the comparison between the fire station here in Mauritius and the ones I have been to back in Germany.
 
-![coromandel exercising](https://s.kirstaetter.name/images/coromandel_exercising.jpg)  
+![coromandel exercising](../content/images/2013/09/coromandel_exercising.webp)  
 *Amazing to see them completely captivated in the play - the children had lots of fun!*
 
 Also, that there are currently ten fire stations all over the island, plus two additional but private ones at the airport and at the harbour. The newest one is actually down in Black River on the west coast because the time from Quatre Bornes takes too long to have any chance of an effective alarm at all. IMHO, a very good decision as time is the most important factor in getting fire incidents under control.
 
 After all it was great experience for all of us, especially for the children to see and understand that their toy trucks are only copies of the real thing and that the job of a (professional) fire fighter is very important in our society. Don't forget that those guys run into the danger zone while you're trying to get away from it as much as possible.
 
-![coromandel returned unit](https://s.kirstaetter.name/images/coromandel_returned_unit.jpg)  
+![coromandel returned unit](../content/images/2013/09/coromandel_returned_unit.webp)  
 *Another unit just came back from a grass fire - and shortly after they went out again. No time to rest, too much to do!*
 
-![coromandel firefighters](https://s.kirstaetter.name/images/coromandel_firefighters.jpg) ![coromandel children laddertruck](https://s.kirstaetter.name/images/coromandel_children_laddertruck.jpg)  
+![coromandel firefighters](../content/images/2013/09/coromandel_firefighters.webp) ![coromandel children laddertruck](../content/images/2013/09/coromandel_children_laddertruck.webp)  
 *Mauritian Fire Fighters now and (maybe) in the future... Thank you! It was an honour to be around!*
 
 Thank you to Ajay for organising and arranging this Sunday morning event, and of course of Big Thank You to the three guys that took some time off to have us at the Fire Station in Coromandel and guide us through their daily job!

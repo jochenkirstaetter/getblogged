@@ -11,7 +11,7 @@ tags:
 keywords: Linux
 metaTitle: Using ext4 in VMware machine
 metaDescription: Using ext4 as journaling filesystem for your Linux server seems to be a good choice. But definitely not in a VMware virtual machine...
-image: https://images.unsplash.com/photo-1528823872057-9c018a7a7553?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2010/07/photo-1528823872057-9c018a7a7553.webp
 ogTitle: Using ext4 in VMware machine
 ogDescription: First of all, using a journaling filesystems like NTFS, ext4, XFS, or JFS (not to name all of them) is a very good idea and nowadays unthinkable not to do. Linux offers a good variety of different...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/using-ext4-in-vmware-machine/
-imageUrl: https://images.unsplash.com/photo-1528823872057-9c018a7a7553?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2010/07/photo-1528823872057-9c018a7a7553.webp
 twitterImageUrl: https://images.unsplash.com/photo-1528823872057-9c018a7a7553?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1528823872057-9c018a7a7553?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2010/07/photo-1528823872057-9c018a7a7553.webp
 featured: false
 publishedAt: 2010-07-29T02:39:38Z
 updatedAt: 2019-01-28T02:48:57Z
@@ -52,8 +52,8 @@ facebookDescription: First of all, using a journaling filesystems like NTFS, ext
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 First of all, using a journaling filesystems like NTFS, ext4, XFS, or JFS (not to name all of them) is a very good idea and nowadays unthinkable not to do. Linux offers a good variety of different option as journaling filesystem for your system. Since years I am using [SGI's XFS](https://oss.sgi.com/projects/xfs/ "SGI XFS journaling filesystem") and I am pretty confident with stability, performance and liability of the system. In earlier years I had to struggle with incompatibilities between XFS and the boot loader. Using an ext2 formatted /boot solved this issue. But, wow, that is ages ago!
 
 Lately, I had to setup a fresh Lucid Lynx (Ubuntu 10.04 LTS) system for a change of our internal groupware / messaging system. Therefore, I fired up a new virtual machine with almost standard configuration in VMware Server and run through our network-based PXE boot and installation procedure. At a certain step in this process, Ubuntu asks you about the partitioning of your hard drive(s). Honestly, I have to say that only out of curiousity I sticked to the "default" suggestion and gave my faith and trust into the Ubuntu installation routine... Resulting to have an ext4 based root mount point ( / ). The rest of the installation went on without further concerns or worries.

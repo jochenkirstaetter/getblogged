@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/dfpug-bietet-blogs-fuer-mitglieder/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Tjoaja, es ist erfreulich, dass inzwischen wieder mehr Leben in den Webangeboten der [deutschsprachigen FoxPro Usergroup](https://www.dfpug.de/) zu vernehmen ist. Seit der Entwicklerkonferenz hat sich online einiges getan. Neben der Aktualisierung der [LiveFaq](https://faq.dfpug.de/) auf die aktuelle Fassung des AfpWiki, hat auch Gerd zusammen mit Peter seine eigene Blogsoftware zur Verfügung gestellt und den Mitgliedern der dFPUG steht damit ein eigenes, [kostenfreies Weblog](https://blog.dfpug.de/) zur Verfügung. Also, wenn das nicht ein feines Angebot ist...  
   
 Zum gegenwärtigen Zeitpunkt gibt's noch kleinere Abweichungen in den Verhalten der unterschiedlichen Systeme, aber ich gehe davon aus, dass wir drei Entwickler diese Unpässlichkeiten noch beheben werden. Ich hoffe, dass ich die beiden anderen mit dem Quellcode aus dem AfpWiki und der Funktionalität des [HTML Plugins](https://www.afpfaq.de/?id=HtmlPlugin) überzeugen kann... Nicht nur, dass wir dann ziemlich zeitgleich die Entwicklung vorantreiben können, sondern auch wegen der Tatsache, dass das AfpWiki aktuell den größten Umfang für das Parsen der Eingaben besitzen dürfte. Hier seien nur kurz ein paar genannt: SyntaxHighlighting für Quellcode (VFP & C#), BBCode-Interpretation, Smilies, etc...  

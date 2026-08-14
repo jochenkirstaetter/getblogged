@@ -11,7 +11,7 @@ tags:
 keywords: Linux
 metaTitle: How to extend a virtual disk and its logical volume(s) in CentOS
 metaDescription: Brief description on how to extend a virtual disk and its logical volumes on CentOS 5.3. Prior to this article I ran into the problem of 'out of disk space' on one of my virtual machines.
-image: content/images/2018/04/chuttersnap-553860-unsplash_small.jpg
+image: content/images/2018/04/chuttersnap-553860-unsplash_small.webp
 ogTitle: How to extend a virtual disk and its logical volume(s) in CentOS
 ogDescription: Never touch a running system - kept me away from any modifications. Well, there's always a time that change has more benefits than not touching the system...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/extend-a-virtual-disk-and-its-logical-volume/
-imageUrl: https://jochen.kirstaetter.name/content/images/2018/04/chuttersnap-553860-unsplash_small.jpg
+imageUrl: content/images/2018/04/chuttersnap-553860-unsplash_small.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2018/04/chuttersnap-553860-unsplash_small.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2018/04/chuttersnap-553860-unsplash_small.jpg
+featureImage: content/images/2018/04/chuttersnap-553860-unsplash_small.webp
 featured: false
 publishedAt: 2014-03-04T07:02:26Z
 updatedAt: 2018-04-20T02:58:47Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Lately, I ran into the situation that one of my services which is hosted in a virtual machine stopped working. A quick check revealed that the hard disk ran out of disk space and it was about time to increase the available storage. Don't laugh but the system is running on CentOS 5.x with a mere 13 GB virtual disk - well, since years already. And one golden rule I learned from experience: Never touch a running system - kept me away from any modifications. Well, there's always a time that change has more benefits than not touching the system...
 
 ## []()Running out of disk space
@@ -113,7 +112,7 @@ $ vboxmanage modifyhd virtual-disk1.vdi --resize 40960
 
 After successful expansion it is about time to check our disk modifications in the settings of the virtual machine. Launch the Oracle VM VirtualBox Manager, select your virtual machine and either press the Settings button in the toolbar or choose from the menu Machine -- Settings (Ctrl+S). Next, select the Storage entry from the side pane and then the virtual hard disk that we just modified. You should see something similar to the following screenshot.
 
-![Settings of virtual disk size and proper assignment](https://s.kirstaetter.name/images/lvm-vm-settings.png)  
+![Settings of virtual disk size and proper assignment](../content/images/2014/03/lvm-vm-settings.webp)  
 *Oracle VM VirtualBox: Settings of virtual disk size and proper assignment*
 
 In case that you had to convert an VMDK drive to VDI, please select the newly cloned drive from the dropdown list in the Attributes area. You should have the .VDI disk attached to your virtual machine.
@@ -130,7 +129,7 @@ Clone hard disk created in format 'vmdk'. UUID: 37ef6965-0000-4159-861a-d1c64d9c
 
 The above mentioned conversion is not necessary in case that you have an installation of VMware Player or even VMware Workstation at hand. In my case, I didn't. Anyway, VMware Player gives you the ability to expand the disk capacity through the UI directly. Open the Virtual Machine Settings, then select the Hard Disk from the list of devices and below the Disk information you'll have a list of utilities in the dropdown list. Choose "Expand..." in order to change the disk's capacity.
 
-![Virtual Machine Settings and ability to expand the disk capacity](https://s.kirstaetter.name/images/lvm-vmp-settings.png)  
+![Virtual Machine Settings and ability to expand the disk capacity](../content/images/2014/03/lvm-vmp-settings.webp)  
 *VMware Player: Virtual Machine Settings and ability to expand the disk capacity*
 
 That's all for the 'physical' expansion of our hard drive. Now, start your virtual machine as we are going to take of the software part.

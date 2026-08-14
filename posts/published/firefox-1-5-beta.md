@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/firefox-1-5-beta/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Hm, also, ich kann mir kein richtiges Bild von der kommenden Version des Firefox machen, aber da sind noch einige suspekte Aspekte. Neben der Tatsache, dass die Software Achterbahn mit der CPU-Last fährt, habe ich bisher noch keinen nativen Support für Scalable Vector Graphics (SVG) ausmachen können. Okay, es haben sich auch viele Dinge verbessert, aber die für mich interessanten und relevanten Features haben mich bisher doch enttäuscht.  
   
 Meine erste Überraschung brachte der Options-Dialog - Öhem, welchen Sinn macht die Leiste oben statt an der linken Seite? Nicht wirklich einleuchtend, aber mal was anderes. Inzwischen habe ich mir die Sache noch ein paar angesehen und muss sagen, dass ich der Thematik - nämlich Icons statt Tabs - so langsam etwas abgewinnen kann. Wahrscheinlich liegt's aber auch daran, dass wir im laufenden Projekt ebenfalls verstärkt mit Icons bzw. Hyperlinks anstelle von Pageframes mit Tabs verwenden. Who knows...  

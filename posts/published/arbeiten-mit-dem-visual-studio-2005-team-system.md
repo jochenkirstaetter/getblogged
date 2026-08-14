@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/arbeiten-mit-dem-visual-studio-2005-team-system/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 ## Umfassender Überblick und Ausblick auf Möglichkeiten
 
 "Ein Überblick über die Teamentwicklungsumgebung für Entwickler, Tester, Architekten und Projektmanager" - dieser Untertitel trifft den Nagel exakt auf den Kopf. Ich habe bisher selten ein Fachbuch gelesen, welches diese klare Strukturierung in den Kapiteln und verständliche Formulierung aufweist, wie das Werk von Richard Hundhausen. Die Aufteilung der Kapitel nach Einführung, den einzelnen Projektrollen und der Erweiterbarkeit von Microsoft Team System ist optimal. Das Buch ist gleichermaßen für Einsteiger und Fortgeschrittene geeignet. Insbesondere die Schilderungen zu den beiden mitgelieferten Methodologien des Microsoft Solutions Framework (MSF) 4.0 und die nahezu unbegrenzten Möglichkeit zur individuellen Anpassung des Team Foundation Servers sind ausreichend umfangreich und regen den Appetit auf mehr Details an.

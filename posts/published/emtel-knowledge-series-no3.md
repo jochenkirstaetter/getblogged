@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: Emtel Knowledge Series - Q2/2014
 metaDescription: The Emtel Knowledge Series goes in compliance with Emtel's 25th anniversary celebrations throughout the year and more events will be organised on a quarterly base.
-image: https://images.unsplash.com/photo-1525078961872-3001df219a7d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2014/06/photo-1525078961872-3001df219a7d.webp
 ogTitle: Emtel Knowledge Series - Q2/2014
 ogDescription: Cyber Island? Smart Mauritius? - What is Emtel talking about?
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/emtel-knowledge-series-no3/
-imageUrl: https://images.unsplash.com/photo-1525078961872-3001df219a7d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2014/06/photo-1525078961872-3001df219a7d.webp
 twitterImageUrl: https://images.unsplash.com/photo-1525078961872-3001df219a7d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1525078961872-3001df219a7d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2014/06/photo-1525078961872-3001df219a7d.webp
 featured: false
 publishedAt: 2014-06-20T02:40:31Z
 updatedAt: 2019-01-07T22:28:16Z
@@ -52,9 +52,9 @@ facebookDescription: Cyber Island? Smart Mauritius? - What is Emtel talking abou
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
-## [![Emtel Knowledge Series in Mauriitus](https://s.kirstaetter.name/images/emtel-knowledgeseries.png)](https://emtel.com/knowledge-series/)From Cyber Island to Smart Mauritius
+## [![Emtel Knowledge Series in Mauriitus](../content/images/2014/06/emtel-knowledgeseries.webp)](https://emtel.com/knowledge-series/)From Cyber Island to Smart Mauritius
 
 Cyber Island? Smart Mauritius? - What is Emtel talking about?
 
@@ -76,7 +76,7 @@ Like last time the event was organised and held at the Conference Hall at Cyber 
 
 Once again, Emtel did a great job to get international expertise onto the stage to share their experience and vision on this kind of embarkment. Personally, I really appreciated the fact they were speakers of global reach and could provide own-experience knowledge. Johan Gott spoke about the fundamental change that the Swedish government ignited in order to move their society and workers' environment away from heavy industry towards a knowledge-based approach. Additionally, we spoke about the effort and transformation of New York City into a greener and more efficient Smart City. Given modern technology he also advised that any kind of available Big Data should be opened to the general public - this openness would provide a playground for anyone to garner new ideas and most probably solid solutions of which no one else thought about before.
 
-![Emtel Knowledge Series - Q2/2014](https://s.kirstaetter.name/images/eks-03.png)  
+![Emtel Knowledge Series - Q2/2014](../content/images/2014/06/eks-03.webp)  
 *Emtel Knowledge Series on moving from Cyber Island to Smart Mauritus*
 
 Later during the afternoon that exact statement regarding openness to and transparency of government-owned Big Data has been emphasised again by the Danish speaker Kim Andersen and his former colleague Mika Jantunen from Finland. Mika continued to underline the important role of the government to provide a solid foundation for a knowledge-based society and mentioned that Finnish citizens have a constitutional right to broadband connectivity. Next to free higher (tertiary) education Finland already produced a good number of innovations, among them are:

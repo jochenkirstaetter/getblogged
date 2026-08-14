@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/found-by-google/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Die Website ist **ohne Frames** erstellt, der Content eingepflegt und der Launch offiziell angekündigt, aber... Was dann? Wie findet man nun eine Site? Wie bekommt man Traffic auf die Domain?  
   
 Well, ein Eintrag in Suchmaschinen muss her. Und nicht nur, in einer oder zwei, sondern in einigen... Richtig? - Meiner Meinung nach, nein. Denn IMHO ist es ausreichend, wenn man sich primär um eine Suchmaschine kümmert: Google.  

@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: Is the CODE keyboard the right keyboard for coding?
 metaDescription: Some days ago there was this big announcement that Jeff Atwood together with WASD Keyboards developed the CODE keyboard that is especially designed for software developers.
-image: content/images/2018/02/Touch-Type-DasKeyboard.jpg
+image: content/images/2018/02/Touch-Type-DasKeyboard.webp
 ogTitle: Is the CODE keyboard the right keyboard for coding?
 ogDescription: Some of you actually know that I have a dasKeyboard Ultimate since years. Honestly, it is an absolutely gorgeous piece of hardware and my main input device. But it's not the only keyboard I'm using...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/the-right-keyboard-for-coding/
-imageUrl: https://jochen.kirstaetter.name/content/images/2018/02/Touch-Type-DasKeyboard.jpg
+imageUrl: content/images/2018/02/Touch-Type-DasKeyboard.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2018/02/Touch-Type-DasKeyboard.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2018/02/Touch-Type-DasKeyboard.jpg
+featureImage: content/images/2018/02/Touch-Type-DasKeyboard.webp
 featured: false
 publishedAt: 2013-08-30T04:57:12Z
 updatedAt: 2018-04-02T08:38:55Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Some of you actually know that I have a [dasKeyboard Ultimate](https://www.amazon.com/gp/product/B003F7WXTG/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B003F7WXTG&linkCode=as2&tag=geblbyjo-20) since years. Honestly, it is an absolutely gorgeous piece of hardware and my main input device. But it's not the only keyboard I'm using...
 
 ## []()A marketing joke?

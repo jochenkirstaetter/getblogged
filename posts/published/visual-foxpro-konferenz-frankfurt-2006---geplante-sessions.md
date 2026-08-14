@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/visual-foxpro-konferenz-frankfurt-2006---geplante-sessions/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Während ich gerade unterwegs bin, kam die Aufforderung zur Abgabe der Abstracts für die diesjährige [Visual FoxPro Konferenz in Frankfurt](https://devcon.dfpug.de). Bereits im Vorfeld wurden die Themen besprochen, nun wird es langsam konkreter. Hier die Liste der Sessions, die meinerseits vorgesehen sind:
 
 \*\*Net4COM - eine Komponente von Sedna\*\*  

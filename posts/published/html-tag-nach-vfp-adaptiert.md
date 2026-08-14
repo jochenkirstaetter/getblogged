@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/html-tag-nach-vfp-adaptiert/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Ja, es gibt auch Situationen in denen man nicht nur immer von Desktop auf Web trimmt, sondern auch mal den umgekehrten Weg einschlägt. Der folgende Beitrag nimmt den HTML-Tag **fieldset** als Grundlage und wir erstellen eine Shape-Klasse mit vergleichbarer Funktionalität. Das HTML-Element fieldset stellt einen Rahmen mit optionaler Überschrift dar. Mit den Controls Shape und Label (optional noch Container) können wir das ebenfalls in VFP realisieren. Hier zunächst mal der HTML-Code für ein fieldset:
 
 ```

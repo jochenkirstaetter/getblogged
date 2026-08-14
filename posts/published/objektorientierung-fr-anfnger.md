@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/objektorientierung-fr-anfnger/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Nach dem wir die Grundkonzepte und die wesentlichen Unterschiede sowie Vor- und potentiellen Nachteile der beiden Entwicklungssysteme .NET (C# und VB) und VFP durchgegangen sind, sehen wir uns nun einmal an, wie sich Programmierung im .NET Framework "anfühlt". Please fasten your seat belts, we are ready to take off...
 
 Als IDE setzen wir Visual Studio 2005 ein - was auch sonst? ;-) - und erzeugen sozusagen unsere erste Solution. Als erstes Projekt schauen wir uns das wichtigste für einen VFP-Entwickler an: Den Zugriff auf die Daten.  

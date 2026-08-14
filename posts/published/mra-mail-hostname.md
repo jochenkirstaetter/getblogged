@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: Dear Postmaster of Mauritius Revenue Authority
 metaDescription: Using an invalid host name can cause problems. Host names must start with a letter, end with a letter or digit, and have as interior characters only letters, digits, and hyphen.
-image: content/images/2017/10/love-1120294_1280.jpg
+image: content/images/2017/10/love-1120294_1280.webp
 ogTitle: Dear Postmaster of Mauritius Revenue Authority
 ogDescription: Using an invalid host name can cause problems. Host names must start with a letter, end with a letter or digit, and have as interior characters only letters, digits, and hyphen.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mra-mail-hostname/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/10/love-1120294_1280.jpg
+imageUrl: content/images/2017/10/love-1120294_1280.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/10/love-1120294_1280.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/10/love-1120294_1280.jpg
+featureImage: content/images/2017/10/love-1120294_1280.webp
 featured: false
 publishedAt: 2017-10-03T05:01:25Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Please review the current host name pattern given to your internet-facing mail server(s). At least one of them doesn't comply with RFC2821 - section 4.1.2. This results in delivery issues of your emails.
 
 The [Mauritius Revenue Authority](http://www.mra.mu/) (MRA) is a body corporate, set up to manage an effective and efficient revenue-raising system. It administers and collects taxes due in Mauritius within an integrated organisational structure.  
@@ -222,7 +221,7 @@ Please leave your thoughts and experience on this case, and hopefully similar on
 ## Computer name on Windows (10)
 
 Challenged by Pirabarlen's statement regarding other companies like Microsoft or Google disrespecting RFC 5321, I tried to run a little experiment on my local Windows 10 machine. Rename your PC using an underscore character.  
-![Use of underscore character in host name is not permitted in Windows 10](../content/images/2017/10/Windows10_DNSUnderscore.png)  
+![Use of underscore character in host name is not permitted in Windows 10](../content/images/2017/10/Windows10_DNSUnderscore.webp)  
 It didn't go well... Seems that Microsoft learned their lesson and improved their product(s). At least in compliance to host name.
 
 Why isn't there a similar input validation for host name configuration in the software or appliance used by the MRA? Would be interesting to find out...

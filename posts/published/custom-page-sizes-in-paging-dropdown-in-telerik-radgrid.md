@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: Custom page sizes in paging dropdown in Telerik RadGrid
 metaDescription: This article describes how you can customize the default values (10, 20 and 50) of the drop-down list in the paging element of RadGrid.
-image: content/images/2019/01/telerik_radgrid_custom_pagesize.png
+image: content/images/2019/01/telerik_radgrid_custom_pagesize.webp
 ogTitle: Custom page sizes in paging dropdown in Telerik RadGrid
 ogDescription: Working with Telerik RadControls for ASP.NET AJAX is actually quite easy and the initial effort to get started with the control suite is very low. Meaning that you can easily get good result with...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/custom-page-sizes-in-paging-dropdown-in-telerik-radgrid/
-imageUrl: https://jochen.kirstaetter.name/content/images/2019/01/telerik_radgrid_custom_pagesize.png
+imageUrl: content/images/2019/01/telerik_radgrid_custom_pagesize.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2019/01/telerik_radgrid_custom_pagesize.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2019/01/telerik_radgrid_custom_pagesize.png
+featureImage: content/images/2019/01/telerik_radgrid_custom_pagesize.webp
 featured: false
 publishedAt: 2012-11-08T15:07:31Z
 updatedAt: 2019-01-28T03:05:30Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Working with [Telerik RadControls for ASP.NET AJAX](https://www.telerik.com/products/aspnet-ajax.aspx "Telerik RadControls for ASP.NET AJAX") is actually quite easy and the initial effort to get started with the control suite is very low. Meaning that you can easily get good result with little time. But there are usually cases where you have to go a little further and dig a little bit deeper than the standard scenarios. In this article I am going to describe how you can customize the default values (10, 20 and 50) of the drop-down list in the paging element of RadGrid. Get control over the displayed page sizes while using numeric paging...
 
 ![Telerik RadGrid with customized page size values](https://s.kirstaetter.name/images/telerik_radgrid_custom_pagesize.png "Telerik RadGrid with customized page size values")

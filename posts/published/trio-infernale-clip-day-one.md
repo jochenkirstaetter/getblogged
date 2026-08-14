@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: Trio infernale (CLIP Day One)
 metaDescription: Trio infernale (CLIP Day One) **Montag morgen... Urlaub!**Der Tag fängt ehrlich gesagt, extremst gut an. Morgens noch ein paar Kleinigkeiten zusammengepackt und verstaut, kleinen Check am Auto - das übliche eben, wenn man sich auf Reisen begibt. Okay, nächste Station.**12:00 Kaiserslautern - T-Shirtdruckerei**Mit leichtem Ziehen und Bangen betrete ich den
-image: https://images.unsplash.com/photo-1529682640963-ae20264ae608?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=e27ba79b587a020e489b562b37d37189
+image: content/images/2004/10/photo-1529682640963-ae20264ae608.webp
 ogTitle: Trio infernale (CLIP Day One)
 ogDescription: Der Tag fängt ehrlich gesagt, extremst gut an. Morgens noch ein paar Kleinigkeiten zusammengepackt und verstaut, kleinen Check am Auto - das übliche eben, wenn man sich auf Reisen begibt. Okay...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/trio-infernale-clip-day-one/
-imageUrl: https://images.unsplash.com/photo-1529682640963-ae20264ae608?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=e27ba79b587a020e489b562b37d37189
+imageUrl: content/images/2004/10/photo-1529682640963-ae20264ae608.webp
 twitterImageUrl: https://images.unsplash.com/photo-1529682640963-ae20264ae608?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=e27ba79b587a020e489b562b37d37189
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1529682640963-ae20264ae608?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=e27ba79b587a020e489b562b37d37189
+featureImage: content/images/2004/10/photo-1529682640963-ae20264ae608.webp
 featured: false
 publishedAt: 2004-10-20T01:00:00Z
 updatedAt: 2018-10-23T10:07:13Z
@@ -52,8 +52,8 @@ facebookDescription: Der Tag fängt ehrlich gesagt, extremst gut an. Morgens noc
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 ## Montag morgen... Urlaub!
 
 Der Tag fängt ehrlich gesagt, extremst gut an. Morgens noch ein paar Kleinigkeiten zusammengepackt und verstaut, kleinen Check am Auto - das übliche eben, wenn man sich auf Reisen begibt. Okay, nächste Station.

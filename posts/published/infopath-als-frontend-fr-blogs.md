@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/infopath-als-frontend-fr-blogs/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 InfoPath, CommunityServer, XML, blog software
 
 Mit dem Wechsel der serverseitigen Blogsoftware von .Text auf den CommunityServer auf [https://www.foxite.com](https://www.foxite.com) musste ich ebenfalls meine lokale InfoPath-Templates ändern. Glücklicherweise hat der Autor von SimpleBlogger seit längerem auch ein Template namens CSBlogger speziell für den CommunityServer bereitgestellt.

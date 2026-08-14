@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/bchermarathon/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Was macht man in seiner Urlaubszeit? - Richtig, Bücher lesen. Aber nicht ein, nicht zwei, sondern mal lockere 4 Romane en block. Irgendwie habe ich das mal wieder nach sehr sehr langer Zeit gebraucht. Herrje, wenn ich an meine Zeit in der Oberstufe zurückdenke, dann habe ich pro Woche 1.5 bis 2 Bücher in mich reingesaugt - lesen wäre zu gutmütig formuliert.  
   
 Well, während des Studiums hatte sich diese Art der Freizeitgestaltung ein wenig verschoben. Anstelle von Belletristik war stupides Wälzen von Fachliteratur angesagt. Mann, was ein Scheißkonzept! Ehrlich gesagt gibt es bei weitem bessere und effizientere Möglichkeiten sich universitäres Wissen anzueignen als die Variante, die einem an der Hochschule untergejubelt wird. Nunja, zu dem Zeitpunkt ist es ja bereits zu spät... Gerade mit der begleitenden Beobachtung der schulischen Leistungen meiner Geschwister ergaben sich immer und immer wieder zweifelnde Momente! Wieso werden simple Sachverhalte auf so umständliche und ehrlich sogar noch verwirrende Weise an die Kids gebracht. Irgendwie meine ich die Ursache vllt zu erahnen: Es fehlt an Phantasie.  

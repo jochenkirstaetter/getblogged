@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/wieder-einmal-auf-achse/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Zugfahren kann wirklich Spass machen, besonders wenn man die meiste Zeit in einem gemütlichen Bett liegt und in den Träumen entschwunden ist. So, auch gestern bzw. heute Nacht. Startend in Mannheim ging es mit dem [CityNightLine](https://www.citynightline.de) in den Norden des Landes. Eigentlich sollte in Frankfurt noch ein weiterer Fahrgast in das Zweier Schlafabteil zusteigen, aber irgendwie 'musste' ich die komplette Fahrt allein verweilen. Hm, auch nicht schlecht... 😎
 
 Sichtlich erholt und mit Frühstück genährt erfolgte der Umstieg in das S-Bahnsystem unserer Landeshauptstadt. Der neue Hauptbahnhof macht echt was her, muss man schon sagen. Sehr lichte Optik, viel Glanz und weite Flächen. Der Bahnhof als Erlebnisstätte. Well, well, darum können wir uns später noch kümmern.

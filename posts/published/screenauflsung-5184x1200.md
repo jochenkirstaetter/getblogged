@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/screenauflsung-5184x1200/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Nun... klingt schon mal Irrsinniges, aber ich meine, dass wir gestern auf dem Speyerer Stammtisch mit nur zwei Laptops und Beamer auf diese Auflösung kamen, oder Thomas? Zumindest war es sehr witzig auf einem StiNo-Laptop die Auswahl auf 4 physikalische Screens zu haben. Okay, wie haben wir das produziert? Mit Hilfe zweier schnuckeliger Tools, die man auf alle Fälle haben sollte.  
   
 Als ersten Kandidat für Laptops ein Muss ist [UltraMon](https://www.realtimesoft.com/ultramon/). Es handelt sich dabei um ein Addon zur vereinfachten Handhabung von multiplen Monitoren. Beim Laptop ist das insbesondere bei Verwendung mit Beamer essentiell. Wir haben hier in der Firma inzwischen jeden Laptop mit einer UltraMon-Lizenz ausgestattet und wenn man das Teil mal in Aktion gesehen hat, dann möchte man es auch nicht mehr missen.  

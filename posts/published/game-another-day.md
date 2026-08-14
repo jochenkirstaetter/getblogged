@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/game-another-day/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Nach einem anstrengenden Tag der Systemeinrichtung eines Rechners, der Programmierung und einigen Modifikationen am AfpWiki war es wieder einmal soweit... Gaming bis der Notarzt kommt!  
 Mein PC ist mir ehrlich gesagt für sowas wesentlich zu schade, daher vertrete ich schon seit Jahren den Ansatz, dass dafür eine Konsole her muss. Zudem verstehe ich auch selten, wie man mehr Geld für eine Grafikkarte wie für den gesamten PC ausgeben kann. Aber okay, wir wollen ja keine Gamer auslachen.  
   

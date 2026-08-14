@@ -11,7 +11,7 @@ tags:
 keywords: Recension
 metaTitle: A Star Curiously Singing by Kerry Nietz
 metaDescription: The first-person writing style of Kerry really gets you more involved into the story. The happening of events feels more intensive and surprisingly refreshing.
-image: https://images.unsplash.com/photo-1516331138075-f3adc1e149cd?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2014/01/photo-1516331138075-f3adc1e149cd.webp
 ogTitle: A Star Curiously Singing by Kerry Nietz
 ogDescription: Finally, I could spent some time reading during the festive days... And it was a good decision. The first science-fiction novel by Kerry Nietz already spent some time on my (virtual) bookshelf, and my...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/a-star-curiously-singing-by-kerry-nietz/
-imageUrl: https://images.unsplash.com/photo-1516331138075-f3adc1e149cd?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2014/01/photo-1516331138075-f3adc1e149cd.webp
 twitterImageUrl: https://images.unsplash.com/photo-1516331138075-f3adc1e149cd?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1516331138075-f3adc1e149cd?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2014/01/photo-1516331138075-f3adc1e149cd.webp
 featured: false
 publishedAt: 2014-01-04T06:09:46Z
 updatedAt: 2019-01-18T16:46:28Z
@@ -52,8 +52,8 @@ facebookDescription: Finally, I could spent some time reading during the festive
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 [![](https://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&ASIN=0982104987&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=geblbyjo-20)](https://www.amazon.com/gp/product/0982104987/ref=as_li_ss_il?ie=UTF8&camp=1789&creative=390957&creativeASIN=0982104987&linkCode=as2&tag=geblbyjo-20)![](https://www.assoc-amazon.com/e/ir?t=geblbyjo-20&l=as2&o=1&a=0982104987)
 
 Finally, I could spent some time reading during the festive days... And it was a good decision. The first science-fiction novel by [Kerry Nietz](https://www.amazon.com/Kerry-Nietz/e/B001K7TFGM/ref=ntt_athr_dp_pel_1?tag=0200-20 "Kerry Nietz") already spent some time on my (virtual) bookshelf, and my inner tension to get to read that title grew over the past few weeks.

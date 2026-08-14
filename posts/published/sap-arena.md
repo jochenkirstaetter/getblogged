@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/sap-arena/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Jupp, am 3. September ist eine der Eröffnungsfeiern in der SAP Arena. Und JoKi wird dabei sein... Spontan gestern auf dem [Rock im Brauhof](xref:rock-im-brauhof-2005) bei der Privatbrauerei Bischoff ausgemacht, geht's am kommenden Samstag ab nach Mannheim. Dort ist wieder volles Musikprogramm angesagt... 😎  
   
 *Am 03. September feiert die SAP ARENA ihre Eröffnung mit einer Benefizveranstaltung: Rolf Stahlhofens MANN`EM SOUL orchestra präsentiert eine bunte Truppe, die unter anderem aus den SÖHNEN MANNHEIMS, SASHA, PETER MAFFAY, den MASSIVEN TÖNEN, BADESALZ und BÜLENT CEYLAN besteht. Die Künstler spenden ihre Gagen dem Verein MENSCHEN AM FLUSS und auch im Ticketpreis ist eine Spende enthalten.  

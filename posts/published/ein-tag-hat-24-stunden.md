@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/ein-tag-hat-24-stunden/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Nicht mehr und auch nicht weniger. Zwar handelt es sich dabei nicht um einen exakten Wert, aber die jährliche Streuung ist dennoch relativ gering. Was auch ganz okay ist... Es bleibt ein wenig Zeit zum Arbeiten, zum Essen, Relaxen und Schlafen. So zumindest die einhellige und gängige Meinung bzw. der Alltag eines jeden. Sicherlich gibt es ab und zu auch Abweichungen von dieser Regelmäßigkeit. So auch der gestrige Tag.
 
 Inzwischen konnte ich mir ein paar Stündchen Schlaf gönnen, dennoch bleibt der Hochgenuß des gestrigen CLIP Community-Treffen in Düsseldorf erhalten. Es hat richtig Spass gemacht!  

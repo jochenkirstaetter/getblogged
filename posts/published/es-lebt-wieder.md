@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/es-lebt-wieder/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 <font face="Verdana">Nach langer Zeit gibt es doch noch Lebenszeichen...  
   
 Sorry, verehrte Leser, aber aus beruflichen Gründen war das Blog leider über längere Zeit nicht verfügbar. Inzwischen gab es einen weiteren Server- und Softwarewechsel, so dass ich in den kommenden Tagen ebenfalls die alten Beiträge noch restaurieren werde. Ich hoffe, dass ich bis Ende diesen Monats wieder ein vollständiges Blog für euch bieten kann.  

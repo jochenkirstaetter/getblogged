@@ -12,7 +12,7 @@ tags:
 keywords: Linux, Development
 metaTitle: Using nginx as reverse proxy
 metaDescription: 'Nginx (read: engine-x) has versatile options to set up web sites and more advanced configurations. This article explains briefly how to set up nginx as a reverse proxy to a web site in an internal network.'
-image: https://images.unsplash.com/photo-1521704042371-f13409bf0e6d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2019/01/photo-1521704042371-f13409bf0e6d.webp
 ogTitle: Using nginx as reverse proxy
 ogDescription: 'Nginx (read: engine-x) has versatile options to set up web sites and more advanced configurations. This article explains briefly how to set up nginx as a reverse proxy to a web site in an internal network.'
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/nginx-reverse-proxy/
-imageUrl: https://images.unsplash.com/photo-1521704042371-f13409bf0e6d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2019/01/photo-1521704042371-f13409bf0e6d.webp
 twitterImageUrl: https://images.unsplash.com/photo-1521704042371-f13409bf0e6d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1521704042371-f13409bf0e6d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2019/01/photo-1521704042371-f13409bf0e6d.webp
 featured: false
 publishedAt: 2019-01-08T08:00:00Z
 updatedAt: 2019-01-10T06:48:56Z
@@ -53,8 +53,8 @@ facebookDescription: 'Nginx (read: engine-x) has versatile options to set up web
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Nginx (read: engine-x) has versatile options to set up web sites and more advanced configurations. This article explains briefly how to set up nginx as a reverse proxy to a web site in an internal network.
 
 [NGINX](https://nginx.org/) is a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server. Source: [https://www.nginx.com/resources/wiki/](https://www.nginx.com/resources/wiki/)

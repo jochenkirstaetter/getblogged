@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/the-30-days-microsoft-sharepoint-challenge/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,8 +53,7 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
-![Microsoft SharePoint](https://s.kirstaetter.name/images/sharepoint.png)Mainly being inspired by other people's 30 days challenges, but also due to an upcoming task assignment in an active project I thought that I am able to do this, too.
+![Microsoft SharePoint](../content/images/2013/09/sharepoint.webp)Mainly being inspired by other people's 30 days challenges, but also due to an upcoming task assignment in an active project I thought that I am able to do this, too.
 
 The idea to setup my preparation phase as a personal challenge came only recently. Interestingly, it is very comparable to stints in Agile Development except that there is no (defined) backlog at the moment.
 
@@ -113,7 +112,7 @@ The topics as well as the links will be added throughout the month of September.
 
 ## []()May the Force be with you
 
-![yoda-do-or-do-not-there-is-no-try](https://s.kirstaetter.name/images/yoda-do-or-do-not-there-is-no-try.jpg)  
+![yoda-do-or-do-not-there-is-no-try](../content/images/2013/08/yoda-do-or-do-not-there-is-no-try.webp)  
 *Do or Do not. There is no Try*
 
 Get yourself some popcorn and enjoy the show...

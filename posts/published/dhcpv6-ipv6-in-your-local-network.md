@@ -11,7 +11,7 @@ tags:
 keywords: Linux
 metaTitle: 'DHCPv6: Provide IPv6 information in your local network'
 metaDescription: Configure your network to provide IPv6 address information automatically in your local infrastructure
-image: https://images.unsplash.com/photo-1495592822108-9e6261896da8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=c7f31a8c5fd0fea1620b5595ce12eb73
+image: content/images/2014/03/photo-1495592822108-9e6261896da8.webp
 ogTitle: 'DHCPv6: Provide IPv6 information in your local network'
 ogDescription: Even though IPv6 might not be that important within your local network it might be good to get yourself into shape, and be able to provide some details of your infrastructure automatically to your...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/dhcpv6-ipv6-in-your-local-network/
-imageUrl: https://images.unsplash.com/photo-1495592822108-9e6261896da8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=c7f31a8c5fd0fea1620b5595ce12eb73
+imageUrl: content/images/2014/03/photo-1495592822108-9e6261896da8.webp
 twitterImageUrl: https://images.unsplash.com/photo-1495592822108-9e6261896da8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=c7f31a8c5fd0fea1620b5595ce12eb73
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1495592822108-9e6261896da8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=c7f31a8c5fd0fea1620b5595ce12eb73
+featureImage: content/images/2014/03/photo-1495592822108-9e6261896da8.webp
 featured: false
 publishedAt: 2014-03-11T05:57:57Z
 updatedAt: 2018-04-02T08:38:44Z
@@ -52,8 +52,8 @@ facebookDescription: Even though IPv6 might not be that important within your lo
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Even though IPv6 might not be that important within your local network it might be good to get yourself into shape, and be able to provide some details of your infrastructure automatically to your network clients.
 
 This is the second article in a series on IPv6 configuration:
@@ -188,7 +188,7 @@ netsh>interface ipv6
 netsh interface ipv6>show interfaces
 ```
 
-![Show IPv6 network interfaces using netsh command on Windows](https://s.kirstaetter.name/images/ipv6-netsh-show-interfaces.png)
+![Show IPv6 network interfaces using netsh command on Windows](../content/images/2014/03/ipv6-netsh-show-interfaces.webp)
 
 Select the device index from the Idx column to get more details about the IPv6 address and DNS server information (here: I'm going to use my WiFi device with device index 11), like so:
 
@@ -196,7 +196,7 @@ Select the device index from the Idx column to get more details about the IPv6 a
 netsh interface ipv6>show address 11
 ```
 
-![Show IPv6 address information using netsh command on Windows](https://s.kirstaetter.name/images/ipv6-netsh-show-address.png)
+![Show IPv6 address information using netsh command on Windows](../content/images/2014/03/ipv6-netsh-show-address.webp)
 
 Okay, address information has been provided. Now, let's check the details about DNS and resolving host names:
 
@@ -204,7 +204,7 @@ Okay, address information has been provided. Now, let's check the details about 
 netsh interface ipv6>show dnsservers 11
 ```
 
-![Show IPv6 DNS server configuration using netsh command on Windows](https://s.kirstaetter.name/images/ipv6-netsh-show-dnsservers.png)
+![Show IPv6 DNS server configuration using netsh command on Windows](../content/images/2014/03/ipv6-netsh-show-dnsservers.webp)
 
 That looks good already. Our Windows client has a valid IPv6 address lease with lifetime information and details about the configured DNS servers.
 

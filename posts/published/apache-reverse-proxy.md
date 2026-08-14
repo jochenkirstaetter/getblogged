@@ -12,7 +12,7 @@ tags:
 keywords: Linux, Development
 metaTitle: Using Apache HTTP as reverse proxy
 metaDescription: The Apache HTTP Server, colloquially called Apache, is a free and open-source cross-platform web server. This article explains briefly how to set up Apache as a reverse proxy to a web site in an internal network.
-image: https://images.unsplash.com/photo-1525081905268-fc0b46e9d786?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2019/01/photo-1525081905268-fc0b46e9d786.webp
 ogTitle: Using Apache HTTP as reverse proxy
 ogDescription: The Apache HTTP Server, colloquially called Apache, is a free and open-source cross-platform web server. This article explains briefly how to set up Apache as a reverse proxy to a web site in an internal network.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/apache-reverse-proxy/
-imageUrl: https://images.unsplash.com/photo-1525081905268-fc0b46e9d786?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2019/01/photo-1525081905268-fc0b46e9d786.webp
 twitterImageUrl: https://images.unsplash.com/photo-1525081905268-fc0b46e9d786?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1525081905268-fc0b46e9d786?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2019/01/photo-1525081905268-fc0b46e9d786.webp
 featured: false
 publishedAt: 2019-01-10T06:45:00Z
 updatedAt: 2019-01-10T06:45:00Z
@@ -53,8 +53,8 @@ facebookDescription: The Apache HTTP Server, colloquially called Apache, is a fr
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 The Apache HTTP Server, colloquially called Apache, is a free and open-source cross-platform web server. This article explains briefly how to set up Apache as a reverse proxy to a web site in an internal network.
 
 To set the expectations in this article. I'm not going to explain you how to install Apache web server or how to get it operational on your system. There are [thousands of tutorials](http://bfy.tw/Lg5K) including my own [Accessing your web server via IPv6](xref:accessing-apache2-web-server-via-ipv6) on the Internet that already cover that step.

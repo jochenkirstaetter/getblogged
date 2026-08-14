@@ -11,7 +11,7 @@ tags:
 keywords: Recension
 metaTitle: 'FoxTales: Behind the Scenes at Fox Software by Kerry Nietz'
 metaDescription: Flash backs from the past! It's truely amazing to discover that software development from freshman to senior and project management hasn't changed that much.
-image: content/images/2023/08/an-illustrated-forest-opening-depicting-a-fox.png
+image: content/images/2023/08/an-illustrated-forest-opening-depicting-a-fox.webp
 ogTitle: 'FoxTales: Behind the Scenes at Fox Software by Kerry Nietz'
 ogDescription: Flash backs from the past! It's truly amazing to discover that software development from freshman to senior level as well as project management hasn't changed that much. Kerry Nietz describes his...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/foxtales-behind-the-scenes-at-fox-software-by-kerry-nietz/
-imageUrl: https://jochen.kirstaetter.name/content/images/2023/08/an-illustrated-forest-opening-depicting-a-fox.png
+imageUrl: content/images/2023/08/an-illustrated-forest-opening-depicting-a-fox.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2023/08/an-illustrated-forest-opening-depicting-a-fox.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2023/08/an-illustrated-forest-opening-depicting-a-fox.png
+featureImage: content/images/2023/08/an-illustrated-forest-opening-depicting-a-fox.webp
 featured: false
 publishedAt: 2013-06-10T02:19:38Z
 updatedAt: 2023-08-23T20:00:29Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 [![](https://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&ASIN=0983965544&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=geblbyjo-20)](https://www.amazon.com/gp/product/0983965544/ref=as_li_ss_il?ie=UTF8&camp=1789&creative=390957&creativeASIN=0983965544&linkCode=as2&tag=geblbyjo-20)![](https://www.assoc-amazon.com/e/ir?t=geblbyjo-20&l=as2&o=1&a=0983965544)
 
 Flash backs from the past! It's truly amazing to discover that software development from freshman to senior level as well as project management hasn't changed that much. [Kerry Nietz](https://www.amazon.com/Kerry-Nietz/e/B001K7TFGM/ref=ntt_athr_dp_pel_1?tag=0200-20 "Kerry Nietz") describes his memoir from his final year at college to his first job at Fox Software to 'an early retirement' at Microsoft. This title also brought [his other fictional novels](https://www.amazon.com/Kerry-Nietz/e/B001K7TFGM/ref=ntt_athr_dp_pel_1?tag=0200-20 "his other fictional novels") to my attention.

@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/introducing-microsoft-sql-server-2005-for-developers/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Rezension: [Introducing Microsoft SQL Server 2005 For Developers](https://www.amazon.de/exec/obidos/ASIN/073561962X)  
 Von Peter DeBetta  
 Microsoft wird im Laufe des Jahres 2005 das Nachfolgeprodukt zu SQL Server 2000 veröffentlichen. In Introducing Microsoft SQL Server 2005 For Developers betrachtet Peter DeBetta das Produkt aus der Sichtweise eines Anwendungsentwicklers, und liefert anschaulich einen Überblick samt Beispielen zu den Verbesserungen und den neuen Technologien.  

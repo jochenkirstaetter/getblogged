@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/modified-mod-lca/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Joomla! content management system (CMS) is great for websites of any type in general. Even using the system as a blog software is quite easy to configure. Instead of the classical Frontpage Layout as default you configure the system to use one of the available Blog Layouts as default page. Then some tweaks according to leading articles, columns, etc. and you are almost done. Almost...
 
 One of the great features that I like with blog application is the ability to display an Archive list of existing articles based on their creation date. Well, Joomla!s own archive functionality works in a similar way but sadly I experienced own mayor drawback: Archived articles are not part of the internal search engine anymore and therefore results are not displayed.

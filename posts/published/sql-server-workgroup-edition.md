@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/sql-server-workgroup-edition/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Die Ankündigung vom VSData Team bzgl. einer weiteren Lizenzausgabe des SQL Servers verheisst nette Möglichkeiten für künftige Webanwendungen und Einsatzszenarien bei kleineren und mittelständigen Firmen. Denn ab und zu kann die ein oder andere 'Netzwerk-Software' (oder wie man das auch immer nennen möchte) doch mehr als nervig und aufreibend sein. Ich hülle mich in einen Mantel des Schweigens bzgl. der Produkte, aber es macht wirklich kaum Spass, wenn man im Netzwerk mit einer hypergetunten Desktopanwendung - und ich spreche dabei nicht von VFP - Armdrücken kann. Manchmal frage ich mich dann, was bei den anderen Entwicklern so im Kopf rumgeht, wenn...  
   
 Nee, ich spar' mir die Luft und die Abnutzung meiner Tastatur für wichtigere Aussagen und Neuigkeiten... Also, SQL Server Workgroup Edition - nice and welcome!  

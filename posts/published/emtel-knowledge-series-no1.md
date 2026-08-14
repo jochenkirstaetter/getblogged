@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: Emtel Knowledge Series - Q1/2014
 metaDescription: The Emtel Knowledge Series goes in compliance with Emtel's 25th anniversary celebrations throughout the year and more events will be organised on a quarterly base.
-image: https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2014/02/photo-1483478550801-ceba5fe50e8e.webp
 ogTitle: Emtel Knowledge Series - Q1/2014
 ogDescription: Getting more involved into the local ICT community seems to open a lot more possibilities and occasions to participate in various events. Lately, I have been to the first gathering of the freshly...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/emtel-knowledge-series-no1/
-imageUrl: https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2014/02/photo-1483478550801-ceba5fe50e8e.webp
 twitterImageUrl: https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2014/02/photo-1483478550801-ceba5fe50e8e.webp
 featured: false
 publishedAt: 2014-02-16T06:46:27Z
 updatedAt: 2019-01-18T16:42:14Z
@@ -52,9 +52,9 @@ facebookDescription: Getting more involved into the local ICT community seems to
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
-![Emtel Knowledge Series in Mauriitus](https://s.kirstaetter.name/images/emtel-knowledgeseries.jpg)Getting more involved into the local ICT community seems to open a lot more possibilities and occasions to participate in various events. Lately, I have been to the first gathering of the freshly created Emtel Knowledge Series. The aim is briefly described as following:
+![Emtel Knowledge Series in Mauriitus](../content/images/2014/02/emtel-knowledgeseries.webp)Getting more involved into the local ICT community seems to open a lot more possibilities and occasions to participate in various events. Lately, I have been to the first gathering of the freshly created Emtel Knowledge Series. The aim is briefly described as following:
 
 > *"Emtel is pleased to invite you for an exclusive Knowledge Series Workshop on the theme "Improving Business Performance Through the Adoption of Innovative Technologies" organised jointly by the Ministry of ICT and EMTEL*
 >
@@ -74,8 +74,8 @@ I guess it's about time to tinker with IPv6 in my own infrastructure and give my
 
 In the entrance area there two or three small booth for product and service demonstration. Of course, in promotion of the 4G/LTE network there were only LTE enabled devices like the HTC One, the iPad mini but also the very impressive Samsung NotePro tablet - what a monster! Running the usual Speedtest app from Ookla it was really interesting to see that you could easily reach up to 20Mbps in both directions with a latency of approximately 15-20 milliseconds.
 
-![Speedtest #1 on Emtel LTE network](https://s.kirstaetter.name/images/emtel-speedtest-lte-1.jpg)  
-![Speedtest #2 on Emtel LTE network](https://s.kirstaetter.name/images/emtel-speedtest-lte-2.jpg)
+![Speedtest #1 on Emtel LTE network](../content/images/2014/02/emtel-speedtest-lte-1.webp)  
+![Speedtest #2 on Emtel LTE network](../content/images/2014/02/emtel-speedtest-lte-2.webp)
 
 Having access to the freely available WiFi networks - one for IPv4 and one for IPv6 - I did some test runs with various servers in different areas of the globe during the presentations. Of course, due to international cabling the results vary... The test results with servers in Dubai, Cape Town or Singapore ranged between 3.0 and 6.4 Mbps while offering pings between 300ms and 1.000ms. The advantage of increased speed is inevitable but the latency values are still comparable to my findings on WiMAX or on 3G network.
 
@@ -101,7 +101,7 @@ Surprisingly, during the morning sessions it was announced that there will be a 
 
 First (and only) prize to win was an Apple iPad mini WiFi Cellular, 16GB Black. In the nature of the event this device is LTE-enabled and ready to rumble the online streams. How do I know so many details? After a very long adventure with numerous draws using a software appication called[Easy Raffle](https://www.easy-raffle.co.uk/) and noone in the room to claim the prize (although I was very very close one time), it was finally decided that instead of targetted 3 digits, anyone whose last 2 digits match would win. Well, first trial on the new concept beared no winner, second trial again nothing, and then finally the lucky number was declared: **25** - as in 25th anniversary of Emtel. My badge number was 47225... surprise, surprise!
 
-[![This is just so incredible. Thanks to #Emtel I am going to enjoy a new toy... Let's celebrate 25 years. :-)](https://pbs.twimg.com/media/BgMBkIfIMAAI39Y.jpg)  
+[![This is just so incredible. Thanks to #Emtel I am going to enjoy a new toy... Let's celebrate 25 years. :-)](../content/images/2014/02/BgMBkIfIMAAI39Y.webp)  
 ](https://x.com/JKirstaetter/status/433191709741428737/photo/1)*Another tablet added to the collection of devices... Thanks Emtel!*
 
 ## []()Resume of the day

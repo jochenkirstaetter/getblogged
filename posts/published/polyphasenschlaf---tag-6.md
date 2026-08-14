@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/polyphasenschlaf---tag-6/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 \*\*Es wird besser\*\*  
 Ich glaube, so langsam stellt sich mein Körper auf das geänderte Schlafverhalten ein. Die Ruhezeit habe ich nun konstant bei 25 Minuten gelassen und das klappt inzwischen. Auch wenn ich noch mit zwei Weckern arbeite, um dem Risiko des Überschlafens - also Verlassen der REM-Phase und Abtauchen in die Leichtschlafphase 1 - vorzubeugen.
 

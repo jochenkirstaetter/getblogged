@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: SUPINFO International University in Mauritius
 metaDescription: Since a while I'm considering to pick up my activities as a student and I'd like to get a degree in Computer Science.
-image: https://images.unsplash.com/photo-1453733190371-0a9bedd82893?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=360cdb97a592dc49f977d3b14d497f50
+image: content/images/2014/07/photo-1453733190371-0a9bedd82893.webp
 ogTitle: SUPINFO International University in Mauritius
 ogDescription: Since a while I'm considering to pick up my activities as a student and I'd like to get a degree in Computer Science.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/supinfo-international-university-in-mauritius/
-imageUrl: https://images.unsplash.com/photo-1453733190371-0a9bedd82893?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=360cdb97a592dc49f977d3b14d497f50
+imageUrl: content/images/2014/07/photo-1453733190371-0a9bedd82893.webp
 twitterImageUrl: https://images.unsplash.com/photo-1453733190371-0a9bedd82893?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=360cdb97a592dc49f977d3b14d497f50
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1453733190371-0a9bedd82893?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=360cdb97a592dc49f977d3b14d497f50
+featureImage: content/images/2014/07/photo-1453733190371-0a9bedd82893.webp
 featured: false
 publishedAt: 2014-07-14T04:23:38Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -52,8 +52,8 @@ facebookDescription: Since a while I'm considering to pick up my activities as a
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Since a while I'm considering to pick up my activities as a student and I'd like to get a degree in Computer Science.
 
 ## Personal motivation
@@ -72,17 +72,17 @@ Actually, the concept of SUPINFO is very likely to the common understanding of a
 
 Last Saturday, Medine organised their [Open Day and it was the official inauguration of the SUPINFO campus in Mauritius](https://www.supinfo.com/en/News1fa00554-9ba0-4f88-992a-9fa0c49c31b8.aspx). It's now listed on their website, too - but be warned, the site is mainly in French language although the courses are all done in English. Not only was it a big opportunity to "hang out" on the campus of Medine but it was great to see the first professional partners for their internship programme, too. Oh, just for the records, [IOS Indian Ocean Software Ltd.](https://www.ios.mu/) will also be among the future employers for SUPINFO students. More about that in an upcoming blog entry.
 
-![Open Day at Medine Education Village - SUPINFO International University in Mauritius](https://s.kirstaetter.name/images/medine-supinfo-1.jpg)  
+![Open Day at Medine Education Village - SUPINFO International University in Mauritius](../content/images/2014/07/medine-supinfo-1.webp)  
 *Open Day at Medine Education Village - SUPINFO International University in Mauritius*
 
 Mr Alick Mouriesse, President of SUPINFO, arrived the previous day and he gave all attendees a great overview of the roots of SUPINFO, the general development of the educational syllabus and their high emphasis on their partnerships with local IT companies in order to assist their students to get future jobs but also feel the heartbeat of technology live. Something which is completely missing in classic institutions of tertiary education in Computer Science. And since I was on tour with my children, as usual during weekends, he also talked about the outlook of having a SUPINFO campus in Mauritius.
 
 Apart from the close connection to IT companies and providing internships to students, SUPINFO clearly works on an international level. Meaning students of SUPINFO can move around the globe and can continue their studies seamlessly. For example, you might enroll for your first year in France, then continue to do 2nd and 3rd year in Canada or any other country with a SUPINFO campus to earn your bachelor degree, and then live and study in Mauritius for the next 2 years to achieve a Master degree.
 
-![Having a chat with Dale Smith, Expand Technologies, after his very interesting session on Technological Entrepreneurship - TechPreneur](https://s.kirstaetter.name/images/medine-supinfo-2.png)  
+![Having a chat with Dale Smith, Expand Technologies, after his very interesting session on Technological Entrepreneurship - TechPreneur](../content/images/2014/07/medine-supinfo-2.webp)  
 *Having a chat with Dale Smith, Expand Technologies, after his interesting session on Technological Entrepreneurship - TechPreneur*
 
-![More questions by other craftsmen of the Mauritius Software Craftsmanship Community](https://s.kirstaetter.name/images/medine-supinfo-3.png)  
+![More questions by other craftsmen of the Mauritius Software Craftsmanship Community](../content/images/2014/07/medine-supinfo-3.webp)  
 *More questions by other craftsmen of the Mauritius Software Craftsmanship Community*
 
 And of course, this concept works in any direction, giving Mauritian students a huge (!) opportunity to live, study and work abroad. And thanks to this, Medine already announced that there will be new facilities near Cascavelle to provide dormitories and other facilities to international students coming to our island. Awesome!

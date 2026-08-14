@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: Gegen die Kälte hilft nur ein heißes Bad
 metaDescription: Gegen die Kälte hilft nur ein heißes Bad Also, ich weiß ja nicht, wie es euch geht, aber die kalte Jahreszeit ist nicht wirklich etwas für mich. Oder anders formuliert, wenn es denn wenigstens durchgehend gleich kalt, trocken und mit weißen Landschaften wäre, dann könnte ich mich daran erwärmen... Aber,
-image: https://images.unsplash.com/photo-1635269670138-2bc182578866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE0fHxiYXRodHVifGVufDB8fHx8MTY5NTA2MTE3MXww&ixlib=rb-4.0.3&q=80&w=2000
+image: content/images/2005/02/photo-1635269670138-2bc182578866.webp
 ogTitle: Gegen die Kälte hilft nur ein heißes Bad
 ogDescription: Also, ich weiß ja nicht, wie es euch geht, aber die kalte Jahreszeit ist nicht wirklich etwas für mich. Oder anders formuliert, wenn es denn wenigstens durchgehend gleich kalt, trocken und mit weißen...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/gegen-die-klte-hilft-nur-ein-heies-bad/
-imageUrl: https://images.unsplash.com/photo-1635269670138-2bc182578866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE0fHxiYXRodHVifGVufDB8fHx8MTY5NTA2MTE3MXww&ixlib=rb-4.0.3&q=80&w=2000
+imageUrl: content/images/2005/02/photo-1635269670138-2bc182578866.webp
 twitterImageUrl: https://images.unsplash.com/photo-1635269670138-2bc182578866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE0fHxiYXRodHVifGVufDB8fHx8MTY5NTA2MTE3MXww&ixlib=rb-4.0.3&q=80&w=2000
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1635269670138-2bc182578866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE0fHxiYXRodHVifGVufDB8fHx8MTY5NTA2MTE3MXww&ixlib=rb-4.0.3&q=80&w=2000
+featureImage: content/images/2005/02/photo-1635269670138-2bc182578866.webp
 featured: false
 publishedAt: 2005-02-18T00:00:00Z
 updatedAt: 2023-09-18T18:20:25Z
@@ -52,8 +52,8 @@ facebookDescription: Also, ich weiß ja nicht, wie es euch geht, aber die kalte 
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Also, ich weiß ja nicht, wie es euch geht, aber die kalte Jahreszeit ist nicht wirklich etwas für mich. Oder anders formuliert, wenn es denn wenigstens durchgehend gleich kalt, trocken und mit weißen Landschaften wäre, dann könnte ich mich daran erwärmen... Aber, was haben wir - Aprilwetter im Winter. Brrrr!
 
 <small>Image courtesy of Pengfei Liu</small>

@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: Generating QR codes - the Easy, the Comfy and the Smarty
 metaDescription: Using QR codes to assist people to find the right information quickly is a good choice nowadays. See how Google Cloud Functions can do the job.
-image: content/images/2023/11/FleetQRCodeCubesInTheClouds.jpg
+image: content/images/2023/11/FleetQRCodeCubesInTheClouds.webp
 ogTitle: Generating QR codes - the Easy, the Comfy and the Smarty
 ogDescription: Using QR codes to assist people to find the right information quickly is a good choice nowadays. See how Google Cloud Functions can do the job.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/generate-qr-codes-gcf/
-imageUrl: https://jochen.kirstaetter.name/content/images/2023/11/FleetQRCodeCubesInTheClouds.jpg
+imageUrl: content/images/2023/11/FleetQRCodeCubesInTheClouds.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2023/11/FleetQRCodeCubesInTheClouds.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2023/11/FleetQRCodeCubesInTheClouds.jpg
+featureImage: content/images/2023/11/FleetQRCodeCubesInTheClouds.webp
 featured: true
 publishedAt: 2023-11-06T08:54:35Z
 updatedAt: 2023-11-06T12:37:27Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Using QR codes to assist people to find the right information quickly is a good choice nowadays. A QR code can be scanned easily with any mobile camera application and get your visitors straight into the action where you want them to be.
 
 ## The Easy
@@ -62,15 +61,15 @@ One of the fastest and easiest ways to get a QR code is to sign up to one of the
 
 Maybe more interestingly might be to check out the [Google Charts API](https://developers.google.com/chart/) and to use their URL pattern to create your own QR codes quickly. You'll find that API under the section of [Infographics](https://developers.google.com/chart/infographics/docs/qr_codes). However, at the time of writing there is a small drawback.
 
-![Google Charts API for Infographics allows to create QR codes](../content/images/2023/11/image-3.png)
+![Google Charts API for Infographics allows to create QR codes](../content/images/2023/11/image-3.webp)
 
 Using the API is based on an HTTP GET request with a few query string parameters.
 
-![URL and required parameters to generate a QR code](../content/images/2023/11/image-2.png)
+![URL and required parameters to generate a QR code](../content/images/2023/11/image-2.webp)
 
 The result is ad hoc ready and usable.
 
-![URL: https://chart.googleapis.com/chart?cht=qr&chs=300x300&chl=https://jochen.kirstaetter.name/](../content/images/2023/11/Charts_QR_GetBloggedByJoKi.png)
+![URL: https://chart.googleapis.com/chart?cht=qr&chs=300x300&chl=https://jochen.kirstaetter.name/](../content/images/2023/11/Charts_QR_GetBloggedByJoKi.webp)
 
 Feel free to scan it with your mobile camera app and visit the URL presented.
 
@@ -157,7 +156,7 @@ $ python generateqrcode.py https://jochen.kirstaetter.name/ getblogged.png
 
 Pass the payload data and file name to generate the QR code
 
-![Python-generated QR code on local machine](../content/images/2023/11/QR_GetBloggedByJoKi.png)
+![Python-generated QR code on local machine](../content/images/2023/11/QR_GetBloggedByJoKi.webp)
 
 This approach allows you to generate any QR code offline on your local machine.
 
@@ -205,7 +204,7 @@ QR code saved.
 
 If there are no typos and the project compiled without any errors you should see the generated QR code in the same directory. Here's the PNG image I created on my Chromebook using .NET 6.
 
-![QR code using .NET 6 console application](../content/images/2023/11/qrcode.png)
+![QR code using .NET 6 console application](../content/images/2023/11/qrcode.webp)
 
 I leave the implementation to deal with command line arguments, default values and parameter checks to you. Or better said, the complete source code is available in my GitHub repository.
 
@@ -323,7 +322,7 @@ Next, open a browser tab or window and navigate to the URL `http://localhost:808
 
 To generate an actual QR code image you have to provide information in the required query string parameter: [`http://localhost:8080/?url=https://jochen.kirstaetter.name/`](http://localhost:8080/?url=https://jochen.kirstaetter.name/)
 
-![Same QR code generated using a locally run Google Function](../content/images/2023/11/FunctionFramework_QR_GetBloggedByJoKi.png)
+![Same QR code generated using a locally run Google Function](../content/images/2023/11/FunctionFramework_QR_GetBloggedByJoKi.webp)
 
 You can use Cltr+C to stop the local function execution.
 
@@ -362,7 +361,7 @@ You can optionally use the `--allow-unauthenticated` flag to reach the function 
 
 After successful deployment you should have a working instance of your Cloud Function in the Console. It will also show you its URL to use the function.
 
-![Our Python code deployed and operational as Cloud Function](../content/images/2023/11/image-4.png)
+![Our Python code deployed and operational as Cloud Function](../content/images/2023/11/image-4.webp)
 
 You can also query the so-called description of your deployed Cloud Function using the gcloud command. This will give you the `uri` address to reach the function.
 
@@ -372,7 +371,7 @@ $ gcloud functions describe generate_code
 
 Alternatively, there is also the Google Cloud extension for Visual Studio Code that provides you access to your Cloud Functions to access and deploy them.
 
-![Using Visual Studio Code with Google Cloud extension to inspect a Cloud Function](../content/images/2023/11/Screenshot-from-2023-11-06-11-08-37.png)
+![Using Visual Studio Code with Google Cloud extension to inspect a Cloud Function](../content/images/2023/11/Screenshot-from-2023-11-06-11-08-37.webp)
 
 Again, you can test your deployed Cloud Function at the given URL. Given identical payload in the `url` query string parameter the generated PNG image is showing the same QR code as your locally run function earlier.
 
@@ -476,7 +475,7 @@ Run the .NET function locally
 
 Either navigate your browser or use `curl` to access the URL [`http://localhost:8080/?url=https://jochen.kirstaetter.name/`](http://localhost:8080/?url=https://jochen.kirstaetter.name/) to get the generated QR code as PNG image.
 
-![Same QR code generated using a Google Function run locally](../content/images/2023/11/Dotnet_QR_GetBloggedByJoKi.png)
+![Same QR code generated using a Google Function run locally](../content/images/2023/11/Dotnet_QR_GetBloggedByJoKi.webp)
 
 Finally, deploy the .NET project to Google Cloud Functions via the `gcloud` CLI tool using the following command.
 

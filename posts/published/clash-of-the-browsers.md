@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/clash-of-the-browsers/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Es ist immer wieder ernüchternd, wenn man mit JavaScript das magere HTML-Frontend aufpeppen möchte. Nunja, heute ging's um Resizing von Frames... Wie Frames? - Ja, ich kann die Teile überhaupt nicht abhaben, aber manchmal geht's dann halt doch nicht anders. Und genau so einen Fall habe ich gerade (oder immer noch).  
   
 Okay, die optische Politur muss her, denn eine Verschmelzung zwischen Active FoxPro Pages und PHP soll zumindest auf den ersten Blick einigermaßen unsichtbar sein bzw. bleiben. Nein, nicht um AFP zu pushen, sondern ausschliesslich der Usability und Optik wegen. Zudem sind IFrames für solch einen Zweck einigermaßen zu gebrauchen.  

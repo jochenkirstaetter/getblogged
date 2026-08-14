@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/es-muss-nicht-immer-foxpro-sein/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Der Betreff mag vielleicht irritiere, aber der gestrige VFP-Stammtisch war ein besonderer Abend... Zu meiner "Schande" muss ich gestehen, dass das gestrige Thema - PostgreSQL 8.0 - mangels installierter Software ausgefallen ist. Daher die gute Nachricht an die Abwesenden: Ihr habt nix verpasst...  
   
 Naja, eiegntlich doch. Mangels Thema haben wir uns zuerst Ersatzthemen überlegt, aber letztendlich sind wir bei der Nachlese zur 12. Entwicklerkonferenz hängen geblieben und haben den gesamten Abend in der gewohnten, gemütlichen Atmosphäre miteinander palavert. Wow, ein Traumabend. ![icon_cool](https://jochen.kirstaetter.name/es-muss-nicht-immer-foxpro-sein/smilies/icon_cool.gif)  

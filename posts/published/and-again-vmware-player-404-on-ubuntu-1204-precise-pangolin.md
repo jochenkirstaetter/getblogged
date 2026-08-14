@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/and-again-vmware-player-404-on-ubuntu-1204-precise-pangolin/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Even with the new version of [VMware Player](https://www.vmware.com/products/player/overview.html "Desktop virtualization with VMware Player") 4.0.4 you are still required to patch their sources. [So, same game as last month.](xref:update-kernel-patch-for-vmware-player-403 "Update kernel patch for VMware Player 4.0.3") Just changing the value of the required version in the kernel patch script of Stefano Angeleri (weltall) and you are done:
 
 ```

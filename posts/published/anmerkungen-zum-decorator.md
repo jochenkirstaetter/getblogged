@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/anmerkungen-zum-decorator/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Anscheinend bedarf es der regelmäßigen Wiederholung von Themen, die man im täglichen Einsatz als Entwickler gebrauchen könnte. Wiederholung vertieft das Wissen und schadet sicherlich nicht. Die nachfolgenden Anmerkungen beziehen sich auf meinen Artikel zum [url=/Design-Pattern-Decorator]Design Pattern: Decorator[/url]. Es empfiehlt sich den Beitrag kurz durchzugehen, sofern der Decorator nicht geläufig sein sollte.
 
 Den Auslöser für diesen Blogeintrag liefert mal wieder eine Unterhaltung im [Forum der dFPUG](https://forum.dfpug.de). Dort wurde sinngemäß das Problem formuliert wie man gemeinsame Funktionalität zweier unterschiedlich abgeleiteter Klassen ohne Codedopplung umsetzen könnte, aber dennoch die sonstigen PEMs der Hierarchie erhalten kann. Da es in Visual FoxPro das Konzept der Mehrfachvererbung - Stichwort partial class in C# - leider nicht gibt, sehen die Alternativen zur Umsetzung ein wenig anders aus:

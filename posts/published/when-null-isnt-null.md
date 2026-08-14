@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: When NULL isn't NULL
 metaDescription: Using Visual FoxPro as an untyped programming language it is vital to always declare your variables and more importantly to assign the intended data type to it before use.
-image: https://images.unsplash.com/photo-1527109499611-6fbeb6779130?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=593356c738c73a7e2fceaee44901e115
+image: content/images/2018/09/photo-1527109499611-6fbeb6779130.webp
 ogTitle: When NULL isn't NULL
 ogDescription: Using Visual FoxPro as an untyped programming language it is vital to always declare your variables and more importantly to assign the intended data type to it before use.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/when-null-isnt-null/
-imageUrl: https://images.unsplash.com/photo-1527109499611-6fbeb6779130?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=593356c738c73a7e2fceaee44901e115
+imageUrl: content/images/2018/09/photo-1527109499611-6fbeb6779130.webp
 twitterImageUrl: https://images.unsplash.com/photo-1527109499611-6fbeb6779130?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=593356c738c73a7e2fceaee44901e115
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1527109499611-6fbeb6779130?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=593356c738c73a7e2fceaee44901e115
+featureImage: content/images/2018/09/photo-1527109499611-6fbeb6779130.webp
 featured: false
 publishedAt: 2018-09-10T10:11:30Z
 updatedAt: 2018-09-10T11:03:57Z
@@ -52,8 +52,8 @@ facebookDescription: Using Visual FoxPro as an untyped programming language it i
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 While working on a customer's project in Microsoft Visual FoxPro (VFP) I was addressed with a curious case where the code execution failed given a specific user interaction.
 
 On first inspection and stepping through the lines of code I noticed that the return value of a called function got NULL assigned to it, and that was the reason the actual calling code failed. Further investigation then actually revealed that the processing function had an incomplete instantiation of the variable containing the return value.
@@ -72,7 +72,7 @@ lcIdentifier = UPPER(GetValue("Please enter ID", "ABC"))
 
 The task is to ask the user for some input regarding an ID number. The expected outcome is any kind of string value. Unfortunately, that line of code threw an exception due to invalid value / type.
 
-![Typical error message in Visual FoxPro](../content/images/2018/09/image-1.png)
+![Typical error message in Visual FoxPro](../content/images/2018/09/image-1.webp)
 
 Now, let's have a look at the called function and how it has been implemented.
 
@@ -105,7 +105,7 @@ Well, actually the passed parameter into the `UPPER` function is causing the iss
 
 When you run the VFP debugger and step through the source code you will notice in the Watch window that the variable of the return value is declared as a logical type:
 
-![Declaring a variable in VFP is of type "Logical" initially](../content/images/2018/09/image-2.png)
+![Declaring a variable in VFP is of type "Logical" initially](../content/images/2018/09/image-2.webp)
 
 This is caused by the `LOCAL` command. And now, passing the variable into the `UPPER` function throws the error message as expected.
 
@@ -136,7 +136,7 @@ changes the data type of the return variable into the expected return type.
 
 When we have a look at the Watch window in the VFP debugger now, we will discover that the type has changed:
 
-![Assign the expected value after declaring a variable](../content/images/2018/09/image-3.png)
+![Assign the expected value after declaring a variable](../content/images/2018/09/image-3.webp)
 
 Although the value is still `NULL` this will not throw the error message anymore.
 

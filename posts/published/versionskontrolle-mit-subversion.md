@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/versionskontrolle-mit-subversion/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 *Trommelwirbel* - in der letzten Stunde kam die erste Rezension eines Teilnehmers vom [VFP Stammtisch Speyer](https://speyer.dfpug.de) per Mail reingeschneit. Wow, ist denn schon Weihnachten? Nein, noch nicht, aber vielen herzlichen Dank an Gerd für die Einsendung der Rezension zum obig genannten Titel. Selbstverständlich werde ich den Beitrag weiter an den O'Reilly-Verlag senden. Aktuell stehen wir eh ein wenig in der Bringschuld, da die Rezensionen für die bereitgestellten Bücher inzwischen einige Zeit mit sich gebracht haben. Nun, ich hoffe, dass wir noch im grünen Bereich sind...  
   
 Ich möchte euch natürlich nicht die Beurteilung von Gerd vorenthalten. Dafür gibt's zwei Varianten. Ihr lest entweder direkt bei Gerd oder hier bei mir... Es steht euch frei.  

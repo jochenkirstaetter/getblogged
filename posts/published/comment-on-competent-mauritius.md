@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: Comment on 'Competent Mauritius'
 metaDescription: Response to an article on noulakaz.net about the level of competence in Mauritius.
-image: https://images.unsplash.com/photo-1533234427049-9e9bb093186d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2013/04/photo-1533234427049-9e9bb093186d.webp
 ogTitle: Comment on 'Competent Mauritius'
 ogDescription: Sadly, my comment on the original address is not available. Might have been due to technical issues, don't know.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/comment-on-competent-mauritius/
-imageUrl: https://images.unsplash.com/photo-1533234427049-9e9bb093186d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2013/04/photo-1533234427049-9e9bb093186d.webp
 twitterImageUrl: https://images.unsplash.com/photo-1533234427049-9e9bb093186d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1533234427049-9e9bb093186d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2013/04/photo-1533234427049-9e9bb093186d.webp
 featured: false
 publishedAt: 2013-04-02T04:14:53Z
 updatedAt: 2019-01-07T22:47:25Z
@@ -52,8 +52,8 @@ facebookDescription: Sadly, my comment on the original address is not available.
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Sadly, my comment on the original address is not available. Might have been due to technical issues, don't know.
 
 Following is a referral to this source: [https://www.noulakaz.net/weblog/2013/03/31/competent-mauritius/](https://www.noulakaz.net/weblog/2013/03/31/competent-mauritius/ "https://www.noulakaz.net/weblog/2013/03/31/competent-mauritius/")

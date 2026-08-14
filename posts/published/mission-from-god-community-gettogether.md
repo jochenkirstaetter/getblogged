@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mission-from-god-community-gettogether/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Cool, die offizielle Einladung zum nächsten CLIP Community GetTogether hat diese Tage den Weg ins Postfach gefunden. Klasse! Seit dem letzten Treffen auf der CeBIT dieses Jahr sind wieder etliche Ereignisse ins Land gezogen und ich muss offen und ehrlich gestehen, dass ich bedingt durch den Job in den letzten Wochen nur wenig Zeit für Community aufbringen konnte. Dies resultierte sogar darin, dass der monatliche VFP Stammtisch zweimal ohne mich stattfand. Leute, ich gelobe Besserung.  
   
 So wie es aktuell aussieht, ist die zeitliche Planung des GetTogethers auf einen halben Tag angesetzt. Das ist ehrlich gesagt bedauerlich, denn es stellt sich hierbei ganz klar die Frage nach der Rentabilität. Lohnt es sich für einen halben Tag nach München zu fahren? Nun, ich für meinen Teil kann behaupten: Ja!  

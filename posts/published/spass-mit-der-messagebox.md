@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/spass-mit-der-messagebox/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Dieser Artikel beschreibt die Verwendung von Aufrufen in der Windows 32 API zur Erweiterung nativer Funktionen in Visual FoxPro. Konkret wird eine Alternative für die MessageBox() dargestellt. Ich hoffe, dass ihr mit der vorgestellten Lösung ein bisschen was anfangen könnt. Also, lasst uns Spass mit der MessageBox() haben...  
   
 Im Gegensatz zu vielen anderen Ausgaben in Visual FoxPro ist die Darstellung der MessageBox()-Funktion kein VFP-internes Konstrukt, sondern geht auf die API-Funktionen des Betriebssystems. Damit haben wir ebenfalls die gleichen Möglichkeiten und können die MessageBox()-Funktion ein wenig verschönern bzw. erweitern.  

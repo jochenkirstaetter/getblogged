@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/ein-knigreich-fr-eine-bernachtung/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 ## Kein Zimmer mehr frei...
 
 So ging es mir von Donnerstag auf Freitag. Auf Grund einer nicht abgesprochenen Annahme war nicht ganz klar, wieviele Nächte für den Workshop gebucht werden sollten. Nunja, und da kam dann noch Murphy's Law mit ins Spiel. Denn selbst eine Verlängerung des Aufenthalts im Hotel war nicht machbar, da komplett ausgebucht. Hm, okay, in der Nacht noch einen Hilfeaufruf per Mail an die Kollegen zuhause abgeschickt und mal abwarten was passiert. Starten wir den Tag mit Frühstück und dann in den Endspurt des AFP Workshops. Heute wenden wir das Wissen der bisherigen zwei Tage konkret in einer Prototypanwendung an. Wir wollen eine Kombination aus Code Review, Refactoring und Vermittlung von Best Practices umsetzen. Ganz im Sinne des Kunden, der seine AFP Webanwendung sauber und leicht implementieren möchte. Hier gilt es auch Augenmerk auf die Erweiterbarkeit und Wartbarkeit zu legen.

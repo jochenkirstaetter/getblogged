@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/microsoft-empower-fr-isvs/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Heute gab's wieder eine tolle Nachricht von unserer CLIP-Betreuerin Dorothea. Bannerwerbung für das [Microsoft Empower für ISVs](https://go.microsoft.com/?linkid=5783716) Programm. Coole Sache... Allein die Einleitung zu Empower liest sich doch bereits wie ein El Dorado für Entwickler, oder?
 
 \*Unsere Empower-Initiative richtet sich an Entwickler und Softwarehersteller (Independent Software Vendors, ISVs), die schnell und effizient Software auf der Basis neuester Microsoft-Technologie entwickeln und intensiv mit uns zusammenarbeiten wollen. [Microsoft Empower für ISVs](https://go.microsoft.com/?linkid=5783716) läuft ein Jahr; danach haben Sie die Möglichkeit, Ihre Mitgliedschaft um ein weiteres Jahr zu verlängern. Die Teilnahme an unserer Empower-Initiative kostet für zwölf Monate 320 Euro zzgl. MwSt.\*

@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/vfp-devcon-2005/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Gestern kam die Bestätigung per Mail. Mit dem endgültigen Programm für die [12. Visual FoxPro Entwicklerkonferenz](https://devcon.dfpug.de) und der Einladung für die Zimmerreservierung steht fest, dass ich wieder als Redner aktiv sein darf. Auch dieses Jahr werden es wieder vier Vorträge zu Visual FoxPro im Allgemeinen und Besonderen sein. Hier kurz die Übersicht meiner Vorträge:  
   
 [D-SVN](https://devcon.dfpug.de/veran/konfprog/konfprog_2005/vortrag/vortraege.htm#D_SVN) - Versionskontrolle mit Subversion  

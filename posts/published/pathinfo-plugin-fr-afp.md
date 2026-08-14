@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/pathinfo-plugin-fr-afp/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Nachschlag...  
   
 Ausgehend von meinem gestrigen Eintrag heute eine kleinere Ergänzung. Da mich die Thematik doch ein wenig heute Nacht beschäftigt hat, habe ich mal hingesetzt und ein Plugin für die Active FoxPro Pages programmiert. Denn, so wie es nach allem Anschein aussieht, scheint es sich hierbei um eine Limitierung seitens der ISAPI im Vergleich zu reellem CGI 1.1 zu sein. Laut Aussage in der MSDN zu ISAPI-Extension findet sich nämlich folgendes:  

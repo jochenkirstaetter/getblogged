@@ -13,7 +13,7 @@ tags:
 keywords: Development, Activity, Andela
 metaTitle: ALC 4.0 Cloud Challenge I
 metaDescription: Solving the Andela 4.0 Cloud Challenge described in multiple, individual steps
-image: content/images/2019/10/alc4cloudchallengedns.png
+image: content/images/2019/10/alc4cloudchallengedns.webp
 ogTitle: ALC 4.0 Cloud Challenge I
 ogDescription: Solving the Andela 4.0 Cloud Challenge described in multiple, individual steps
 layout: post
@@ -32,16 +32,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/alc4-cloud-challenge/
-imageUrl: https://jochen.kirstaetter.name/content/images/2019/10/alc4cloudchallengedns.png
+imageUrl: content/images/2019/10/alc4cloudchallengedns.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2019/10/alc4cloudchallengedns.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2019/10/alc4cloudchallengedns.png
+featureImage: content/images/2019/10/alc4cloudchallengedns.webp
 featured: false
 publishedAt: 2019-10-18T19:06:31Z
 updatedAt: 2023-08-28T15:29:19Z
@@ -55,7 +55,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Today I finally found a few chunks of time to run through the challenge. It was an interesting journey with some minor hiccups.
 
 I documented all steps as a thread on Twitter, starting in the morning:

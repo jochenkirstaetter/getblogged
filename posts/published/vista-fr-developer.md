@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/vista-fr-developer/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 It's time for TechTalk... Und wieder einmal lockt Microsoft nach Karlsruhe. Dieses Mal ganz im Zeichen von [Vista](https://www.techtalk.ms/Vortr%C3%A4ge/Januar07Vistaf%C3%BCrDeveloper/tabid/67/Default.aspx) im Sinne der neuen Fähigkeiten für Entwickler. Glücklicherweise erhielt ich bereits vor 14 Tagen oder so eine freundliche Erinnerungsmail. Ich hätte es echt verpeilt...  
 Nun denn, begeben wir uns wieder auf die Strecken der Deutschen Bahn und erfreuen uns am reibungslosen Lauf der Dinge. Und... keine Überraschungen dieses Mal.
 

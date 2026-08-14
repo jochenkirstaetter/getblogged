@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/google-maps-guestmap/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Thanks to [an older article of Scott Hanselman](https://www.hanselman.com/blog/BlogInteresting32WaysToKeepYourBlogFromSucking.aspx "an older article of Scott Hanselman") I came across this gem: [Google Maps Guestmap Service](https://www.mapservices.org/myguestmap "Google Maps Guestmap Service"). The service itself allows anyone to pin their location on a world map with some basic information and icon. Looking at Scott's map with more than 1900 pins, it's truely amazing!
 
 ## Where are my readers located?

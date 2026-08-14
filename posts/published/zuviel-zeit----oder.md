@@ -11,7 +11,7 @@ tags:
 keywords: Personal
 metaTitle: Zuviel Zeit... oder?
 metaDescription: Ehrlich gesagt weiß ich gar nicht wie ich es formulieren soll, aber ich habe den Eindruck, dass ich zuviel Zeit für mich habe. Okay, der Eindruck mag vielleicht zu früh kommen, aber irgendwie fühle ich, dass mein Schlafexperiment genau in die richtige Richtung läuft.
-image: https://images.unsplash.com/photo-1443472933321-f2617633c81b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2006/03/photo-1443472933321-f2617633c81b.webp
 ogTitle: Zuviel Zeit... oder?
 ogDescription: Ehrlich gesagt weiß ich gar nicht wie ich es formulieren soll, aber ich habe den Eindruck, dass ich zuviel Zeit für mich habe. Okay, der Eindruck mag vielleicht zu früh kommen, aber irgendwie fühle ich, dass mein Schlafexperiment genau in die richtige Richtung läuft.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/zuviel-zeit----oder/
-imageUrl: https://images.unsplash.com/photo-1443472933321-f2617633c81b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2006/03/photo-1443472933321-f2617633c81b.webp
 twitterImageUrl: https://images.unsplash.com/photo-1443472933321-f2617633c81b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1443472933321-f2617633c81b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2006/03/photo-1443472933321-f2617633c81b.webp
 featured: false
 publishedAt: 2006-03-28T10:50:11Z
 updatedAt: 2019-01-07T23:00:57Z
@@ -52,8 +52,8 @@ facebookDescription: Ehrlich gesagt weiß ich gar nicht wie ich es formulieren s
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Ehrlich gesagt weiß ich gar nicht wie ich es formulieren soll, aber ich habe den Eindruck, dass ich zuviel Zeit für mich habe. Okay, der Eindruck mag vielleicht zu früh kommen, aber irgendwie fühle ich, dass mein Schlafexperiment genau in die richtige Richtung läuft. Es fühlt sich definitiv gut an und es macht Spass. An für sich unglaublich, aber... lassen wir die Fakten sprechen:
 
 Nach einem ereignisreichen Tag liess ich es im 6. Intervall (21:30 bis 1:00 Uhr) ziemlich locker angehen. Ein paar Nacharbeiten zum Tag, ein paar Onlineforen abgeklappert und etliche interessante Threads gelesen und soweit ich helfen konnte, ein paar Antworten geschrieben. Emails - geschäftliche wie private - beantwortet und so weiter eben. Und halt wie immer nebenbei mit den Freunden gechattet. Nur... irgendwann waren alle offline, da Hibernation-Modus aktiviert. ;-)

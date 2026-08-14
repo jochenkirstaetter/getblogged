@@ -12,7 +12,7 @@ tags:
 keywords: Community, General
 metaTitle: Career Guidance (Day) at Aberystwyth University
 metaDescription: I was invited to the Aberystwyth University Mauritius Branch Campus to talk about career guidance in front of CS students. Gladly, I shared my experience from almost 20 years in the IT business.
-image: content/images/2017/09/highres_464004922.jpeg
+image: content/images/2017/09/highres_464004922.webp
 ogTitle: Career Guidance (Day) at Aberystwyth University
 ogDescription: I was invited to the Aberystwyth University Mauritius Branch Campus to talk about career guidance in front of CS students. Gladly, I shared my experience from almost 20 years in the IT business.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/cs-career-advice-aber/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/09/highres_464004922.jpeg
+imageUrl: content/images/2017/09/highres_464004922.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/09/highres_464004922.jpeg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/09/highres_464004922.jpeg
+featureImage: content/images/2017/09/highres_464004922.webp
 featured: false
 publishedAt: 2017-09-26T17:53:04Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -54,7 +54,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 More of spontaneous coincidence than a planned activity I was contacted by [Dr. Tomi A. Pasanen](https://www.linkedin.com/in/dr-tomi-a-pasanen-497a2717/?ppe=1), Lecturer in Computer Science at the [Aberystwyth University, Mauritius Branch Campus](http://www.aber.mu/staff-list/tap7/), whether I'd be interested to give a talk on Computer Science (CS) career advice.
 
 Having met Tomi already earlier this year during the [It's Just Angular](https://www.mscc.mu/its-just-angular/) meeting of the [MSCC](https://www.mscc.mu/), and knowing his genuine interest in the IT activities of local user groups in Mauritius, I agreed to come over on a very short notice.
@@ -73,7 +72,7 @@ Following are today's bullet points.
 
 Always stay hungry and explore new things. Watch, observe and learn from others. Eventually, we found common ground given the experience that the present CS students took apart tech-toys during their youth in order to figure out how this stuff might actually work. Sometimes with irreversible result...
 
-![Imagination will take you everywhere. -- Albert Einstein](../content/images/2017/09/albert-einstein-einstein-einstein-quote-imagination-logic-Favim.com-354340.jpg)
+![Imagination will take you everywhere. -- Albert Einstein](../content/images/2017/09/albert-einstein-einstein-einstein-quote-imagination-logic-Favim.com-354340.webp)
 
 ## Creativity
 
@@ -89,7 +88,7 @@ Studying CS at the university is (just) a stage to pass. It's an entrance into a
 
 No worries, there will be drawbacks and road bumps all the way through. A certain level of sturdiness and steady persistence will be a good trait in your career. Together with constant (and maybe daily) learning about new technologies, new techniques and practices it will help to develop your knowledge in Computer Science.
 
-![No! Try not! Do or Do Not! There is no try. -- Master Yoda](../content/images/2017/09/4c316ea2ae01be634bc9783ca982f55f.jpg)
+![No! Try not! Do or Do Not! There is no try. -- Master Yoda](../content/images/2017/09/4c316ea2ae01be634bc9783ca982f55f.webp)
 
 When it gets tough, keep on going...
 

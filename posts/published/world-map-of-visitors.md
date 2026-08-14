@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/world-map-of-visitors/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 One of the interesting aspects for a blogger might be to know where her/his readers are from. At least, this is something that I would like to know.
 
 Technically, it is not a real problem as every visitor offers its IP address while accessing a website and usually those information and others - like user agent, browser capabilities, preferred languages, etc. - are logged by the web server. Running any kind of log analyzing software like [AWStats](https://awstats.sourceforge.net/), [WebLog](https://www.weblogexpert.com/) or utilizing external services like [Google's Webmaster Tools](https://www.google.com/webmasters/tools/)visualizes that data to the interested site owner.

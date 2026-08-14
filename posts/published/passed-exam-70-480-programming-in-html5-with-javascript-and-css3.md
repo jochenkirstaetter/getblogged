@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/passed-exam-70-480-programming-in-html5-with-javascript-and-css3/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 First off: Mission accomplished successfully. And it was fun!
 
 Using the resources listed in [my previous article about Learning Content](xref:learning-content-for-mcsds-web-applications-and-windows-store-apps-using-html5 "my previous article about Learning Content"), I'd like to thank Microsoft Technical Evangelists Jeremy Foster and Michael Palermo for their [excellent jump start videos on Channel 9](https://channel9.msdn.com/Series/MVA-Jump-Start/Developing-HTML5-Apps-Jump-Start-01a-HTML5-Semantic-Structure-Part-1 "excellent jump start videos on Channel 9"), and the various authors at Pluralsight.

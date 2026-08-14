@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: Communities - The importance of exchange and discussion
 metaDescription: The Mauritius Software Craftsmanship Community was founded based on the necessity to have a strong off-line and on-line community in Mauritius.
-image: https://images.unsplash.com/photo-1541278960078-0af7e4c58a5b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2013/05/photo-1541278960078-0af7e4c58a5b.webp
 ogTitle: Communities - The importance of exchange and discussion
 ogDescription: Communication with your environment is an essential part of everyone's life. And it doesn't matter whether you are actually living in a rural area in the middle of nowhere, within the pulsating heart...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/community-exchange-and-discussion/
-imageUrl: https://images.unsplash.com/photo-1541278960078-0af7e4c58a5b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2013/05/photo-1541278960078-0af7e4c58a5b.webp
 twitterImageUrl: https://images.unsplash.com/photo-1541278960078-0af7e4c58a5b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1541278960078-0af7e4c58a5b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2013/05/photo-1541278960078-0af7e4c58a5b.webp
 featured: false
 publishedAt: 2013-05-29T04:04:57Z
 updatedAt: 2019-01-07T22:43:11Z
@@ -52,8 +52,8 @@ facebookDescription: Communication with your environment is an essential part of
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Communication with your environment is an essential part of everyone's life. And it doesn't matter whether you are actually living in a rural area in the middle of nowhere, within the pulsating heart of a big city, or in my case on a wonderful island in the Indian Ocean. The ability to exchange your thoughts, your experience and your worries with another person helps you to get different points of view and new ideas on how to resolve an issue you might be confronted with.
 
 ## []()Benefits of community work
@@ -62,7 +62,7 @@ What happens to be common sense in your daily life, also applies to your work en
 
 When I started to work as a professional software developer (or engineer some may say) years ago I immediately checked the existence of communities on the programming language, the database technology and other vital information on software development in general. Luckily, it wasn't too difficult to find. My employer had a subscription of the monthly magazines and newsletters of a [national organisation](https://www.dfpug.de/ "deutschsprachige FoxPro User Group (dFPUG)") which also run the biggest forum in that area. Getting in touch with other developers and reading their common problems but also solutions was a huge benefit to my growth.
 
-![Image courtesy of Michael Kappel (CC BY-NC 2.0)](https://s.kirstaetter.name/images/5443904534_5afc861f2a_z.jpg)  
+![Image courtesy of Michael Kappel (CC BY-NC 2.0)](../content/images/2013/05/5443904534_5afc861f2a_z.webp)  
 *Image courtesy of Michael Kappel (CC BY-NC 2.0)*
 
 Active participation and regular contribution to this community gave me some nice advantages, too. Within three years I was listed as a conference speaker at the [annual developer's conference](https://devcon.dfpug.de/) and provided several sessions on different topics during consecutive years. Back in 2004, I took over the responsibility and management of the monthly meetings of a regional user group, and organised it for more than two years. Furthermore, I was invited to the newly-founded [community program of Microsoft Germany](https://www.microsoft.com/germany/community/programme/clip.mspx "community program of Microsoft Germany") (Community Leader/Insider Program - CLIP). My website on Active FoxPro Pages was nominated in the second batch of online communities. Due to my community work and providing advice to others, I had the honour to be awarded as [Microsoft Most Valuable Professional (MVP)](https://www.microsoft.com/mvp) - Visual Developer for Visual FoxPro in the years 2006 and 2007. It was a great experience to meet with other like-minded people and I'm really grateful for that. Just in case, more details are listed in my [Curriculum Vitae](xref:cv). But this all changed when I moved to Mauritius...

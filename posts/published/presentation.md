@@ -11,7 +11,7 @@ tags:
 keywords: Personal
 metaTitle: Presentations
 metaDescription: Presentations Session Microsoft Visual FoxPro Entwicklerkonferenz - Delevoper conference 11.2006 D-CLR - CLR Host für Visual FoxPro Die Common Language Runtime (CLR) des .NET Frameworks übernimmt die grundsätzliche Aufgabe zum Starten von Assemblies und Anwendungen in einer .NET Programmiersprache wie etwa C# oder Visual Basic. Weiterhin ist die CLR
-image: content/images/2019/01/DotNetCore22.png
+image: content/images/2019/01/DotNetCore22.webp
 ogTitle: Presentations
 ogDescription: <!--   --> Sessions Mauritius Software Craftsmanship Community (MSCC) 11.2013 Linuxfest 2013 Running Windows applications on Linux - Taking into consideration that the End of Support Lifecycle for...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/presentation/
-imageUrl: https://jochen.kirstaetter.name/content/images/2019/01/DotNetCore22.png
+imageUrl: content/images/2019/01/DotNetCore22.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2019/01/DotNetCore22.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2019/01/DotNetCore22.png
+featureImage: content/images/2019/01/DotNetCore22.webp
 featured: false
 publishedAt: 2009-12-14T03:11:29Z
 updatedAt: 2019-01-07T22:57:12Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 ## Sessions
 
 #### [Mauritius Software Craftsmanship Community](xref:mscc "Mauritius Software Craftsmanship Community") (MSCC)

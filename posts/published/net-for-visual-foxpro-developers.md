@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/net-for-visual-foxpro-developers/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Nach einiger Zeit endlich die erste Rezension zu einem Buchtitel. Ich habe die Veröffentlichung auf Amazon realisiert, daher biete ich euch hier einfach den Verweis auf die Seite dort an:  
   
 [https://www.amazon.de/exec/obidos/ASIN/1930919301](https://www.amazon.de/exec/obidos/ASIN/1930919301 ".NET for Visual FoxPro Developers")  

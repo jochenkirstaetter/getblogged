@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/finally-tweeting/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Finally, I could convince myself to register an account on Twitter to start micro-blogging. The registration is free, easy and straight forward. No woes at all...
 
 I could have set up a tweet already ages ago but honestly I have to say that I never had any real motivation about this whole concept. Even now, I am not 100% sure about the pros and benefits of Twitter are. Maybe I will get some feedback on this during the next weeks. Perhaps I might use this micro-blogging space for some more questions or even rants... Let's see. ;)

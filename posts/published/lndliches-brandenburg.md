@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/lndliches-brandenburg/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 \*\*Anreise\*\*  
 Im Gegensatz zur Hinreise nach Prag verlief die Rückkehr nach Deutschland relativ unspektakulär. Morgens mit Bus und Metro zum Flughafen, lockeres Einchecken und diesmal ohne unvorhergesehene Wartezeiten zurück nach Berlin Tegel. Von dort aus ging die Reise per Bahn weiter in die ländlichen Regionen von Teltow-Flaeming im südlichen Brandenburg. Schon die Fahrt im Regional-Express durch die morgendliche Sonne verhieß Gutes für den weiteren Tagesverlauf. Die Gegend hier - [Teltow-Fläming](https://de.wikipedia.org/wiki/Teltow) bzw. [Der Teltow](https://www.derteltow.de/) - ist einfach nur traumhaft: Wiesen- und Waldregionen soweit das Auge reicht - und das weitestgehend flach. Herrlich, sicherlich ein Paradies für Sportler... Laufen, Radfahren und Skaten. Letzte Woche auf dem AFP-Workshop wurde bereits die Information in die Gespräche eingestreut, dass hier extra eine Skaterbahn über mehrere Kilometer angelegt sei. Klingt verlockend...
 

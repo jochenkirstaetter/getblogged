@@ -11,7 +11,7 @@ tags:
 keywords: Recension
 metaTitle: 'Sapiens: A Brief History of Humankind'
 metaDescription: Thought-provoking and eye-opening book about the origin, the evolution and destructive nature of homo sapiens. However there seems to be hope of improvement. Or the danger of spreading further to other planets.
-image: content/images/2023/09/pre-historic-cave-drawings--in-the-style-of-post-impressionism--spirited--no-words.png
+image: content/images/2023/09/pre-historic-cave-drawings--in-the-style-of-post-impressionism--spirited--no-words.webp
 ogTitle: 'Sapiens: A Brief History of Humankind'
 ogDescription: Thought-provoking and eye-opening book about the origin, the evolution and destructive nature of homo sapiens. However there seems to be hope of improvement. Or the danger of spreading further to other planets.
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/sapiens-a-brief-history-of-mankind/
-imageUrl: https://jochen.kirstaetter.name/content/images/2023/09/pre-historic-cave-drawings--in-the-style-of-post-impressionism--spirited--no-words.png
+imageUrl: content/images/2023/09/pre-historic-cave-drawings--in-the-style-of-post-impressionism--spirited--no-words.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2023/09/pre-historic-cave-drawings--in-the-style-of-post-impressionism--spirited--no-words.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2023/09/pre-historic-cave-drawings--in-the-style-of-post-impressionism--spirited--no-words.png
+featureImage: content/images/2023/09/pre-historic-cave-drawings--in-the-style-of-post-impressionism--spirited--no-words.webp
 featured: false
 publishedAt: 2023-09-26T17:38:10Z
 updatedAt: 2023-09-26T17:38:10Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Thought-provoking and eye-opening book about the origin, the evolution and destructive nature of homo sapiens. However there seems to be hope of improvement. Or the danger of spreading further to other planets.
 
 In his book *Sapiens: A Brief History of Humankind*, Yuval Noah Harari argues that humans have been a plaque to the flora and fauna of Earth since our earliest days as hunter-gatherers. However, it was the Agricultural Revolution, which began around 11,000 years ago, that really allowed humans to start taking over the planet and wreaking havoc on the natural world.

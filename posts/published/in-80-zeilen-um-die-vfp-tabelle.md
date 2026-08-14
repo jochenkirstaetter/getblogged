@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: In 80 Zeilen um die VFP-Tabelle
 metaDescription: In 80 Zeilen um die VFP-Tabelle Ups, I did it again...Oder so ähnlich, aber da ich gestern / heute ein wenig durch meine Kollegen zu Zwangsarbeit genötigt wurde, dachte ich mir die Zeit des Wartens könnte man anderweitig nutzen.Nun, in Vorbereitung für den kommenden Webcast zu Visual FoxPro und Visual
-image: content/images/2023/09/in80linesofcode.png
+image: content/images/2023/09/in80linesofcode.webp
 ogTitle: In 80 Zeilen um die VFP-Tabelle
 ogDescription: Ups, I did it again...Oder so ähnlich, aber da ich gestern / heute ein wenig durch meine Kollegen zu Zwangsarbeit genötigt wurde, dachte ich mir die Zeit des Wartens könnte man anderweitig nutzen.Nun...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/in-80-zeilen-um-die-vfp-tabelle/
-imageUrl: https://jochen.kirstaetter.name/content/images/2023/09/in80linesofcode.png
+imageUrl: content/images/2023/09/in80linesofcode.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2023/09/in80linesofcode.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2023/09/in80linesofcode.png
+featureImage: content/images/2023/09/in80linesofcode.webp
 featured: false
 publishedAt: 2005-04-29T00:00:00Z
 updatedAt: 2023-09-18T18:28:57Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Ups, I did it again...  
   
 Oder so ähnlich, aber da ich gestern / heute ein wenig durch meine Kollegen zu Zwangsarbeit genötigt wurde, dachte ich mir die Zeit des Wartens könnte man anderweitig nutzen.  

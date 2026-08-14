@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: How's Mauritius Software Craftsmanship Community going?
 metaDescription: The Mauritius Software Craftsmanship Community (MSCC) has its 6 month anniversary, and as the founder I would like to Thank You all our craftsmen for their interest, engagement, ideas and support during these months!
-image: content/images/2018/02/C2sJy7wWIAA-YaO.jpg
+image: content/images/2018/02/C2sJy7wWIAA-YaO.webp
 ogTitle: How's Mauritius Software Craftsmanship Community going?
 ogDescription: 'Earlier this month I received an email from Meetup.com asking about how our young community is working. Following I simply post their initial contact and the related correspondence:'
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/hows-mauritius-software-craftsmanship-community-going/
-imageUrl: https://jochen.kirstaetter.name/content/images/2018/02/C2sJy7wWIAA-YaO.jpg
+imageUrl: content/images/2018/02/C2sJy7wWIAA-YaO.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2018/02/C2sJy7wWIAA-YaO.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2018/02/C2sJy7wWIAA-YaO.jpg
+featureImage: content/images/2018/02/C2sJy7wWIAA-YaO.webp
 featured: false
 publishedAt: 2013-11-24T05:00:00Z
 updatedAt: 2018-04-02T08:38:44Z
@@ -53,8 +53,7 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
-[![Logo of the Mauritius Software Craftsmanship Community](https://s.kirstaetter.name/images/mscc.jpg)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community")Earlier this month I received an email from Meetup.com asking about how our young community is working. Following I simply post their initial contact and the related correspondence:
+[![Logo of the Mauritius Software Craftsmanship Community](../content/images/2013/11/mscc.webp)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community")Earlier this month I received an email from Meetup.com asking about how our young community is working. Following I simply post their initial contact and the related correspondence:
 
 ***
 

@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: 'MSCC: Purpose and benefits of Version Control Systems (VCS)'
 metaDescription: "MSCC meeting of June: You're working in IT and not using any kind of version control system? Sorry, then you're doing something wrong!"
-image: https://images.unsplash.com/photo-1532883130016-f3d311140ba8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=d0e1f13f94a1949ddb3f024f8d117a03
+image: content/images/2014/06/photo-1532883130016-f3d311140ba8.webp
 ogTitle: 'MSCC: Purpose and benefits of Version Control Systems (VCS)'
 ogDescription: Unfortunately, there was no monthly meetup during May. Which means that it was even more important and interesting to go forward with a great topic for this month. Earlier this year I already spoke to...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mscc-20140628-version-control-systems-git-tfs-vso/
-imageUrl: https://images.unsplash.com/photo-1532883130016-f3d311140ba8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=d0e1f13f94a1949ddb3f024f8d117a03
+imageUrl: content/images/2014/06/photo-1532883130016-f3d311140ba8.webp
 twitterImageUrl: https://images.unsplash.com/photo-1532883130016-f3d311140ba8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=d0e1f13f94a1949ddb3f024f8d117a03
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1532883130016-f3d311140ba8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=d0e1f13f94a1949ddb3f024f8d117a03
+featureImage: content/images/2014/06/photo-1532883130016-f3d311140ba8.webp
 featured: false
 publishedAt: 2014-06-29T04:02:46Z
 updatedAt: 2018-10-23T05:03:16Z
@@ -52,9 +52,9 @@ facebookDescription: Unfortunately, there was no monthly meetup during May. Whic
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
-[![Logo of the Mauritius Software Craftsmanship Community](https://s.kirstaetter.name/images/mscc.jpg)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community")Unfortunately, there was no monthly meetup during May. Which means that it was even more important and interesting to go forward with a great topic for this month. Earlier this year I already spoke to Nayar Joolfoo about doing a presentation on version control systems (VCS), and he gladly agreed since then. It was just about finding the right date for the action. Furthermore, it was also a great coincidence that Avinash Meetoo announced on social media networks that[Knowledge 7](https://www.knowledge7.com/) is about to have a new training on "Effective git" - which correlates to a book title Avinash is currently working on - all the best with your approach on this and reach out to our MSCC craftsmen for recessions.
+[![Logo of the Mauritius Software Craftsmanship Community](../content/images/2013/11/mscc.webp)](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity "Mauritius Software Craftsmanship Community")Unfortunately, there was no monthly meetup during May. Which means that it was even more important and interesting to go forward with a great topic for this month. Earlier this year I already spoke to Nayar Joolfoo about doing a presentation on version control systems (VCS), and he gladly agreed since then. It was just about finding the right date for the action. Furthermore, it was also a great coincidence that Avinash Meetoo announced on social media networks that[Knowledge 7](https://www.knowledge7.com/) is about to have a new training on "Effective git" - which correlates to a book title Avinash is currently working on - all the best with your approach on this and reach out to our MSCC craftsmen for recessions.
 
 Once again a big Thank you to Orange Ebene Accelerator on providing the venue for us, and the MSCC members involved on securing the time slot for our event. Unfortunately, it's kind of tough to get an early confirmation for our meetups these days. I'll keep you posted on that one as there are some interesting and exciting options coming up soon.
 
@@ -105,7 +105,7 @@ Now, having a git repository in place it was about time to work on some "importa
 
 And Nayar demo'd all of them. Much to the delight of everyone he also showed [gitk](https://git-scm.com/docs/gitk "gitk - The git repository browser") which is the git repository browser. It's an UI tool to display changes in a repository or a selected set of commits. This includes visualizing the commit graph, showing information related to each commit, and the files in the trees of each revision.
 
-![Using gitk to display and browse information of a local git repository.](https://s.kirstaetter.name/images/mscc-20140628-1.png)  
+![Using gitk to display and browse information of a local git repository.](../content/images/2014/06/mscc-20140628-1.webp)  
 *Using gitk to display and browse information of a local git repository*
 
 And last but not least, we took advantage of the internet connectivity and reached out to various online portals offering git hosting for free. Nayar showed us how to push the local repository into a remote system on [github](https://github.com/). Showing the web-based git browser and history handling, and then also explained and demo'd on how to connect to existing online repositories in order to get access to either your own source code or other people's open source projects.
@@ -120,7 +120,7 @@ So, why should one opt in for VSO? Well, one of the main aspects that I would li
 
 And, something I mentioned briefly during the begin of our meeting, VSO gives you the possibility of an automated continuous integrated (CI) process which builds and can run tests of your source code after each commit of changes. Having a proper CI strategy is also part of the[Clean Code Developer practices](https://clean-code-developer.com/) - on Level Green actually -, and not only simplifies your life as a software developer but also reduces the sources of potential errors.
 
-![Seamless integration and automated deployment between Microsoft Azure Web Sites and git repository](https://s.kirstaetter.name/images/mscc-20140628-2.png)  
+![Seamless integration and automated deployment between Microsoft Azure Web Sites and git repository](../content/images/2014/06/mscc-20140628-2.webp)  
 *Seamless integration and automated deployment between Microsoft Azure Web Sites and git repository*
 
 But my favourite feature is the seamless continuous deployment to [Microsoft Azure](https://azure.microsoft.com/). Especially, while working on web projects it's absolutely astounishing that as soon as you commit your chances it just takes a couple of seconds until your modifications are deployed and available on your Azure-hosted web sites.

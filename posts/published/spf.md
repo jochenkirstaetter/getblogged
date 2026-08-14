@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: 'Good to know: Sender Policy Framework'
 metaDescription: The Sender Policy Framework (SPF) is an open standard specifying a technical method to prevent sender address forgery. More precisely, the current version of SPF — called SPFv1 or SPF Classic — protects the envelope sender address, which is used for the delivery of messages.
-image: https://images.unsplash.com/photo-1485182708500-e8f1f318ba72?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=19c3505de9f879d697ec3dfb142f2105
+image: content/images/2014/12/photo-1485182708500-e8f1f318ba72.webp
 ogTitle: 'Good to know: Sender Policy Framework'
 ogDescription: Today, I ran into a "funny" situation where I got caught by my own mail server and DNS configuration. Actually, I'm referring to the Sender Policy Framework (SPF) and it disallowed that an email would...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/spf/
-imageUrl: https://images.unsplash.com/photo-1485182708500-e8f1f318ba72?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=19c3505de9f879d697ec3dfb142f2105
+imageUrl: content/images/2014/12/photo-1485182708500-e8f1f318ba72.webp
 twitterImageUrl: https://images.unsplash.com/photo-1485182708500-e8f1f318ba72?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=19c3505de9f879d697ec3dfb142f2105
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1485182708500-e8f1f318ba72?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=19c3505de9f879d697ec3dfb142f2105
+featureImage: content/images/2014/12/photo-1485182708500-e8f1f318ba72.webp
 featured: false
 publishedAt: 2014-12-12T16:03:07Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -52,9 +52,9 @@ facebookDescription: Today, I ran into a "funny" situation where I got caught by
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
-[![Sender Policy Framework](https://s.kirstaetter.name/images/spf-logo-medium.png)](https://www.openspf.org/ "Sender Policy Framework")Today, I ran into a "funny" situation where I got caught by my own mail server and DNS configuration. Actually, I'm referring to the [Sender Policy Framework (SPF)](https://www.openspf.org/) and it disallowed that an email would have been delivered on my behalf.
+[![Sender Policy Framework](../content/images/2014/12/spf-logo-medium.webp)](https://www.openspf.org/ "Sender Policy Framework")Today, I ran into a "funny" situation where I got caught by my own mail server and DNS configuration. Actually, I'm referring to the [Sender Policy Framework (SPF)](https://www.openspf.org/) and it disallowed that an email would have been delivered on my behalf.
 
 ## Delivery Status Notification
 

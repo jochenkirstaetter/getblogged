@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/experimente-mit-bluetooth/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Endlich habe ich mal die Möglichkeit gefunden mit BlueTooth (BT, neudeutsch: Blauzahn) zu experimentieren. Joah, ganz okay. Aber wirklich nur für kurze Distanzen geeignet. Sozusagen für das kleine Büro oder von Jackentasche bis Ohr oder so...
 
 Konkret konnte ich hier mit meinem Asus-Laptop mit integriertem BT und Windows XP im Zusammenspiel mit einem HeadSet (Trust BT210) und dem MDA II experimentieren. Das HeadSet war nach ein paar kleinen Anlaufschwierigkeiten - Lesen will gelernt sein - ziemlich einfach in Betrieb genommen. Nur leider scheint das Teil ein gewaltiges Problem mit der Rückkopplung zu haben, da die Verwendung in Skype so gut wie nicht möglich war. Ständig hat sich die automatische Lautstärkeregelung dazwischen geklemmt. Nunja, vielleicht lag's ja auch einfach nur an mir. Den MDA II konnte ich nach ein paar Probiereieren und Tests dann endlich als Funkmodem über BT nutzen. Um es konkret zu sagen... Dieser Beitrag flog per BT und MDA-Verbindung in die Weiten des Internets.

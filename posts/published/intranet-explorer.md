@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/intranet-explorer/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Ja, das erscheint mir aktuell als wesentlich passenderen Namen für den Microsoft IE. Wieso komme ich darauf? Ausgehend von einer laufenden Unterhaltung mit dem Eisbären ergab sich die Idee nahezu als Konsequenz und mit einigen Überlegungen gefällt mir der Umstand sogar noch besser. Hier mal der Einstieg für euch:  
   
 *12.10.2005 14:39 Delfin@Work: Öhem... cool... Schon mal ins Infosystem geschaut. Ich hab' irgendwie den Rahmen bei der Combobox entsorgt...  

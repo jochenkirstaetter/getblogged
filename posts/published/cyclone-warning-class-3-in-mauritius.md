@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: Cyclone Warning Class 3 in Mauritius
 metaDescription: Cyclone Warning Class 3 in Mauritius Every year around end of January...
-image: content/images/2019/02/CycloneGula2008.jpg
+image: content/images/2019/02/CycloneGula2008.webp
 ogTitle: Cyclone Warning Class 3 in Mauritius
 ogDescription: Every year around end of January... well, ok, to be honest this is my first 'full' January here on the island, but anyways the cyclons are here! Starting on the 29th January there is Cyclone Warning...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/cyclone-warning-class-3-in-mauritius/
-imageUrl: https://jochen.kirstaetter.name/content/images/2019/02/CycloneGula2008.jpg
+imageUrl: content/images/2019/02/CycloneGula2008.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2019/02/CycloneGula2008.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2019/02/CycloneGula2008.jpg
+featureImage: content/images/2019/02/CycloneGula2008.webp
 featured: false
 publishedAt: 2008-01-31T00:00:00Z
 updatedAt: 2019-02-13T03:08:21Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Every year around end of January... well, ok, to be honest this is my first 'full' January here on the island, but anyways the cyclons are here! Starting on the 29th January there is [Cyclone Warning Class](https://metservice.intnet.mu/wcygen.htm) 1 that had been increased during the last 48 hours. The currrent bulletin of [Mauritius Meteorological Services](https://metservice.intnet.mu/) reads like this:  
   
 > **CYCLONE WARNING**  

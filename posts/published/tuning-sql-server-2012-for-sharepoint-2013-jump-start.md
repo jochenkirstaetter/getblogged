@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/tuning-sql-server-2012-for-sharepoint-2013-jump-start/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,8 +53,7 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
-![Microsoft SharePoint](https://s.kirstaetter.name/images/sharepoint.png)Obviously, I am going to run my 30 days challenge of Microsoft SharePoint a little bit different than some readers might have expected it.
+![Microsoft SharePoint](../content/images/2013/09/sharepoint.webp)Obviously, I am going to run my 30 days challenge of Microsoft SharePoint a little bit different than some readers might have expected it.
 
 ## []()Start at the end
 

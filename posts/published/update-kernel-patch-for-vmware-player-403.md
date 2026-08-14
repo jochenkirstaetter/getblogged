@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/update-kernel-patch-for-vmware-player-403/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 As [I stated some days ago](xref:small-hiccup-with-vmware-player-after-upgrading-to-ubuntu-1204 "Patch for kernel 3.2.0 to compile VMware Player 4.0.2"), after upgrading to [Ubuntu](https://www.ubuntu.com/) Precise Pangolin, aka 12.04 LTS, I had a minor obstacle with [VMware](https://www.vmware.com/) products. Today, VMware offered to upgrade to Player 4.0.3 due to security-related reasons.
 
 Initially, I thought that this update might have the patch for kernel 3.2.0 integrated but sadly that is not the case.

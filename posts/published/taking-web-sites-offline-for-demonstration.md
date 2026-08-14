@@ -11,7 +11,7 @@ tags:
 keywords: Development
 metaTitle: Taking web sites offline for demonstration
 metaDescription: How to prepare an offline version of your web site for the purpose of demonstration or for exhibitions.
-image: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=76a0db878c33cf839e0c482a332ddad0
+image: content/images/2012/10/photo-1454165804606-c3d57bc86b40.webp
 ogTitle: Taking web sites offline for demonstration
 ogDescription: While working in software development in general, and in web development for a couple of customers it is quite common that it is necessary to provide a test bed where the client is able to get an...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/taking-web-sites-offline-for-demonstration/
-imageUrl: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=76a0db878c33cf839e0c482a332ddad0
+imageUrl: content/images/2012/10/photo-1454165804606-c3d57bc86b40.webp
 twitterImageUrl: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=76a0db878c33cf839e0c482a332ddad0
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=76a0db878c33cf839e0c482a332ddad0
+featureImage: content/images/2012/10/photo-1454165804606-c3d57bc86b40.webp
 featured: false
 publishedAt: 2012-10-29T12:13:20Z
 updatedAt: 2018-04-02T08:38:55Z
@@ -52,8 +52,8 @@ facebookDescription: While working in software development in general, and in we
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 While working in software development in general, and in web development for a couple of customers it is quite common that it is necessary to provide a test bed where the client is able to get an image, or better said, a feeling for the visions and ideas you are talking about. Usually here at [IOS Indian Ocean Software Ltd.](https://www.ios.mu/ "IOS Indian Ocean Software Ltd.") we set up a demo web site on one of our staging servers, and provide credentials to the customer to access and review our progress and work ad hoc. This gives us the highest flexibility on both sides, as the test bed is simply online and available 24/7. We can update the structure, the UI and data at any time, and the client is able to view it as it suits best for her/him.
 
 ## Limited or lack of online connectivity

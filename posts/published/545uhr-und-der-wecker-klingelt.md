@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/545uhr-und-der-wecker-klingelt/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Oh Mann, ich muss wirklich krank oder geistig umnachtet sein, dass ich freiwillig um diese programmiererfeindliche Uhrzeit aufstehe und mich auf die Socken mache. Aber heute ist nicht irgendein Tag. Nein, ab heute heißt es auch in Deutschland offiziell [Sie sind da!](https://www.sie-sind-da.de "Sie sind da!") Jawohl, die deutschen Produkte zu Visual Studio 2005, SQL Server 2005 und BizTalk Server 2006 werden auf dem Launch-Event in Karlsruhe während der nächsten drei Tage vorgestellt.
 
 Nach meinem aktuellen Kenntnisstand sind über 4.000 Personen angemeldet... Und einer davon bin ich. 😎 Aktuell befinde ich mich gerade im Zug zwischen Neustadt und Karlsruhe... Einigermaßen fit und voller Erwartungen was den heutigen Tag angeht. Ehrlich gesagt, heiße ich diese Abwechslung aus dem Programmieralltag für absolut willkommen. Auf dem letzten Stammtisch und im [Forum der dFPUG](https://forum.dfpug.de "Forum der dFPUG") wurden bereits Treffpunkte von Teilnehmern ausgemacht. Mal gespannt, wen man noch so alles in der Stadthalle antreffen wird. Aktuell weiß ich von mindestens acht Personen, dass sie da sein werden.

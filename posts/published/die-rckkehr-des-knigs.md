@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: Die Rückkehr des Königs
 metaDescription: Die Rückkehr des Königs Yeah, finally.Endlich ist die Extended Edition des dritten Teils von Der Herr der Ringe - Die Rückkehr des Königs - bestellbar. Amazon hat Anfang letzter Woche die virtuellen Shoppingtüren weiter geöffnet. Eigentlich selbst verständlich, daß die Box sofort bestellt wird. Wobei ja inzwischen der Untertitel Collector's
-image: content/images/2023/09/wide-ankle_scene_gondor.png
+image: content/images/2023/09/wide-ankle_scene_gondor.webp
 ogTitle: Die Rückkehr des Königs
 ogDescription: Yeah, finally.Endlich ist die Extended Edition des dritten Teils von Der Herr der Ringe - Die Rückkehr des Königs - bestellbar. Amazon hat Anfang letzter Woche die virtuellen Shoppingtüren weiter...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/die-rckkehr-des-knigs/
-imageUrl: https://jochen.kirstaetter.name/content/images/2023/09/wide-ankle_scene_gondor.png
+imageUrl: content/images/2023/09/wide-ankle_scene_gondor.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2023/09/wide-ankle_scene_gondor.png
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2023/09/wide-ankle_scene_gondor.png
+featureImage: content/images/2023/09/wide-ankle_scene_gondor.webp
 featured: false
 publishedAt: 2004-10-17T00:00:00Z
 updatedAt: 2023-09-18T16:25:35Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Yeah, finally.  
 Endlich ist die Extended Edition des dritten Teils von Der Herr der Ringe - Die Rückkehr des Königs - bestellbar. Amazon hat Anfang letzter Woche die virtuellen Shoppingtüren weiter geöffnet. Eigentlich selbst verständlich, daß die Box sofort bestellt wird. Wobei ja inzwischen der Untertitel Collector's Edition verstärkt Augenwischerei ist - oder sollte man eine Ausgabe mit 500.000+ Exemplaren wirklich noch als Sammleredition bezeichnen?  
 Nunja, nicht mein Problem - das wird's erst, wenn das Paket nicht ankommen sollte...

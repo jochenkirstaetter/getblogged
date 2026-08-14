@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/internetcaches-unglaublich/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 Wow, ich bin mal wieder positiv sprachlos!  
   
 Eigentlich hatte ich bereits vor längerer Zeit die Suche nach weiteren Einträgen meines Blogs eingestellt, da nichts mehr aufzutreiben war. Aber heute ergab es sich mal wieder aus einer Laune heraus, dass ich nach etwas Bestimmten suchte und... Äh, was macht denn ein Blogeintrag von mir in der Trefferliste? Konkret ging's um das Thema HTML Metatags und Verbesserung des Rankings.  

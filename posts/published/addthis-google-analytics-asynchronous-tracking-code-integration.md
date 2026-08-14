@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/addthis-google-analytics-asynchronous-tracking-code-integration/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 During the weekend I did some modifications, read improvements, here on the website according to Search Engine Optimization (SEO), keywords and page load times. Reducing the page load times made it necessarily to arrange my Javascript snippets in the template. So far, everything went well, until I figured out that my Google Analytics dropped down to 0...
 
 So, while checking those issues I stumbled upon the 'new' [Google Analytics Asynchronous Tracking](https://code.google.com/apis/analytics/docs/tracking/asyncTracking.html "Google Analytics Asynchronous Tracking") code. This will also reduce page load time as "asynchronous tracking optimizes how browsers load `ga.js` so its impact on user experience is minimized." - Great!

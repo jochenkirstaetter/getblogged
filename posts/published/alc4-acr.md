@@ -12,7 +12,7 @@ tags:
 keywords: Development, Andela
 metaTitle: Working with Azure Container Registry
 metaDescription: Describes how to take the same React application as discussed in Create React App (ALC 4.0 Cloud Challenge I) and to deploy it as an App Service on Microsoft Azure using a Docker image.
-image: https://images.unsplash.com/photo-1513415277900-a62401e19be4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+image: content/images/2020/01/photo-1513415277900-a62401e19be4.webp
 ogTitle: Working with Azure Container Registry
 ogDescription: Describes how to take the same React application as discussed in Create React App (ALC 4.0 Cloud Challenge I) and to deploy it as an App Service on Microsoft Azure using a Docker image.
 layout: post
@@ -31,16 +31,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/alc4-acr/
-imageUrl: https://images.unsplash.com/photo-1513415277900-a62401e19be4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+imageUrl: content/images/2020/01/photo-1513415277900-a62401e19be4.webp
 twitterImageUrl: https://images.unsplash.com/photo-1513415277900-a62401e19be4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1513415277900-a62401e19be4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+featureImage: content/images/2020/01/photo-1513415277900-a62401e19be4.webp
 featured: false
 publishedAt: 2020-01-15T04:00:07Z
 updatedAt: 2020-01-15T04:00:07Z
@@ -53,8 +53,8 @@ facebookDescription: Describes how to take the same React application as discuss
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 After completing a challenge to create a React application and experimenting with different ways on how to deploy and operate it on the Google Cloud Platform (GCP) I was wondering about how this would possibly work on Microsoft Azure.
 
 The following article describes how to take the same React application as discussed in [Create React App (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-react) and to deploy it as an App Service on Microsoft Azure using a Docker image. You are going to build a new container and push it to the Azure Container Registry (ACR).
@@ -89,7 +89,7 @@ The following command creates an ACR called `alc4program` and associates it with
 
 Perhaps you should check the features and differences of the various [Azure Container Registry SKUs](https://docs.microsoft.com/azure/container-registry/container-registry-skus) and adjust the above command accordingly. Also, for pricing information on each of the Azure Container Registry SKUs, see [Container Registry pricing](https://azure.microsoft.com/pricing/details/container-registry/).
 
-![Azure Container Registry created and ready to store images](../content/images/2019/12/image-1.png)
+![Azure Container Registry created and ready to store images](../content/images/2019/12/image-1.webp)
 
 You find a lot more information about the [Azure Container Registry](https://azure.microsoft.com/services/container-registry/) in the [official documentation](https://docs.microsoft.com/azure/container-registry/).
 
@@ -105,7 +105,7 @@ With the container registry in place you run the `az acr build` command to build
 
 Building the image for Azure Container Registry is somehow identical to [Working with Cloud Build](xref:alc4-cloud-build) on the Google Cloud Platform. One command that does all the hard work for you.
 
-![Latest image build resides in a repository in the Azure Container Registry](../content/images/2019/12/image.png)
+![Latest image build resides in a repository in the Azure Container Registry](../content/images/2019/12/image.webp)
 
 It takes a few minutes to complete the build and push it to the ACR. Maybe time for a little tea break.
 
@@ -115,21 +115,21 @@ Navigate to your Container registry on Azure and choose `Services` &gt; `Reposit
 
 In the extended dropdown menu choose the entry `Deploy to web app` to create a new app service using the container of the React application, as shown below.
 
-![Container image ready for deployment to Web app](../content/images/2019/12/image-2.png)
+![Container image ready for deployment to Web app](../content/images/2019/12/image-2.webp)
 
 This opens the blade `Web App for Containers` and you specify a few attributes, like site name, resource group, location and operating system, etc., about how to deploy the container as an app service in Azure.
 
-![Enter a few details for the new app service](../content/images/2019/12/image-4.png)
+![Enter a few details for the new app service](../content/images/2019/12/image-4.webp)
 
 Click on the `Create` button and wait until the web app has been commissioned. A notification is going to inform you as soon as the web app has been fully deployed and accessible via the internet.
 
 Open the App Service resource and check the `Overview` information. The `Status` field indicates the current state of your web application.
 
-![Overview of container-based app service](../content/images/2019/12/image-7.png)
+![Overview of container-based app service](../content/images/2019/12/image-7.webp)
 
 Click on the link provided in the `URL` field to open a new browser tab and visit your recently created web application.
 
-![React app up and running on Azure within minutes](../content/images/2019/12/image-8.png)
+![React app up and running on Azure within minutes](../content/images/2019/12/image-8.webp)
 
 The Azure App Service is comparable to the features of the Google Cloud App Engine environments. Whether it's Standard or Flex would mainly depend on your choice of runtime.
 

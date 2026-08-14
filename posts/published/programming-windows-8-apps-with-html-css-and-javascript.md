@@ -30,12 +30,12 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/programming-windows-8-apps-with-html-css-and-javascript/
 imageUrl: ''
 twitterImageUrl: ''
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 [![Programming Windows 8 Apps with HTML, CSS, and JavaScript by Kraig Brockschmidt (Microsoft Press)](https://akamaicovers.oreilly.com/images/0790145369406/cat.gif "Programming Windows 8 Apps with HTML, CSS, and JavaScript by Kraig Brockschmidt (Microsoft Press)")](https://blogs.msdn.com/b/microsoft_press/archive/2012/10/29/free-ebook-programming-windows-8-apps-with-html-css-and-javascript.aspx "Programming Windows 8 Apps with HTML, CSS, and JavaScript")It took me a while to work through the 800+ pages of this title. And yes, I really mean working not reading...
 
 Since the release of Windows 8 it should be obvious to any Windows software developer that there are new ways to develop, deploy and market applications for a broader audience. Interestingly, Microsoft started to narrow the technological gap between the various platforms - desktop, web, smartphone and XBox - and development of modern apps with HTML, CSS and JavaScript couldn't be easier. Kraig covers all facets of modern Windows 8 apps from the basic building blocks and project templates in Visual Studio 2012 over to the thoughtful use of specific APIs to finally proper deployment in the App Store and potential monetization.

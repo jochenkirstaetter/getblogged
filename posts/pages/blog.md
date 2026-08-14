@@ -11,7 +11,7 @@ tags:
 keywords: Personal
 metaTitle: Blogging about bits and bytes...
 metaDescription: Welcome to my personal space
-image: content/images/2017/08/20626381_10203983204297799_562900680618946131_o.jpg
+image: content/images/2017/08/20626381_10203983204297799_562900680618946131_o.webp
 ogTitle: Blogging about bits and bytes...
 ogDescription: Welcome to my personal space
 layout: page
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/blog/
-imageUrl: https://jochen.kirstaetter.name/content/images/2017/08/20626381_10203983204297799_562900680618946131_o.jpg
+imageUrl: content/images/2017/08/20626381_10203983204297799_562900680618946131_o.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2017/08/20626381_10203983204297799_562900680618946131_o.jpg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2017/08/20626381_10203983204297799_562900680618946131_o.jpg
+featureImage: content/images/2017/08/20626381_10203983204297799_562900680618946131_o.webp
 featured: false
 publishedAt: 2017-08-07T15:26:37Z
 updatedAt: 2018-04-02T08:38:43Z
@@ -53,7 +53,6 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
 > Welcome to my personal space
 
 On this site I'm writing about various topics in the area of information technology and community activities. From time to time there might be something exotic in-between.

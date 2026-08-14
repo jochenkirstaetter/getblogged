@@ -11,7 +11,7 @@ tags:
 keywords: General
 metaTitle: Verspäteter Einstieg in die Welt der Blogs...
 metaDescription: Verspäteter Einstieg in die Welt der Blogs... Nun, warum eigentlich ein Blog, wo es doch die FAQ mit der Möglichkeit für Mitteilungen und Beiträge gibt? Tjoa, I don't know, aber bloggen scheint aktuell ein wenig hip zu sein und außerdem interessiert mich ehrlich viel mehr die Technik eines Weblog und
-image: https://images.unsplash.com/photo-1510751190565-de07085fcad6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=2665645a883a170c9dedb318afa63e4e
+image: content/images/2004/07/photo-1510751190565-de07085fcad6.webp
 ogTitle: Verspäteter Einstieg in die Welt der Blogs...
 ogDescription: Nun, warum eigentlich ein Blog, wo es doch die FAQ mit der Möglichkeit für Mitteilungen und Beiträge gibt? Tjoa, I don't know, aber bloggen scheint aktuell ein wenig hip zu sein und außerdem...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/verspteter-einstieg-in-die-welt-der-blogs/
-imageUrl: https://images.unsplash.com/photo-1510751190565-de07085fcad6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=2665645a883a170c9dedb318afa63e4e
+imageUrl: content/images/2004/07/photo-1510751190565-de07085fcad6.webp
 twitterImageUrl: https://images.unsplash.com/photo-1510751190565-de07085fcad6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=2665645a883a170c9dedb318afa63e4e
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: https://images.unsplash.com/photo-1510751190565-de07085fcad6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=2665645a883a170c9dedb318afa63e4e
+featureImage: content/images/2004/07/photo-1510751190565-de07085fcad6.webp
 featured: false
 publishedAt: 2004-07-12T00:00:00Z
 updatedAt: 2018-10-23T05:06:59Z
@@ -52,8 +52,8 @@ facebookDescription: Nun, warum eigentlich ein Blog, wo es doch die FAQ mit der 
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+imageAttribution: "Photo on Unsplash"
 ---
-
 Nun, warum eigentlich ein Blog, wo es doch die FAQ mit der Möglichkeit für Mitteilungen und Beiträge gibt? Tjoa, I don't know, aber bloggen scheint aktuell ein wenig hip zu sein und außerdem interessiert mich ehrlich viel mehr die Technik eines Weblog und dessen Implementierung in PHP. Ich hab' mich für ein freies Weblog entschieden, welches zum einen direkten SQL Support - hier MySQL - bietet und ein gewohntes Umfeld für die Formatierung bietet... Nun BBCodes sind mir vertraut und MySQL ist prinzipiell als RDBMS brauchbar. Desweiteren bietet dieses Weblog - boastMachine übrigens - weitere nette Features, auf die ich garantiert nicht verzichten möchte:
 
 - nativer MultiLanguage-Support

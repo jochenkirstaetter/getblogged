@@ -11,7 +11,7 @@ tags:
 keywords: Community
 metaTitle: 'MSCC: Clean Code Developer & Certification in IT'
 metaDescription: Our second meetup on a Saturday produced more traction and attention to the local IT community. As we spoke about Clean Code Developer (CCD) and certifications in IT...
-image: content/images/2019/01/highres_285414502.jpeg
+image: content/images/2019/01/highres_285414502.webp
 ogTitle: 'MSCC: Clean Code Developer & Certification in IT'
 ogDescription: It was a very busy weekend this time, and quite some hectic to organise the second meetup on a Saturday for the Mauritius Software Craftsmanship Community (MSCC) but it was absolutely fun. Following...
 layout: post
@@ -30,16 +30,16 @@ authorTwitter: '@jkirstaetter'
 authorFacebook: https://facebook.com/jochen.kirstaetter
 website: ''
 location: ''
-authorImage: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/mscc-21092013-clean-code-developer-certification/
-imageUrl: https://jochen.kirstaetter.name/content/images/2019/01/highres_285414502.jpeg
+imageUrl: content/images/2019/01/highres_285414502.webp
 twitterImageUrl: https://jochen.kirstaetter.name/content/images/2019/01/highres_285414502.jpeg
-authorImageUrl: https://jochen.kirstaetter.name/content/images/2018/10/JoKi_StAubin_100px.jpg
+authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 tagName: ''
 tagDescription: ''
-featureImage: content/images/2019/01/highres_285414502.jpeg
+featureImage: content/images/2019/01/highres_285414502.webp
 featured: false
 publishedAt: 2013-09-24T03:52:19Z
 updatedAt: 2019-01-28T03:01:04Z
@@ -53,8 +53,7 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-
-[![Banner of Clean Code Developer](https://s.kirstaetter.name/images/ccd.jpg)](https://clean-code-developer.com "Clean Code Developer")It was a very busy weekend this time, and quite some hectic to organise the second meetup on a Saturday for the Mauritius Software Craftsmanship Community (MSCC) but it was absolutely fun. Following, I'm writing a brief summary about the topics we spoke about and the new impulses I got.
+[![Banner of Clean Code Developer](../content/images/2013/09/mscc-21092013-clean-code-developer-certification.webp)](https://clean-code-developer.com "Clean Code Developer")It was a very busy weekend this time, and quite some hectic to organise the second meetup on a Saturday for the Mauritius Software Craftsmanship Community (MSCC) but it was absolutely fun. Following, I'm writing a brief summary about the topics we spoke about and the new impulses I got.
 
 > *"What a meetup... I was positively impressed. At the beginning I thought that noone would actually show up but then by the time the room got filled. Lots of conversation, great dialogues and fantastic networking between fresh students, experienced students, experienced employees, and self-employed attendees. That's what community is all about!"*
 
@@ -82,7 +81,7 @@ As the children got a bit uneasy at the MoMo gathering and I didn't want to dist
 
 Luckily, not too long. Bit by bit more and more IT people came to join our meeting. Meanwhile, I used the time to give a brief introduction about the MSCC in general, what we are (hm, maybe I am) trying to achieve and that the recent phase is completely focused on creating more awareness that a community like the MSCC is active here in Mauritius. As soon as we reached some 'critical mass' of about ten people I asked everyone for a short introduction and bio, just in case... Conversation between participants started to kick in and we were actually more networking than having a focus on our topics of the day.
 
-![MSCC meetup 21.09.2013](https://s.kirstaetter.name/images/mscc-20130921-2.jpg) *  
+![MSCC meetup 21.09.2013](../content/images/2013/09/mscc-20130921-2.webp) *  
 Quick updates on latest news and development around the MSCC*
 
 ## []()Finally, Clean Code Developer
@@ -110,7 +109,7 @@ Interestingly most of the attendees already heard about those key words but coul
 - Apply Simple Refactoring Pattern
 - Reflect Daily
 
-![MSCC meetup 21.09.2013](https://s.kirstaetter.name/images/mscc-20130921-3.jpg) *  
+![MSCC meetup 21.09.2013](../content/images/2013/09/mscc-20130921-3.webp) *  
 Introduction to the principles and practices of Clean Code Developer - here: Red Grade*
 
 As for the various ToDo's we commonly agreed that the Boy Scout Rule clearly is not limited to software development or IT administration but applies to daily life in general. Same for the root cause analysis, btw. We really had good stories with surprisingly endings and conclusions. A quick check about who is using a version control system brought more drive into the conversation. Not only that we had people that aren't using any VCS at all, we also had the 'classic' approach of backup folders and naming conventions as well as the VCS 'junkie' that has to use multiple systems at a time. Just for the records: Git and GitHub seem to be in favour of some of the attendees. Regarding the daily reflection at the end of the day we came up with an easy solution: Wrap it up as a blog entry!
@@ -123,7 +122,7 @@ The ratio between craftsmen with certifications like MCP, MSTS, CCNA or LPI vers
 
 The closing conversations and discussions about how the MSCC is recently doing, what are the possibilities and what's (hopefully) going to happen in the future were really fertile and I made a couple of mental bullet points which I'm looking forward to tackle down together with orher craftsmen. Eventually, it might be a good option to elaborate on some issues during our weekly Code & Coffee sessions one Wednesday morning.
 
-![MSCC meetup 21.09.2013](https://s.kirstaetter.name/images/mscc-20130921-1.jpg) *  
+![MSCC meetup 21.09.2013](../content/images/2013/09/mscc-20130921-1.webp) *  
 Active discussion on various IT topics like certifications (LPI, MCP, CCNA, etc) and sharing experience  
 *
 
