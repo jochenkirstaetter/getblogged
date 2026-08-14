@@ -15,11 +15,15 @@ if ('requestIdleCallback' in window) {
 </script>
 {{/_disqusSiteId}}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js" defer></script>
+{{>partials/vfp-syntax}}
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     // 1. Highlight code blocks (deferred via requestIdleCallback for 0ms TBT)
     function runHighlight() {
         if (window.hljs && typeof hljs.highlightAll === 'function') {
+            if (window.registerVfpLanguage) {
+                window.registerVfpLanguage(window.hljs);
+            }
             hljs.highlightAll();
         }
     }
