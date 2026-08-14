@@ -60,14 +60,14 @@ Nach einem ereignisreichen Tag liess ich es im 6. Intervall (21:30 bis 1:00 Uhr)
 
 Nun, was stelle ich jetzt noch so an? Zeitig um eins habe ich mich für 30 Minuten schlafen gelegt. Noch stellen sich keine Träume ein oder ich kann mich beim Aufwachen nicht mehr erinnern. Deutschland, 1:30 Uhr mitten in der Nacht und ein fitter JoKi - was tun? Och, fangen wir doch mit ein paar lockeren Übungen an:
 
-- Küchenfenster putzen (hey, cool - macht Spass!) \*grübel - noch ganz knusprig?\*  
+- Küchenfenster putzen (hey, cool - macht Spass!) *grübel - noch ganz knusprig?*  
 - Frühstück kochen (Rote Grütze und Sahne - ich freu mich bereits für um 6:00 oder so)  
 - Herd schrubben, auf den Backofen habe ich heute noch verzichtet  
 - Wäsche abhängen und versorgen  
 - Müll rausbringen  
 - etc.
 
-Hammer! Effektiv sind das meine Tätigkeiten, die ich in der letzten Zeit sehr stiefmütterlich gehandelt habe und nur unter größten Anstrengungen im Kampf mit meinem inneren Schweinehund erledigt habe. \*Flupp\* - hey, macht Spass, mehr Hausarbeit.
+Hammer! Effektiv sind das meine Tätigkeiten, die ich in der letzten Zeit sehr stiefmütterlich gehandelt habe und nur unter größten Anstrengungen im Kampf mit meinem inneren Schweinehund erledigt habe. *Flupp* - hey, macht Spass, mehr Hausarbeit.
 
 Leute, ich glaube, dass es doch Nebenwirkungen hat - man spinnt weitaus mehr als schon zuvor. Herrje, allein die Vorstellung, dass ich zu einer Mega-Putze mutieren könnte. Tjoa, auf die Badreinigung habe ich noch verzichtet. Es kommen ja noch Stunden über Stunden, die es mit Aktivitäten zu füllen sind. Endlich mal Zeit für die "unangenehmen" Dinge des Lebens.
 

@@ -53,7 +53,7 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-Ahhhhh, heute hat definitiv eine zweite Bescherung stattgefunden. Warum? - Ganz einfach, ich tippere hier gerade ein wenig am Blog und betrachte die neue Hardware auf meinem Schreibtisch. Hm, okay, Hardware alleine ist nicht ausreichend... Nach der Bestellung am Dienstag mittag und der prompten Zustellung heute Abend kann ich mich ein wenig ausgiebiger an den Leistungsdaten, dem Gehäuseaufbau und der Software (\*hüstel\*) meines zappelfrischen Notebooks ergötzen.
+Ahhhhh, heute hat definitiv eine zweite Bescherung stattgefunden. Warum? - Ganz einfach, ich tippere hier gerade ein wenig am Blog und betrachte die neue Hardware auf meinem Schreibtisch. Hm, okay, Hardware alleine ist nicht ausreichend... Nach der Bestellung am Dienstag mittag und der prompten Zustellung heute Abend kann ich mich ein wenig ausgiebiger an den Leistungsdaten, dem Gehäuseaufbau und der Software (*hüstel*) meines zappelfrischen Notebooks ergötzen.
 
 Hier mal ein kurzer Überblick zu den Leistungsdaten:  
 Asus A6KM  

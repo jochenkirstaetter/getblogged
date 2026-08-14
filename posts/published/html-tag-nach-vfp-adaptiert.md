@@ -68,88 +68,88 @@ Das Element **legend** ist für die Beschriftung verantwortlich und repräsentie
 
 Der erste Lösungsansatz ist sehr einfach gehalten: Wir erzeugen uns eine Shape-Klasse, die eigenständig ein zugehöriges Label instanziiert und positioniert:
 
-```
+```foxpro
 *======================================================================
 * Fieldset-Shape
 * Erzeugt bei der Initialisierung ein Label zur Beschriftung des Shapes
 * und positioniert es.
 *======================================================================
 Define Class FieldSet As Shape
- cCaption = ""
- cPrefixLabel = "lbl"
- nOffsetTop = -7
- nOffsetLeft = 5
- lUseLabel = .T.  && Readonly @ Runtime ;-)
- MemberClass = ""
- MemberClassLibrary = ""
- Protected oLegend
- oLegend = .Null.
- 
- *------------------------------------------------------------------
- * Initialisierung und (optionale) Erstellung der Beschriftung.
- *------------------------------------------------------------------
- Function Init() As Boolean
-  DoDefault()
-  If This.lUseLabel
-   This.createLabel()
-  EndIf
- EndFunc
- 
- *------------------------------------------------------------------
- * Label instanziieren und positionieren.
- *------------------------------------------------------------------
- Protected Function createLabel() As VOID
-  With This
-   If Vartype(.cCaption) == "C"
-    .oLegend = NewObject(Evl(.MemberClass, "Label"), .MemberClassLibrary)
-    If Vartype(.oLegend) == "O"
-     With .oLegend As Label
-      .Name = This.cPrefixLabel + This.Name
-      .BackColor = Thisform.BackColor
-      .BackStyle = 1
-      .Anchor = 0
-      .Left = This.Left + This.nOffsetLeft
-      .Top = This.Top + This.nOffsetTop
-      .Anchor = Bitclear(Bitclear(This.Anchor, 2), 3)
-      .ZOrder(0)
-     EndWith
-     This.cCaption = This.cCaption
-    EndIf
-   EndIf
-  EndWith
- EndFunc
+  cCaption = ""
+  cPrefixLabel = "lbl"
+  nOffsetTop = -7
+  nOffsetLeft = 5
+  lUseLabel = .T.  && Readonly @ Runtime ;-)
+  MemberClass = ""
+  MemberClassLibrary = ""
+  Protected oLegend
+  oLegend = .Null.
 
- *------------------------------------------------------------------
- * Nachträgliche Änderungen der Caption gestatten.
- * Dies ermöglicht auch das Aus-/Einblenden des Controls.
- *------------------------------------------------------------------
- Function cCaption_Assign(tcValue As String)
+  *------------------------------------------------------------------
+  * Initialisierung und (optionale) Erstellung der Beschriftung.
+  *------------------------------------------------------------------
+  Function Init() As Boolean
+    DoDefault()
+    If This.lUseLabel
+      This.createLabel()
+    EndIf
+  EndFunc
+
+  *------------------------------------------------------------------
+  * Label instanziieren und positionieren.
+  *------------------------------------------------------------------
+  Protected Function createLabel() As VOID
   With This
-   If Vartype(.oLegend) == "O"
-    .oLegend.Caption = m.tcValue
-    .oLegend.Visible = Not Empty(m.tcValue)
-   EndIf
-   .cCaption = m.tcValue
+    If Vartype(.cCaption) == "C"
+      .oLegend = NewObject(Evl(.MemberClass, "Label"), .MemberClassLibrary)
+      If Vartype(.oLegend) == "O"
+        With .oLegend As Label
+          .Name = This.cPrefixLabel + This.Name
+          .BackColor = Thisform.BackColor
+          .BackStyle = 1
+          .Anchor = 0
+          .Left = This.Left + This.nOffsetLeft
+          .Top = This.Top + This.nOffsetTop
+          .Anchor = Bitclear(Bitclear(This.Anchor, 2), 3)
+          .ZOrder(0)
+        EndWith
+        This.cCaption = This.cCaption
+      EndIf
+    EndIf
   EndWith
- EndFunc
- 
- *------------------------------------------------------------------
- * Schreibschutz für This.lUseLabel implementieren.
- *------------------------------------------------------------------
- Function lUseLabel_Assign(tlValue As Boolean)
+EndFunc
+
+*------------------------------------------------------------------
+* Nachträgliche Änderungen der Caption gestatten.
+* Dies ermöglicht auch das Aus-/Einblenden des Controls.
+*------------------------------------------------------------------
+Function cCaption_Assign(tcValue As String)
+  With This
+    If Vartype(.oLegend) == "O"
+      .oLegend.Caption = m.tcValue
+      .oLegend.Visible = Not Empty(m.tcValue)
+    EndIf
+    .cCaption = m.tcValue
+  EndWith
+EndFunc
+
+*------------------------------------------------------------------
+* Schreibschutz für This.lUseLabel implementieren.
+*------------------------------------------------------------------
+Function lUseLabel_Assign(tlValue As Boolean)
   Error 1740, "lUseLabel"
- EndFunc
- 
- *------------------------------------------------------------------
- * Objektreferenz sauber auflösen und Label entsorgen.
- *------------------------------------------------------------------
- Function Destroy() As Boolean
+EndFunc
+
+*------------------------------------------------------------------
+* Objektreferenz sauber auflösen und Label entsorgen.
+*------------------------------------------------------------------
+Function Destroy() As Boolean
   With This
-   If Vartype(.oLegend) == "O"
-    .oLegend = .Null.
-   EndIf
+    If Vartype(.oLegend) == "O"
+      .oLegend = .Null.
+    EndIf
   EndWith
- EndFunc
+EndFunc
 EndDefine
 ```
 

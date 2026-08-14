@@ -56,7 +56,7 @@ codeinjectionFoot:
 Im Zuge der Community GetTogethers besteht glücklicherweise die Chance, dass man mit geschätzten Kollegen und Freunden zusammenkommt. Leider verhindert die räumliche Distanz oftmals die gemeinsamen Treffen, nunja, in Zeiten digitaler Kommunikationsmittel und Flatrate für's Telefonieren ist das nicht weiter bedauernswert. Aber... sind wir mal ehrlich, die Offline-Meetings sind doch wesentlich emotionaler und ergreifender. Es war mir eine Herzensfreude endlich mal wieder Tiger (aka Alexander) die Pfote zu schütteln zu dürfen.  
 Same procedure with my good fellow The Icebeer (aka Special Agent G aka Golo). Well, to all other common readers of my blog I apologize to write this paragraph in my poor English tongue but probably there could be misinterpretations... So, please don't take these sentences too serious. I try be to nice^W gentle.
 
-Hey, Späßle gemacht! ;-) Versuchen wir weiter auf deutsch zu schreiben, auch wenn ich damit genauso meine lieben Schwierigkeiten habe... Hm, vielleicht sollte ich mehr auf Fuchsig schreiben, aber dann versteht mich ja keiner... \*snief\*
+Hey, Späßle gemacht! ;-) Versuchen wir weiter auf deutsch zu schreiben, auch wenn ich damit genauso meine lieben Schwierigkeiten habe... Hm, vielleicht sollte ich mehr auf Fuchsig schreiben, aber dann versteht mich ja keiner... *snief*
 
 So, weiter in der Agenda... Mittagessen!
 

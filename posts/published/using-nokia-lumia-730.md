@@ -53,7 +53,7 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-[![Lumia 730/735 on Amazon](../content/images/2015/01/wp8-lumia730.webp)](https://www.amazon.com/gp/product/B00NOZLU52/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00NOZLU52&linkCode=as2&tag=geblbyjo-20&linkId=RULT2CFXGUTQRFKV)![](https://ir-na.amazon-adsystem.com/e/ir?t=geblbyjo-20&l=as2&o=1&a=B00NOZLU52)  
+[![Lumia 730/735 on Amazon](../content/images/2015/01/wp8-lumia730.webp)](https://www.amazon.com/gp/product/B00NOZLU52/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00NOZLU52&linkCode=as2&tag=geblbyjo-20&linkId=RULT2CFXGUTQRFKV)![Source: Nokia Lumia 730/735 on Amazon](https://ir-na.amazon-adsystem.com/e/ir?t=geblbyjo-20&l=as2&o=1&a=B00NOZLU52)  
 *Source: Nokia Lumia 730/735 on Amazon*
 
 It's already one month since I bought a Nokia / Microsoft Lumia 730 during one of my business trips in Europe. And quite frankly I'm going to summarise my impressions, up & downs during this time using the device itself, the Windows Phone 8.1 operating system and the apps during this period.
@@ -138,7 +138,7 @@ The first couple of days I felt unproductive and really thought that I made the 
 
 Originally I thought that setting the Region to my actual location of stay would be a good option but unfortunately Microsoft seems to have other ideas than their customers. Why would I say that? Well, in order to be able to use the "advanced" features like remote installation of Windows Phone 8 Apps via your browser the setup has to be coherent to each other. Meaning, the preferred language options in your browser - whether it's Internet Explorer, Chrome or Firefox - and the regional settings on your smartphone have to match each other. In my case, it's a bit tough to get an English version of the Windows Phone App Store for Mauritius. Either I get redirected to the British or the US version of the store and some features like the "Install" button are not available.
 
-**Piece of advice:** Set the Country/Region option on your phone to United States and your browser's preferred language to en\_US and you're good to go.
+**Piece of advice:** Set the Country/Region option on your phone to United States and your browser's preferred language to en_US and you're good to go.
 
 Additional to more comfort on the website you'll also get access to more apps in the US store than in other countries. And you can still set the Regional format to a different setting.
 

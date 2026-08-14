@@ -63,6 +63,6 @@ Cannot install this version of the product. You must first remove any earlier ve
 Für mich steht da übersetzt folgendes:  
 Lieber Anwender, schön dass du zu doof bist und Vorabversionen unserer Produkte einsetzt. Leider sind wir bei Microsoft ebenfalls unfähig, unsere Installationsroutinen für dieses Szenario anzupassen.
 
-Leute, Leute... So etwas in absolut inakzeptabel und oberpeinlich. Besonders da die Vorversion unter dem Programmnamen \*Windows Command Shell\* in der Softwareliste steht.  
+Leute, Leute... So etwas in absolut inakzeptabel und oberpeinlich. Besonders da die Vorversion unter dem Programmnamen *Windows Command Shell* in der Softwareliste steht.  
 Jeder andere ISV kann es besser. Shame on you, Microsoft!  
 Bis denne, JoKi

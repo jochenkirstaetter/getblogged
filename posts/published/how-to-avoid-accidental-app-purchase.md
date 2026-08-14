@@ -62,7 +62,7 @@ Lately, we were joking about this on some social media network, and we heard abo
 If you don't... Well, eventually you might find some "unknown" transactions on your credit card statement. I already had this pleasure thanks to my little engineers (read: cutie monsters). Yesterday night I went to check the balance and transactions of last month and was kind of surprised to see this:
 
 ![Check your credit card statements regularly for unknown transactions.](../content/images/2014/09/PlayStore-CC.webp)  
-*Check your credit card statements regularly for unknown transactions. Specifically those ones prefixed by "Google \*". It might be surprising...*
+*Check your credit card statements regularly for unknown transactions. Specifically those ones prefixed by "Google *". It might be surprising...*
 
 Yup, clearly a transaction I'm 100% sure that it wasn't done by myself.
 

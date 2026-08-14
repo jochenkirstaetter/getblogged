@@ -55,9 +55,9 @@ codeinjectionFoot:
 ---
 Am Ende der Woche reicht die Zeit doch noch für eine aktualisierte Version des HTML Plugin for Active FoxPro Pages aus. Hierbei handelt es sich um einen Bugfix-Release. Primär wurde Probleme im Zusammenspiel mit dem AfpWiki behoben. Davon betroffen sind die Methode  
   
-\* BBCode()  
-\* Links()  
-\* SourceCode()  
+* BBCode()  
+* Links()  
+* SourceCode()  
   
 Die neue Version ist wie die vorherigen unter VFP 9.0 kompiliert. Den Download gibt's hier:  
   

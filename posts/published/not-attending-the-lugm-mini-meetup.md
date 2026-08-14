@@ -104,7 +104,7 @@ Next, check your php.ini file with the following statement:
 
 And check the value of
 
-- expose\_php = **Off**
+- expose_php = **Off**
 
 Again, if it's not as highlighted, change it...
 

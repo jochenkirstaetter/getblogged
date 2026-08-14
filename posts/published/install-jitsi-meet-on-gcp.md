@@ -316,7 +316,7 @@ server {
 
 ### Change SSL protocol versions and ciphers
 
-By default nginx is enabled to support TLS 1.0, TLS 1.1 and TLS 1.2. However the two former protocols are legacy protocol that shouldn't be used. TLS v1.0 and TLS v1.1 have been deprecated in January 2020 by modern browsers. Hence you should change the ssl\_protocols directive like so.
+By default nginx is enabled to support TLS 1.0, TLS 1.1 and TLS 1.2. However the two former protocols are legacy protocol that shouldn't be used. TLS v1.0 and TLS v1.1 have been deprecated in January 2020 by modern browsers. Hence you should change the ssl_protocols directive like so.
 
 ```
     # ssl_protocols TLSv1 TLSv1.1 TLSv1.2;

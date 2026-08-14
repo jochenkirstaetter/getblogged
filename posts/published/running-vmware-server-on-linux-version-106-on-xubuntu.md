@@ -73,14 +73,14 @@ vmware
   
 to see what's happening behind the scenes. I got several errors according to wrong version of gcc:  
   
-/usr/lib/vmware/bin/vmware: /usr/lib/vmware/lib/libgcc\_s.so.1/libgcc\_s.so.1: version ` GCC_3.4' not found (required by /usr/lib/libcairo.so.2)<br />/usr/lib/vmware/bin/vmware: /usr/lib/vmware/lib/libgcc_s.so.1/libgcc_s.so.1: version  `GCC\_4.2.0' not found (required by /usr/lib/libstdc++.so.6)  
-/usr/lib/vmware/bin/vmware: /usr/lib/vmware/lib/libgcc\_s.so.1/libgcc\_s.so.1: version ` GCC_3.4' not found (required by /usr/lib/libcairo.so.2)<br />/usr/lib/vmware/bin/vmware: /usr/lib/vmware/lib/libgcc_s.so.1/libgcc_s.so.1: version  `GCC\_4.2.0' not found (required by /usr/lib/libstdc++.so.6)  
-/usr/lib/vmware/bin/vmware: /usr/lib/vmware/lib/libgcc\_s.so.1/libgcc\_s.so.1: version ` GCC_3.4' not found (required by /usr/lib/libcairo.so.2)<br />/usr/lib/vmware/bin/vmware: /usr/lib/vmware/lib/libgcc_s.so.1/libgcc_s.so.1: version  `GCC\_4.2.0' not found (required by /usr/lib/libstdc++.so.6)  
+/usr/lib/vmware/bin/vmware: /usr/lib/vmware/lib/libgcc_s.so.1/libgcc_s.so.1: version ` GCC_3.4' not found (required by /usr/lib/libcairo.so.2)<br />/usr/lib/vmware/bin/vmware: /usr/lib/vmware/lib/libgcc_s.so.1/libgcc_s.so.1: version  `GCC_4.2.0' not found (required by /usr/lib/libstdc++.so.6)  
+/usr/lib/vmware/bin/vmware: /usr/lib/vmware/lib/libgcc_s.so.1/libgcc_s.so.1: version ` GCC_3.4' not found (required by /usr/lib/libcairo.so.2)<br />/usr/lib/vmware/bin/vmware: /usr/lib/vmware/lib/libgcc_s.so.1/libgcc_s.so.1: version  `GCC_4.2.0' not found (required by /usr/lib/libstdc++.so.6)  
+/usr/lib/vmware/bin/vmware: /usr/lib/vmware/lib/libgcc_s.so.1/libgcc_s.so.1: version ` GCC_3.4' not found (required by /usr/lib/libcairo.so.2)<br />/usr/lib/vmware/bin/vmware: /usr/lib/vmware/lib/libgcc_s.so.1/libgcc_s.so.1: version  `GCC_4.2.0' not found (required by /usr/lib/libstdc++.so.6)  
   
 and therefore I did a short research on the web to find [a nice solution](https://communities.vmware.com/thread/148107):  
   
-cd /usr/lib/vmware/lib/libgcc\_s.so.1  
-sudo mv libgcc\_s.so.1 libgcc\_s.so.1.org  
+cd /usr/lib/vmware/lib/libgcc_s.so.1  
+sudo mv libgcc_s.so.1 libgcc_s.so.1.org  
 cd ../libpng12.so.0  
 sudo mv libpng12.so.0 libpng12.so.0.org  
   

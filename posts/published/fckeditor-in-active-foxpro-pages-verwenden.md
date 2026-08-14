@@ -67,26 +67,26 @@ Ich verwende hier exemplarisch die Endung .code, da es in der AFP so üblich fü
 
 Nach der Integration der Klassendefinition werden die beiden Beispieldokumente (\*.afp) ins AfpWiki assimiliert:  
 
-```
-&lt;%  
+```foxpro
+&lt;%
 sBasePath="./FckEditor/" && Change this to your local path
 
-lcText=[This is some &lt;strong&gt;sample text&lt;/strong&gt;. You are using ]  
+lcText=[This is some &lt;strong&gt;sample text&lt;/strong&gt;. You are using ]
 lcText=lcText+[&lt;a href='https://www.fckeditor.net/'&gt;FCKeditor&lt;/a&gt;.]
 
-oFCKeditor = CREATEOBJECT("FCKeditor")  
-oFCKeditor.fckeditor("FCKeditor1")  
-oFCKeditor.BasePath = sBasePath  
+oFCKeditor = CREATEOBJECT("FCKeditor")
+oFCKeditor.fckeditor("FCKeditor1")
+oFCKeditor.BasePath = sBasePath
 oFCKeditor.cValue = lcText
 
-Response.Write( oFCKeditor.Create() )  
+Response.Write( oFCKeditor.Create() )
 %&gt;
 ```
   
 Nach einer anfänglichen Wehr - wer kommt auch auf die Idee, Variablennamen gleich Feldnamen des aktiven Alias zu setzen, und diesen auch noch 'html' zu nennen? - präsentierte sich der FCKeditor im gewohnten Bild im Layout des AfpWiki. Soviel zum Thema AFP debuggen und Master Pages ;-)
 
 ## Optisches Finetuning
-Die weiteren Schritte umfassen nun lediglich noch das Customizing und Skinning für die Optik des AfpWiki, welche aber individuell jede/r selbst abstimmen kann. Weiterhin werde ich in der applikationsweiten Konfiguration \*afpwiki.afpa\* noch ein paar Kontroloptionen für die Bearbeitung von Topics im Allgemeinen und dann editorspezifisch im Detail einrichten. Schliesslich habe ich nur wenig Interesse, dass beim Upgrade des FCKeditors mein eigener Code entsorgt werden würde.
+Die weiteren Schritte umfassen nun lediglich noch das Customizing und Skinning für die Optik des AfpWiki, welche aber individuell jede/r selbst abstimmen kann. Weiterhin werde ich in der applikationsweiten Konfiguration *afpwiki.afpa* noch ein paar Kontroloptionen für die Bearbeitung von Topics im Allgemeinen und dann editorspezifisch im Detail einrichten. Schliesslich habe ich nur wenig Interesse, dass beim Upgrade des FCKeditors mein eigener Code entsorgt werden würde.
 
 ## Fazit
 Zusammenfassend lässt sich sagen, dass die mitgelieferten AFP-Beispiele des FCKeditors mit einer eventuellen Anpassung des Basispfades direkt funktionieren und die Integration in eigene AFP-Anwendungen wirklich nur eine Sache von Minuten ist.

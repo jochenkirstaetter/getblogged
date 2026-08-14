@@ -73,8 +73,8 @@ Hallo erstmal. Ich weiß ja nicht, ob sie es wussten...
 Jede Konferenz nimmt leider ihr Ende und ich sehe der ganzen Sache mit einem weinenden und lachenden Auge hinterher: 2006 in Prag geht zu Ende, aber 2007 wird wieder stattfinden. Und ich werde wieder da sein. Es ist wirklich schade, dass man oftmals nur im Rahmen einer Konferenz zum Treffpunkt mit VFP-Entwicklern aus anderen Nationen nutzen kann. Nun, schauen wir mal... Es hat mir persönlich auf alle Fälle wieder sehr viel Freude und Spass gebracht. Die nächsten Termine sind schon in der Planung bzw. Sichtweite:
 
 dFPUG VFP Entwicklerkonferenz 2006 in Frankfurt  
-AtoutFox 2006 in Paris \*(noch offen)\*  
-Devcon Moskau 2007 \*(noch offen)\* - hier hoffe ich auf den [FoxClub.ru](https://www.foxclub.ru)
+AtoutFox 2006 in Paris *(noch offen)*  
+Devcon Moskau 2007 *(noch offen)* - hier hoffe ich auf den [FoxClub.ru](https://www.foxclub.ru)
 
 Bis dahin wird sicherlich noch sehr viel in der Fuchsszene passieren.  
 Euer Harry Hirsch aka JoKi... ;-)

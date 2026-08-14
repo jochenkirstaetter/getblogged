@@ -61,9 +61,9 @@ Eigentlich hatte ich aus einer reinen Spiellaune heraus bereits Ende letzten Jah
 ## Die beteiligten Technologien
 Die verwendeten Technologien zur Ausführung von WinForms in Visual FoxPro (oder jeder anderen Programmiersprache) sehen wie folgt aus:
 
-\* .NET Framework 1.1 oder 2.0  
-\* Visual FoxPro (oder beliebig)  
-\* Windows API
+* .NET Framework 1.1 oder 2.0  
+* Visual FoxPro (oder beliebig)  
+* Windows API
 
 Ich werde nachfolgend die einzelnen Schritte beschreiben und versuchen zu erläutern. Zum Nachvollziehen der Codebeispiele könnt ihr den [COM Proxy for .NET](xref:windows-forms-in-vfp) verwenden. Die Dynamic-Link Library liegt für das .NET Framework 1.1 und 2.0 vor.
 
@@ -107,7 +107,7 @@ this.threadForm.Show();
 Application.Run();  
 }
 
-private void WinForm\_Closing(object sender, System.ComponentModel.CancelEventArgs e)  
+private void WinForm_Closing(object sender, System.ComponentModel.CancelEventArgs e)  
 {  
 Application.ExitThread();  
 }  
@@ -122,18 +122,18 @@ void Closing();
 }  
 ```
   
-Das ist das eigentliche Grundgerüst. In den Projekteigenschaften noch hinterlegt, dass wir \*Register for COM interop\* wollen und kompilieren.  
-\*Anmerkung:\* Es steht euch frei, hier weiteren Code zu implementieren. Dieser Artikel zeigt lediglich proof-of-concept. 😎
+Das ist das eigentliche Grundgerüst. In den Projekteigenschaften noch hinterlegt, dass wir *Register for COM interop* wollen und kompilieren.  
+*Anmerkung:* Es steht euch frei, hier weiteren Code zu implementieren. Dieser Artikel zeigt lediglich proof-of-concept. 😎
 
 ## Visual FoxPro
 Nach der Registrierung des COM-Servers (erfolgt beim Kompilieren automatisch) können wir die Tests in VFP starten. Meine Empfehlung: Zuerst interaktiv im Command Window probieren:  
 
-```
-oCom = CreateObject("ProLib.WinForm")  
-oForm = oCom.RunForm()  
+```foxpro
+oCom = CreateObject("ProLib.WinForm")
+oForm = oCom.RunForm()
 ```
   
-Nach Ausführung der Zeilen erscheint eine WinForm auf dem Desktop. Diese Form kann frei bewegt werden und entspricht damit (in etwa) dem gewohnten Verhalten von instanziierten COM-Servern, wie etwa \*Word.Application\*. Weiterhin ist die Form nicht-modal, d.h. dass in VFP weiterer Code ausgeführt wird. Und in der Tat können wir beliebig weitere Eingaben in VFP absetzen und die Form problemlos fernsteuern:  
+Nach Ausführung der Zeilen erscheint eine WinForm auf dem Desktop. Diese Form kann frei bewegt werden und entspricht damit (in etwa) dem gewohnten Verhalten von instanziierten COM-Servern, wie etwa *Word.Application*. Weiterhin ist die Form nicht-modal, d.h. dass in VFP weiterer Code ausgeführt wird. Und in der Tat können wir beliebig weitere Eingaben in VFP absetzen und die Form problemlos fernsteuern:  
 
 ```
 oForm.Left = 150  
@@ -145,21 +145,21 @@ oForm.Top = 200
 Damit wir die WinForm nun in die Grenzen des VFP-Hauptfenster transferieren können, benötigen wir die Fähigkeiten der Windows 32 API. Dort wird uns eine Funktion namens SetParent() zur Verfügung gestellt. Diese Funktion ermöglicht es, dass man zwei Handles in Relation zueinander setzen kann. Man vergibt lediglich ChildHandle und ParentHandle und die Funktion kümmert sich um die Neuanordnung.  
 
 ```
-\*#beautify keyword\_nochange  
-\* see [https://support.microsoft.com/kb/894818/](https://support.microsoft.com/kb/894818/)
+*#beautify keyword_nochange  
+* see [https://support.microsoft.com/kb/894818/](https://support.microsoft.com/kb/894818/)
 
 Declare Integer SetParent in Win32API ;  
 Integer, Integer  
-\*#beautify
+*#beautify
 
-\* WinForm bound to VFP main screen.  
-SetParent(oForm.Handle, \_VFP.hWnd)
+* WinForm bound to VFP main screen.  
+SetParent(oForm.Handle, _VFP.hWnd)
 
-\* WinForm back on desktop.  
+* WinForm back on desktop.  
 SetParent(oForm.Handle, 0)  
 ```
   
-Danach kann man die Windows Form nur noch innerhalb der Abmessungen des VFP-Hauptfenster anordnen. Das entspricht FoxPro-Forms mit der Eigenschaft \*Desktop=.F.\* und \*ShowWindow=0\*. Das ParentHandle 0 repräsentiert den Desktop.
+Danach kann man die Windows Form nur noch innerhalb der Abmessungen des VFP-Hauptfenster anordnen. Das entspricht FoxPro-Forms mit der Eigenschaft *Desktop=.F.* und *ShowWindow=0*. Das ParentHandle 0 repräsentiert den Desktop.
 
 ## Ereignisse der WinForm an VFP melden
 Aktuell bietet der COM-Server noch keine Ereignisse. Diese können aber problemlos per Delegates und Publizierung in der Type Library realisiert werden. Der Artikel [.NET per COM nutzen](xref:net-per-com-nutzen) schneidet das Thema bereits an.

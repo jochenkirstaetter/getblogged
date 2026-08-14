@@ -66,7 +66,7 @@ Inzwischen habe ich mir mal ein paar Artikel und Informationen zum Thema Power N
 - [https://www.3sat.de/3sat.php?https://www.3sat.de/nano/cstuecke/46618/index.html](https://www.3sat.de/3sat.php?https://www.3sat.de/nano/cstuecke/46618/index.html)
 
 Insgesamt gibt es, zumindest so scheint es gegenwärtig, nur positive Aussagen zum gepflegten Mittagsschläfchen.  
-\*"Da das Gehirn während dieser Phase stärker als sonst durchblutet ist, scheint der REM-Schlaf wahrscheinlich vor allem der Erholung des Nervensystems und der Psyche zu dienen."\*  
+*"Da das Gehirn während dieser Phase stärker als sonst durchblutet ist, scheint der REM-Schlaf wahrscheinlich vor allem der Erholung des Nervensystems und der Psyche zu dienen."*  
 Dem kann ich nach meiner kurzen Experimentalzeit definitiv zustimmen, da ich tagsüber wesentlich fitter als zuvor am Arbeitsplatz bin. Gerade nach der Mittagszeit. Eine weitere Ergänzung hierbei mag sicherlich auch sein, dass ich inzwischen synchron zu den Schlafphasen meine Essgewohnheiten am Umstellen bin.
 
 ## Schlafen, Essen und Arbeiten

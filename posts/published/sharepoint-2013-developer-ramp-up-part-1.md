@@ -83,7 +83,7 @@ The links are in no preferential order and I added them as soon as I found them.
 
 First contact with the 'real stuff' in order to get an idea about software development in Microsoft SharePoint and beyond. Unfortunately and as already expected, the marketing department over at Microsoft seemed to have nothing better to do than to invent new names and baptise literally the same product with every release. Luckily, the release cycles between versions have been three years (roughly) - 2007, 2010, and 2013. Nonetheless, there will be a lot of version-specfic issues to tackle during this learning phase. Especially, when it's about historical expressions like 'WSS'\* like I had it yesterday... It's going to be exciting and demanding to catch up with roughly 6-7 years of development and changes. Okay, let's face it.
 
-\* WSS stands for Windows SharePoint Services 3.0 which forms the 'core engine' of SharePoint 2007.
+* WSS stands for Windows SharePoint Services 3.0 which forms the 'core engine' of SharePoint 2007.
 
 Part 1 of Andrew Connell's series on SharePoint 2013 for developers provides a brief history and overview of the various product names and their relation to the actual SharePoint version. I guess, I might create a cheat-sheet or something comparable in order to reduce the level of confusion while reading through other material:
 

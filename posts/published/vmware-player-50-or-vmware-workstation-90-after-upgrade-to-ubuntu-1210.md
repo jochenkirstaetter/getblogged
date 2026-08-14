@@ -93,4 +93,4 @@ In case that you are going to apply the patch again, the script will simply quit
 
 You might remove the .patched file in case that you upgraded/changed your kernel and you need to apply the patch again.
 
-Disclaimer: The patch is "as-is" and the patcher is originally created by Artem S. Tashkinov, and later modified by An\_tony. Please refer to the VMware forum in case of questions or problems. There are also patches available for older versions of VMware Player or Workstation.
+Disclaimer: The patch is "as-is" and the patcher is originally created by Artem S. Tashkinov, and later modified by An_tony. Please refer to the VMware forum in case of questions or problems. There are also patches available for older versions of VMware Player or Workstation.

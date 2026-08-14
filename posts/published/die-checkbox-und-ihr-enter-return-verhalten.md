@@ -69,22 +69,22 @@ Nun gut, damit kann man leben und das Verhalten erscheint auf den ersten Blick i
 
 Jedem Fuchs wird auf Anhieb einfallen, dass die Lösung des Problems in der Überlagerung der Checkbox.KeyPress() Ereignismethode zu realisieren. Das ist auch vollkommen korrekt und okay. Mein erster Ansatz ergab sich aus einer kurzen Recherche samt Bestätigung im FoxWiki. Der Quellcode sah im ersten Ansatz so aus:
 
-```
+```foxpro
 *====================================================================
 * Erweiterung: Die Return/Enter-Taste soll keine Funktion besitzen.
-* Das Problem ist, dass primär mit der Enter- neben der 
+* Das Problem ist, dass primär mit der Enter- neben der
 * Tab-Taste in den Formularen und Grids navigiert wird.
 *====================================================================
 LPARAMETERS nKeyCode, nShiftAltCtrl
 
 If (m.nKeyCode == 13 .And. InList(m.nShiftAltCtrl, 0, 1)) .Or. ;
-   (m.nKeyCode == 10 .And. m.nShiftAltCtrl == 2)
- 
-    Keyboard '{TAB}'
-    NoDefault
-    Return
+    (m.nKeyCode == 10 .And. m.nShiftAltCtrl == 2)
+
+  Keyboard '{TAB}'
+  NoDefault
+  Return
 EndIf
-  
+
 DoDefault()
 ```
 
@@ -104,10 +104,10 @@ Außerdem vermeiden wir das 'Drücken' der Tab-Taste, da wir ja in die nächste 
 
 Und zusammengetippt sieht die KeyPress-Methode inzwischen folgendermaßen aus:
 
-```
+```foxpro
 *====================================================================
 * Erweiterung: Die Return/Enter-Taste soll keine Funktion besitzen.
-* Das Problem ist, dass primär mit der Enter- neben der 
+* Das Problem ist, dass primär mit der Enter- neben der
 * Tab-Taste in den Formularen und Grids navigiert wird.
 *====================================================================
 LPARAMETERS nKeyCode, nShiftAltCtrl
@@ -120,14 +120,14 @@ With This
   m.luValue = 0
 
   If .lSkipEnter .And. ( ;
-   (m.nKeyCode == 13 .And. InList(m.nShiftAltCtrl, 0, 1)) .Or. ;
-   (m.nKeyCode == 10 .And. m.nShiftAltCtrl == 2) ;
-  )
+      (m.nKeyCode == 13 .And. InList(m.nShiftAltCtrl, 0, 1)) .Or. ;
+      (m.nKeyCode == 10 .And. m.nShiftAltCtrl == 2) ;
+      )
 
     m.llColumn = (Vartype(This.Parent) == T_OBJECT .And. ;
-       Lower(This.Parent.BaseClass) == "column")
+      Lower(This.Parent.BaseClass) == "column")
 
-    *--- Falls die Checkbox ein Child einer Column ist, 
+    *--- Falls die Checkbox ein Child einer Column ist,
     *--- müssen wir uns um die ControlSource kümmern.
     If m.llColumn
       m.lcControlSource = This.Parent.ControlSource
@@ -137,15 +137,15 @@ With This
       .Value = ICase( ;
         m.lcVartype == T_LOGICAL, Not m.luValue, ;
         1 - m.luValue ;
-      )
-   Else
-     *---&nbsp;Ansonsten brauchen wir den zusätzlichen TAB 
-     *---&nbsp;nicht auszulösen.
-     Keyboard '{TAB}'
-   EndIf
+        )
+    Else
+      *---&nbsp;Ansonsten brauchen wir den zusätzlichen TAB
+      *---&nbsp;nicht auszulösen.
+      Keyboard '{TAB}'
+    EndIf
 
-   NoDefault
-   Return
+    NoDefault
+    Return
   EndIf
 EndWith
 

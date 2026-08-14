@@ -236,7 +236,7 @@ To keep things easy I exported the existing default content from my local Ghost 
 
 - posts
 - tags
-- posts\_tags
+- posts_tags
 
 And as a final touch, I adjusted the `users.id` to match the publisher ID.
 
@@ -344,7 +344,7 @@ Using Ghost's `Code Injection` feature I added the following JavaScript fragment
 
 This enables me to place information about the number of comments of a post anywhere in this blog. Which is eventually interesting on the frontpage as well as the tag overview pages.
 
-### Recommended attribute in \_blank anchors
+### Recommended attribute in _blank anchors
 
 I was kind of surprised to see that the default Casper template doesn't pay attention to proper attribution of hyperlinks that either open a new tab or browser window. Well, actually the attribute `rel="noopener"` applies to any external link.
 

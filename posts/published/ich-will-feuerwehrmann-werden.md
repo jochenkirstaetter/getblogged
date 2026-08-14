@@ -60,7 +60,7 @@ Wer von euch kann sich noch an Grisu den Drachen erinnern?
   
 Ich fand und finde die TV-Serie richtig genial. Vielleicht sind nur gegenwärtig die Geschmäcker ein wenig anders. Dennoch empfinde ich diese Art an Sendungen noch lehrreich - sozusagen mit einer offensichtlichen Message.  
   
-Aber ich möchte nicht ablenken, sondern auf die Ursache für diesen Blogeintrag zurückkommen. Heute Abend durfte ich - wie inzwischen seit \*grübel\* mind. 5 Jahren - wieder einmal 2 Schulstunden Unterricht für angehende Feuerwehrfrauen und -männer geniessen. Ja, auf Grund meiner langjährigen Aktivität als Ausbilder in der Gefahrstoff-Einheit der Wehr Rockenhausen bietet es sich ja schon fast zwangsläufig an, dass die beiden Unterrichtseinheiten zu "Gefahrstoffen und gefährlichen Gütern" entsprechend umgesetzt werden.  
+Aber ich möchte nicht ablenken, sondern auf die Ursache für diesen Blogeintrag zurückkommen. Heute Abend durfte ich - wie inzwischen seit *grübel* mind. 5 Jahren - wieder einmal 2 Schulstunden Unterricht für angehende Feuerwehrfrauen und -männer geniessen. Ja, auf Grund meiner langjährigen Aktivität als Ausbilder in der Gefahrstoff-Einheit der Wehr Rockenhausen bietet es sich ja schon fast zwangsläufig an, dass die beiden Unterrichtseinheiten zu "Gefahrstoffen und gefährlichen Gütern" entsprechend umgesetzt werden.  
   
 So auch diesen Abend... Ich find's immer wieder erstaunlich und positiv wie heterogen die Verteilung in dem Grundlehrgang zum Feuerwehrmann sind. Zum einen gibt's einen wirklich hohen Anteil an Mädels und Frauen - waren locker wieder 40+% dabei und als weiteren Aspekt die Altersverteilung... Ich find's wirklich cool, und danke den Verantwortlichen Lehrgangsgestaltern, dass ich die beiden Einheiten lehren darf.  
   

@@ -67,152 +67,152 @@ Sofern ich den [Original-Thread](https://forum.dfpug.de/threads.afp?msgid=694197
 
 Wir lagern also die 'gemeinsame' Methode für die Klassen in unterschiedlichen Ableitungshierarchien in eine eigene Klasse aus, und wenden das Decorator Design Pattern an. Ich versuche es mal mit einem 'konstruierten' Code-Beispiel zu verdeutlichen:  
 
-```
-\*====================================================================  
-\* Anwendung des Decorator Design Pattern für die 'Simulation' von  
-\* Mehrfachvererbung.  
-\* Decorator-Klasse stammt aus dem Blogartikel zum Design Pattern:  
-\* [/Design-Pattern-Decorator](xref:design-pattern-decorator)  
-\*====================================================================  
-Clear  
+```foxpro
+*====================================================================
+* Anwendung des Decorator Design Pattern für die 'Simulation' von
+* Mehrfachvererbung.
+* Decorator-Klasse stammt aus dem Blogartikel zum Design Pattern:
+* [/Design-Pattern-Decorator](xref:design-pattern-decorator)
+*====================================================================
+Clear
 Set Procedure To Decorator.prg Additive
 
-oKatze = CreateObject("DemoDecorator", CreateObject("Katze"))  
+oKatze = CreateObject("DemoDecorator", CreateObject("Katze"))
 oBambus = CreateObject("DemoDecorator", CreateObject("Bambus"))
 
-? "Katze:"  
-? oKatze.Futtern()  
-? oKatze.Wachsen()  
-? oKatze.Futtern()  
-?  
-? "Bambus:"  
-? oBambus.Wachsen()  
-? oBambus.Wachsen()  
-? oBambus.Wachsen()  
-? oBambus.Wachsen()  
+? "Katze:"
+? oKatze.Futtern()
+? oKatze.Wachsen()
+? oKatze.Futtern()
+?
+? "Bambus:"
+? oBambus.Wachsen()
+? oBambus.Wachsen()
+? oBambus.Wachsen()
+? oBambus.Wachsen()
 ? oBambus.Bluehen()
 
-\*------------------------------------------------------------------  
-\* Decorator mit der ausgelagerten Funktion für beide Klassen  
-\* der unterschiedlichen Ableitungshierachien.  
-\*------------------------------------------------------------------  
-Define Class DemoDecorator As Decorator Of "Decorator.prg"  
-Function Wachsen()  
-If Vartype(This.oDecorated) == "O"  
-\*... gleiches Verhalten für beliebige Objektreferenz.  
-Return "Höher, und immer höher..."  
-EndIf  
-EndFunc  
+*------------------------------------------------------------------
+* Decorator mit der ausgelagerten Funktion für beide Klassen
+* der unterschiedlichen Ableitungshierachien.
+*------------------------------------------------------------------
+Define Class DemoDecorator As Decorator Of "Decorator.prg"
+  Function Wachsen()
+    If Vartype(This.oDecorated) == "O"
+      *... gleiches Verhalten für beliebige Objektreferenz.
+      Return "Höher, und immer höher..."
+    EndIf
+  EndFunc
 EndDefine
 
-\*------------------------------------------------------------------  
-\* Eine Klasse der ersten Ableitungshierarchie  
-\* (vereinfachte Darstellung - As &lt;ParentClass&gt; kann beliebig sein.  
-\*------------------------------------------------------------------  
-Define Class Katze As Custom && As CSaeugetier  
-Function Futtern()  
-Return "Satt..."  
-EndFunc  
+*------------------------------------------------------------------
+* Eine Klasse der ersten Ableitungshierarchie
+* (vereinfachte Darstellung - As &lt;ParentClass&gt; kann beliebig sein.
+*------------------------------------------------------------------
+Define Class Katze As Custom && As CSaeugetier
+  Function Futtern()
+    Return "Satt..."
+  EndFunc
 EndDefine
 
-\*------------------------------------------------------------------  
-\* Eine Klasse der zweiten Ableitungshierarchie  
-\*------------------------------------------------------------------  
-Define Class Bambus As Custom && As CPflanze  
-Function Bluehen()  
-Return "Volle Pracht erreicht."  
-EndFunc  
-EndDefine  
+*------------------------------------------------------------------
+* Eine Klasse der zweiten Ableitungshierarchie
+*------------------------------------------------------------------
+Define Class Bambus As Custom && As CPflanze
+  Function Bluehen()
+    Return "Volle Pracht erreicht."
+  EndFunc
+EndDefine
 ```
   
 Das Ergebnis entspricht nach meinem Verständnis der formulierten Anforderung im Forum-Beitrag.
 
 Im weiteren Verlauf kamen noch einige Ideen und Fragen auf:
 
-\*Das greift für alles? Für Properties und Methoden?\*  
-Nach meinem VFP-Wissen, ja. Sämtliche Zugriffe von außen auf die Objektreferenz werden zuerst in This\_Access geleitet. Die dortige Fallunterscheidung muss immer ein Objekt zurückliefern. Dieses könnte ehrlich gesagt auch zur Laufzeit dynamisch aggregiert sein, oder auf irgendeine Objektreferenz zeigen. Hauptsache der Rückgabetyp ist ein Objekt.
+*Das greift für alles? Für Properties und Methoden?*  
+Nach meinem VFP-Wissen, ja. Sämtliche Zugriffe von außen auf die Objektreferenz werden zuerst in This_Access geleitet. Die dortige Fallunterscheidung muss immer ein Objekt zurückliefern. Dieses könnte ehrlich gesagt auch zur Laufzeit dynamisch aggregiert sein, oder auf irgendeine Objektreferenz zeigen. Hauptsache der Rückgabetyp ist ein Objekt.
 
-\*Mit Deiner Decorator-Klasse müßte man das eigentlich 2stufig anlegen, auch das ginge ja, da THIS\_ACCESS dann kaskadiert. (...) Das verschmelzen der beiden Objekte zu einem ist also nur von außen gesehen perfekt. Es fehlt doch aber eigentlich nur eine oDecorator\_Access Methode, die nochmal dass gleiche macht, oder seh ich das falsch?  
-\*  
+\*Mit Deiner Decorator-Klasse müßte man das eigentlich 2stufig anlegen, auch das ginge ja, da THIS_ACCESS dann kaskadiert. (...) Das verschmelzen der beiden Objekte zu einem ist also nur von außen gesehen perfekt. Es fehlt doch aber eigentlich nur eine oDecorator_Access Methode, die nochmal dass gleiche macht, oder seh ich das falsch?  
+* 
 Nun, ich hatte es im ursprünglichen Artikel zum Decorator nicht probiert. Der nachfolgende Code zeigt, dass eine solche Kaskadierung leider nicht möglich ist:  
 
-```
-\*====================================================================  
-\* (Nicht-)Kaskadierung von mehreren Decorator Design Pattern.  
-\*====================================================================  
-Clear  
-Set Procedure To Decorator.prg Additive  
-Set Procedure To Decorator\_Demo.prg Additive
+```foxpro
+*====================================================================
+* (Nicht-)Kaskadierung von mehreren Decorator Design Pattern.
+*====================================================================
+Clear
+Set Procedure To Decorator.prg Additive
+Set Procedure To Decorator_Demo.prg Additive
 
-oKatze = CreateObject("DemoDecorator", CreateObject("Katze"))  
-oBambus = CreateObject("BambusDecorator", oKatze)  
+oKatze = CreateObject("DemoDecorator", CreateObject("Katze"))
+oBambus = CreateObject("BambusDecorator", oKatze)
 oSpatz = CreateObject("VogelDecorator", oBambus)
 
-? oSpatz.Wachsen()  
-? oSpatz.Wachsen()  
-? oSpatz.Bluehen()  
-? oSpatz.Futtern() && Problem!  
+? oSpatz.Wachsen()
+? oSpatz.Wachsen()
+? oSpatz.Bluehen()
+? oSpatz.Futtern() && Problem!
 ? oSpatz.Fliegen()
 
-\*------------------------------------------------------------------  
-\* Kaskadierender Decorator  
-\* Decorator-Klasse stammt aus dem Blogartikel zum Design Pattern:  
-\* [/Design-Pattern-Decorator](xref:design-pattern-decorator)  
-\*------------------------------------------------------------------  
-Define Class CascadeDecorator As Decorator Of "Decorator.prg"  
-Function THIS\_ACCESS( tcMember As String ) As Object;  
-HelpString "Ermöglicht den geswitchten Zugriff auf das eigene bzw. zu dekorierende Objekt."  
-Local loReturn
+*------------------------------------------------------------------
+* Kaskadierender Decorator
+* Decorator-Klasse stammt aus dem Blogartikel zum Design Pattern:
+* [/Design-Pattern-Decorator](xref:design-pattern-decorator)
+*------------------------------------------------------------------
+Define Class CascadeDecorator As Decorator Of "Decorator.prg"
+  Function THIS_ACCESS( tcMember As String ) As Object;
+      HelpString "Ermöglicht den geswitchten Zugriff auf das eigene bzw. zu dekorierende Objekt."
+    Local loReturn
 
-If Pemstatus(This, Upper( tcMember ), 5 )  
-m.loReturn = This  
-Else  
-m.loReturn = This.oDecorated  
-If Not PemStatus(m.loReturn, Upper( tcMember ), 5 )  
-m.loReturn = m.loReturn.oDecorated  
-\* m.loReturn = m.loReturn.oDecorated.&tcMember.  
-EndIf  
-EndIf  
-  
-Return m.loReturn  
-Endfunc
+    If Pemstatus(This, Upper( tcMember ), 5 )
+      m.loReturn = This
+    Else
+      m.loReturn = This.oDecorated
+      If Not PemStatus(m.loReturn, Upper( tcMember ), 5 )
+        m.loReturn = m.loReturn.oDecorated
+        * m.loReturn = m.loReturn.oDecorated.&tcMember.
+      EndIf
+    EndIf
 
-Function Wachsen()  
-If Vartype(This.oDecorated) == "O"  
-\*... gleiches Verhalten für beliebige Objektreferenz.  
-Return "Höher, und immer höher..."  
-EndIf  
-EndFunc  
+    Return m.loReturn
+  Endfunc
+
+  Function Wachsen()
+    If Vartype(This.oDecorated) == "O"
+      *... gleiches Verhalten für beliebige Objektreferenz.
+      Return "Höher, und immer höher..."
+    EndIf
+  EndFunc
 EndDefine
 
-\*------------------------------------------------------------------  
-\* Äußerer Decorator  
-\*------------------------------------------------------------------  
-Define Class VogelDecorator As CascadeDecorator  
-Function Fliegen()  
-Return "Über den Wolken..."  
-EndFunc  
+*------------------------------------------------------------------
+* Äußerer Decorator
+*------------------------------------------------------------------
+Define Class VogelDecorator As CascadeDecorator
+  Function Fliegen()
+    Return "Über den Wolken..."
+  EndFunc
 EndDefine
 
-\*------------------------------------------------------------------  
-\* Eine Klasse der zweiten Ableitungshierarchie  
-\* Muss nun selbst als Decorator fungieren.  
-\*------------------------------------------------------------------  
-Define Class BambusDecorator As CascadeDecorator && As CPflanze  
-Function Bluehen()  
-Return "Volle Pracht erreicht."  
-EndFunc  
+*------------------------------------------------------------------
+* Eine Klasse der zweiten Ableitungshierarchie
+* Muss nun selbst als Decorator fungieren.
+*------------------------------------------------------------------
+Define Class BambusDecorator As CascadeDecorator && As CPflanze
+  Function Bluehen()
+    Return "Volle Pracht erreicht."
+  EndFunc
 EndDefine
 
-\*------------------------------------------------------------------  
-\* Eine Klasse der ersten Ableitungshierarchie  
-\* (vereinfachte Darstellung - As &lt;ParentClass&gt; kann beliebig sein.  
-\*------------------------------------------------------------------  
-Define Class Katze As Custom && As CSaeugetier  
-Function Futtern()  
-Return "Satt..."  
-EndFunc  
-EndDefine  
+*------------------------------------------------------------------
+* Eine Klasse der ersten Ableitungshierarchie
+* (vereinfachte Darstellung - As &lt;ParentClass&gt; kann beliebig sein.
+*------------------------------------------------------------------
+Define Class Katze As Custom && As CSaeugetier
+  Function Futtern()
+    Return "Satt..."
+  EndFunc
+EndDefine
 ```
   
 Die Begrenzung wird durch den Parameter an die jeweilige Access-Methode limitiert. Bisher konnte ich lediglich eine Verkettung über maximal 2 Stufen erreichen, danach gibt's Probleme durch den Rückgabewert.

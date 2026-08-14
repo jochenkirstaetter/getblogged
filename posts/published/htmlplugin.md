@@ -81,4 +81,4 @@ I wrote a sample solution that's able to convert an RSS Feed to a .NET DataSet t
 
 And Html Plugin is a core part of AfpWiki - a Wiki engine on top of [Active FoxPro Pages](https://www.afpages.com/). Actually the Html Plugin does all the stuff related to Regular Expressions. It's really nice to see that just one line of code parses all hyperlinks of the entire document and converts them into clickable links with 'title' attribute and protocol indicator. There is still a lot of work to do inside of AfpWiki, like backup and restore of the database, online upgrade mechanism as well as an abstraction layer to user authentication and management, but this will be implemented during a couple of weeks. You might check out [https://faq.dfpug.de](https://faq.dfpug.de/) to see the system in action.
 
-Ah, before I forget to mention Html Plugin and AfpWiki are both available for free (as in beer \*g\*). So, if anyone of you is interested in a Wiki solution just drop me a note.
+Ah, before I forget to mention Html Plugin and AfpWiki are both available for free (as in beer *g*). So, if anyone of you is interested in a Wiki solution just drop me a note.

@@ -56,18 +56,18 @@ imageAttribution: "Photo on Unsplash"
 ---
 ## 5:45 Zimmer 330 - In the middle of the night
 
-Wenn man schon im Hotel übernachtet, dann muss man auch gleich aus den Vollen schöpfen? Herrje, was ein Glück waren meine Schlafübergangsphasen extrem kurz. Ins Bett und weg in den Tiefschlaf und jetzt \*flupp\* raus dem Tiefschlaf ab ins Bad. Woah, was ist denn das für'n Zombie im Spiegel?  
-Okay, wenn man schon mal rumsteht, schaden sicherlich ein paar Spritzer Wasser auch nicht. Achja, Wasser - da war doch was... \*grübel\*  
+Wenn man schon im Hotel übernachtet, dann muss man auch gleich aus den Vollen schöpfen? Herrje, was ein Glück waren meine Schlafübergangsphasen extrem kurz. Ins Bett und weg in den Tiefschlaf und jetzt *flupp* raus dem Tiefschlaf ab ins Bad. Woah, was ist denn das für'n Zombie im Spiegel?  
+Okay, wenn man schon mal rumsteht, schaden sicherlich ein paar Spritzer Wasser auch nicht. Achja, Wasser - da war doch was... *grübel*  
 Und schon vernehme ich eine Stimme: "Los, wir müssen ins Schwimmbad" - Inzwischen hat sich der Verursacher gemeldet. - 6:00!! - um die Zeit gehe ich zuhause (nach einer Hacking-Night) eigentlich erst schlafen, aber okay, ich hab's mir ja selbst eingebrockt. Noch die Anti-Rutsch-Baumwollsocken angezogen, den korrekten Sitz der Kleidung überprüft und ab mit Golo zwei Etagen tiefer Weckdienst für Alex spielen.
 
-## 6:15 Hotelschwimmbad - \*platsch\*
+## 6:15 Hotelschwimmbad - *platsch*
 
 Vielleicht sollte die Hotelleitung zusätzlich zu "GARAGE" auch noch "Schwimmbad" auf die Durchgangstür schreiben. Nunja, man kann nicht alles haben. Wenigstens sind die Umkleiden mollig warm und der Anblick des Pools entschädigt auch für die morgendlichen Strapazen. Wieso bin ich nochmal mitgegangen? Egal, nach typischer Liegestuhlreservierungsmanier geht's ab ins Nass. Herrlich, das tut gut und aktiviert den Kreislauf - und die gemessenen 29° Celsius sind auch okay. Eisbären dürfte es zu warm sein, aber Delfine fühlen sich darin wunderbar. Wie's mit Tigern aussieht... dunno.
 
 ## 7:40 Das Telefonat
 
 Nach einer genüsslichen Stunde in der großen Badewanne und ein wenig Relaxen auf den Rattanliegestühlen tappen wir wieder auf die Zimmer - Heiß duschen! Sowohl Komfort muss sein, denn bedingt durch die Uhrzeit bin ich immer noch nicht wach. Danach heisst es Schlachtplan für den heutigen Tag einleiten...  
-\*ring\*ring\* - "Und fit?" - "\*mampf\*, joooah, gerade beim Frühstücken..." - "Okay, wann bist etwa da?" - "Pünktlich um neun..." - fein, die Organisation steht noch. Zeit für das eigene leibliche Wohl zu sorgen. Auf dem Weg in den Speiseraum unterwegs wieder Alex in die Karawane eingereiht und da war es wieder - das Raucher/Nichtraucher-Problem !)  
+*ring*ring* - "Und fit?" - "*mampf*, joooah, gerade beim Frühstücken..." - "Okay, wann bist etwa da?" - "Pünktlich um neun..." - fein, die Organisation steht noch. Zeit für das eigene leibliche Wohl zu sorgen. Auf dem Weg in den Speiseraum unterwegs wieder Alex in die Karawane eingereiht und da war es wieder - das Raucher/Nichtraucher-Problem !)  
 Wir haben uns dann doch für den Nichtraucherbereich entschieden (auch wenn es in Konsequenz einen längeren Weg zum Buffet bedeutete). In diesem Zuhang ein Lob ans Hotel - klasse Auswahl. Wir wurden sitt und satt.
 
 ## 8:50 Die Eskorte des Exilanten
@@ -78,12 +78,12 @@ Mit etwa 10 Minuten Verspätung ist mit Thomas "Willi" Wilting das Quattro stagi
 ## 9:20 CLIP und "unser Auftritt"
 
 Im Formatsflug geht's in die CLIP Räumlichkeiten des Tages. Wir fühlen uns wohl, sehen sofort viele bekannte Gesichter und erste Gespräche untereinander starten - phantastisch! Unsere eigens für dieses Treffen gestylten T-Shirts erhalten durchweg positive Resonanz, es hat geklappt. Im Laufe des gesamten Tages werden wir noch öfters darauf angesprochen und denn die Shirts erhältlich wären. Hier bleibt noch zu klären, inwiefern an authentifizierte CLIP-Mitglieder ebenfalls Shirts gegeben werden dürfen. Wäre ziemlich cool, wenn wir ein Team zusammenbringen würden.  
-Hmmmm, \*grübel\* - Wäre es nicht angenehm, wenn man im Sommer 2005 ein "sportliches" Event veranstalten würde? Sozusagen Kicker-Meisterschaften oder sowas?
+Hmmmm, *grübel* - Wäre es nicht angenehm, wenn man im Sommer 2005 ein "sportliches" Event veranstalten würde? Sozusagen Kicker-Meisterschaften oder sowas?
 
 ## 10:15 Microsoft Office
 
 Die Begrüßung aller Anwesenden (Microsoft, CLIP Members und MVPs) durch Richard ist von starken Ausfällen (mit verständlichen Gründen) anderer Microsoft Mitarbeiter begleitet. Unter anderem wird auf die strategisch im Raum verteilten Standtische mit Schild für die jeweiligen Microsoft Technologien hingewiesen. Der Bereich Office bleibt unbesetzt - die Füchse unter den Anwesenden wittern ihre Chance...  
-\*flupp\* und schon wird kurzerhand der Office-Sektor von Visual FoxPro Entwicklern übernommen. Hehehe, Totgesagte leben länger! In diesem Zusammenhang sei auf die Initiative von Jürgen Wondzinski und Armin Neudert hingewiesen.
+*flupp* und schon wird kurzerhand der Office-Sektor von Visual FoxPro Entwicklern übernommen. Hehehe, Totgesagte leben länger! In diesem Zusammenhang sei auf die Initiative von Jürgen Wondzinski und Armin Neudert hingewiesen.
 
 ## Networking mit Pausen
 

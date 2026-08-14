@@ -313,7 +313,7 @@ resize2fs: bad magic number in super-block while trying to open /dev/VolGroup00/
 couldn’t find valid filesystem superblock
 ```
 
-That's kind of bummer. Especially, so close to the finish line. Well, it turned out that volume group had two logical volumes LogVol00 and LogVol01. And the second one is actually used for the swap area. Which easily explains why there is absolutely no valid filesystem superblock to be found - no matter how hard I would try it. First, I thought that it might have been a problem with the filesystem type, as I am using ext2, ext3, ext4, and xfs interchangeable. But a quick check confirmed that I'm using the right command. In case of xfs you might have to work with xfs\_grow command instead of resize2fs.
+That's kind of bummer. Especially, so close to the finish line. Well, it turned out that volume group had two logical volumes LogVol00 and LogVol01. And the second one is actually used for the swap area. Which easily explains why there is absolutely no valid filesystem superblock to be found - no matter how hard I would try it. First, I thought that it might have been a problem with the filesystem type, as I am using ext2, ext3, ext4, and xfs interchangeable. But a quick check confirmed that I'm using the right command. In case of xfs you might have to work with xfs_grow command instead of resize2fs.
 
 Then I checked the overview output of my logical volumes again and I was kind of lucky that I discovered that I increased the wrong volume:
 

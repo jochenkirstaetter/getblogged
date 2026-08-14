@@ -82,7 +82,7 @@ And the signs within the government of Mauritius are looking good based on the f
 ![Explanation of findings in the Open Data Readiness Assessment and Q&A session](https://s.kirstaetter.name/images/odra_findings_podium.png "Explanation of findings in the Open Data Readiness Assessment and Q&A session")  
 *Explanation of findings in the Open Data Readiness Assessment and Q&A session*
 
-In regards to provide access to open government data the World Bank has implemented a 5\* rating of Open Data Formats. The Mauritian Government is on a firm way to a 3\* rating as some datasets are already available in machine-readable, neutral open formats: CSV, XML, JSON, etc. First, publish "as-is" and then engage with the dataset users in order to improve the quality of information and optional the format(s) over time. Later on, adapt international-recognised data exchange formats based on the domain of information.
+In regards to provide access to open government data the World Bank has implemented a 5* rating of Open Data Formats. The Mauritian Government is on a firm way to a 3* rating as some datasets are already available in machine-readable, neutral open formats: CSV, XML, JSON, etc. First, publish "as-is" and then engage with the dataset users in order to improve the quality of information and optional the format(s) over time. Later on, adapt international-recognised data exchange formats based on the domain of information.
 
 ## Advantages named by the World Bank
 

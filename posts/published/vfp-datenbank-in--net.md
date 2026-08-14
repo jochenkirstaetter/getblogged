@@ -84,7 +84,7 @@ static void Main()
 Application.Run(new VfpDataAccess());  
 }  
   
-private void VfpDataAccess\_Load(object sender, System.EventArgs e)  
+private void VfpDataAccess_Load(object sender, System.EventArgs e)  
 {  
 string ConnectionString = @"Provider=vfpoledb.1;Data Source=C:FoxProVFP9SamplesNorthwind  
 orthwind.dbc";  
@@ -102,7 +102,7 @@ this.ds = ds;
 Connection.Close();  
 }  
   
-private void cmdLoad\_Click(object sender, System.EventArgs e)  
+private void cmdLoad_Click(object sender, System.EventArgs e)  
 {  
 this.grdEmployees.DataBindings.Clear();  
 this.grdEmployees.SetDataBinding(this.ds, "");  
@@ -132,13 +132,13 @@ orthwind.dbc")
   
 Man muss nun dran denken, dass man einen COM Verweis im Projekt hinzufügt:  
   
-\* Projektmappen-Explorer öffnen / anzeigen  
-\* Rechtsklick auf Verweise  
-\* Verweis hinzufügen...  
-\* Auf den Tab COM wechseln und  
-\* Microsoft ADO Ext. 2.8 for DDL and Security selektieren  
-\* [ Auswählen ]  
-\* [ OK ]  
+* Projektmappen-Explorer öffnen / anzeigen  
+* Rechtsklick auf Verweise  
+* Verweis hinzufügen...  
+* Auf den Tab COM wechseln und  
+* Microsoft ADO Ext. 2.8 for DDL and Security selektieren  
+* [ Auswählen ]  
+* [ OK ]  
   
 Somit steht euch eine ADOX Proxy-Klasse in eurem Projekt zur Verfügung, welches für die Erstellung und Einstellung der Sicherheitsregeln der Datenbank genutzt werden kann. Derzeit stehen die ADOX Objekte und Methoden nicht als Managed Code Klassen zur Verfügung.  
 Klar, wieso auch? - Datenbanken wachsen an Bäumen...  

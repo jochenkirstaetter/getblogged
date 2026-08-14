@@ -64,12 +64,12 @@ Actually, my main problem with this module is about XHTML 1.0 compliance. Sadly 
 
 ```
 &lt;form action="https://www.paypal.com/cgi-bin/webscr" method="post"&gt;  
-&lt;input type="hidden" name="cmd" value="\_donations" **/**&gt;  
-&lt;input type="hidden" name="business" value="&lt;?php echo $paypal\_emailID; ?&gt;" **/**&gt;  
-&lt;input type="hidden" name="item\_name" value="&lt;?php echo $item\_name; ?&gt;" **/**&gt;  
-&lt;?php if ($item\_number)  
+&lt;input type="hidden" name="cmd" value="_donations" **/**&gt;  
+&lt;input type="hidden" name="business" value="&lt;?php echo $paypal_emailID; ?&gt;" **/**&gt;  
+&lt;input type="hidden" name="item_name" value="&lt;?php echo $item_name; ?&gt;" **/**&gt;  
+&lt;?php if ($item_number)  
 {  
-echo "&lt;input type=\"hidden\" name=\"item\_number\" value=\"" . $item\_number . "\" **/**&gt;\r\n";  
+echo "&lt;input type=\"hidden\" name=\"item_number\" value=\"" . $item_number . "\" **/**&gt;\r\n";  
 }  
 ?&gt;  
 &lt;?php **if ($amount)**  
@@ -78,17 +78,17 @@ echo "&lt;input type=\"hidden\" name=\"amount\" value=\"" . $amount . "\" **/**&
 echo "&lt;input type=\"hidden\" name=\"lc\" value=\"" . $location . "\" **/**&gt;\r\n";  
 }  
 ?&gt;  
-&lt;input type="hidden" name="no\_shipping" value="0" **/**&gt;  
-&lt;input type="hidden" name="no\_note" value="1" **/**&gt;  
-&lt;input type="hidden" name="currency\_code" value="&lt;?php echo $currency\_code; ?&gt;" **/**&gt;  
+&lt;input type="hidden" name="no_shipping" value="0" **/**&gt;  
+&lt;input type="hidden" name="no_note" value="1" **/**&gt;  
+&lt;input type="hidden" name="currency_code" value="&lt;?php echo $currency_code; ?&gt;" **/**&gt;  
 &lt;input type="hidden" name="tax" value="0" **/**&gt;  
 &lt;input type="hidden" name="bn" value="PP-DonationsBF" **/**&gt;  
-&lt;?php if ($image\_choice==1)  
+&lt;?php if ($image_choice==1)  
 {  
-echo "&lt;input type=\"image\" **border=\"0\"** src=\"" . $donate\_image . "\" name=\"submit\"  
+echo "&lt;input type=\"image\" **border=\"0\"** src=\"" . $donate_image . "\" name=\"submit\"  
 alt=\"PayPal - The safer, easier way to pay online!\" **/**&gt;\r\n";  
 }else{  
-echo "&lt;input type=\"image\" **border=\"0\"** src=\"" . $own\_donate\_image . "\" name=\"submit\"  
+echo "&lt;input type=\"image\" **border=\"0\"** src=\"" . $own_donate_image . "\" name=\"submit\"  
 alt=\"PayPal - The safer, easier way to pay online!\" **/**&gt;\r\n";  
 }  
 ?&gt;  
@@ -96,7 +96,7 @@ alt=\"PayPal - The safer, easier way to pay online!\" **/**&gt;\r\n";
 ```
 
 
-*Modified version of mod\_paypal-j15/tmpl/default.php*
+*Modified version of mod_paypal-j15/tmpl/default.php*
 
 Despite the tooltip description about choosing your own PayPal button for this module you do not need to specify the full URL including https:// prefix. As you can see in the PHP code any relative path is working too. For reduced number of DNS lookups you should get your preferred PayPal button on your server and change the module to use your 'own' image.
 

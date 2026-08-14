@@ -58,7 +58,7 @@ Hallo,
 ein wenig spät, aber ich würde hier gerne ein paar Ungenauigkeiten klarstellen wollen.
 
 
-> \*Original von Quest\*  
+> *Original von Quest*  
 > Ich würde gerne FoxPro statt Access als DB nutzen, welches ich mit meiner Anwendung gleich mitinstalliere...  
 > Hat zur Nutzung von FoxPro mit C# evtl. jemand eine gute Seite die auf ein paar Sachen tiefer eingeht? Interessieren würde mich v.a. Multiuser-Zugriff, Triggers, Views, Stored Proecdures, etc...
   
@@ -74,13 +74,13 @@ In meinem Blog findest du übrigens ein fertiges Beispiel mit allem Drum und Dra
 So, damit wäre deine initiale Frage beantwortet, schauen wir uns die weiteren Statements an und kommentieren das ein wenig...
 
 
-> \*Original von citizen.ron\*  
+> *Original von citizen.ron*  
 > keine lizenzprobleme und gehen tut mehr als foxpro sich je träumen lassen wird
   
 Welche Lizenzprobleme hat man denn mit VFP? Genau das ist doch der Haken, dass Microsoft das Produkt in den letzten Jahren sehr stiefmütterlich betrachtet hat. Und gerade in Bezug auf Verwendung mit ADO.NET ist es erst recht kostenfrei: [https://msdn.com/vfoxpro/](https://msdn.com/vfoxpro/) dort gibt's den Ole DB Provider und das war's dann auch schon. Mehr ist nicht notwendig.
 
 
-> \*Original von Der Eisbär\*  
+> *Original von Der Eisbär*  
 > Vor allem würde ich nicht mehr auf eine Datenbank setzen, die nicht mehr weiterentwickelt wird ...
 > 
 > Ansonsten sehe ich das wie citizen.ron ... die Hochzeit von VFP ist vorbei (habe selbst beruflich VFP entwickelt, weiß also durchaus, wovon ich rede ;-)) und der SQL Server kann definitiv deutlich mehr als VFP jemals kann.
@@ -91,14 +91,14 @@ Zunächst einmal ist VFP ein Produkt, welches seit annähernd 20 Jahren besteht 
 Über deine Kenntnisse in Bezug auf VFP möchte hier nicht weiteres zum Besten geben, außer dass du kaum mit der eigentlichen Datenbank in Kontakt gekommen bist, da wir im Projekt primär mit dem MS SQL Server (bedingt durch Anforderung des Kunden) arbeiten. Ergo, bezieht sich dein "Wissen" primär auf die Programmiersprache denn auf die Datenbank.
 
 
-> \*Original von Der Eisbär\*  
+> *Original von Der Eisbär*  
 > VFP ist IMHO unter anderem deshalb schon aus dem Rennen, weil es nicht mehr weiterentwickelt wird.
 
 
 Wo bitte steht dieses Statement? Microsoft hat keine Aussage dazu getroffen. Es wird derzeit an Sedna programmiert, welches als Addon zu VFP 9.0 derzeit angesehen wird. Ob daraus VFP 10 wird oder nicht, entscheidet sich frühestens Mitte/Ende 2007.
 
 
-> \*Original von Der Eisbär\*  
+> *Original von Der Eisbär*  
 > Aus VFP kannst Du derzeit mehr schlecht als recht auf .NET zugreifen. Das ändert sich mit Sedna, da Sedna als Integrationsschicht zu verstehen ist.
 > 
 > In diesem Sinne sehe ich für VFP-Entwickler keinen Sinn, mit Sedna auf .NET zuzugreifen, da der Overhead massivst ist und man ja doch das .NET Framework benötigt.

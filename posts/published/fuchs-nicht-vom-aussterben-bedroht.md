@@ -73,5 +73,5 @@ Insbesondere die Tatsache, dass LINQ überhaupt entstanden ist, sehe ich ebenfal
 
 Hat schon mal jemand die neuen MaskInput-Controls in Visual Studio genutzt? Cooles Feature provided by Visual FoxPro... Nunja, aus Redmond werden auch 2006 noch sehr viele Gerüchte, Marketingaktionen und Dementi kommen. Ich bin auf alle Fälle gespannt...
 
-Achja, im Gegensatz zu anderen Tierarten \*wink-wink\* zählt der Fuchs nicht zu den vom Aussterben bedrohten.  
+Achja, im Gegensatz zu anderen Tierarten *wink-wink* zählt der Fuchs nicht zu den vom Aussterben bedrohten.  
 Bis denne, JoKi

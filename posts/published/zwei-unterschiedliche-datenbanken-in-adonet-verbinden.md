@@ -56,7 +56,7 @@ codeinjectionFoot:
 C#, ADO.NET, Ole DB Provider, ADOX, FoxPro, Access
 
 ## Die Anforderung
-Dieser Beitrag basiert auf einer netten Unterhaltung auf [myCSharp.de](https://www.myCSharp.de) zum Thema Zugriff auf Access und FoxPro-Datenbank. Die eigentliche Problemstellung ist, dass als Ergänzung zu einer Warenwirtschaftssoftware (geschrieben in VFP) weitere Informationen per Microsoft Access ergänzt wurden. Diese beiden Datenquellen sollen über ADO.NET in einer C#-Anwendung angezeigt und bearbeitet werden können. Natürlich gibt es hierzu unterschiedliche Philosophien und Lösungsansätze. Da unter anderem erwähnt wurde, dass ein Umstieg auf den Microsoft SQL Server angedacht sei, war eine meiner Ideen, dass man das Feature \*Verknüpfte Server\* nutzen könnte, um dem Client nur noch eine Datenquelle zu präsentieren.
+Dieser Beitrag basiert auf einer netten Unterhaltung auf [myCSharp.de](https://www.myCSharp.de) zum Thema Zugriff auf Access und FoxPro-Datenbank. Die eigentliche Problemstellung ist, dass als Ergänzung zu einer Warenwirtschaftssoftware (geschrieben in VFP) weitere Informationen per Microsoft Access ergänzt wurden. Diese beiden Datenquellen sollen über ADO.NET in einer C#-Anwendung angezeigt und bearbeitet werden können. Natürlich gibt es hierzu unterschiedliche Philosophien und Lösungsansätze. Da unter anderem erwähnt wurde, dass ein Umstieg auf den Microsoft SQL Server angedacht sei, war eine meiner Ideen, dass man das Feature *Verknüpfte Server* nutzen könnte, um dem Client nur noch eine Datenquelle zu präsentieren.
 
 ## Unterhaltungsverlauf und Gespräche
 Wie aus der Unterhaltung unschwer zu erkennen sein dürfte, gibt es sicherlich viele Wege nach Rom. Nun, Ronny und ich hatten noch ein paar weitere Ideenaustausche per Mail und ich habe ihn auf verschiedene Ressourcen im Bereich VFP und C# hingewiesen. Der Vollständigkeit wegen hier nochmal die Auflistung:
@@ -68,7 +68,7 @@ Wie aus der Unterhaltung unschwer zu erkennen sein dürfte, gibt es sicherlich v
 
 Letztendlich, bleibt es dann doch beim direkten Zugriff auf die VFP-Tabellen. Nach einiger Zeit bekam ich dann wieder Post von ihm und dabei machte mich folgende Aussage doch ziemlich stutzig:
 
-\*Die DB die mir zur Verfügung steht ist angeblich leider aus Performancegründen lt. Hersteller NICHT mit PrimaryKeys bestückt.\*
+*Die DB die mir zur Verfügung steht ist angeblich leider aus Performancegründen lt. Hersteller NICHT mit PrimaryKeys bestückt.*
 
 Nunja, Primärschlüssel sind meiner bescheidenen Meinung nach eigentlich das A und O einer performanten Datenbank, insbesondere mit der Idee, dass ein Index auf der Tabelle sitzt, der gerade die SQL-Statements auf die Tabelle erheblich beschleunigt. Gerade in VFP mit seiner Rushmore-Optimierung. Eventuell werde ich mal eine Mail in Richtung Hersteller senden und nachfragen. Schliesslich gibt es täglih neue Dinge zu lernen.
 

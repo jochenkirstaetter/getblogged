@@ -85,16 +85,16 @@ Der nachfolgende Beispielcode geht davon aus, dass wir ein Exportmodul für unse
 ## Abstrakte Strategie
 Als erstes erstellen wir uns unsere Klassendefinition für alle Exportvarianten:  
 
-```
-\*//- Abtrakte Basisklasse für alle Exporttypen (abstrakte Strategie)  
-Define Class AbstraktExport As Custom && Abstract Strategy  
-cDateierweiterung = ""  
-cVerzeichnis = ""  
-cDatei = ""  
-cBeschriftung = ""  
-  
-Function Schreiben() As Boolean  
-EndFunc  
+```foxpro
+*//- Abtrakte Basisklasse für alle Exporttypen (abstrakte Strategie)
+Define Class AbstraktExport As Custom && Abstract Strategy
+  cDateierweiterung = ""
+  cVerzeichnis = ""
+  cDatei = ""
+  cBeschriftung = ""
+
+  Function Schreiben() As Boolean
+  EndFunc
 EndDefine
 ```
   
@@ -103,71 +103,71 @@ Ganz einfach gehalten. Es gibt ein Informationen zur Ausgabedatei und die eigent
 ## Konkrete Strategie(n)
 Wir leiten uns hier für jeden Exporttypen, den wir anbieten wollen, eine eigene Klasse von unserer abstrakten Strategie ab und implementieren den Code in der Methode schreiben. Wir wollen folgende Formate anbieten: CSV, XML und Excel. Dazu definieren wir uns drei Klassen:  
 
-```
-\*--- Export als kommaseparierte Liste (CSV)  
-Define Class ExportCsv As AbstraktExport && (konkrete Strategie)  
-cDateierweiterung = ".txt"  
-cBeschriftung = "Export als kommaseparierte Liste"  
-  
-Function Schreiben() As Boolean  
-Local llOk, lcAlias  
-llOk = .T.  
-lcAlias = Alias()  
-  
-Select(m.lcAlias)  
-Try  
-Copy To (This.cDatei + This.cDateierweiterung) Type Csv  
-Catch  
-llOk = .F.  
-EndTry  
-  
-Return m.llOk  
-EndFunc  
+```foxpro
+*--- Export als kommaseparierte Liste (CSV)
+Define Class ExportCsv As AbstraktExport && (konkrete Strategie)
+  cDateierweiterung = ".txt"
+  cBeschriftung = "Export als kommaseparierte Liste"
+
+  Function Schreiben() As Boolean
+    Local llOk, lcAlias
+    llOk = .T.
+    lcAlias = Alias()
+
+    Select(m.lcAlias)
+    Try
+      Copy To (This.cDatei + This.cDateierweiterung) Type Csv
+    Catch
+      llOk = .F.
+    EndTry
+
+    Return m.llOk
+  EndFunc
 EndDefine
 
-\*--- Export nach XML  
-Define Class ExportXml As AbstraktExport  
-cDateierweiterung = ".xml"  
-cBeschriftung = "XML-Datei (\*.xml)"  
-  
-Function Schreiben() As Boolean  
-Local llOk, lcAlias  
-llOk = .T.  
-lcAlias = Alias()  
-  
-Select(m.lcAlias)  
-Try  
-CursorToXML(m.lcAlias, ;  
-This.cDatei + This.cDateierweiterung, ;  
-1, 4+8+48+512, 0, "1")  
-Catch  
-llOk = .F.  
-EndTry  
-  
-Return m.llOk  
-EndFunc  
+*--- Export nach XML
+Define Class ExportXml As AbstraktExport
+  cDateierweiterung = ".xml"
+  cBeschriftung = "XML-Datei (*.xml)"
+
+  Function Schreiben() As Boolean
+    Local llOk, lcAlias
+    llOk = .T.
+    lcAlias = Alias()
+
+    Select(m.lcAlias)
+    Try
+      CursorToXML(m.lcAlias, ;
+        This.cDatei + This.cDateierweiterung, ;
+        1, 4+8+48+512, 0, "1")
+    Catch
+      llOk = .F.
+    EndTry
+
+    Return m.llOk
+  EndFunc
 EndDefine
 
-\*--- Export nach Excel (einfach)  
-Define Class ExportExcel As AbstraktExport && (konkrete Strategie)  
-cDateierweiterung = ".xls"  
-cBeschriftung = "Export nach Excel"  
-  
-Function Schreiben() As Boolean  
-Local llOk, lcAlias  
-llOk = .T.  
-lcAlias = Alias()  
-  
-Select(m.lcAlias)  
-Try  
-Copy To (This.cDatei + This.cDateierweiterung) Type Xl5  
-Catch  
-llOk = .F.  
-EndTry  
-  
-Return m.llOk  
-EndFunc  
-EndDefine  
+*--- Export nach Excel (einfach)
+Define Class ExportExcel As AbstraktExport && (konkrete Strategie)
+  cDateierweiterung = ".xls"
+  cBeschriftung = "Export nach Excel"
+
+  Function Schreiben() As Boolean
+    Local llOk, lcAlias
+    llOk = .T.
+    lcAlias = Alias()
+
+    Select(m.lcAlias)
+    Try
+      Copy To (This.cDatei + This.cDateierweiterung) Type Xl5
+    Catch
+      llOk = .F.
+    EndTry
+
+    Return m.llOk
+  EndFunc
+EndDefine
 ```
   
 Insgesamt gewohnter Anblick und vertraute VFP-Befehle. Dennoch sehen wir, dass der Export nach Excel und CSV über Copy To erfolgt, während die Ausgabe nach XML über CursorToXML() realisiert wird. Und hier zeichen sich bereits die ersten Vorteile unserer Strategie ab. Egal, welches Ausgabeformat wir haben wollen, würden wir aktuell immer nur die Methode Schreiben() ausführen.
@@ -175,53 +175,53 @@ Insgesamt gewohnter Anblick und vertraute VFP-Befehle. Dennoch sehen wir, dass d
 ## Die Kapselung (oder der Kontext)
 Gut, zum gegenwärtigen Zeitpunkt haben wir nur ein paar lose Klassendefinitionen rumfliegen. Natürlich wollen wir in unserer Anwendung nur einen zentralen Punkt haben, über den wir den Export veranlassen können. Weiterhin wollen wir ebenfalls nicht, dass an beliebigen Stellen einfach mal zig Instanzen unserer konkreten Strategien produziert werden. Daher erstellen wir uns eine weitere Klassen, die zur Verwaltung unserer unterschiedlichen Ausgabeformate genutzt wird und als Kommunikationspartner mit unserer Anwendung zur Verfügung steht.  
 
-```
-\*--- Verwaltungsklasse unserer Ausgabeformate  
-Define Class ExportHandler As Custom && (Kontext)  
-Protected oExportTyp  
-oExportTyp = .Null.  
-  
-Function Init() As Boolean  
-\*--- Initialen Exporttyp laden (Default)  
-This.oExportTyp = CreateObject("ExportXml")  
-EndFunc
+```foxpro
+*--- Verwaltungsklasse unserer Ausgabeformate
+Define Class ExportHandler As Custom && (Kontext)
+  Protected oExportTyp
+  oExportTyp = .Null.
 
-Function Destroy() As Boolean  
-This.oExportTyp = .Null.  
-EndFunc
+  Function Init() As Boolean
+    *--- Initialen Exporttyp laden (Default)
+    This.oExportTyp = CreateObject("ExportXml")
+  EndFunc
 
-Function SetzeExportTyp(tcExportTyp As String) As Boolean  
-This.oExportTyp = .Null.  
-Try  
-This.oExportTyp = CreateObject("Export" + m.tcExportTyp)  
-Catch  
-This.oExportTyp = .Null.  
-Finally  
-Return (Vartype(This.oExportTyp) == "O")  
-EndTry  
-EndFunc
+  Function Destroy() As Boolean
+    This.oExportTyp = .Null.
+  EndFunc
 
-Function GebeExportTyp() AS String  
-Return This.oExportTyp.cBeschriftung  
-EndFunc
+  Function SetzeExportTyp(tcExportTyp As String) As Boolean
+    This.oExportTyp = .Null.
+    Try
+      This.oExportTyp = CreateObject("Export" + m.tcExportTyp)
+    Catch
+      This.oExportTyp = .Null.
+    Finally
+      Return (Vartype(This.oExportTyp) == "O")
+    EndTry
+  EndFunc
 
-Function Schreiben(tcDateiname As String) As Boolean  
-This.oExportTyp.cDatei = Juststem(tcDateiname)  
-This.oExportTyp.cVerzeichnis = Evl(JustPath(tcDateiname),FullPath(""))
+  Function GebeExportTyp() AS String
+    Return This.oExportTyp.cBeschriftung
+  EndFunc
 
-Return This.oExportTyp.Schreiben()  
-EndFunc  
-  
-Function ToCsv(tcDateiname As String) As Boolean  
-This.SetzeExportTyp("Csv")  
-Return This.Schreiben(m.tcDateiname)  
-EndFunc
+  Function Schreiben(tcDateiname As String) As Boolean
+    This.oExportTyp.cDatei = Juststem(tcDateiname)
+    This.oExportTyp.cVerzeichnis = Evl(JustPath(tcDateiname),FullPath(""))
 
-Function ToXml(tcDateiname As String) As Boolean  
-This.SetzeExportTyp("Xml")  
-Return This.Schreiben(m.tcDateiname)  
-EndFunc  
-EndDefine  
+    Return This.oExportTyp.Schreiben()
+  EndFunc
+
+  Function ToCsv(tcDateiname As String) As Boolean
+    This.SetzeExportTyp("Csv")
+    Return This.Schreiben(m.tcDateiname)
+  EndFunc
+
+  Function ToXml(tcDateiname As String) As Boolean
+    This.SetzeExportTyp("Xml")
+    Return This.Schreiben(m.tcDateiname)
+  EndFunc
+EndDefine
 ```
   
 Ich habe hier zwei Ansätze in der Klasse implementiert:  
@@ -229,11 +229,11 @@ Ich habe hier zwei Ansätze in der Klasse implementiert:
 - Vereinfachte Methoden (ToCvs, ToXml, etc.)  
 Und so langsam dürfte erkennbar sein, warum das Entwurfsmuster Strategie sehr nützlich ist. Wir müssen nun in unserer Anwendung nur noch den Kontext instanziieren und alles weitere geht dann automatisch.  
 
-```
-oExport = CreateObject("ExportHandler")  
-oExport.SetzeExportTyp("Excel")  
-? oExport.Schreiben("C:TempMeinExportExcel")  
-? oExport.ToXml("C:TempMeinExportXML")  
+```foxpro
+oExport = CreateObject("ExportHandler")
+oExport.SetzeExportTyp("Excel")
+? oExport.Schreiben("C:TempMeinExportExcel")
+? oExport.ToXml("C:TempMeinExportXML")
 ```
 
 
@@ -242,31 +242,31 @@ Gut mit diesem Grundgerüst können wir bereits erste Ergebnisse produzieren und
 
 Die Methode im Kontext zum Einstellen des gewünschten Exporttyps kann man übrigens noch problemlos aufbohren. Wir haben in unseren Anwendungen eine Verwaltungstabelle für verschiedene Import- und Exportformate. Dabei nutzen wir innerhalb der Anwendung, so wie hier im Code Tokens und setzen eine Abfrage auf die Tabelle ab, um die Informationen zu Klassenname, Klassenbibliothek, Beschriftung, Dateierweiterung, etc. in Erfahrung zu bringen.
 
-Das gezeigte Beispiel behandelt den Export von Informationen. Natürlich lässt sich das Konzept auch auf andere Szenarien anwenden, hier mal ein paar Möglichkeiten: Import \*g\*, Verschlüsselung, Konvertierung, und so weiter...
+Das gezeigte Beispiel behandelt den Export von Informationen. Natürlich lässt sich das Konzept auch auf andere Szenarien anwenden, hier mal ein paar Möglichkeiten: Import *g*, Verschlüsselung, Konvertierung, und so weiter...
 
 Übrigens, wenn man den Druck ebenfalls als Datenexport betrachtet, braucht man lediglich eine neue Klasse zu schreiben und anzubinden. Was potentiell für einfache Reports sehr praktisch sein kann.  
 
-```
-\*--- Export als Druckdokument  
-Define Class ExportReport As AbstraktExport  
-Protected cReportDatei  
-cReportDatei = "Schnellausgabe.frx"  
-  
-Function Schreiben() As Boolean  
-Local llOk, lcAlias  
-llOk = .T.  
-lcAlias = Alias()  
-  
-Select(m.lcAlias)  
-Try  
-Report Form (This.cReportDatei) To Printer Prompt  
-Catch  
-llOk = .F.  
-EndTry  
-  
-Return m.llOk  
-EndFunc  
-EndDefine  
+```foxpro
+*--- Export als Druckdokument
+Define Class ExportReport As AbstraktExport
+  Protected cReportDatei
+  cReportDatei = "Schnellausgabe.frx"
+
+  Function Schreiben() As Boolean
+    Local llOk, lcAlias
+    llOk = .T.
+    lcAlias = Alias()
+
+    Select(m.lcAlias)
+    Try
+      Report Form (This.cReportDatei) To Printer Prompt
+    Catch
+      llOk = .F.
+    EndTry
+
+    Return m.llOk
+  EndFunc
+EndDefine
 ```
 
 

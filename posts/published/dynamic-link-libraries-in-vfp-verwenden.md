@@ -57,14 +57,14 @@ Ich glaube, dass sich heute (und die letzten beiden Tage) ein paar Stammtischtei
   
 Ihr könnt euch vielleicht vorstellen, dass wir hiermit den zweiten Satz der Thermodynamik ziemlich gut erfüllt haben. Nun, zumindest stand der Termin; wie bisher immer am 3. Mittwoch des Monats. Pünktlich um 19:30 durften wir uns im frisch renovierten (großen) Nebenraum unseres Lokals versammeln und loslegen. Zunächst wie üblich die Neuigkeiten aus der Community:  
   
-\* Usergroupunterstützung durch O'Reilly und MS Press  
-\* Infos von CLIP und der INETA  
-\* Ausblick auf die Regionalleitertreffen von PASS und dFPUG  
+* Usergroupunterstützung durch O'Reilly und MS Press  
+* Infos von CLIP und der INETA  
+* Ausblick auf die Regionalleitertreffen von PASS und dFPUG  
   
 Ein paar Nachzügler trafen noch ein und dann konnten wir auch direkt mit dem Thema des heutigen Abends loslegen: Dynamic-Link Libraries (DLLs). Laut MSDN sind DLLs 'lediglich' Module mit ausgelagerten Funktionen und Daten, welche von anderen DLLs oder Anwendungen genutzt werden können. Klingt im ersten Moment sehr stark nach Prozedurenbibliotheken und APP-Projekten in Visual FoxPro, und im zweiten Augenblick hat sich auch kaum etwas geändert. Einzig der Umstand, dass DLLs in zwei verschiedenen Ausprägungen vorliegen können. Ich beleuchte Dynamic-Link Libraries hier nur im Zusammenspiel mit den Eigenheiten von VFP und nicht allgemein für andere Programmiersprachen. In VFP können DLLs über zwei unterschiedliche Wege genutzt werden:  
   
-\* Declare Befehl  
-\* CreateObject(), NewObject() oder GetObject() Instanzierung über COM  
+* Declare Befehl  
+* CreateObject(), NewObject() oder GetObject() Instanzierung über COM  
   
 ## Declare
 Über den Declare-Befehl können wir direkt auf die exportierten Funktionen einer Bibliothek zugreifen und diese in den eigenen Speicher laden. Das Ganze passiert dann In-Process und die deklarierten Funktionen stehen dem Entwickler wie normale VFP-Funktionen zur Verfügung. Man kann sich mittels des Befehls DISPLAY DLLS über die aktuell zur Verfügung stehenden Funktionen informieren. Hier mal ein simples Beispiel:  

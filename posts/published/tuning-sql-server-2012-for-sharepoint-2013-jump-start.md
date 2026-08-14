@@ -98,12 +98,12 @@ In order to get an optimal environment to run a performant installation of Micro
 - Use **multiple physical drives** for your SQL Server performance. Improved handling of data storage, SQL log files and backups
   - RAID 10 for live environment
   - RAID 5 for backups
-- Set default collate sequence during SQL Server installation to: **Latin1\_General\_CI\_AS\_KS\_WS**
+- Set default collate sequence during SQL Server installation to: **Latin1_General_CI_AS_KS_WS**
 - Change default values of **initial size and auto-growth** in model DB
 - Configure **maximum (and minimum) memory configuration** of the SQL instance  
 - Use **Full Recovery Model** for your transaction logs and perform full backups With INIT
 - Take care of the 3 Ps for backups: Plan, Perform, and Practice (the restore)
-- Apply proper naming convention to your databases - especially **'\_DB' suffix** for performance reasons ;-)
+- Apply proper naming convention to your databases - especially **'_DB' suffix** for performance reasons ;-)
 - Configure the **default file locations (not on system drive)** and restart the SQL instance
 - Control the size of your databases and maximum **number of site collections** per database in SharePoint
 - Put a (virtual) sign for your DBA: **Don't Touch This!**

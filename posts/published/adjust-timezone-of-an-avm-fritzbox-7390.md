@@ -135,9 +135,9 @@ Good luck!
 
 A more elegant, read: technically interesting, way to adjust configuration settings in your Fritz!Box is to access it directly through Telnet. By default AVM disables that protocol channel and you have to enable it with a connected telephone. In order to activate the telnet service dial the following combination:
 
-> #96\*7\*
+> #96*7*
 >
-> #96\*8\* (to disable telnet again after work has been completed)
+> #96*8* (to disable telnet again after work has been completed)
 
 If you're using an AVM handset like the Fritz!Fon then you will receive a confirmation message on the display like so:
 
@@ -171,21 +171,21 @@ In our configuration file, we have to navigate to the timezone directives. The e
 
 Now, we should see the exact lines of code like in the backed up version:
 
-> timezone\_manual {  
+> timezone_manual {  
 enabled = no;  
 offset = 0;  
-dst\_enabled = no;  
-TZ\_string = "";  
+dst_enabled = no;  
+TZ_string = "";  
 name = "";  
 }
 
 And of course, we apply the same changes as described in the previous section:
 
-> timezone\_manual {  
+> timezone_manual {  
 enabled = **yes**;  
 offset = 0;  
-dst\_enabled = no;  
-TZ\_string = "**MUT-4**";  
+dst_enabled = no;  
+TZ_string = "**MUT-4**";  
 name = "";  
 }
 

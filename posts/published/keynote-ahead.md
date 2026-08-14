@@ -54,7 +54,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 Und los geht's... Yeah!  
-Nach den ersten Begrüßungen und Shake-Hands mit einigen Community-Mitgliedern gibt's die \*Uniform\* für die nächsten drei Tage: eine dunkelblaue Soft-Shell-Weste mit 'ner coolen Rückenbeflockung: **Ask the Experts**.
+Nach den ersten Begrüßungen und Shake-Hands mit einigen Community-Mitgliedern gibt's die *Uniform* für die nächsten drei Tage: eine dunkelblaue Soft-Shell-Weste mit 'ner coolen Rückenbeflockung: **Ask the Experts**.
 
 Frisch gedressed und stolz wie Oskar geht's wieder zurück ins Foyer der Stadthalle. Lockerer Smalltalk mit weiteren Experten und die ersten bekannten Gesichter aus der CLIP-Community treffen ein. Zwischenzeitlich hatten wir ebenfalls einen 'Mini-Stammtisch Speyer' hier im Foyer: Aktuell konnte ich bereits drei Stammtischteilnehmer begrüßen. Und gerüchteweise sind weitere Personen vom dFPUG Stammtisch anwesend. Wir werden sehen. Weiterhin stehe ich noch in der Bring-Schuld für den Launch der neuen Website für die Terminplanung des Stammtisch. Konform zum Launch der Microsoft Produkte wird's den Launch ebenfalls innerhalb der nächsten drei Tage geben.
 

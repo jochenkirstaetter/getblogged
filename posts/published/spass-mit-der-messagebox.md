@@ -71,12 +71,12 @@ Dabei handelt es sich um den Hilfe-Button. Dieser wird über den Dezimalwert 163
   
 
 ```
-\*#beautify keyword\_nochange  
-\* see https://support.microsoft.com/kb/894818/  
+*#beautify keyword_nochange  
+* see https://support.microsoft.com/kb/894818/  
 Declare Integer MessageBoxA In user32 As MessageBoxA;  
 Integer, String, ;  
 String, Integer  
-\*#beautify
+*#beautify
 ```
   
   
@@ -85,7 +85,7 @@ Leider ist das Interface der beiden Methoden nicht identisch. Aber auch nicht sc
 
 ```
 Function MessageBoxHelp(eMessageText, nDialogBoxType, cTitleBarText, nTimeout)  
-Return MessageBoxA(\_VFP.HWnd, eMessageText, cTitleBarText, nDialogBoxType)  
+Return MessageBoxA(_VFP.HWnd, eMessageText, cTitleBarText, nDialogBoxType)  
 EndFunc
 ```
   
@@ -99,21 +99,21 @@ Cool, oder? ;-)
 So, leider gibt's hier nun den ersten Haken. Das Auslösen der Schaltfläche 'Hilfe' schliesst weder den Dialog noch gibt es einen Rückgabewert. Tja, wie weiter... BindEvent() steht uns geduldig beiseite und hilft uns aus diesem Problemchen. Das Auslösen der Hilfe erfolgt über eine Windows-Message und diese können wir seit Visual FoxPro 9.0 sauber einfangen und auswerten. Wir erstellen uns einen Delegate dessen Methode wir per BindEvent() an die auftretende Windows-Message binden:  
   
 
-```
-#Define WM\_HELP 0x0053  
-  
-oWM = CreateObject("WindowsMessage")  
-BindEvent(0, WM\_HELP, oWM, "OnHelp")  
-  
-Define Class WindowsMessage As Relation  
-Procedure OnHelp(nHWND As Number, nMessage As Number, nParameters1 As Number, nParameters2 As Number) As Integer  
-? "Hilfe wurde ausgelöst!"  
-EndProc  
+```foxpro
+#Define WM_HELP 0x0053
+
+oWM = CreateObject("WindowsMessage")
+BindEvent(0, WM_HELP, oWM, "OnHelp")
+
+Define Class WindowsMessage As Relation
+  Procedure OnHelp(nHWND As Number, nMessage As Number, nParameters1 As Number, nParameters2 As Number) As Integer
+    ? "Hilfe wurde ausgelöst!"
+  EndProc
 EndDefine
 ```
   
   
-Bei Verwendung dieser Klasse bietet es sich wahrscheinlich an, dass man diese als Singleton entweder ans globale Applikationsobjekt, \_VFP oder an \_Screen aggregiert. Dadurch wird gewährleistet, dass uns das Objekt jederzeit zur Verfügung steht.  
+Bei Verwendung dieser Klasse bietet es sich wahrscheinlich an, dass man diese als Singleton entweder ans globale Applikationsobjekt, _VFP oder an _Screen aggregiert. Dadurch wird gewährleistet, dass uns das Objekt jederzeit zur Verfügung steht.  
   
 Selbstverständlich kann auch die Standardschaltfläche auf die Hilfe gelegt werden. Dazu addieren wir lediglich den Wert 768 zum DialogBoxType und geniessen den Anblick.  
   
@@ -121,29 +121,29 @@ So weit, so gut... Wir wollen aber unseren Timeout wieder haben, oder? Auch hier
   
 
 ```
-\*#beautify keyword\_nochange  
-\* see https://support.microsoft.com/kb/894818/  
+*#beautify keyword_nochange  
+* see https://support.microsoft.com/kb/894818/  
 Declare Integer MessageBoxTimeoutA In User32 As MessageBoxTimeoutA ;  
 Integer, String, ;  
 String, Integer, ;  
 Integer, Integer  
-\*#beautify
+*#beautify
 ```
   
   
 Da wir bereits unsere eigene Funktion MessageBoxHelp haben, ergänzen wir diese lediglich um eine Kondition zur Überprüfung der Anzahl der Parameter:  
   
 
-```
-Function MessageBoxHelp(eMessageText, nDialogBoxType, cTitleBarText, nTimeout)  
-Local liResponse  
-If Pcount() &lt; 4  
-m.liResponse = MessageBoxA(\_VFP.HWnd, eMessageText, cTitleBarText, nDialogBoxType)  
-Else  
-m.liResponse = MessageBoxTimeoutA(\_VFP.HWnd, eMessageText, cTitleBarText, nDialogBoxType, 0, nTimeout)  
-m.liResponse = Iif(m.liResponse &gt; 7, -1, m.liResponse)  
-EndIf  
-Return m.liResponse  
+```foxpro
+Function MessageBoxHelp(eMessageText, nDialogBoxType, cTitleBarText, nTimeout)
+  Local liResponse
+  If Pcount() &lt; 4
+    m.liResponse = MessageBoxA(_VFP.HWnd, eMessageText, cTitleBarText, nDialogBoxType)
+  Else
+    m.liResponse = MessageBoxTimeoutA(_VFP.HWnd, eMessageText, cTitleBarText, nDialogBoxType, 0, nTimeout)
+    m.liResponse = Iif(m.liResponse &gt; 7, -1, m.liResponse)
+  EndIf
+  Return m.liResponse
 EndFunc
 ```
   
@@ -154,10 +154,10 @@ Ein Feature, dass mir besonders in anderen Skript- und Programmiersprachen gefä
   
 
 ```
-\* VFP-Variante.  
+* VFP-Variante.  
 MessageBox("Das ist ein formatierter Text mit" + Chr(13) + "Zeilenumbruch und einem" + Chr(9) + "Tabulator.")  
   
-\* Andere Programmiersprachen  
+* Andere Programmiersprachen  
 MessageBoxHelp("Das ist ein formatierter Text mit\nZeilenumbruch und einem\tTabulator.")
 ```
   
@@ -166,19 +166,19 @@ Selbstverständlich wollen wir diese Funktionalität ebenfalls in unserer Messag
 Wir nehmen erneut unsere Funktion MessageBoxHelp und führen vor dem Aufruf der API-Funktion ein, zwei Zeichenkettenersetzungen durch:  
   
 
-```
-Function MessageBoxHelp(eMessageText, nDialogBoxType, cTitleBarText, nTimeout)  
-Local liResponse  
-eMessageText = Strtran(Transform(eMessageText), "\n", Chr(13)+Chr(10), 1, -1, 1+2)  
-eMessageText = Strtran(eMessageText, "\r", Chr(13)+Chr(10), 1, -1, 1+2)  
-eMessageText = Strtran(eMessageText, "\t", Chr(9), 1, -1, 1+2)  
-If Pcount() &lt; 4  
-m.liResponse = MessageBoxA(\_VFP.HWnd, eMessageText, cTitleBarText, nDialogBoxType)  
-Else  
-m.liResponse = MessageBoxTimeoutA(\_VFP.HWnd, eMessageText, cTitleBarText, nDialogBoxType, 0, nTimeout)  
-m.liResponse = Iif(m.liResponse &gt; 7, -1, m.liResponse)  
-Endif  
-Return m.liResponse  
+```foxpro
+Function MessageBoxHelp(eMessageText, nDialogBoxType, cTitleBarText, nTimeout)
+  Local liResponse
+  eMessageText = Strtran(Transform(eMessageText), "\n", Chr(13)+Chr(10), 1, -1, 1+2)
+  eMessageText = Strtran(eMessageText, "\r", Chr(13)+Chr(10), 1, -1, 1+2)
+  eMessageText = Strtran(eMessageText, "\t", Chr(9), 1, -1, 1+2)
+  If Pcount() &lt; 4
+    m.liResponse = MessageBoxA(_VFP.HWnd, eMessageText, cTitleBarText, nDialogBoxType)
+  Else
+    m.liResponse = MessageBoxTimeoutA(_VFP.HWnd, eMessageText, cTitleBarText, nDialogBoxType, 0, nTimeout)
+    m.liResponse = Iif(m.liResponse &gt; 7, -1, m.liResponse)
+  Endif
+  Return m.liResponse
 EndFunc
 ```
   

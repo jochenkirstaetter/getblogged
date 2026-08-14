@@ -62,11 +62,11 @@ Der Mechanismus dahinter nennt sich apt und stellt nach meinem gegenwärtigen Ve
 Dennoch lassen sich positive Tendenzen in diesem Sektor ausmachen, da zumindest mal die Subskription von Software bei großen Downloadcenter für Free- und Shareware einen Standard ausknobeln konnten. Und darauf lässt sich garantiert aufbauen.  
 Die technischen Möglichkeiten sind definitiv vorhanden:  
   
-\* Dezentrale Datenhaltung  
-\* Replikationsmechanismen im Push- und Pull-Verfahren  
-\* Definierte XML-Dokumente für Software  
-\* Administrations- und Wartungsclients für diverse Operating Systems  
-\* Maintainer für Softwarepakete  
+* Dezentrale Datenhaltung  
+* Replikationsmechanismen im Push- und Pull-Verfahren  
+* Definierte XML-Dokumente für Software  
+* Administrations- und Wartungsclients für diverse Operating Systems  
+* Maintainer für Softwarepakete  
   
 Insofern stellt sich die berechtigte Frage: Woran hängt's denn nun eigentlich?  
   

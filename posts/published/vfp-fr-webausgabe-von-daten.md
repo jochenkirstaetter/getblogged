@@ -60,9 +60,9 @@ Using Visual FoxPro to Generate Data-centric Web Pages
 
 Interessant bei dieser Beschreibung ist dabei folgende Aussagen:
 
-\*While it remained apart like a loner from other Microsoft products, version 9.0 will see an enhancement in the next version, code-named, Sedna which will integrate with the .Net framework. Even in version 6.0 it had excellent support for bringing data to the web in a painless manner, even better than MS Access.\*
+*While it remained apart like a loner from other Microsoft products, version 9.0 will see an enhancement in the next version, code-named, Sedna which will integrate with the .Net framework. Even in version 6.0 it had excellent support for bringing data to the web in a painless manner, even better than MS Access.*
 
-\*Visual FoxPro makes it very easy to create a web page even better than Data Access Pages, a technology that came with Access 2000. The web page creation feature was present in Visual FoxPro from much earlier times.\*
+*Visual FoxPro makes it very easy to create a web page even better than Data Access Pages, a technology that came with Access 2000. The web page creation feature was present in Visual FoxPro from much earlier times.*
 
 Es ist sehr erfrischend zu sehen, dass VFP sehr gut in anderen Umgebungen wie etwa ASP.NET harmoniert, und zur Lösung des gestellten Problems beitragen kann. Und auch der Tatsache Rechnung getragen wird, dass viele 'state-of-the-art' Ansätze in VFP vorhanden sein können.
 

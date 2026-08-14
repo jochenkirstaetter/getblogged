@@ -54,7 +54,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 Aktuell könnte ich Bäume ausreissen und irgendwelche gewalttätigen Aktivitäten durchführen. Warum? Weil mich ab und zu meine Mitmenschen ein wenig abnerven. Insbesondere auf Grund irgendwelcher dümmlicher Aussagen...  
-Okay, ich glaub' 'ne verschärfte Runde Joggen oder Sandsack-Kloppen passt auch zum Adrenalin abbauen. Herrje, manchmal stellt man sich doch echt die Frage, wurde diejenige oder derjenige als Kind mit dem Klammersack gepudert oder durch den Trog gezogen? \*grummel\*
+Okay, ich glaub' 'ne verschärfte Runde Joggen oder Sandsack-Kloppen passt auch zum Adrenalin abbauen. Herrje, manchmal stellt man sich doch echt die Frage, wurde diejenige oder derjenige als Kind mit dem Klammersack gepudert oder durch den Trog gezogen? *grummel*
 
 Hachja, das Blog als mentaler Stressabbau, tjoa, Leute, das müsst / dürft ihr nun aushalten. Schliesslich ist das MEIN MOND! Jaaa, genau... MEIN MOND! 🤪
 

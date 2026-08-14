@@ -58,11 +58,11 @@ Als Konsequenz der Anwendung im Beitrag [Scripting.FileSystemObject](xref:design
 *Das Einzelstück (engl. Singleton) ist ein in der Softwareentwicklung eingesetztes Entwurfsmuster und gehört zur Kategorie der Erzeugungsmuster (engl. Creational Patterns). Es stellt sicher, dass zu einer Klasse nur genau ein Objekt erzeugt werden kann und ermöglicht einen globalen Zugriff auf dieses Objekt.  
 [...]  
 Das Einzelstück findet Verwendung, wenn  
-\* nur ein Objekt zu einer Klasse existieren darf und ein einfacher Zugriff auf dieses Objekt benötigt wird oder  
-\* wenn das einzige Objekt durch Unterklassenbildung spezialisiert werden soll.  
+* nur ein Objekt zu einer Klasse existieren darf und ein einfacher Zugriff auf dieses Objekt benötigt wird oder  
+* wenn das einzige Objekt durch Unterklassenbildung spezialisiert werden soll.  
 Anwendungsbeispiele sind:  
-\* Ein zentrales Protokoll-Objekt, das Ausgaben in eine Datei schreibt.  
-\* Druckaufträge, die zu einem Drucker gesendet werden, sollten nur in einen einzigen Puffer geschrieben werden.*
+* Ein zentrales Protokoll-Objekt, das Ausgaben in eine Datei schreibt.  
+* Druckaufträge, die zu einem Drucker gesendet werden, sollten nur in einen einzigen Puffer geschrieben werden.*
 
 Wichtig finde ich hier, dass der Singleton die Sicherstellung der einmaligen Objekterzeugung von anderen Klassen verwaltet. Es heißt nicht zwangsläufig, dass der Singleton nur einmalig instanziiert werden kann. Wobei das natürlich das Optimum darstellen würde. Soviel zur Theorie, schauen wir uns das Pattern mal in der rauen VFP-Praxis an. Vor allem auch die Frage wo wir sowas etwas überhaupt gebrauchen könnten...
 
@@ -70,78 +70,78 @@ Im Beitrag [Scripting.FileSystemObject](xref:design-pattern-singleton) bin ich l
 
 Als Basisklasse zur Verwaltung der Objekte verwenden wir eine Collection und spendieren dieser noch ein paar Funktionen:  
 
-```
-\*====================================================================  
-\* Beispielimplementierung für Singleton Design Pattern  
-\*====================================================================  
-Define Class AbstractSingleton As Collection  
-\*------------------------------------------------------------------  
-\* Liefert Objektreferenz zum spezifizierten Token  
-\* Falls das Objekt noch nicht vorliegt, wird es erzeugt  
-\* und der Collection hinzugefügt.  
-\*------------------------------------------------------------------  
-Function GetReference(tcToken As String) As Object  
-Local loReturn  
-m.loReturn = .Null.
+```foxpro
+*====================================================================
+* Beispielimplementierung für Singleton Design Pattern
+*====================================================================
+Define Class AbstractSingleton As Collection
+  *------------------------------------------------------------------
+  * Liefert Objektreferenz zum spezifizierten Token
+  * Falls das Objekt noch nicht vorliegt, wird es erzeugt
+  * und der Collection hinzugefügt.
+  *------------------------------------------------------------------
+  Function GetReference(tcToken As String) As Object
+    Local loReturn
+    m.loReturn = .Null.
 
-\*------------------------------------------------------------------  
-\* Assertions und defensive Programmierung...  
-\*------------------------------------------------------------------  
-Assert Vartype(m.tcToken) == T\_CHARACTER && "C"
+    *------------------------------------------------------------------
+    * Assertions und defensive Programmierung...
+    *------------------------------------------------------------------
+    Assert Vartype(m.tcToken) == T_CHARACTER && "C"
 
-With This  
-If .Exist(m.tcToken)  
-m.loReturn = .Item(m.tcToken)  
-Else  
-m.loReturn = .createInstance(m.tcToken)  
-If Vartype(m.loReturn) == T\_OBJECT  
-.Add(m.loReturn, Transform(m.tcToken))  
-EndIf  
-EndIf  
-EndWith  
-  
-Return m.loReturn  
+    With This
+      If .Exist(m.tcToken)
+        m.loReturn = .Item(m.tcToken)
+      Else
+        m.loReturn = .createInstance(m.tcToken)
+        If Vartype(m.loReturn) == T_OBJECT
+          .Add(m.loReturn, Transform(m.tcToken))
+        EndIf
+      EndIf
+    EndWith
+
+    Return m.loReturn
+  EndFunc
+
+  *------------------------------------------------------------------
+  * Diese Methode erzeugt das eigentliche Objekt,
+  * welches der Singleton als Referenz zurück gibt.
+  *------------------------------------------------------------------
+  Protected Function createInstance(tcToken As String) As Object
+  Return .Null.
 EndFunc
-
-\*------------------------------------------------------------------  
-\* Diese Methode erzeugt das eigentliche Objekt,  
-\* welches der Singleton als Referenz zurück gibt.  
-\*------------------------------------------------------------------  
-Protected Function createInstance(tcToken As String) As Object  
-Return .Null.  
-EndFunc  
 EndDefine
 
-\*====================================================================  
-\* Konkretisierte Ableitung für Dienste.  
-\*====================================================================  
-Define Class ServiceSingleton As AbstractSingleton  
-Protected Function createInstance(tcToken As String) As Object  
-Local loReturn, loException, lcClass, lcLibrary  
-m.loReturn = .Null.  
-m.lcClass = ""  
-m.lcLibrary = ""
+*====================================================================
+* Konkretisierte Ableitung für Dienste.
+*====================================================================
+Define Class ServiceSingleton As AbstractSingleton
+  Protected Function createInstance(tcToken As String) As Object
+  Local loReturn, loException, lcClass, lcLibrary
+  m.loReturn = .Null.
+  m.lcClass = ""
+  m.lcLibrary = ""
 
-Try  
-\*--- Hier kann man beliebigen Code zur Übersetzung  
-\*--- des Token auf Class und ClassLibrary implementieren  
-\*--- Beliebte Varianten sind:  
-\*--- Do Case  
-\*--- Lookup auf Tabelle  
-\*--- Lookup auf XML-Konfiguration  
-\*--- Verwendung des Design Pattern: Factory  
-If Lower(m.tcToken) == "filesystemobject"  
-m.lcClass = m.tcToken  
-EndIf
+  Try
+    *--- Hier kann man beliebigen Code zur Übersetzung
+    *--- des Token auf Class und ClassLibrary implementieren
+    *--- Beliebte Varianten sind:
+    *--- Do Case
+    *--- Lookup auf Tabelle
+    *--- Lookup auf XML-Konfiguration
+    *--- Verwendung des Design Pattern: Factory
+    If Lower(m.tcToken) == "filesystemobject"
+      m.lcClass = m.tcToken
+    EndIf
 
-m.loReturn = NewObject(m.lcClass, m.lcLibrary)  
-Catch To loException  
-m.loReturn = .Null.  
-Assert .F. Message m.loException.Message  
-EndTry
+    m.loReturn = NewObject(m.lcClass, m.lcLibrary)
+  Catch To loException
+    m.loReturn = .Null.
+    Assert .F. Message m.loException.Message
+  EndTry
 
-Return m.loReturn  
-EndFunc  
+  Return m.loReturn
+EndFunc
 EndDefine
 ```
 
@@ -154,18 +154,18 @@ Im weiteren Verlauf der Verwendung braucht sich der Entwickler dann keine weiter
 
 Leider oder zum Glück fehlt Visual FoxPro das Konzept von statischen Klassen (static). Über dieses Sprachkonstrukt wäre man sehr wohl in der Lage die Einmaligkeit einer Klasseninstanz zu gewährleisten. Hm, dabei fällt mir gerade ein, dass es seit einiger Zeit ja den Befehl AInstance() gibt. Durch Integration in die Init-Methode des Singleton können wir dann doch wiederum was in der Art wie "static" programmieren:  
 
-```
-Define Class AbstractSingleton As Collection  
-\*------------------------------------------------------------------  
-\* Sicherstellen, dass der Singleton nur einmalig existiert.  
-\*------------------------------------------------------------------  
-Function Init() As Boolean  
-Local lnCount, laInstances[1]
+```foxpro
+Define Class AbstractSingleton As Collection
+  *------------------------------------------------------------------
+  * Sicherstellen, dass der Singleton nur einmalig existiert.
+  *------------------------------------------------------------------
+  Function Init() As Boolean
+    Local lnCount, laInstances[1]
 
-m.lnCount = AInstance(m.laInstances,This.Class)  
-Return (m.lnCount &lt; 1)  
-EndFunc  
-\*...  
+    m.lnCount = AInstance(m.laInstances,This.Class)
+    Return (m.lnCount &lt; 1)
+  EndFunc
+  *...
 EndDefine
 ```
 

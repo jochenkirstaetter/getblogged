@@ -61,7 +61,7 @@ Also, inzwischen glaube ich echt, dass man einen gewissen Touch haben muss, um i
 
 Um die glorreiche, nein schon fast himmeljauchzende Umbenennung der kommenden Microsoft Shell - Codename Monad, die nun seit einigen Tagen in Windows PowerShell von der Marketingfraktion in Redmond umgetauft wurde.
 
-Leute, leute, mir schmerzt der Bauch vor Lachen. Sorry, liebe Microsofties, aber das ist das beste Highlight bisher. Nicht nur wegen der Tatsache, dass der Name \*hüstel\* extremst bescheiden ist und klingt. Nein... es gibt bereits ein [fast gleichnamiges Produkt](https://powershell.sourceforge.net/) und das bereits seit Jahren - zumindest PowerShell:
+Leute, leute, mir schmerzt der Bauch vor Lachen. Sorry, liebe Microsofties, aber das ist das beste Highlight bisher. Nicht nur wegen der Tatsache, dass der Name *hüstel* extremst bescheiden ist und klingt. Nein... es gibt bereits ein [fast gleichnamiges Produkt](https://powershell.sourceforge.net/) und das bereits seit Jahren - zumindest PowerShell:
 
 *PowerShell is a terminal emulator for the X11 Window System. If you end up having so many xterms open that you can never find the one you're looking for, PowerShell is for you. It supports many terminal "windows" embedded into a single X11 window, with each one given its own "notebook" tab.*
 

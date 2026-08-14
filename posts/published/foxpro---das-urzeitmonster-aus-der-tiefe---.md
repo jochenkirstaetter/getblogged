@@ -74,13 +74,13 @@ etwas Vergleichbares überhaupt gibt.
 Denn welche Programmiersprachen hat von Haus folgende Komponenten  
 an Bord?
 
-\* Objektorientierte Programmiersprache als Kernstück  
-\* Integrated Development Environment (IDE)  
-\* Datenbank  
-\* Reportgenerator - der zudem noch distributable ist  
-\* XML und COM Fähigkeiten  
-\* Hohe Stabilität  
-\* Alle Addons der IDE liegen im Quellcode bei
+* Objektorientierte Programmiersprache als Kernstück  
+* Integrated Development Environment (IDE)  
+* Datenbank  
+* Reportgenerator - der zudem noch distributable ist  
+* XML und COM Fähigkeiten  
+* Hohe Stabilität  
+* Alle Addons der IDE liegen im Quellcode bei
 
 Mag es auch Alternativen en mass geben, KEINE ist so komplett wie  
 Visual FoxPro.

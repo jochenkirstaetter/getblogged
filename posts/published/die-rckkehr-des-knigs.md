@@ -59,6 +59,6 @@ Nunja, nicht mein Problem - das wird's erst, wenn das Paket nicht ankommen sollt
 
 Apropos Amazon - gleich mal was in egoistischer Sache - ich hab' einen Wunschzettel eingerichtet... Da meine aktuellen Entwicklung zu Active FoxPro Pages, sowie derzeit alle Artikel online kostenfrei an die Community gehen, gönne ich mir den Luxus meinen Träumen einen kommerziellen Rahmen zu verpassen und anderen eine Möglichkeit an die Hand zu geben, sich eventuell erkenntlich zu zeigen - nur keine Angst, ich erwarte nichts und freue mich garantiert umso mehr, wenn es tatsächlich klappen sollte... 😁
 
-Auf geht's Weihnachten steht vor der Tür... Gibt's eigentlich schon Lebkuchen bei Aldi? \*grübel\*
+Auf geht's Weihnachten steht vor der Tür... Gibt's eigentlich schon Lebkuchen bei Aldi? *grübel*
 
 Bis denne, JoKi

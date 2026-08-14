@@ -54,7 +54,7 @@ codeinjectionHead:
 codeinjectionFoot: 
 ---
 Beinahe könnte man es schon als Stress auslegen - positiven Stress stellt es garantiert schon dar. Und wenn man nur 'ne Stunde auf der Autobahn steht oder Odysee-like über unbekannte Landstraßen zuckelt... da bekommt das Wort 'Telefonkonferenz' bzw. 'Navigationssystem' ebenfalls noch eine neue Bedeutung. 😎  
-Unterwegs zu einem Usertreffen, daß man als Redner ausfüllen soll. Naja, so ein Stau hat aber auch Vorteile - vorallem wenn man zu zweit unterwegs ist. Tjoa, da werden dann mal so nebenbei noch die Slides für den Abend zusammengezimmert, bzw. etliche Rechtschreibkorrekturen in den begleitenden Unterlagen vollzogen... \*wink zu Golo\* - diesbzgl. nochmals Danke.  
+Unterwegs zu einem Usertreffen, daß man als Redner ausfüllen soll. Naja, so ein Stau hat aber auch Vorteile - vorallem wenn man zu zweit unterwegs ist. Tjoa, da werden dann mal so nebenbei noch die Slides für den Abend zusammengezimmert, bzw. etliche Rechtschreibkorrekturen in den begleitenden Unterlagen vollzogen... *wink zu Golo* - diesbzgl. nochmals Danke.  
 Nunja, mit dem Ergebnis oder besser formuliert der eigenen Leistung vom Freitag bin ich wirklich nicht zufrieden und hoffe, daß ich von den Teilnehmern noch Kritik per Mail oder irgendwie bekomme. Schliesslich soll es an der diesjährigen Entwicklerkonferenz besser werden.  
 Entwicklerkonferenz... Hachja, wenn doch die Vorbereitungen nur nicht wären 😁 - aber ich freu mich schon tierisch drauf! Nicht nur wg. der Themen und so, sondern vielmehr aufgrund der Tatsache wieder mit Entwicklerkollegen gemütlich zusammen sitzen zu können.
 

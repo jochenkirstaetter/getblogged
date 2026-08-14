@@ -66,8 +66,8 @@ Außerdem gibt's brandheiße Informationen von der 12. Entwicklerkonferenz zu Vi
   
 Sonstige Punkte des Abends:  
   
-\* Design Pattern: Adapter  
-\* Devcon Frankfurt 2005 - Nachlese  
-\* Offene Diskussion zu VFP / SQL / .NET  
+* Design Pattern: Adapter  
+* Devcon Frankfurt 2005 - Nachlese  
+* Offene Diskussion zu VFP / SQL / .NET  
   
 Ich freue mich auf zahlreiches Erscheinen und bis denne, JoKi

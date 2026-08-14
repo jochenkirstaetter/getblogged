@@ -71,82 +71,82 @@ Well, das ist eine Sache der Herangehensweise. Ich würde in so einem Falle ledi
 
 Wenn wir also die bisherigen Erkenntnisse zusammenpacken, dann sollte unser Quellcode in etwa so aussehen:
 
-```
+```foxpro
 *============================================================
 * Interface definition for decorator classes
 *============================================================
 Define Class IDecorator As Relation
- oObject = .Null.
+  oObject = .Null.
 
- Function Init(toObject As Object) As Boolean
-  Return .T.
- EndFunc
- 
- Function Destroy() As Boolean
-  Return .T.
- EndFunc
- 
- Function SetClient(toObject As Object) As VOID
- EndFunc
+  Function Init(toObject As Object) As Boolean
+    Return .T.
+  EndFunc
 
- Protected Function This_Access(tcPem As String) As Object
+  Function Destroy() As Boolean
+    Return .T.
+  EndFunc
+
+  Function SetClient(toObject As Object) As VOID
+  EndFunc
+
+  Protected Function This_Access(tcPem As String) As Object
   Return This
- EndFunc
- 
- Function GetToken(toObject As Object, tcToken As String) As Variant
+EndFunc
+
+Function GetToken(toObject As Object, tcToken As String) As Variant
   Return .Null.
- EndFunc
+EndFunc
 EndDefine
 
 *============================================================
 * 'Abstract' base class for Decorator Design Pattern
 *============================================================
 Define Class AbstractDecorator As IDecorator
- 
- Function Init(toObject As Object) As Boolean
-  Return This.SetClient(m.toObject)
- EndFunc
- 
- Function Destroy() As Boolean
-  This.oObject = .Null.
- EndFunc
- 
- Function SetClient(toObject As Object) As VOID
-  If Pcount() == 1 .And. ;
-     Vartype(m.toObject) == "O"
-  
-   This.oObject = m.toObject
-  EndIf
- EndFunc
 
- Function This_Access(tcPem As String) As Object
-  Local loReturn, luValue, laMembers[1]
-  m.loReturn = This
-  m.luValue = .Null.
+  Function Init(toObject As Object) As Boolean
+    Return This.SetClient(m.toObject)
+  EndFunc
 
-  If Vartype(This.oObject) == "O"
-   AMembers(m.laMembers, This.oObject, 0, "GU")
-   If (PemStatus(This.oObject, m.tcPem, 5) .And. ;
-       Not PemStatus(This.oObject, m.tcPem, 2)) .Or. ;
-      Ascan(m.laMembers, m.tcPem, 1, -1, 1, 1+2+4) > 0
-    m.loReturn = This.oObject
-   Else
-    If Not PemStatus(This, m.tcPem, 5)
-     Assert .F. Message "PEM: '" + m.tcPem + "' not available."
-     AddProperty(This, m.tcPem, .F.)
-     m.luValue = This.GetToken(This, m.tcPem)
-     
-     Store m.luValue To ("This." + m.tcPem)
+  Function Destroy() As Boolean
+    This.oObject = .Null.
+  EndFunc
+
+  Function SetClient(toObject As Object) As VOID
+    If Pcount() == 1 .And. ;
+        Vartype(m.toObject) == "O"
+
+      This.oObject = m.toObject
     EndIf
-   EndIf
-  EndIf
-  
-  Return m.loReturn
- EndFunc
- 
- Function GetToken(toObject As Object, tcToken As String) As Variant
-  Return .Null.
- EndFunc
+  EndFunc
+
+  Function This_Access(tcPem As String) As Object
+    Local loReturn, luValue, laMembers[1]
+    m.loReturn = This
+    m.luValue = .Null.
+
+    If Vartype(This.oObject) == "O"
+      AMembers(m.laMembers, This.oObject, 0, "GU")
+      If (PemStatus(This.oObject, m.tcPem, 5) .And. ;
+          Not PemStatus(This.oObject, m.tcPem, 2)) .Or. ;
+          Ascan(m.laMembers, m.tcPem, 1, -1, 1, 1+2+4) > 0
+        m.loReturn = This.oObject
+      Else
+        If Not PemStatus(This, m.tcPem, 5)
+          Assert .F. Message "PEM: '" + m.tcPem + "' not available."
+          AddProperty(This, m.tcPem, .F.)
+          m.luValue = This.GetToken(This, m.tcPem)
+
+          Store m.luValue To ("This." + m.tcPem)
+        EndIf
+      EndIf
+    EndIf
+
+    Return m.loReturn
+  EndFunc
+
+  Function GetToken(toObject As Object, tcToken As String) As Variant
+    Return .Null.
+  EndFunc
 EndDefine
 ```
 
@@ -154,31 +154,31 @@ EndDefine
 
 Wie schon geschrieben, ist die Methode GetToken eigentlich überflüssig, aber dennoch ganz nett. Als beispielhaftes Einsatzgebiet möchte euch mal eine Ableitung des Decorators für Mehrsprachigkeit zeigen. Ich nehme an, dass der 'Nutzen' von GetToken klarer erscheinen dürfte, insbesondere warum ich von einem einfachen Cache spreche:
 
-```
+```foxpro
 *============================================================
 * Concrete class definition for encapsulated language handling.
 * This class is referred as object 'Language' in AfpWiki.
 *============================================================
 Define Class LanguageDecorator As AbstractDecorator
- AfpWiki = "AfpWiki - A wiki engine based on Active_FoxPro_Pages"
+  AfpWiki = "AfpWiki - A wiki engine based on Active_FoxPro_Pages"
 
- *------------------------------------------------------------
- * Try to gather information from somewhere else. 
- *------------------------------------------------------------
- Function GetToken(toObject As Object, tcToken As String) As Variant
-  Local lcReturn
+  *------------------------------------------------------------
+  * Try to gather information from somewhere else.
+  *------------------------------------------------------------
+  Function GetToken(toObject As Object, tcToken As String) As Variant
+    Local lcReturn
 
-  *--- This could be any method on the decorated object.
-  *--- ie. m.lcReturn = This.oObject.MsgSvc(m.tcToken)
-  *---     m.lcReturn = This.oObject.QueryXml(m.tcToken)
-  *---     m.lcReturn = This.oObject.SqlExecute(This.oObject.nHandle, m.tcToken)
-  m.lcReturn = This.oObject.GetToken(This, m.tcToken)
-  If Empty(m.lcReturn) .Or. IsNull(m.lcReturn)
-   m.lcReturn = This.oObject.Language + ": '" + m.tcToken + "' not definied"
-  EndIf
+    *--- This could be any method on the decorated object.
+    *--- ie. m.lcReturn = This.oObject.MsgSvc(m.tcToken)
+    *---     m.lcReturn = This.oObject.QueryXml(m.tcToken)
+    *---     m.lcReturn = This.oObject.SqlExecute(This.oObject.nHandle, m.tcToken)
+    m.lcReturn = This.oObject.GetToken(This, m.tcToken)
+    If Empty(m.lcReturn) .Or. IsNull(m.lcReturn)
+      m.lcReturn = This.oObject.Language + ": '" + m.tcToken + "' not definied"
+    EndIf
 
-  Return m.lcReturn
- EndFunc
+    Return m.lcReturn
+  EndFunc
 EndDefine
 ```
 
@@ -188,38 +188,38 @@ Ich verwende diesen Decorator wie gesagt für die Abbildung von Mehrsprachigkeit
 
 So, der Vollständidkeit wegen hier noch die Klassendefinition der Sprachklasse:
 
-```
+```foxpro
 *============================================================
 * 'Abstract' base class for all languages.
 * This class defines the interface.
 *============================================================
 Define Class AbstractLanguage As Relation
- Language = ""
- 
- Function GetToken(toObject As Object, tcToken As String) As Variant
-   Return ""
- EndFunc
+  Language = ""
+
+  Function GetToken(toObject As Object, tcToken As String) As Variant
+    Return ""
+  EndFunc
 EndDefine
 
 *------------------------------------------------------------
 * German translations
 *------------------------------------------------------------
-Define Class LanguageDE As AbstractLanguage Of "abstract.prg" 
- Language = "de"
- 
- CaptionBackup = "Sicherung oder Wiederherstellung des AfpWiki"
- CaptionBuild = "Erstellung AfpWiki"
- CaptionCategory = "Kategorische Ansicht"
- CaptionConnectionError = "Verbindungsfehler zur Datenbank"
- CaptionEdit = "Bearbeiten von "
- CaptionEmpty = "Neuer Eintrag "
- 
- Function GetToken(toObject As Object, tcToken As String) As Variant
-  Local lcReturn
-  m.lcReturn = This.Language + ": '" + m.tcToken + "' nicht definiert"
-  
-  Return m.lcReturn
- EndFunc
+Define Class LanguageDE As AbstractLanguage Of "abstract.prg"
+  Language = "de"
+
+  CaptionBackup = "Sicherung oder Wiederherstellung des AfpWiki"
+  CaptionBuild = "Erstellung AfpWiki"
+  CaptionCategory = "Kategorische Ansicht"
+  CaptionConnectionError = "Verbindungsfehler zur Datenbank"
+  CaptionEdit = "Bearbeiten von "
+  CaptionEmpty = "Neuer Eintrag "
+
+  Function GetToken(toObject As Object, tcToken As String) As Variant
+    Local lcReturn
+    m.lcReturn = This.Language + ": '" + m.tcToken + "' nicht definiert"
+
+    Return m.lcReturn
+  EndFunc
 EndDefine
 ```
 

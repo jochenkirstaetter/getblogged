@@ -130,7 +130,7 @@ Over the past weeks, I noticed that some of my knowledge in Microsoft Azure and 
 This means that creating a proficient knowledge of Linux should be placed onto that roadmap we started. According to a statement by Scott Hanselman back in October 2018 more than 50% of services on Azure are operated on Linux.
 
 > Microsoft: “50% of Azure runs Linux.”  
-Also Microsoft: \*releases DOS as open source under MIT\*[https://t.co/ETq4onW4Cs](https://t.co/ETq4onW4Cs)  
+Also Microsoft: *releases DOS as open source under MIT*[https://t.co/ETq4onW4Cs](https://t.co/ETq4onW4Cs)  
   
 Clearly there’s only one conclusion! CLOUD-SCALE CONTAINERIZED DOS AS A SERVICE Y’ALL
 >

@@ -53,7 +53,7 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 ---
-Some articles, especially the old and transferred ones, had some 'cryptic' content like 'icon \_ wink' (without spaces) in the text. Well, that were some placeholders to provide icons on the position. Meanwhile I added those content filters to the current blog system and hopefully you should get nice emoticons instead of stupid text placeholders in my articles. 😁.  
+Some articles, especially the old and transferred ones, had some 'cryptic' content like 'icon _ wink' (without spaces) in the text. Well, that were some placeholders to provide icons on the position. Meanwhile I added those content filters to the current blog system and hopefully you should get nice emoticons instead of stupid text placeholders in my articles. 😁.  
   
 Feedback on missing content translation for icons would be very helpful! Thanks for patience and your efforts in advance.  
   

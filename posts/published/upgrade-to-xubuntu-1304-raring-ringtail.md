@@ -159,8 +159,8 @@ In case that you like to be on the safe side, you might consider to download the
 This mainly depends on your package selection. In my case, I only had to take care of two specific applications: Skype and VMware Player. Well, as for VMware Player I had to re-install the application. You should use at least version 5.0.2 which is known to work out of the box on Ubuntu 13.04. Just in case that you don't have the latest version, get it from VMware and run the following in the directory with the bundle file:
 
 > $ sudo vmware-installer -u vmware-player  
-$ sudo chmod +x VMware-Player-5.0.2-1031769.x86\_64.bundle  
-$ sudo ./VMware-Player-5.0.2-1031769.x86\_64.bundle
+$ sudo chmod +x VMware-Player-5.0.2-1031769.x86_64.bundle  
+$ sudo ./VMware-Player-5.0.2-1031769.x86_64.bundle
 
 This will do the trick and VMware Player runs again.
 
@@ -171,7 +171,7 @@ Skype actually took me a little bit more research (read: run some Google search 
 
 But the solution is also very simple. Skype requires to pre-load the libGL library in order to run properly
 
-> $ LD\_PRELOAD=/usr/lib/i386-linux-gnu/mesa/libGL.so.1.2.0 skype
+> $ LD_PRELOAD=/usr/lib/i386-linux-gnu/mesa/libGL.so.1.2.0 skype
 
 And to simplify your life, create launcher script as a 'transparent proxy' for Skype:
 

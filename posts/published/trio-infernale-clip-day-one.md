@@ -60,7 +60,7 @@ Der Tag fängt ehrlich gesagt, extremst gut an. Morgens noch ein paar Kleinigkei
 
 ## 12:00 Kaiserslautern - T-Shirtdruckerei
 
-Mit leichtem Ziehen und Bangen betrete ich den Laden. Ahh, wir werden gleich wieder erkannt - ob's letzte Woche zu heftig bei der Bestellung war? "Welche Nummer haben Sie?" - Wie? Welche Nummer? \*schwitz\* - keine Nummer vorhanden... Fein, nach kurzer Durchsicht der Klappkästen, taucht als letztes(!) unsere Bestellung auf. Phantastisch, aber die Schockeinlage am frühen Morgen, daran sollten wir noch arbeiten. 😁
+Mit leichtem Ziehen und Bangen betrete ich den Laden. Ahh, wir werden gleich wieder erkannt - ob's letzte Woche zu heftig bei der Bestellung war? "Welche Nummer haben Sie?" - Wie? Welche Nummer? *schwitz* - keine Nummer vorhanden... Fein, nach kurzer Durchsicht der Klappkästen, taucht als letztes(!) unsere Bestellung auf. Phantastisch, aber die Schockeinlage am frühen Morgen, daran sollten wir noch arbeiten. 😁
 
 ## 12:30 Kaiserslautern - Golo Haas
 
@@ -93,7 +93,7 @@ Um etwaigen Problemen und Spritengpässen im Falle eines Staus zu entgegnen, leg
 
 ## Ich will Spass, ich geb' Gas...
 
-Tjoa, aber nicht auf der A8. icon\_cry Ein Tempomat wäre wirklich gediegen. Wir haben weiterhin unseren Spass unterwegs. Gebabbels unter Computerfreaks eben - was soll da schon Sinnvolles bei rauskommen? Tiger erzählt seine halbe Lebensgeschichte, wir gehen die Planung für den Abend durch, und sprechen über unsere Communities.
+Tjoa, aber nicht auf der A8. icon_cry Ein Tempomat wäre wirklich gediegen. Wir haben weiterhin unseren Spass unterwegs. Gebabbels unter Computerfreaks eben - was soll da schon Sinnvolles bei rauskommen? Tiger erzählt seine halbe Lebensgeschichte, wir gehen die Planung für den Abend durch, und sprechen über unsere Communities.
 
 ## 17:00 Navigationssystem fällt komplett aus
 
@@ -106,7 +106,7 @@ Nach der erneuten Kehrtwende und Fahren nach Schildern erreichen wir endlich das
 ## 18:09 S-Bahn surfen
 
 So, wie kommen wir an den Marienplatz? Nach Eindeckung mit Fahrplannetz, Weganweisungen und einem kurzen Abendspaziergang erreichen wir den S-Bahnhof Feldkirchen. Partner-Tageskarte klingt gut und kurz darauf geht's los. Irgendwie hat mir der vierte Mann in unserer Klemme doch leid getan, aber wir hatten unseren Spass. Wusste schon jemand, daß Eisbären zu Tiger morphen können?  
-Die Hälfte der Strecke ist zurückgelegt und ein Pärchen in der Sitzkombi auf der anderen Seite unterhält sich angeregt über die Kleinigkeiten des Alltags. "Und dann dieser Hund vom Nachbarn aussem dritten Stock, dieser kleine Schwarze - dieser STASI-Köter" - \*brüll\* - Ich muss raus! Glücklicherweise steigen die beiden (und leider auch unser "Opfer") an eine der nächsten Stationen aus.
+Die Hälfte der Strecke ist zurückgelegt und ein Pärchen in der Sitzkombi auf der anderen Seite unterhält sich angeregt über die Kleinigkeiten des Alltags. "Und dann dieser Hund vom Nachbarn aussem dritten Stock, dieser kleine Schwarze - dieser STASI-Köter" - *brüll* - Ich muss raus! Glücklicherweise steigen die beiden (und leider auch unser "Opfer") an eine der nächsten Stationen aus.
 
 ## 19:15 Zwei Münchner in München
 
@@ -124,6 +124,6 @@ Ziemlich abgekämpft und selig erreichen wir das Hotel. Nach Schreiben einiger P
 Dennoch erreicht mein Bewusstsein noch eine Frage: Wer ist eigentlich auf die "bescheuerte" Idee gekommen, daß wir uns um 5:45 für einen Besuch im Hotel-Schwimmbad treffen?  
 Bis denne, JoKi
 
-\* Anmerkungen  
+* Anmerkungen  
 ICQ - eine Kommunikationssoftware und -protokoll im Internet für den Austausch von Textmitteilungen  
 Nichtraucher - Klarstellung: Tiger aka Alex Steireif ist definitiv Nichtraucher. Der Balkon war obsolete.

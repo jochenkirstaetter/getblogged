@@ -86,13 +86,13 @@ private DataSet ds;
   
   
 Jetzt kümmern wir uns ein wenig um die optische Ausstattung und werfen ein paar Controls auf die leere Form:  
-\* Label  
-\* Textbox  
-\* Button für den Auswahldialog  
-\* FileDialog-Komponente  
-\* Button für Browse  
-\* Button für Update  
-\* und zu guter Letzt ein DataGrid  
+* Label  
+* Textbox  
+* Button für den Auswahldialog  
+* FileDialog-Komponente  
+* Button für Browse  
+* Button für Update  
+* und zu guter Letzt ein DataGrid  
   
 Das Ganze hübsch angeordnet und per Anchor-Eigenschaft festgetackert.  
   
@@ -102,7 +102,7 @@ So, jetzt kümmern wir uns um die Ereignisse, die Auftreten können. Da hätten 
 
 ```
   
-private void cmdSelect\_Click(object sender, System.EventArgs e)  
+private void cmdSelect_Click(object sender, System.EventArgs e)  
 {  
 try  
 {  
@@ -128,7 +128,7 @@ Als nächstes das Click-Ereignis des Browse-Button; hier nutzen wir die Fähigke
 
 ```
   
-private void cmdBrowse\_Click(object sender, System.EventArgs e)  
+private void cmdBrowse_Click(object sender, System.EventArgs e)  
 {  
 try  
 {  
@@ -154,7 +154,7 @@ Debug.WriteLine(ex.ToString());
   
 try  
 {  
-this.da = new OleDbDataAdapter("SELECT \* FROM " + this.file, Conn);  
+this.da = new OleDbDataAdapter("SELECT * FROM " + this.file, Conn);  
 OleDbCommandBuilder cb = new OleDbCommandBuilder(this.da);  
 da.InsertCommand = cb.GetInsertCommand();  
 da.UpdateCommand = cb.GetUpdateCommand();  
@@ -185,7 +185,7 @@ Als nächstes spendieren wir dem Update-Button die Fähigkeit per DataSet der Ä
 
 ```
   
-private void cmdUpdate\_Click(object sender, System.EventArgs e)  
+private void cmdUpdate_Click(object sender, System.EventArgs e)  
 {  
 if(this.ds.HasChanges())  
 {  
@@ -208,7 +208,7 @@ Cool, oder?
 Nunja, das ist erst die halbe Miete, denn die richtige Arbeitserleichterung unter Visual FoxPro besteht darin, dass die Feldinhalte direkt geändert und bei einem Zeilenwechsel ad hoc zurückgeschrieben werden.  
 Hehe, hier für habe ich mir einen Trick einfallen lassen: Das entsprechende Ereignis des DataGrid wird an die gleiche Methode wie der Update-Button gebunden...  
   
-`this.grdTable.CurrentCellChanged += new System.EventHandler(this.cmdUpdate\_Click);`  
+`this.grdTable.CurrentCellChanged += new System.EventHandler(this.cmdUpdate_Click);`  
   
 *flupp* Fertig!  
   
@@ -258,7 +258,7 @@ public frmVfpBrowse()
 // Erforderlich für die Windows Form-Designerunterstützung  
 //  
 InitializeComponent();  
-this.grdTable.CurrentCellChanged += new System.EventHandler(this.cmdUpdate\_Click);  
+this.grdTable.CurrentCellChanged += new System.EventHandler(this.cmdUpdate_Click);  
   
 //  
 // TODO: Fügen Sie den Konstruktorcode nach dem Aufruf von InitializeComponent hinzu  
@@ -315,7 +315,7 @@ this.cmdSelect.Name = "cmdSelect";
 this.cmdSelect.Size = new System.Drawing.Size(24, 23);  
 this.cmdSelect.TabIndex = 1;  
 this.cmdSelect.Text = "...";  
-this.cmdSelect.Click += new System.EventHandler(this.cmdSelect\_Click);  
+this.cmdSelect.Click += new System.EventHandler(this.cmdSelect_Click);  
 //  
 // cmdBrowse  
 //  
@@ -324,7 +324,7 @@ this.cmdBrowse.Location = new System.Drawing.Point(517, 4);
 this.cmdBrowse.Name = "cmdBrowse";  
 this.cmdBrowse.TabIndex = 2;  
 this.cmdBrowse.Text = "Browse";  
-this.cmdBrowse.Click += new System.EventHandler(this.cmdBrowse\_Click);  
+this.cmdBrowse.Click += new System.EventHandler(this.cmdBrowse_Click);  
 //  
 // cmdUpdate  
 //  
@@ -333,7 +333,7 @@ this.cmdUpdate.Location = new System.Drawing.Point(8, 384);
 this.cmdUpdate.Name = "cmdUpdate";  
 this.cmdUpdate.TabIndex = 3;  
 this.cmdUpdate.Text = "Update";  
-this.cmdUpdate.Click += new System.EventHandler(this.cmdUpdate\_Click);  
+this.cmdUpdate.Click += new System.EventHandler(this.cmdUpdate_Click);  
 //  
 // grdTable  
 //  
@@ -368,7 +368,7 @@ this.Controls.Add(this.cmdSelect);
 this.Controls.Add(this.txtTable);  
 this.Name = "frmVfpBrowse";  
 this.Text = "Browse Visual FoxPro DBFs";  
-this.Load += new System.EventHandler(this.frmVfpBrowse\_Load);  
+this.Load += new System.EventHandler(this.frmVfpBrowse_Load);  
 ((System.ComponentModel.ISupportInitialize)(this.grdTable)).EndInit();  
 this.ResumeLayout(false);  
   
@@ -384,12 +384,12 @@ static void Main()
 Application.Run(new frmVfpBrowse());  
 }  
   
-private void frmVfpBrowse\_Load(object sender, System.EventArgs e)  
+private void frmVfpBrowse_Load(object sender, System.EventArgs e)  
 {  
   
 }  
   
-private void cmdSelect\_Click(object sender, System.EventArgs e)  
+private void cmdSelect_Click(object sender, System.EventArgs e)  
 {  
 try  
 {  
@@ -408,7 +408,7 @@ txtTable.Text = openFileDialog1.FileName;
 }  
 }  
   
-private void cmdBrowse\_Click(object sender, System.EventArgs e)  
+private void cmdBrowse_Click(object sender, System.EventArgs e)  
 {  
 try  
 {  
@@ -433,7 +433,7 @@ Debug.WriteLine(ex.ToString());
   
 try  
 {  
-this.da = new OleDbDataAdapter("SELECT \* FROM " + this.file, Conn);  
+this.da = new OleDbDataAdapter("SELECT * FROM " + this.file, Conn);  
 OleDbCommandBuilder cb = new OleDbCommandBuilder(this.da);  
 da.InsertCommand = cb.GetInsertCommand();  
 da.UpdateCommand = cb.GetUpdateCommand();  
@@ -457,7 +457,7 @@ Debug.WriteLine(ex.ToString());
 }  
 }  
   
-private void cmdUpdate\_Click(object sender, System.EventArgs e)  
+private void cmdUpdate_Click(object sender, System.EventArgs e)  
 {  
 if(this.ds.HasChanges())  
 {  

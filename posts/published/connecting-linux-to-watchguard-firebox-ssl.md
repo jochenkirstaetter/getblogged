@@ -259,7 +259,7 @@ Then click on the 'Advanced...' button and check the following values:
 - Use custom gateway port: 443 (second value of 'remote' directive)
 - Check the selected value of Cipher ('cipher')
 - Check HMAC Authentication ('auth')
-- Enter the Subject Match: /O=WatchGuard\_Technologies/OU=Fireware/CN=Fireware\_SSLVPN\_Server ('tls-remote')
+- Enter the Subject Match: /O=WatchGuard_Technologies/OU=Fireware/CN=Fireware_SSLVPN_Server ('tls-remote')
 
 Finally, you have to confirm and close all dialogs. You should be able to establish your OpenVPN-WatchGuard connection via Network Manager. For that, click on the 'VPN Connections =&gt; client' entry on your Network Manager in the systray.
 
@@ -292,7 +292,7 @@ The output should contain PUSH received message similar to the following one:
 Jul 23 23:13:28 ios1 ovpn-client[789]: PUSH: Received control message: 'PUSH_REPLY,topology subnet,route 192.168.1.0 255.255.255.0,dhcp-option DOMAIN,route-gateway 192.168.6.1,topology subnet,ping 10,ping-restart 60,ifconfig 192.168.6.2 255.255.255.0'
 ```
 
-The interesting part for us is the route command which I highlighted already in the sample PUSH\_REPLY. Depending on your remote server there might be multiple networks defined (172.16.x.x and/or 10.x.x.x).  
+The interesting part for us is the route command which I highlighted already in the sample PUSH_REPLY. Depending on your remote server there might be multiple networks defined (172.16.x.x and/or 10.x.x.x).  
 **Important:** The IP address range on both sides of the connection has to be different, otherwise you will have to shuffle IPs or increase your the netmask.
 
 After the VPN connection is established, we have to extend the rules for iptables in order to route and masquerade IP packets properly. I created a shell script to take care of those steps:

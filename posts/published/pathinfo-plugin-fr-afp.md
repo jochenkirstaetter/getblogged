@@ -59,10 +59,10 @@ Ausgehend von meinem gestrigen Eintrag heute eine kleinere Ergänzung. Da mich d
   
 *Path information, as given by the client, for example, "/vdir/myisapi.dll/zip". If this information comes from a URL, it is decoded by the server before it is passed to the CGI script or ISAPI filter.*  
   
-*If the AllowPathInfoForScriptMappings metabase property is set to true (to support exclusive CGI functionality), PATH\_INFO will only contain "/zip" and ISAPI applications such as ASP will break.*  
+*If the AllowPathInfoForScriptMappings metabase property is set to true (to support exclusive CGI functionality), PATH_INFO will only contain "/zip" and ISAPI applications such as ASP will break.*  
 -- Quelle: [MSDN](https://web.archive.org/web/20060516125129/http://msdn.microsoft.com/library/?url=/library/en-us/iissdk/html/21b3be8f-d4ed-4059-8e21-6cba2c253006.asp?frame=true)  
   
-Ohne Sichtung des Quellcode vom Apache mod\_isapi gehe ich davon aus, dass es sich hierbei um das gleiche Verhalten handelt, nämlich dass eben ISAPIs nicht fehlschlagen.  
+Ohne Sichtung des Quellcode vom Apache mod_isapi gehe ich davon aus, dass es sich hierbei um das gleiche Verhalten handelt, nämlich dass eben ISAPIs nicht fehlschlagen.  
   
 Da die AFP derzeit eben auch als ISAPI programmiert ist, wird mir wohl nichts anderes übrig bleiben, als die Situation anders zu lösen. Und dabei gibt es wiederum mehrere Lösungsmöglichkeiten; ich habe mich aktuell für die einfachste entschieden: Plugin erstellen.  
   
@@ -70,22 +70,22 @@ Gemäß den Vorgaben der AFP-Hilfe zur Puginerstellung geht das auch sehr schnel
   
 ## Code:
 \*======================================================================  
-\* Executes AFP pages based on current PATH\_INFO information of web server.  
-\* This plugin checks the URL and re-routes page execution based of the provided  
-\* path information. This behaviour is related to AcceptPathInfo directive of Apache web server  
-\* and AllowPathInfoForScriptMappings of IIS.  
-\* MSDN information: ms-help://MS.MSDNQTR.2006JAN.1033/iissdk/html/da14bb52-fb04-4e0b-a11b-a6035b5d65c9.htm  
-\*  
-\* This plugin parses PATH\_INFO and PATH\_TRANSLATED as described in RFC 3875:  
-\* http://www.ietf.org/rfc/rfc3875  
+* Executes AFP pages based on current PATH_INFO information of web server.  
+* This plugin checks the URL and re-routes page execution based of the provided  
+* path information. This behaviour is related to AcceptPathInfo directive of Apache web server  
+* and AllowPathInfoForScriptMappings of IIS.  
+* MSDN information: ms-help://MS.MSDNQTR.2006JAN.1033/iissdk/html/da14bb52-fb04-4e0b-a11b-a6035b5d65c9.htm  
+* 
+* This plugin parses PATH_INFO and PATH_TRANSLATED as described in RFC 3875:  
+* http://www.ietf.org/rfc/rfc3875  
 \*======================================================================  
 LParameter roPlugIn  
-roPlugIn = CreateObject("CPlugIn\_PathInfo")  
+roPlugIn = CreateObject("CPlugIn_PathInfo")  
   
 \*======================================================================  
-\* CPlugIn\_PathInfo  
+* CPlugIn_PathInfo  
 \*======================================================================  
-Define Class CPlugIn\_PathInfo as CPlugin  
+Define Class CPlugIn_PathInfo as CPlugin  
   
 ; &  
 nbsp;cID = "PathInfo"  
@@ -102,8 +102,8 @@ EndProc
 EndDefine  
   
 \*======================================================================  
-\* CHookCallFactory objects are responsible to parse the request and return an appropriate  
-\* CCall object, if they want to handle a request.  
+* CHookCallFactory objects are responsible to parse the request and return an appropriate  
+* CCall object, if they want to handle a request.  
 \*======================================================================  
 Define Class CHookPathInfo as CHookCallFactory  
 Procedure CreateCall  
@@ -112,19 +112,19 @@ LParameter toFile, tnLevel
 sp; Local lcApp, lcPage  
   
 \*------------------------------------------------------------------  
-\* Get references to various AFP objects and store them in private variables. The  
-\* CreateObject() method only creates a new object, if the requested object has not  
-\* yet been loaded. Otherwise, a reference to the existing object is returned.  
-\*  
-\* NEVER store these references in properties. This might cause problems with AFP.  
+* Get references to various AFP objects and store them in private variables. The  
+* CreateObject() method only creates a new object, if the requested object has not  
+* yet been loaded. Otherwise, a reference to the existing object is returned.  
+* 
+* NEVER store these references in properties. This might cause problems with AFP.  
 \*------------------------------------------------------------------  
 &nbs;  
 p;Private REQUEST  
 REQUEST = This.CreateObject("Request")  
   
 Local lcPathInfo, lcPathTranslated, lcLocation, lcVirtualLocation  
-m.lcPathInfo = Request.ServerVariables("PATH\_INFO")  
-m.lcPathTranslated = Request.ServerVariables("PATH\_TRANSLATED")  
+m.lcPathInfo = Request.ServerVariables("PATH_INFO")  
+m.lcPathTranslated = Request.ServerVariables("PATH_TRANSLATED")  
 ;  
   
 &  
@@ -140,19 +140,19 @@ nbsp; m.lcPathTranslated = ""
 EndIf  
   
 \*------------------------------------------------------------------  
-\* Correct PATH\_\* server variables and execute  
-\* requested script file.  
+* Correct PATH_* server variables and execute  
+* requested script file.  
 \*------------------------------------------------------------------  
 Request.cData = Strtran( ;  
 Request.cData, ;  
-[PATH\_INFO:] + Request.ServerVariables("PATH\_INFO"), ;  
-[PATH\_INFO:] + m.lcPathInfo, ;  
+[PATH_INFO:] + Request.ServerVariables("PATH_INFO"), ;  
+[PATH_INFO:] + m.lcPathInfo, ;  
 1, 1, 2 ;  
 )  
 Request.cData = Strtran( ;  
 Request.cData, ;  
-[PATH\_TRANSLATED:] + Request.ServerVariables("PATH\_TRANSLATED"), ;  
-[PATH\_TRANSLATED:] + m.lcPathTranslated, ;  
+[PATH_TRANSLATED:] + Request.ServerVariables("PATH_TRANSLATED"), ;  
+[PATH_TRANSLATED:] + m.lcPathTranslated, ;  
 1, 1, 2 ;  
 )  
 Request.Reset()  
@@ -168,7 +168,7 @@ EndProc
 EndDefine  
   
   
-Die Klasse CPlugIn\_PathInfo ist die konkretisierte Ableitung der AFP Pluginklasse und darin instanziieren wir die eigentliche Anpassung der ServerVariablen in der Klasse CHookPathInfo. Wir müssen wir über eine Factory gehen, da die Active FoxPro Pages intern eine Chain of Responsibility über alle Call-Prozesse aufbaut und auf diese Weise ermöglicht, dass multiple Plugins den ursprünglichen Request des Clients analysieren, modifizieren und verarbeiten können.  
+Die Klasse CPlugIn_PathInfo ist die konkretisierte Ableitung der AFP Pluginklasse und darin instanziieren wir die eigentliche Anpassung der ServerVariablen in der Klasse CHookPathInfo. Wir müssen wir über eine Factory gehen, da die Active FoxPro Pages intern eine Chain of Responsibility über alle Call-Prozesse aufbaut und auf diese Weise ermöglicht, dass multiple Plugins den ursprünglichen Request des Clients analysieren, modifizieren und verarbeiten können.  
   
 Die Integration in die AFP erfolgt entweder per ControlCenter oder händisch über die Bearbeitung der afp.config:  
   

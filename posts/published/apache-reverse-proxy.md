@@ -71,7 +71,7 @@ Now, I want to enable access from the Internet to that internal server using Apa
 
 ## Configuring Apache as reverse proxy
 
-In order to complete our task we need to look into the features of the mod\_proxy module for Apache. Here, we get a directive called `ProxyPass` which does the job as expected. According to Apache's [Reverse Proxy Guide](https://httpd.apache.org/docs/2.4/howto/reverse_proxy.html) the simplest example proxies all requests (`"/"`) to a single backend:
+In order to complete our task we need to look into the features of the mod_proxy module for Apache. Here, we get a directive called `ProxyPass` which does the job as expected. According to Apache's [Reverse Proxy Guide](https://httpd.apache.org/docs/2.4/howto/reverse_proxy.html) the simplest example proxies all requests (`"/"`) to a single backend:
 
 ```
 ProxyPass "/"  "http://www.example.com/"

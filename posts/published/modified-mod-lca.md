@@ -67,18 +67,18 @@ In case that your content is created the usual way, Mod LCA is just fine. But in
 
 Alright, having a look at the source code files of Mod LCA gives a direct glue about how we can improve the situation. At least, it's nothing complicated but the correct order clause of a SQL statement, or? And there we go...
 
-Before any modifications be aware to have a backup at hand. Open the file mod\_lca/helper.php with your favourite text editor and change the query statement like so:
+Before any modifications be aware to have a backup at hand. Open the file mod_lca/helper.php with your favourite text editor and change the query statement like so:
 
 
 ```
 $query = 'SELECT a.id, a.title, a.alias, a.catid, a.sectionid, c.alias as calias, '.  
 $created.  
-' FROM #\_\_content AS a'.  
-' LEFT JOIN #\_\_categories AS c ON c.id=a.catid'.  
-' LEFT JOIN #\_\_sections AS s ON s.id=a.sectionid'.  
+' FROM #__content AS a'.  
+' LEFT JOIN #__categories AS c ON c.id=a.catid'.  
+' LEFT JOIN #__sections AS s ON s.id=a.sectionid'.  
 ' WHERE ( a.state = 1 AND s.id &gt; 0 )' .  
-' AND ( a.publish\_up = '.$db-&gt;Quote($nullDate).' OR a.publish\_up &lt;= '.$db-&gt;Quote($now).' )'.  
-' AND ( a.publish\_down = '.$db-&gt;Quote($nullDate).' OR a.publish\_down &gt;= '.$db-&gt;Quote($now).' )'.  
+' AND ( a.publish_up = '.$db-&gt;Quote($nullDate).' OR a.publish_up &lt;= '.$db-&gt;Quote($now).' )'.  
+' AND ( a.publish_down = '.$db-&gt;Quote($nullDate).' OR a.publish_down &gt;= '.$db-&gt;Quote($now).' )'.  
 ' AND s.published = 1'.  
 ' AND c.published = 1'.  
 ' ORDER BY **a.created DESC**';  
@@ -90,35 +90,35 @@ $out[$d[0]][$month][] = '&lt;a href="'.$link.'"&gt;'.**htmlspecialchars(**$row-&
 ```
 
 
-*Modified code of mod\_lca/helper.php*
+*Modified code of mod_lca/helper.php*
 
 The original code orders the result set by a.id and this might cause problems. With this minor code change articles are queried in the expected order and as a consequence in my case my 'Article Time Line' in the sidebar is properly rendered and displayed.
 
-After running some validation tests according to XHTML 1.0 compliance I did some more modifications to mod\_lca. By adding the PHP function htmlspecialchars() to encode the output of the article title you will get properly encoded special characters in your hyperlinks. This modification has to be done in the helper.php file as you can see above.
+After running some validation tests according to XHTML 1.0 compliance I did some more modifications to mod_lca. By adding the PHP function htmlspecialchars() to encode the output of the article title you will get properly encoded special characters in your hyperlinks. This modification has to be done in the helper.php file as you can see above.
 
-To create the tree hierarchy of the article list based on year and month, mod\_lca needs some CSS and JavaScript instructions. Well, for the JavaScript it is not a problem itself but the CSS styles should not be placed with the &lt;body&gt; tag of the rendered page. To improve this situation it is necessary to tidy some code of mod\_lca.
+To create the tree hierarchy of the article list based on year and month, mod_lca needs some CSS and JavaScript instructions. Well, for the JavaScript it is not a problem itself but the CSS styles should not be placed with the &lt;body&gt; tag of the rendered page. To improve this situation it is necessary to tidy some code of mod_lca.
 
 
 ```
-if (!DEFINED("LCA\_HEADER")) {  
+if (!DEFINED("LCA_HEADER")) {  
 // If cache is enabled, we can't add css neither js files  
   
-define("LCA\_HEADER", 1);  
+define("LCA_HEADER", 1);  
 echo '  
 **(&lt;style&gt; section deleted)**  
 &lt;script type="text/javascript"&gt;
 ```
 
 
-*Modified code of mod\_lca/tmpl/default.php*
+*Modified code of mod_lca/tmpl/default.php*
 
 The key of this solution is to move the style information away from the module and into the template CSS file or if you prefer in its own CSS file. To reduce the number of HTTP requests the styles should be in the template.css file.
 
 
 ```
-/\*\*\*\*\*\*\*\*  
-mod\_LCA  
-\*\*\*\*\*\*\*\*/  
+/********  
+mod_LCA  
+********/  
 li.lca {  
 display: block  
 }  

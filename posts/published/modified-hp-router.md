@@ -66,8 +66,8 @@ The reason here is that the extension (as of writing this article) does not resp
 
 To correct this problem it is necessary to modify two PHP files of the original HP Router:
 
-- hprouter/com\_contentrouter.php
-- hprouter/com\_contactrouter.php
+- hprouter/com_contentrouter.php
+- hprouter/com_contactrouter.php
 
 Almost of the end of each file there are the SQL statements to query the database. After you made a backup of your two files you should change them like so:
 
@@ -76,20 +76,20 @@ Almost of the end of each file there are the SQL statements to query the databas
 $db =& JFactory::getDBO();  
 if($vars['view'] == 'article')  
 {  
-$query = 'SELECT id FROM #\_\_content WHERE **state = 1 AND** alias = '.$db-&gt;Quote($vars['id']);  
+$query = 'SELECT id FROM #__content WHERE **state = 1 AND** alias = '.$db-&gt;Quote($vars['id']);  
 } elseif($vars['view'] == 'category') {
 ```
 
 
-*Modified version of hprouter/com\_contentrouter.php*
+*Modified version of hprouter/com_contentrouter.php*
 
 
 ```
 $db =& JFactory::getDBO();  
-$query = 'SELECT id FROM #\_\_contact\_details WHERE **state = 1 AND** alias = '.$db-&gt;Quote($vars['id']);
+$query = 'SELECT id FROM #__contact_details WHERE **state = 1 AND** alias = '.$db-&gt;Quote($vars['id']);
 ```
 
 
-*Modified version of hprouter/com\_contactrouter.php*
+*Modified version of hprouter/com_contactrouter.php*
 
 With those modifications the HP Router works as expected and queries only published articles. Currently, I am not using the archive state of articles but in case that you will, just extend those two queries to include the necessary state values.

@@ -59,7 +59,7 @@ So ähnlich konnte man den gestrigen Abend beginnen. Nach einiger Zeit fand ich 
 
 Nach ein paar einleitenden Worten von Golo über die aktuelle Situation der UG, den Ereignissen der letzten vier Wochen - insbesondere des Technical Summits - und der Vorstellung der ersten Bücher der UG-Bibliothek steigen wir kurz nach 20:00 ins Thema SQL Server ein.
 
-Mein armes Notebook... \*snief\*  
+Mein armes Notebook... *snief*  
 Nach der Installation letzter Woche wurde es dann gestern 'ernst'. Well, nach anfänglichen Problemen mit der Diskussion welches Ausgabegerät (TFT oder Beamer) denn nun das primäre Display mit welcher Auflösung erhält, konnte es losgehen.
 
 Nunja, SQL Server 2005, SQL Server 2000 und dann noch das SQL Server Management Studio gleichzeitig laufen lassen, könnte doch die ein oder andere Ressource benötigen. Nunja, wir hatten ja Zeit und daher lief der Abend wesentlich gemütlicher als geplant - hehehe, so kann man auch die Zeit überbrücken...  

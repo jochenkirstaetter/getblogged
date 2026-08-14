@@ -59,12 +59,12 @@ Unser Treffen wird sich hoffentlich vor allem wieder um die Kernbelange von CLIP
 
 Daher freue ich mich umso mehr, dass ich heute ein paar Überstunden abfeiern kann. Eine optimale Grundlage für das heutige Zusammenkommen, wie ich finde... Oder?
 
-Nach einem kurzen, morgendlichen Abstecher in die Firma befinde ich mich aktuell im Zug nach Bingen, um anschliessend direkt nach Düsseldorf weiter zu fahren. Aber... musste es denn ausgerechnet heute sein? \*g\* - Leute, heute ist bundesweite Zeugnisausgabe in den Schulen! Die Abfahrt in Kaiserslautern war ja noch ganz okay, was die Verfügbarkeit von Sitzgelegenheiten angeht, aber ab Winnweiler, über Rockenhausen bis Alsenz... Da wurde es dann ein wenig 'kriminell' ;-)  
+Nach einem kurzen, morgendlichen Abstecher in die Firma befinde ich mich aktuell im Zug nach Bingen, um anschliessend direkt nach Düsseldorf weiter zu fahren. Aber... musste es denn ausgerechnet heute sein? *g* - Leute, heute ist bundesweite Zeugnisausgabe in den Schulen! Die Abfahrt in Kaiserslautern war ja noch ganz okay, was die Verfügbarkeit von Sitzgelegenheiten angeht, aber ab Winnweiler, über Rockenhausen bis Alsenz... Da wurde es dann ein wenig 'kriminell' ;-)  
 Wenn ich mich an meine Schulzeit zurückerinnere, war das beste am Tag der Zeugnisausgabe die Tatsache, dass man nur vier Stunden Unterricht hatte und dann ins Wochenende entlassen wurde. Die Jugend ist glücklicherweise genauso ausgelassen und gut gelaunt, wie wir es vor etlichen Jahren waren. Und das ist gut so.
 
 Hm, gerade mal die Funkschnittstellen vom Notebook deaktiviert, damit die Akkuleistung länger ausharrt. Schon spannend mit der neuen Kiste unterwegs zu sein. Hehehe, erinnert mich spontan an Men In Black 2, als sich J und K nach dem Deneutralizer einigen, wer denn nun das Auto fährt.
 
-\*Flupp\* - spontaner Umstieg in Bingen und weiter geht's im IC für die nächsten zwei Stunden. Hm, ungewöhnlich, aber dadurch werde ich zu früh am Treffpunkt sein. Naja, schauen wir mal, was unterwegs noch alles (oder nichts) passieren wird.
+*Flupp* - spontaner Umstieg in Bingen und weiter geht's im IC für die nächsten zwei Stunden. Hm, ungewöhnlich, aber dadurch werde ich zu früh am Treffpunkt sein. Naja, schauen wir mal, was unterwegs noch alles (oder nichts) passieren wird.
 
 So, weiter geht's zu den musikalischen Klängen von The Sins of Thy Beloved. Aktuell programmiere ich noch ein wenig an der AFP-Webanwendung für die Termin- und Themendarstellung der [VFP Usergroup in Speyer](https://speyer.dfpug.de). Hier war, ehrlich gesagt, längst mal Großreinemachen angesagt. Das Feedback bei der kurzen Vorstellung auf dem letzten Stammtisch war glücklicherweise schon mal positiv. Ich bin ebenfalls mal auf das finale Ergebnis gespannt 😎
 

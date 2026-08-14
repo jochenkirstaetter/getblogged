@@ -68,7 +68,7 @@ Fine, talking about German FoxPro User Group (dFPUG) I'd like to mention that we
 And here we are at the present moment. Currently I did a lot of enhancements in Html Plugin for Active FoxPro Pages and AfpWiki itself. I hope to release both products during next week. Html Plugin is primarily a plug-in for [Active FoxPro Pages](https://www.afpages.com). But that's only half the truth. The plug-in itself is build as a component and offers stand-alone functionality for VFP developers and through COM as well for other programming languages. In VFP you just create an object like so:
 
 
-```
+```foxpro
 Set Procedure To "html.plugin.dll" Additive
 
 Html = CreateObject("CHTML")
@@ -85,7 +85,7 @@ I wrote a sample solution that's able to convert an RSS Feed to a .NET DataSet t
 
 And... Html Plugin is a core part of AfpWiki - a Wiki engine on top of [Active FoxPro Pages](https://www.afpages.com). Actually the Html Plugin does all the stuff related to Regular Expressions. It's really nice to see that just one line of code parses all hyperlinks of the entire document and converts them into clickable links with 'title' attribute and protocol indicator. There is still a lot of work to do inside of AfpWiki, like backup and restore of the database, online upgrade mechanism as well as an abstraction layer to user authentication and management, but this will be implemented during a couple of weeks. You might check out [https://faq.dfpug.de](https://faq.dfpug.de) to see the system in action.
 
-Ah, before I forget to mention... Html Plugin and AfpWiki are both available for free (as in beer \*g\*). So, if anyone of you is interested in a Wiki solution... just drop me a note.
+Ah, before I forget to mention... Html Plugin and AfpWiki are both available for free (as in beer *g*). So, if anyone of you is interested in a Wiki solution... just drop me a note.
 
 That's all for 2005... I wish you A Happy New Year and hope to see you all in 2006 again.
 

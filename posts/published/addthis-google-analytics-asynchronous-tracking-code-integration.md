@@ -65,9 +65,9 @@ The steps to use the asynchronous tracking is straight forward:
 
 ```
 &lt;script type="text/javascript"&gt;&lt;!--  
-var \_gaq = \_gaq || [];  
-\_gaq.push(['\_setAccount', 'UA-XXXXX-X']);  
-\_gaq.push(['\_trackPageview']);  
+var _gaq = _gaq || [];  
+_gaq.push(['_setAccount', 'UA-XXXXX-X']);  
+_gaq.push(['_trackPageview']);  
   
 (function() {  
 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;  
@@ -87,8 +87,8 @@ Anyways, back to this article. You can send AddThis shares to your Google Analyt
 
 
 ```
-addthis\_config = {  
-data\_ga\_tracker: pageTracker  
+addthis_config = {  
+data_ga_tracker: pageTracker  
 }
 ```
 
@@ -99,15 +99,15 @@ The Asynchronous Tracking Usage Guide provides the necessary information in the 
 
 
 ```
-\_gaq.push(function() {  
-var pageTracker = \_gaq.\_getAsyncTracker('myTracker');  
+_gaq.push(function() {  
+var pageTracker = _gaq._getAsyncTracker('myTracker');  
 var link = document.getElementById('my-link-id');  
-link.href = pageTracker.\_getLinkerUrl('https://example.com/');  
+link.href = pageTracker._getLinkerUrl('https://example.com/');  
 });
 ```
 &lt;
 
-The solution lies in the parameter of \_getAsyncTracker(). The samples in the User Guide refer to a named tracker. But what about the initial one? Right, just specify an empty string and you are done!
+The solution lies in the parameter of _getAsyncTracker(). The samples in the User Guide refer to a named tracker. But what about the initial one? Right, just specify an empty string and you are done!
 
 
 
@@ -126,11 +126,11 @@ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www'
   
 &lt;script type="text/javascript"&gt;  
 **var pageTracker = [];  
-if (\_gaq.\_getAsyncTracker) {  
-pageTracker = \_gaq.\_getAsyncTracker('');  
+if (_gaq._getAsyncTracker) {  
+pageTracker = _gaq._getAsyncTracker('');  
 }**  
-var addthis\_config = {  
-data\_ga\_tracker: pageTracker  
+var addthis_config = {  
+data_ga_tracker: pageTracker  
 };&lt;/script&gt;  
 &lt;/body&gt;
 ```

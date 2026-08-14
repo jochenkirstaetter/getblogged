@@ -61,17 +61,17 @@ Nun, was soll ich noch sagen: A new star is born!
 Auf der eigens eingerichteten Website [https://www.afpwiki.de](https://www.afpwiki.de) ist eine WikiEngine auf Basis der Active FoxPro Pages eingerichtet. Die Entwicklung ist in Richtung OpenSource ausgelegt. Ich hoffe dabei, dass zum einen die Akzeptanz des AfpWiki schneller steigen wird, und zum anderen auch weitere Interessierte in die Weiterentwicklung einsteigen werden. Interessanterweise verwaltet die aktuelle Fassung des AfpWiki seine Daten in einem Microsoft SQL Server 2000 - konkret MSDE 2.0.  
   
 Die nächsten Schritte der Entwicklung dürften potentiell folgendermaßen aussehen:  
-\* Umstellung auf XHTML  
-\* Erstellung von Stylesheets (CSS und XSL)  
-\* Besserer Editor für die Pflege des Content  
-\* Versionierung mit Differenzanzeige  
+* Umstellung auf XHTML  
+* Erstellung von Stylesheets (CSS und XSL)  
+* Besserer Editor für die Pflege des Content  
+* Versionierung mit Differenzanzeige  
   
 Für die weitere Zukunft sind dann noch weitere Features angedacht:  
-\* Namespaces  
-\* Import & Export  
-\* Web Services  
-\* Offline-Version  
-\* etc...  
+* Namespaces  
+* Import & Export  
+* Web Services  
+* Offline-Version  
+* etc...  
   
 Für Anregungen, Kritik, etc. steht das FAQuarium zur Verfügung. Je nach Resonanz wird dort künftig eine neue Sektion (oder auch nicht) zum Thema AfpWiki eingerichtet.  
   

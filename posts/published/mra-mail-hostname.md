@@ -165,7 +165,7 @@ Seeing something as simple as a host name which doesn't comply with RFCs leaves 
 
 ## What else to notice...
 
-Eventually, you might have noticed the difference of host name in the log entries above - *mail.mra.mu* vs. *mra\_esa1.mra.mu*. Let's do a couple of DNS lookups to see what's going on here actually. I use the `dig` command line tool on a Linux system to query DNS information. Eventually, you might consider to use an online service like [MX Toolbox](https://mxtoolbox.com/). On Windows you can execute the `nslookup` command in either a Command Prompt or PowerShell. See [Nslookup reference on TechNet](https://technet.microsoft.com/en-us/library/cc725991%28v=ws.11%29.aspx) for syntax.
+Eventually, you might have noticed the difference of host name in the log entries above - *mail.mra.mu* vs. *mra_esa1.mra.mu*. Let's do a couple of DNS lookups to see what's going on here actually. I use the `dig` command line tool on a Linux system to query DNS information. Eventually, you might consider to use an online service like [MX Toolbox](https://mxtoolbox.com/). On Windows you can execute the `nslookup` command in either a Command Prompt or PowerShell. See [Nslookup reference on TechNet](https://technet.microsoft.com/en-us/library/cc725991%28v=ws.11%29.aspx) for syntax.
 
 Talking about mail server I'm having a look at the MX record of the `mra.mu` domain first.
 

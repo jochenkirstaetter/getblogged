@@ -171,7 +171,7 @@ However, six vCPUs are just fine...
 
 Here you'll find more details on the various [GPU optimized virtual machine sizes](https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-gpu?WT.mc_id=AZ-MVP-5001701). Just note the following:
 
-> NC-series, NCv2-series, NCv3-series and NCT4\_v3-series sizes are optimized for compute-intensive and network-intensive applications and algorithms.
+> NC-series, NCv2-series, NCv3-series and NCT4_v3-series sizes are optimized for compute-intensive and network-intensive applications and algorithms.
 
 Enter the remaining fields and tick the checkbox at the bottom to confirm the Windows 10 license aspect. Then go back to the top of the page and click on the tab **Advanced**.
 

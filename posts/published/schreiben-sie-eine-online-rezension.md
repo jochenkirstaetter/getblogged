@@ -67,8 +67,8 @@ Was letztendlich zu einer Vertiefung des Memorierens führt - zumindest hoffe ic
   
 Damit geht's mit ein wenig Übung auf die Rezensionen für die Bücher aus dem Hause O'Reilly. Ich bin schon richtig gespannt, wann die erste Auslieferung für die VFP Usergroup erfolgt. Für den ersten Lauf haben wir in *hüstel* demokratischer Entscheidung folgende Titel angefordert:  
   
-\* SQL in a Nutshell (Q2/2005)  
-\* Versionskontrolle mit Subversion  
-\* Pragmatic Version Control Using Subversion  
+* SQL in a Nutshell (Q2/2005)  
+* Versionskontrolle mit Subversion  
+* Pragmatic Version Control Using Subversion  
   
 Hm, eigentlich sollten die Bücher schon eingetroffen sein... Naja, später mal per Mail nachfragen.

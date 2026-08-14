@@ -59,7 +59,7 @@ Zwar zu einem ungewöhnlichen Zeitpunkt, seit dem 01.12., aber dennoch ganz klar
 
 Hm, ich müsste mal überlegen, dürfte inzwischen unser 7. Auszubildender sein... Ja, Number 7.
 
-Warum schreibe ich eigentlich diesen Eintrag? Nun, in diesem Fall läuft die Ausbildung primär durch meine Planung und Gestaltung. Selbstverständlich werde ich auf die Erfahrungen und die Praktiken meiner geschätzten Kollegen zugreifen. Allein ob der Tatsache, dass wir natürlich die gleiche Ausbildungsqualität (evtl. sogar mehr? \*g\*) beibehalten werden.
+Warum schreibe ich eigentlich diesen Eintrag? Nun, in diesem Fall läuft die Ausbildung primär durch meine Planung und Gestaltung. Selbstverständlich werde ich auf die Erfahrungen und die Praktiken meiner geschätzten Kollegen zugreifen. Allein ob der Tatsache, dass wir natürlich die gleiche Ausbildungsqualität (evtl. sogar mehr? *g*) beibehalten werden.
 
 Und natürlich freue ich mich auf die neuen Herausforderungen. Ich glaube, die nächsten 2,5 bis 3 Jahre werden sehr aufschlussreich, mit zahlreichen Abwechslungen gespickt und hoffentlich viel Lehr- und Lernmöglichkeiten sowohl für den Auszubildenden als auch für mich als Ausbilder bieten. Ich bin auf alle Fälle mal gespannt.
 

@@ -119,24 +119,27 @@ def migrate_post(content, filepath, apply_headings=True):
         body_clean = re.sub(r'\{loadposition\s+[^}]+\}', '', body_clean, flags=re.IGNORECASE)
         changes.append("Stripped legacy CMS shortcodes ({loadposition ...})")
 
-    # 7c. Populate image alt text from immediately following italic caption (*Caption*)
+    # 7c. Populate image alt text from immediately following italic caption (*Caption* or \*Caption\*)
     def repl_img_caption(m):
         alt = m.group(1).strip()
         url = m.group(2).strip()
         trailing = m.group(3)
         caption = m.group(4).strip()
-        if not alt and caption:
-            # Use caption as alt text and preserve the visible caption below
-            clean_caption = caption.replace('\\*', '').replace('*', '').strip()
-            return f"![{clean_caption}]({url}){trailing}*{caption}*"
+        # Clean all backslashes and asterisks from caption to get clean text
+        clean_caption = re.sub(r'\\?[\*\[\]]', '', caption).strip()
+        if not alt and clean_caption:
+            return f"![{clean_caption}]({url}){trailing}*{clean_caption}*"
         return m.group(0)
 
-    body_clean = re.sub(r'!\[(.*?)\]\(([^\)]+)\)(\s*\n\s*)\*([^\*\n]+)\*', repl_img_caption, body_clean)
+    body_clean = re.sub(r'!\[([^\]]*)\]\(([^\)]+)\)(\s*\n\s*)\\?\*([^\n]+?)\\?\*(?=\s*(?:\n|$))', repl_img_caption, body_clean)
+    # Clean any malformed ![alt\](...)
+    body_clean = re.sub(r'!\[([^\]]*)\\\]\(', r'![\1](', body_clean)
 
     # 8. Bold Heading Detection & Conversion
     lines = body_clean.splitlines()
     new_lines = []
     heading_count = 0
+    italic_count = 0
     in_code_block = False
     
     for idx, line in enumerate(lines):
@@ -149,6 +152,8 @@ def migrate_post(content, filepath, apply_headings=True):
             continue
             
         if in_code_block:
+            # Unescape backslash-escaped asterisks and underscores in verbatim code blocks (e.g. VFP comments, constants)
+            line = line.replace(r'\*', '*').replace(r'\_', '_')
             new_lines.append(line)
             continue
             
@@ -199,11 +204,27 @@ def migrate_post(content, filepath, apply_headings=True):
         # Replace remaining escaped bold \*\*word\*\* with **word** outside code blocks
         if r'\*\*' in line:
             line = line.replace(r'\*\*', '**')
+
+        # Convert escaped bullet points at start of line: \* item -> * item
+        if re.match(r'^\s*\\\*\s+', line):
+            line = re.sub(r'^(\s*)\\\*\s+', r'\1* ', line)
+
+        # Convert escaped italics (\*text\* or *text\* or \*text*) to clean markdown *text*
+        if r'\*' in line:
+            line = re.sub(r'\\\*([^\*\n]+?)\\\*', r'*\1*', line)
+            line = re.sub(r'\*([^\*\n]+?)\\\*', r'*\1*', line)
+            line = re.sub(r'\\\*([^\*\n]+?)\*', r'*\1*', line)
+
+        # Unescape underscores outside code blocks (e.g. \_ -> _)
+        if r'\_' in line:
+            line = re.sub(r'\\_', '_', line)
             
         new_lines.append(line)
         
     if heading_count > 0:
         changes.append(f"Parsed {heading_count} bold section line(s) to '## Heading'")
+    if italic_count > 0:
+        changes.append(f"Converted {italic_count} escaped italic instance(s) (\\*...\\*) to markdown *...*")
         
     body_final = '\n'.join(new_lines)
     

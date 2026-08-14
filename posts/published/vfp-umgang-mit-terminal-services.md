@@ -72,8 +72,8 @@ GetEnv("CLIENTNAME")
 
 Im Benutzerprofil - Home(7) zum Beispiel oder GetEnv("LocalAppData") bzw. GetEnv("AppData"). Außerdem kannst du die WIN32 API Funktion SHGetFolderPath verwenden:
 
-#DEFINE CSIDL\_MYDOCUMENTS 0x000c  
-#DEFINE CSIDL\_LOCAL\_APPDATA 0x001c
+#DEFINE CSIDL_MYDOCUMENTS 0x000c  
+#DEFINE CSIDL_LOCAL_APPDATA 0x001c
 
 DECLARE SHORT SHGetFolderPath IN shell32;  
 INTEGER hwndOwner,;  
@@ -84,11 +84,11 @@ STRING @ pszPath
 
 LOCAL lcBuffer  
 lcBuffer = REPLICATE(CHR(0),254)  
-IF SHGetFolderPath(0, CSIDL\_MYDOCUMENTS, 0, 0, @lcBuffer) = 0  
+IF SHGetFolderPath(0, CSIDL_MYDOCUMENTS, 0, 0, @lcBuffer) = 0  
 ? LEFT(lcBuffer,AT(CHR(0),lcBuffer)-1)  
 ENDIF
 
-Weitere Konstanten für Ordner (CSIDL\_\*) findest du in der MSDN:
+Weitere Konstanten für Ordner (CSIDL_\*) findest du in der MSDN:
 
 [https://msdn.microsoft.com/library/default.asp?url=/library/en-us/shellcc/platform/shell/reference/enums/csidl.asp](https://msdn.microsoft.com/library/default.asp?url=/library/en-us/shellcc/platform/shell/reference/enums/csidl.asp)  
 (eine Zeile!)

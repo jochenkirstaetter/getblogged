@@ -62,8 +62,8 @@ Gut, bei Google bin ich mit acht von zehn unter den ersten Treffern aktuell #1. 
 [Alfred Kirstätter](https://www.stadtbranchenbuch.com/karlsruhe/539179.html) - Karlsruhe  
 [Friedrich Kirstätter Elektrotechnik](https://kirstaetter.com/) - Kleinsendelbach  
 [Verstorbener Jazz-Musiker: Kiki Kirstätter](https://www.rhinestream.de/verstorbene%20musiker.htm) - Mannheim  
-[Nadja Kirstätter](https://stayfriends.berlin.de/a/2209425/3335200/Baden-Wuerttemberg/Sersheim/Hauptschule/Hofaeckerschule\_Grund-\_und\_Hauptschule\_mit\_Werkrealschule/Nadja\_Kirstaetter.html) - Sersheim  
-[Tamara Kirstätter](https://stayfriends.berlin.de/a/1533759/2258686/Rheinland-Pfalz/Neuwied/Gymnasium/Werner-Heisenberg-Gymnasium/Tamara\_Kirstaetter.html) - Neuwied (nicht meine Schwester 🤪)  
+[Nadja Kirstätter](https://stayfriends.berlin.de/a/2209425/3335200/Baden-Wuerttemberg/Sersheim/Hauptschule/Hofaeckerschule_Grund-_und_Hauptschule_mit_Werkrealschule/Nadja_Kirstaetter.html) - Sersheim  
+[Tamara Kirstätter](https://stayfriends.berlin.de/a/1533759/2258686/Rheinland-Pfalz/Neuwied/Gymnasium/Werner-Heisenberg-Gymnasium/Tamara_Kirstaetter.html) - Neuwied (nicht meine Schwester 🤪)  
 [Lehrer(in) Kirstätter](https://www.lehrer.uni-karlsruhe.de/~za874/chronik0506.htm) - Karlsruhe  
 [Reno GEDCOM](https://greggreno.com/family/search.php?action=soundex) - Genealogie mit mehreren Verweisen  
 [Einwanderer in die Neue Welt](https://freepages.genealogy.rootsweb.com/~njm1/stpaul-zelinop.htm) - Genealogie mit mehreren Verweisen  
@@ -72,10 +72,10 @@ Gut, bei Google bin ich mit acht von zehn unter den ersten Treffern aktuell #1. 
 [Dozent Institut für Soziologie, Medien- und Kulturwissenschaft](https://fakultaet.geist-soz.uni-karlsruhe.de/ismk/index.php?nodeid=39) - Karlsruhe  
 [Andrea Kirstätter](https://www.meinestadt.de/linkenheim-hochstetten/branchenbuch/brkat/100-95328-96322-94080) - Pflegerischer Beratungsdienst, Linkenheim-Hochstetten  
 [url=]Marion Kirstätter - Beamtin Rathaus Speyer (Abt. 410 - Sozialhilfe und Sozialleistungen)  
-[Ron Kirstatter](https://www.ncsli.org/organization/index.cfm?fuseaction=home.dsp\_bio&position\_id=1221.0) - USMC  
+[Ron Kirstatter](https://www.ncsli.org/organization/index.cfm?fuseaction=home.dsp_bio&position_id=1221.0) - USMC  
 [The Kirstatters](https://kirstatter.net/) - Ron's family wie es scheint  
-[Alumni Abgänger 1990](https://www.chaminade.edu/alumni/classNotes.php?pg=content\_classNotes.php&group=1990) - Lita Marie und Ronald V. Kirstatter - Hm, Ronald und Lita könnten zusammengehören. Zumindest lassen andere Ressourcen darauf schliessen.  
-[Stefan Kirstätter](https://www.rz.uni-karlsruhe.de/~ea30/szj/aktuell\_archiv.php)
+[Alumni Abgänger 1990](https://www.chaminade.edu/alumni/classNotes.php?pg=content_classNotes.php&group=1990) - Lita Marie und Ronald V. Kirstatter - Hm, Ronald und Lita könnten zusammengehören. Zumindest lassen andere Ressourcen darauf schliessen.  
+[Stefan Kirstätter](https://www.rz.uni-karlsruhe.de/~ea30/szj/aktuell_archiv.php)
 
 Ist schon ziemlich interessant wie weit verbreitet dieser eher unübliche Name in der Welt vertreten ist. Stellt sich hierbei natürlich auch die Frage wie es mit der Genealogie insgesamt aussieht.
 
