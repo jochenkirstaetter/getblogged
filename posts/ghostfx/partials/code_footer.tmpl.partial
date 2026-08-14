@@ -17,8 +17,175 @@ if ('requestIdleCallback' in window) {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js" defer></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    if (window.hljs && typeof hljs.highlightAll === 'function') {
-        hljs.highlightAll();
+    // 1. Highlight code blocks (deferred via requestIdleCallback for 0ms TBT)
+    function runHighlight() {
+        if (window.hljs && typeof hljs.highlightAll === 'function') {
+            hljs.highlightAll();
+        }
+    }
+    if ('requestIdleCallback' in window) {
+        requestIdleCallback(runHighlight, { timeout: 1500 });
+    } else {
+        setTimeout(runHighlight, 100);
+    }
+
+    // 2. Add copy button to code blocks
+    var preBlocks = document.querySelectorAll('.post-full-content pre, .post-content pre, article pre');
+    preBlocks.forEach(function(pre) {
+        if (pre.querySelector('code.lang-mermaid, code.language-mermaid, code[class*="mermaid"]') || pre.classList.contains('mermaid')) return;
+        if (pre.closest('.code-block-wrapper')) return;
+        var wrapper = document.createElement('div');
+        wrapper.className = 'code-block-wrapper';
+        pre.parentNode.insertBefore(wrapper, pre);
+        wrapper.appendChild(pre);
+
+        var copyBtn = document.createElement('button');
+        copyBtn.type = 'button';
+        copyBtn.className = 'code-copy-btn';
+        copyBtn.setAttribute('aria-label', 'Copy code snippet');
+        copyBtn.innerHTML = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> <span>Copy</span>';
+
+        copyBtn.addEventListener('click', function() {
+            var code = pre.querySelector('code') || pre;
+            var text = code.innerText || code.textContent;
+            navigator.clipboard.writeText(text).then(function() {
+                copyBtn.classList.add('copied');
+                copyBtn.innerHTML = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> <span>Copied!</span>';
+                setTimeout(function() {
+                    copyBtn.classList.remove('copied');
+                    copyBtn.innerHTML = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> <span>Copy</span>';
+                }, 2000);
+            }).catch(function() {});
+        });
+
+        wrapper.appendChild(copyBtn);
+    });
+
+    // 3. Media Lightbox Controller
+    var lightbox = document.getElementById('media-lightbox');
+    var openLightbox = null;
+    if (lightbox) {
+        var lightboxBody = lightbox.querySelector('.media-lightbox-body');
+        var closeBtn = lightbox.querySelector('.media-lightbox-close');
+
+        openLightbox = function(element) {
+            if (!lightboxBody) return;
+            lightboxBody.innerHTML = '';
+            var clone = element.cloneNode(true);
+            lightboxBody.appendChild(clone);
+            if (typeof lightbox.showModal === 'function') {
+                lightbox.showModal();
+            }
+        };
+
+        if (closeBtn) {
+            closeBtn.addEventListener('click', function() {
+                lightbox.close();
+            });
+        }
+
+        // Light dismiss on backdrop click
+        lightbox.addEventListener('click', function(event) {
+            if (event.target === lightbox) {
+                var rect = lightbox.getBoundingClientRect();
+                var isInDialog = (
+                    rect.top <= event.clientY &&
+                    event.clientY <= rect.top + rect.height &&
+                    rect.left <= event.clientX &&
+                    event.clientX <= rect.left + rect.width
+                );
+                if (!isInDialog) {
+                    lightbox.close();
+                }
+            }
+        });
+
+        // Attach click to content images
+        var contentImages = document.querySelectorAll('.post-full-content img, .post-full-image img');
+        contentImages.forEach(function(img) {
+            if (img.closest('.author-profile-image') || img.closest('.static-avatar')) return;
+            img.style.cursor = 'zoom-in';
+            img.addEventListener('click', function(e) {
+                if (img.closest('a')) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                }
+                openLightbox(img);
+            });
+        });
+    }
+
+    // 4. Accessible Heading Order Normalization for Affix rail
+    var affixNav = document.getElementById('affix');
+    if (affixNav) {
+        function fixAffixHeading() {
+            var h5 = affixNav.querySelector('h5');
+            if (h5 && h5.tagName.toLowerCase() === 'h5') {
+                var h2 = document.createElement('h2');
+                h2.className = h5.className;
+                h2.innerHTML = h5.innerHTML;
+                h2.setAttribute('style', 'font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; margin: 0 0 10px;');
+                h5.parentNode.replaceChild(h2, h5);
+            }
+        }
+        fixAffixHeading();
+        if (window.MutationObserver) {
+            var observer = new MutationObserver(fixAffixHeading);
+            observer.observe(affixNav, { childList: true, subtree: true });
+        }
+    }
+
+    // 5. Mermaid Diagram Processing (CDN on-demand ESM loader)
+    var mermaidNodes = document.querySelectorAll('pre code.lang-mermaid, pre code.language-mermaid, pre.mermaid, div.mermaid, pre code[class*="mermaid"]');
+    if (mermaidNodes.length > 0) {
+        import('https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs')
+            .then(function(module) {
+                var mermaid = module.default;
+                var isDark = document.documentElement.getAttribute('data-bs-theme') === 'dark';
+                mermaid.initialize({
+                    startOnLoad: false,
+                    theme: isDark ? 'dark' : 'default',
+                    securityLevel: 'loose'
+                });
+
+                mermaidNodes.forEach(async function(node, idx) {
+                    var pre = node.tagName.toLowerCase() === 'pre' ? node : node.closest('pre');
+                    var rawCode = node.textContent || node.innerText;
+                    var container = document.createElement('div');
+                    container.className = 'mermaid-container';
+                    container.setAttribute('aria-label', 'Mermaid Diagram');
+
+                    try {
+                        var id = 'mermaid-diagram-' + idx + '-' + Math.random().toString(36).substring(2, 7);
+                        var result = await mermaid.render(id, rawCode.trim());
+                        container.innerHTML = result.svg;
+
+                        // Click to zoom in lightbox
+                        container.addEventListener('click', function() {
+                            var svg = container.querySelector('svg');
+                            if (svg && typeof openLightbox === 'function') {
+                                openLightbox(svg);
+                            }
+                        });
+
+                        if (pre && pre.parentNode) {
+                            var wrapper = pre.closest('.code-block-wrapper');
+                            if (wrapper && wrapper.parentNode) {
+                                wrapper.parentNode.replaceChild(container, wrapper);
+                            } else {
+                                pre.parentNode.replaceChild(container, pre);
+                            }
+                        } else if (node.parentNode) {
+                            node.parentNode.replaceChild(container, node);
+                        }
+                    } catch (err) {
+                        console.error('Mermaid render error:', err);
+                    }
+                });
+            })
+            .catch(function(err) {
+                console.error('Failed to load Mermaid CDN:', err);
+            });
     }
 });
 var serviceWorkerUri = '/sw-v1.js';

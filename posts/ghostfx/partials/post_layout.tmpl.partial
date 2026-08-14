@@ -17,18 +17,20 @@ into the {body} of the default.hbs template }}
 
             {{#image}}
             <figure class="post-full-image">
-                {{! This is a responsive image, it loads different sizes depending on device
-                https://medium.freecodecamp.org/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433 }}
                 <img
                     srcset="{{_rel}}{{image}} 300w,
                             {{_rel}}{{image}} 600w,
                             {{_rel}}{{image}} 1000w,
                             {{_rel}}{{image}} 2000w"
-                    sizes="(max-width: 800px) 400px,
-                            (max-width: 1170px) 700px,
+                    sizes="(max-width: 800px) 100vw,
+                            (max-width: 1170px) 100vw,
                             1400px"
                     src="{{_rel}}{{image}}"
-                    alt="{{title}}"
+                    alt="{{title}}{{#imageAttribution}} - {{.}}{{/imageAttribution}}"
+                    width="1600"
+                    height="900"
+                    fetchpriority="high"
+                    decoding="async"
                 />
             </figure>
             {{/image}}
@@ -79,15 +81,38 @@ into the {body} of the default.hbs template }}
             <section class="post-full-comments">
                 <div id="disqus_thread"></div>
                 <script>
-                    var disqus_config = function () {
-                        this.page.url = '{{_rel}}{{slug}}.html';
-                        this.page.identifier = '9271ed1c97_id{{uid}}';
-                    };
                     (function() {
-                        var d = document, s = d.createElement('script');
-                        s.src = 'https://{{_disqusSiteId}}.disqus.com/embed.js';
-                        s.setAttribute('data-timestamp', +new Date());
-                        (d.head || d.body).appendChild(s);
+                        var loaded = false;
+                        function loadDisqusEmbed() {
+                            if (loaded) return;
+                            loaded = true;
+                            window.disqus_config = function () {
+                                this.page.url = '{{_rel}}{{slug}}.html';
+                                this.page.identifier = '9271ed1c97_id{{uid}}';
+                            };
+                            var d = document, s = d.createElement('script');
+                            s.src = 'https://{{_disqusSiteId}}.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                        }
+                        var target = document.getElementById('disqus_thread');
+                        if ('IntersectionObserver' in window && target) {
+                            var observer = new IntersectionObserver(function(entries) {
+                                if (entries[0].isIntersecting) {
+                                    loadDisqusEmbed();
+                                    observer.disconnect();
+                                }
+                            }, { rootMargin: '300px' });
+                            observer.observe(target);
+                        } else {
+                            window.addEventListener('load', function() {
+                                if ('requestIdleCallback' in window) {
+                                    requestIdleCallback(loadDisqusEmbed, { timeout: 4000 });
+                                } else {
+                                    setTimeout(loadDisqusEmbed, 3000);
+                                }
+                            });
+                        }
                     })();
                 </script>
             </section>
@@ -246,13 +271,13 @@ into the {body} of the default.hbs template }}
         window.addEventListener('scroll', requestTick, { passive: true });
         window.addEventListener('resize', requestTick, false);
 
-        update();
+        requestAnimationFrame(update);
     }
 
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', initFloatingHeader);
     } else {
-        initFloatingHeader();
+        requestAnimationFrame(initFloatingHeader);
     }
 })();
 </script>

@@ -37,7 +37,6 @@
     <meta name="loc:copy" content="{{__global.copy}}">
     <meta name="loc:downloadPdf" content="{{__global.downloadPdf}}">
 
-    <script type="module" src="./{{_rel}}public/docfx.min.js"></script>
 
     {{#_enableSearch}}
     <style>
@@ -93,17 +92,24 @@
       {{/_googleAdSenseClientId}}
 
     {{! Styles'n'Scripts }}
-    {{#coverImage}}
+    {{#image}}
     <link rel="preload" as="image" href="{{_rel}}{{.}}" fetchpriority="high">
-    {{/coverImage}}
-    {{^coverImage}}
-      {{#_appCoverImage}}
+    {{/image}}
+    {{^image}}
+      {{#coverImage}}
       <link rel="preload" as="image" href="{{_rel}}{{.}}" fetchpriority="high">
-      {{/_appCoverImage}}
-    {{/coverImage}}
-    {{#background}}
-    <link rel="preload" as="image" href="{{_rel}}{{.}}" fetchpriority="high">
-    {{/background}}
+      {{/coverImage}}
+      {{^coverImage}}
+        {{#background}}
+        <link rel="preload" as="image" href="{{_rel}}{{.}}" fetchpriority="high">
+        {{/background}}
+        {{^background}}
+          {{#_appCoverImage}}
+          <link rel="preload" as="image" href="{{_rel}}{{.}}" fetchpriority="high">
+          {{/_appCoverImage}}
+        {{/background}}
+      {{/coverImage}}
+    {{/image}}
     <link href="{{_rel}}public/built/screen.css" rel="stylesheet" type="text/css" />
 
     {{>partials/code_header}}
@@ -210,9 +216,37 @@
     {{! The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. }}
     
 
-    {{! Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag }}
-    {{>partials/ghost_foot}}
+    <dialog id="media-lightbox" class="media-lightbox" closedby="any" aria-label="Media Preview">
+        <div class="media-lightbox-content">
+            <button type="button" class="media-lightbox-close" aria-label="Close preview">&times;</button>
+            <div class="media-lightbox-body"></div>
+        </div>
+    </dialog>
 
+    <script>
+    (function() {
+        var docfxLoaded = false;
+        function loadDocfxScript() {
+            if (docfxLoaded) return;
+            docfxLoaded = true;
+            var s = document.createElement('script');
+            s.type = 'module';
+            s.src = '{{_rel}}public/docfx.min.js';
+            document.body.appendChild(s);
+        }
+        var events = ['pointerdown', 'keydown', 'touchstart', 'scroll', 'focusin'];
+        function onUserInteraction() {
+            events.forEach(function(evt) {
+                window.removeEventListener(evt, onUserInteraction, { passive: true, capture: true });
+            });
+            loadDocfxScript();
+        }
+        events.forEach(function(evt) {
+            window.addEventListener(evt, onUserInteraction, { passive: true, capture: true });
+        });
+        setTimeout(loadDocfxScript, 8000);
+    })();
+    </script>
 {{>partials/code_footer}}
 </body>
 </html>

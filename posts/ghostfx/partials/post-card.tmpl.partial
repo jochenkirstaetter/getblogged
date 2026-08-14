@@ -9,7 +9,7 @@
                     {{_rel}}{{.}} 2000w"
             sizes="(max-width: 1000px) 400px, 700px"
             src="{{_rel}}{{.}}"
-            alt="{{title}}"
+            alt="{{title}}{{#imageAttribution}} - {{.}}{{/imageAttribution}}"
             loading="lazy"
             decoding="async"
         />
