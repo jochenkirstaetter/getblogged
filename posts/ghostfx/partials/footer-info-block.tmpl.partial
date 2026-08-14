@@ -11,7 +11,7 @@
         </div>
         <div class="footer_information-3 col-3">
             <h3>Crafted with <svg viewBox="0 0 24 24" width="14" height="14" fill="#ef4444" style="vertical-align: -1px; display: inline-block;" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg> in Mauritius</h3>
-            <p>This site runs entirely on <a href="https://ghost.org/">Ghost</a>. I got inspired during a camp-site fire talk with John O'Nolan. Read more about <a href="/john-onolan">why I chose to use Ghost</a>.</p>
+            <p>Template and content has been developed with <a href="https://github.com/jochenkirstaetter/ghostfx">GhostFx</a>. A static site converter and generator for <a href="https://ghost.org/">Ghost</a> and <a href="https://dotnet.github.io/docfx/">DocFX</a>.</p>
         </div>
     </div>
 </div>
