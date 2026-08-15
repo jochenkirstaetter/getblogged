@@ -137,11 +137,11 @@ Da wir bereits unsere eigene Funktion MessageBoxHelp haben, ergänzen wir diese 
 ```foxpro
 Function MessageBoxHelp(eMessageText, nDialogBoxType, cTitleBarText, nTimeout)
   Local liResponse
-  If Pcount() &lt; 4
+  If Pcount() < 4
     m.liResponse = MessageBoxA(_VFP.HWnd, eMessageText, cTitleBarText, nDialogBoxType)
   Else
     m.liResponse = MessageBoxTimeoutA(_VFP.HWnd, eMessageText, cTitleBarText, nDialogBoxType, 0, nTimeout)
-    m.liResponse = Iif(m.liResponse &gt; 7, -1, m.liResponse)
+    m.liResponse = Iif(m.liResponse > 7, -1, m.liResponse)
   EndIf
   Return m.liResponse
 EndFunc
@@ -172,11 +172,11 @@ Function MessageBoxHelp(eMessageText, nDialogBoxType, cTitleBarText, nTimeout)
   eMessageText = Strtran(Transform(eMessageText), "\n", Chr(13)+Chr(10), 1, -1, 1+2)
   eMessageText = Strtran(eMessageText, "\r", Chr(13)+Chr(10), 1, -1, 1+2)
   eMessageText = Strtran(eMessageText, "\t", Chr(9), 1, -1, 1+2)
-  If Pcount() &lt; 4
+  If Pcount() < 4
     m.liResponse = MessageBoxA(_VFP.HWnd, eMessageText, cTitleBarText, nDialogBoxType)
   Else
     m.liResponse = MessageBoxTimeoutA(_VFP.HWnd, eMessageText, cTitleBarText, nDialogBoxType, 0, nTimeout)
-    m.liResponse = Iif(m.liResponse &gt; 7, -1, m.liResponse)
+    m.liResponse = Iif(m.liResponse > 7, -1, m.liResponse)
   Endif
   Return m.liResponse
 EndFunc

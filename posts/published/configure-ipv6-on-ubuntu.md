@@ -114,7 +114,7 @@ eth0      Link encap:Ethernet  HWaddr 00:21:5a:50:d7:94
           UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
 
 $ sudo ip -6 address show eth0
-3: eth0: &lt;BROADCAST,MULTICAST,UP,LOWER_UP&gt; mtu 1500 qlen 1000
+3: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qlen 1000
     inet6 2001:db8:bad:a55::2/64 scope global 
        valid_lft forever preferred_lft forever
     inet6 fe80::221:5aff:fe50:d794/64 scope link 

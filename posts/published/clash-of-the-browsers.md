@@ -70,7 +70,7 @@ function resizeFrame(objectID) {
 var e;  
 var domFrame = findDOM(objectID);  
 var domFrameStyle = findDOM(objectID,1);  
-var domFrameDoc = (window.navigator.appName.toLowerCase().indexOf("netscape") &gt; -1) ? domFrame.contentWindow.document : domFrame.document  
+var domFrameDoc = (window.navigator.appName.toLowerCase().indexOf("netscape") > -1) ? domFrame.contentWindow.document : domFrame.document  
 var fheight = 0;  
   
 try {  

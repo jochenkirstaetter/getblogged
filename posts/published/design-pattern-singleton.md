@@ -163,7 +163,7 @@ Define Class AbstractSingleton As Collection
     Local lnCount, laInstances[1]
 
     m.lnCount = AInstance(m.laInstances,This.Class)
-    Return (m.lnCount &lt; 1)
+    Return (m.lnCount < 1)
   EndFunc
   *...
 EndDefine

@@ -64,7 +64,7 @@ The steps to use the asynchronous tracking is straight forward:
 - Insert the asynchronous tracking code  
 
 ```
-&lt;script type="text/javascript"&gt;&lt;!--  
+<script type="text/javascript"><!--  
 var _gaq = _gaq || [];  
 _gaq.push(['_setAccount', 'UA-XXXXX-X']);  
 _gaq.push(['_trackPageview']);  
@@ -74,7 +74,7 @@ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async
 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';  
 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);  
 })();  
-// --&gt;&lt;/script&gt;
+// --></script>
 ```
 
 - Replacing UA-XXXXX-X with your web property ID.
@@ -115,24 +115,24 @@ To summarize this article just use the following code snippet at the very end of
 
 
 ```
-&lt;!-- Google Analytics and AddThis button --&gt;  
-&lt;script type="text/javascript"&gt;  
+<!-- Google Analytics and AddThis button -->  
+<script type="text/javascript">  
 (function() {  
 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;  
 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';  
 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);  
 })();  
-&lt;/script&gt;  
+</script>  
   
-&lt;script type="text/javascript"&gt;  
+<script type="text/javascript">  
 **var pageTracker = [];  
 if (_gaq._getAsyncTracker) {  
 pageTracker = _gaq._getAsyncTracker('');  
 }**  
 var addthis_config = {  
 data_ga_tracker: pageTracker  
-};&lt;/script&gt;  
-&lt;/body&gt;
+};</script>  
+</body>
 ```
 
 

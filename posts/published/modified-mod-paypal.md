@@ -63,36 +63,36 @@ Actually, my main problem with this module is about XHTML 1.0 compliance. Sadly 
 
 
 ```
-&lt;form action="https://www.paypal.com/cgi-bin/webscr" method="post"&gt;  
-&lt;input type="hidden" name="cmd" value="_donations" **/**&gt;  
-&lt;input type="hidden" name="business" value="&lt;?php echo $paypal_emailID; ?&gt;" **/**&gt;  
-&lt;input type="hidden" name="item_name" value="&lt;?php echo $item_name; ?&gt;" **/**&gt;  
-&lt;?php if ($item_number)  
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">  
+<input type="hidden" name="cmd" value="_donations" **/**>  
+<input type="hidden" name="business" value="<?php echo $paypal_emailID; ?>" **/**>  
+<input type="hidden" name="item_name" value="<?php echo $item_name; ?>" **/**>  
+<?php if ($item_number)  
 {  
-echo "&lt;input type=\"hidden\" name=\"item_number\" value=\"" . $item_number . "\" **/**&gt;\r\n";  
+echo "<input type=\"hidden\" name=\"item_number\" value=\"" . $item_number . "\" **/**>\r\n";  
 }  
-?&gt;  
-&lt;?php **if ($amount)**  
+?>  
+<?php **if ($amount)**  
 {  
-echo "&lt;input type=\"hidden\" name=\"amount\" value=\"" . $amount . "\" **/**&gt;\r\n";  
-echo "&lt;input type=\"hidden\" name=\"lc\" value=\"" . $location . "\" **/**&gt;\r\n";  
+echo "<input type=\"hidden\" name=\"amount\" value=\"" . $amount . "\" **/**>\r\n";  
+echo "<input type=\"hidden\" name=\"lc\" value=\"" . $location . "\" **/**>\r\n";  
 }  
-?&gt;  
-&lt;input type="hidden" name="no_shipping" value="0" **/**&gt;  
-&lt;input type="hidden" name="no_note" value="1" **/**&gt;  
-&lt;input type="hidden" name="currency_code" value="&lt;?php echo $currency_code; ?&gt;" **/**&gt;  
-&lt;input type="hidden" name="tax" value="0" **/**&gt;  
-&lt;input type="hidden" name="bn" value="PP-DonationsBF" **/**&gt;  
-&lt;?php if ($image_choice==1)  
+?>  
+<input type="hidden" name="no_shipping" value="0" **/**>  
+<input type="hidden" name="no_note" value="1" **/**>  
+<input type="hidden" name="currency_code" value="<?php echo $currency_code; ?>" **/**>  
+<input type="hidden" name="tax" value="0" **/**>  
+<input type="hidden" name="bn" value="PP-DonationsBF" **/**>  
+<?php if ($image_choice==1)  
 {  
-echo "&lt;input type=\"image\" **border=\"0\"** src=\"" . $donate_image . "\" name=\"submit\"  
-alt=\"PayPal - The safer, easier way to pay online!\" **/**&gt;\r\n";  
+echo "<input type=\"image\" **border=\"0\"** src=\"" . $donate_image . "\" name=\"submit\"  
+alt=\"PayPal - The safer, easier way to pay online!\" **/**>\r\n";  
 }else{  
-echo "&lt;input type=\"image\" **border=\"0\"** src=\"" . $own_donate_image . "\" name=\"submit\"  
-alt=\"PayPal - The safer, easier way to pay online!\" **/**&gt;\r\n";  
+echo "<input type=\"image\" **border=\"0\"** src=\"" . $own_donate_image . "\" name=\"submit\"  
+alt=\"PayPal - The safer, easier way to pay online!\" **/**>\r\n";  
 }  
-?&gt;  
-&lt;/form&gt;
+?>  
+</form>
 ```
 
 

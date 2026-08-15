@@ -138,7 +138,7 @@ This enables us to extend the core functionality of the React app in the file `A
         <h1>ALC 4.0 Cloud Challenge I</h1>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Challenge:&nbsp;
+          Challenge: 
           <a
             className="App-status"
             href={window._env_.SITE_URL}

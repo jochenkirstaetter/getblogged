@@ -76,17 +76,17 @@ $created.
 ' FROM #__content AS a'.  
 ' LEFT JOIN #__categories AS c ON c.id=a.catid'.  
 ' LEFT JOIN #__sections AS s ON s.id=a.sectionid'.  
-' WHERE ( a.state = 1 AND s.id &gt; 0 )' .  
-' AND ( a.publish_up = '.$db-&gt;Quote($nullDate).' OR a.publish_up &lt;= '.$db-&gt;Quote($now).' )'.  
-' AND ( a.publish_down = '.$db-&gt;Quote($nullDate).' OR a.publish_down &gt;= '.$db-&gt;Quote($now).' )'.  
+' WHERE ( a.state = 1 AND s.id > 0 )' .  
+' AND ( a.publish_up = '.$db->Quote($nullDate).' OR a.publish_up <= '.$db->Quote($now).' )'.  
+' AND ( a.publish_down = '.$db->Quote($nullDate).' OR a.publish_down >= '.$db->Quote($now).' )'.  
 ' AND s.published = 1'.  
 ' AND c.published = 1'.  
 ' ORDER BY **a.created DESC**';  
-$db-&gt;setQuery($query);  
+$db->setQuery($query);  
   
 ... some lines down ...  
   
-$out[$d[0]][$month][] = '&lt;a href="'.$link.'"&gt;'.**htmlspecialchars(**$row-&gt;title**)**.'&lt;/a&gt;';
+$out[$d[0]][$month][] = '<a href="'.$link.'">'.**htmlspecialchars(**$row->title**)**.'</a>';
 ```
 
 
@@ -105,8 +105,8 @@ if (!DEFINED("LCA_HEADER")) {
   
 define("LCA_HEADER", 1);  
 echo '  
-**(&lt;style&gt; section deleted)**  
-&lt;script type="text/javascript"&gt;
+**(<style> section deleted)**  
+<script type="text/javascript">
 ```
 
 

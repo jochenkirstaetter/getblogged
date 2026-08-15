@@ -65,14 +65,12 @@ Funktionalität durch Klasse vorschalten (Decorator)
 
 Sofern ich den [Original-Thread](https://forum.dfpug.de/threads.afp?msgid=694197&complete=ON&sec=51&tid=191434) korrekt verstanden habe, erscheint mir die Anwendung des Decorator an sinnvollsten, da wir hier entsprechende Funktionalität ohne Code-Dopplung erreichen können.
 
-Wir lagern also die 'gemeinsame' Methode für die Klassen in unterschiedlichen Ableitungshierarchien in eine eigene Klasse aus, und wenden das Decorator Design Pattern an. Ich versuche es mal mit einem 'konstruierten' Code-Beispiel zu verdeutlichen:  
+Wir lagern also die 'gemeinsame' Methode für die Klassen in unterschiedlichen Ableitungshierarchien in eine eigene Klasse aus, und wenden das [Decorator Design Pattern](xref:design-pattern-decorator) an. Ich versuche es mal mit einem 'konstruierten' Code-Beispiel zu verdeutlichen:  
 
 ```foxpro
 *====================================================================
 * Anwendung des Decorator Design Pattern für die 'Simulation' von
 * Mehrfachvererbung.
-* Decorator-Klasse stammt aus dem Blogartikel zum Design Pattern:
-* [/Design-Pattern-Decorator](xref:design-pattern-decorator)
 *====================================================================
 Clear
 Set Procedure To Decorator.prg Additive
@@ -107,7 +105,7 @@ EndDefine
 
 *------------------------------------------------------------------
 * Eine Klasse der ersten Ableitungshierarchie
-* (vereinfachte Darstellung - As &lt;ParentClass&gt; kann beliebig sein.
+* (vereinfachte Darstellung - As <ParentClass> kann beliebig sein.
 *------------------------------------------------------------------
 Define Class Katze As Custom && As CSaeugetier
   Function Futtern()
@@ -206,7 +204,7 @@ EndDefine
 
 *------------------------------------------------------------------
 * Eine Klasse der ersten Ableitungshierarchie
-* (vereinfachte Darstellung - As &lt;ParentClass&gt; kann beliebig sein.
+* (vereinfachte Darstellung - As <ParentClass> kann beliebig sein.
 *------------------------------------------------------------------
 Define Class Katze As Custom && As CSaeugetier
   Function Futtern()

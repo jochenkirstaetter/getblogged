@@ -76,7 +76,7 @@ Almost of the end of each file there are the SQL statements to query the databas
 $db =& JFactory::getDBO();  
 if($vars['view'] == 'article')  
 {  
-$query = 'SELECT id FROM #__content WHERE **state = 1 AND** alias = '.$db-&gt;Quote($vars['id']);  
+$query = 'SELECT id FROM #__content WHERE **state = 1 AND** alias = '.$db->Quote($vars['id']);  
 } elseif($vars['view'] == 'category') {
 ```
 
@@ -86,7 +86,7 @@ $query = 'SELECT id FROM #__content WHERE **state = 1 AND** alias = '.$db-&gt;Qu
 
 ```
 $db =& JFactory::getDBO();  
-$query = 'SELECT id FROM #__contact_details WHERE **state = 1 AND** alias = '.$db-&gt;Quote($vars['id']);
+$query = 'SELECT id FROM #__contact_details WHERE **state = 1 AND** alias = '.$db->Quote($vars['id']);
 ```
 
 

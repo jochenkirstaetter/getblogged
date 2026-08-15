@@ -139,8 +139,8 @@ With This
         1 - m.luValue ;
         )
     Else
-      *---&nbsp;Ansonsten brauchen wir den zusätzlichen TAB
-      *---&nbsp;nicht auszulösen.
+      *--- Ansonsten brauchen wir den zusätzlichen TAB
+      *--- nicht auszulösen.
       Keyboard '{TAB}'
     EndIf
 

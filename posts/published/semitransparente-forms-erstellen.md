@@ -414,8 +414,8 @@ Schaut man sich übrigens die Vorgehensweise bei VFP-Forms an, erkennt man auch 
 Dazu erstellen wir uns einen generischen Container-Loader, der diese Aufgabe übernimmt. Die Loaderklasse erstellen wir übrigens in einem PRG namens *container.prg*. 🤪 Auf diese Weise können wir unsere Containerobjekte über zwei gleichwertige Wege erzeugen:  
 ``  
 In Analogie zum Aufruf von VFP-Formularen mittels *DO Form &lt;SCX&gt; WITH &lt;Parameter&gt;* bietet unser Programm eine vergleichbare Funktionalität gemäß folgender Syntax:  
-`DO Container With &lt;Klasse&gt;, &lt;Bibliothek&gt;, &lt;Parameter&gt;`  
+`DO Container With <Klasse>, <Bibliothek>, <Parameter>`  
 Auf Grund der Aggregation des ContainerLoaders an _Screen können wir ebenfalls folgenden Aufruf nutzen:  
-`_Screen.Containers.LoadContainer(&lt;Klasse&gt;, &lt;Bibliothek&gt;, &lt;Parameter&gt;)`  
+`_Screen.Containers.LoadContainer(<Klasse>, <Bibliothek>, <Parameter>)`  
 Durch die Verwendung einer Collection für unsere Container anstelle eines Arrays wie bei _Screen.Forms haben wir die Möglichkeit sowohl über einen Index als auch über einen Schlüssel (Namen) auf die Objektreferenz zuzugreifen.  
 Bis denne, JoKi

@@ -62,17 +62,17 @@ Motiviert durch diesen positiven ersten Eindruck habe ich mir ein bisschen den Q
 
 ## Integration in AfpWiki
 Gedacht, getan... Hm, es sind noch kleinere Anpassungen am Beispielcode von Sönke durchzuführen, damit es wirklich reibungslos klappt. Keine Sorge, ich werde die Patches direkt an ihn per Mail schicken. In der Hoffnung, dass mit dem nächsten Release des Editors auch die veränderten AFP-Dokumente dabei sind. Meine erste Empfehlung ist, dass man die VFP Klassendefinition in eine eigene Prozedurendatei umsiedelt und diese neue Datei wiederum per INCLUDE-Statement in die eigene, bestehende AFP Anwendung integriert:  
-`\*!&lt;[INCLUDE: "fck.code"]&gt;`  
+`\*!<[INCLUDE: "fck.code"]>`  
 Ich verwende hier exemplarisch die Endung .code, da es in der AFP so üblich für Prozedurendateien ist. Es spricht aber auch überhaupt nichts dagegen, dass man die VFP übliche Endung .prg verwendet. Das ist lediglich eine persönliche Geschmackssache, der AFP ist es gleichgültig.
 
 Nach der Integration der Klassendefinition werden die beiden Beispieldokumente (\*.afp) ins AfpWiki assimiliert:  
 
 ```foxpro
-&lt;%
+<%
 sBasePath="./FckEditor/" && Change this to your local path
 
-lcText=[This is some &lt;strong&gt;sample text&lt;/strong&gt;. You are using ]
-lcText=lcText+[&lt;a href='https://www.fckeditor.net/'&gt;FCKeditor&lt;/a&gt;.]
+lcText=[This is some <strong>sample text</strong>. You are using ]
+lcText=lcText+[<a href='https://www.fckeditor.net/'>FCKeditor</a>.]
 
 oFCKeditor = CREATEOBJECT("FCKeditor")
 oFCKeditor.fckeditor("FCKeditor1")
@@ -80,7 +80,7 @@ oFCKeditor.BasePath = sBasePath
 oFCKeditor.cValue = lcText
 
 Response.Write( oFCKeditor.Create() )
-%&gt;
+%>
 ```
   
 Nach einer anfänglichen Wehr - wer kommt auch auf die Idee, Variablennamen gleich Feldnamen des aktiven Alias zu setzen, und diesen auch noch 'html' zu nennen? - präsentierte sich der FCKeditor im gewohnten Bild im Layout des AfpWiki. Soviel zum Thema AFP debuggen und Master Pages ;-)

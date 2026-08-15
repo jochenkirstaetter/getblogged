@@ -141,7 +141,7 @@ SELECT
                     ,CONCAT('![\\3](/content/images/',DATE_FORMAT(`created`,'%Y/%m/'),'\\2)'))
                     ,'(<p>(.*)<\/p>)'
                   ,CONCAT('\\2','\r\n'))
-                ,'&nbsp;',' ')
+                ,' ',' ')
               ,'JPG','jpg')
             ,'<strong>','**')
           ,'</strong>','**')
