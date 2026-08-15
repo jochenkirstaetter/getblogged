@@ -36,6 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // 2. Add copy button to code blocks
     var preBlocks = document.querySelectorAll('.post-full-content pre, .post-content pre, article pre');
     preBlocks.forEach(function(pre) {
+        if (pre.closest('#markdown-viewer-modal')) return;
         if (pre.querySelector('code.lang-mermaid, code.language-mermaid, code[class*="mermaid"]') || pre.classList.contains('mermaid')) return;
         if (pre.closest('.code-block-wrapper')) return;
         var wrapper = document.createElement('div');

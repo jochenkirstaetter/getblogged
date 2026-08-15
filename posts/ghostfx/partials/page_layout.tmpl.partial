@@ -1,4 +1,4 @@
-﻿<header class="site-header outer">
+<header class="site-header outer">
     <div class="inner">
         {{>partials/site-nav}}
     </div>
@@ -15,6 +15,7 @@
 
             <header class="post-full-header">
                 <h1 class="post-full-title">{{title}}</h1>
+                {{>partials/markdown-actions}}
             </header>
 
             <section class="post-full-content">

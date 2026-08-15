@@ -122,3 +122,880 @@ body > main .affix,
   min-height: 250px !important;
   width: 100% !important;
 }
+
+/* ==========================================================================
+   Search Command Bar & Navigation Trigger
+   ========================================================================== */
+
+.site-nav-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+  max-width: 320px;
+  margin: 0 15px;
+}
+
+.site-nav-search-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 20px;
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.site-nav-search-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.15);
+}
+
+.site-nav-search-btn svg {
+  flex-shrink: 0;
+  margin-right: 8px;
+  opacity: 0.85;
+}
+
+.site-nav-search-btn .search-btn-placeholder {
+  flex: 1;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  opacity: 0.8;
+}
+
+@media (max-width: 680px) {
+  .site-nav-center {
+    max-width: 40px;
+    margin: 0 6px;
+    flex: 0 0 auto;
+  }
+  .site-nav-search-btn {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  .site-nav-search-btn svg {
+    margin-right: 0;
+  }
+  .site-nav-search-btn .search-btn-placeholder,
+  .site-nav-search-btn .search-hotkey-badge {
+    display: none !important;
+  }
+}
+
+.search-hotkey-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 6px;
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  margin-left: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Floating Header Search & Markdown Buttons */
+.floating-header-search-btn,
+.floating-header-share-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  margin: 0 3px;
+  padding: 0;
+}
+
+.floating-header-search-btn:hover,
+.floating-header-share-btn:hover {
+  background: rgba(255, 255, 255, 0.18);
+  transform: scale(1.1);
+}
+
+.floating-copy-markdown.copied {
+  color: #10b981 !important;
+}
+
+/* ==========================================================================
+   Search Command Palette Dialog (Lightbox-Equivalent Aesthetic)
+   ========================================================================== */
+
+.search-palette-dialog {
+  border: none !important;
+  border-radius: 14px !important;
+  padding: 0 !important;
+  background: transparent !important;
+  color: inherit !important;
+  max-width: 680px !important;
+  width: 92vw !important;
+  max-height: 85vh !important;
+  overflow: visible !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.75) !important;
+}
+
+.search-palette-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.85) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  transition: opacity 0.2s ease-out !important;
+}
+
+.search-palette-content {
+  position: relative !important;
+  width: 100% !important;
+  max-width: 680px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+}
+
+.search-palette-container {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #1f2937;
+  max-height: 82vh;
+}
+
+[data-bs-theme="dark"] .search-palette-container {
+  background: #181d20;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #e5e7eb;
+}
+
+.search-palette-header {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  gap: 10px;
+  background: #fafafa;
+}
+
+[data-bs-theme="dark"] .search-palette-header {
+  background: #15191b;
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+.search-palette-icon {
+  display: flex;
+  align-items: center;
+  color: #6b7280;
+  flex-shrink: 0;
+}
+
+[data-bs-theme="dark"] .search-palette-icon {
+  color: #9ca3af;
+}
+
+.search-palette-input {
+  flex: 1;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: transparent;
+  font-size: 1.55rem;
+  color: inherit;
+  outline: none;
+  padding: 6px 10px;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  line-height: 1.4;
+  transition: all 0.15s ease;
+}
+
+.search-palette-input:focus {
+  background: rgba(0, 0, 0, 0.03);
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+[data-bs-theme="dark"] .search-palette-input:focus {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.search-palette-input::placeholder {
+  color: #9ca3af;
+  opacity: 0.8;
+}
+
+.search-palette-clear {
+  background: none;
+  border: none;
+  font-size: 20px;
+  line-height: 1;
+  color: #9ca3af;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.search-palette-clear:hover {
+  color: #111827;
+}
+
+[data-bs-theme="dark"] .search-palette-clear:hover {
+  color: #fff;
+}
+
+.search-palette-close-btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  outline: none;
+}
+
+.search-esc-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 9px;
+  font-family: inherit;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #4b5563;
+  background: #f3f4f6;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.search-palette-close-btn:hover .search-esc-badge {
+  background: #e5e7eb;
+  color: #111827;
+  border-color: #9ca3af;
+}
+
+[data-bs-theme="dark"] .search-esc-badge {
+  color: #d1d5db;
+  background: #252c30;
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+[data-bs-theme="dark"] .search-palette-close-btn:hover .search-esc-badge {
+  background: #2f383e;
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Palette Body & Results */
+.search-palette-body {
+  overflow-y: auto;
+  max-height: calc(82vh - 120px);
+  padding: 12px;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.search-palette-section-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6b7280;
+  margin: 6px 8px 10px;
+}
+
+[data-bs-theme="dark"] .search-palette-section-title {
+  color: #9ca3af;
+}
+
+.search-palette-quick-actions {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  gap: 4px;
+}
+
+.search-palette-quick-item {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  gap: 12px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.4rem;
+  transition: background 0.15s ease;
+}
+
+.search-palette-quick-item:hover {
+  background: #f3f4f6;
+  text-decoration: none;
+}
+
+[data-bs-theme="dark"] .search-palette-quick-item:hover {
+  background: #252c30;
+}
+
+.search-palette-results {
+  display: flex !important;
+  flex-direction: column !important;
+  flex-wrap: nowrap !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  gap: 6px;
+}
+
+.search-palette-result-item {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  color: inherit;
+  text-decoration: none;
+  transition: background 0.15s ease;
+  position: relative;
+}
+
+.search-palette-result-item:hover,
+.search-palette-result-item.is-selected {
+  background: #eff6ff;
+  text-decoration: none;
+}
+
+[data-bs-theme="dark"] .search-palette-result-item:hover,
+[data-bs-theme="dark"] .search-palette-result-item.is-selected {
+  background: #1e2836;
+}
+
+.search-result-icon {
+  margin-top: 3px;
+  color: #3b82f6;
+  flex-shrink: 0;
+}
+
+.search-result-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.search-result-title {
+  font-size: 1.45rem;
+  font-weight: 600;
+  color: #111827;
+  line-height: 1.35;
+  margin-bottom: 3px;
+}
+
+[data-bs-theme="dark"] .search-result-title {
+  color: #f3f4f6;
+}
+
+.search-result-excerpt {
+  font-size: 1.25rem;
+  color: #4b5563;
+  line-height: 1.4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+[data-bs-theme="dark"] .search-result-excerpt {
+  color: #9ca3af;
+}
+
+.search-highlight {
+  background: rgba(251, 191, 36, 0.4);
+  color: inherit;
+  padding: 1px 3px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+[data-bs-theme="dark"] .search-highlight {
+  background: rgba(245, 158, 11, 0.35);
+  color: #fbbf24;
+}
+
+.search-result-enter-hint {
+  opacity: 0;
+  transform: translateX(4px);
+  transition: all 0.15s ease;
+  margin-top: 2px;
+}
+
+.search-palette-result-item:hover .search-result-enter-hint,
+.search-palette-result-item.is-selected .search-result-enter-hint {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.search-result-enter-hint kbd {
+  display: inline-block;
+  padding: 2px 6px;
+  font-size: 1.1rem;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  color: #6b7280;
+}
+
+[data-bs-theme="dark"] .search-result-enter-hint kbd {
+  background: rgba(255, 255, 255, 0.1);
+  color: #9ca3af;
+}
+
+.search-palette-empty,
+.search-palette-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: center;
+  color: #6b7280;
+  gap: 8px;
+}
+
+.search-palette-empty-icon {
+  font-size: 2.8rem;
+  margin-bottom: 4px;
+}
+
+.search-palette-empty-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: inherit;
+}
+
+.search-palette-empty-text {
+  font-size: 1.3rem;
+  color: #9ca3af;
+}
+
+.search-palette-spinner {
+  width: 28px;
+  height: 28px;
+  border: 3px solid rgba(59, 130, 246, 0.2);
+  border-top-color: #3b82f6;
+  border-radius: 50%;
+  animation: search-spin 0.7s linear infinite;
+  margin-bottom: 8px;
+}
+
+@keyframes search-spin {
+  to { transform: rotate(360deg); }
+}
+
+.search-palette-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 18px;
+  background: #f9fafb;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  font-size: 1.2rem;
+  color: #6b7280;
+}
+
+[data-bs-theme="dark"] .search-palette-footer {
+  background: #14171a;
+  border-top-color: rgba(255, 255, 255, 0.08);
+  color: #9ca3af;
+}
+
+.search-palette-footer-shortcuts {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.shortcut-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.shortcut-item kbd {
+  display: inline-block;
+  padding: 1px 5px;
+  font-size: 1.05rem;
+  background: rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+[data-bs-theme="dark"] .shortcut-item kbd {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+/* ==========================================================================
+   Article-Level Markdown Actions Toolbar & Viewer Modal
+   ========================================================================== */
+
+/* Markdown actions toolbar: desktop only (hidden on mobile and tablets) */
+.markdown-action-bar {
+  margin: 16px auto 6px;
+  display: none !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.floating-copy-markdown {
+  display: none !important;
+}
+
+@media (min-width: 1040px) {
+  .markdown-action-bar {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .floating-copy-markdown {
+    display: inline-flex !important;
+  }
+}
+
+.markdown-action-group {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+/* Light theme / High-Contrast Pill Buttons */
+.markdown-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1f2937;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  line-height: 1.35;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+.markdown-action-btn svg {
+  flex-shrink: 0;
+}
+
+.markdown-action-btn:hover {
+  color: #2563eb;
+  background: #f8fafc;
+  border-color: #3b82f6;
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(59, 130, 246, 0.2);
+}
+
+.markdown-action-btn.btn-github-source {
+  color: #111827;
+}
+
+.markdown-action-btn.btn-github-source:hover {
+  color: #000;
+  border-color: #111827;
+}
+
+.markdown-action-btn.copied {
+  color: #065f46 !important;
+  border-color: #059669 !important;
+  background: #ecfdf5 !important;
+  box-shadow: 0 2px 8px rgba(5, 150, 105, 0.25) !important;
+}
+
+/* Dark Theme High-Contrast Styling */
+[data-bs-theme="dark"] .markdown-action-btn {
+  color: #f9fafb;
+  background: #1e2428;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+[data-bs-theme="dark"] .markdown-action-btn:hover {
+  color: #60a5fa;
+  background: #283136;
+  border-color: #60a5fa;
+  box-shadow: 0 4px 12px rgba(96, 165, 250, 0.28);
+}
+
+[data-bs-theme="dark"] .markdown-action-btn.btn-github-source {
+  color: #f9fafb;
+}
+
+[data-bs-theme="dark"] .markdown-action-btn.btn-github-source:hover {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+[data-bs-theme="dark"] .markdown-action-btn.copied {
+  color: #6ee7b7 !important;
+  border-color: #10b981 !important;
+  background: rgba(6, 78, 59, 0.65) !important;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3) !important;
+}
+
+/* Markdown Viewer Dialog Modal */
+.markdown-viewer-dialog {
+  border: none !important;
+  border-radius: 14px !important;
+  padding: 0 !important;
+  background: transparent !important;
+  color: inherit !important;
+  max-width: 95vw !important;
+  width: 95vw !important;
+  max-height: 95vh !important;
+  height: 95vh !important;
+  overflow: visible !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.75) !important;
+  text-align: left !important;
+}
+
+.markdown-viewer-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.85) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+}
+
+.markdown-viewer-content {
+  position: relative !important;
+  width: 100% !important;
+  max-width: 95vw !important;
+  height: 100% !important;
+  max-height: 95vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  text-align: left !important;
+}
+
+.markdown-viewer-container {
+  display: flex !important;
+  flex-direction: column !important;
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #1f2937;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 100% !important;
+  max-height: 95vh !important;
+  text-align: left !important;
+}
+
+[data-bs-theme="dark"] .markdown-viewer-container {
+  background: #181d20;
+  border-color: rgba(255, 255, 255, 0.12);
+  color: #e5e7eb;
+}
+
+.markdown-viewer-header {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 14px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  gap: 16px;
+  text-align: left !important;
+  flex-shrink: 0 !important;
+}
+
+[data-bs-theme="dark"] .markdown-viewer-header {
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+.markdown-viewer-title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+  text-align: left !important;
+}
+
+.markdown-viewer-badge {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #3b82f6;
+  text-align: left !important;
+}
+
+.markdown-viewer-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: inherit;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left !important;
+}
+
+.markdown-viewer-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.markdown-modal-copy-btn,
+.markdown-modal-download-btn,
+.markdown-modal-github-btn,
+.markdown-modal-close-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #374151;
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  line-height: 1.4;
+}
+
+[data-bs-theme="dark"] .markdown-modal-copy-btn,
+[data-bs-theme="dark"] .markdown-modal-download-btn,
+[data-bs-theme="dark"] .markdown-modal-github-btn,
+[data-bs-theme="dark"] .markdown-modal-close-btn {
+  color: #e5e7eb;
+  background: #252c30;
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.markdown-modal-copy-btn:hover,
+.markdown-modal-download-btn:hover,
+.markdown-modal-github-btn:hover,
+.markdown-modal-close-btn:hover {
+  background: #e5e7eb;
+  color: #111827;
+  text-decoration: none;
+}
+
+[data-bs-theme="dark"] .markdown-modal-copy-btn:hover,
+[data-bs-theme="dark"] .markdown-modal-download-btn:hover,
+[data-bs-theme="dark"] .markdown-modal-github-btn:hover,
+[data-bs-theme="dark"] .markdown-modal-close-btn:hover {
+  background: #2f383e;
+  color: #fff;
+}
+
+.markdown-viewer-body {
+  padding: 16px 20px !important;
+  overflow-y: auto !important;
+  flex: 1 1 auto !important;
+  max-height: none !important;
+  text-align: left !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.markdown-viewer-pre {
+  margin: 0 !important;
+  padding: 16px 20px !important;
+  background: #f8fafc !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 8px !important;
+  font-size: 1.35rem !important;
+  line-height: 1.6 !important;
+  overflow-x: auto !important;
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+  word-break: normal !important;
+  tab-size: 4 !important;
+  text-align: left !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.markdown-viewer-pre code {
+  text-align: left !important;
+  white-space: pre-wrap !important;
+  word-break: normal !important;
+  word-wrap: break-word !important;
+  font-family: inherit !important;
+  display: block !important;
+  width: 100% !important;
+}
+
+[data-bs-theme="dark"] .markdown-viewer-pre {
+  background: #0f1214 !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.markdown-viewer-dialog .code-action,
+.markdown-viewer-dialog .btn.code-action,
+.markdown-viewer-dialog a.code-action,
+.markdown-viewer-dialog .code-copy-btn,
+.markdown-viewer-dialog .code-block-wrapper > .code-copy-btn,
+.markdown-viewer-dialog .action,
+.markdown-viewer-dialog a[title="Copy"],
+.markdown-viewer-dialog button[title="Copy"],
+.markdown-viewer-dialog i.bi-clipboard,
+.markdown-viewer-dialog i.bi-check-lg {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}

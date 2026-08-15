@@ -1,0 +1,514 @@
+{{#_enableSearch}}
+<dialog id="search-palette-modal" class="media-lightbox search-palette-dialog" closedby="any" aria-label="Search Blog">
+    <div class="media-lightbox-content search-palette-content">
+        <div class="search-palette-container">
+            <div class="search-palette-header">
+                <div class="search-palette-icon">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </div>
+                <input
+                    id="search-palette-input"
+                    type="search"
+                    class="search-palette-input"
+                    placeholder="Search posts, topics, keywords..."
+                    autocomplete="off"
+                    autocorrect="off"
+                    autocapitalize="off"
+                    spellcheck="false"
+                    aria-label="Search query"
+                    aria-autocomplete="list"
+                    aria-controls="search-palette-results"
+                />
+                <button type="button" id="search-palette-clear" class="search-palette-clear" aria-label="Clear search query" style="display: none;">&times;</button>
+                <button type="button" class="search-palette-close-btn search-palette-close" aria-label="Close search (Esc)" title="Close (Esc)">
+                    <kbd class="search-esc-badge">ESC</kbd>
+                </button>
+            </div>
+
+            <div id="search-palette-body" class="search-palette-body">
+                <div id="search-palette-initial" class="search-palette-initial">
+                    <div class="search-palette-section-title">Quick Actions</div>
+                    <div class="search-palette-quick-actions">
+                        <a href="{{_rel}}blog.html" class="search-palette-quick-item">
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                            <span>Browse All Blog Posts</span>
+                        </a>
+                        <a href="{{_rel}}tags.html" class="search-palette-quick-item">
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
+                            <span>Explore Tags & Categories</span>
+                        </a>
+                        <a href="{{_rel}}about.html" class="search-palette-quick-item">
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                            <span>About JoKi</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-palette-results" class="search-palette-results" role="listbox" style="display: none;"></div>
+                <div id="search-palette-empty" class="search-palette-empty" style="display: none;">
+                    <div class="search-palette-empty-icon">🔍</div>
+                    <div class="search-palette-empty-title">No matching posts found</div>
+                    <div class="search-palette-empty-text">Try searching for different keywords or topics.</div>
+                </div>
+                <div id="search-palette-loading" class="search-palette-loading" style="display: none;">
+                    <div class="search-palette-spinner"></div>
+                    <span>Searching index...</span>
+                </div>
+            </div>
+
+            <div class="search-palette-footer">
+                <div class="search-palette-footer-shortcuts">
+                    <span class="shortcut-item"><kbd>↑</kbd><kbd>↓</kbd> navigate</span>
+                    <span class="shortcut-item"><kbd>↵</kbd> select</span>
+                    <span class="shortcut-item"><kbd>esc</kbd> close</span>
+                </div>
+                <div id="search-palette-stats" class="search-palette-stats"></div>
+            </div>
+        </div>
+    </div>
+</dialog>
+
+<script>
+(function () {
+    var configuredHotkey = '{{#_searchHotkey}}{{{.}}}{{/_searchHotkey}}{{^_searchHotkey}}Ctrl+K{{/_searchHotkey}}'.trim();
+    var isMac = typeof navigator !== 'undefined' && /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+
+    // Update hotkey badges on Mac to show ⌘ if configured with Ctrl
+    if (isMac && configuredHotkey.toLowerCase().indexOf('ctrl') !== -1) {
+        var badges = document.querySelectorAll('.search-hotkey-badge');
+        badges.forEach(function (b) {
+            b.textContent = configuredHotkey.replace(/ctrl/i, '⌘');
+        });
+    }
+
+    var modal = document.getElementById('search-palette-modal');
+    if (!modal) return;
+
+    var input = document.getElementById('search-palette-input');
+    var clearBtn = document.getElementById('search-palette-clear');
+    var closeBtn = modal.querySelector('.search-palette-close');
+    var resultsContainer = document.getElementById('search-palette-results');
+    var initialContainer = document.getElementById('search-palette-initial');
+    var emptyContainer = document.getElementById('search-palette-empty');
+    var loadingContainer = document.getElementById('search-palette-loading');
+    var statsContainer = document.getElementById('search-palette-stats');
+
+    var searchIndex = null;
+    var searchData = [];
+    var isLoadingIndex = false;
+    var selectedIndex = -1;
+    var currentResults = [];
+
+    // Helper: Clean raw summary string from DocFX
+    function cleanSummary(raw) {
+        if (!raw) return '';
+        var s = raw;
+        // Strip Disqus, Google AdSense and script noise from summary
+        s = s.replace(/if\s*\(\s*typeof\s*window\s*!==\s*'undefined'[\s\S]*$/, '');
+        s = s.replace(/\(function\(\)\s*\{\s*var\s*loaded\s*=\s*false[\s\S]*$/, '');
+        s = s.replace(/\(window\.adsbygoogle[\s\S]*$/, '');
+        s = s.replace(/<[^>]*>/g, ' ');
+        return s.replace(/\s+/g, ' ').trim();
+    }
+
+    // Load search index json
+    function loadSearchIndex(callback) {
+        if (searchIndex) {
+            if (callback) callback();
+            return;
+        }
+        if (isLoadingIndex) return;
+        isLoadingIndex = true;
+        if (loadingContainer) loadingContainer.style.display = 'flex';
+
+        var rel = '{{_rel}}';
+        fetch(rel + 'index.json')
+            .then(function (res) {
+                if (!res.ok) throw new Error('Index HTTP error: ' + res.status);
+                return res.json();
+            })
+            .then(function (data) {
+                searchIndex = data;
+                searchData = [];
+                for (var key in data) {
+                    if (Object.prototype.hasOwnProperty.call(data, key)) {
+                        var item = data[key];
+                        var title = (item.title || key).replace(/\s*-\s*Get Blogged by JoKi\s*$/i, '');
+                        var summary = cleanSummary(item.summary);
+                        var href = item.href || key;
+                        searchData.push({
+                            href: rel + href,
+                            rawHref: href,
+                            title: title,
+                            summary: summary
+                        });
+                    }
+                }
+                isLoadingIndex = false;
+                if (loadingContainer) loadingContainer.style.display = 'none';
+                if (callback) callback();
+            })
+            .catch(function (err) {
+                console.error('Failed to load search index:', err);
+                isLoadingIndex = false;
+                if (loadingContainer) loadingContainer.style.display = 'none';
+            });
+    }
+
+    // Highlight matches in text
+    function highlightTerms(text, terms) {
+        if (!text || !terms || terms.length === 0) return escapeHtml(text || '');
+        var escapedTerms = terms.map(function (t) {
+            return t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        }).filter(Boolean);
+        if (escapedTerms.length === 0) return escapeHtml(text);
+
+        var regex = new RegExp('(' + escapedTerms.join('|') + ')', 'gi');
+        var parts = text.split(regex);
+        return parts.map(function (part) {
+            if (regex.test(part)) {
+                return '<mark class="search-highlight">' + escapeHtml(part) + '</mark>';
+            }
+            return escapeHtml(part);
+        }).join('');
+    }
+
+    function escapeHtml(str) {
+        return str
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;');
+    }
+
+    // Extract relevant snippet around matched terms
+    function extractExcerpt(summary, terms, maxLen) {
+        if (!summary) return '';
+        maxLen = maxLen || 140;
+        if (summary.length <= maxLen) return summary;
+
+        var lower = summary.toLowerCase();
+        var firstIdx = -1;
+        for (var i = 0; i < terms.length; i++) {
+            var idx = lower.indexOf(terms[i]);
+            if (idx !== -1 && (firstIdx === -1 || idx < firstIdx)) {
+                firstIdx = idx;
+            }
+        }
+
+        if (firstIdx === -1) {
+            return summary.substring(0, maxLen).trim() + '...';
+        }
+
+        var start = Math.max(0, firstIdx - 40);
+        var end = Math.min(summary.length, start + maxLen);
+        var snippet = summary.substring(start, end).trim();
+        if (start > 0) snippet = '...' + snippet;
+        if (end < summary.length) snippet = snippet + '...';
+        return snippet;
+    }
+
+    // Perform query matching and ranking
+    function executeSearch(query) {
+        query = (query || '').trim().toLowerCase();
+        if (!query) {
+            currentResults = [];
+            selectedIndex = -1;
+            if (resultsContainer) resultsContainer.style.display = 'none';
+            if (emptyContainer) emptyContainer.style.display = 'none';
+            if (initialContainer) initialContainer.style.display = 'block';
+            if (statsContainer) statsContainer.textContent = '';
+            if (clearBtn) clearBtn.style.display = 'none';
+            return;
+        }
+
+        if (clearBtn) clearBtn.style.display = 'block';
+        if (initialContainer) initialContainer.style.display = 'none';
+
+        var terms = query.split(/\s+/).filter(Boolean);
+        if (terms.length === 0) return;
+
+        var scoredResults = [];
+        for (var i = 0; i < searchData.length; i++) {
+            var item = searchData[i];
+            var titleLower = item.title.toLowerCase();
+            var summaryLower = item.summary.toLowerCase();
+            var hrefLower = item.rawHref.toLowerCase();
+
+            var allMatch = true;
+            var score = 0;
+
+            for (var t = 0; t < terms.length; t++) {
+                var term = terms[t];
+                var inTitle = titleLower.indexOf(term);
+                var inHref = hrefLower.indexOf(term);
+                var inSummary = summaryLower.indexOf(term);
+
+                if (inTitle === -1 && inHref === -1 && inSummary === -1) {
+                    allMatch = false;
+                    break;
+                }
+
+                if (inTitle !== -1) {
+                    score += 50;
+                    if (inTitle === 0) score += 25; // Prefix match bonus
+                }
+                if (inHref !== -1) score += 20;
+                if (inSummary !== -1) score += 10;
+            }
+
+            if (allMatch) {
+                scoredResults.push({
+                    item: item,
+                    score: score
+                });
+            }
+        }
+
+        scoredResults.sort(function (a, b) {
+            return b.score - a.score;
+        });
+
+        currentResults = scoredResults.slice(0, 30).map(function (sr) { return sr.item; });
+        renderResults(currentResults, terms);
+    }
+
+    // Render results in the palette listbox
+    function renderResults(results, terms) {
+        if (!resultsContainer) return;
+
+        if (results.length === 0) {
+            resultsContainer.style.display = 'none';
+            resultsContainer.innerHTML = '';
+            if (emptyContainer) emptyContainer.style.display = 'block';
+            if (statsContainer) statsContainer.textContent = '0 results';
+            return;
+        }
+
+        if (emptyContainer) emptyContainer.style.display = 'none';
+        resultsContainer.style.display = 'flex';
+        selectedIndex = 0; // Default highlight first result
+
+        var html = '';
+        for (var i = 0; i < results.length; i++) {
+            var res = results[i];
+            var titleHtml = highlightTerms(res.title, terms);
+            var excerpt = extractExcerpt(res.summary, terms, 130);
+            var excerptHtml = highlightTerms(excerpt, terms);
+
+            var isSelected = (i === 0) ? ' is-selected' : '';
+            html += '<a href="' + escapeHtml(res.href) + '" class="search-palette-result-item' + isSelected + '" data-index="' + i + '" role="option" aria-selected="' + (i === 0) + '">';
+            html += '  <div class="search-result-icon"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg></div>';
+            html += '  <div class="search-result-content">';
+            html += '    <div class="search-result-title">' + titleHtml + '</div>';
+            if (excerptHtml) {
+                html += '    <div class="search-result-excerpt">' + excerptHtml + '</div>';
+            }
+            html += '  </div>';
+            html += '  <div class="search-result-enter-hint"><kbd>↵</kbd></div>';
+            html += '</a>';
+        }
+
+        resultsContainer.innerHTML = html;
+        if (statsContainer) {
+            statsContainer.textContent = results.length + ' ' + (results.length === 1 ? 'result' : 'results');
+        }
+
+        // Attach mouse hover tracking
+        var items = resultsContainer.querySelectorAll('.search-palette-result-item');
+        items.forEach(function (el, idx) {
+            el.addEventListener('mouseenter', function () {
+                updateSelectedIndex(idx, false);
+            });
+        });
+    }
+
+    function updateSelectedIndex(newIndex, scrollIntoView) {
+        var items = resultsContainer ? resultsContainer.querySelectorAll('.search-palette-result-item') : [];
+        if (items.length === 0) return;
+
+        if (selectedIndex >= 0 && selectedIndex < items.length) {
+            items[selectedIndex].classList.remove('is-selected');
+            items[selectedIndex].setAttribute('aria-selected', 'false');
+        }
+
+        selectedIndex = Math.max(0, Math.min(newIndex, items.length - 1));
+        var current = items[selectedIndex];
+        if (current) {
+            current.classList.add('is-selected');
+            current.setAttribute('aria-selected', 'true');
+            if (scrollIntoView) {
+                current.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+            }
+        }
+    }
+
+    // Modal open/close controls
+    window.openSearchPalette = function () {
+        if (!modal) return;
+        loadSearchIndex(function () {
+            if (input && input.value) {
+                executeSearch(input.value);
+            }
+        });
+        if (typeof modal.showModal === 'function') {
+            modal.showModal();
+        } else {
+            modal.setAttribute('open', '');
+        }
+        if (input) {
+            setTimeout(function () { input.focus(); input.select(); }, 50);
+        }
+    };
+
+    window.closeSearchPalette = function () {
+        if (!modal) return;
+        if (typeof modal.close === 'function') {
+            modal.close();
+        } else {
+            modal.removeAttribute('open');
+        }
+    };
+
+    if (closeBtn) {
+        closeBtn.addEventListener('click', function () {
+            window.closeSearchPalette();
+        });
+    }
+
+    // Light dismiss on backdrop click
+    modal.addEventListener('click', function (e) {
+        if (e.target === modal) {
+            var rect = modal.getBoundingClientRect();
+            var isInDialog = (
+                rect.top <= e.clientY &&
+                e.clientY <= rect.top + rect.height &&
+                rect.left <= e.clientX &&
+                e.clientX <= rect.left + rect.width
+            );
+            if (!isInDialog) {
+                window.closeSearchPalette();
+            }
+        }
+    });
+
+    if (input) {
+        input.addEventListener('input', function () {
+            loadSearchIndex(function () {
+                executeSearch(input.value);
+            });
+        });
+
+        input.addEventListener('keydown', function (e) {
+            if (e.key === 'ArrowDown') {
+                e.preventDefault();
+                updateSelectedIndex(selectedIndex + 1, true);
+            } else if (e.key === 'ArrowUp') {
+                e.preventDefault();
+                updateSelectedIndex(selectedIndex - 1, true);
+            } else if (e.key === 'Enter') {
+                e.preventDefault();
+                if (currentResults && currentResults[selectedIndex]) {
+                    window.location.href = currentResults[selectedIndex].href;
+                }
+            } else if (e.key === 'Escape') {
+                window.closeSearchPalette();
+            }
+        });
+    }
+
+    if (clearBtn) {
+        clearBtn.addEventListener('click', function () {
+            if (input) {
+                input.value = '';
+                input.focus();
+                executeSearch('');
+            }
+        });
+    }
+
+    // Hotkey match checker
+    function matchesConfiguredHotkey(e, hotkeyStr) {
+        if (!hotkeyStr) return false;
+        var parts = hotkeyStr.toLowerCase().split('+').map(function (p) { return p.trim(); });
+        var needsCtrl = parts.indexOf('ctrl') !== -1;
+        var needsCmd = parts.indexOf('cmd') !== -1 || parts.indexOf('meta') !== -1;
+        var needsShift = parts.indexOf('shift') !== -1;
+        var needsAlt = parts.indexOf('alt') !== -1;
+
+        // Primary key is the last token or single character
+        var keyToken = parts[parts.length - 1];
+
+        var hasMod = needsCtrl || needsCmd;
+        var actualMod = e.ctrlKey || e.metaKey;
+
+        if (hasMod) {
+            if (!actualMod) return false;
+            if (e.key.toLowerCase() === keyToken) return true;
+            if (e.code && e.code.toLowerCase() === 'key' + keyToken) return true;
+        } else {
+            // Single character shortcut like '/' or '?'
+            if (!e.ctrlKey && !e.metaKey && !e.altKey && (e.key === keyToken || e.key === hotkeyStr)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // Global keyboard shortcut listener
+    window.addEventListener('keydown', function (e) {
+        // Allow user to trigger search using configured hotkey or standard fallback (Ctrl+K / Cmd+K / /)
+        var isTargetInput = e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.isContentEditable);
+
+        if (!isTargetInput) {
+            if (e.key === '/' || matchesConfiguredHotkey(e, configuredHotkey) || ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k')) {
+                e.preventDefault();
+                window.openSearchPalette();
+                return;
+            }
+        } else if (modal.open && e.target === input) {
+            // Inside search input
+            if (e.key === 'Escape') {
+                e.preventDefault();
+                window.closeSearchPalette();
+            }
+        } else if ((e.ctrlKey || e.metaKey) && (e.key.toLowerCase() === 'k' || matchesConfiguredHotkey(e, configuredHotkey))) {
+            e.preventDefault();
+            window.openSearchPalette();
+        }
+    });
+
+    // Wire WebMCP Search Blog Tool if present
+    if (typeof document !== 'undefined' && 'modelContext' in document && document.modelContext && document.modelContext.registerTool) {
+        try {
+            document.modelContext.registerTool({
+                name: 'search_blog',
+                description: 'Search articles and blog posts by keywords',
+                inputSchema: {
+                    type: 'object',
+                    properties: {
+                        query: { type: 'string', description: 'Search term or keyword' }
+                    },
+                    required: ['query']
+                },
+                execute: async function (args) {
+                    var q = args && args.query ? args.query : '';
+                    window.openSearchPalette();
+                    if (input) {
+                        input.value = q;
+                        loadSearchIndex(function () {
+                            executeSearch(q);
+                        });
+                    }
+                    return { content: [{ type: 'text', text: 'Search palette opened with query: ' + q }] };
+                },
+                annotations: { readOnlyHint: true }
+            });
+        } catch (e) {}
+    }
+})();
+</script>
+{{/_enableSearch}}

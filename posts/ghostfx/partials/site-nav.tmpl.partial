@@ -18,9 +18,14 @@
     </div>
     {{#_enableSearch}}
     <div class="site-nav-center">
-        <form class="search" role="search" id="search" toolname="search_blog" tooldescription="Search published articles and blog posts by keywords">
-            <input class="form-control" id="search-query" name="query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
-        </form>
+        <button type="button" class="site-nav-search-btn" onclick="window.openSearchPalette && window.openSearchPalette();return false;" aria-label="Search articles ({{#_searchHotkey}}{{.}}{{/_searchHotkey}}{{^_searchHotkey}}Ctrl+K{{/_searchHotkey}})">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <span class="search-btn-placeholder">Search posts...</span>
+            <kbd class="search-hotkey-badge">{{#_searchHotkey}}{{.}}{{/_searchHotkey}}{{^_searchHotkey}}Ctrl+K{{/_searchHotkey}}</kbd>
+        </button>
     </div>
     {{/_enableSearch}}
     <div class="site-nav-right">
@@ -85,8 +90,6 @@
                 mq.addListener(onSchemeChange);
               }
             }
-          })();
-
             // WebMCP Tool Registration for AI Assistants
             if (typeof document !== 'undefined' && 'modelContext' in document && document.modelContext && document.modelContext.registerTool) {
               try {
@@ -102,10 +105,13 @@
                   },
                   execute: async function(args) {
                     var q = args && args.query ? args.query : '';
-                    var input = document.getElementById('search-query');
-                    if (input) {
-                      input.value = q;
-                      input.dispatchEvent(new Event('input', { bubbles: true }));
+                    if (window.openSearchPalette) {
+                      window.openSearchPalette();
+                      var input = document.getElementById('search-palette-input');
+                      if (input) {
+                        input.value = q;
+                        input.dispatchEvent(new Event('input', { bubbles: true }));
+                      }
                     }
                     return { content: [{ type: 'text', text: 'Search executed for: ' + q }] };
                   },

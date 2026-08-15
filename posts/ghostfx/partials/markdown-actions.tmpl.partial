@@ -1,0 +1,260 @@
+{{^_disableMarkdown}}
+<div class="markdown-action-bar" aria-label="Markdown and article utilities">
+    <div class="markdown-action-group">
+        <button type="button" class="markdown-action-btn btn-copy-markdown" data-slug="{{slug}}" aria-label="Copy page content as Markdown">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            <span class="btn-text">Copy Markdown</span>
+        </button>
+
+        <button type="button" class="markdown-action-btn btn-view-markdown" data-slug="{{slug}}" data-title="{{title}}" aria-label="View Markdown source in modal">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+            </svg>
+            <span class="btn-text">View Markdown</span>
+        </button>
+
+        {{^_disableContribution}}
+        {{#sourceurl}}
+        <a href="{{sourceurl}}"
+           class="markdown-action-btn btn-github-source"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="{{__global.improveThisDoc}}"
+           title="{{__global.improveThisDoc}}">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+                <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+            </svg>
+            <span class="btn-text">GitHub</span>
+        </a>
+        {{/sourceurl}}
+        {{^sourceurl}}{{#docurl}}
+        <a href="{{docurl}}"
+           class="markdown-action-btn btn-github-source"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="{{__global.improveThisDoc}}"
+           title="{{__global.improveThisDoc}}">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+                <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+            </svg>
+            <span class="btn-text">GitHub</span>
+        </a>
+        {{/docurl}}{{/sourceurl}}
+        {{/_disableContribution}}
+    </div>
+</div>
+
+<dialog id="markdown-viewer-modal" class="media-lightbox markdown-viewer-dialog" closedby="any" aria-label="Markdown Source Viewer">
+    <div class="media-lightbox-content markdown-viewer-content">
+        <div class="markdown-viewer-container">
+            <div class="markdown-viewer-header">
+                <div class="markdown-viewer-title-group">
+                    <span class="markdown-viewer-badge">Markdown Source</span>
+                    <h3 class="markdown-viewer-title">{{title}}</h3>
+                </div>
+                <div class="markdown-viewer-actions">
+                    <button type="button" id="markdown-modal-copy-btn" class="markdown-modal-copy-btn">
+                        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                        </svg>
+                        <span>Copy All</span>
+                    </button>
+                    <a id="markdown-modal-download-link" class="markdown-modal-download-btn" href="{{_rel}}raw/{{slug}}.md" download="{{slug}}.md" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        <span>Download</span>
+                    </a>
+                    {{^_disableContribution}}
+                    {{#sourceurl}}
+                    <a class="markdown-modal-github-btn" href="{{sourceurl}}" target="_blank" rel="noopener noreferrer" aria-label="{{__global.improveThisDoc}}" title="{{__global.improveThisDoc}}">
+                        <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
+                            <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                        </svg>
+                        <span>GitHub</span>
+                    </a>
+                    {{/sourceurl}}
+                    {{^sourceurl}}{{#docurl}}
+                    <a class="markdown-modal-github-btn" href="{{docurl}}" target="_blank" rel="noopener noreferrer" aria-label="{{__global.improveThisDoc}}" title="{{__global.improveThisDoc}}">
+                        <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
+                            <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                        </svg>
+                        <span>GitHub</span>
+                    </a>
+                    {{/docurl}}{{/sourceurl}}
+                    {{/_disableContribution}}
+                    <button type="button" class="markdown-modal-close-btn markdown-viewer-close" aria-label="Close Markdown viewer" title="Close viewer">
+                        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                        <span>Close</span>
+                    </button>
+                </div>
+            </div>
+            <div class="markdown-viewer-body">
+                <pre class="markdown-viewer-pre"><code id="markdown-viewer-code" class="language-markdown">Loading markdown source...</code></pre>
+            </div>
+        </div>
+    </div>
+</dialog>
+
+<script>
+(function () {
+    var rawMarkdownCache = {};
+
+    function cleanFrontmatter(text) {
+        if (!text) return '';
+        // Bulletproof removal of frontmatter: between initial --- and ending ---
+        return text.replace(/^---[\s\S]*?\n---\s*\n?/, '').trim() + '\n';
+    }
+
+    function fetchMarkdown(slug, callback) {
+        if (rawMarkdownCache[slug]) {
+            callback(null, rawMarkdownCache[slug]);
+            return;
+        }
+
+        var rel = '{{_rel}}';
+        var url = rel + 'raw/' + encodeURIComponent(slug) + '.md';
+
+        fetch(url)
+            .then(function (res) {
+                if (!res.ok) throw new Error('Markdown source not found: ' + res.status);
+                return res.text();
+            })
+            .then(function (text) {
+                var cleaned = cleanFrontmatter(text);
+                rawMarkdownCache[slug] = cleaned;
+                callback(null, cleaned);
+            })
+            .catch(function (err) {
+                // Fallback: extract plain text from post content
+                var contentEl = document.querySelector('.post-full-content .post-content, .post-content, main .inner');
+                if (contentEl) {
+                    var fallbackMd = '# ' + (document.querySelector('h1') ? document.querySelector('h1').innerText : 'Post') + '\n\n' + (contentEl.innerText || contentEl.textContent);
+                    rawMarkdownCache[slug] = fallbackMd;
+                    callback(null, fallbackMd);
+                } else {
+                    callback(err, null);
+                }
+            });
+    }
+
+    // Attach Copy Markdown handler
+    var copyButtons = document.querySelectorAll('.btn-copy-markdown, .floating-copy-markdown');
+    copyButtons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            var slug = btn.getAttribute('data-slug') || '{{slug}}';
+            var originalHtml = btn.innerHTML;
+            btn.disabled = true;
+
+            fetchMarkdown(slug, function (err, md) {
+                if (err || !md) {
+                    btn.disabled = false;
+                    alert('Could not copy Markdown source.');
+                    return;
+                }
+
+                navigator.clipboard.writeText(md).then(function () {
+                    btn.classList.add('copied');
+                    btn.innerHTML = '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> <span class="btn-text">Copied!</span>';
+                    setTimeout(function () {
+                        btn.classList.remove('copied');
+                        btn.innerHTML = originalHtml;
+                        btn.disabled = false;
+                    }, 2000);
+                }).catch(function () {
+                    btn.disabled = false;
+                });
+            });
+        });
+    });
+
+    // Attach View Markdown modal
+    var viewButtons = document.querySelectorAll('.btn-view-markdown');
+    var modal = document.getElementById('markdown-viewer-modal');
+    var codeEl = document.getElementById('markdown-viewer-code');
+    var closeBtn = modal ? modal.querySelector('.markdown-viewer-close') : null;
+    var modalCopyBtn = document.getElementById('markdown-modal-copy-btn');
+
+    if (modal && viewButtons.length > 0) {
+        viewButtons.forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                var slug = btn.getAttribute('data-slug') || '{{slug}}';
+                if (codeEl) codeEl.textContent = 'Loading Markdown source...';
+
+                if (typeof modal.showModal === 'function') {
+                    modal.showModal();
+                } else {
+                    modal.setAttribute('open', '');
+                }
+
+                fetchMarkdown(slug, function (err, md) {
+                    if (codeEl) {
+                        codeEl.textContent = md || 'Failed to load Markdown source.';
+                        if (window.hljs && typeof hljs.highlightElement === 'function') {
+                            hljs.highlightElement(codeEl);
+                        }
+                        // Remove any DocFX code-action / copy buttons that might have been injected
+                        var actions = modal.querySelectorAll('.code-action, .code-copy-btn, .action, a[title="Copy"], button[title="Copy"]');
+                        actions.forEach(function (el) { el.remove(); });
+                    }
+                });
+            });
+        });
+
+        if (closeBtn) {
+            closeBtn.addEventListener('click', function () {
+                if (typeof modal.close === 'function') {
+                    modal.close();
+                } else {
+                    modal.removeAttribute('open');
+                }
+            });
+        }
+
+        // Light dismiss on backdrop click
+        modal.addEventListener('click', function (e) {
+            if (e.target === modal) {
+                var rect = modal.getBoundingClientRect();
+                var isInDialog = (
+                    rect.top <= e.clientY &&
+                    e.clientY <= rect.top + rect.height &&
+                    rect.left <= e.clientX &&
+                    e.clientX <= rect.left + rect.width
+                );
+                if (!isInDialog) {
+                    if (typeof modal.close === 'function') {
+                        modal.close();
+                    } else {
+                        modal.removeAttribute('open');
+                    }
+                }
+            }
+        });
+
+        if (modalCopyBtn) {
+            modalCopyBtn.addEventListener('click', function () {
+                var text = codeEl ? (codeEl.innerText || codeEl.textContent) : '';
+                if (!text) return;
+                navigator.clipboard.writeText(text).then(function () {
+                    var origHtml = modalCopyBtn.innerHTML;
+                    modalCopyBtn.innerHTML = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> <span>Copied!</span>';
+                    setTimeout(function () {
+                        modalCopyBtn.innerHTML = origHtml;
+                    }, 2000);
+                });
+            });
+        }
+    }
+})();
+</script>
+{{/_disableMarkdown}}

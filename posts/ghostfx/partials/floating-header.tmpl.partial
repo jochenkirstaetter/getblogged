@@ -9,14 +9,23 @@
     </div>
     <span class="floating-header-divider">&mdash;</span>
     <div class="floating-header-title">{{#title}}{{title}}{{/title}}{{^title}}{{_appTitle}}{{/title}}</div>
-    {{#_enableSearch2}}
-    <div class="floating-header-search">
-        <form class="search" role="search" id="search">
-            <input class="form-control" id="search-query-floating" type="search" placeholder="Search" autocomplete="off" aria-label="Search">
-        </form>
-    </div>
-    {{/_enableSearch2}}
+    {{#_enableSearch}}
+    <button type="button" class="floating-header-search-btn" onclick="window.openSearchPalette && window.openSearchPalette();return false;" title="Search posts ({{#_searchHotkey}}{{.}}{{/_searchHotkey}}{{^_searchHotkey}}Ctrl+K{{/_searchHotkey}})" aria-label="Search">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+    </button>
+    {{/_enableSearch}}
     <div class="floating-header-share">
+        {{^_disableMarkdown}}
+        <button type="button" class="floating-header-share-btn floating-copy-markdown" data-slug="{{slug}}" title="Copy Markdown source" aria-label="Copy Markdown source">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+        </button>
+        {{/_disableMarkdown}}
         <div class="floating-header-share-label">Share this {{>partials/icons/point}}</div>
         <a class="floating-header-share-x" href="https://x.com/intent/post?text={{encode title}}&amp;url={{_rel}}{{slug}}.html"
             target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-x', 'width=550,height=450');return false;" title="Share on X">
@@ -90,34 +99,6 @@
 
             var em = header.querySelector('.floating-header-share-email');
             if (em) em.href = 'mailto:?subject=' + currentTitle + '&body=Check out this site: ' + currentUrl;
-
-            // Sync search inputs
-            (function () {
-                var primarySearch = document.getElementById('search-query');
-                var secondarySearch = document.getElementById('search-query-floating');
-                if (!primarySearch || !secondarySearch) return;
-
-                secondarySearch.addEventListener('input', function() {
-                    primarySearch.value = secondarySearch.value;
-                    primarySearch.dispatchEvent(new Event('input', { bubbles: true }));
-                });
-
-                primarySearch.addEventListener('input', function() {
-                    secondarySearch.value = primarySearch.value;
-                });
-
-                var observer = new MutationObserver(function() {
-                    secondarySearch.disabled = primarySearch.disabled;
-                    if (primarySearch.placeholder) {
-                        secondarySearch.placeholder = primarySearch.placeholder;
-                    }
-                });
-                observer.observe(primarySearch, { attributes: true, attributeFilter: ['disabled', 'placeholder'] });
-                secondarySearch.disabled = primarySearch.disabled;
-                if (primarySearch.placeholder) {
-                    secondarySearch.placeholder = primarySearch.placeholder;
-                }
-            })();
         } catch (e) {}
 
         var ticking = false;

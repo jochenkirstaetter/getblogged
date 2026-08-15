@@ -47,17 +47,7 @@
     <meta name="loc:downloadPdf" content="{{__global.downloadPdf}}">
 
     {{#_enableSearch}}
-    <style>
-      #search-results-container {
-        display: none;
-      }
-      body[data-search=true] #site-main {
-        display: none !important;
-      }
-      body[data-search=true] #search-results-container {
-        display: block !important;
-      }
-    </style>
+    <meta name="docfx:searchHotkey" content="{{#_searchHotkey}}{{.}}{{/_searchHotkey}}{{^_searchHotkey}}Ctrl+K{{/_searchHotkey}}">
     {{/_enableSearch}}
 
       {{#_googleAnalyticsTagId}}
@@ -146,39 +136,7 @@
         {{! All the main content gets inserted here, index.hbs, post.hbs, etc }}
         {{!body}}
 
-        {{#_enableSearch}}
-        <main id="search-results-container" class="site-main outer">
-            <div class="inner">
-                <div id="search-results" class="search-results"></div>
-            </div>
-        </main>
-        <script>
-            (function() {
-                var cleanLink = function(a) {
-                    if (a && a.href) {
-                        a.removeAttribute('target');
-                        a.href = a.href.replace(/(\?|&)q=[^&]*(&|$)/, '$1').replace(/[\?&]$/, '');
-                    }
-                };
-                document.addEventListener('click', function(e) {
-                    var a = e.target.closest('#search-results a');
-                    if (a) { cleanLink(a); }
-                }, true);
-                var sr = document.getElementById('search-results');
-                if (sr) {
-                    new MutationObserver(function() {
-                        var links = sr.querySelectorAll('a[href*="?q="], a[href*="&q="]');
-                        for (var i = 0; i < links.length; i++) { cleanLink(links[i]); }
-                    }).observe(sr, { childList: true, subtree: true });
-                }
-                if (window.location.search.indexOf('q=') !== -1) {
-                    var cleanSearch = window.location.search.replace(/(\?|&)q=[^&]*(&|$)/, '$1').replace(/[\?&]$/, '');
-                    var cleanUrl = window.location.pathname + cleanSearch + window.location.hash;
-                    window.history.replaceState(null, '', cleanUrl);
-                }
-            })();
-        </script>
-        {{/_enableSearch}}
+
 
         {{! The footer at the very bottom of the screen }}
         <footer class="site-footer outer">
@@ -232,6 +190,8 @@
 
     {{! The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. }}
     
+
+    {{>partials/search-modal}}
 
     <dialog id="media-lightbox" class="media-lightbox" closedby="any" aria-label="Media Preview">
         <div class="media-lightbox-content">

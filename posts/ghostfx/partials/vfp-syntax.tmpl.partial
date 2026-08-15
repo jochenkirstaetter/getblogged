@@ -15,8 +15,7 @@
                     'select from where group by having order by into cursor table union all insert into values update delete ' +
                     'use append blank replace delete recall count sum average calculate seek locate continue skip ' +
                     'scatter gather name memo memoedit clear read events readkey quit release cancel retry resume ' +
-                    'on error on key on shutdown assert note ' +
-                    'this thisform thisformset parent',
+                    'on error on key on shutdown assert note this thisform thisformset parent keyboard dodefault',
 
                 // Boolean and null literals
                 literal:
@@ -37,7 +36,7 @@
 
                 // System & environment variables
                 'variable.language':
-                    'this thisform thisformset parent _screen _vfp _samples _foxcode _codesense _genmenu _genxtab ' +
+                    '_screen _vfp _samples _foxcode _codesense _genmenu _genxtab ' +
                     '_builder _spellcheck _include _startup'
             };
 
