@@ -236,6 +236,11 @@ body > main .affix,
   transform: scale(1.1);
 }
 
+.floating-header-search-btn {
+  margin-left: 6px;
+  margin-right: 10px;
+}
+
 .floating-copy-markdown.copied {
   color: #10b981 !important;
 }
