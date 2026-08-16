@@ -47,7 +47,7 @@
             {{>partials/icons/email}}
         </a>
         {{#_enableSearch}}
-        <button type="button" class="floating-header-search-btn" onclick="window.openSearchPalette && window.openSearchPalette();return false;" title="Search posts ({{#_searchHotkey}}{{.}}{{/_searchHotkey}}{{^_searchHotkey}}Ctrl+K{{/_searchHotkey}})" aria-label="Search">
+        <button type="button" class="floating-header-search-btn" onclick="window.openSearchPalette && window.openSearchPalette();return false;" title="{{#_searchHotkey}}Search posts ({{.}}){{/_searchHotkey}}{{^_searchHotkey}}{{#__global.searchTitle}}{{.}}{{/__global.searchTitle}}{{^__global.searchTitle}}Search posts (Ctrl+K){{/__global.searchTitle}}{{/_searchHotkey}}" aria-label="{{#_searchHotkey}}Search posts ({{.}}){{/_searchHotkey}}{{^_searchHotkey}}{{#__global.searchAriaLabel}}{{.}}{{/__global.searchAriaLabel}}{{^__global.searchAriaLabel}}Search posts (Ctrl+K){{/__global.searchAriaLabel}}{{/_searchHotkey}}">
             <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <circle cx="11" cy="11" r="8"></circle>
                 <line x1="21" y1="21" x2="16.65" y2="16.65"></line>

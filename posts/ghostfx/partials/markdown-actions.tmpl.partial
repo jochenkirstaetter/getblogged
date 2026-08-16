@@ -57,14 +57,14 @@
                     <h3 class="markdown-viewer-title">{{title}}</h3>
                 </div>
                 <div class="markdown-viewer-actions">
-                    <button type="button" id="markdown-modal-copy-btn" class="markdown-modal-copy-btn">
+                    <button type="button" id="markdown-modal-copy-btn" class="markdown-modal-copy-btn" aria-label="Copy all markdown source" title="Copy All">
                         <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
                             <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
                             <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
                         </svg>
                         <span>Copy All</span>
                     </button>
-                    <a id="markdown-modal-download-link" class="markdown-modal-download-btn" href="{{_rel}}raw/{{slug}}.md" download="{{slug}}.md" target="_blank" rel="noopener">
+                    <a id="markdown-modal-download-link" class="markdown-modal-download-btn" href="{{_rel}}raw/{{slug}}.md" download="{{slug}}.md" target="_blank" rel="noopener" aria-label="Download raw markdown file" title="Download raw .md">
                         <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                             <polyline points="7 10 12 15 17 10"></polyline>
@@ -90,7 +90,7 @@
                     </a>
                     {{/docurl}}{{/sourceurl}}
                     {{/_disableContribution}}
-                    <button type="button" class="markdown-modal-close-btn markdown-viewer-close" aria-label="Close Markdown viewer" title="Close viewer">
+                    <button type="button" class="markdown-modal-close-btn markdown-viewer-close" aria-label="Close Markdown viewer (Esc)" title="Close viewer (Esc)">
                         <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <line x1="18" y1="6" x2="6" y2="18"></line>
                             <line x1="6" y1="6" x2="18" y2="18"></line>

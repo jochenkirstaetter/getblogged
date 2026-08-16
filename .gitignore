@@ -16,6 +16,7 @@ y_key_*
 ghostfx.json
 ghostfx.http
 _ghost_templates/
+plugins
 
 # Firebase
 .firebase/

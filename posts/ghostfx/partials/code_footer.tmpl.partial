@@ -123,14 +123,20 @@ document.addEventListener('DOMContentLoaded', function() {
     // 4. Accessible Heading Order Normalization for Affix rail
     var affixNav = document.getElementById('affix');
     if (affixNav) {
+        var affixCaption = '{{#__global.inThisArticle}}{{{.}}}{{/__global.inThisArticle}}{{^__global.inThisArticle}}In this article{{/__global.inThisArticle}}'.trim();
         function fixAffixHeading() {
             var h5 = affixNav.querySelector('h5');
             if (h5 && h5.tagName.toLowerCase() === 'h5') {
                 var h2 = document.createElement('h2');
                 h2.className = h5.className;
-                h2.innerHTML = h5.innerHTML;
+                h2.textContent = affixCaption || h5.textContent;
                 h2.setAttribute('style', 'font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; margin: 0 0 10px;');
                 h5.parentNode.replaceChild(h2, h5);
+            } else if (affixCaption) {
+                var h2 = affixNav.querySelector('h2');
+                if (h2 && h2.textContent !== affixCaption) {
+                    h2.textContent = affixCaption;
+                }
             }
         }
         fixAffixHeading();
@@ -195,8 +201,10 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 var serviceWorkerUri = '/sw-v1.js';
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register(serviceWorkerUri).then(function() {
-      // Registration was successful. Now, check to see whether the service worker is controlling the page.
+    navigator.serviceWorker.register(serviceWorkerUri).then(function(reg) {
+      if (typeof reg.update === 'function') {
+        reg.update();
+      }
       if (navigator.serviceWorker.controller) {
         console.log('Assets cached by the controlling service worker.');
       } else {
@@ -204,6 +212,14 @@ if ('serviceWorker' in navigator) {
       }
     }).catch(function(error) {
       console.log('ERROR: ' + error);
+    });
+
+    var refreshing = false;
+    navigator.serviceWorker.addEventListener('controllerchange', function() {
+      if (!refreshing) {
+        refreshing = true;
+        window.location.reload();
+      }
     });
 } else {
     // The current browser doesn't support service workers.

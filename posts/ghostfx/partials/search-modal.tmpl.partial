@@ -22,9 +22,26 @@
                     aria-autocomplete="list"
                     aria-controls="search-palette-results"
                 />
-                <button type="button" id="search-palette-clear" class="search-palette-clear" aria-label="Clear search query" style="display: none;">&times;</button>
-                <button type="button" class="search-palette-close-btn search-palette-close" aria-label="Close search (Esc)" title="Close (Esc)">
-                    <kbd class="search-esc-badge">ESC</kbd>
+                <button type="button" id="search-palette-clear" class="search-palette-action-btn search-palette-clear" aria-label="{{#__global.searchClearAriaLabel}}{{.}}{{/__global.searchClearAriaLabel}}{{^__global.searchClearAriaLabel}}Clear search query{{/__global.searchClearAriaLabel}}" title="{{#__global.searchClearTitle}}{{.}}{{/__global.searchClearTitle}}{{^__global.searchClearTitle}}Clear search query{{/__global.searchClearTitle}}" style="display: none;">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m7 21-4.3-4.3c-1-1-1-2.5 0-3.4l9.6-9.6c1-1 2.5-1 3.4 0l5.6 5.6c1 1 1 2.5 0 3.4L13 21"></path>
+                        <path d="M22 21H7"></path>
+                        <path d="m5 11 9 9"></path>
+                    </svg>
+                </button>
+                <button type="button" id="search-palette-voice" class="search-palette-action-btn search-palette-voice" aria-label="{{#_voiceHotkey}}Search by voice ({{.}}){{/_voiceHotkey}}{{^_voiceHotkey}}{{#__global.searchVoiceAriaLabel}}{{.}}{{/__global.searchVoiceAriaLabel}}{{^__global.searchVoiceAriaLabel}}Search by voice (Ctrl+M){{/__global.searchVoiceAriaLabel}}{{/_voiceHotkey}}" title="{{#_voiceHotkey}}Search with voice ({{.}}){{/_voiceHotkey}}{{^_voiceHotkey}}{{#__global.searchVoiceTitle}}{{.}}{{/__global.searchVoiceTitle}}{{^__global.searchVoiceTitle}}Search with voice (Ctrl+M){{/__global.searchVoiceTitle}}{{/_voiceHotkey}}">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+                        <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                        <line x1="12" y1="19" x2="12" y2="23"/>
+                        <line x1="8" y1="23" x2="16" y2="23"/>
+                    </svg>
+                </button>
+                <button type="button" class="search-palette-action-btn search-palette-close-btn search-palette-close" aria-label="{{#__global.searchCloseAriaLabel}}{{.}}{{/__global.searchCloseAriaLabel}}{{^__global.searchCloseAriaLabel}}Close search (Esc){{/__global.searchCloseAriaLabel}}" title="{{#__global.searchCloseTitle}}{{.}}{{/__global.searchCloseTitle}}{{^__global.searchCloseTitle}}Close search (Esc){{/__global.searchCloseTitle}}">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
                 </button>
             </div>
 
@@ -61,11 +78,20 @@
 
             <div class="search-palette-footer">
                 <div class="search-palette-footer-shortcuts">
-                    <span class="shortcut-item"><kbd>↑</kbd><kbd>↓</kbd> navigate</span>
-                    <span class="shortcut-item"><kbd>↵</kbd> select</span>
-                    <span class="shortcut-item"><kbd>esc</kbd> close</span>
+                    <span class="shortcut-item" title="{{#__global.searchShortcutNavigate}}{{.}}{{/__global.searchShortcutNavigate}}{{^__global.searchShortcutNavigate}}Navigate results (Up/Down Arrows){{/__global.searchShortcutNavigate}}" aria-label="{{#__global.searchShortcutNavigate}}{{.}}{{/__global.searchShortcutNavigate}}{{^__global.searchShortcutNavigate}}Navigate results (Up/Down Arrows){{/__global.searchShortcutNavigate}}">
+                        <kbd>↑</kbd><kbd>↓</kbd>
+                        <span>navigate</span>
+                    </span>
+                    <span class="shortcut-item" title="{{#__global.searchShortcutSelect}}{{.}}{{/__global.searchShortcutSelect}}{{^__global.searchShortcutSelect}}Open selected article (Enter){{/__global.searchShortcutSelect}}" aria-label="{{#__global.searchShortcutSelect}}{{.}}{{/__global.searchShortcutSelect}}{{^__global.searchShortcutSelect}}Open selected article (Enter){{/__global.searchShortcutSelect}}">
+                        <kbd>↵</kbd>
+                        <span>select</span>
+                    </span>
+                    <span class="shortcut-item" title="{{#__global.searchShortcutClose}}{{.}}{{/__global.searchShortcutClose}}{{^__global.searchShortcutClose}}Close search palette (Escape){{/__global.searchShortcutClose}}" aria-label="{{#__global.searchShortcutClose}}{{.}}{{/__global.searchShortcutClose}}{{^__global.searchShortcutClose}}Close search palette (Escape){{/__global.searchShortcutClose}}">
+                        <kbd>ESC</kbd>
+                        <span>close</span>
+                    </span>
                 </div>
-                <div id="search-palette-stats" class="search-palette-stats"></div>
+                <div id="search-palette-stats" class="search-palette-stats" aria-live="polite"></div>
             </div>
         </div>
     </div>
@@ -73,15 +99,32 @@
 
 <script>
 (function () {
-    var configuredHotkey = '{{#_searchHotkey}}{{{.}}}{{/_searchHotkey}}{{^_searchHotkey}}Ctrl+K{{/_searchHotkey}}'.trim();
-    var isMac = typeof navigator !== 'undefined' && /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+    var configuredHotkey = '{{#_searchHotkey}}{{{.}}}{{/_searchHotkey}}{{^_searchHotkey}}{{#__global.searchHotkey}}{{{.}}}{{/__global.searchHotkey}}{{^__global.searchHotkey}}Ctrl+K{{/__global.searchHotkey}}{{/_searchHotkey}}'.trim();
+    var configuredVoiceHotkey = '{{#_voiceHotkey}}{{{.}}}{{/_voiceHotkey}}{{^_voiceHotkey}}{{#__global.searchVoiceHotkey}}{{{.}}}{{/__global.searchVoiceHotkey}}{{^__global.searchVoiceHotkey}}Ctrl+M{{/__global.searchVoiceHotkey}}{{/_voiceHotkey}}'.trim();
+    var voiceListeningText = '{{#__global.searchVoiceListening}}{{{.}}}{{/__global.searchVoiceListening}}{{^__global.searchVoiceListening}}Listening... Speak now{{/__global.searchVoiceListening}}';
+    var isMac = typeof navigator !== 'undefined' && (/Mac|iPod|iPhone|iPad/.test(navigator.platform) || /Macintosh|Mac OS X/.test(navigator.userAgent));
 
-    // Update hotkey badges on Mac to show ⌘ if configured with Ctrl
-    if (isMac && configuredHotkey.toLowerCase().indexOf('ctrl') !== -1) {
-        var badges = document.querySelectorAll('.search-hotkey-badge');
-        badges.forEach(function (b) {
-            b.textContent = configuredHotkey.replace(/ctrl/i, '⌘');
-        });
+    // Update search button title and aria-label on Mac to show ⌘K
+    if (isMac) {
+        if (configuredHotkey.toLowerCase().indexOf('ctrl') !== -1) {
+            var searchButtons = document.querySelectorAll('.site-nav-search-btn, .floating-header-search-btn');
+            searchButtons.forEach(function (btn) {
+                var t = btn.getAttribute('title');
+                if (t) btn.setAttribute('title', t.replace(/ctrl\+k/i, '⌘K').replace(/ctrl/i, '⌘'));
+                var a = btn.getAttribute('aria-label');
+                if (a) btn.setAttribute('aria-label', a.replace(/ctrl\+k/i, '⌘K').replace(/ctrl/i, '⌘'));
+            });
+        }
+        // Update voice button title and aria-label on Mac to show ⌘M
+        if (configuredVoiceHotkey.toLowerCase().indexOf('ctrl') !== -1) {
+            var voiceButtons = document.querySelectorAll('#search-palette-voice, .site-nav-voice-btn');
+            voiceButtons.forEach(function (btn) {
+                var t = btn.getAttribute('title');
+                if (t) btn.setAttribute('title', t.replace(/ctrl\+m/i, '⌘M').replace(/ctrl/i, '⌘'));
+                var a = btn.getAttribute('aria-label');
+                if (a) btn.setAttribute('aria-label', a.replace(/ctrl\+m/i, '⌘M').replace(/ctrl/i, '⌘'));
+            });
+        }
     }
 
     var modal = document.getElementById('search-palette-modal');
@@ -89,12 +132,18 @@
 
     var input = document.getElementById('search-palette-input');
     var clearBtn = document.getElementById('search-palette-clear');
+    var voiceBtn = document.getElementById('search-palette-voice');
+    var navVoiceBtns = document.querySelectorAll('.site-nav-voice-btn');
     var closeBtn = modal.querySelector('.search-palette-close');
     var resultsContainer = document.getElementById('search-palette-results');
     var initialContainer = document.getElementById('search-palette-initial');
     var emptyContainer = document.getElementById('search-palette-empty');
     var loadingContainer = document.getElementById('search-palette-loading');
     var statsContainer = document.getElementById('search-palette-stats');
+
+    var SpeechRecognition = typeof window !== 'undefined' ? (window.SpeechRecognition || window.webkitSpeechRecognition) : null;
+    var recognition = null;
+    var isListening = false;
 
     var searchIndex = null;
     var searchData = [];
@@ -225,7 +274,7 @@
             return;
         }
 
-        if (clearBtn) clearBtn.style.display = 'block';
+        if (clearBtn) clearBtn.style.display = 'inline-flex';
         if (initialContainer) initialContainer.style.display = 'none';
 
         var terms = query.split(/\s+/).filter(Boolean);
@@ -308,7 +357,7 @@
                 html += '    <div class="search-result-excerpt">' + excerptHtml + '</div>';
             }
             html += '  </div>';
-            html += '  <div class="search-result-enter-hint"><kbd>↵</kbd></div>';
+            html += '  <div class="search-result-enter-hint" title="' + escapeHtml('{{#__global.searchShortcutSelect}}{{.}}{{/__global.searchShortcutSelect}}{{^__global.searchShortcutSelect}}Open selected article (Enter){{/__global.searchShortcutSelect}}') + '" aria-label="' + escapeHtml('{{#__global.searchShortcutSelect}}{{.}}{{/__global.searchShortcutSelect}}{{^__global.searchShortcutSelect}}Open selected article (Enter){{/__global.searchShortcutSelect}}') + '"><kbd>↵</kbd></div>';
             html += '</a>';
         }
 
@@ -346,9 +395,105 @@
         }
     }
 
+    // SpeechRecognition Voice Search Management
+    function stopVoiceListening() {
+        isListening = false;
+        if (voiceBtn) voiceBtn.classList.remove('is-listening');
+        if (navVoiceBtns && navVoiceBtns.length > 0) {
+            navVoiceBtns.forEach(function (b) { b.classList.remove('is-listening'); });
+        }
+        if (input) {
+            input.setAttribute('placeholder', 'Search posts, topics, keywords...');
+        }
+    }
+
+    function initRecognition() {
+        if (!SpeechRecognition) return;
+        try {
+            recognition = new SpeechRecognition();
+            recognition.continuous = false;
+            recognition.interimResults = true;
+            recognition.lang = (document.documentElement && document.documentElement.lang) || 'en-US';
+
+            recognition.onstart = function () {
+                isListening = true;
+                if (voiceBtn) voiceBtn.classList.add('is-listening');
+                if (navVoiceBtns && navVoiceBtns.length > 0) {
+                    navVoiceBtns.forEach(function (b) { b.classList.add('is-listening'); });
+                }
+                if (input) {
+                    input.setAttribute('placeholder', voiceListeningText);
+                }
+            };
+
+            recognition.onresult = function (event) {
+                var transcript = '';
+                for (var i = event.resultIndex; i < event.results.length; ++i) {
+                    transcript += event.results[i][0].transcript;
+                }
+                if (transcript && input) {
+                    input.value = transcript;
+                    if (clearBtn) clearBtn.style.display = 'inline-flex';
+                    loadSearchIndex(function () {
+                        executeSearch(transcript);
+                    });
+                }
+            };
+
+            recognition.onerror = function (event) {
+                console.warn('SpeechRecognition error:', event.error);
+                stopVoiceListening();
+            };
+
+            recognition.onend = function () {
+                stopVoiceListening();
+            };
+        } catch (e) {
+            console.warn('SpeechRecognition init failed:', e);
+        }
+    }
+
+    function startVoiceListening() {
+        if (!SpeechRecognition) return;
+        if (!recognition) {
+            initRecognition();
+        }
+        if (!recognition) return;
+        try {
+            recognition.start();
+        } catch (e) {
+            try {
+                recognition.stop();
+                setTimeout(function () {
+                    try { recognition.start(); } catch (err) {}
+                }, 150);
+            } catch (err) {}
+        }
+    }
+
+    if (SpeechRecognition) {
+        document.documentElement.classList.add('speech-supported');
+
+        if (voiceBtn) {
+            voiceBtn.addEventListener('click', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                if (isListening) {
+                    if (recognition) {
+                        try { recognition.stop(); } catch (err) {}
+                    }
+                    stopVoiceListening();
+                } else {
+                    startVoiceListening();
+                }
+            });
+        }
+    }
+
     // Modal open/close controls
-    window.openSearchPalette = function () {
+    window.openSearchPalette = function (options) {
         if (!modal) return;
+        var autoVoice = options && options.autoStartVoice;
         loadSearchIndex(function () {
             if (input && input.value) {
                 executeSearch(input.value);
@@ -362,10 +507,17 @@
         if (input) {
             setTimeout(function () { input.focus(); input.select(); }, 50);
         }
+        if (autoVoice && SpeechRecognition) {
+            setTimeout(startVoiceListening, 200);
+        }
     };
 
     window.closeSearchPalette = function () {
         if (!modal) return;
+        if (recognition && isListening) {
+            try { recognition.stop(); } catch (err) {}
+            stopVoiceListening();
+        }
         if (typeof modal.close === 'function') {
             modal.close();
         } else {
@@ -460,11 +612,30 @@
 
     // Global keyboard shortcut listener
     window.addEventListener('keydown', function (e) {
-        // Allow user to trigger search using configured hotkey or standard fallback (Ctrl+K / Cmd+K / /)
+        // Check for search / voice shortcuts
         var isTargetInput = e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.isContentEditable);
+        var isSearchHotkey = matchesConfiguredHotkey(e, configuredHotkey) || ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k');
+        var isVoiceHotkey = matchesConfiguredHotkey(e, configuredVoiceHotkey) || ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'm');
+
+        if (isVoiceHotkey && SpeechRecognition) {
+            e.preventDefault();
+            if (!modal.open) {
+                window.openSearchPalette({ autoStartVoice: true });
+            } else {
+                if (isListening) {
+                    if (recognition) {
+                        try { recognition.stop(); } catch (err) {}
+                    }
+                    stopVoiceListening();
+                } else {
+                    startVoiceListening();
+                }
+            }
+            return;
+        }
 
         if (!isTargetInput) {
-            if (e.key === '/' || matchesConfiguredHotkey(e, configuredHotkey) || ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k')) {
+            if (e.key === '/' || isSearchHotkey) {
                 e.preventDefault();
                 window.openSearchPalette();
                 return;
@@ -475,7 +646,7 @@
                 e.preventDefault();
                 window.closeSearchPalette();
             }
-        } else if ((e.ctrlKey || e.metaKey) && (e.key.toLowerCase() === 'k' || matchesConfiguredHotkey(e, configuredHotkey))) {
+        } else if (isSearchHotkey) {
             e.preventDefault();
             window.openSearchPalette();
         }

@@ -5,8 +5,8 @@
  * Standalone PWA offline caching without legacy external dependencies.
  */
 
-const CACHE_NAME_STATIC = 'ghostfx-static-v6';
-const CACHE_NAME_CONTENT = 'ghostfx-content-v6';
+const CACHE_NAME_STATIC = 'ghostfx-static-v31';
+const CACHE_NAME_CONTENT = 'ghostfx-content-v31';
 
 // Domains that should always bypass service worker caching
 const BYPASS_ORIGINS = [

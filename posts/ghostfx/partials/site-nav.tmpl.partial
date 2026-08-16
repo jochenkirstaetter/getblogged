@@ -18,13 +18,20 @@
     </div>
     {{#_enableSearch}}
     <div class="site-nav-center">
-        <button type="button" class="site-nav-search-btn" onclick="window.openSearchPalette && window.openSearchPalette();return false;" aria-label="Search articles ({{#_searchHotkey}}{{.}}{{/_searchHotkey}}{{^_searchHotkey}}Ctrl+K{{/_searchHotkey}})">
+        <button type="button" class="site-nav-search-btn" onclick="window.openSearchPalette && window.openSearchPalette();return false;" title="{{#_searchHotkey}}Search posts ({{.}}){{/_searchHotkey}}{{^_searchHotkey}}{{#__global.searchTitle}}{{.}}{{/__global.searchTitle}}{{^__global.searchTitle}}Search posts (Ctrl+K){{/__global.searchTitle}}{{/_searchHotkey}}" aria-label="{{#_searchHotkey}}Search posts ({{.}}){{/_searchHotkey}}{{^_searchHotkey}}{{#__global.searchAriaLabel}}{{.}}{{/__global.searchAriaLabel}}{{^__global.searchAriaLabel}}Search posts (Ctrl+K){{/__global.searchAriaLabel}}{{/_searchHotkey}}">
             <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <circle cx="11" cy="11" r="8"></circle>
                 <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
             </svg>
             <span class="search-btn-placeholder">Search posts...</span>
-            <kbd class="search-hotkey-badge">{{#_searchHotkey}}{{.}}{{/_searchHotkey}}{{^_searchHotkey}}Ctrl+K{{/_searchHotkey}}</kbd>
+        </button>
+        <button type="button" class="site-nav-voice-btn" title="{{#_voiceHotkey}}Search with voice ({{.}}){{/_voiceHotkey}}{{^_voiceHotkey}}{{#__global.searchVoiceTitle}}{{.}}{{/__global.searchVoiceTitle}}{{^__global.searchVoiceTitle}}Search with voice (Ctrl+M){{/__global.searchVoiceTitle}}{{/_voiceHotkey}}" aria-label="{{#_voiceHotkey}}Search by voice ({{.}}){{/_voiceHotkey}}{{^_voiceHotkey}}{{#__global.searchVoiceAriaLabel}}{{.}}{{/__global.searchVoiceAriaLabel}}{{^__global.searchVoiceAriaLabel}}Search by voice (Ctrl+M){{/__global.searchVoiceAriaLabel}}{{/_voiceHotkey}}" onclick="window.openSearchPalette && window.openSearchPalette({ autoStartVoice: true }); return false;">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+                <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                <line x1="12" y1="19" x2="12" y2="23"/>
+                <line x1="8" y1="23" x2="16" y2="23"/>
+            </svg>
         </button>
     </div>
     {{/_enableSearch}}
@@ -103,7 +110,7 @@
                     },
                     required: ['query']
                   },
-                  execute: async function(args) {
+                  execute: function(args) {
                     var q = args && args.query ? args.query : '';
                     if (window.openSearchPalette) {
                       window.openSearchPalette();
@@ -113,7 +120,7 @@
                         input.dispatchEvent(new Event('input', { bubbles: true }));
                       }
                     }
-                    return { content: [{ type: 'text', text: 'Search executed for: ' + q }] };
+                    return Promise.resolve({ content: [{ type: 'text', text: 'Search executed for: ' + q }] });
                   },
                   annotations: { readOnlyHint: true }
                 });
