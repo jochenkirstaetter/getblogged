@@ -1,6 +1,6 @@
 {
   "name": "getblogged",
-  "version": "1.0.0",
+  "version": "2.0.2",
   "description": "Get Blogged by JoKi - Personal blog and technical articles",
   "scripts": {
     "clean": "rm -rf posts/_site",
