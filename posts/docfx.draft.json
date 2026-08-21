@@ -13,6 +13,13 @@
         "files": [
           "**.md"
         ],
+        "src": "draft",
+        "dest": ""
+      },
+      {
+        "files": [
+          "**.md"
+        ],
         "src": "pages",
         "dest": ""
       },
@@ -22,6 +29,7 @@
           "**/toc.yml"
         ],
         "exclude": [
+          "index.md",
           "index-draft.md",
           "draft/**",
           "published/**",
@@ -90,7 +98,6 @@
       "_disqusSiteId": "getbloggedbyjoki",
       "_siteTwitter": "@jkirstaetter",
       "_siteFacebook": "https://facebook.com/jochen.kirstaetter",
-      "_indexCount": 12,
       "_currentYear": 2026
     },
     "sitemap": {
@@ -100,3 +107,4 @@
     }
   }
 }
+

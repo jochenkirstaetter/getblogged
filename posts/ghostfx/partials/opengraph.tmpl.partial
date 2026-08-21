@@ -4,31 +4,84 @@
 <meta property="og:title" content="{{ogTitle}}">
 {{/ogTitle}}
 {{^ogTitle}}
+{{#facebookTitle}}
+<meta property="og:title" content="{{facebookTitle}}">
+{{/facebookTitle}}
+{{^facebookTitle}}
+{{#metaTitle}}
+<meta property="og:title" content="{{metaTitle}}">
+{{/metaTitle}}
+{{^metaTitle}}
 {{#title}}
 <meta property="og:title" content="{{title}}">
 {{/title}}
+{{/metaTitle}}
+{{/facebookTitle}}
 {{/ogTitle}}
 {{#ogDescription}}
 <meta property="og:description" content="{{ogDescription}}">
 {{/ogDescription}}
 {{^ogDescription}}
+{{#facebookDescription}}
+<meta property="og:description" content="{{facebookDescription}}">
+{{/facebookDescription}}
+{{^facebookDescription}}
+{{#metaDescription}}
+<meta property="og:description" content="{{metaDescription}}">
+{{/metaDescription}}
+{{^metaDescription}}
 {{#description}}
 <meta property="og:description" content="{{description}}">
 {{/description}}
 {{^description}}
+{{#excerpt}}
+<meta property="og:description" content="{{excerpt}}">
+{{/excerpt}}
+{{^excerpt}}
 {{#summary}}
 <meta property="og:description" content="{{summary}}">
 {{/summary}}
+{{/excerpt}}
 {{/description}}
+{{/metaDescription}}
+{{/facebookDescription}}
 {{/ogDescription}}
 {{#canonicalUrl}}
 <meta property="og:url" content="{{canonicalUrl}}">
 {{/canonicalUrl}}
+{{#ogImage}}
+<meta property="og:image" content="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}{{ogImage}}">
+<meta property="og:image:width" content="1920">
+<meta property="og:image:height" content="1277">
+{{/ogImage}}
+{{^ogImage}}
+{{#facebookImage}}
+<meta property="og:image" content="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}{{facebookImage}}">
+<meta property="og:image:width" content="1920">
+<meta property="og:image:height" content="1277">
+{{/facebookImage}}
+{{^facebookImage}}
 {{#imageUrl}}
 <meta property="og:image" content="{{imageUrl}}">
 <meta property="og:image:width" content="1920">
 <meta property="og:image:height" content="1277">
 {{/imageUrl}}
+{{^imageUrl}}
+{{#featureImage}}
+<meta property="og:image" content="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}{{featureImage}}">
+<meta property="og:image:width" content="1920">
+<meta property="og:image:height" content="1277">
+{{/featureImage}}
+{{^featureImage}}
+{{#image}}
+<meta property="og:image" content="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}{{image}}">
+<meta property="og:image:width" content="1920">
+<meta property="og:image:height" content="1277">
+{{/image}}
+{{/featureImage}}
+{{/imageUrl}}
+{{/facebookImage}}
+{{/ogImage}}
 {{#publishedAt}}
 <meta property="article:published_time" content="{{publishedAt}}">
 {{/publishedAt}}

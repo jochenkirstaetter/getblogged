@@ -1,0 +1,212 @@
+<dialog id="qr-code-dialog" class="media-lightbox qr-dialog" closedby="any" aria-label="Share and QR Code">
+    <div class="media-lightbox-content qr-dialog-content">
+        <div class="qr-modal-container">
+            <div class="qr-modal-header">
+                <div class="qr-modal-title-group">
+                    <span class="qr-modal-badge">QR Code &amp; Share</span>
+                    <h3 class="qr-modal-title" id="qr-modal-article-title">{{#title}}{{title}}{{/title}}{{^title}}{{_appTitle}}{{/title}}</h3>
+                </div>
+                <button type="button" class="qr-modal-close-btn" aria-label="Close dialog (Esc)" title="Close dialog (Esc)">
+                    <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                    <span>Close</span>
+                </button>
+            </div>
+            <div class="qr-modal-body">
+                <div class="qr-code-wrapper">
+                    <div id="qr-code-graphic" class="qr-code-graphic" aria-label="Scan QR Code to open page">
+                        <div class="qr-code-loading">Generating QR Code...</div>
+                    </div>
+                </div>
+                <div class="qr-url-container">
+                    <span class="qr-url-label">Page URL</span>
+                    <div id="qr-modal-url-display" class="qr-url-text"></div>
+                </div>
+                <div class="qr-modal-actions">
+                    <button type="button" id="qr-modal-copy-btn" class="qr-action-btn qr-copy-btn" aria-label="Copy page URL" title="Copy URL">
+                        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                        </svg>
+                        <span>Copy</span>
+                    </button>
+                    <button type="button" id="qr-modal-share-btn" class="qr-action-btn qr-share-btn" aria-label="Share URL via system dialog" title="Share via mobile or desktop dialog">
+                        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="18" cy="5" r="3"></circle>
+                            <circle cx="6" cy="12" r="3"></circle>
+                            <circle cx="18" cy="19" r="3"></circle>
+                            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                        </svg>
+                        <span>Share</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</dialog>
+
+<script src="{{_rel}}public/js/qrcode.min.js" defer></script>
+<script>
+(function () {
+    var modal = document.getElementById('qr-code-dialog');
+    var qrContainer = document.getElementById('qr-code-graphic');
+    var urlDisplay = document.getElementById('qr-modal-url-display');
+    var titleDisplay = document.getElementById('qr-modal-article-title');
+    var copyBtn = document.getElementById('qr-modal-copy-btn');
+    var shareBtn = document.getElementById('qr-modal-share-btn');
+    var closeBtn = modal ? modal.querySelector('.qr-modal-close-btn') : null;
+
+    var currentCanonicalUrl = '';
+    var currentCanonicalTitle = '';
+
+    function getCanonicalUrl() {
+        var rawUrl = window.location.href;
+        var appUrl = '{{#_appUrl}}{{_appUrl}}{{/_appUrl}}{{^_appUrl}}https://jochen.kirstaetter.name{{/_appUrl}}'.replace(/\/+$/, '');
+        if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+            rawUrl = appUrl + window.location.pathname;
+        }
+        return rawUrl;
+    }
+
+    function renderQrCode(url) {
+        if (!qrContainer) return;
+        var faviconPath = '{{_rel}}{{#_appFaviconPath}}{{.}}{{/_appFaviconPath}}{{^_appFaviconPath}}favicon.ico{{/_appFaviconPath}}';
+
+        function generate() {
+            if (typeof window.QRCode !== 'undefined') {
+                var size = window.innerWidth <= 400 ? 160 : 180;
+                qrContainer.innerHTML = '';
+                new window.QRCode(qrContainer, {
+                    text: url,
+                    width: size,
+                    height: size,
+                    colorDark: "#111827",
+                    colorLight: "#ffffff",
+                    correctLevel: window.QRCode.CorrectLevel.H,
+                    logoUrl: faviconPath,
+                    logoSize: 0.24
+                });
+            } else {
+                qrContainer.innerHTML = '<div class="qr-code-loading">Loading QR code engine...</div>';
+                setTimeout(generate, 100);
+            }
+        }
+        generate();
+    }
+
+    window.openQrModal = function (customUrl, customTitle) {
+        if (!modal) return;
+        currentCanonicalUrl = customUrl || getCanonicalUrl();
+        var h1 = document.querySelector('.post-full-title') || document.querySelector('h1');
+        currentCanonicalTitle = customTitle || (h1 ? h1.innerText : document.title);
+
+        if (titleDisplay) {
+            titleDisplay.textContent = currentCanonicalTitle;
+        }
+        if (urlDisplay) {
+            urlDisplay.textContent = currentCanonicalUrl;
+        }
+
+        renderQrCode(currentCanonicalUrl);
+
+        if (typeof modal.showModal === 'function') {
+            modal.showModal();
+        } else {
+            modal.setAttribute('open', '');
+        }
+    };
+
+    if (modal) {
+        if (closeBtn) {
+            closeBtn.addEventListener('click', function () {
+                if (typeof modal.close === 'function') {
+                    modal.close();
+                } else {
+                    modal.removeAttribute('open');
+                }
+            });
+        }
+
+        // Light dismiss on backdrop click
+        modal.addEventListener('click', function (e) {
+            if (e.target === modal) {
+                var rect = modal.getBoundingClientRect();
+                var isInDialog = (
+                    rect.top <= e.clientY &&
+                    e.clientY <= rect.top + rect.height &&
+                    rect.left <= e.clientX &&
+                    e.clientX <= rect.left + rect.width
+                );
+                if (!isInDialog) {
+                    if (typeof modal.close === 'function') {
+                        modal.close();
+                    } else {
+                        modal.removeAttribute('open');
+                    }
+                }
+            }
+        });
+
+        if (copyBtn) {
+            copyBtn.addEventListener('click', function () {
+                var url = currentCanonicalUrl || getCanonicalUrl();
+                var originalHtml = copyBtn.innerHTML;
+                navigator.clipboard.writeText(url).then(function () {
+                    copyBtn.classList.add('copied');
+                    copyBtn.innerHTML = '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <span>Copied!</span>';
+                    setTimeout(function () {
+                        copyBtn.classList.remove('copied');
+                        copyBtn.innerHTML = originalHtml;
+                    }, 2000);
+                }).catch(function () {
+                    alert('Could not copy URL to clipboard.');
+                });
+            });
+        }
+
+        if (shareBtn) {
+            shareBtn.addEventListener('click', function () {
+                var url = currentCanonicalUrl || getCanonicalUrl();
+                var title = currentCanonicalTitle || document.title;
+
+                if (navigator.share) {
+                    navigator.share({
+                        title: title,
+                        text: title,
+                        url: url
+                    }).catch(function (err) {
+                        if (err.name !== 'AbortError') {
+                            console.error('Web Share failed:', err);
+                        }
+                    });
+                } else {
+                    // Fallback to copying URL with notification
+                    navigator.clipboard.writeText(url).then(function () {
+                        var originalHtml = shareBtn.innerHTML;
+                        shareBtn.innerHTML = '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <span>Link Copied!</span>';
+                        setTimeout(function () {
+                            shareBtn.innerHTML = originalHtml;
+                        }, 2000);
+                    }).catch(function () {
+                        alert('Sharing is not supported on this device. URL: ' + url);
+                    });
+                }
+            });
+        }
+    }
+
+    // Bind triggers
+    document.addEventListener('click', function (e) {
+        var trigger = e.target.closest('.btn-qr-code, .floating-qr-code, [data-action="open-qr"]');
+        if (trigger) {
+            e.preventDefault();
+            var url = trigger.getAttribute('data-url');
+            var title = trigger.getAttribute('data-title');
+            window.openQrModal(url, title);
+        }
+    });
+})();
+</script>

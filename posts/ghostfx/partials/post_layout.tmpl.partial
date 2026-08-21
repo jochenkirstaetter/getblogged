@@ -13,7 +13,7 @@ into the {body} of the default.hbs template }}
 <main id="site-main" class="site-main outer">
     <div class="inner">
 
-        <article class="post-full {{postClass}} {{^image}}no-image{{/image}}">
+        <article class="post-full {{postClass}} {{^image}}{{^featureImage}}no-image{{/featureImage}}{{/image}}">
 
             {{#image}}
             <figure class="post-full-image">
@@ -26,6 +26,20 @@ into the {body} of the default.hbs template }}
                     decoding="async"
                 />
             </figure>
+            {{/image}}
+            {{^image}}
+            {{#featureImage}}
+            <figure class="post-full-image">
+                <img
+                    src="{{_rel}}{{featureImage}}"
+                    alt="{{title}}{{#imageAttribution}} - {{.}}{{/imageAttribution}}"
+                    width="1600"
+                    height="900"
+                    fetchpriority="high"
+                    decoding="async"
+                />
+            </figure>
+            {{/featureImage}}
             {{/image}}
 
             <header class="post-full-header">
@@ -189,90 +203,4 @@ into the {body} of the default.hbs template }}
 
 {{! The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs }}
 
-<script>
-(function () {
-    function initFloatingHeader() {
-        var progressBar = document.querySelector('#reading-progress');
-        var header = document.querySelector('.floating-header');
-        var title = document.querySelector('.post-full-title');
-        if (!header || !title) return;
-
-        try {
-            var rawUrl = window.location.href;
-            if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-                rawUrl = 'https://jochen.kirstaetter.name' + window.location.pathname;
-            }
-            var currentUrl = encodeURIComponent(rawUrl);
-            var currentTitle = encodeURIComponent(document.title || title.innerText);
-
-            var x = header.querySelector('.floating-header-share-x, .floating-header-share-tw');
-            if (x) x.href = 'https://x.com/intent/post?text=' + currentTitle + '&url=' + currentUrl;
-
-            var fb = header.querySelector('.floating-header-share-fb');
-            if (fb) fb.href = 'https://www.facebook.com/sharer/sharer.php?u=' + currentUrl;
-
-            var bsky = header.querySelector('.floating-header-share-bsky');
-            if (bsky) bsky.href = 'https://bsky.app/intent/compose?text=' + currentTitle + '%20' + currentUrl;
-
-            var masto = header.querySelector('.floating-header-share-masto');
-            if (masto) masto.href = 'https://mastodon.social/share?text=' + currentTitle + '%20' + currentUrl;
-
-            var li = header.querySelector('.floating-header-share-li');
-            if (li) li.href = 'https://www.linkedin.com/feed/?shareActive=true&text=' + currentTitle + '%20' + currentUrl;
-
-            var re = header.querySelector('.floating-header-share-re');
-            if (re) re.href = 'https://reddit.com/submit?url=' + currentUrl + '&title=' + currentTitle;
-
-            var em = header.querySelector('.floating-header-share-email');
-            if (em) em.href = 'mailto:?subject=' + currentTitle + '&body=Check out this site: ' + currentUrl;
-        } catch (e) {}
-
-        var ticking = false;
-
-        function update() {
-            var lastScrollY = window.scrollY || window.pageYOffset;
-            var lastWindowHeight = window.innerHeight;
-            var lastDocumentHeight = Math.max(
-                document.body.scrollHeight, document.documentElement.scrollHeight,
-                document.body.offsetHeight, document.documentElement.offsetHeight
-            );
-
-            var trigger = title.getBoundingClientRect().top + lastScrollY;
-            var triggerOffset = title.offsetHeight + 35;
-            var progressMax = lastDocumentHeight - lastWindowHeight;
-
-            if (lastScrollY >= trigger + triggerOffset) {
-                header.classList.add('floating-active');
-            } else {
-                header.classList.remove('floating-active');
-            }
-
-            if (progressBar && progressMax > 0) {
-                progressBar.setAttribute('max', progressMax);
-                progressBar.setAttribute('value', lastScrollY);
-            }
-
-            ticking = false;
-        }
-
-        function requestTick() {
-            if (!ticking) {
-                requestAnimationFrame(update);
-            }
-            ticking = true;
-        }
-
-        window.addEventListener('scroll', requestTick, { passive: true });
-        window.addEventListener('resize', requestTick, false);
-
-        requestAnimationFrame(update);
-    }
-
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initFloatingHeader);
-    } else {
-        requestAnimationFrame(initFloatingHeader);
-    }
-})();
-</script>
 

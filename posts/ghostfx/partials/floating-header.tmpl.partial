@@ -6,10 +6,60 @@
             {{/_appFaviconPath}}
             <span>{{_appTitle}}</span>
         </a>
+        <span class="floating-header-divider">&mdash;</span>
     </div>
-    <span class="floating-header-divider">&mdash;</span>
     <div class="floating-header-title">{{#title}}{{title}}{{/title}}{{^title}}{{_appTitle}}{{/title}}</div>
     <div class="floating-header-share">
+        <!-- Social Media Sharing Dropdown Group -->
+        <div class="floating-header-social-group">
+            <button type="button" class="floating-header-share-label" aria-haspopup="true" aria-expanded="false" aria-label="Share this" title="Share this">
+                <span class="share-desktop-text">Share this</span>
+                <span class="share-desktop-icon">{{>partials/icons/point}}</span>
+                <span class="share-mobile-icon">{{>partials/icons/share}}</span>
+            </button>
+            <div class="floating-header-social-list" role="menu">
+                <a class="floating-header-share-item floating-header-share-x" href="https://x.com/intent/post?text={{encode title}}&amp;url={{_rel}}{{slug}}.html"
+                    target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-x', 'width=550,height=450');return false;" title="Share on X" role="menuitem">
+                    {{>partials/icons/x}}
+                    <span class="social-text">X / Twitter</span>
+                </a>
+                <a class="floating-header-share-item floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u={{_rel}}{{slug}}.html"
+                    target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-facebook','width=580,height=400');return false;" title="Share on Facebook" role="menuitem">
+                    {{>partials/icons/facebook}}
+                    <span class="social-text">Facebook</span>
+                </a>
+                <a class="floating-header-share-item floating-header-share-bsky" href="https://bsky.app/intent/compose?text={{encode title}}%20{{_rel}}{{slug}}.html"
+                    target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-bluesky','width=580,height=420');return false;" title="Share on BlueSky" role="menuitem">
+                    {{>partials/icons/bluesky}}
+                    <span class="social-text">BlueSky</span>
+                </a>
+                <a class="floating-header-share-item floating-header-share-masto" href="https://mastodon.social/share?text={{encode title}}%20{{_rel}}{{slug}}.html"
+                    target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-mastodon','width=600,height=600');return false;" title="Share on Mastodon" role="menuitem">
+                    {{>partials/icons/mastodon}}
+                    <span class="social-text">Mastodon</span>
+                </a>
+                <a class="floating-header-share-item floating-header-share-li" href="https://www.linkedin.com/feed/?shareActive=true&amp;text={{encode title}}%20{{_rel}}{{slug}}.html"
+                    target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-linkedin','width=650,height=650');return false;" title="Share on LinkedIn" role="menuitem">
+                    {{>partials/icons/linkedin}}
+                    <span class="social-text">LinkedIn</span>
+                </a>
+                <a class="floating-header-share-item floating-header-share-re" href="https://reddit.com/submit?url={{_rel}}{{slug}}.html&title={{encode title}}"
+                    target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-reddit','width=580,height=500');return false;" title="Share on Reddit" role="menuitem">
+                    {{>partials/icons/reddit}}
+                    <span class="social-text">Reddit</span>
+                </a>
+                <a class="floating-header-share-item floating-header-share-email" href="mailto:?subject={{encode title}}&body=Check out this site: {{_rel}}{{slug}}.html" title="Share via Email" role="menuitem">
+                    {{>partials/icons/email}}
+                    <span class="social-text">Email</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- QR Code / Share Button -->
+        <button type="button" class="floating-header-share-btn floating-qr-code" data-title="{{#title}}{{title}}{{/title}}{{^title}}{{_appTitle}}{{/title}}" title="QR Code &amp; Share" aria-label="QR Code and Share">
+            {{>partials/icons/qr}}
+        </button>
+
         {{^_disableMarkdown}}
         <button type="button" class="floating-header-share-btn floating-copy-markdown" data-slug="{{slug}}" title="Copy Markdown source" aria-label="Copy Markdown source">
             <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -18,35 +68,9 @@
             </svg>
         </button>
         {{/_disableMarkdown}}
-        <div class="floating-header-share-label">Share this {{>partials/icons/point}}</div>
-        <a class="floating-header-share-x" href="https://x.com/intent/post?text={{encode title}}&amp;url={{_rel}}{{slug}}.html"
-            target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-x', 'width=550,height=450');return false;" title="Share on X">
-            {{>partials/icons/x}}
-        </a>
-        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u={{_rel}}{{slug}}.html"
-            target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-facebook','width=580,height=400');return false;" title="Share on Facebook">
-            {{>partials/icons/facebook}}
-        </a>
-        <a class="floating-header-share-bsky" href="https://bsky.app/intent/compose?text={{encode title}}%20{{_rel}}{{slug}}.html"
-            target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-bluesky','width=580,height=420');return false;" title="Share on BlueSky">
-            {{>partials/icons/bluesky}}
-        </a>
-        <a class="floating-header-share-masto" href="https://mastodon.social/share?text={{encode title}}%20{{_rel}}{{slug}}.html"
-            target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-mastodon','width=600,height=600');return false;" title="Share on Mastodon">
-            {{>partials/icons/mastodon}}
-        </a>
-        <a class="floating-header-share-li" href="https://www.linkedin.com/feed/?shareActive=true&amp;text={{encode title}}%20{{_rel}}{{slug}}.html"
-            target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-linkedin','width=650,height=650');return false;" title="Share on LinkedIn">
-            {{>partials/icons/linkedin}}
-        </a>
-        <a class="floating-header-share-re" href="https://reddit.com/submit?url={{_rel}}{{slug}}.html&title={{encode title}}"
-            target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-reddit','width=580,height=500');return false;" title="Share on Reddit">
-            {{>partials/icons/reddit}}
-        </a>
-        <a class="floating-header-share-email" href="mailto:?subject={{encode title}}&body=Check out this site: {{_rel}}{{slug}}.html" title="Share via Email">
-            {{>partials/icons/email}}
-        </a>
+
         {{#_enableSearch}}
+        <!-- Search Button -->
         <button type="button" class="floating-header-search-btn" onclick="window.openSearchPalette && window.openSearchPalette();return false;" title="{{#_searchHotkey}}Search posts ({{.}}){{/_searchHotkey}}{{^_searchHotkey}}{{#__global.searchTitle}}{{.}}{{/__global.searchTitle}}{{^__global.searchTitle}}Search posts (Ctrl+K){{/__global.searchTitle}}{{/_searchHotkey}}" aria-label="{{#_searchHotkey}}Search posts ({{.}}){{/_searchHotkey}}{{^_searchHotkey}}{{#__global.searchAriaLabel}}{{.}}{{/__global.searchAriaLabel}}{{^__global.searchAriaLabel}}Search posts (Ctrl+K){{/__global.searchAriaLabel}}{{/_searchHotkey}}">
             <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <circle cx="11" cy="11" r="8"></circle>
@@ -73,8 +97,9 @@
 
         try {
             var rawUrl = window.location.href;
+            var appUrl = '{{#_appUrl}}{{_appUrl}}{{/_appUrl}}{{^_appUrl}}https://jochen.kirstaetter.name{{/_appUrl}}'.replace(/\/+$/, '');
             if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-                rawUrl = 'https://jochen.kirstaetter.name' + window.location.pathname;
+                rawUrl = appUrl + window.location.pathname;
             }
             var currentUrl = encodeURIComponent(rawUrl);
             var currentTitle = encodeURIComponent(document.title || (title ? title.innerText : ''));
@@ -101,6 +126,37 @@
             if (em) em.href = 'mailto:?subject=' + currentTitle + '&body=Check out this site: ' + currentUrl;
         } catch (e) {}
 
+        // Mobile dropdown toggle logic
+        var socialGroup = header.querySelector('.floating-header-social-group');
+        var labelToggle = header.querySelector('.floating-header-share-label');
+        if (socialGroup && labelToggle) {
+            labelToggle.addEventListener('click', function (e) {
+                e.stopPropagation();
+                var isOpen = socialGroup.classList.contains('is-open');
+                if (isOpen) {
+                    socialGroup.classList.remove('is-open');
+                    labelToggle.setAttribute('aria-expanded', 'false');
+                } else {
+                    socialGroup.classList.add('is-open');
+                    labelToggle.setAttribute('aria-expanded', 'true');
+                }
+            });
+
+            document.addEventListener('click', function (e) {
+                if (!socialGroup.contains(e.target)) {
+                    socialGroup.classList.remove('is-open');
+                    labelToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape' && socialGroup.classList.contains('is-open')) {
+                    socialGroup.classList.remove('is-open');
+                    labelToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+        }
+
         var ticking = false;
 
         function update() {
@@ -122,6 +178,10 @@
                 header.classList.add('floating-active');
             } else {
                 header.classList.remove('floating-active');
+                if (socialGroup) {
+                    socialGroup.classList.remove('is-open');
+                    if (labelToggle) labelToggle.setAttribute('aria-expanded', 'false');
+                }
             }
 
             if (progressBar && progressMax > 0) {

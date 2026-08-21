@@ -10,6 +10,18 @@
         />
     </a>
     {{/image}}
+    {{^image}}
+    {{#featureImage}}
+    <a class="post-card-image-link" href="{{_rel}}{{slug}}.html" aria-label="{{title}}">
+        <img class="post-card-image"
+            src="{{_rel}}{{.}}"
+            alt="{{title}}{{#imageAttribution}} - {{.}}{{/imageAttribution}}"
+            loading="lazy"
+            decoding="async"
+        />
+    </a>
+    {{/featureImage}}
+    {{/image}}
 
     <div class="post-card-content">
         <div class="post-card-content-header">
@@ -30,6 +42,20 @@
             <section class="post-card-excerpt">
                 <p>{{.}}</p>
             </section>
+            {{/excerpt}}
+            {{^excerpt}}
+            {{#description}}
+            <section class="post-card-excerpt">
+                <p>{{.}}</p>
+            </section>
+            {{/description}}
+            {{^description}}
+            {{#summary}}
+            <section class="post-card-excerpt">
+                <p>{{.}}</p>
+            </section>
+            {{/summary}}
+            {{/description}}
             {{/excerpt}}
         </a>
         <footer class="post-card-meta">

@@ -5,6 +5,19 @@ coverImage: content/images/2023/07/GDG_Google_Banner.webp
 isHome: true
 bodyClass: home-template
 posts:
+- title: Using portless with Firebase Hosting
+  slug: portless-with-firebase-emulators
+  date: 2026-08-21
+  formattedDate: Aug 21, 2026
+  image: content/images/2026/08/portless-with-firebase-emulators.webp
+  excerpt: A practical guide on combining portless local HTTPS reverse proxy with Firebase Hosting Emulators for frictionless local web development without memorizing port numbers.
+  authorName: Jochen Kirstätter
+  authorSlug: joki
+  authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
+  primaryTag: Development
+  tagSlug: development
+  tagClass: tag-development
+  imageClass: with-image
 - title: Gemma 3 - missing features despite announcement
   slug: gemma-3-missing-features-despite-announcement
   date: 2025-03-12
@@ -147,18 +160,5 @@ posts:
   primaryTag: Development
   tagSlug: development
   tagClass: tag-development
-  imageClass: with-image
-- title: Developer Creators and Online Communities Summit
-  slug: developer-creators-and-online-communities-summit
-  date: 2024-02-01
-  formattedDate: Feb 1, 2024
-  image: content/images/2024/01/PXL_20240125_094817421.MP.webp
-  excerpt: The Google Developer Community organised the first Developer Creators and Online Communities Summit in Singapore. I had the honour to join approx. 120 people and learn a lot over there.
-  authorName: Jochen Kirstätter
-  authorSlug: joki
-  authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
-  primaryTag: Community
-  tagSlug: community
-  tagClass: tag-community
   imageClass: with-image
 ---

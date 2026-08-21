@@ -24,8 +24,13 @@
 <meta name="description" content="{{description}}">
 {{/description}}
 {{^description}}
+{{#excerpt}}
+<meta name="description" content="{{excerpt}}">
+{{/excerpt}}
+{{^excerpt}}
 {{#summary}}
 <meta name="description" content="{{summary}}">
 {{/summary}}
+{{/excerpt}}
 {{/description}}
 {{/metaDescription}}

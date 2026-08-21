@@ -103,19 +103,24 @@
     <link rel="preload" as="image" href="{{_rel}}{{.}}" fetchpriority="high">
     {{/image}}
     {{^image}}
-      {{#coverImage}}
+      {{#featureImage}}
       <link rel="preload" as="image" href="{{_rel}}{{.}}" fetchpriority="high">
-      {{/coverImage}}
-      {{^coverImage}}
-        {{#background}}
+      {{/featureImage}}
+      {{^featureImage}}
+        {{#coverImage}}
         <link rel="preload" as="image" href="{{_rel}}{{.}}" fetchpriority="high">
-        {{/background}}
-        {{^background}}
-          {{#_appCoverImage}}
+        {{/coverImage}}
+        {{^coverImage}}
+          {{#background}}
           <link rel="preload" as="image" href="{{_rel}}{{.}}" fetchpriority="high">
-          {{/_appCoverImage}}
-        {{/background}}
-      {{/coverImage}}
+          {{/background}}
+          {{^background}}
+            {{#_appCoverImage}}
+            <link rel="preload" as="image" href="{{_rel}}{{.}}" fetchpriority="high">
+            {{/_appCoverImage}}
+          {{/background}}
+        {{/coverImage}}
+      {{/featureImage}}
     {{/image}}
     <link href="{{_rel}}public/built/screen.css" rel="stylesheet" type="text/css" />
 
@@ -193,6 +198,7 @@
     
 
     {{>partials/search-modal}}
+    {{>partials/qr-modal}}
 
     <dialog id="media-lightbox" class="media-lightbox" closedby="any" aria-label="Media Preview">
         <div class="media-lightbox-content">

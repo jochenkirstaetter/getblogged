@@ -1,0 +1,16 @@
+# RFC 9116 security.txt
+# Get Blogged by JoKi - Jochen Kirstätter
+
+# Security Contacts
+Contact: mailto:jochen@kirstaetter.name
+Contact: https://jochen.kirstaetter.name/about/
+
+# Expiration Date (RFC 9116 Mandatory Field)
+Expires: 2028-08-19T00:00:00.000Z
+
+# Canonical URI
+Canonical: https://jochen.kirstaetter.name/.well-known/security.txt
+Canonical: https://jochen.kirstaetter.name/security.txt
+
+# Preferred Languages
+Preferred-Languages: en, de, fr

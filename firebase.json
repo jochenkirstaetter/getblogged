@@ -29,6 +29,10 @@
       {
         "source": "/atom",
         "destination": "/sitemap.xml"
+      },
+      {
+        "source": "/.well-known/security.txt",
+        "destination": "/security.txt"
       }
     ],
     "redirects": [
@@ -40,6 +44,11 @@
       {
         "source": "/images/:path*",
         "destination": "/content/images/:path*",
+        "type": 301
+      },
+      {
+        "source": "/ghost/",
+        "destination": "/",
         "type": 301
       }
     ],
@@ -84,7 +93,7 @@
   },
   "emulators": {
     "hosting": {
-      "port": 5000
+      "port": 5002
     },
     "ui": {
       "enabled": true
