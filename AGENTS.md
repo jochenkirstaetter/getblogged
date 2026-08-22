@@ -9,6 +9,7 @@ This document outlines the architecture, build instructions, pre/post-actions, t
 - **Framework**: DocFX static site generator.
 - **Production Site Configuration**: [`posts/docfx.json`](posts/docfx.json)
 - **Draft Site Configuration**: [`posts/docfx.draft.json`](posts/docfx.draft.json) (includes `posts/draft/` content)
+- **Draft Assets & Research**: `posts/draft/assets/<uid>/` (isolated workspace per draft for research notes, downloaded resources, and reference tracking)
 - **Active Template**: [`posts/ghostfx/`](posts/ghostfx/)
 - **Hosting Config**: [`firebase.json`](firebase.json)
 - **Build Output**: `posts/_site/` (generated static HTML, assets, and metadata)
@@ -52,6 +53,21 @@ Run these scripts when authoring new posts, optimizing assets, or cleaning conte
    python3 scripts/fix-html-entities-in-code.py
    ```
    - Decodes HTML entities (e.g. `&nbsp;`, `&lt;`, `&amp;`, `&quot;`) inside code fences and inline backticks.
+
+3. **Tag Index & Tag Pages Generation**:
+   ```bash
+   python3 scripts/generate-tags.py
+   ```
+   - Aggregates frontmatter tags across all published posts.
+   - Generates `posts/tags.md` sorted alphabetically with exact published post counts.
+   - Generates/updates individual tag detail pages in `posts/tags/<slug>.md` and `posts/tags/toc.yml`.
+
+4. **Published Index Generation**:
+   ```bash
+   python3 scripts/generate-index.py
+   ```
+   - Aggregates published posts sorted in reverse chronological order.
+   - Generates `posts/index.md` containing the top posts matching `_indexCount` configured in `posts/docfx.json`.
 
 ---
 
@@ -133,59 +149,38 @@ When testing changes locally on the configured emulator URL (`http://localhost:<
 
 ### Stage 5: Deployment (Firebase Hosting)
 
+> [!IMPORTANT]
+> **Mandatory User Approval Guardrail**: **Never** execute any Firebase deployment (`firebase deploy`, `npm run deploy`, or `firebase hosting:channel:deploy`) without explicit approval from the user. All build verification and staging reviews must remain strictly local (`firebase emulators:start` or `npm run serve`) until explicitly approved.
+
 #### Pre-deployment Guardrail
 Deployments enforce clean Git content status via `scripts/check-clean-posts.py` (wired into `predeploy` in `package.json`).
 It verifies that all changes and new assets in `posts/published/`, `posts/draft/`, `posts/pages/`, `posts/content/`, and `posts/index.md` are committed before `deploy` proceeds.
 
 #### Preview Channel (Staging / Draft Review)
-To deploy a temporary preview channel for review (with draft content included):
+To deploy a temporary preview channel for review (with draft content included) once explicitly approved:
 
 ```bash
 # 1. Clean, draft build & post-processing
 npm run build:draft
 
-# 2. Deploy temporary preview channel
+# 2. Deploy temporary preview channel (requires user approval)
 firebase hosting:channel:deploy <channel-name>
 ```
 
-To deploy the static site to production (`jochen.kirstaetter.name` / `getblogged-b8929`):
+#### Production Deployment
+To deploy the static site to production (`jochen.kirstaetter.name` / `getblogged-b8929`) once explicitly approved:
 
 ```bash
-# 1. Full clean, production build & deploy (with pre-deploy guardrail)
+# 1. Full clean, production build & deploy (with pre-deploy guardrail, requires user approval)
 npm run deploy
 ```
 
 ---
 
-## Draft Authoring & Publication Workflow
+## Content Authoring & Editorial Guidelines
 
-When creating, drafting, and publishing new articles:
+For detailed writing instructions, tone of voice, orthography rules (British English, no-em-dashes, DRY frontmatter), research isolation (`posts/draft/assets/<uid>/`), and draft publishing workflows, refer to:
 
-1. **Authoring Drafts**:
-   - Create post markdown file in `posts/draft/<slug>.md`.
-   - Set frontmatter flags:
-     ```yaml
-     status: draft
-     isDraft: true
-     ```
-   - Store and link hero and content images under `posts/content/images/<YYYY>/<MM>/`.
-2. **Reviewing Drafts Locally**:
-   - Build with draft configuration:
-     ```bash
-     npm run build:draft
-     firebase emulators:start
-     ```
-   - Open `http://localhost:<port>/` to review the draft landing page feed.
-   - (Optional) Deploy to a staging channel via `firebase hosting:channel:deploy draft-<slug>`.
-3. **Promoting Draft to Published**:
-   - Move the markdown file from `posts/draft/<slug>.md` to `posts/published/<slug>.md`.
-     ```yaml
-     status: published
-     publishedAt: YYYY-MM-DDTHH:MM:SSZ
-     updatedAt: YYYY-MM-DDTHH:MM:SSZ
-     ```
-   - Run full production build and verification:
-     ```bash
-     npm run build
-     ```
+👉 [**`AUTHORING.md`**](AUTHORING.md)
+
 
