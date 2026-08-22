@@ -1,6 +1,6 @@
 ---
 uid: untitled-visualizing-google-cloud
-title: Visualizing Google Cloud (Draft)
+title: Visualising Google Cloud (Draft)
 slug: untitled-visualizing-google-cloud
 date: 2023-08-23
 status: draft
@@ -9,10 +9,10 @@ description: ''
 tags:
 - Recension
 keywords: Recension
-metaTitle: Visualizing Google Cloud
+metaTitle: Visualising Google Cloud
 metaDescription: ''
 image: ''
-ogTitle: Visualizing Google Cloud
+ogTitle: Visualising Google Cloud
 ogDescription: ''
 layout: post
 bodyClass: post-template tag-recension
@@ -44,10 +44,10 @@ featured: false
 publishedAt: ''
 updatedAt: 2023-08-23T18:20:38Z
 excerpt: ''
-twitterTitle: Visualizing Google Cloud
+twitterTitle: Visualising Google Cloud
 twitterDescription: ''
 twitterImage: 
-facebookTitle: Visualizing Google Cloud
+facebookTitle: Visualising Google Cloud
 facebookDescription: ''
 facebookImage: ''
 codeinjectionHead: 

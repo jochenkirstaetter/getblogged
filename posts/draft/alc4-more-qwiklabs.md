@@ -106,7 +106,7 @@ Design for Resiliency, Scalability, and Disaster Recovery
 
 Design for Security
 
-Capacity Planning and Cost Optimization
+Capacity Planning and Cost Optimisation
 
 Deployment, Monitoring and Alerting, and Incident Response  
 Lab: [Deployment Manager: Full Production + (Stackdriver)](https://app.pluralsight.com/id/lti/qwiklabs?destinationUrl=https://googlepluralsight.qwiklabs.com/lti_sessions/libraries/gcp-training-content/content/CBL041-Deployment-manager-full-production-stackdriver&originUrl=https://app.pluralsight.com/library/courses/reliable-cloud-infrastructure-design-process)
@@ -128,12 +128,12 @@ Lab: Building conversational experiences with Dialogflow #5
 
 Python Notebooks in the Cloud  
 Lab: Rent-a-VM to process earthquake data  
-Lab: Analyzing data using Datalab and BigQuery  
+Lab: Analysing data using Datalab and BigQuery  
 Lab: Invoking Machine Learning APIs
 
 # Launching into Machine Learning
 
-Generalization and Sampling  
+Generalisation and Sampling  
 Lab: Creating repeatable splits in BigQuery  
 Lab: Exploring and Creating ML Datasets
 
