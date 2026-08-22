@@ -44,9 +44,11 @@ The initial reaction of discovering untethered remote access was pure excitement
 
 Putting it through its paces in practice also revealed a few real-world nuances. While the Antigravity 2.0 desktop application connected smoothly, the CLI-based remote setup behaves differently from the desktop application and I couldn't manage to get it to work.
 
+
+![Antigravity CLI Remote Control Finalising Step Stuck](../content/images/2026/08/antigravity-cli-remote-control-stuck.webp "Status report says all good and ready to use.")
+
 ![Antigravity CLI Remote Control Initial Authentication](../content/images/2026/08/antigravity-cli-remote-control-auth.webp "Completing initial authentication with Antigravity CLI")
 
-![Antigravity CLI Remote Control Finalising Step Stuck](../content/images/2026/08/antigravity-cli-remote-control-stuck.webp "Antigravity CLI stuck at finalising steps")
 
 Following the instructions for Remote Control with Antigravity CLI I managed to complete the initial authentication but the finalising steps got stuck.
 
