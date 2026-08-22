@@ -1,11 +1,20 @@
 #!/usr/bin/env python3
 """
-Generates posts/index-draft.md containing all draft articles sorted in reverse chronological order.
+Generates posts/index.md containing the latest published articles
+sorted in reverse chronological order up to _indexCount from posts/docfx.json.
 """
 
+import json
 import re
 from pathlib import Path
 from datetime import datetime
+
+def unquote(val: str) -> str:
+    val = val.strip()
+    if len(val) >= 2:
+        if (val.startswith('"') and val.endswith('"')) or (val.startswith("'") and val.endswith("'")):
+            val = val[1:-1]
+    return val.replace(r'\"', '"').replace(r"\'", "'")
 
 def parse_post(file_path: Path) -> dict:
     content = file_path.read_text(encoding="utf-8")
@@ -19,25 +28,28 @@ def parse_post(file_path: Path) -> dict:
         for line in raw_yaml.splitlines():
             list_match = re.match(r"^\s*-\s+(.*)$", line)
             if list_match and current_list is not None:
-                fm[current_list].append(list_match.group(1).strip("\"'"))
+                fm[current_list].append(unquote(list_match.group(1)))
                 continue
             
             kv_match = re.match(r"^([a-zA-Z0-9_-]+)\s*:\s*(.*)$", line)
             if kv_match:
                 k = kv_match.group(1).strip()
-                v = kv_match.group(2).strip().strip("\"'")
+                v = kv_match.group(2).strip()
                 if v == "" or v == "[]":
                     fm[k] = []
                     current_list = k
+                elif v.startswith("[") and v.endswith("]"):
+                    fm[k] = [unquote(item) for item in v[1:-1].split(",") if item.strip()]
+                    current_list = None
                 else:
-                    fm[k] = v
+                    fm[k] = unquote(v)
                     current_list = None
     else:
         body = content
 
     title = fm.get("title") or file_path.stem.replace("-", " ").title()
     slug = fm.get("slug") or file_path.stem
-    date_val = fm.get("date") or fm.get("updatedAt") or fm.get("publishedAt") or "1970-01-01"
+    date_val = fm.get("date") or fm.get("publishedAt") or fm.get("updatedAt") or "1970-01-01"
     date_str = str(date_val).split("T")[0]
     
     try:
@@ -61,15 +73,16 @@ def parse_post(file_path: Path) -> dict:
     tags = fm.get("tags") or []
     if isinstance(tags, str):
         tags = [t.strip() for t in tags.split(",") if t.strip()]
-    primary_tag = tags[0] if tags and len(tags) > 0 else "Development"
+    primary_tag = tags[0] if tags and len(tags) > 0 else "General"
     tag_slug = primary_tag.lower().replace(" ", "-")
+    tag_slug = re.sub(r"[^a-z0-9_-]+", "", tag_slug)
     mtime = file_path.stat().st_mtime
 
     return {
         "title": title,
         "slug": slug,
         "date": dt.strftime("%Y-%m-%d"),
-        "formattedDate": dt.strftime("%b %-d, %Y") if dt.year > 1970 else "Draft",
+        "formattedDate": dt.strftime("%b %-d, %Y") if dt.year > 1970 else "",
         "dt": dt,
         "mtime": mtime,
         "image": image,
@@ -85,32 +98,38 @@ def parse_post(file_path: Path) -> dict:
 
 def main():
     repo_root = Path(__file__).resolve().parent.parent
-    draft_dir = repo_root / "posts" / "draft"
-    output_file = draft_dir / "index.md"
-    legacy_output_file = repo_root / "posts" / "index-draft.md"
+    posts_dir = repo_root / "posts"
+    published_dir = posts_dir / "published"
+    output_file = posts_dir / "index.md"
+    docfx_cfg_file = posts_dir / "docfx.json"
 
-    # Clean up legacy index-draft.md if it exists
-    if legacy_output_file.exists():
-        legacy_output_file.unlink()
+    index_count = 12
+    if docfx_cfg_file.exists():
+        try:
+            docfx_cfg = json.loads(docfx_cfg_file.read_text(encoding="utf-8"))
+            index_count = int(docfx_cfg.get("build", {}).get("globalMetadata", {}).get("_indexCount", 12))
+        except Exception as e:
+            print(f"Warning reading _indexCount from {docfx_cfg_file}: {e}")
 
     posts = [
         parse_post(p)
-        for p in draft_dir.glob("*.md")
-        if not p.name.startswith(".") and p.name not in ("toc.yml", "index.md", "index-draft.md") and "assets" not in p.parts
+        for p in published_dir.glob("*.md")
+        if not p.name.startswith(".") and p.name not in ("toc.yml", "index.md")
     ]
     posts.sort(key=lambda x: (x["dt"], x["mtime"], x["title"]), reverse=True)
+    top_posts = posts[:index_count]
 
     yaml_lines = [
         "---",
-        "title: Get Blogged by JoKi (Drafts)",
-        "description: Draft articles and works in progress",
+        "title: Get Blogged by JoKi",
+        "description: The only frontiers are in your mind",
         "coverImage: content/images/2023/07/GDG_Google_Banner.webp",
         "isHome: true",
         "bodyClass: home-template",
         "posts:"
     ]
 
-    for p in posts:
+    for p in top_posts:
         t = p["title"].replace('"', '\\"')
         e = p["excerpt"].replace('"', '\\"')
         slug = p["slug"]
@@ -147,9 +166,7 @@ def main():
 
     content_str = "\n".join(yaml_lines)
     output_file.write_text(content_str, encoding="utf-8")
-    print(f"Successfully generated {output_file} with {len(posts)} draft posts.")
+    print(f"Successfully generated {output_file} with {len(top_posts)} published posts (limited to _indexCount={index_count}).")
 
 if __name__ == "__main__":
     main()
-
-

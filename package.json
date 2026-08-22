@@ -4,12 +4,12 @@
   "description": "Get Blogged by JoKi - Personal blog and technical articles",
   "scripts": {
     "clean": "rm -rf posts/_site",
-    "dev": "firebase emulators:start --only hosting",
-    "emulate": "firebase emulators:start",
-    "build": "npm run clean && docfx build posts/docfx.json && python3 scripts/generate-clean-markdown.py",
-    "build:draft": "npm run clean && python3 scripts/generate-draft-index.py && docfx build posts/docfx.draft.json && python3 scripts/generate-clean-markdown.py --draft",
-    "serve": "npm run clean && docfx build posts/docfx.json --serve",
-    "serve:draft": "npm run clean && python3 scripts/generate-draft-index.py && docfx build posts/docfx.draft.json --serve",
+    "index": "python3 scripts/generate-index.py",
+    "tags": "python3 scripts/generate-tags.py",
+    "build": "npm run clean && python3 scripts/generate-index.py && python3 scripts/generate-tags.py && docfx build posts/docfx.json && python3 scripts/generate-clean-markdown.py",
+    "build:draft": "npm run clean && python3 scripts/generate-index.py && python3 scripts/generate-tags.py && python3 scripts/generate-draft-index.py && docfx build posts/docfx.draft.json && python3 scripts/generate-clean-markdown.py --draft",
+    "serve": "npm run clean && python3 scripts/generate-index.py && python3 scripts/generate-tags.py && docfx build posts/docfx.json --serve",
+    "serve:draft": "npm run clean && python3 scripts/generate-index.py && python3 scripts/generate-tags.py && python3 scripts/generate-draft-index.py && docfx build posts/docfx.draft.json --serve",
     "predeploy": "python3 scripts/check-clean-posts.py",
     "deploy": "npm run predeploy && npm run build && firebase deploy --only hosting"
   },

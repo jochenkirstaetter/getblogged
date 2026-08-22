@@ -25,12 +25,15 @@ firebase-debug.log
 
 # Docfx generated files
 **/_site/*
+posts/draft/index.md
+posts/index-draft.md
 # Image thumbnail caches (obsolete in DocFX static builds)
 posts/content/images/size/
 **/content/images/size/
 
 # Agent related activities
-.agents
+.agents/*
+!.agents/skills/
 .playwright-mcp
 scratch
 __pycache__
