@@ -7,6 +7,7 @@ bodyClass: "tag-template tag-community"
 tagName: "Community"
 image: content/images/2018/10/10211972419933448.webp
 ---
+
 # Tag: Community
 
 ## Articles
@@ -18,8 +19,8 @@ image: content/images/2018/10/10211972419933448.webp
 - [DevFest Dar es Salaam 2023](xref:devfest-dar-es-salaam-2023) - *2023-12-12*
 - [DevFest Mauritius 2023](xref:devfest-mauritius-2023) - *2023-12-07*
 - [Mau pas konpran!? SIM Registration](xref:mau-pas-konpran) - *2023-11-19*
-- [DevFest Kigali 2023](xref:devfest-kigali-2023) - *2023-11-15*
 - [SSA Community Summit 2023](xref:ssa-community-summit-2023) - *2023-11-15*
+- [DevFest Kigali 2023](xref:devfest-kigali-2023) - *2023-11-15*
 - [GDE SSA Summit 2022](xref:gde-ssa-summit-2022) - *2022-09-27*
 - [GADS 2020 - Spotlight](xref:gads-2020-spotlight) - *2020-10-06*
 - [How did we run the Virtual Developers Conference 2020?](xref:how-did-we-run-the-virtual-developers-conference-2020) - *2020-09-16*
@@ -68,12 +69,12 @@ image: content/images/2018/10/10211972419933448.webp
 - [MSCC: Clean Code Development & Flexible work environment](xref:mscc-26102013-clean-code-developer-flexible-work-environment) - *2013-10-28*
 - [Not attending the LUGM mini-meetup - 05. Oct 2013](xref:not-attending-the-lugm-mini-meetup) - *2013-10-06*
 - [MSCC: Clean Code Developer & Certification in IT](xref:mscc-21092013-clean-code-developer-certification) - *2013-09-24*
-- [Speaker at developer conferences and user group meetings](xref:speaker-at-developer-conferences-user-groups) - *2013-07-24*
 - [Speaker at the German Visual FoxPro Developer Conference 2006](xref:speaker-at-the-german-visual-foxpro-developer-conference-2006) - *2013-07-24*
 - [Speaker at the German Visual FoxPro Developer Conference 2005](xref:speaker-at-the-german-visual-foxpro-developer-conference-2005) - *2013-07-24*
 - [Speaker at the German Visual FoxPro Developer Conference 2004](xref:speaker-at-the-german-visual-foxpro-developer-conference-2004) - *2013-07-24*
 - [Speaker at the German Visual FoxPro Developer Conference 2003](xref:speaker-at-the-german-visual-foxpro-developer-conference-2003) - *2013-07-24*
 - [Speaker at the German Visual FoxPro Developer Conference 2002](xref:speaker-at-the-german-visual-foxpro-developer-conference-2002) - *2013-07-24*
+- [Speaker at developer conferences and user group meetings](xref:speaker-at-developer-conferences-user-groups) - *2013-07-24*
 - [Feedback on meeting of the MSCC - 20.07.2013](xref:feedback-on-meeting-of-the-mscc-20072013) - *2013-07-23*
 - [Quoted on MVA Voices](xref:quoted-on-mva-voices) - *2013-07-04*
 - [Mauritius Software Craftsmanship Community (aka User Group)](xref:mscc) - *2013-07-01*
@@ -101,13 +102,13 @@ image: content/images/2018/10/10211972419933448.webp
 - [Anmerkungen zum Decorator Design Pattern](xref:anmerkungen-zum-decorator) - *2006-11-01*
 - [Flash-Präsentation zu VFP SP2 CTP](xref:flash-prsentation-zu-vfp-sp2-ctp) - *2006-10-31*
 - [Devcon - Vorbereitung](xref:devcon---vorbereitung) - *2006-10-27*
-- [CTP für Sedna und Visual FoxPro 9.0 SP2](xref:ctp-fr-sedna-und-visual-foxpro-90-sp2) - *2006-10-14*
 - [RuntimeInstaller for Visual FoxPro 9.0 SP2 CTP](xref:runtimeinstaller-for-visual-foxpro-90-sp2-ctp) - *2006-10-14*
+- [CTP für Sedna und Visual FoxPro 9.0 SP2](xref:ctp-fr-sedna-und-visual-foxpro-90-sp2) - *2006-10-14*
 - [Session-Notes für VFP-Konferenz](xref:session-notes-fr-vfp-konferenz) - *2006-10-12*
 - [ATE für Roadshow Office 2007, Windows Vista...](xref:ate-fr-roadshow-office-2007-windows-vista) - *2006-10-09*
 - [VFP Stammtisch Speyer nimmt an teil](xref:vfp-stammtisch-speyer-nimmt-an-teil) - *2006-10-01*
-- [Devcon Prag 2006 - Day 2](xref:devcon-prag-2006---day-2) - *2006-09-12*
 - [Visual FoxPro Konferenz Frankfurt 2006 - Geplante Sessions](xref:visual-foxpro-konferenz-frankfurt-2006---geplante-sessions) - *2006-09-12*
+- [Devcon Prag 2006 - Day 2](xref:devcon-prag-2006---day-2) - *2006-09-12*
 - [Devcon Prag 2006 - Day 1](xref:devcon-prag-2006---day-1) - *2006-09-11*
 - [Mission from God - Community GetTogether](xref:mission-from-god-community-gettogether) - *2006-09-02*
 - [Vorbereitungen für Devcon Prag vollzogen](xref:vorbereitungen-fuer-devcon-prag-vollzogen) - *2006-09-01*
@@ -138,8 +139,8 @@ image: content/images/2018/10/10211972419933448.webp
 - [Coverage der 12. VFP Entwicklerkonferenz](xref:coverage-der-12-vfp-entwicklerkonferenz) - *2005-11-14*
 - [On the rail again...](xref:on-the-rail-again) - *2005-11-13*
 - [MSDN-Webcast-Serie zu Visual FoxPro 9.0](xref:msdn-webcast-serie-zu-visual-foxpro-9-0) - *2005-10-10*
-- [Stammtisch-Seite aktualisiert](xref:stammtisch-seite-aktualisiert) - *2005-09-20*
 - [VFP Stammtisch 21.09.2005 - Nachlese](xref:vfp-stammtisch-21-09-2005---nachlese) - *2005-09-20*
+- [Stammtisch-Seite aktualisiert](xref:stammtisch-seite-aktualisiert) - *2005-09-20*
 - [Vorbereitungen für Stammtisch und Devcon](xref:vorbereitungen-fr-stammtisch-und-devcon) - *2005-09-14*
 - [Kommentare zum Eisbär](xref:kommentare-zum-eisbr) - *2005-09-13*
 - [Dumm gebabbelt iss glei!](xref:dumm-gebabbelt-iss-glei) - *2005-09-07*
@@ -152,15 +153,15 @@ image: content/images/2018/10/10211972419933448.webp
 - [.NET Usertreffen Kaiserslautern](xref:net-usertreffen-kaiserslautern) - *2005-07-05*
 - [VFP Devcon Prag 2005 - Day 3](xref:vfp-devcon-prag-2005---day-3) - *2005-06-22*
 - [.NET Usertreffen vom Montag](xref:-net-usertreffen-vom-montag) - *2005-05-03*
-- [Aktuelles Umfrageergebnis und weiterer Ansatz](xref:aktuelles-umfrageergebnis-und-weiterer-ansatz) - *2005-05-02*
 - [Umfragen und die Ergebnisse...](xref:umfragen-und-die-ergebnisse---) - *2005-05-02*
+- [Aktuelles Umfrageergebnis und weiterer Ansatz](xref:aktuelles-umfrageergebnis-und-weiterer-ansatz) - *2005-05-02*
 - [Ab in den Süden...](xref:ab-in-den-sueden) - *2005-04-22*
 - [Nachlese: VFP Stammtisch Speyer im April](xref:nachlese-vfp-stammtisch-speyer-im-april) - *2005-04-20*
 - [VFP Stammtisch - April 2005](xref:vfp-stammtisch-april-2005) - *2005-04-19*
 - [Nachlese zur Community Devcon 2005](xref:nachlese-zur-community-devcon-2005) - *2005-04-13*
 - [Vorbereitungen für die Devcon laufen an...](xref:vorbereitungen-fr-die-devcon-laufen-an) - *2005-04-11*
-- [Blog - Reloaded Again](xref:blog-reloaded-again) - *2005-04-08*
 - [New MSDN Forums](xref:new-msdn-forums) - *2005-04-08*
+- [Blog - Reloaded Again](xref:blog-reloaded-again) - *2005-04-08*
 - [VFP Umfrage von Microsoft](xref:vfp-umfrage-von-microsoft) - *2005-04-07*
 - [angryCoder](xref:angrycoder) - *2005-04-06*
 - [Schreiben Sie eine Online-Rezension](xref:schreiben-sie-eine-online-rezension) - *2005-04-06*
@@ -177,5 +178,5 @@ image: content/images/2018/10/10211972419933448.webp
 - [Quattro stagioni (CLIP Day Two)](xref:quattro-stagioni-clip-day-two) - *2004-10-21*
 - [Trio infernale (CLIP Day One)](xref:trio-infernale-clip-day-one) - *2004-10-20*
 - [Usertreffen... und kein Ende in Sicht](xref:usertreffen----und-kein-ende-in-sicht) - *2004-10-17*
-- [Gastbesuch bei VFP Stammtisch Stuttgart](xref:gastbesuch-bei-vfp-stammtisch-stuttgart) - *2004-10-09*
 - [VFP/SQL/.NET Devcon 2004 in Frankfurt](xref:vfpsqlnet-devcon-2004-in-frankfurt) - *2004-10-09*
+- [Gastbesuch bei VFP Stammtisch Stuttgart](xref:gastbesuch-bei-vfp-stammtisch-stuttgart) - *2004-10-09*

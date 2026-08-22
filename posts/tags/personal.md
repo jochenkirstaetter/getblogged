@@ -7,6 +7,7 @@ bodyClass: "tag-template tag-personal"
 tagName: "Personal"
 image: content/images/2018/10/DnnBJRiW0AAs5vR.jpg-large.webp
 ---
+
 # Tag: Personal
 
 ## Articles
@@ -20,8 +21,8 @@ image: content/images/2018/10/DnnBJRiW0AAs5vR.jpg-large.webp
 - [The Curse of the Magical Tutorial](xref:curse-of-magical-tutorial) - *2018-10-05*
 - [SSA Community Summit 2018](xref:ssa-community-summit-2018) - *2018-10-04*
 - [OpenVPN re-visited](xref:openvpn-revisited) - *2018-08-28*
-- [100 Days of Exam](xref:100-days-of-exam) - *2018-03-13*
 - [Next stop: MCSA: Linux on Azure](xref:mcsa-linux-on-azure) - *2018-03-13*
+- [100 Days of Exam](xref:100-days-of-exam) - *2018-03-13*
 - [ICT skills at primary school](xref:azure-for-school) - *2018-02-26*
 - [Hit Refresh](xref:hit-refresh) - *2018-01-02*
 - [Inspecting internet router in Mauritius](xref:router-in-mauritius) - *2017-10-18*

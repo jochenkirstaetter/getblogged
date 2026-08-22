@@ -1,5 +1,7 @@
 - name: "Activity"
   href: activity.md
+- name: "AI"
+  href: ai.md
 - name: "Andela"
   href: andela.md
 - name: "Android"
@@ -18,9 +20,13 @@
   href: personal.md
 - name: "Podcast"
   href: podcast.md
+- name: "Productivity"
+  href: productivity.md
 - name: "Projects"
   href: project.md
 - name: "Recension"
   href: recension.md
+- name: "Tooling"
+  href: tooling.md
 - name: "Windows"
   href: windows.md

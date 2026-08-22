@@ -7,10 +7,12 @@ bodyClass: "tag-template tag-development"
 tagName: "Development"
 image: content/images/2018/10/20626381_10203983204297799_562900680618946131_o.webp
 ---
+
 # Tag: Development
 
 ## Articles
 
+- [Using portless with Firebase Hosting](xref:portless-with-firebase-emulators) - *2026-08-21*
 - [Gemma 3 - missing features despite announcement](xref:gemma-3-missing-features-despite-announcement) - *2025-03-12*
 - [Gemini ResponseSchema vs JSON Schema specs of "type" as array](xref:gemini-responseschema) - *2025-01-20*
 - [Untrack files in .gitignore](xref:untrack-files-in-gitignore) - *2024-04-05*
@@ -29,8 +31,8 @@ image: content/images/2018/10/20626381_10203983204297799_562900680618946131_o.we
 - [Working with Azure Container Registry](xref:alc4-acr) - *2020-01-15*
 - [Using Cloud Run instead of GKE](xref:alc4-cloud-run) - *2019-11-26*
 - [Working with Cloud Build](xref:alc4-cloud-build) - *2019-11-23*
-- [Considerations for production readiness (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-ready) - *2019-11-09*
 - [Google Kubernetes Engine (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-k8s) - *2019-11-09*
+- [Considerations for production readiness (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-ready) - *2019-11-09*
 - [Working with Docker (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-docker) - *2019-10-24*
 - [Create React App (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-react) - *2019-10-20*
 - [ALC 4.0 Cloud Challenge I](xref:alc4-cloud-challenge) - *2019-10-18*
@@ -66,8 +68,8 @@ image: content/images/2018/10/20626381_10203983204297799_562900680618946131_o.we
 - [Future of Active FoxPro Pages - secured](xref:future-of-active-foxpro-pages-secured) - *2010-09-29*
 - [Modified Ultimate Paypal Donations Module](xref:modified-mod-paypal) - *2010-02-17*
 - [Modified HP Router](xref:modified-hp-router) - *2010-01-30*
-- [Nichts ist unmöglich...](xref:nichts-ist-unmglich) - *2010-01-24*
 - [Spass mit der MessageBox()](xref:spass-mit-der-messagebox) - *2010-01-24*
+- [Nichts ist unmöglich...](xref:nichts-ist-unmglich) - *2010-01-24*
 - [Modified Mod LCA](xref:modified-mod-lca) - *2010-01-23*
 - [Working with 'Parameter objects' instead of parameters](xref:working-with-parameter-objects-instead-of-parameters) - *2008-06-04*
 - [Private projects added (at least started...)](xref:private-projects-added-at-least-started) - *2008-03-19*
@@ -78,8 +80,8 @@ image: content/images/2018/10/20626381_10203983204297799_562900680618946131_o.we
 - [HTML-Tag nach VFP adaptiert](xref:html-tag-nach-vfp-adaptiert) - *2006-09-19*
 - [Kommentar zu 'Parameterobjekte'](xref:kommentar-zu-parameterobjekte) - *2006-08-25*
 - [SAP.Functions und weitere Experimente](xref:sapfunctions-und-weitere-experimente) - *2006-08-24*
-- [Die Checkbox und ihr Enter/Return-Verhalten](xref:die-checkbox-und-ihr-enter-return-verhalten) - *2006-08-17*
 - [VFP für Webausgabe von Daten](xref:vfp-fr-webausgabe-von-daten) - *2006-08-17*
+- [Die Checkbox und ihr Enter/Return-Verhalten](xref:die-checkbox-und-ihr-enter-return-verhalten) - *2006-08-17*
 - [ASP.NET und Visual FoxPro](xref:asp-net-und-visual-foxpro) - *2006-04-29*
 - [Zwei unterschiedliche Datenbanken in ADO.NET verbinden](xref:zwei-unterschiedliche-datenbanken-in-adonet-verbinden) - *2006-04-28*
 - ["IIS 7 - Ein Web-Server der 'Next Generation'?"](xref:iis-7-ein-web-server-der-next-generation) - *2006-04-27*
@@ -88,8 +90,8 @@ image: content/images/2018/10/20626381_10203983204297799_562900680618946131_o.we
 - [Html Plugin 0.7.16](xref:html-plugin-0716) - *2006-04-21*
 - [Dynamic-Link Libraries in VFP verwenden](xref:dynamic-link-libraries-in-vfp-verwenden) - *2006-04-19*
 - [.NET per COM nutzen](xref:net-per-com-nutzen) - *2006-04-19*
-- [FCKeditor in Active FoxPro Pages verwenden](xref:fckeditor-in-active-foxpro-pages-verwenden) - *2006-04-11*
 - [PathInfo Plugin für AFP](xref:pathinfo-plugin-fr-afp) - *2006-04-11*
+- [FCKeditor in Active FoxPro Pages verwenden](xref:fckeditor-in-active-foxpro-pages-verwenden) - *2006-04-11*
 - [PATH_INFO oder wozu gibt es eigentlich RFCs?](xref:pathinfo-oder-wozu-gibt-es-eigentlich-rfcs) - *2006-04-10*
 - [AfpWiki Core Engine available](xref:afpwiki-core-engine-available) - *2006-04-06*
 - [Design Pattern: Strategy](xref:design-pattern-strategy) - *2006-04-04*

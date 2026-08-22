@@ -7,6 +7,7 @@ bodyClass: "tag-template tag-recension"
 tagName: "Recension"
 image: content/images/2018/10/100DaysOfExam_Site.webp
 ---
+
 # Tag: Recension
 
 ## Articles
@@ -15,8 +16,8 @@ image: content/images/2018/10/100DaysOfExam_Site.webp
 - [Rock Your Code: Defensive Programming for Microsoft .NET by David McCarter](xref:rock-your-code-defensive-programming-for-microsoft-net) - *2019-02-03*
 - [Learn to Code in Swift: The new language of iOS Apps by Kevin McNeish](xref:learn-to-code-in-swift) - *2016-02-28*
 - [High Performance Responsive Design by Tom Barker](xref:high-performance-responsive-design) - *2014-11-16*
-- [Microsoft SharePoint 2013 Administration Inside Out](xref:microsoft-sharepoint-2013-administration-inside-out) - *2014-11-13*
 - [Social eCommerce by Stephan Spencer, Jimmy Harding & Jennifer Sheahan](xref:social-ecommerce) - *2014-11-13*
+- [Microsoft SharePoint 2013 Administration Inside Out](xref:microsoft-sharepoint-2013-administration-inside-out) - *2014-11-13*
 - [AngularJS by Brad Green and Shyam Seshadri - Some lack of quality](xref:angularjs) - *2014-01-18*
 - [The Superlative Stream by Kerry Nietz](xref:the-superlative-stream-by-kerry-nietz) - *2014-01-07*
 - [A Star Curiously Singing by Kerry Nietz](xref:a-star-curiously-singing-by-kerry-nietz) - *2014-01-04*
@@ -27,8 +28,8 @@ image: content/images/2018/10/100DaysOfExam_Site.webp
 - [Learning from jQuery - Solid fundament for experienced jQuery developers](xref:learning-from-jquery) - *2013-05-20*
 - [The Alignment: Ingress by Thomas Greanias](xref:the-alignment-ingress-by-thomas-greanias) - *2013-04-06*
 - [Special Edition Using Visual FoxPro 6](xref:special-edition-using-visual-foxpro-6) - *2006-10-14*
-- [Arbeiten mit dem Visual Studio 2005 Team System](xref:arbeiten-mit-dem-visual-studio-2005-team-system) - *2006-09-02*
 - [Zeitmanagement mit Microsoft Office Outlook](xref:zeitmanagement-mit-microsoft-office-outlook) - *2006-09-02*
+- [Arbeiten mit dem Visual Studio 2005 Team System](xref:arbeiten-mit-dem-visual-studio-2005-team-system) - *2006-09-02*
 - [Effiziente Anwendungsentwicklung in VFP](xref:effiziente-anwendungsentwicklung-in-vfp) - *2006-04-29*
 - [Versionskontrolle mit Subversion](xref:versionskontrolle-mit-subversion) - *2005-10-10*
 - [O'Reilly veröffentlicht Rezension](xref:oreilly-verffentlicht-rezension) - *2005-08-12*
