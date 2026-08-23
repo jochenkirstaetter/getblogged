@@ -2510,6 +2510,249 @@ html[data-bs-theme="dark"] div[class*="ERROR"] h5,
 }
 
 /* ==========================================================================
+   Multi-Image Presentation Directives
+   (Ungrouped, Auto-Fit Grid, Scroll-Snap Strip, Expandable Gallery)
+   ========================================================================== */
+
+/* 1. Alert container resets for custom image presentation styles */
+.GRID, .alert-grid,
+.STRIP, .alert-strip,
+.GALLERY, .alert-gallery {
+  padding: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.GRID > h5, .alert-grid > h5,
+.STRIP > h5, .alert-strip > h5,
+.GALLERY > h5, .alert-gallery > h5 {
+  display: none !important;
+}
+
+/* Reset anchor underlines and link shadows on image cards & multi-image containers */
+.post-full-content a:has(> img),
+.post-full-content a:has(> picture),
+.post-full-content a:has(> figure),
+.post-full-content a img,
+.grid a, .GRID a, .alert-grid a,
+.strip a, .STRIP a, .alert-strip a,
+.gallery a, .GALLERY a, .alert-gallery a {
+  box-shadow: none !important;
+  text-decoration: none !important;
+  border: none !important;
+  border-bottom: none !important;
+  outline: none !important;
+  display: block !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+}
+
+/* 2. Auto-Fit Grid (Smart default for same-paragraph images & explicit ::: grid / > [!GRID]) */
+article:not(.gallery):not(.strip) > p:has(> img:nth-of-type(2)),
+article:not(.gallery):not(.strip) > p:has(> a:nth-of-type(2) > img),
+.post-full-content > p:has(> img:nth-of-type(2)),
+.post-full-content > p:has(> a:nth-of-type(2) > img),
+.grid,
+.GRID,
+.alert-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)) !important;
+  gap: 1rem !important;
+  align-items: stretch !important;
+  margin: 1.8rem 0 !important;
+}
+
+/* Specific 2-image pairing gets a balanced wider column */
+article:not(.gallery):not(.strip) > p:has(> img:nth-of-type(2):last-child),
+article:not(.gallery):not(.strip) > p:has(> a:nth-of-type(2):last-child > img),
+.post-full-content > p:has(> img:nth-of-type(2):last-child),
+.post-full-content > p:has(> a:nth-of-type(2):last-child > img) {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)) !important;
+}
+
+/* Images inside grid */
+.grid img,
+.GRID img,
+.alert-grid img,
+.post-full-content > p:has(> img:nth-of-type(2)) img,
+.post-full-content > p:has(> a:nth-of-type(2) > img) img {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  aspect-ratio: 16 / 10 !important;
+  object-fit: cover !important;
+  margin: 0 !important;
+  border-radius: 8px !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.grid img:hover,
+.GRID img:hover,
+.alert-grid img:hover,
+.post-full-content > p:has(> img:nth-of-type(2)) img:hover,
+.post-full-content > p:has(> a:nth-of-type(2) > img) img:hover {
+  transform: scale(1.015) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* 3. Horizontal Scroll-Snap Strip (::: strip / > [!STRIP] / .strip / .STRIP / .alert-strip) */
+.strip,
+.STRIP,
+.alert-strip {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  gap: 1.25rem !important;
+  overflow-x: auto !important;
+  scroll-snap-type: x mandatory !important;
+  overscroll-behavior-x: contain !important;
+  padding: 0.5rem 0.25rem 1.25rem 0.25rem !important;
+  margin: 1.8rem 0 !important;
+  scrollbar-width: thin !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+.post-full-content .strip > p,
+.post-full-content .STRIP > p,
+.post-full-content .alert-strip > p,
+.strip > p,
+.STRIP > p,
+.alert-strip > p {
+  display: contents !important;
+}
+
+.strip > *,
+.STRIP > *,
+.alert-strip > *,
+.strip p > *,
+.STRIP p > *,
+.alert-strip p > * {
+  flex: 0 0 clamp(160px, 28vw, 240px) !important;
+  scroll-snap-align: start !important;
+  margin: 0 !important;
+}
+
+.strip img,
+.STRIP img,
+.alert-strip img {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  aspect-ratio: 2 / 3 !important;
+  object-fit: cover !important;
+  margin: 0 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.strip img:hover,
+.STRIP img:hover,
+.alert-strip img:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22) !important;
+}
+
+/* 4. Expandable Event Album / Lightbox Gallery (::: gallery / > [!GALLERY] / .gallery / .GALLERY / .alert-gallery) */
+.gallery:not(.is-flexible),
+.GALLERY:not(.is-flexible),
+.alert-gallery:not(.is-flexible) {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)) !important;
+  gap: 0.85rem !important;
+  margin: 2rem 0 !important;
+}
+
+.post-full-content .gallery > p,
+.post-full-content .GALLERY > p,
+.post-full-content .alert-gallery > p,
+.gallery > p,
+.GALLERY > p,
+.alert-gallery > p {
+  display: contents !important;
+}
+
+.gallery:not(.is-flexible) img,
+.GALLERY:not(.is-flexible) img,
+.alert-gallery:not(.is-flexible) img {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  aspect-ratio: 4 / 3 !important;
+  object-fit: cover !important;
+  margin: 0 !important;
+  border-radius: 8px !important;
+  cursor: zoom-in !important;
+  transition: transform 0.2s ease, filter 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.gallery:not(.is-flexible) img:hover,
+.GALLERY:not(.is-flexible) img:hover,
+.alert-gallery:not(.is-flexible) img:hover {
+  transform: scale(1.02) !important;
+  filter: brightness(1.05) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2) !important;
+}
+
+@media (min-width: 768px) {
+  .gallery:not(.is-flexible):has(> img:nth-child(3)),
+  .gallery:not(.is-flexible):has(> p > img:nth-child(3)),
+  .GALLERY:not(.is-flexible):has(> p > img:nth-child(3)) {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+/* 4b. Flexible Aspect-Ratio / Masonry Gallery Packing (_galleryFlexible = true) */
+.gallery-flexible .gallery,
+.gallery-flexible .GALLERY,
+.gallery-flexible .alert-gallery,
+.gallery.is-flexible,
+.GALLERY.is-flexible,
+.alert-gallery.is-flexible {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 0.85rem !important;
+  align-items: stretch !important;
+  margin: 2rem 0 !important;
+}
+
+.gallery-flexible .gallery > *,
+.gallery-flexible .GALLERY > *,
+.gallery-flexible .alert-gallery > *,
+.gallery.is-flexible > *,
+.GALLERY.is-flexible > *,
+.alert-gallery.is-flexible > *,
+.gallery-flexible .gallery p > *,
+.gallery-flexible .GALLERY p > *,
+.gallery-flexible .alert-gallery p > *,
+.gallery.is-flexible p > *,
+.GALLERY.is-flexible p > *,
+.alert-gallery.is-flexible p > * {
+  flex: 1 1 min(100%, 200px) !important;
+  margin: 0 !important;
+  display: flex !important;
+  align-items: stretch !important;
+}
+
+.gallery-flexible .gallery img,
+.gallery-flexible .GALLERY img,
+.gallery-flexible .alert-gallery img,
+.gallery.is-flexible img,
+.GALLERY.is-flexible img,
+.alert-gallery.is-flexible img {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  object-fit: cover !important;
+  margin: 0 !important;
+  border-radius: 8px !important;
+  cursor: zoom-in !important;
+  transition: transform 0.2s ease, filter 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+/* ==========================================================================
    Article Table Styling (Zebra Striping & Light/Dark Theme Accents)
    ========================================================================== */
 
@@ -2711,4 +2954,160 @@ table td code {
     white-space: nowrap !important;
     -webkit-overflow-scrolling: touch !important;
   }
+}
+
+/* ==========================================================================
+   Media Lightbox Modal Component
+   ========================================================================== */
+
+.media-lightbox {
+  border: none !important;
+  border-radius: 12px !important;
+  padding: 0 !important;
+  background: transparent !important;
+  color: #fff !important;
+  max-width: 95vw !important;
+  max-height: 95vh !important;
+  overflow: visible !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7) !important;
+  cursor: zoom-out !important;
+}
+
+.media-lightbox::backdrop {
+  background: rgba(0, 0, 0, 0.85) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+}
+
+.media-lightbox-content {
+  position: relative !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  max-width: 95vw !important;
+  max-height: 92vh !important;
+  cursor: zoom-out !important;
+}
+
+.media-lightbox-close {
+  position: absolute !important;
+  top: -45px !important;
+  right: 0 !important;
+  background: rgba(255, 255, 255, 0.15) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  color: #fff !important;
+  font-size: 28px !important;
+  line-height: 1 !important;
+  width: 36px !important;
+  height: 36px !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  transition: background 0.2s, transform 0.2s !important;
+}
+
+.media-lightbox-close:hover {
+  background: rgba(255, 255, 255, 0.3) !important;
+  transform: scale(1.1) !important;
+}
+
+.media-lightbox-body {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  max-width: 95vw !important;
+  max-height: 90vh !important;
+  overflow: auto !important;
+  border-radius: 8px !important;
+  cursor: zoom-out !important;
+}
+
+.media-lightbox-body.is-diagram {
+  background: #1b1e24 !important;
+  padding: 2.5rem !important;
+  border-radius: 12px !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6) !important;
+  width: min(92vw, 1280px) !important;
+  max-width: 92vw !important;
+  max-height: 88vh !important;
+  overflow: auto !important;
+  cursor: zoom-out !important;
+}
+
+html[data-bs-theme="light"] .media-lightbox-body.is-diagram {
+  background: #ffffff !important;
+  border: 1px solid rgba(0, 0, 0, 0.12) !important;
+}
+
+.media-lightbox-body img {
+  max-width: 92vw !important;
+  max-height: 88vh !important;
+  object-fit: contain !important;
+  border-radius: 8px !important;
+  cursor: zoom-out !important;
+}
+
+.media-lightbox-body pre {
+  max-width: 90vw !important;
+  max-height: 85vh !important;
+  font-size: 1.4rem !important;
+  padding: 24px !important;
+  border-radius: 8px !important;
+  overflow: auto !important;
+  cursor: zoom-out !important;
+}
+
+.media-lightbox-body svg {
+  width: 100% !important;
+  max-width: 100% !important;
+  max-height: 80vh !important;
+  height: auto !important;
+  background: transparent !important;
+  margin: auto !important;
+  cursor: zoom-out !important;
+}
+
+/* --- Mermaid Diagram Container --- */
+.mermaid-container,
+pre.mermaid,
+pre.diagram,
+div.diagram-mermaid {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 2rem 0 !important;
+  padding: 1.5rem !important;
+  background: rgba(0, 0, 0, 0.03) !important;
+  border-radius: 8px !important;
+  overflow-x: auto !important;
+  cursor: zoom-in !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+html[data-bs-theme="dark"] .mermaid-container,
+html[data-bs-theme="dark"] pre.mermaid,
+html[data-bs-theme="dark"] pre.diagram,
+html[data-bs-theme="dark"] div.diagram-mermaid {
+  background: rgba(255, 255, 255, 0.05) !important;
+}
+
+.mermaid-container:hover,
+pre.mermaid:hover,
+pre.diagram:hover,
+div.diagram-mermaid:hover {
+  transform: scale(1.005) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important;
+}
+
+.mermaid-container svg,
+pre.mermaid svg,
+pre.diagram svg,
+div.diagram-mermaid svg {
+  max-width: 100% !important;
+  height: auto !important;
+  cursor: zoom-in !important;
 }

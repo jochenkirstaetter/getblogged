@@ -57,6 +57,23 @@
       }
     ],
     "output": "_site",
+    "markdownEngineProperties": {
+      "markdigExtensions": [
+        "customcontainers",
+        "diagrams",
+        "emphasisextras",
+        "abbreviations",
+        "medialinks",
+        "autolinks",
+        "yaml",
+        "emojis"
+      ],
+      "alerts": {
+        "GRID": "grid alert-grid",
+        "STRIP": "strip alert-strip",
+        "GALLERY": "gallery alert-gallery"
+      }
+    },
     "postProcessors": [],
     "template": [
       "default",
@@ -88,7 +105,8 @@
       "_siteTwitter": "@jkirstaetter",
       "_siteFacebook": "https://facebook.com/jochen.kirstaetter",
       "_indexCount": 12,
-      "_currentYear": 2026
+      "_currentYear": 2026,
+      "_galleryFlexible": true
     },
     "sitemap": {
       "baseUrl": "https://jochen.kirstaetter.name/",

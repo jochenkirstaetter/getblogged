@@ -132,7 +132,7 @@
     {{! This tag outputs SEO meta+structured data and other important settings }}
     {{>partials/ghost_head}}
 </head>
-<body class="tex2jax_ignore {{bodyClass}}{{#_disableAffix}} metadata-disable-affix{{/_disableAffix}}">
+<body class="tex2jax_ignore {{bodyClass}}{{#_disableAffix}} metadata-disable-affix{{/_disableAffix}}{{#_galleryFlexible}} gallery-flexible{{/_galleryFlexible}}">
     <a class="skip-link" href="#site-main">Skip to main content</a>
 
     <div class="site-wrapper">
@@ -234,6 +234,7 @@
         setTimeout(loadDocfxScript, 8000);
     })();
     </script>
+{{>partials/gallery-layout}}
 {{>partials/code_footer}}
 </body>
 </html>
