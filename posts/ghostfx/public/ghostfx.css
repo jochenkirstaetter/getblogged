@@ -2718,7 +2718,7 @@ html[data-bs-theme="dark"] div[class*="ERROR"] h5,
   overflow: hidden !important;
 }
 
-/* 2. Auto-Fit Grid (Smart default for same-paragraph images & explicit ::: grid / > [!GRID]) */
+/* 2. Auto-Fit / Auto-Fill Grid (Smart default for same-paragraph images & explicit ::: grid / > [!GRID]) */
 article:not(.gallery):not(.strip) > p:has(> img:nth-of-type(2)),
 article:not(.gallery):not(.strip) > p:has(> a:nth-of-type(2) > img),
 .post-full-content > p:has(> img:nth-of-type(2)),
@@ -2727,17 +2727,30 @@ article:not(.gallery):not(.strip) > p:has(> a:nth-of-type(2) > img),
 .GRID,
 .alert-grid {
   display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)) !important;
-  gap: 1rem !important;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)) !important;
+  gap: 1.25rem !important;
   align-items: stretch !important;
   margin: 1.8rem 0 !important;
+}
+
+/* Crucial: Unwrap paragraph container inside grids so images/anchors become direct grid cells */
+.post-full-content .grid > p,
+.post-full-content .GRID > p,
+.post-full-content .alert-grid > p,
+.grid > p,
+.GRID > p,
+.alert-grid > p {
+  display: contents !important;
 }
 
 /* Specific 2-image pairing gets a balanced wider column */
 article:not(.gallery):not(.strip) > p:has(> img:nth-of-type(2):last-child),
 article:not(.gallery):not(.strip) > p:has(> a:nth-of-type(2):last-child > img),
 .post-full-content > p:has(> img:nth-of-type(2):last-child),
-.post-full-content > p:has(> a:nth-of-type(2):last-child > img) {
+.post-full-content > p:has(> a:nth-of-type(2):last-child > img),
+.grid:has(> img:nth-child(2):last-child),
+.GRID:has(> p > img:nth-child(2):last-child),
+.alert-grid:has(> p > img:nth-child(2):last-child) {
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)) !important;
 }
 
@@ -2754,7 +2767,7 @@ article:not(.gallery):not(.strip) > p:has(> a:nth-of-type(2):last-child > img),
   object-fit: cover !important;
   margin: 0 !important;
   border-radius: 8px !important;
-  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
 }
 
 .grid img:hover,
@@ -2814,7 +2827,7 @@ article:not(.gallery):not(.strip) > p:has(> a:nth-of-type(2):last-child > img),
   margin: 0 !important;
   border-radius: 8px !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12) !important;
-  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
 }
 
 .strip img:hover,
@@ -2824,14 +2837,15 @@ article:not(.gallery):not(.strip) > p:has(> a:nth-of-type(2):last-child > img),
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22) !important;
 }
 
-/* 4. Expandable Event Album / Lightbox Gallery (::: gallery / > [!GALLERY] / .gallery / .GALLERY / .alert-gallery) */
-.gallery:not(.is-flexible),
-.GALLERY:not(.is-flexible),
-.alert-gallery:not(.is-flexible) {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)) !important;
-  gap: 0.85rem !important;
+/* 4. Real Flexible Masonry Gallery (::: gallery / > [!GALLERY] / .gallery / .GALLERY / .alert-gallery) */
+.gallery,
+.GALLERY,
+.alert-gallery {
+  display: block !important;
+  column-width: clamp(200px, 30vw, 320px) !important;
+  column-gap: 1rem !important;
   margin: 2rem 0 !important;
+  width: 100% !important;
 }
 
 .post-full-content .gallery > p,
@@ -2843,83 +2857,95 @@ article:not(.gallery):not(.strip) > p:has(> a:nth-of-type(2):last-child > img),
   display: contents !important;
 }
 
-.gallery:not(.is-flexible) img,
-.GALLERY:not(.is-flexible) img,
-.alert-gallery:not(.is-flexible) img {
+.gallery > *,
+.GALLERY > *,
+.alert-gallery > *,
+.gallery p > *,
+.GALLERY p > *,
+.alert-gallery p > * {
+  break-inside: avoid !important;
+  page-break-inside: avoid !important;
+  display: block !important;
+  margin-bottom: 1rem !important;
+}
+
+.gallery img,
+.GALLERY img,
+.alert-gallery img {
   width: 100% !important;
-  height: 100% !important;
+  height: auto !important;
   max-width: 100% !important;
-  aspect-ratio: 4 / 3 !important;
-  object-fit: cover !important;
-  margin: 0 !important;
+  display: block !important;
+  margin: 0 0 1rem 0 !important;
   border-radius: 8px !important;
   cursor: zoom-in !important;
-  transition: transform 0.2s ease, filter 0.2s ease, box-shadow 0.2s ease !important;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+              filter 0.2s ease !important;
+  will-change: transform;
 }
 
-.gallery:not(.is-flexible) img:hover,
-.GALLERY:not(.is-flexible) img:hover,
-.alert-gallery:not(.is-flexible) img:hover {
-  transform: scale(1.02) !important;
-  filter: brightness(1.05) !important;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2) !important;
+.gallery img:hover,
+.GALLERY img:hover,
+.alert-gallery img:hover {
+  transform: scale(1.02) translateY(-2px) !important;
+  filter: brightness(1.03) !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18) !important;
 }
 
-@media (min-width: 768px) {
-  .gallery:not(.is-flexible):has(> img:nth-child(3)),
-  .gallery:not(.is-flexible):has(> p > img:nth-child(3)),
-  .GALLERY:not(.is-flexible):has(> p > img:nth-child(3)) {
-    grid-template-columns: repeat(3, 1fr) !important;
+/* Future CSS Masonry Progressive Enhancement */
+@supports (grid-template-rows: masonry) {
+  .gallery,
+  .GALLERY,
+  .alert-gallery {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(clamp(200px, 30vw, 320px), 1fr)) !important;
+    grid-template-rows: masonry !important;
+    column-count: initial !important;
+    gap: 1rem !important;
+  }
+
+  .gallery > *,
+  .GALLERY > *,
+  .alert-gallery > *,
+  .gallery p > *,
+  .GALLERY p > *,
+  .alert-gallery p > * {
+    margin-bottom: 0 !important;
+  }
+
+  .gallery img,
+  .GALLERY img,
+  .alert-gallery img {
+    margin: 0 !important;
   }
 }
 
-/* 4b. Flexible Aspect-Ratio / Masonry Gallery Packing (_galleryFlexible = true) */
-.gallery-flexible .gallery,
-.gallery-flexible .GALLERY,
-.gallery-flexible .alert-gallery,
-.gallery.is-flexible,
-.GALLERY.is-flexible,
-.alert-gallery.is-flexible {
-  display: flex !important;
-  flex-direction: row !important;
-  flex-wrap: wrap !important;
-  gap: 0.85rem !important;
-  align-items: stretch !important;
-  margin: 2rem 0 !important;
-}
-
-.gallery-flexible .gallery > *,
-.gallery-flexible .GALLERY > *,
-.gallery-flexible .alert-gallery > *,
-.gallery.is-flexible > *,
-.GALLERY.is-flexible > *,
-.alert-gallery.is-flexible > *,
-.gallery-flexible .gallery p > *,
-.gallery-flexible .GALLERY p > *,
-.gallery-flexible .alert-gallery p > *,
-.gallery.is-flexible p > *,
-.GALLERY.is-flexible p > *,
-.alert-gallery.is-flexible p > * {
-  flex: 1 1 min(100%, 200px) !important;
-  margin: 0 !important;
-  display: flex !important;
-  align-items: stretch !important;
-}
-
-.gallery-flexible .gallery img,
-.gallery-flexible .GALLERY img,
-.gallery-flexible .alert-gallery img,
-.gallery.is-flexible img,
-.GALLERY.is-flexible img,
-.alert-gallery.is-flexible img {
-  width: 100% !important;
-  height: 100% !important;
-  max-width: 100% !important;
-  object-fit: cover !important;
-  margin: 0 !important;
-  border-radius: 8px !important;
-  cursor: zoom-in !important;
-  transition: transform 0.2s ease, filter 0.2s ease, box-shadow 0.2s ease !important;
+/* a11y: Respect user motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .grid img,
+  .GRID img,
+  .alert-grid img,
+  .strip img,
+  .STRIP img,
+  .alert-strip img,
+  .gallery img,
+  .GALLERY img,
+  .alert-gallery img {
+    transition: none !important;
+    transform: none !important;
+  }
+  .grid img:hover,
+  .GRID img:hover,
+  .alert-grid img:hover,
+  .strip img:hover,
+  .STRIP img:hover,
+  .alert-strip img:hover,
+  .gallery img:hover,
+  .GALLERY img:hover,
+  .alert-gallery img:hover {
+    transform: none !important;
+  }
 }
 
 /* ==========================================================================
