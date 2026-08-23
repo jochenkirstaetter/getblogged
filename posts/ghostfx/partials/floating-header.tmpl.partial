@@ -96,11 +96,27 @@
         var title = document.querySelector('.post-full-title') || document.querySelector('.site-title') || document.querySelector('h1');
 
         try {
-            var rawUrl = window.location.href;
             var appUrl = '{{#_appUrl}}{{_appUrl}}{{/_appUrl}}{{^_appUrl}}https://jochen.kirstaetter.name{{/_appUrl}}'.replace(/\/+$/, '');
-            if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+            var canonicalLink = document.querySelector('link[rel="canonical"]');
+            var rawUrl = canonicalLink ? (canonicalLink.getAttribute('href') || canonicalLink.href) : '';
+            if (!rawUrl) {
                 rawUrl = appUrl + window.location.pathname;
             }
+            if (rawUrl.startsWith('/')) {
+                rawUrl = appUrl + rawUrl;
+            }
+            rawUrl = rawUrl.split('?')[0].split('#')[0];
+            try {
+                var parsed = new URL(rawUrl, appUrl);
+                if (parsed.hostname === 'localhost' || parsed.hostname === '127.0.0.1' || parsed.hostname.endsWith('.localhost')) {
+                    rawUrl = appUrl + parsed.pathname;
+                }
+            } catch (e) {}
+            rawUrl = rawUrl.replace(/\/index\.html$/, '/').replace(/\.html$/, '');
+            if (rawUrl.length > appUrl.length + 1 && rawUrl.endsWith('/')) {
+                rawUrl = rawUrl.slice(0, -1);
+            }
+
             var currentUrl = encodeURIComponent(rawUrl);
             var currentTitle = encodeURIComponent(document.title || (title ? title.innerText : ''));
 
@@ -147,7 +163,7 @@
 
                 // Probe for Web Share API on mobile/tablet viewports
                 if (isMobileOrTablet && navigator.share) {
-                    var shareUrl = (typeof rawUrl !== 'undefined' && rawUrl) ? rawUrl : window.location.href;
+                    var shareUrl = (typeof rawUrl !== 'undefined' && rawUrl) ? rawUrl : (appUrl + window.location.pathname).split('?')[0].split('#')[0].replace(/\/index\.html$/, '/').replace(/\.html$/, '');
                     var shareTitle = document.title || (title ? title.innerText : '');
                     var shareData = {
                         title: shareTitle,

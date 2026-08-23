@@ -62,15 +62,46 @@
     var currentCanonicalUrl = '';
     var currentCanonicalTitle = '';
 
-    function getCanonicalUrl() {
-        var rawUrl = window.location.href;
+    function normalizeCanonicalUrl(url) {
+        if (!url) return '';
         var appUrl = '{{#_appUrl}}{{_appUrl}}{{/_appUrl}}{{^_appUrl}}https://jochen.kirstaetter.name{{/_appUrl}}'.replace(/\/+$/, '');
-        if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-            rawUrl = appUrl + window.location.pathname;
+        var clean = url;
+
+        // Prepend base appUrl if relative path
+        if (clean.startsWith('/')) {
+            clean = appUrl + clean;
         }
+
+        // Strip query string and fragment identifier (e.g. ?tabs=... or #section)
+        clean = clean.split('?')[0].split('#')[0];
+
+        // Ensure host is canonicalized to production appUrl when testing locally
+        try {
+            var parsed = new URL(clean, appUrl);
+            if (parsed.hostname === 'localhost' || parsed.hostname === '127.0.0.1' || parsed.hostname.endsWith('.localhost')) {
+                clean = appUrl + parsed.pathname;
+            }
+        } catch (e) {}
+
         // Strip .html extension and trailing index.html for clean extension-less URLs
-        rawUrl = rawUrl.replace(/\/index\.html(\?|#|$)/, '/$1').replace(/\.html(\?|#|$)/, '$1');
-        return rawUrl;
+        clean = clean.replace(/\/index\.html$/, '/').replace(/\.html$/, '');
+
+        // Remove trailing slash on slug paths (preserving root '/')
+        if (clean.length > appUrl.length + 1 && clean.endsWith('/')) {
+            clean = clean.slice(0, -1);
+        }
+
+        return clean;
+    }
+
+    function getCanonicalUrl() {
+        var canonicalLink = document.querySelector('link[rel="canonical"]');
+        var href = canonicalLink ? (canonicalLink.getAttribute('href') || canonicalLink.href) : '';
+        if (href) {
+            return normalizeCanonicalUrl(href);
+        }
+        var appUrl = '{{#_appUrl}}{{_appUrl}}{{/_appUrl}}{{^_appUrl}}https://jochen.kirstaetter.name{{/_appUrl}}'.replace(/\/+$/, '');
+        return normalizeCanonicalUrl(appUrl + window.location.pathname);
     }
 
     function renderQrCode(url) {
@@ -101,8 +132,7 @@
 
     window.openQrModal = function (customUrl, customTitle) {
         if (!modal) return;
-        var raw = customUrl || getCanonicalUrl();
-        currentCanonicalUrl = raw.replace(/\/index\.html(\?|#|$)/, '/$1').replace(/\.html(\?|#|$)/, '$1');
+        currentCanonicalUrl = customUrl ? normalizeCanonicalUrl(customUrl) : getCanonicalUrl();
         var h1 = document.querySelector('.post-full-title') || document.querySelector('h1');
         currentCanonicalTitle = customTitle || (h1 ? h1.innerText : document.title);
 

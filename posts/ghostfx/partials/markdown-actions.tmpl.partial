@@ -253,7 +253,26 @@
         function formatPrompt(markdownText) {
             var postTitle = document.querySelector('h1.post-full-title') || document.querySelector('h1');
             var titleStr = (postTitle ? postTitle.textContent.trim() : '{{title}}') || 'Article';
-            var pageUrl = window.location.href;
+            var appUrl = '{{#_appUrl}}{{_appUrl}}{{/_appUrl}}{{^_appUrl}}https://jochen.kirstaetter.name{{/_appUrl}}'.replace(/\/+$/, '');
+            var canonicalLink = document.querySelector('link[rel="canonical"]');
+            var pageUrl = canonicalLink ? (canonicalLink.getAttribute('href') || canonicalLink.href) : '';
+            if (!pageUrl) {
+                pageUrl = appUrl + window.location.pathname;
+            }
+            if (pageUrl.startsWith('/')) {
+                pageUrl = appUrl + pageUrl;
+            }
+            pageUrl = pageUrl.split('?')[0].split('#')[0];
+            try {
+                var parsed = new URL(pageUrl, appUrl);
+                if (parsed.hostname === 'localhost' || parsed.hostname === '127.0.0.1' || parsed.hostname.endsWith('.localhost')) {
+                    pageUrl = appUrl + parsed.pathname;
+                }
+            } catch (e) {}
+            pageUrl = pageUrl.replace(/\/index\.html$/, '/').replace(/\.html$/, '');
+            if (pageUrl.length > appUrl.length + 1 && pageUrl.endsWith('/')) {
+                pageUrl = pageUrl.slice(0, -1);
+            }
 
             return 'Analyse and use the following article as context:\n\n' +
                    'Title: ' + titleStr + '\n' +
