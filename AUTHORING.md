@@ -57,14 +57,22 @@ Every full-length article should follow a clean, readable narrative flow:
 
 ---
 
-## 4. Frontmatter & Metadata Conventions (DRY Principle)
+## 4. Frontmatter, Metadata & Open Graph Conventions (DRY Principle)
 
 Apply the **DRY (Don't Repeat Yourself)** principle to DocFX frontmatter:
-- Populate only the primary **`image`** attribute with the main WebP asset path:
+- Populate the primary **`image`** attribute with the main WebP hero asset path:
   ```yaml
   image: content/images/YYYY/MM/<slug>.webp
   ```
-- Leave redundant image fallback attributes empty (`imageUrl: ''`, `twitterImageUrl: ''`, `featureImage: ''`) unless a specific third-party integration explicitly requires a full URL override.
+- **Automated Open Graph (`1200 × 630 px`) Card Generation**:
+  - Running `python3 scripts/localize-assets.py` automatically generates an intelligent Open Graph preview card saved alongside the hero image as `<slug>-og.webp` (e.g. `content/images/YYYY/MM/<slug>-og.webp`).
+  - **Composition**: Scaled hero backdrop with gentle depth blur, left-attached 42% translucent frosted-glass plates hugging the balanced multi-line title and bottom-left author attribution (`Jochen Kirstätter` • `jochen.kirstaetter.name`), and a bottom-right frosted-glass card housing a scannable QR code of the extension-less article URL (`https://jochen.kirstaetter.name/<slug>`).
+  - The script automatically wires `ogImage: content/images/YYYY/MM/<slug>-og.webp` into frontmatter.
+- **Manual Open Graph Image Overrides**:
+  - At any time, a designated custom Open Graph image can be produced manually by the author to overwrite the default generated one.
+  - Simply place your custom 1200×630 image at `content/images/YYYY/MM/<slug>-og.webp` (or set `ogImage: content/images/YYYY/MM/<custom-name>.webp` in the frontmatter).
+  - The automated script checks for existing files and will never overwrite user-crafted custom Open Graph images.
+- Leave redundant legacy image fallback attributes empty (`imageUrl: ''`, `twitterImageUrl: ''`, `featureImage: ''`) unless a specific third-party integration explicitly requires a full URL override.
 - Ensure `uid`, `title`, `slug`, `date`, `status`, `type`, `description`, `tags`, and `keywords` are properly populated.
 
 ---

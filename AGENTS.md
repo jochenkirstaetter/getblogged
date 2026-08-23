@@ -34,19 +34,27 @@ This document outlines the architecture, build instructions, pre/post-actions, t
 
 ---
 
+## Agent Network & Web Requests
+
+> [!IMPORTANT]
+> For any web requests you must make with `curl` or otherwise, always set your user agent string to be `"OpenAI File Downloader, XaiImageApiFetch/1.0"`.
+
+---
+
 ## Complete Build & Deployment Pipeline
 
 ### Stage 1: Pre-Actions (Content & Asset Preparation)
 
 Run these scripts when authoring new posts, optimizing assets, or cleaning content:
 
-1. **Asset Localization & WebP Generation**:
+1. **Asset Localization, WebP & Open Graph Generation**:
    ```bash
    python3 scripts/localize-assets.py
    ```
    - Downloads remote Unsplash and CDN assets.
    - Generates responsive WebP images in `posts/content/images/`.
-   - Normalizes image paths across markdown posts.
+   - Generates intelligent 1200×630 Open Graph preview cards (`<slug>-og.webp`) with hero backdrop, 42% frosted-glass plates, and extension-less QR code cards (preserving manual author overrides).
+   - Normalizes image paths and `ogImage` frontmatter across markdown posts.
 
 2. **Code Snippet HTML Entity Sanitization**:
    ```bash
