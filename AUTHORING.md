@@ -32,6 +32,9 @@ All articles must strictly follow British English conventions:
   - Use ***program*** only when referring to computer executable code or software applications.
 - **Consonant Doubling**:
   - Use *signalled*, *travelling*, *modelled*, *initialled*.
+- **GhostFx vs. `ghostfx` Nomenclature**:
+  - Use PascalCase **GhostFx** when referencing the open-source project, converter, or repository ([`jochenkirstaetter/ghostfx`](https://github.com/jochenkirstaetter/ghostfx)).
+  - Use lowercase monospace **`ghostfx`** when referring to the local DocFX template directory (`posts/ghostfx/`), template identifier (`"template": ["ghostfx"]`), or client asset bundle.
 
 ### Punctuation & Typography
 - **Strict No-Em-Dash Rule**: **Never** use em-dash characters (`—`). Use standard hyphens (` - ` or `--`), commas, colons, or semicolons instead.

@@ -6,6 +6,11 @@ This document outlines the architecture, build instructions, pre/post-actions, t
 
 ## Overview & Project Structure
 
+> [!NOTE]
+> **GhostFx vs. `ghostfx` Terminology**:
+> - **GhostFx**: The open-source static site converter project and ecosystem bridging Ghost themes with DocFX ([`jochenkirstaetter/ghostfx`](https://github.com/jochenkirstaetter/ghostfx)).
+> - **`ghostfx`**: The active DocFX template folder ([`posts/ghostfx/`](posts/ghostfx/)) and local theme asset pipeline powering this blog.
+
 - **Framework**: DocFX static site generator.
 - **Production Site Configuration**: [`posts/docfx.json`](posts/docfx.json)
 - **Draft Site Configuration**: [`posts/docfx.draft.json`](posts/docfx.draft.json) (includes `posts/draft/` content)

@@ -1427,25 +1427,35 @@ html[data-bs-theme="dark"] blockquote,
 html[data-bs-theme="dark"] table,
 [data-bs-theme="dark"] table {
     border-color: #30363d !important;
-    color: #c9d1d9 !important;
+    background-color: #0d1117 !important;
+    background-image: none !important;
+    color: #e2e8f0 !important;
 }
 
 html[data-bs-theme="dark"] table th,
 [data-bs-theme="dark"] table th {
-    background-color: #21262d !important;
+    background-color: #161b22 !important;
     color: #f0f6fc !important;
-    border-bottom: 2px solid #30363d !important;
+    border: 1px solid #30363d !important;
+    border-bottom: 2px solid #3b434d !important;
+    background-image: none !important;
 }
 
 html[data-bs-theme="dark"] table td,
 [data-bs-theme="dark"] table td {
-    border-bottom: 1px solid #21262d !important;
-    color: #c9d1d9 !important;
+    border: 1px solid #30363d !important;
+    color: #cbd5e1 !important;
+    background-image: none !important;
 }
 
 html[data-bs-theme="dark"] table tr:nth-child(even),
 [data-bs-theme="dark"] table tr:nth-child(even) {
-    background-color: rgba(255, 255, 255, 0.02) !important;
+    background-color: #161b22 !important;
+}
+
+html[data-bs-theme="dark"] table tr:nth-child(odd),
+[data-bs-theme="dark"] table tr:nth-child(odd) {
+    background-color: #0d1117 !important;
 }
 
 /* Dropdown Menus & Inputs */
