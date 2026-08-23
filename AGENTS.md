@@ -165,9 +165,9 @@ When testing changes locally on the configured emulator URL (`http://localhost:<
 > [!IMPORTANT]
 > **Mandatory User Approval Guardrail**: **Never** execute any Firebase deployment (`firebase deploy`, `npm run deploy`, or `firebase hosting:channel:deploy`) without explicit approval from the user. All build verification and staging reviews must remain strictly local (`firebase emulators:start` or `npm run serve`) until explicitly approved.
 
-#### Pre-deployment Guardrail
+#### Pre-deployment Guardrail & Asset Versioning
 Deployments enforce clean Git content status via `scripts/check-clean-posts.py` (wired into `predeploy` in `package.json`).
-It verifies that all changes and new assets in `posts/published/`, `posts/draft/`, `posts/pages/`, `posts/content/`, and `posts/index.md` are committed before `deploy` proceeds.
+It verifies that all changes and new assets in `posts/published/`, `posts/draft/`, `posts/pages/`, `posts/content/`, and `posts/index.md` are committed before `deploy` proceeds. Upon passing, it automatically derives the latest Git revision metadata (`v<rev-count>-<short-hash>`) and updates `_assetVersion` in `posts/docfx.json`, `posts/docfx.draft.json`, and the Service Worker cache names in `posts/ghostfx/public/sw-v1.js`.
 
 #### Preview Channel (Staging / Draft Review)
 To deploy a temporary preview channel for review (with draft content included) once explicitly approved:
