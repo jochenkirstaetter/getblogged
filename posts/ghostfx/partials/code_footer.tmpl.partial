@@ -199,67 +199,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
     }
 
-    // 6. DocFX Tab Group Controller (Instant Switching & Multi-Group Sync)
-    function initTabGroups() {
-        var tabGroups = document.querySelectorAll('.tabGroup, [role="tablist"]');
-        if (!tabGroups || tabGroups.length === 0) return;
-
-        function activateTab(activeTab) {
-            var tabList = activeTab.closest('[role="tablist"]') || (activeTab.closest('.tabGroup') ? activeTab.closest('.tabGroup').querySelector('[role="tablist"]') : null);
-            var parentGroup = activeTab.closest('.tabGroup') || (tabList ? tabList.parentElement : null);
-            if (!tabList || !parentGroup) return;
-
-            var allTabs = tabList.querySelectorAll('[role="tab"], a[data-tab]');
-            allTabs.forEach(function(t) {
-                t.setAttribute('aria-selected', 'false');
-                t.setAttribute('tabindex', '-1');
-                t.classList.remove('active');
-                if (t.parentElement && t.parentElement.tagName.toLowerCase() === 'li') {
-                    t.parentElement.classList.remove('active');
-                }
-            });
-
-            activeTab.setAttribute('aria-selected', 'true');
-            activeTab.setAttribute('tabindex', '0');
-            activeTab.classList.add('active');
-            if (activeTab.parentElement && activeTab.parentElement.tagName.toLowerCase() === 'li') {
-                activeTab.parentElement.classList.add('active');
-            }
-
-            var targetId = activeTab.getAttribute('href') ? activeTab.getAttribute('href').replace(/^#/, '') : activeTab.getAttribute('aria-controls');
-            var panels = parentGroup.querySelectorAll('[role="tabpanel"], section');
-            panels.forEach(function(panel) {
-                if (panel.id === targetId || panel.getAttribute('id') === targetId) {
-                    panel.removeAttribute('hidden');
-                    panel.setAttribute('aria-hidden', 'false');
-                    panel.style.display = 'block';
-                } else if (panel.hasAttribute('role') && panel.getAttribute('role') === 'tabpanel') {
-                    panel.setAttribute('hidden', 'hidden');
-                    panel.setAttribute('aria-hidden', 'true');
-                    panel.style.display = 'none';
-                }
-            });
-        }
-
-        tabGroups.forEach(function(group) {
-            var tabs = group.querySelectorAll('[role="tab"], a[data-tab]');
-            tabs.forEach(function(tab) {
-                tab.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    var tabKey = tab.getAttribute('data-tab');
-                    if (tabKey) {
-                        var sameTabs = document.querySelectorAll('[data-tab="' + tabKey + '"]');
-                        sameTabs.forEach(function(sTab) {
-                            activateTab(sTab);
-                        });
-                    } else {
-                        activateTab(tab);
-                    }
-                });
-            });
-        });
     }
-    initTabGroups();
 });
 var serviceWorkerUri = '/sw-v1.js';
 if ('serviceWorker' in navigator) {

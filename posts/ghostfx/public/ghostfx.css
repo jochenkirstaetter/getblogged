@@ -1029,15 +1029,15 @@ body > main .affix,
 }
 
 /* ==========================================================================
-   DocFX Tab Groups Styling (Aligned with Markdown Viewer & Share Buttons)
+   DocFX Tab Groups Styling (Traditional Tabbed Layout with Button Typography)
    ========================================================================== */
 
 .tabGroup {
-  margin: 2.2rem 0 1.8rem 0 !important;
+  margin: 2.2rem 0 2rem 0 !important;
   position: relative !important;
 }
 
-/* Tab list container */
+/* Tab list bar container */
 .post-full-content .tabGroup ul[role="tablist"],
 .tabGroup ul[role="tablist"],
 .tabGroup [role="tablist"],
@@ -1045,13 +1045,13 @@ body > main .affix,
 [role="tablist"].nav-tabs {
   display: flex !important;
   flex-wrap: wrap !important;
-  align-items: center !important;
-  gap: 8px !important;
+  align-items: flex-end !important;
+  gap: 0 !important;
   list-style: none !important;
-  margin: 0 0 12px 0 !important;
+  margin: 0 0 0 0 !important;
   padding: 0 !important;
-  border-bottom: none !important;
   background: transparent !important;
+  border-bottom: 2px solid #e2e8f0 !important;
 }
 
 .post-full-content .tabGroup ul[role="tablist"] li,
@@ -1065,7 +1065,7 @@ body > main .affix,
   display: inline-flex !important;
 }
 
-/* Tab button base styling */
+/* Tab link base styling */
 .post-full-content .tabGroup a[role="tab"],
 .post-full-content .tabGroup button[role="tab"],
 .post-full-content .tabGroup [role="tab"],
@@ -1080,28 +1080,30 @@ body > main .affix,
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
-  gap: 6px !important;
-  padding: 7px 16px !important;
+  padding: 10px 18px !important;
+  margin: 0 4px -2px 0 !important;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
   font-size: 1.3rem !important;
   font-weight: 600 !important;
-  letter-spacing: 0.02em !important;
+  letter-spacing: 0.05em !important;
   line-height: 1.35 !important;
-  border-radius: 20px !important;
+  text-transform: uppercase !important;
   text-decoration: none !important;
   cursor: pointer !important;
-  transition: all 0.2s ease !important;
+  transition: color 0.15s ease, border-color 0.15s ease !important;
   outline: none !important;
   user-select: none !important;
   -webkit-user-select: none !important;
   word-break: normal !important;
   white-space: nowrap !important;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08) !important;
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 2px solid transparent !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
 
   /* Inactive State (Light Theme) */
-  background: #ffffff !important;
-  color: #1f2937 !important;
-  border: 1px solid #d1d5db !important;
+  color: #64748b !important;
 }
 
 /* Inactive Tab Hover (Light Theme) */
@@ -1114,11 +1116,11 @@ body > main .affix,
 [role="tablist"] a:not([aria-selected="true"]):not(.active):hover,
 [role="tablist"] button:not([aria-selected="true"]):not(.active):hover {
   color: #2563eb !important;
-  background: #f8fafc !important;
-  border-color: #3b82f6 !important;
+  background: transparent !important;
+  border-bottom: 2px solid #93c5fd !important;
   text-decoration: none !important;
-  transform: translateY(-1px) !important;
-  box-shadow: 0 4px 10px rgba(59, 130, 246, 0.2) !important;
+  box-shadow: none !important;
+  transform: none !important;
 }
 
 /* Active Tab State (Light Theme) */
@@ -1133,16 +1135,25 @@ body > main .affix,
 [role="tablist"] button[aria-selected="true"],
 [role="tablist"] .active > a,
 [role="tablist"] a.active {
-  background: #2563eb !important;
-  color: #ffffff !important;
-  border: 1px solid #2563eb !important;
-  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.35) !important;
+  color: #2563eb !important;
+  font-weight: 700 !important;
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 2px solid #2563eb !important;
+  box-shadow: none !important;
   text-decoration: none !important;
-  transform: translateY(0) !important;
+  transform: none !important;
   cursor: default !important;
 }
 
-/* --- Dark Theme Tab Styling --- */
+/* --- Dark Theme Traditional Tabs --- */
+[data-bs-theme="dark"] .post-full-content .tabGroup ul[role="tablist"],
+[data-bs-theme="dark"] .tabGroup ul[role="tablist"],
+[data-bs-theme="dark"] [role="tablist"],
+html[data-bs-theme="dark"] .tabGroup ul[role="tablist"] {
+  border-bottom: 2px solid #30363d !important;
+}
+
 [data-bs-theme="dark"] .post-full-content .tabGroup a[role="tab"],
 [data-bs-theme="dark"] .tabGroup a[role="tab"],
 [data-bs-theme="dark"] .tabGroup button[role="tab"],
@@ -1154,10 +1165,12 @@ body > main .affix,
 html[data-bs-theme="dark"] .post-full-content .tabGroup a[role="tab"],
 html[data-bs-theme="dark"] .tabGroup a[role="tab"],
 html[data-bs-theme="dark"] .tabGroup [role="tab"] {
-  color: #f9fafb !important;
-  background: #1e2428 !important;
-  border: 1px solid rgba(255, 255, 255, 0.22) !important;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4) !important;
+  color: #8b949e !important;
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 2px solid transparent !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
 }
 
 /* Inactive Tab Hover (Dark Theme) */
@@ -1170,12 +1183,12 @@ html[data-bs-theme="dark"] .tabGroup [role="tab"] {
 [data-bs-theme="dark"] [role="tablist"] button:not([aria-selected="true"]):not(.active):hover,
 html[data-bs-theme="dark"] .post-full-content .tabGroup a[role="tab"]:not([aria-selected="true"]):hover,
 html[data-bs-theme="dark"] .tabGroup a[role="tab"]:not([aria-selected="true"]):hover {
-  color: #60a5fa !important;
-  background: #283136 !important;
-  border-color: #60a5fa !important;
+  color: #58a6ff !important;
+  background: transparent !important;
+  border-bottom: 2px solid rgba(88, 166, 255, 0.45) !important;
   text-decoration: none !important;
-  transform: translateY(-1px) !important;
-  box-shadow: 0 4px 12px rgba(96, 165, 250, 0.28) !important;
+  box-shadow: none !important;
+  transform: none !important;
 }
 
 /* Active Tab State (Dark Theme) */
@@ -1191,19 +1204,21 @@ html[data-bs-theme="dark"] .tabGroup a[role="tab"]:not([aria-selected="true"]):h
 [data-bs-theme="dark"] [role="tablist"] a.active,
 html[data-bs-theme="dark"] .post-full-content .tabGroup a[role="tab"][aria-selected="true"],
 html[data-bs-theme="dark"] .tabGroup a[role="tab"][aria-selected="true"] {
-  background: #3b82f6 !important;
-  color: #ffffff !important;
-  border: 1px solid #60a5fa !important;
-  box-shadow: 0 2px 10px rgba(59, 130, 246, 0.5) !important;
+  color: #58a6ff !important;
+  font-weight: 700 !important;
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 2px solid #58a6ff !important;
+  box-shadow: none !important;
   text-decoration: none !important;
-  transform: translateY(0) !important;
+  transform: none !important;
   cursor: default !important;
 }
 
 /* Tab Panels & Inner Content */
 .tabGroup section[role="tabpanel"],
 .tabGroup [role="tabpanel"] {
-  margin-top: 6px !important;
+  margin-top: 0 !important;
   padding: 0 !important;
   border: none !important;
 }
