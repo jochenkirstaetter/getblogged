@@ -31,9 +31,10 @@ posts/index-draft.md
 posts/content/images/size/
 **/content/images/size/
 
-# Agent related activities
-.agents/*
-!.agents/skills/
+# Workspace related activities
+.agents
+posts/draft/assets
+!posts/draft/assets/.gitkeep
 .playwright-mcp
 scratch
 __pycache__
