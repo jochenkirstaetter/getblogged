@@ -133,36 +133,17 @@ Two visual elements ensure 100% scanning reliability:
 
 ### Real-World Matrix Variations in Production
 
-To demonstrate how custom colourways and centre badges behave under Error Correction Level H, here are four real-world variations generated across our publishing pipeline. Each variant maintains strict optical scannability while aligning with specific content categories:
+To demonstrate how custom colourways and centre badges behave under Error Correction Level H, here are three real-world variations generated across our publishing pipeline. Each variant maintains strict optical scannability while aligning with specific content categories:
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin: 2rem 0 2.5rem 0;">
 
-  <!-- Card 1: Slate-900 Monochrome with Favicon -->
-  <div style="background: var(--color-bg-subtle, #f8fafc); border: 1px solid var(--color-border, #e2e8f0); border-radius: 12px; padding: 1.25rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
-    <div style="text-align: center; margin-bottom: 1rem;">
-      <img src="/content/images/2026/08/qr-variation-monochrome-favicon.webp" alt="Monochrome Slate-900 QR code with 24 percent centre favicon badge" title="Monochrome Slate-900 QR Code with Centre Favicon" style="max-width: 100%; width: 220px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
-    </div>
-    <div>
-      <h4 style="margin: 0 0 0.5rem 0; font-size: 1.05rem;">1. Slate Monochrome &amp; Favicon</h4>
-      <p style="font-size: 0.875rem; margin-bottom: 0.75rem; line-height: 1.45;">
-        <strong>Colour:</strong> Slate-900 (<code>#111827</code>) on Pure White (<code>#ffffff</code>)<br />
-        <strong>Contrast Ratio:</strong> 16.5:1 (WCAG AAA)<br />
-        <strong>Badge Configuration:</strong> 24% centre brand favicon on a solid white rounded plate with 3px Gaussian shadow.
-      </p>
-      <p style="font-size: 0.875rem; margin: 0; line-height: 1.45;">
-        <strong>Target Article:</strong> <xref:generate-qr-codes-gcf><br />
-        <small style="color: var(--color-text-muted, #64748b);">Default profile used for automated Open Graph social cards and standard article sharing modals.</small>
-      </p>
-    </div>
-  </div>
-
-  <!-- Card 2: Royal Indigo Raw Matrix -->
+  <!-- Card 1: Royal Indigo Raw Matrix -->
   <div style="background: var(--color-bg-subtle, #f8fafc); border: 1px solid var(--color-border, #e2e8f0); border-radius: 12px; padding: 1.25rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
     <div style="text-align: center; margin-bottom: 1rem;">
       <img src="/content/images/2026/08/qr-variation-indigo-raw.webp" alt="Royal Indigo QR code on Slate-50 background with raw matrix modules" title="Royal Indigo Raw QR Matrix" style="max-width: 100%; width: 220px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
     </div>
     <div>
-      <h4 style="margin: 0 0 0.5rem 0; font-size: 1.05rem;">2. Royal Indigo Raw Matrix</h4>
+      <h4 style="margin: 0 0 0.5rem 0; font-size: 1.05rem;">1. Royal Indigo Raw Matrix</h4>
       <p style="font-size: 0.875rem; margin-bottom: 0.75rem; line-height: 1.45;">
         <strong>Colour:</strong> Royal Indigo (<code>#1e40af</code>) on Slate-50 (<code>#f8fafc</code>)<br />
         <strong>Contrast Ratio:</strong> 8.2:1 (WCAG AAA)<br />
@@ -175,13 +156,13 @@ To demonstrate how custom colourways and centre badges behave under Error Correc
     </div>
   </div>
 
-  <!-- Card 3: Deep Emerald with Favicon -->
+  <!-- Card 2: Deep Emerald with Favicon -->
   <div style="background: var(--color-bg-subtle, #f8fafc); border: 1px solid var(--color-border, #e2e8f0); border-radius: 12px; padding: 1.25rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
     <div style="text-align: center; margin-bottom: 1rem;">
       <img src="/content/images/2026/08/qr-variation-emerald-favicon.webp" alt="Deep Emerald QR code with 24 percent centre favicon badge" title="Deep Emerald QR Code with Centre Favicon" style="max-width: 100%; width: 220px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
     </div>
     <div>
-      <h4 style="margin: 0 0 0.5rem 0; font-size: 1.05rem;">3. Deep Emerald &amp; Favicon</h4>
+      <h4 style="margin: 0 0 0.5rem 0; font-size: 1.05rem;">2. Deep Emerald &amp; Favicon</h4>
       <p style="font-size: 0.875rem; margin-bottom: 0.75rem; line-height: 1.45;">
         <strong>Colour:</strong> Deep Emerald (<code>#065f46</code>) on Pure White (<code>#ffffff</code>)<br />
         <strong>Contrast Ratio:</strong> 7.5:1 (WCAG AAA)<br />
@@ -194,13 +175,13 @@ To demonstrate how custom colourways and centre badges behave under Error Correc
     </div>
   </div>
 
-  <!-- Card 4: Warm Crimson with Favicon -->
+  <!-- Card 3: Warm Crimson with Favicon -->
   <div style="background: var(--color-bg-subtle, #f8fafc); border: 1px solid var(--color-border, #e2e8f0); border-radius: 12px; padding: 1.25rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
     <div style="text-align: center; margin-bottom: 1rem;">
       <img src="/content/images/2026/08/qr-variation-crimson-favicon.webp" alt="Warm Crimson QR code with 22 percent centre favicon badge" title="Warm Crimson QR Code with Centre Favicon" style="max-width: 100%; width: 220px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
     </div>
     <div>
-      <h4 style="margin: 0 0 0.5rem 0; font-size: 1.05rem;">4. Warm Crimson &amp; Favicon</h4>
+      <h4 style="margin: 0 0 0.5rem 0; font-size: 1.05rem;">3. Warm Crimson &amp; Favicon</h4>
       <p style="font-size: 0.875rem; margin-bottom: 0.75rem; line-height: 1.45;">
         <strong>Colour:</strong> Warm Crimson (<code>#9f1239</code>) on Pure White (<code>#ffffff</code>)<br />
         <strong>Contrast Ratio:</strong> 6.8:1 (WCAG AAA)<br />
@@ -232,6 +213,11 @@ With the rise of **QR phishing (Quishing)**, where malicious actors overlay dece
 - **Canonical Extension-less URL Display**: Always render the plain-text destination domain alongside the matrix so users can verify the HTTPS target before scanning.
 - **Same-Origin Asset Protection**: Ensure embedded favicons and logos are served from trusted same-origin sources with strict CORS headers to prevent canvas tainting and visual spoofing.
 
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/content/images/2026/08/qr-modal-quishing-defense.webp" alt="GhostFx article sharing dialog demonstrating anti-quishing measures with explicit page URL verification and brand badge" title="GhostFx Modal with Visible Target URL and Brand Avatar" style="max-width: 340px; width: 100%; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.35);" />
+  <p><small>The GhostFx share modal rendering an explicit canonical URL directly beneath the matrix to verify target HTTPS destinations prior to scanning.</small></p>
+</div>
+
 ### The Developer's WCAG Compliance Checklist for QR Codes
 When incorporating QR codes into web interfaces, developers must observe four fundamental WCAG criteria:
 
@@ -251,40 +237,66 @@ When incorporating QR codes into web interfaces, developers must observe four fu
 
 ## 4. Architectural Evaluation: Client-Side vs Microservice vs Static Build
 
-When architecting a solution, choosing where to generate QR codes involves clear trade-offs across latency, offline capabilities, infrastructure costs, and integration requirements:
+When architecting a solution, choosing where to generate QR codes involves clear trade-offs across latency, offline capabilities, infrastructure costs, and integration requirements. Explore each deployment architecture below:
+
+# [Client-Side (Browser JS)](#tab/arch-client)
 
 ```mermaid
-flowchart TD
-    subgraph Client["Client-Side Viewport"]
-        Modal["Interactive Modal<br/><i>HTML5 dialog</i>"] --> Canvas["Canvas 2D Renderer<br/><i>posts/ghostfx/public/js/qrcode.min.js</i>"]
-        Canvas --> Share["Web Share API<br/><i>navigator.share() / Clipboard</i>"]
-    end
-
-    subgraph Microservice["Serverless Microservice"]
-        API["ASP.NET Core Minimal API<br/><i>GET /api/qr?url=...</i>"] --> Cache["In-Memory Logo Cache<br/><i>IBrandedLogoCache Singleton</i>"]
-        Cache --> Skia["SkiaSharp Compositor<br/><i>24% Badge + Level H ECC</i>"]
-    end
-
-    subgraph Pipeline["Headless Build Automation"]
-        PreBuild["scripts/localize-assets.py"] --> MatrixPy["scripts/qr_generator.py<br/><i>GF(256) Synthetic Division</i>"]
-        MatrixPy --> OGCard["Open Graph Cards (1200x630)<br/><i>42% Frosted Glass Plate</i>"]
-    end
+flowchart LR
+    Modal["Interactive Modal<br/><i>HTML5 &lt;dialog&gt;</i>"] --> Canvas["Canvas 2D Renderer<br/><i>posts/ghostfx/public/js/qrcode.min.js</i>"]
+    Canvas --> Share["Web Share API<br/><i>navigator.share() / Clipboard</i>"]
 ```
 
-| Dimension | Client-Side (Browser JS) | Serverless Microservice (GCF / Cloud Run / .NET 10) | Headless Static Build (Python) |
-| :--- | :--- | :--- | :--- |
-| **Response Latency** | Instant ($0\text{ ms}$ network) | $50\text{ ms} - 250\text{ ms}$ HTTP roundtrip | Pre-rendered ($0\text{ ms}$ runtime) |
-| **Offline Resilience** | Works fully offline via Service Worker | Requires active internet connection | Statically cached |
-| **URL Rewriting & Analytics** | Static to active page URL | Dynamic URL rewriting, click tracking, shortlinks | Baked into compiled HTML |
-| **External Client Support** | Browser viewport only | Google Sheets (`=IMAGE()`), transactional emails, PDFs, thermal printers | Social metadata cards (Open Graph) |
-| **Hosting Cost** | \$0.00 (Client compute) | Pay-per-invocation serverless compute | \$0.00 (CI/CD build pipeline) |
-| **Privacy & Security** | 100% private (URL never leaves client) | Server logs incoming query strings | Internal pipeline only |
+| Dimension | Architectural Profile |
+| :--- | :--- |
+| **Response Latency** | Instant ($0\text{ ms}$ network latency) |
+| **Offline Resilience** | Works fully offline via Service Worker |
+| **URL Rewriting & Analytics** | Static to active page URL |
+| **External Client Support** | Browser viewport only |
+| **Hosting Cost** | \$0.00 (Client-side execution) |
+| **Privacy & Security** | 100% private (URL never leaves client) |
 
-### When to Choose Which?
+**When to Choose:** Best for web applications and blogs where users share the active page URL directly to a mobile device. It incurs zero cloud hosting costs, executes instantly with zero network latency, and functions when users are completely offline.
 
-1. **Client-Side In-Browser Generation**: Best for web applications and blogs where users share the active page URL directly to a mobile device. It incurs zero cloud hosting costs, executes instantly with zero network latency, and functions when users are completely offline.
-2. **Serverless Microservice**: Remains highly appealing whenever you need flexible URL parameter handling, dynamic shortlinks, server-side click tracking, or direct integration with third-party consumers like spreadsheets, email dispatchers, and IoT receipt printers.
-3. **Build-Time Static Automation**: Ideal for static site generation (SSG) pipelines where high-resolution social preview cards must be generated deterministically before deployment.
+# [Serverless Microservice](#tab/arch-microservice)
+
+```mermaid
+flowchart LR
+    API["ASP.NET Core Minimal API<br/><i>GET /api/qr?url=...</i>"] --> Cache["In-Memory Logo Cache<br/><i>IBrandedLogoCache Singleton</i>"]
+    Cache --> Skia["SkiaSharp Compositor<br/><i>24% Badge + Level H ECC</i>"]
+    Skia --> Response["HTTP Response<br/><i>ETag + immutable</i>"]
+```
+
+| Dimension | Architectural Profile |
+| :--- | :--- |
+| **Response Latency** | $50\text{ ms} - 250\text{ ms}$ HTTP roundtrip |
+| **Offline Resilience** | Requires active internet connection |
+| **URL Rewriting & Analytics** | Dynamic URL rewriting, click tracking, shortlinks |
+| **External Client Support** | Google Sheets (`=IMAGE()`), transactional emails, PDFs, thermal printers |
+| **Hosting Cost** | Pay-per-invocation serverless compute |
+| **Privacy & Security** | Server logs incoming query strings |
+
+**When to Choose:** Highly appealing whenever you need flexible URL parameter handling, dynamic shortlinks, server-side click tracking, or direct integration with third-party consumers like spreadsheets, email dispatchers, and IoT receipt printers.
+
+# [Headless Static Build](#tab/arch-static)
+
+```mermaid
+flowchart LR
+    PreBuild["Pre-Build Automation<br/><i>scripts/localize-assets.py</i>"] --> MatrixPy["Matrix Engine<br/><i>scripts/qr_generator.py</i>"]
+    MatrixPy --> OGCard["Open Graph Cards (1200x630)<br/><i>42% Frosted Glass Plate</i>"]
+```
+
+| Dimension | Architectural Profile |
+| :--- | :--- |
+| **Response Latency** | Pre-rendered ($0\text{ ms}$ runtime) |
+| **Offline Resilience** | Statically cached and CDN distributed |
+| **URL Rewriting & Analytics** | Baked into compiled HTML |
+| **External Client Support** | Social metadata cards (Open Graph previews) |
+| **Hosting Cost** | \$0.00 (CI/CD build pipeline) |
+| **Privacy & Security** | Internal pipeline only |
+
+**When to Choose:** Ideal for static site generation (SSG) pipelines where high-resolution social preview cards must be generated deterministically before deployment.
+***
 
 ---
 
