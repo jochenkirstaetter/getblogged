@@ -250,6 +250,8 @@ if ('requestIdleCallback' in window) {
                 e.preventDefault();
                 e.stopPropagation();
                 window.openMediaLightbox(svg);
+            }
+        }
     }, true);
 
     if (document.readyState === 'loading') {
