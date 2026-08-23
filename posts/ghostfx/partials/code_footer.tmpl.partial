@@ -189,6 +189,24 @@ if ('requestIdleCallback' in window) {
                     console.error('Failed to load Mermaid CDN:', err);
                 });
         }
+
+        // 6. Format post header date to "MMM D, YYYY" (e.g. "Aug 24, 2026")
+        var postDateEls = document.querySelectorAll('.post-full-meta-date');
+        postDateEls.forEach(function(el) {
+            var raw = el.getAttribute('datetime') || el.textContent.trim();
+            if (raw) {
+                var m = raw.match(/^(\d{4})-(\d{1,2})-(\d{1,2})/);
+                if (m) {
+                    var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+                    var y = parseInt(m[1], 10);
+                    var mo = parseInt(m[2], 10) - 1;
+                    var d = parseInt(m[3], 10);
+                    if (mo >= 0 && mo < 12) {
+                        el.textContent = months[mo] + ' ' + d + ', ' + y;
+                    }
+                }
+            }
+        });
     }
 
     // Capture-phase click delegation for reliable media lightbox across all content

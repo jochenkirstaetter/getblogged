@@ -963,7 +963,7 @@ body > main .affix,
   letter-spacing: 0.5px !important;
   line-height: 1.15em !important;
   margin: 0 0 24px 0 !important;
-  text-transform: uppercase !important;
+  text-transform: none !important;
 }
 
 .post-full-meta-date {
@@ -973,6 +973,7 @@ body > main .affix,
   font-size: 1.2rem !important;
   letter-spacing: 0.5px !important;
   line-height: 1.15em !important;
+  text-transform: none !important;
 }
 
 .post-full-meta .date-divider {
@@ -993,6 +994,7 @@ body > main .affix,
   font-weight: 500 !important;
   letter-spacing: 0.5px !important;
   line-height: 1.15em !important;
+  text-transform: uppercase !important;
 }
 
 /* Identical font styles of post-card-tags for tags anchor + kill Casper post-full-content a box-shadow */

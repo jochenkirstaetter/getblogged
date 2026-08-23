@@ -706,7 +706,6 @@ make sure this only happens on large viewports / desktop-ish devices.
     color: var(--midgrey);
     font-size: 1.4rem;
     font-weight: 600;
-    text-transform: uppercase;
 }
 
 .post-full-meta-date {

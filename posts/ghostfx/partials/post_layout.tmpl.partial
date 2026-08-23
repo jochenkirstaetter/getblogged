@@ -49,12 +49,28 @@ into the {body} of the default.hbs template }}
 
             <section class="post-full-content">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="{{#publishedAt}}{{.}}{{/publishedAt}}{{^publishedAt}}{{date}}{{/publishedAt}}">{{#date}}{{.}}{{/date}}{{^date}}{{#publishedAt}}{{.}}{{/publishedAt}}{{/date}}</time>
+                    <time class="post-full-meta-date" datetime="{{#publishedAt}}{{.}}{{/publishedAt}}{{^publishedAt}}{{date}}{{/publishedAt}}">{{#formattedDate}}{{.}}{{/formattedDate}}{{^formattedDate}}{{#date}}{{.}}{{/date}}{{^date}}{{#publishedAt}}{{.}}{{/publishedAt}}{{/date}}{{/formattedDate}}</time>
                     {{#tags.0}}
                         <span class="date-divider">-</span>
                         <span class="post-full-meta-tags">Filed under {{#tags}}<a class="post-card-tags" href="{{_rel}}tags/{{.}}.html">{{.}}</a>{{/tags}}</span>
                     {{/tags.0}}
                 </section>
+                <script>
+                (function() {
+                    var el = document.currentScript ? document.currentScript.previousElementSibling.querySelector('.post-full-meta-date') : document.querySelector('.post-full-meta-date');
+                    if (el) {
+                        var raw = el.getAttribute('datetime') || el.textContent.trim();
+                        var m = raw.match(/^(\d{4})-(\d{1,2})-(\d{1,2})/);
+                        if (m) {
+                            var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+                            var y = parseInt(m[1], 10);
+                            var mo = parseInt(m[2], 10) - 1;
+                            var d = parseInt(m[3], 10);
+                            if (mo >= 0 && mo < 12) { el.textContent = months[mo] + ' ' + d + ', ' + y; }
+                        }
+                    }
+                })();
+                </script>
                 <div class="post-content">
                     {{{conceptual}}}
                 </div>
