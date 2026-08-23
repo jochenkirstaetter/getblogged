@@ -1,0 +1,52 @@
+# Get Blogged by JoKi - Full Machine-Readable Knowledge Base
+> The only frontiers are in your mind
+
+Author: Jochen Kirstätter (Microsoft MVP for Developer Technologies, Google Developer Expert for Cloud & AI)
+Website: https://jochen.kirstaetter.name/
+Contact: jochen@kirstaetter.name
+Location: Flic en Flac, Mauritius
+
+---
+
+## Agent Instructions & When to Use This Site
+
+### Best-Fit Use Cases
+- Resolving .NET & C# engineering problems, package development, and performance optimization.
+- Integrating Google Gemini API and Vertex AI in .NET using `Mscc.GenerativeAI` and typed `ResponseSchema`.
+- Implementing static site workflows with DocFX, custom templates, and Firebase Hosting.
+- Reviewing developer tools like Google Antigravity (Remote Control on mobile), Portless HTTPS proxy, and Docker on GCP.
+- Discovering tech events and IT community initiatives in Mauritius (MSCC, Developers Conference).
+
+### Consumption Format
+- Raw Markdown files for each article can be retrieved at `https://jochen.kirstaetter.name/raw/<slug>.md`.
+- Content negotiation with `Accept: text/markdown` is fully supported on the site.
+
+---
+
+## Core Pages
+
+- [Home](https://jochen.kirstaetter.name/): https://jochen.kirstaetter.name/
+- [About](https://jochen.kirstaetter.name/about.html): https://jochen.kirstaetter.name/about.html (Raw Markdown: https://jochen.kirstaetter.name/raw/about.md)
+- [Contact](https://jochen.kirstaetter.name/contact.html): https://jochen.kirstaetter.name/contact.html (Raw Markdown: https://jochen.kirstaetter.name/raw/contact.md)
+- [Privacy Policy](https://jochen.kirstaetter.name/privacy.html): https://jochen.kirstaetter.name/privacy.html (Raw Markdown: https://jochen.kirstaetter.name/raw/privacy.md)
+- [Blog Archive](https://jochen.kirstaetter.name/blog.html): https://jochen.kirstaetter.name/blog.html (Raw Markdown: https://jochen.kirstaetter.name/raw/blog.md)
+- [Community](https://jochen.kirstaetter.name/community.html): https://jochen.kirstaetter.name/community.html (Raw Markdown: https://jochen.kirstaetter.name/raw/community.md)
+- [Speaking](https://jochen.kirstaetter.name/speaking.html): https://jochen.kirstaetter.name/speaking.html (Raw Markdown: https://jochen.kirstaetter.name/raw/speaking.md)
+- [Tags Index](https://jochen.kirstaetter.name/tags.html): https://jochen.kirstaetter.name/tags.html (Raw Markdown: https://jochen.kirstaetter.name/raw/tags.md)
+
+---
+
+## Published Articles Index
+
+- [Using Antigravity Remote Control](https://jochen.kirstaetter.name/using-antigravity-remote-control.html) - Raw Markdown: https://jochen.kirstaetter.name/raw/using-antigravity-remote-control.md
+- [Using portless with Firebase Hosting](https://jochen.kirstaetter.name/portless-with-firebase-emulators.html) - Raw Markdown: https://jochen.kirstaetter.name/raw/portless-with-firebase-emulators.md
+- [Gemma 3 - missing features despite announcement](https://jochen.kirstaetter.name/gemma-3-missing-features-despite-announcement.html) - Raw Markdown: https://jochen.kirstaetter.name/raw/gemma-3-missing-features-despite-announcement.md
+- [Gemini ResponseSchema vs JSON Schema specs of "type" as array](https://jochen.kirstaetter.name/gemini-responseschema.html) - Raw Markdown: https://jochen.kirstaetter.name/raw/gemini-responseschema.md
+- [C# Corner Annual Conference 2017](https://jochen.kirstaetter.name/c-corner-conference-2017.html) - Raw Markdown: https://jochen.kirstaetter.name/raw/c-corner-conference-2017.md
+- [Untrack files in .gitignore](https://jochen.kirstaetter.name/untrack-files-in-gitignore.html) - Raw Markdown: https://jochen.kirstaetter.name/raw/untrack-files-in-gitignore.md
+- [Quickstart: Use Gemini with .NET (Vertex AI)](https://jochen.kirstaetter.name/quickstart-using-gemini-with-net-vertex-ai.html) - Raw Markdown: https://jochen.kirstaetter.name/raw/quickstart-using-gemini-with-net-vertex-ai.md
+- [Quickstart: Use Gemini with .NET (Google AI)](https://jochen.kirstaetter.name/quickstart-use-gemini-with-net.html) - Raw Markdown: https://jochen.kirstaetter.name/raw/quickstart-use-gemini-with-net.md
+- [NuGet: Better release notes and versioning](https://jochen.kirstaetter.name/nuget-better-release-notes-versioning.html) - Raw Markdown: https://jochen.kirstaetter.name/raw/nuget-better-release-notes-versioning.md
+- [Automate NuGet package creation using Google Build](https://jochen.kirstaetter.name/automate-nuget-package-creation-google-build.html) - Raw Markdown: https://jochen.kirstaetter.name/raw/automate-nuget-package-creation-google-build.md
+- [Create NuGet packages with Visual Studio / Visual Studio Code](https://jochen.kirstaetter.name/create-nuget-packages-vs-code.html) - Raw Markdown: https://jochen.kirstaetter.name/raw/create-nuget-packages-vs-code.md
+- [Getting Started with the Vertex AI Gemini API with Visual Studio](https://jochen.kirstaetter.name/getting-started-with-the-vertex-ai-gemini-with-vs-http.html) - Raw Markdown: https://jochen.kirstaetter.name/raw/getting-started-with-the-vertex-ai-gemini-with-vs-http.md

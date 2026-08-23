@@ -43,10 +43,7 @@
           "*.svg",
           "*.ico",
           "site.webmanifest",
-          "ads.txt",
-          "robots.txt",
-          "llms.txt",
-          "security.txt",
+          "*.txt",
           "*.xml",
           "*.html"
         ],

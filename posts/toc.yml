@@ -1,5 +1,9 @@
 - name: About
   uid: about
+- name: Contact
+  uid: contact
+- name: Privacy
+  uid: privacy
 - name: Blog
   uid: blog
 - name: Community
