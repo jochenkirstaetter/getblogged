@@ -7,6 +7,29 @@
 {{#canonicalUrl}}
 <link rel="canonical" href="{{canonicalUrl}}">
 {{/canonicalUrl}}
+{{^canonicalUrl}}
+{{#isHome}}
+<link rel="canonical" href="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}">
+{{/isHome}}
+{{^isHome}}
+{{#slug}}
+<link rel="canonical" href="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}{{slug}}.html">
+{{/slug}}
+{{^slug}}
+<link rel="canonical" href="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}">
+{{/slug}}
+{{/isHome}}
+{{/canonicalUrl}}
+
+{{#slug}}
+<link rel="alternate" type="text/markdown" title="Markdown Source" href="{{_rel}}raw/{{slug}}.md">
+{{/slug}}
+{{#isHome}}
+<link rel="alternate" type="text/markdown" title="Machine-Readable Manifest (llms.txt)" href="{{_rel}}llms.txt">
+<link rel="alternate" type="text/markdown" title="Full Knowledge Base (llms-full.txt)" href="{{_rel}}llms-full.txt">
+<link rel="alternate" type="text/markdown" title="Markdown Source" href="{{_rel}}raw/index.md">
+{{/isHome}}
+
 <meta name="referrer" content="no-referrer-when-downgrade">
 {{#metaTitle}}
 <meta name="title" content="{{metaTitle}}">

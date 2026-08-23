@@ -126,12 +126,11 @@
             if (em) em.href = 'mailto:?subject=' + currentTitle + '&body=Check out this site: ' + currentUrl;
         } catch (e) {}
 
-        // Mobile dropdown toggle logic
+        // Mobile / Tablet Web Share API with fallback to dropdown list
         var socialGroup = header.querySelector('.floating-header-social-group');
         var labelToggle = header.querySelector('.floating-header-share-label');
         if (socialGroup && labelToggle) {
-            labelToggle.addEventListener('click', function (e) {
-                e.stopPropagation();
+            function toggleDropdown() {
                 var isOpen = socialGroup.classList.contains('is-open');
                 if (isOpen) {
                     socialGroup.classList.remove('is-open');
@@ -140,6 +139,35 @@
                     socialGroup.classList.add('is-open');
                     labelToggle.setAttribute('aria-expanded', 'true');
                 }
+            }
+
+            labelToggle.addEventListener('click', function (e) {
+                e.stopPropagation();
+                var isMobileOrTablet = window.matchMedia('(max-width: 768px)').matches;
+
+                // Probe for Web Share API on mobile/tablet viewports
+                if (isMobileOrTablet && navigator.share) {
+                    var shareUrl = (typeof rawUrl !== 'undefined' && rawUrl) ? rawUrl : window.location.href;
+                    var shareTitle = document.title || (title ? title.innerText : '');
+                    var shareData = {
+                        title: shareTitle,
+                        text: shareTitle,
+                        url: shareUrl
+                    };
+
+                    if (!navigator.canShare || navigator.canShare(shareData)) {
+                        navigator.share(shareData).catch(function (err) {
+                            if (err.name !== 'AbortError') {
+                                // Fallback to dropdown list on sharing error
+                                toggleDropdown();
+                            }
+                        });
+                        return;
+                    }
+                }
+
+                // Default fallback: toggle dropdown list
+                toggleDropdown();
             });
 
             document.addEventListener('click', function (e) {

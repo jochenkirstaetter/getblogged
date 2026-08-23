@@ -49,34 +49,66 @@
 {{#canonicalUrl}}
 <meta property="og:url" content="{{canonicalUrl}}">
 {{/canonicalUrl}}
+{{^canonicalUrl}}
+{{#isHome}}
+<meta property="og:url" content="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}">
+{{/isHome}}
+{{^isHome}}
+{{#slug}}
+<meta property="og:url" content="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}{{slug}}.html">
+{{/slug}}
+{{^slug}}
+<meta property="og:url" content="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}">
+{{/slug}}
+{{/isHome}}
+{{/canonicalUrl}}
 {{#ogImage}}
 <meta property="og:image" content="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}{{ogImage}}">
-<meta property="og:image:width" content="1920">
-<meta property="og:image:height" content="1277">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 {{/ogImage}}
 {{^ogImage}}
 {{#facebookImage}}
 <meta property="og:image" content="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}{{facebookImage}}">
-<meta property="og:image:width" content="1920">
-<meta property="og:image:height" content="1277">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 {{/facebookImage}}
 {{^facebookImage}}
 {{#imageUrl}}
 <meta property="og:image" content="{{imageUrl}}">
-<meta property="og:image:width" content="1920">
-<meta property="og:image:height" content="1277">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 {{/imageUrl}}
 {{^imageUrl}}
 {{#featureImage}}
 <meta property="og:image" content="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}{{featureImage}}">
-<meta property="og:image:width" content="1920">
-<meta property="og:image:height" content="1277">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 {{/featureImage}}
 {{^featureImage}}
 {{#image}}
 <meta property="og:image" content="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}{{image}}">
-<meta property="og:image:width" content="1920">
-<meta property="og:image:height" content="1277">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+{{/image}}
+{{^image}}
+{{#coverImage}}
+<meta property="og:image" content="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}{{coverImage}}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+{{/coverImage}}
+{{^coverImage}}
+{{#_appCoverImage}}
+<meta property="og:image" content="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}{{_appCoverImage}}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+{{/_appCoverImage}}
+{{^_appCoverImage}}
+<meta property="og:image" content="{{#_appUrl}}{{_appUrl}}/cover.jpg{{/_appUrl}}{{^_appUrl}}cover.jpg{{/_appUrl}}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+{{/_appCoverImage}}
+{{/coverImage}}
 {{/image}}
 {{/featureImage}}
 {{/imageUrl}}

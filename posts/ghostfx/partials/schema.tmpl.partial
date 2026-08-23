@@ -1,7 +1,119 @@
+{{#isHome}}
 <script type="application/ld+json">
 {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@graph": [
+        {
+            "@type": "WebSite",
+            "@id": "{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}#website",
+            "url": "{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}",
+            "name": "{{#_appTitle}}{{_appTitle}}{{/_appTitle}}{{^_appTitle}}Get Blogged by JoKi{{/_appTitle}}",
+            "alternateName": "Get Blogged",
+            "description": "{{#description}}{{description}}{{/description}}{{^description}}The only frontiers are in your mind{{/description}}",
+            "inLanguage": "{{#_lang}}{{_lang}}{{/_lang}}{{^_lang}}en{{/_lang}}",
+            "publisher": {
+                "@id": "{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}#organization"
+            },
+            "author": {
+                "@id": "{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}#person"
+            }
+        },
+        {
+            "@type": "Organization",
+            "@id": "{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}#organization",
+            "name": "{{#_appTitle}}{{_appTitle}}{{/_appTitle}}{{^_appTitle}}Get Blogged by JoKi{{/_appTitle}}",
+            "url": "{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "{{#_appUrl}}{{#_appLogoPath}}{{_appUrl}}/{{_appLogoPath}}{{/_appLogoPath}}{{^_appLogoPath}}{{_appUrl}}/favicon.png{{/_appLogoPath}}{{/_appUrl}}{{^_appUrl}}favicon.png{{/_appUrl}}",
+                "width": 60,
+                "height": 60
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "editorial",
+                "email": "jochen@kirstaetter.name",
+                "url": "{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}contact.html"
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Flic en Flac",
+                "addressCountry": "MU"
+            },
+            "sameAs": [
+                "https://github.com/jochenkirstaetter",
+                "https://x.com/jkirstaetter",
+                "https://facebook.com/jochen.kirstaetter",
+                "https://www.linkedin.com/in/jochenkirstaetter/",
+                "https://bsky.app/profile/jochen.kirstaetter.name",
+                "https://mastodon.social/@jkirstaetter"
+            ]
+        },
+        {
+            "@type": "Person",
+            "@id": "{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}#person",
+            "name": "Jochen Kirstätter",
+            "alternateName": "JoKi",
+            "url": "{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}about.html",
+            "jobTitle": "Senior Software Crafter & Cloud/AI Expert",
+            "email": "jochen@kirstaetter.name",
+            "image": {
+                "@type": "ImageObject",
+                "url": "{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}content/images/2018/10/JoKi_StAubin_100px.webp",
+                "width": 100,
+                "height": 100
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Flic en Flac",
+                "addressCountry": "MU"
+            },
+            "sameAs": [
+                "https://github.com/jochenkirstaetter",
+                "https://x.com/jkirstaetter",
+                "https://facebook.com/jochen.kirstaetter",
+                "https://www.linkedin.com/in/jochenkirstaetter/",
+                "https://bsky.app/profile/jochen.kirstaetter.name",
+                "https://mastodon.social/@jkirstaetter",
+                "https://mvp.microsoft.com/en-US/MVP/profile/53d40e60-fe70-490e-8e73-2185b648f26f",
+                "https://g.dev/jkirstaetter"
+            ]
+        }
+    ]
+}
+</script>
+{{/isHome}}
+{{#isPost}}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{#canonicalUrl}}{{canonicalUrl}}{{/canonicalUrl}}{{^canonicalUrl}}{{#_appUrl}}{{_appUrl}}/{{slug}}.html{{/_appUrl}}{{/canonicalUrl}}"
+    },
+    "headline": "{{#metaTitle}}{{metaTitle}}{{/metaTitle}}{{^metaTitle}}{{#title}}{{title}}{{/title}}{{/metaTitle}}",
+    "url": "{{#canonicalUrl}}{{canonicalUrl}}{{/canonicalUrl}}{{^canonicalUrl}}{{#_appUrl}}{{_appUrl}}/{{slug}}.html{{/_appUrl}}{{/canonicalUrl}}",
+    "datePublished": "{{#publishedAt}}{{publishedAt}}{{/publishedAt}}{{^publishedAt}}{{#date}}{{date}}{{/date}}{{/publishedAt}}",
+    "dateModified": "{{#updatedAt}}{{updatedAt}}{{/updatedAt}}{{^updatedAt}}{{#publishedAt}}{{publishedAt}}{{/publishedAt}}{{^publishedAt}}{{#date}}{{date}}{{/date}}{{/publishedAt}}{{/updatedAt}}",
+    "description": "{{#metaDescription}}{{metaDescription}}{{/metaDescription}}{{^metaDescription}}{{#description}}{{description}}{{/description}}{{^description}}{{#excerpt}}{{excerpt}}{{/excerpt}}{{/description}}{{/metaDescription}}",
+    "keywords": "{{#keywords}}{{keywords}}{{/keywords}}",
+    "image": {
+        "@type": "ImageObject",
+        "url": "{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}{{#ogImage}}{{ogImage}}{{/ogImage}}{{^ogImage}}{{#image}}{{image}}{{/image}}{{^image}}{{#featureImage}}{{featureImage}}{{/featureImage}}{{^featureImage}}{{#imageUrl}}{{imageUrl}}{{/imageUrl}}{{^imageUrl}}cover.jpg{{/imageUrl}}{{/featureImage}}{{/image}}{{/ogImage}}",
+        "width": 1200,
+        "height": 630
+    },
+    "author": {
+        "@type": "Person",
+        "name": "{{#author}}{{author}}{{/author}}{{^author}}Jochen Kirstätter{{/author}}",
+        "url": "{{#authorPageUrl}}{{authorPageUrl}}{{/authorPageUrl}}{{^authorPageUrl}}{{#_appUrl}}{{_appUrl}}/about.html{{/_appUrl}}{{/authorPageUrl}}",
+        "sameAs": [
+            "https://github.com/jochenkirstaetter",
+            "https://x.com/jkirstaetter",
+            "https://www.linkedin.com/in/jochenkirstaetter/"
+        ]
+    },
     "publisher": {
         "@type": "Organization",
         "name": "{{#_appTitle}}{{_appTitle}}{{/_appTitle}}{{^_appTitle}}Get Blogged by JoKi{{/_appTitle}}",
@@ -11,43 +123,55 @@
             "url": "{{#_appUrl}}{{#_appLogoPath}}{{_appUrl}}/{{_appLogoPath}}{{/_appLogoPath}}{{^_appLogoPath}}{{_appUrl}}/favicon.png{{/_appLogoPath}}{{/_appUrl}}{{^_appUrl}}favicon.png{{/_appUrl}}",
             "width": 60,
             "height": 60
-        }
-    },
-    "author": {
-        "@type": "Person",
-        "name": "{{#author}}{{author}}{{/author}}{{^author}}Jochen Kirstätter{{/author}}",
-        "image": {
-            "@type": "ImageObject",
-            "url": "{{authorImageUrl}}",
-            "width": 100,
-            "height": 100
         },
-        "url": "{{authorPageUrl}}",
-        "sameAs": [
-            "{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}"
-            {{#authorFacebook}},
-            "{{authorFacebook}}"
-            {{/authorFacebook}}
-            {{#authorTwitter}},
-            "https://x.com/{{authorTwitter}}"
-            {{/authorTwitter}}
-        ]
-    },
-    "headline": "{{#metaTitle}}{{metaTitle}}{{/metaTitle}}{{^metaTitle}}{{#title}}{{title}}{{/title}}{{/metaTitle}}",
-    "url": "{{canonicalUrl}}",
-    "datePublished": "{{#publishedAt}}{{publishedAt}}{{/publishedAt}}",
-    "dateModified": "{{#updatedAt}}{{updatedAt}}{{/updatedAt}}{{^updatedAt}}{{#publishedAt}}{{publishedAt}}{{/publishedAt}}{{/updatedAt}}",
-    "image": {
-        "@type": "ImageObject",
-        "url": "{{#imageUrl}}{{imageUrl}}{{/imageUrl}}{{^imageUrl}}{{#featureImage}}{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}{{featureImage}}{{/featureImage}}{{^featureImage}}{{#image}}{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}{{image}}{{/image}}{{/featureImage}}{{/imageUrl}}",
-        "width": 1920,
-        "height": 1277
-    },
-    "keywords": "{{#keywords}}{{keywords}}{{/keywords}}",
-    "description": "{{#metaDescription}}{{metaDescription}}{{/metaDescription}}{{^metaDescription}}{{#description}}{{description}}{{/description}}{{^description}}{{#excerpt}}{{excerpt}}{{/excerpt}}{{^excerpt}}{{#summary}}{{summary}}{{/summary}}{{/excerpt}}{{/description}}{{/metaDescription}}",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}"
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "editorial",
+            "email": "jochen@kirstaetter.name",
+            "url": "{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}contact.html"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Flic en Flac",
+            "addressCountry": "MU"
+        }
     }
 }
 </script>
+{{/isPost}}
+{{#isPage}}
+{{^isHome}}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "{{#title}}{{title}}{{/title}}",
+    "headline": "{{#title}}{{title}}{{/title}}",
+    "url": "{{#canonicalUrl}}{{canonicalUrl}}{{/canonicalUrl}}{{^canonicalUrl}}{{#_appUrl}}{{_appUrl}}/{{slug}}.html{{/_appUrl}}{{/canonicalUrl}}",
+    "description": "{{#metaDescription}}{{metaDescription}}{{/metaDescription}}{{^metaDescription}}{{#description}}{{description}}{{/description}}{{/metaDescription}}",
+    "publisher": {
+        "@type": "Organization",
+        "name": "{{#_appTitle}}{{_appTitle}}{{/_appTitle}}{{^_appTitle}}Get Blogged by JoKi{{/_appTitle}}",
+        "url": "{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "{{#_appUrl}}{{#_appLogoPath}}{{_appUrl}}/{{_appLogoPath}}{{/_appLogoPath}}{{^_appLogoPath}}{{_appUrl}}/favicon.png{{/_appLogoPath}}{{/_appUrl}}{{^_appUrl}}favicon.png{{/_appUrl}}",
+            "width": 60,
+            "height": 60
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "editorial",
+            "email": "jochen@kirstaetter.name",
+            "url": "{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}contact.html"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Flic en Flac",
+            "addressCountry": "MU"
+        }
+    }
+}
+</script>
+{{/isHome}}
+{{/isPage}}
