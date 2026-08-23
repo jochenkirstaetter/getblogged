@@ -2,8 +2,8 @@
 uid: mastering-the-matrix-qr-code-generation
 title: "Mastering the Matrix: Elegant QR Code Generation"
 slug: mastering-the-matrix-qr-code-generation
-date: 2026-08-23
-status: draft
+date: 2026-08-24
+status: published
 type: post
 description: "How to craft lightweight, high-performance QR code engines across Python, JavaScript, and modern C# on .NET 10, combining Galois field mathematics, Reed-Solomon Level H error correction, and frosted-glass centre badges."
 tags:
@@ -15,7 +15,9 @@ layout: post
 bodyClass: post-template tag-development
 postClass: post tag-development
 isPost: true
-isDraft: true
+isDraft: false
+publishedAt: 2026-08-24T00:00:00Z
+updatedAt: 2026-08-24T00:00:00Z
 author: Jochen Kirstätter
 authorSlug: joki
 ---
@@ -108,10 +110,8 @@ Once data and parity blocks are interleaved, the matrix is constructed:
 
 Embedding an icon, brand mark, or site favicon inside a QR code elevates a generic barcode into a polished visual asset. However, visual design must never compromise scanner decodability.
 
-<div style="text-align: center; margin: 2rem 0;">
-  <img src="/content/images/2026/08/qr-variation-monochrome-favicon.webp" alt="Branded QR code generated with Level H error correction and centre badge" title="Branded QR Code with Centre Favicon Badge" style="max-width: 220px; width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
-  <p><small>Level H QR code with centred brand favicon and protective backing plate.</small></p>
-</div>
+![Branded QR code generated with Level H error correction and centre badge](../content/images/2026/08/qr-variation-monochrome-favicon.webp "Branded QR Code with Centre Favicon Badge")  
+*Level H QR code with centred brand favicon and protective backing plate.*
 
 ### Mathematical Safety Margin
 Because Level H error correction recovers up to **30%** of obscured or corrupted codewords, an overlay occupying the geometric centre is interpreted by scanners as localised surface damage. 
@@ -133,68 +133,36 @@ Two visual elements ensure 100% scanning reliability:
 
 ### Real-World Matrix Variations in Production
 
-To demonstrate how custom colourways and centre badges behave under Error Correction Level H, here are three real-world variations generated across our publishing pipeline. Each variant maintains strict optical scannability while aligning with specific content categories:
+To demonstrate how custom colourways and centre badges behave under Error Correction Level H, here are three real-world variations generated across our publishing pipeline:
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin: 2rem 0 2.5rem 0;">
+::: grid
+![Royal Indigo Raw QR Matrix](../content/images/2026/08/qr-variation-indigo-raw.webp "Royal Indigo Raw QR Matrix")
+![Deep Emerald QR Code with Centre Favicon](../content/images/2026/08/qr-variation-emerald-favicon.webp "Deep Emerald QR Code with Centre Favicon")
+![Warm Crimson QR Code with Centre Favicon](../content/images/2026/08/qr-variation-crimson-favicon.webp "Warm Crimson QR Code with Centre Favicon")
+:::
 
-  <!-- Card 1: Royal Indigo Raw Matrix -->
-  <div style="background: var(--color-bg-subtle, #f8fafc); border: 1px solid var(--color-border, #e2e8f0); border-radius: 12px; padding: 1.25rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
-    <div style="text-align: center; margin-bottom: 1rem;">
-      <img src="/content/images/2026/08/qr-variation-indigo-raw.webp" alt="Royal Indigo QR code on Slate-50 background with raw matrix modules" title="Royal Indigo Raw QR Matrix" style="max-width: 100%; width: 220px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
-    </div>
-    <div>
-      <h4 style="margin: 0 0 0.5rem 0; font-size: 1.05rem;">1. Royal Indigo Raw Matrix</h4>
-      <p style="font-size: 0.875rem; margin-bottom: 0.75rem; line-height: 1.45;">
-        <strong>Colour:</strong> Royal Indigo (<code>#1e40af</code>) on Slate-50 (<code>#f8fafc</code>)<br />
-        <strong>Contrast Ratio:</strong> 8.2:1 (WCAG AAA)<br />
-        <strong>Badge Configuration:</strong> Raw modules without centre emblem (100% data payload visibility; 0% occlusion).
-      </p>
-      <p style="font-size: 0.875rem; margin: 0; line-height: 1.45;">
-        <strong>Target Article:</strong> <xref:portless-with-firebase-emulators><br />
-        <small style="color: var(--color-text-muted, #64748b);">Optimised for high-density payloads, technical documentation sheets, and minimal print layouts.</small>
-      </p>
-    </div>
-  </div>
+#### Variant Specifications
 
-  <!-- Card 2: Deep Emerald with Favicon -->
-  <div style="background: var(--color-bg-subtle, #f8fafc); border: 1px solid var(--color-border, #e2e8f0); border-radius: 12px; padding: 1.25rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
-    <div style="text-align: center; margin-bottom: 1rem;">
-      <img src="/content/images/2026/08/qr-variation-emerald-favicon.webp" alt="Deep Emerald QR code with 24 percent centre favicon badge" title="Deep Emerald QR Code with Centre Favicon" style="max-width: 100%; width: 220px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
-    </div>
-    <div>
-      <h4 style="margin: 0 0 0.5rem 0; font-size: 1.05rem;">2. Deep Emerald &amp; Favicon</h4>
-      <p style="font-size: 0.875rem; margin-bottom: 0.75rem; line-height: 1.45;">
-        <strong>Colour:</strong> Deep Emerald (<code>#065f46</code>) on Pure White (<code>#ffffff</code>)<br />
-        <strong>Contrast Ratio:</strong> 7.5:1 (WCAG AAA)<br />
-        <strong>Badge Configuration:</strong> 24% centre brand favicon on a solid white plate with protective quiet margins.
-      </p>
-      <p style="font-size: 0.875rem; margin: 0; line-height: 1.45;">
-        <strong>Target Article:</strong> <xref:sql-server-on-gcp><br />
-        <small style="color: var(--color-text-muted, #64748b);">Tailored for database architecture, Google Cloud platform guides, and infrastructure articles.</small>
-      </p>
-    </div>
-  </div>
+1. **Royal Indigo Raw Matrix**
+   - **Colour**: Royal Indigo (`#1e40af`) on Slate-50 (`#f8fafc`)
+   - **Contrast Ratio**: 8.2:1 (WCAG AAA)
+   - **Badge Configuration**: Raw modules without centre emblem (100% data payload visibility; 0% occlusion).
+   - **Target Article**: <xref:portless-with-firebase-emulators>
+   - *Optimised for high-density payloads, technical documentation sheets, and minimal print layouts.*
 
-  <!-- Card 3: Warm Crimson with Favicon -->
-  <div style="background: var(--color-bg-subtle, #f8fafc); border: 1px solid var(--color-border, #e2e8f0); border-radius: 12px; padding: 1.25rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
-    <div style="text-align: center; margin-bottom: 1rem;">
-      <img src="/content/images/2026/08/qr-variation-crimson-favicon.webp" alt="Warm Crimson QR code with 22 percent centre favicon badge" title="Warm Crimson QR Code with Centre Favicon" style="max-width: 100%; width: 220px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
-    </div>
-    <div>
-      <h4 style="margin: 0 0 0.5rem 0; font-size: 1.05rem;">3. Warm Crimson &amp; Favicon</h4>
-      <p style="font-size: 0.875rem; margin-bottom: 0.75rem; line-height: 1.45;">
-        <strong>Colour:</strong> Warm Crimson (<code>#9f1239</code>) on Pure White (<code>#ffffff</code>)<br />
-        <strong>Contrast Ratio:</strong> 6.8:1 (WCAG AAA)<br />
-        <strong>Badge Configuration:</strong> 22% centre brand favicon with subtle background isolation.
-      </p>
-      <p style="font-size: 0.875rem; margin: 0; line-height: 1.45;">
-        <strong>Target Article:</strong> <xref:using-antigravity-remote-control><br />
-        <small style="color: var(--color-text-muted, #64748b);">Designed for multi-agent workflows, AI remote tooling, and systems architecture topics.</small>
-      </p>
-    </div>
-  </div>
+2. **Deep Emerald & Favicon**
+   - **Colour**: Deep Emerald (`#065f46`) on Pure White (`#ffffff`)
+   - **Contrast Ratio**: 7.5:1 (WCAG AAA)
+   - **Badge Configuration**: 24% centre brand favicon on a solid white plate with protective quiet margins.
+   - **Target Article**: <xref:sql-server-on-gcp>
+   - *Tailored for database architecture, Google Cloud platform guides, and infrastructure articles.*
 
-</div>
+3. **Warm Crimson & Favicon**
+   - **Colour**: Warm Crimson (`#9f1239`) on Pure White (`#ffffff`)
+   - **Contrast Ratio**: 6.8:1 (WCAG AAA)
+   - **Badge Configuration**: 22% centre brand favicon with subtle background isolation.
+   - **Target Article**: <xref:using-antigravity-remote-control>
+   - *Designed for multi-agent workflows, AI remote tooling, and systems architecture topics.*
 
 ---
 

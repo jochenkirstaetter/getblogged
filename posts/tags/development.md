@@ -12,6 +12,7 @@ image: content/images/2018/10/20626381_10203983204297799_562900680618946131_o.we
 
 ## Articles
 
+- [Mastering the Matrix: Elegant QR Code Generation](xref:mastering-the-matrix-qr-code-generation) - *2026-08-24*
 - [Using portless with Firebase Hosting](xref:portless-with-firebase-emulators) - *2026-08-21*
 - [Gemma 3 - missing features despite announcement](xref:gemma-3-missing-features-despite-announcement) - *2025-03-12*
 - [Gemini ResponseSchema vs JSON Schema specs of "type" as array](xref:gemini-responseschema) - *2025-01-20*

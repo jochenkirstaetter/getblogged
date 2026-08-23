@@ -24,8 +24,13 @@
             {{#posts}}
                 {{>partials/post-card}}
             {{/posts}}
-            {{{conceptual}}}
         </div>
+
+        {{#conceptual}}
+        <section class="sr-only" aria-label="Site Overview &amp; Accessibility Information">
+            {{{conceptual}}}
+        </section>
+        {{/conceptual}}
 
     </div>
 </main>

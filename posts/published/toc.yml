@@ -1,3 +1,5 @@
+- name: "Mastering the Matrix: Elegant QR Code Generation"
+  href: mastering-the-matrix-qr-code-generation.md
 - name: "Gemma 3 - missing features despite announcement"
   href: gemma-3-missing-features-despite-announcement.md
 - name: "Gemini ResponseSchema vs JSON Schema specs of \"type\" as array"

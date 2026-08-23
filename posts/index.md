@@ -9,6 +9,19 @@ canonicalUrl: https://jochen.kirstaetter.name/
 isHome: true
 bodyClass: home-template
 posts:
+- title: "Mastering the Matrix: Elegant QR Code Generation"
+  slug: mastering-the-matrix-qr-code-generation
+  date: 2026-08-24
+  formattedDate: Aug 24, 2026
+  image: content/images/2026/08/mastering-the-matrix-qr-code-generation.webp
+  excerpt: "How to craft lightweight, high-performance QR code engines across Python, JavaScript, and modern C# on .NET 10, combining Galois field mathematics, Reed-Solomon Level H error correction, and frosted-glass centre badges."
+  authorName: Jochen Kirstätter
+  authorSlug: joki
+  authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
+  primaryTag: Development
+  tagSlug: development
+  tagClass: tag-development
+  imageClass: with-image
 - title: "Using Antigravity Remote Control"
   slug: using-antigravity-remote-control
   date: 2026-08-22
@@ -145,19 +158,6 @@ posts:
   formattedDate: Mar 1, 2024
   image: content/images/2024/03/Gemini_Generated_Image.webp
   excerpt: "An essential tool for any modern development platform is a mechanism through which developers can create, share, and consume useful code. For .NET it's NuGet packages to the rescue!"
-  authorName: Jochen Kirstätter
-  authorSlug: joki
-  authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
-  primaryTag: Development
-  tagSlug: development
-  tagClass: tag-development
-  imageClass: with-image
-- title: "Getting Started with the Vertex AI Gemini API with Visual Studio"
-  slug: getting-started-with-the-vertex-ai-gemini-with-vs-http
-  date: 2024-02-23
-  formattedDate: Feb 23, 2024
-  image: content/images/2024/02/vertex-gemini-visualstudio.webp
-  excerpt: "Access to Vertex AI Gemini API is currently offered through SDKs not including C#. Visual Studio 2022 comes with an integrated HTTP client using .http files. The article shows how to access Vertex AI Gemini API using .http files."
   authorName: Jochen Kirstätter
   authorSlug: joki
   authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
