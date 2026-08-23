@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: GDE SSA Summit 2022
 metaDescription: Did you ever hear about the Google Developers Expert (GDE) Summit in the Sub-Saharan Africa (SSA) region? No? Well, then let me tell you it was the same experience for me.
 image: content/images/2023/08/GDE_SSA_Summit_2022.webp
+ogImage: content/images/2023/08/GDE_SSA_Summit_2022-og.webp
 ogTitle: GDE SSA Summit 2022
 ogDescription: Did you ever hear about the Google Developers Expert (GDE) Summit in the Sub-Saharan Africa (SSA) region? No? Well, then let me tell you it was the same experience for me.
 layout: post

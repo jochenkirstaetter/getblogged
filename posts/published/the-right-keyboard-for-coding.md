@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: Is the CODE keyboard the right keyboard for coding?
 metaDescription: Some days ago there was this big announcement that Jeff Atwood together with WASD Keyboards developed the CODE keyboard that is especially designed for software developers.
 image: content/images/2018/02/Touch-Type-DasKeyboard.webp
+ogImage: content/images/2018/02/Touch-Type-DasKeyboard-og.webp
 ogTitle: Is the CODE keyboard the right keyboard for coding?
 ogDescription: Some of you actually know that I have a dasKeyboard Ultimate since years. Honestly, it is an absolutely gorgeous piece of hardware and my main input device. But it's not the only keyboard I'm using...
 layout: post

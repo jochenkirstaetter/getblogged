@@ -12,6 +12,7 @@ keywords: Linux
 metaTitle: Upgrade to Xubuntu 15.04 - Vivid Vervet
 metaDescription: Running an operating system like Ubuntu or any of its derivates, like ie. Xubuntu, comes with some nice treats (and threats?). One of the nice things is that you'll get a scheduled upgrade approximately every six months. Usually, around April and October of each year.
 image: content/images/2017/08/xubuntu_1504_welcome.webp
+ogImage: content/images/2017/08/xubuntu_1504_welcome-og.webp
 ogTitle: Upgrade to Xubuntu 15.04 - Vivid Vervet
 ogDescription: Running an operating system like Ubuntu or any of its derivates, like ie. Xubuntu, comes with some nice treats (and threats?). One of the nice things is that you'll get a scheduled upgrade...
 layout: post

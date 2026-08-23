@@ -13,6 +13,7 @@ keywords: Development, Community
 metaTitle: Install Jitsi Meet on Compute Engine (GCP)
 metaDescription: This first article of a series on Jitsi Meet describes the basic installation of an instance on the Google Cloud Platform.
 image: content/images/2020/04/mscc-jitsi-default.webp
+ogImage: content/images/2020/04/mscc-jitsi-default-og.webp
 ogTitle: Install Jitsi Meet on Compute Engine (GCP)
 ogDescription: This first article of a series on Jitsi Meet describes the basic installation of an instance on the Google Cloud Platform.
 layout: post

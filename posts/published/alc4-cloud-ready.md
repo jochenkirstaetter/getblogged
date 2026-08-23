@@ -13,6 +13,7 @@ keywords: Development, Andela
 metaTitle: Considerations for production readiness (ALC 4.0 Cloud Challenge I)
 metaDescription: This is the fourth and last part of a series regarding the completion of the ALC 4.0 Cloud Challenge I. Covering a few aspects of production readiness of the React app as Docker image on GKE and further steps to consider.
 image: content/images/2019/11/photo-1568194157720-8bbe7114ebe8.webp
+ogImage: content/images/2019/11/photo-1568194157720-8bbe7114ebe8-og.webp
 ogTitle: Considerations for production readiness (ALC 4.0 Cloud Challenge I)
 ogDescription: This is the fourth and last part of a series regarding the completion of the ALC 4.0 Cloud Challenge I. Covering a few aspects of production readiness of the React app as Docker image on GKE and further steps to consider.
 layout: post

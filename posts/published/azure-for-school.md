@@ -14,6 +14,7 @@ keywords: Linux, Personal, Development
 metaTitle: ICT skills at primary school
 metaDescription: Our children have computer lectures at their primary school since this year. In general, it's a great idea that students are exposed to computer literacy at an early stage. But sometimes it comes with...
 image: content/images/2018/02/mie_icttextbook.webp
+ogImage: content/images/2018/02/mie_icttextbook-og.webp
 ogTitle: ICT skills at primary school
 ogDescription: Our children have computer lectures at their primary school since this year. In general, it's a great idea that students are exposed to computer literacy at an early stage. But sometimes it comes with...
 layout: post

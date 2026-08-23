@@ -13,6 +13,7 @@ keywords: Community, Andela
 metaTitle: ALC 4.0 Cloud - Access to Qwiklabs
 metaDescription: The following collection of hands-on-labs on Qwiklabs has been made available to scholars of the Andela Learning Community (ALC) 4.0 program. A collaboration between Andela, Google and Pluralsight to...
 image: content/images/2019/09/photo-1529007196863-d07650a3f0ea.webp
+ogImage: content/images/2019/09/photo-1529007196863-d07650a3f0ea-og.webp
 ogTitle: ALC 4.0 Cloud - Access to Qwiklabs
 ogDescription: The following collection of hands-on-labs on Qwiklabs has been made available to scholars of the Andela Learning Community (ALC) 4.0 program. A collaboration between Andela, Google and Pluralsight to...
 layout: post

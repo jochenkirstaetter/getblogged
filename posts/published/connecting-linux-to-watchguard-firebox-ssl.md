@@ -12,6 +12,7 @@ keywords: Linux
 metaTitle: Connecting Linux to WatchGuard Firebox SSL (OpenVPN client)
 metaDescription: Tutorial to configure a Linux machine as OpenVPN client to connect to WatchGuard Firebox SSL inclusive routing, iptables and connect on boot feature.
 image: content/images/2017/08/watchguard-sslvpn.webp
+ogImage: content/images/2017/08/watchguard-sslvpn-og.webp
 ogTitle: Connecting Linux to WatchGuard Firebox SSL (OpenVPN client)
 ogDescription: Recently, I got a new project assignment that requires to connect permanently to the customer's network through VPN. They are using a so-called SSL VPN. As I am using OpenVPN since more than 5 years...
 layout: post

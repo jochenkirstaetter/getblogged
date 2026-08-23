@@ -12,6 +12,7 @@ keywords: Personal
 metaTitle: Curriculum Vitae
 metaDescription: Curriculum Vitae Personal data Name Jochen Michael Wolfgang Kirstätter Alias JoKi Passport photograph Date of birth 22th May 1976 Location of birth Ludwigshafen (Rhein), Germany Family status Married Parents Wolfgang Wilhelm KirstätterDagmar Ruth Ursula Waltraut Kirstätter, nee Obser Career summary Experience in project and change request management,
 image: content/images/2009/12/photo-1521798509035-1c05acf2d840.webp
+ogImage: content/images/2009/12/photo-1521798509035-1c05acf2d840-og.webp
 ogTitle: Curriculum Vitae
 ogDescription: Windows (NT 4, 2000, XP, Server 2003, Vista and Server 2008)Microsoft SQL Server 2005 and 2008, MySQL 4.x and higher, Oracle 9.x, PostgreSQLMicrosoft Visual FoxPro (6.0 till 9.0), C# with Visual...
 layout: post

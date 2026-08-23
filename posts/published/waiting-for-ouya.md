@@ -12,6 +12,7 @@ keywords: Android
 metaTitle: Waiting for OUYA
 metaDescription: OUYA game console is shippin'. That's very exciting news (at least for me) and I'm really looking forward to get my hands on that open gaming console based on Android.
 image: content/images/2013/04/photo-1533654238074-8841f6e8e610.webp
+ogImage: content/images/2013/04/photo-1533654238074-8841f6e8e610-og.webp
 ogTitle: Waiting for OUYA
 ogDescription: 'Good Friday brought some interesting updates into my mail inbox:'
 layout: post

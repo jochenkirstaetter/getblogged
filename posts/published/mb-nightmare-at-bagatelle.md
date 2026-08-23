@@ -12,6 +12,7 @@ keywords: General
 metaTitle: Mugg & Bean - Nightmare at Bagatelle
 metaDescription: Seriously, it is not my intention to blackmail a brand with this posting but frankly speaking after all those months of continuous negative experience at Mugg & Bean in Bagatelle, I won't have another meal for a very long time in one of their branches. No matter where it is located. And believe me Mugg & Bean isn't the first franchise I completely ditched for more than a decade.
 image: content/images/2015/05/photo-1505544268199-46687f164d10.webp
+ogImage: content/images/2015/05/photo-1505544268199-46687f164d10-og.webp
 ogTitle: Mugg & Bean - Nightmare at Bagatelle
 ogDescription: It took me quite some while to decide whether I should write about this culinary topic or not. In general, I try to keep it like Thumper - "If you can't say something nice, don't say nothin' at...
 layout: post

@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: Gastbesuch bei VFP Stammtisch Stuttgart
 metaDescription: Gastbesuch bei VFP Stammtisch Stuttgart Auf Einladung, oder sollte ich sagen besser &#39;Revanche&#39; sagen?, von Armin Neudert (dFPUG Regionalleiter Stuttgart) bin ich am FR Abend in Herrenberg bei Stuttgart anzutreffen. Dankeswerterweise darf ich den Stuttgarter Stammtisch f&#252;r eine Generalprobe einer AFP-Session f&#252;r die Devcon 2004 &#39;mi&#223;brauchen&#39;. Ich bin mal gespannt,
 image: content/images/2004/10/photo-1587196824241-2a289b7d1693.webp
+ogImage: content/images/2004/10/photo-1587196824241-2a289b7d1693-og.webp
 ogTitle: Gastbesuch bei VFP Stammtisch Stuttgart
 ogDescription: Auf Einladung, oder sollte ich sagen besser 'Revanche' sagen?, von Armin Neudert (dFPUG Regionalleiter Stuttgart) bin ich am FR Abend in Herrenberg bei Stuttgart anzutreffen. Dankeswerterweise darf...
 layout: post

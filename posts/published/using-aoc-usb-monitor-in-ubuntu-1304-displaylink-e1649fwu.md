@@ -12,6 +12,7 @@ keywords: Linux
 metaTitle: Using a portable USB monitor in Ubuntu 13.04 (AOC e1649Fwu - DisplayLink)
 metaDescription: Connecting an AOC e1649Fwu external USB display under Ubuntu 13.04 requires a Linux kernel 3.9 or higher. The DisplayLink driver has been integrated to work
 image: content/images/2017/08/usb_display_win8.webp
+ogImage: content/images/2017/08/usb_display_win8-og.webp
 ogTitle: Using a portable USB monitor in Ubuntu 13.04 (AOC e1649Fwu - DisplayLink)
 ogDescription: Having access to a little bit of IT hardware extravaganza isn't that easy here in Mauritius for exactly two reasons - either it is simply not available or it is expensive like nowhere. Well, by chance...
 layout: post

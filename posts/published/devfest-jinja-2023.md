@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: DevFest Jinja 2023
 metaDescription: First time travelling to Uganda and speaking at DevFest Jinja. It was a bit of a roller coaster however wonderful experience in total. With the highlight being a visit to the Source of the Nile.
 image: content/images/2023/11/F_yN7y4WgAA77fN.webp
+ogImage: content/images/2023/11/F_yN7y4WgAA77fN-og.webp
 ogTitle: DevFest Jinja 2023
 ogDescription: First time travelling to Uganda and speaking at DevFest Jinja. It was a bit of a roller coaster however wonderful experience in total. With the highlight being a visit to the Source of the Nile.
 layout: post

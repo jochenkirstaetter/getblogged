@@ -13,6 +13,7 @@ keywords: Windows, Projects
 metaTitle: DIY Windows Game Box (Steam, Itch, Xbox, Store, Scumm, etc.)
 metaDescription: Working in IT has its up's and down's. One of the up's is probably the circumstance of purchasing new hardware on a regular base. (Un)fortunately two events came together this year - an aging machine...
 image: content/images/2018/10/WP_20180723_19_45_23_Pro.webp
+ogImage: content/images/2018/10/WP_20180723_19_45_23_Pro-og.webp
 ogTitle: DIY Windows Game Box (Steam, Itch, Xbox, Store, Scumm, etc.)
 ogDescription: Working in IT has its up's and down's. One of the up's is probably the circumstance of purchasing new hardware on a regular base. (Un)fortunately two events came together this year - an aging machine...
 layout: post

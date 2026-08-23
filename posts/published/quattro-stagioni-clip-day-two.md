@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: Quattro stagioni (CLIP Day Two)
 metaDescription: Quattro stagioni (CLIP Day Two) 5:45 Zimmer 330 - In the middle of the nightWenn man schon im Hotel übernachtet, dann muss man auch gleich aus den Vollen schöpfen? Herrje, was ein Glück waren meine Schlafübergangsphasen extrem kurz. Ins Bett und weg in den Tiefschlaf und jetzt *flupp* raus dem
 image: content/images/2004/10/photo-1536090219743-b4d977a0d9f2.webp
+ogImage: content/images/2004/10/photo-1536090219743-b4d977a0d9f2-og.webp
 ogTitle: Quattro stagioni (CLIP Day Two)
 ogDescription: Wenn man schon im Hotel übernachtet, dann muss man auch gleich aus den Vollen schöpfen? Herrje, was ein Glück waren meine Schlafübergangsphasen extrem kurz. Ins Bett und weg in den Tiefschlaf und...
 layout: post

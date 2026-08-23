@@ -12,6 +12,7 @@ keywords: Recension
 metaTitle: The Superlative Stream by Kerry Nietz
 metaDescription: Forced by the circumstances of his own liberation SandFly and HardCandy board the ultra-modern spaceship DarkTrench and continue their journey of enlightenment in the remote star system of Betelgeuse. Following their exploration of the superlative stream they are getting confronted with more than they expected to...
 image: content/images/2014/01/photo-1450849608880-6f787542c88a.webp
+ogImage: content/images/2014/01/photo-1450849608880-6f787542c88a-og.webp
 ogTitle: The Superlative Stream by Kerry Nietz
 ogDescription: Reading, reading and more reading... The last couple of days have been a great experience. Despite having excursions into the fictitious future of our civilisation it was also interesting to see the...
 layout: post

@@ -12,6 +12,7 @@ keywords: Android
 metaTitle: Children are happy using their Kindle Fire HDX
 metaDescription: Even though I already use a variety of tablets - both iOS- and Android-based - for professional reasons I was looking for a more secure solution for children than what is possible with the default systems.
 image: content/images/2015/01/photo-1491841550275-ad7854e35ca6.webp
+ogImage: content/images/2015/01/photo-1491841550275-ad7854e35ca6-og.webp
 ogTitle: Children are happy using their Kindle Fire HDX
 ogDescription: Another bargain from Amazon made it to our paradise island. This time I went on the hunt for tablet for our children. Even though I already use a variety of tablets - both iOS- and Android-based - for...
 layout: post

@@ -13,6 +13,7 @@ keywords: Community, Personal
 metaTitle: SSA Community Summit 2018
 metaDescription: The purpose of the Sub-Saharan Africa (SSA) Community Summit was to bring together organisers of Google Developer Groups (GDGs) from various locations in the region to talk about their user groups, to share their experience, and to inspire each other with success stories.
 image: content/images/2018/10/DSC_0617.webp
+ogImage: content/images/2018/10/DSC_0617-og.webp
 ogTitle: SSA Community Summit 2018
 ogDescription: The purpose of the Sub-Saharan Africa (SSA) Community Summit was to bring together organisers of Google Developer Groups (GDGs) from various locations in the region to talk about their user groups, to share their experience, and to inspire each other with success stories.
 layout: post

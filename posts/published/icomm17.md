@@ -13,6 +13,7 @@ keywords: Community, Activity
 metaTitle: InterCommunity 2017
 metaDescription: Share more local content - Mauritius is still consuming more content than actually creating and sharing information. With better understanding and corporation between local service providers and a revised price structure this could be achieved soon, given the existing technology available today.
 image: content/images/2017/10/WP_20170919_10_34_03_Pro.webp
+ogImage: content/images/2017/10/WP_20170919_10_34_03_Pro-og.webp
 ogTitle: InterCommunity 2017
 ogDescription: Share more local content - Mauritius is still consuming more content than actually creating and sharing information. With better understanding and corporation between local service providers and a revised price structure this could be achieved soon, given the existing technology available today.
 layout: post

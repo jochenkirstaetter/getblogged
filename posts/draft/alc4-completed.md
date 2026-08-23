@@ -13,6 +13,7 @@ keywords: Community, Andela
 metaTitle: 'You have reached your destination - #150DaysOfALC4'
 metaDescription: It was an incredible journey.
 image: content/images/2019/11/photo-1558949623-35b2e2649754.webp
+ogImage: content/images/2019/11/photo-1558949623-35b2e2649754-og.webp
 ogTitle: 'You have reached your destination - #150DaysOfALC4'
 ogDescription: It was an incredible journey.
 layout: post

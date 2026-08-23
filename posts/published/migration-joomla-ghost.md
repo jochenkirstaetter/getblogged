@@ -13,6 +13,7 @@ keywords: Development, General
 metaTitle: Migration to Ghost
 metaDescription: The article describes how to migrate content from Joomla 1.x to Ghost 1.x. Eventually, it might be partial but enough to modernise my blog.
 image: content/images/2017/08/ray-hennessy-233438.webp
+ogImage: content/images/2017/08/ray-hennessy-233438-og.webp
 ogTitle: Migration to Ghost
 ogDescription: With the announcement of Ghost 1.0 I gained some motivation to take care of my blog. It's been untouched since a very long time and honestly I didn't feel like writing my articles in plain HTML...
 layout: post

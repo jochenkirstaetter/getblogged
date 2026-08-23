@@ -12,6 +12,7 @@ keywords: General
 metaTitle: Überall Baustellen?
 metaDescription: Überall Baustellen? Es ist irgendwie unglaublich, aber dennoch nicht von der Hand zu weisen - überall Baustellen. Mein Wohnzimmer sieht aus, als ob ein BobCat durchgejagt wäre. Kabel, Festplatte, ausgeweidete Computer - ein technisches Schlachtfeld. Bleibt nur die Frage, wer als Sieger hervorging.Ebenso sieht es derzeit softwareseitig aus... Da wären
 image: content/images/2005/02/photo-1614127938540-a1139bee1841.webp
+ogImage: content/images/2005/02/photo-1614127938540-a1139bee1841-og.webp
 ogTitle: Überall Baustellen?
 ogDescription: Es ist irgendwie unglaublich, aber dennoch nicht von der Hand zu weisen - überall Baustellen. Mein Wohnzimmer sieht aus, als ob ein BobCat durchgejagt wäre. Kabel, Festplatte, ausgeweidete Computer -...
 layout: post

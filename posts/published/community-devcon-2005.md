@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: Community DevCon 2005
 metaDescription: Community DevCon 2005 Endlich!Die Einladung kam bereits im Dezember - noch vor Weihnachten - und bis heute zieht sich die Zeit doch wie ein Kaugummi. Aber endlich ist wieder Microsoft Coummnity DevCon! Yeah, allein die Aussicht, wieder andere CLIP Mitglieder, MVPs und INETA Mitglieder offline zu treffen und Gespr&#228;che zu
 image: content/images/2005/02/photo-1522071820081-009f0129c71c.webp
+ogImage: content/images/2005/02/photo-1522071820081-009f0129c71c-og.webp
 ogTitle: Community DevCon 2005
 ogDescription: Endlich!Die Einladung kam bereits im Dezember - noch vor Weihnachten - und bis heute zieht sich die Zeit doch wie ein Kaugummi. Aber endlich ist wieder Microsoft Coummnity DevCon! Yeah, allein die...
 layout: post

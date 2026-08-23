@@ -13,6 +13,7 @@ keywords: Linux, Development
 metaTitle: Ghost Desktop on Xubuntu 17.04 won't start
 metaDescription: Ghost Desktop won't start on Debian/Ubuntu via the application menu or any other GUI launcher. Check permissions to fix the issue.
 image: content/images/2017/08/GhostDesktopApp.webp
+ogImage: content/images/2017/08/GhostDesktopApp-og.webp
 ogTitle: Ghost Desktop on Xubuntu 17.04 won't start
 ogDescription: Ghost Desktop won't start on Debian/Ubuntu via the application menu or any other GUI launcher. Check permissions to fix the issue.
 layout: post

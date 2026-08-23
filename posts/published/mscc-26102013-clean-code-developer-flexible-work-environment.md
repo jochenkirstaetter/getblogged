@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: 'MSCC: Clean Code Development & Flexible work environment'
 metaDescription: Professional - It's getting better with our meetups and I really appreciated that 'seniors' and 'juniors' were present today. Despite running a little bit out of time it was really great to see more students coming to the gathering.
 image: content/images/2019/01/highres_285414502-1.webp
+ogImage: content/images/2019/01/highres_285414502-1-og.webp
 ogTitle: 'MSCC: Clean Code Development & Flexible work environment'
 ogDescription: Finally, some spare time to summarize my impressions and experiences of the recent meetup of Mauritius Software Craftsmanship Community. I already posted my comment on the event and on our social...
 layout: post

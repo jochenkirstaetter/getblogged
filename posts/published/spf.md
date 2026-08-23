@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: 'Good to know: Sender Policy Framework'
 metaDescription: The Sender Policy Framework (SPF) is an open standard specifying a technical method to prevent sender address forgery. More precisely, the current version of SPF — called SPFv1 or SPF Classic — protects the envelope sender address, which is used for the delivery of messages.
 image: content/images/2014/12/photo-1485182708500-e8f1f318ba72.webp
+ogImage: content/images/2014/12/photo-1485182708500-e8f1f318ba72-og.webp
 ogTitle: 'Good to know: Sender Policy Framework'
 ogDescription: Today, I ran into a "funny" situation where I got caught by my own mail server and DNS configuration. Actually, I'm referring to the Sender Policy Framework (SPF) and it disallowed that an email would...
 layout: post

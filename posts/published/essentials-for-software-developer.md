@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: Essentials for software developer or any computer job
 metaDescription: A couple of abilities are essential to any software developer. It is compulsory to get those ones right.
 image: content/images/2013/05/photo-1511072303409-7e8ddb93a0a5.webp
+ogImage: content/images/2013/05/photo-1511072303409-7e8ddb93a0a5-og.webp
 ogTitle: Essentials for software developer or any computer job
 ogDescription: "This article is the first one in a series of articles on 'Essentials for Software Craftsmanship':"
 layout: post

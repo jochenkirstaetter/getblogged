@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: Taking web sites offline for demonstration
 metaDescription: How to prepare an offline version of your web site for the purpose of demonstration or for exhibitions.
 image: content/images/2012/10/photo-1454165804606-c3d57bc86b40.webp
+ogImage: content/images/2012/10/photo-1454165804606-c3d57bc86b40-og.webp
 ogTitle: Taking web sites offline for demonstration
 ogDescription: While working in software development in general, and in web development for a couple of customers it is quite common that it is necessary to provide a test bed where the client is able to get an...
 layout: post

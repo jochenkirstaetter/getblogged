@@ -12,6 +12,7 @@ keywords: Linux
 metaTitle: Using ext4 in VMware machine
 metaDescription: Using ext4 as journaling filesystem for your Linux server seems to be a good choice. But definitely not in a VMware virtual machine...
 image: content/images/2010/07/photo-1528823872057-9c018a7a7553.webp
+ogImage: content/images/2010/07/photo-1528823872057-9c018a7a7553-og.webp
 ogTitle: Using ext4 in VMware machine
 ogDescription: First of all, using a journaling filesystems like NTFS, ext4, XFS, or JFS (not to name all of them) is a very good idea and nowadays unthinkable not to do. Linux offers a good variety of different...
 layout: post

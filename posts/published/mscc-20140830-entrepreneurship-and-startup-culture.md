@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: 'MSCC: Entrepreneurship and start-up culture (in Mauritius)'
 metaDescription: Seriously, even though the idea of starting a business right after graduation might be tempting, take into consideration that there's a lot to learn and it's definitely not the big bucks you should after. Building your own company takes a lot of energy and investment in terms of time and money. Be smart, learn from others' experience, team up in start-up if you prefer a more flexible life-style.
 image: content/images/2014/08/photo-1455849318743-b2233052fcff.webp
+ogImage: content/images/2014/08/photo-1455849318743-b2233052fcff-og.webp
 ogTitle: 'MSCC: Entrepreneurship and start-up culture (in Mauritius)'
 ogDescription: After skipping a monthly meetup back in July it was highly anticipated that we are going to get together again during August. And wow, what an experience it has been... Not only the event itself but...
 layout: post

@@ -13,6 +13,7 @@ keywords: Community, Activity
 metaTitle: Campsite fire talk with John O'Nolan
 metaDescription: Good things take time. After more than a year I finally managed to sit down and write about the experience of welcoming John O'Nolan, founder of Ghost blogging platform, to one of our MSCC meetings.
 image: content/images/2018/03/mscc_johnonolan_campsitetalk.webp
+ogImage: content/images/2018/03/mscc_johnonolan_campsitetalk-og.webp
 ogTitle: Campsite fire talk with John O'Nolan
 ogDescription: Good things take time. After more than a year I finally managed to sit down and write about the experience of welcoming John O'Nolan, founder of Ghost blogging platform, to one of our MSCC meetings.
 layout: post

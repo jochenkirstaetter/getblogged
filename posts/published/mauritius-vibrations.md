@@ -12,6 +12,7 @@ keywords: Android
 metaTitle: 'App Review: Mauritius Vibrations'
 metaDescription: Very often in Mauritius, we have the feeling that nothing is happening. Or we learn about interesting events only after they have occurred. This is specially true for tourists who often find it difficult to get timely information on the latest happenings in Mauritius. As a result, a lot of tourists tend to stay in their hotel and miss the real Mauritius!
 image: content/images/2018/02/mauritius-vibrations-event.webp
+ogImage: content/images/2018/02/mauritius-vibrations-event-og.webp
 ogTitle: 'App Review: Mauritius Vibrations'
 ogDescription: Finally, someone was able to realize one of 'my' ideas for an app. Since I'm here on the island I was always kind of annoyed by the simple fact that you could only read the articles about events that...
 layout: post

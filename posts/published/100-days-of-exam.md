@@ -14,6 +14,7 @@ keywords: Projects, Personal, Community
 metaTitle: 100 Days of Exam
 metaDescription: "A new adventure is on its way: #100DaysOfExam which has been inspired by two factors. First, my personal 30-day challenges I did in the past and the concept of '100 Days of Code'."
 image: content/images/2018/03/photo-1504384764586-bb4cdc1707b0.webp
+ogImage: content/images/2018/03/photo-1504384764586-bb4cdc1707b0-og.webp
 ogTitle: 100 Days of Exam
 ogDescription: "A new adventure is on its way: #100DaysOfExam which has been inspired by two factors. First, my personal 30-day challenges I did in the past and the concept of '100 Days of Code'."
 layout: post

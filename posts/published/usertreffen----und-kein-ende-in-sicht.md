@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: Usertreffen... und kein Ende in Sicht
 metaDescription: Usertreffen... und kein Ende in Sicht Beinahe k&#246;nnte man es schon als Stress auslegen - positiven Stress stellt es garantiert schon dar. Und wenn man nur &#39;ne Stunde auf der Autobahn steht oder Odysee-like &#252;ber unbekannte Landstra&#223;en zuckelt... da bekommt das Wort &#39;Telefonkonferenz&#39; bzw. &#39;Navigationssystem&#39; ebenfalls noch eine neue Bedeutung.
 image: content/images/2023/09/conference-room-full-of-attendees--pastel---utopian--in-the-style-of-Pierre-Auguste-Renoir-an.webp
+ogImage: content/images/2023/09/conference-room-full-of-attendees--pastel---utopian--in-the-style-of-Pierre-Auguste-Renoir-an-og.webp
 ogTitle: Usertreffen... und kein Ende in Sicht
 ogDescription: Beinahe könnte man es schon als Stress auslegen - positiven Stress stellt es garantiert schon dar. Und wenn man nur 'ne Stunde auf der Autobahn steht oder Odysee-like über unbekannte Landstraßen...
 layout: post

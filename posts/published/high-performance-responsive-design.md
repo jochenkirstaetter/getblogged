@@ -12,6 +12,7 @@ keywords: Recension
 metaTitle: High Performance Responsive Design by Tom Barker
 metaDescription: "Although, as good as everyone working in the field of web sites or web application development is talking about Responsive Web Development (RWD) Tom Barker has a simple but nevertheless shocking statement: You're doing it wrong!"
 image: content/images/2014/11/photo-1470436079497-37aebf0a66cf.webp
+ogImage: content/images/2014/11/photo-1470436079497-37aebf0a66cf-og.webp
 ogTitle: High Performance Responsive Design by Tom Barker
 ogDescription: It seems that I have a little bit of time these days. Luckily and thanks to the O'Reilly Reader Review Program I was able to get access to "High Performance Responsive Design" by Tom Barker. Actually...
 layout: post

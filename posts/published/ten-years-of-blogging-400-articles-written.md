@@ -12,6 +12,7 @@ keywords: General
 metaTitle: Ten years of blogging - 400+ articles written
 metaDescription: View back on over 10 years of writing blog articles (ir)regularly.
 image: content/images/2017/08/niketh-vellanki-202943.webp
+ogImage: content/images/2017/08/niketh-vellanki-202943-og.webp
 ogTitle: Ten years of blogging - 400+ articles written
 ogDescription: There are 86400 seconds every day, and literally every single one matters...
 layout: post

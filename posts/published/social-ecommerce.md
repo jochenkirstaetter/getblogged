@@ -12,6 +12,7 @@ keywords: Recension
 metaTitle: Social eCommerce by Stephan Spencer, Jimmy Harding & Jennifer Sheahan
 metaDescription: Although, using and running paid advertising services for some of my clients I still came across a big pile of improvements. The authors describe the benefits of shifting away from plain numbers in terms of search engine ranking towards conversions (and therefore earning money) very well.
 image: content/images/2014/11/photo-1505473478993-e61136811cc4.webp
+ogImage: content/images/2014/11/photo-1505473478993-e61136811cc4-og.webp
 ogTitle: Social eCommerce by Stephan Spencer, Jimmy Harding & Jennifer Sheahan
 ogDescription: Another book title based on my participation in the O'Reilly Reader Reviews programm. This time we are diving into the depths of online marketing. Whether it's for your own business or providing...
 layout: post

@@ -13,6 +13,7 @@ keywords: Community, Andela
 metaTitle: 'Share your journey - #150DaysOfALC4'
 metaDescription: Following my participation as a mentor in the program 3.1 of the Andela Learning Community (ALC) end of last year, I seized the opportunity to be part of the ALC 4.0 program. Again as a mentor for the Mobile Web Specialist certification and additionally as a learner for the Google Cloud track.
 image: content/images/2019/08/-150DaysOfALC-01-Medium-1.webp
+ogImage: content/images/2019/08/-150DaysOfALC-01-Medium-1-og.webp
 ogTitle: 'Share your journey - #150DaysOfALC4'
 ogDescription: Following my participation as a mentor in the program 3.1 of the Andela Learning Community (ALC) end of last year, I seized the opportunity to be part of the ALC 4.0 program. Again as a mentor for the Mobile Web Specialist certification and additionally as a learner for the Google Cloud track.
 layout: post

@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: 'MSCC: Christmas raffle and plans for 2014'
 metaDescription: Our last monthly meetup for 2013 had been organised at the Ebene Accelerator, Orange Tower, Ebene. Already the pre-registration or commonly known the RSVPs look very promising. At least 17 craftsmen were expected to show up. And... it was better than that.
 image: content/images/2013/12/photo-1510545973694-c3190af89c24.webp
+ogImage: content/images/2013/12/photo-1510545973694-c3190af89c24-og.webp
 ogTitle: 'MSCC: Christmas raffle and plans for 2014'
 ogDescription: Our last monthly meetup for 2013 had been organised at the Ebene Accelerator, Orange Tower, Ebene. Already the pre-registration or commonly known the RSVPs look very promising. At least 17 craftsmen...
 layout: post

@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: 'MSCC: Global Windows Azure Bootcamp'
 metaDescription: Mauritius participated and contributed to the Global Windows Azure Bootcamp 2014 (GWAB). Again! And this time stronger than ever, and together with 137 other locations in 56 countries world-wide.
 image: content/images/2014/04/photo-1531498860502-7c67cf02f657.webp
+ogImage: content/images/2014/04/photo-1531498860502-7c67cf02f657-og.webp
 ogTitle: 'MSCC: Global Windows Azure Bootcamp'
 ogDescription: Mauritius participated and contributed to the Global Windows Azure Bootcamp 2014 (GWAB). Again! And this time stronger than ever, and together with 137 other locations in 56 countries world-wide.
 layout: post

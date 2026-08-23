@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: Preparations for Developers Conference 2015
 metaDescription: Mauritius has been branded Cyber Island in the Indian Ocean... Opinions in those matters vary but with this conference we strive to improve the general attribution of our island. Mauritius has great political stability and economical advantages for foreign investors, and the most precious resource Mauritius has to offer is people's knowledge.
 image: content/images/2017/08/DevelopersConference_large.webp
+ogImage: content/images/2017/08/DevelopersConference_large-og.webp
 ogTitle: Preparations for Developers Conference 2015
 ogDescription: Developers Conference 2015 is the first event in Mauritius, maybe even in the Indian Ocean which is organised as a "classic" conference. Yes, there have been various vendor-specific bootcamps in the...
 layout: post

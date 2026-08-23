@@ -13,6 +13,7 @@ keywords: Development, Andela
 metaTitle: Google Kubernetes Engine (ALC 4.0 Cloud Challenge I)
 metaDescription: This is the third part of a series regarding the completion of the ALC 4.0 Cloud Challenge I. The article covers the deployment of a Docker image on Google Kubernetes Engine (GKE).
 image: content/images/2019/11/kubernetes.webp
+ogImage: content/images/2019/11/kubernetes-og.webp
 ogTitle: Google Kubernetes Engine (ALC 4.0 Cloud Challenge I)
 ogDescription: This is the third part of a series regarding the completion of the ALC 4.0 Cloud Challenge I. The article covers the deployment of a Docker image on Google Kubernetes Engine (GKE).
 layout: post

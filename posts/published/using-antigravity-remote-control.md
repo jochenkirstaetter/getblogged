@@ -12,6 +12,7 @@ tags:
 - Productivity
 keywords: AI, Tooling, Productivity, Antigravity, Mobile, Content Creation, Assisted Authoring
 image: content/images/2026/08/remote-control-70s.webp
+ogImage: content/images/2026/08/remote-control-70s-og.webp
 layout: post
 bodyClass: post-template tag-ai tag-tooling tag-productivity
 postClass: post tag-ai tag-tooling tag-productivity
@@ -81,6 +82,9 @@ On your mobile phone, tablet, or secondary laptop:
 - **Preserved Context**: Your workstation retains all local file systems, active Git branches, terminal environments, environment variables, and authentication tokens.
 - **Multi-Machine Management**: You can manage multiple instances simultaneously (such as a local workstation, a build box, or a cloud VM running the Antigravity headless daemon) and switch between them from a single dashboard.
 - **Proactive Push Notifications**: The web interface supports push notifications, alerting you immediately when an agent completes a long-running turn or requires your approval, eliminating the need to poll or stay glued to the screen.
+
+![Antigravity Remote Control - Spooky action at a distance?](../content/images/2026/08/antigravity-remote-control-spooky-action.webp "Albert Einstein using Antigravity remote control to orchestrate AI agents")
+<small>Image credit: Guillaume Laforge ([@glaforge on X](https://x.com/glaforge))</small>
 
 ---
 
@@ -205,4 +209,4 @@ Have you experimented with AI-assisted blog authoring or managing your content r
 
 Feel free to connect and share your thoughts with me on X ([@JKirstaetter](https://x.com/jkirstaetter)), BlueSky ([@jochen.kirstaetter.name](https://bsky.app/profile/jochen.kirstaetter.name)), or Mastodon ([@JKirstaetter](https://mastodon.social/@jkirstaetter)). You can also subscribe to [my blog's RSS feed](https://jochen.kirstaetter.name/rss/) for upcoming articles and technical write-ups.
 
-<small>Picture credits: Hero image generated with Gemini 3.1 Flash Image via Antigravity; Mobile screenshots by Jochen Kirstätter.</small>
+<small>Picture credits: Hero image generated with Gemini 3.1 Flash Image via Antigravity; Spooky action comic by Guillaume Laforge ([@glaforge on X](https://x.com/glaforge)); Mobile screenshots by Jochen Kirstätter.</small>

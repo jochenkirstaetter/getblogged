@@ -13,6 +13,7 @@ keywords: Community, Andela
 metaTitle: ALC 4.0 Cloud - Slack questions
 metaDescription: A collection of questions that popped up in Slack recently. I'm going to give my opinion based on the knowledge I have gained so far. Surely, this is not going to be complete and there are different...
 image: content/images/2019/08/photo-1531206715517-5c0ba140b2b8.webp
+ogImage: content/images/2019/08/photo-1531206715517-5c0ba140b2b8-og.webp
 ogTitle: ALC 4.0 Cloud - Slack questions
 ogDescription: A collection of questions that popped up in Slack recently. I'm going to give my opinion based on the knowledge I have gained so far. Surely, this is not going to be complete and there are different...
 layout: post

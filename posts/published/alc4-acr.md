@@ -13,6 +13,7 @@ keywords: Development, Andela
 metaTitle: Working with Azure Container Registry
 metaDescription: Describes how to take the same React application as discussed in Create React App (ALC 4.0 Cloud Challenge I) and to deploy it as an App Service on Microsoft Azure using a Docker image.
 image: content/images/2020/01/photo-1513415277900-a62401e19be4.webp
+ogImage: content/images/2020/01/photo-1513415277900-a62401e19be4-og.webp
 ogTitle: Working with Azure Container Registry
 ogDescription: Describes how to take the same React application as discussed in Create React App (ALC 4.0 Cloud Challenge I) and to deploy it as an App Service on Microsoft Azure using a Docker image.
 layout: post

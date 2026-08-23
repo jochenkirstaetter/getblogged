@@ -12,6 +12,7 @@ keywords: Android
 metaTitle: Playing Ingress by Niantic Labs in Mauritius
 metaDescription: Playing Ingress by Niantic Labs is still a tough challenge on Mauritius. Hopefully, this article will increase awareness and recruit more agents.
 image: content/images/2018/11/PortLouisHarbour.webp
+ogImage: content/images/2018/11/PortLouisHarbour-og.webp
 ogTitle: Playing Ingress by Niantic Labs in Mauritius
 ogDescription: As of writing this article it is quite tough to play Ingress here in Mauritius. Unfortunately, it seems that there is only a low awareness of this great Android app by Niantic Labs.
 layout: post

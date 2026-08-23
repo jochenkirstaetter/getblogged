@@ -12,6 +12,7 @@ keywords: Linux
 metaTitle: VMware Kernel Module Updater hangs on Ubuntu 13.04
 metaDescription: Usually, the dialog of VMware Kernel Module Updater pops up, asks for root access authentication, and completes the compilation. In theory this is supposed to work flawlessly but in reality there are pitfalls occassionally.
 image: content/images/2013/05/photo-1532622785990-d2c36a76f5a6.webp
+ogImage: content/images/2013/05/photo-1532622785990-d2c36a76f5a6-og.webp
 ogTitle: VMware Kernel Module Updater hangs on Ubuntu 13.04
 ogDescription: VMware Player has a nice auto-detection of kernel changes, and requests the user to compile the required modules in order to load them. This happens from time to time after a regular update of your...
 layout: post

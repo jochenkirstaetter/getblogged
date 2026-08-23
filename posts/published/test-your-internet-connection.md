@@ -12,6 +12,7 @@ keywords: General
 metaTitle: Test your internet connection - Emtel Fixed Broadband
 metaDescription: From time to time you should check the speed of your internet connection. Here are my observations on a symmetric WiMAX provided by Emtel Ltd.
 image: content/images/2019/01/speedtest-20130530.webp
+ogImage: content/images/2019/01/speedtest-20130530-og.webp
 ogTitle: Test your internet connection - Emtel Fixed Broadband
 ogDescription: Already at the begin of April, I had a phone conversation with my representative at Emtel Ltd. about some upcoming issues due to the ongoing construction work in my neighbourhood. Unfortunately, they...
 layout: post

@@ -10,6 +10,7 @@ tags:
   - Development
 keywords: 'firebase emulators, portless, reverse proxy, localhost, local https, development server, firebase hosting'
 image: content/images/2026/08/portless-with-firebase-emulators.webp
+ogImage: content/images/2026/08/portless-with-firebase-emulators-og.webp
 layout: post
 bodyClass: post-template tag-development
 postClass: post tag-development
@@ -32,7 +33,6 @@ authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 publishedAt: 2026-08-21T20:00:00Z
 updatedAt: 2026-08-21T20:00:00Z
 ---
-
 # Using portless with Firebase emulators
 
 When developing multiple web applications and microservices locally, managing local port numbers quickly becomes tedious. Switching between `localhost:3000`, `localhost:5000`, `localhost:8080`, and `localhost:9099` leads to port collisions, CORS friction, and cookie domain mismatches.

@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: Mauritius Software Craftsmanship Community (aka User Group)
 metaDescription: The Mauritius Software Craftsmanship Community is a technology-agnostic user group simply because you can't ignore other technologies anymore in a connected IT world as we are living in.
 image: content/images/2018/02/mscc-liquid-banner.webp
+ogImage: content/images/2018/02/mscc-liquid-banner-og.webp
 ogTitle: Mauritius Software Craftsmanship Community (aka User Group)
 ogDescription: I finally managed to push myself forward and pick up an old, actually too old, idea since I ever arrived here in Mauritius more than six years ago. I'm talking about a community for all kind of ICT...
 layout: post

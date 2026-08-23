@@ -12,6 +12,7 @@ keywords: Windows
 metaTitle: 'Tip: Open PowerShell window here'
 metaDescription: As a power user I'm really more used to hotkeys and application shortcuts than moving the mouse pointer on the screen. The article describes a few options of how to open an instance of PowerShell in the current folder.
 image: content/images/2019/01/SteelSeries_Keyboard_GreenBacklit.webp
+ogImage: content/images/2019/01/SteelSeries_Keyboard_GreenBacklit-og.webp
 ogTitle: 'Tip: Open PowerShell window here'
 ogDescription: As a power user I'm really more used to hotkeys and application shortcuts than moving the mouse pointer on the screen. The article describes a few options of how to open an instance of PowerShell in the current folder.
 layout: post

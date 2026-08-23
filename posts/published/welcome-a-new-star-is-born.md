@@ -13,6 +13,7 @@ keywords: Personal, General
 metaTitle: Welcome - A new star is born!
 metaDescription: we would like to introduce you to our latest project Stitch or better said experiment 'Tristan Kane Kirstätter'. The little boy was born two days ago, 26.05.2010, at around 01:45 hours.
 image: content/images/2019/01/IMG_0374.JPG
+ogImage: content/images/2019/01/IMG_0374-og.webp
 ogTitle: Welcome - A new star is born!
 ogDescription: Hello dear family & friends,we would like to introduce you to our latest project "Stitch" or better said experiment 'Tristan Kane Kirstätter'.The little boy was born two days ago, 26.05.2010, at...
 layout: post

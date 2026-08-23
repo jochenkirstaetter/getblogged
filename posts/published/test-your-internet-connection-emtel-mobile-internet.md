@@ -12,6 +12,7 @@ keywords: General
 metaTitle: Test your internet connection - Emtel Mobile Internet
 metaDescription: From time to time you should check the speed of your internet connection. Here are my observations on Emtel Mobile Internet.
 image: content/images/2019/01/speedtest-20130530-3g.webp
+ogImage: content/images/2019/01/speedtest-20130530-3g-og.webp
 ogTitle: Test your internet connection - Emtel Mobile Internet
 ogDescription: After yesterday's report on Emtel Fixed Broadband (I'm still wondering where the 'fixed' part is), I did the same tests on Emtel Mobile Internet. For this I'm using the Huawei E169G HSDPA USB stick...
 layout: post

@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: DevFest Dar es Salaam 2023
 metaDescription: With an improving health and running a few workshops - in-house and remote - earlier this year I was getting more and more eager as well excited about the idea to speak at DevFest Dar es Salaam, Tanzania.
 image: content/images/2023/12/DX4A8685.webp
+ogImage: content/images/2023/12/DX4A8685-og.webp
 ogTitle: DevFest Dar es Salaam 2023
 ogDescription: With an improving health and running a few workshops - in-house and remote - earlier this year I was getting more and more eager as well excited about the idea to speak at DevFest Dar es Salaam, Tanzania.
 layout: post

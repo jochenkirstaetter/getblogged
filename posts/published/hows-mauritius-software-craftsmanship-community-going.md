@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: How's Mauritius Software Craftsmanship Community going?
 metaDescription: The Mauritius Software Craftsmanship Community (MSCC) has its 6 month anniversary, and as the founder I would like to Thank You all our craftsmen for their interest, engagement, ideas and support during these months!
 image: content/images/2018/02/C2sJy7wWIAA-YaO.webp
+ogImage: content/images/2018/02/C2sJy7wWIAA-YaO-og.webp
 ogTitle: How's Mauritius Software Craftsmanship Community going?
 ogDescription: 'Earlier this month I received an email from Meetup.com asking about how our young community is working. Following I simply post their initial contact and the related correspondence:'
 layout: post

@@ -12,6 +12,7 @@ keywords: Linux
 metaTitle: How to extend a virtual disk and its logical volume(s) in CentOS
 metaDescription: Brief description on how to extend a virtual disk and its logical volumes on CentOS 5.3. Prior to this article I ran into the problem of 'out of disk space' on one of my virtual machines.
 image: content/images/2018/04/chuttersnap-553860-unsplash_small.webp
+ogImage: content/images/2018/04/chuttersnap-553860-unsplash_small-og.webp
 ogTitle: How to extend a virtual disk and its logical volume(s) in CentOS
 ogDescription: Never touch a running system - kept me away from any modifications. Well, there's always a time that change has more benefits than not touching the system...
 layout: post

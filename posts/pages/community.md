@@ -11,6 +11,7 @@ keywords: ''
 metaTitle: Community
 metaDescription: Sharing is Caring!
 image: content/images/2017/08/20116908_10203910928450948_74478864427909437_o.webp
+ogImage: content/images/2017/08/20116908_10203910928450948_74478864427909437_o-og.webp
 ogTitle: Community
 ogDescription: Sharing is Caring!
 layout: page

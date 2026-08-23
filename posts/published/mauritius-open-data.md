@@ -12,6 +12,7 @@ keywords: General
 metaTitle: Mauritius Open Data Readiness Assessment (ODRA)
 metaDescription: Open Data has been initiated in Mauritius back in 2012, it is only this year that there seems to be more momentum towards an Open Data initiative.
 image: content/images/2017/08/odra_workshop.webp
+ogImage: content/images/2017/08/odra_workshop-og.webp
 ogTitle: Mauritius Open Data Readiness Assessment (ODRA)
 ogDescription: Although Open Data is around since several years in other countries and has been initiated in Mauritius already back in 2012, it is only this year that there seems to be more momentum towards an Open...
 layout: post

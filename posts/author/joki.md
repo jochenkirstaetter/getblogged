@@ -11,6 +11,7 @@ keywords: ''
 metaTitle: Jochen Kirstätter
 metaDescription: The only frontiers are in your mind
 image: content/images/2017/07/DevCon2017Keynote-1-1.webp
+ogImage: content/images/2017/07/DevCon2017Keynote-1-1-og.webp
 ogTitle: Jochen Kirstätter
 ogDescription: The only frontiers are in your mind
 layout: author

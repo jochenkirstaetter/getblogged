@@ -13,6 +13,7 @@ keywords: Community, Andela
 metaTitle: ALC 4.0 Cloud - Phase II Online Meet up
 metaDescription: With Phase 2 being kicked off a few days ago, there have been some changes communicated by the program admins of the Andela Learning Community (ALC). One of those improvements is that there are going...
 image: content/images/2019/09/gcp.webp
+ogImage: content/images/2019/09/gcp-og.webp
 ogTitle: ALC 4.0 Cloud - Phase II Online Meet up
 ogDescription: With Phase 2 being kicked off a few days ago, there have been some changes communicated by the program admins of the Andela Learning Community (ALC). One of those improvements is that there are going...
 layout: post

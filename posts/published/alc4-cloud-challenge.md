@@ -14,6 +14,7 @@ keywords: Development, Activity, Andela
 metaTitle: ALC 4.0 Cloud Challenge I
 metaDescription: Solving the Andela 4.0 Cloud Challenge described in multiple, individual steps
 image: content/images/2019/10/alc4cloudchallengedns.webp
+ogImage: content/images/2019/10/alc4cloudchallengedns-og.webp
 ogTitle: ALC 4.0 Cloud Challenge I
 ogDescription: Solving the Andela 4.0 Cloud Challenge described in multiple, individual steps
 layout: post

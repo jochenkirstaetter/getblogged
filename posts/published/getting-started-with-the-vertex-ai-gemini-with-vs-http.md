@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: Getting Started with the Vertex AI Gemini API with Visual Studio
 metaDescription: Access to Vertex AI Gemini API is currently offered through SDKs not including C#. Visual Studio 2022 comes with an integrated HTTP client using .http files. The article shows how to access Vertex AI Gemini API using .http files.
 image: content/images/2024/02/vertex-gemini-visualstudio.webp
+ogImage: content/images/2024/02/vertex-gemini-visualstudio-og.webp
 ogTitle: Getting Started with the Vertex AI Gemini API with Visual Studio
 ogDescription: Access to Vertex AI Gemini API is currently offered through SDKs not including C#. Visual Studio 2022 comes with an integrated HTTP client using .http files. The article shows how to access Vertex AI Gemini API using .http files.
 layout: post

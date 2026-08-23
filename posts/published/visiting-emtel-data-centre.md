@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: Visiting the Emtel Data Centre
 metaDescription: Given the feedback that there will be upcoming changes in prices the facilities at the Emtel data centre are getting more and more competitive and interesting for local companies, especially small and medium enterprises.
 image: content/images/2017/08/mscc-20140731-2.webp
+ogImage: content/images/2017/08/mscc-20140731-2-og.webp
 ogTitle: Visiting the Emtel Data Centre
 ogDescription: Back in February at the first event of the Emtel Knowledge Series (EKS) I spoke to various people at Emtel about their data centre here on the island. I was trying to see whether it would be possible...
 layout: post

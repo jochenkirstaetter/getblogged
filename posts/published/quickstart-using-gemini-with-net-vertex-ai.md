@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: 'Quickstart: Use Gemini with .NET (Vertex AI)'
 metaDescription: Use Gemini in .NET in shortest time following this quickstart to configure Vertex AI on Google Cloud and add generative AI features to your apps.
 image: content/images/2024/04/Gemini_Generated_Image.webp
+ogImage: content/images/2024/04/Gemini_Generated_Image-og.webp
 ogTitle: 'Quickstart: Use Gemini with .NET (Vertex AI)'
 ogDescription: Use Gemini in .NET in shortest time following this quickstart to configure Vertex AI on Google Cloud and add generative AI features to your apps.
 layout: post

@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: Why we decided to postpone Developers Conference 2020
 metaDescription: Brief inside view into the thought process behind the decision to postpone the most important IT event in Mauritius.
 image: content/images/2020/03/photo-1507415492521-917f60c93bfe.webp
+ogImage: content/images/2020/03/photo-1507415492521-917f60c93bfe-og.webp
 ogTitle: Why we decided to postpone Developers Conference 2020
 ogDescription: Brief inside view into the thought process behind the decision to postpone the most important IT event in Mauritius.
 layout: post

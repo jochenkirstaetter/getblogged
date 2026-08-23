@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: 'NuGet: Better release notes and versioning'
 metaDescription: Release notes or better a Changelog is an important part of a package to inform other developers about new features, changes and fixes. Enjoy rich formatting and re-usable content for a NuGet package.
 image: content/images/2024/04/_913c222e-d6c8-4431-9586-3c2d42883014.webp
+ogImage: content/images/2024/04/_913c222e-d6c8-4431-9586-3c2d42883014-og.webp
 ogTitle: 'NuGet: Better release notes and versioning'
 ogDescription: Release notes or better a Changelog is an important part of a package to inform other developers about new features, changes and fixes. Enjoy rich formatting and re-usable content for a NuGet package.
 layout: post

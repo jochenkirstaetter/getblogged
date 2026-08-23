@@ -12,6 +12,7 @@ keywords: General
 metaTitle: Dear Postmaster of Mauritius Revenue Authority
 metaDescription: Using an invalid host name can cause problems. Host names must start with a letter, end with a letter or digit, and have as interior characters only letters, digits, and hyphen.
 image: content/images/2017/10/love-1120294_1280.webp
+ogImage: content/images/2017/10/love-1120294_1280-og.webp
 ogTitle: Dear Postmaster of Mauritius Revenue Authority
 ogDescription: Using an invalid host name can cause problems. Host names must start with a letter, end with a letter or digit, and have as interior characters only letters, digits, and hyphen.
 layout: post

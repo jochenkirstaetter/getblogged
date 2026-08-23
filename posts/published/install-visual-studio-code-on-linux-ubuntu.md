@@ -12,6 +12,7 @@ keywords: Linux
 metaTitle: Installing Visual Studio Code on Linux (Ubuntu)
 metaDescription: Linux users are currently confronted with some lack of comfort compared to their Windows and Mac OS X friends. Try Visual Studio Code under Linux...
 image: content/images/2017/08/vscode_menulauncher.webp
+ogImage: content/images/2017/08/vscode_menulauncher-og.webp
 ogTitle: Installing Visual Studio Code on Linux (Ubuntu)
 ogDescription: During this year's //build conference Microsoft officially announced a new member of the Visual Studio series called Code. As described by several people already it is a HTML5, JavaScript/TypeScript...
 layout: post

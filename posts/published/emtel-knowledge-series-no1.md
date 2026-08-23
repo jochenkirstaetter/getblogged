@@ -12,6 +12,7 @@ keywords: General
 metaTitle: Emtel Knowledge Series - Q1/2014
 metaDescription: The Emtel Knowledge Series goes in compliance with Emtel's 25th anniversary celebrations throughout the year and more events will be organised on a quarterly base.
 image: content/images/2014/02/photo-1483478550801-ceba5fe50e8e.webp
+ogImage: content/images/2014/02/photo-1483478550801-ceba5fe50e8e-og.webp
 ogTitle: Emtel Knowledge Series - Q1/2014
 ogDescription: Getting more involved into the local ICT community seems to open a lot more possibilities and occasions to participate in various events. Lately, I have been to the first gathering of the freshly...
 layout: post

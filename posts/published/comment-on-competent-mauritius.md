@@ -12,6 +12,7 @@ keywords: General
 metaTitle: Comment on 'Competent Mauritius'
 metaDescription: Response to an article on noulakaz.net about the level of competence in Mauritius.
 image: content/images/2013/04/photo-1533234427049-9e9bb093186d.webp
+ogImage: content/images/2013/04/photo-1533234427049-9e9bb093186d-og.webp
 ogTitle: Comment on 'Competent Mauritius'
 ogDescription: Sadly, my comment on the original address is not available. Might have been due to technical issues, don't know.
 layout: post

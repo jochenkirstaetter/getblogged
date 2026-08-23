@@ -12,6 +12,7 @@ keywords: Linux
 metaTitle: Install Adobe AIR on Ubuntu/Linux
 metaDescription: Since quite some time Adobe Technologies released the Linux version of Adobe AIR to bring web applications and widgets to your desktop. Installing new applications on a Linux system is not always as easy as switching the computer on. The following instructions might be helpful to install Adobe AIR on any Linux system.
 image: content/images/2019/02/adobeair.webp
+ogImage: content/images/2019/02/adobeair-og.webp
 ogTitle: Install Adobe AIR on Ubuntu/Linux
 ogDescription: Since quite some time Adobe Technologies released the Linux version of Adobe AIR to bring web applications and widgets to your desktop. Installing new applications on a Linux system is not always as...
 layout: post

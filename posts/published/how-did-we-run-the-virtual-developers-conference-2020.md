@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: How did we run the Virtual Developers Conference 2020?
 metaDescription: The article describes in more detail the technical consideration and configuration to prepare and operate the live streams of the Virtual Developers Conference.
 image: content/images/2020/09/GerganaYoung.webp
+ogImage: content/images/2020/09/GerganaYoung-og.webp
 ogTitle: How did we run the Virtual Developers Conference 2020?
 ogDescription: The article describes in more detail the technical consideration and configuration to prepare and operate the live streams of the Virtual Developers Conference.
 layout: post

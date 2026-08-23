@@ -12,6 +12,7 @@ keywords: Linux
 metaTitle: Solaar - Managing Logitech Unifying Receiver peripherals
 metaDescription: With Solaar you get access to the battery status and more configuration settings of your Logitech Unifying Receiver peripherals on Linux.
 image: content/images/2013/08/photo-1503495731986-41d521ecbb32.webp
+ogImage: content/images/2013/08/photo-1503495731986-41d521ecbb32-og.webp
 ogTitle: Solaar - Managing Logitech Unifying Receiver peripherals
 ogDescription: "Despite the fact that I'm using Logitech products since ages it is only now that I accidentally came across a Linux application that allows me to configure their Unifying devices: Solaar"
 layout: post

@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: Quoted on MVA Voices
 metaDescription: Microsoft Virtual Academy published a statement I made during the 'Advanced Windows Store App Development with HTML5 Jump Start' session.
 image: content/images/2017/08/mva_voices.webp
+ogImage: content/images/2017/08/mva_voices-og.webp
 ogTitle: Quoted on MVA Voices
 ogDescription: A couple of weeks ago, I received an email from the Dean of Microsoft Virtual Academy (MVA) asking for permission to quote a statement I made during a jump start. Following is an excerpt from that...
 layout: post

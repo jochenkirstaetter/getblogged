@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: Devcon Prag 2006 - Day 2
 metaDescription: Devcon Prag 2006 - Day 2 **Windows Component Services**Alle Jahre wieder vergibt Microsoft neue Namen f&#252;r vorhandene Technologien. Okay, es ist weitaus mehr als nur eine schlichte Namens&#228;nderung. Schliesslich wird damit auch angezeigt, dass Neuerungen realisiert wurden.SetComplete() beendet die Transaktion und entsorgt das COM+ Objekt im Speicher.F&#252;r Windows Component Services
 image: content/images/2006/09/photo-1514994173729-9cd2e1750e35.webp
+ogImage: content/images/2006/09/photo-1514994173729-9cd2e1750e35-og.webp
 ogTitle: Devcon Prag 2006 - Day 2
 ogDescription: '**Windows Component Services**Alle Jahre wieder vergibt Microsoft neue Namen für vorhandene Technologien. Okay, es ist weitaus mehr als nur eine schlichte Namensänderung. Schliesslich wird damit auch...'
 layout: post

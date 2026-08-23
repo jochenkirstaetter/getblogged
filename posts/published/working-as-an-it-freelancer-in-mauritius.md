@@ -12,6 +12,7 @@ keywords: General
 metaTitle: Working as an IT freelancer in Mauritius
 metaDescription: Working as a freelancer is eventually a dream situation for most people. But is it for everyone? What are the advantages and eventual obstacles to tackle in reward of some liberty and flexibility in life?
 image: content/images/2017/08/freelancer-stylish.webp
+ogImage: content/images/2017/08/freelancer-stylish-og.webp
 ogTitle: Working as an IT freelancer in Mauritius
 ogDescription: Working as a freelancer is eventually a dream situation for most people. Usually, you would complete your school activities, go for lectures and studies in IT, and then finally you would end up with a...
 layout: post

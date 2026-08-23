@@ -13,6 +13,7 @@ keywords: Personal, Community
 metaTitle: Hit Refresh
 metaDescription: Changing my life in such a drastic way was an experience of a life-time. It turned out for the better. I have no regrets about this decision, and I would do it again any time.
 image: content/images/2018/01/hitrefreshcover.webp
+ogImage: content/images/2018/01/hitrefreshcover-og.webp
 ogTitle: Hit Refresh
 ogDescription: Changing my life in such a drastic way was an experience of a life-time. It turned out for the better. I have no regrets about this decision, and I would do it again any time.
 layout: post

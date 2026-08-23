@@ -12,6 +12,7 @@ keywords: Linux
 metaTitle: Running Windows applications on Linux
 metaDescription: This session at the Linuxfest 2013 provides a brief overview of potential solutions and demonstrates quickly how to install and run Windows software on Linux.
 image: content/images/2018/02/lugm_windowsonlinux.webp
+ogImage: content/images/2018/02/lugm_windowsonlinux-og.webp
 ogTitle: Running Windows applications on Linux
 ogDescription: Taking into consideration that the End of Support Lifecycle for Microsoft Windows XP is closing in one might be confronted with the question whether it would be possible to keep existing hardware and...
 layout: post

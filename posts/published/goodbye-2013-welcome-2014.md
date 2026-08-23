@@ -12,6 +12,7 @@ keywords: General
 metaTitle: Goodbye 2013 - Welcome 2014
 metaDescription: Personal thoughts about events and activities during 2013.
 image: content/images/2014/01/photo-1498931299472-f7a63a5a1cfa.webp
+ogImage: content/images/2014/01/photo-1498931299472-f7a63a5a1cfa-og.webp
 ogTitle: Goodbye 2013 - Welcome 2014
 ogDescription: This time only some personal thoughts about what happened during 2013, and what might be an outlook in 2014...
 layout: post

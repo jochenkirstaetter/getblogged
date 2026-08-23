@@ -12,6 +12,7 @@ keywords: Android
 metaTitle: 'Game Review: God of Light'
 metaDescription: Fantastic and refreshing concept of puzzle solving. The effects and the music match very well, putting the player in the right mood to game. Get enlightened and grow your skills until you are a true God of Light.
 image: content/images/2017/08/gol_mirror_prism.webp
+ogImage: content/images/2017/08/gol_mirror_prism-og.webp
 ogTitle: 'Game Review: God of Light'
 ogDescription: Luckily I came across this title at a very early stage. If I remember correctly, I took notice of God of Light on Twitter right on the weekend it has been published on the Play Store.
 layout: post

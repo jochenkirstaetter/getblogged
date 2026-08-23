@@ -12,6 +12,7 @@ keywords: Personal
 metaTitle: Zuviel Zeit... oder?
 metaDescription: Ehrlich gesagt weiß ich gar nicht wie ich es formulieren soll, aber ich habe den Eindruck, dass ich zuviel Zeit für mich habe. Okay, der Eindruck mag vielleicht zu früh kommen, aber irgendwie fühle ich, dass mein Schlafexperiment genau in die richtige Richtung läuft.
 image: content/images/2006/03/photo-1443472933321-f2617633c81b.webp
+ogImage: content/images/2006/03/photo-1443472933321-f2617633c81b-og.webp
 ogTitle: Zuviel Zeit... oder?
 ogDescription: Ehrlich gesagt weiß ich gar nicht wie ich es formulieren soll, aber ich habe den Eindruck, dass ich zuviel Zeit für mich habe. Okay, der Eindruck mag vielleicht zu früh kommen, aber irgendwie fühle ich, dass mein Schlafexperiment genau in die richtige Richtung läuft.
 layout: post

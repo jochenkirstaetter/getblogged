@@ -12,6 +12,7 @@ keywords: General
 metaTitle: Gegen die Kälte hilft nur ein heißes Bad
 metaDescription: Gegen die Kälte hilft nur ein heißes Bad Also, ich weiß ja nicht, wie es euch geht, aber die kalte Jahreszeit ist nicht wirklich etwas für mich. Oder anders formuliert, wenn es denn wenigstens durchgehend gleich kalt, trocken und mit weißen Landschaften wäre, dann könnte ich mich daran erwärmen... Aber,
 image: content/images/2005/02/photo-1635269670138-2bc182578866.webp
+ogImage: content/images/2005/02/photo-1635269670138-2bc182578866-og.webp
 ogTitle: Gegen die Kälte hilft nur ein heißes Bad
 ogDescription: Also, ich weiß ja nicht, wie es euch geht, aber die kalte Jahreszeit ist nicht wirklich etwas für mich. Oder anders formuliert, wenn es denn wenigstens durchgehend gleich kalt, trocken und mit weißen...
 layout: post

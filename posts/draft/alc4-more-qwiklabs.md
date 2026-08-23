@@ -13,6 +13,7 @@ keywords: Community, Andela
 metaTitle: ALC 4.0 Cloud - Access to more Qwiklabs
 metaDescription: During the project phase of the Andela Learning Community (ALC) 4.0 program more hands-on labs on Qwiklabs have been made accessible to scholars. The following collection is courtesy of Andela, Google...
 image: content/images/2019/10/portrayal-89193_1280.webp
+ogImage: content/images/2019/10/portrayal-89193_1280-og.webp
 ogTitle: ALC 4.0 Cloud - Access to more Qwiklabs
 ogDescription: During the project phase of the Andela Learning Community (ALC) 4.0 program more hands-on labs on Qwiklabs have been made accessible to scholars. The following collection is courtesy of Andela, Google...
 layout: post

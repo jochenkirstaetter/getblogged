@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: The future is now!
 metaDescription: Ich glaube, dass der heutige Themenabend ziemlich starken Tobak für die Anwesenden beinhaltet hat. Stellenweise hatte ich den Eindruck, dass der Einsatz von XML und den damit verbundenen Möglichkeiten noch zu weit entfernt vom Tagesgeschäft eines Entwicklers sind. Vielleicht liege ich dabei auch verkehrt. Well, we will see...
 image: content/images/2023/09/futuristic_bladerunner.webp
+ogImage: content/images/2023/09/futuristic_bladerunner-og.webp
 ogTitle: The future is now!
 ogDescription: "Der monatliche Stammtisch zu Visual FoxPro ist gelaufen; Willkommen in der Zukunft... \U0001F609Ich glaube, dass der heutige Themenabend ziemlich starken Tobak für die Anwesenden beinhaltet hat. Stellenweise..."
 layout: post

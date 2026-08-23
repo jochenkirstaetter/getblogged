@@ -13,6 +13,7 @@ keywords: Recension, Development
 metaTitle: 'Rock Your Code: Defensive Programming for Microsoft .NET by David McCarter'
 metaDescription: Talking about Defensive Programming during times of Test Driven Development, Clean Code, Domain Driven Development and all other kinds of buzzwords seems a bit unusual. From his long-year experience David McCarter shares a collection of rules of thumb to write better, rock-solid code.
 image: content/images/2019/02/photo-1496169514208-d9affacc58ba.webp
+ogImage: content/images/2019/02/photo-1496169514208-d9affacc58ba-og.webp
 ogTitle: 'Rock Your Code: Defensive Programming for Microsoft .NET by David McCarter'
 ogDescription: Talking about Defensive Programming during times of Test Driven Development, Clean Code, Domain Driven Development and all other kinds of buzzwords seems a bit unusual. From his long-year experience David McCarter shares a collection of rules of thumb to write better, rock-solid code.
 layout: post

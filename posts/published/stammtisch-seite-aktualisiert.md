@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: Stammtisch-Seite aktualisiert
 metaDescription: "Stammtisch-Seite aktualisiert Tsss, da kann man noch nicht einmal aktuelle Infos &#252;ber den Mailverteiler bzw. das dFPUG-Forum rausjagen, ohne dass man auf die Nichtaktualit&#228;t der <a href='http://speyer.dfpug.de'>Speyerer Stammtisch</a> hingewiesen wird. Frechheit! :icon_biggrin: Aber... Ja, geb&#39;s mir. Das ist genau der richtige Weg, denn ich freue mich &#252;ber Feedback aus der"
 image: content/images/2005/09/photo-1578231177134-f1bbe379b054.webp
+ogImage: content/images/2005/09/photo-1578231177134-f1bbe379b054-og.webp
 ogTitle: Stammtisch-Seite aktualisiert
 ogDescription: "Tsss, da kann man noch nicht einmal aktuelle Infos über den Mailverteiler bzw. das dFPUG-Forum rausjagen, ohne dass man auf die Nichtaktualität der Speyerer Stammtisch hingewiesen wird. Frechheit! \U0001F601..."
 layout: post

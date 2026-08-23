@@ -12,6 +12,7 @@ keywords: Recension
 metaTitle: AngularJS by Brad Green and Shyam Seshadri - Some lack of quality
 metaDescription: New year, new review...Thanks to O'Reilly blogger review programme I had a chance to put my hands on their title on AngularJS by Brad Green and Shyam Seshadri.
 image: content/images/2014/01/photo-1463320726281-696a485928c7.webp
+ogImage: content/images/2014/01/photo-1463320726281-696a485928c7-og.webp
 ogTitle: AngularJS by Brad Green and Shyam Seshadri - Some lack of quality
 ogDescription: New year, new review...Thanks to O'Reilly blogger review programme I had a chance to put my hands on their title on AngularJS by Brad Green and Shyam Seshadri.
 layout: post

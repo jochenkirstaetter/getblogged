@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: DevFest Mauritius 2023
 metaDescription: GDG Mauritius organises DevFest since 2018, and it is a well received opportunity to learn latest technologies offered by Google - whether it is mobile, web, cloud, AI, or machine learning (ML).
 image: content/images/2023/12/PXL_20231028_034412541.webp
+ogImage: content/images/2023/12/PXL_20231028_034412541-og.webp
 ogTitle: DevFest Mauritius 2023
 ogDescription: GDG Mauritius organises DevFest since 2018, and it is a well received opportunity to learn latest technologies offered by Google - whether it is mobile, web, cloud, AI, or machine learning (ML).
 layout: post

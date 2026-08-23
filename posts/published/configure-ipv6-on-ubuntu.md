@@ -12,6 +12,7 @@ keywords: Linux
 metaTitle: Configure IPv6 on your Linux system (Ubuntu)
 metaDescription: Using IPv6 network addresses on your Linux system, here Ubuntu, is fairly easy to configure. This article will guide you through the basic steps.
 image: content/images/2014/03/photo-1456428746267-a1756408f782.webp
+ogImage: content/images/2014/03/photo-1456428746267-a1756408f782-og.webp
 ogTitle: Configure IPv6 on your Linux system (Ubuntu)
 ogDescription: After the presentation on IPv6 at the first event of the Emtel Knowledge Series and some recent discussion on social media networks with other geeks and Linux interested IT people here in Mauritius, I...
 layout: post

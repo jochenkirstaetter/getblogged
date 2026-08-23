@@ -13,6 +13,7 @@ keywords: Personal, General
 metaTitle: Welcome - A new star is born! ;)
 metaDescription: Welcome - A new star is born! ;) Hello dear family &amp; friends,we would like to introduce you to our latest creation or better saidexperiment &#39;Hayley Cassandra Kirst&#228;tter&#39;.The little lady was born yesterday, 19.09.2008, at around 20:00 o&#39;clock.Some details our the visual appearance of her:Weight - 2.6kgSize - not measured yet but
 image: content/images/2019/01/CIMG9080.JPG
+ogImage: content/images/2019/01/CIMG9080-og.webp
 ogTitle: Welcome - A new star is born! ;)
 ogDescription: Hello dear family & friends,we would like to introduce you to our latest creation or better saidexperiment 'Hayley Cassandra Kirstätter'.The little lady was born yesterday, 19.09.2008, at around 20:00...
 layout: post

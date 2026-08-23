@@ -14,6 +14,7 @@ tags:
 - Automation
 keywords: AI, Antigravity, Productivity, Blogging, Automation, Multi-Agent Workflow, Editorial Guidelines, DocFX
 image: content/images/2026/08/publishing-agency-team-portraits.webp
+ogImage: content/images/2026/08/publishing-agency-team-portraits-og.webp
 layout: post
 bodyClass: post-template tag-ai tag-antigravity tag-productivity tag-blogging tag-automation
 postClass: post tag-ai tag-antigravity tag-productivity tag-blogging tag-automation
@@ -22,7 +23,6 @@ isDraft: true
 author: Jochen Kirstätter
 authorSlug: joki
 ---
-
 For more than a decade, running this blog was a purely solo operation. The rhythm was familiar: an exciting technical idea would spark during a project or a conference talk, I would create a quick markdown file, jot down three bullet points and a code snippet, and promise myself I would finish it over the weekend.
 
 Then reality set in.
@@ -118,7 +118,7 @@ When we need to quote community discussions or announcements, the Research Assis
 ### 4. The Technical Code Reviewer
 Code snippets require dedicated inspection. The **Technical Code Reviewer** examines every fenced code block to ensure:
 - Appropriate language identifiers (`bash`, `python`, `csharp`, `yaml`, `json`, `foxpro`).
-- Elimination of HTML entity corruption (e.g. running `python3 scripts/fix-html-entities-in-code.py` to strip out corrupted entities like `&amp;nbsp;` or `&amp;lt;`).
+- Elimination of HTML entity corruption (e.g. running `python3 scripts/fix-html-entities-in-code.py` to strip out corrupted entities like `&nbsp;` or `&lt;`).
 - Complete absence of hardcoded secrets, personal tokens, or insecure defaults.
 
 ---

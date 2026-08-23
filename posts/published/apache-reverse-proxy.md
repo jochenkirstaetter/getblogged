@@ -13,6 +13,7 @@ keywords: Linux, Development
 metaTitle: Using Apache HTTP as reverse proxy
 metaDescription: The Apache HTTP Server, colloquially called Apache, is a free and open-source cross-platform web server. This article explains briefly how to set up Apache as a reverse proxy to a web site in an internal network.
 image: content/images/2019/01/photo-1525081905268-fc0b46e9d786.webp
+ogImage: content/images/2019/01/photo-1525081905268-fc0b46e9d786-og.webp
 ogTitle: Using Apache HTTP as reverse proxy
 ogDescription: The Apache HTTP Server, colloquially called Apache, is a free and open-source cross-platform web server. This article explains briefly how to set up Apache as a reverse proxy to a web site in an internal network.
 layout: post

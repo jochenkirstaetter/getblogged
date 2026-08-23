@@ -12,6 +12,7 @@ keywords: General
 metaTitle: SUPINFO International University in Mauritius
 metaDescription: Since a while I'm considering to pick up my activities as a student and I'd like to get a degree in Computer Science.
 image: content/images/2014/07/photo-1453733190371-0a9bedd82893.webp
+ogImage: content/images/2014/07/photo-1453733190371-0a9bedd82893-og.webp
 ogTitle: SUPINFO International University in Mauritius
 ogDescription: Since a while I'm considering to pick up my activities as a student and I'd like to get a degree in Computer Science.
 layout: post

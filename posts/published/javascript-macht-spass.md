@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: JavaScript macht Spass
 metaDescription: JavaScript macht Spass Vielleicht kennt ihr auch das Problem...Man hat eine brauchbare GUI in HTML server-seitig mittels einer Skriptsprache wie die Active FoxPro Pages - http://www.afpages.de - zusammengesetzt und die Kommunikation zwischen Client und Server harmoniert auch sehr gut, aber irgendwie bleibt das Gefühl, daß noch etwas fehlt.Nun, so ging
 image: content/images/2004/07/photo-1517180102446-f3ece451e9d8.webp
+ogImage: content/images/2004/07/photo-1517180102446-f3ece451e9d8-og.webp
 ogTitle: JavaScript macht Spass
 ogDescription: Vielleicht kennt ihr auch das Problem...
 layout: post

@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: Developer Creators and Online Communities Summit
 metaDescription: The Google Developer Community organised the first Developer Creators and Online Communities Summit in Singapore. I had the honour to join approx. 120 people and learn a lot over there.
 image: content/images/2024/01/PXL_20240125_094817421.MP.webp
+ogImage: content/images/2024/01/PXL_20240125_094817421.MP-og.webp
 ogTitle: Developer Creators and Online Communities Summit
 ogDescription: The Google Developer Community organised the first Developer Creators and Online Communities Summit in Singapore. I had the honour to join approx. 120 people and learn a lot over there.
 layout: post

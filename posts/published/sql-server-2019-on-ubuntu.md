@@ -13,6 +13,7 @@ keywords: Development, Linux
 metaTitle: Installing SQL Server 2019 and tools on Ubuntu 20.04
 metaDescription: Up to date, complete tutorial on how to install SQL Server 2019, the command-line tools, and alternatives to SQL Server Management Studio on Ubuntu 20.04.
 image: content/images/2022/03/photo-1642775196125-38a9eb496568.webp
+ogImage: content/images/2022/03/photo-1642775196125-38a9eb496568-og.webp
 ogTitle: Installing SQL Server 2019 and tools on Ubuntu 20.04
 ogDescription: Up to date, complete tutorial on how to install SQL Server 2019, the command-line tools, and alternatives to SQL Server Management Studio on Ubuntu 20.04.
 layout: post

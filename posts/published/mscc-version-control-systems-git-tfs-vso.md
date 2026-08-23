@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: 'MSCC: Purpose and benefits of Version Control Systems (VCS)'
 metaDescription: You're working in IT and not using any kind of version control system? Sorry, then you're doing something wrong!
 image: content/images/2014/06/photo-1518065896235-a4c93e088e7a.webp
+ogImage: content/images/2014/06/photo-1518065896235-a4c93e088e7a-og.webp
 ogTitle: 'MSCC: Purpose and benefits of Version Control Systems (VCS)'
 ogDescription: You're working in IT and not using any kind of version control system? Sorry, then you're doing something wrong!
 layout: post

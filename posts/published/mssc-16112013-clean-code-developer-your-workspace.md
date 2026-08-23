@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: 'MSCC: Clean Code Development & Your workspace'
 metaDescription: In this article I would like to take the chance to quickly summarize the topics we covered and the ideas we worked out for upcoming meetings. And it was also pleasant to welcome more 'first-timers' this month.
 image: content/images/2019/01/mscc-20131116-2.webp
+ogImage: content/images/2019/01/mscc-20131116-2-og.webp
 ogTitle: 'MSCC: Clean Code Development & Your workspace'
 ogDescription: Last weekend the Mauritius Software Craftsmanship Community (MSCC) had been organising their latest monthly meetup. Once again, we met at the Ebene Accelerator, Orange Tower, Ebene.
 layout: post

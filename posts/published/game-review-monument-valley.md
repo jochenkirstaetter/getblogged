@@ -12,6 +12,7 @@ keywords: Android
 metaTitle: 'Game Review: Monument Valley'
 metaDescription: The game caught my attention based on the simplicity of the design and the aspect that it seems to be an isometric design. The game relies heavily on optical illusions in order to guide to the silent princess Ida through her illusory adventure of impossible architecture and forgiveness.
 image: content/images/2018/02/game_monumentvalley.webp
+ogImage: content/images/2018/02/game_monumentvalley-og.webp
 ogTitle: 'Game Review: Monument Valley'
 ogDescription: Once again, it was a tweet that caught my attention... and the official description on the Play Store sounds good, too.
 layout: post

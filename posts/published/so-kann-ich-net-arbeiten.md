@@ -12,6 +12,7 @@ keywords: General
 metaTitle: So kann ich net arbeiten!
 metaDescription: So kann ich net arbeiten! Sodele, die Vorbereitungen f&#252;r den Abend n&#228;hern sich dem Ende. Nach ein paar Installationsorgien auf dem Laptop kann ich mir endlich vorstellen, morgen Abend einigerma&#223;en komfortabel arbeiten zu k&#246;nnen. Aber der Hammer hat wieder einmal Visual Studio 2003 gebracht.Da werkelt man fr&#246;hlich mit einigen Tools
 image: content/images/2005/02/photo-1579618215542-2ed5e10b65ed.webp
+ogImage: content/images/2005/02/photo-1579618215542-2ed5e10b65ed-og.webp
 ogTitle: So kann ich net arbeiten!
 ogDescription: Sodele, die Vorbereitungen für den Abend nähern sich dem Ende. Nach ein paar Installationsorgien auf dem Laptop kann ich mir endlich vorstellen, morgen Abend einigermaßen komfortabel arbeiten zu...
 layout: post

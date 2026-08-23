@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: Dinner with Andy Volk
 metaDescription: While exchanging with the nice GDG folks over at Google Nigeria about the possibility to get Google interested to assist during the annual Developers Conference of the MSCC, some magic happened again.
 image: content/images/2018/03/IMG_20180306_205902-1.webp
+ogImage: content/images/2018/03/IMG_20180306_205902-1-og.webp
 ogTitle: Dinner with Andy Volk
 ogDescription: While exchanging with the nice GDG folks over at Google Nigeria about the possibility to get Google interested to assist during the annual Developers Conference of the MSCC, some magic happened again.
 layout: post

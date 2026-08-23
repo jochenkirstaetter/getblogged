@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: Communities - The importance of exchange and discussion
 metaDescription: The Mauritius Software Craftsmanship Community was founded based on the necessity to have a strong off-line and on-line community in Mauritius.
 image: content/images/2013/05/photo-1541278960078-0af7e4c58a5b.webp
+ogImage: content/images/2013/05/photo-1541278960078-0af7e4c58a5b-og.webp
 ogTitle: Communities - The importance of exchange and discussion
 ogDescription: Communication with your environment is an essential part of everyone's life. And it doesn't matter whether you are actually living in a rural area in the middle of nowhere, within the pulsating heart...
 layout: post

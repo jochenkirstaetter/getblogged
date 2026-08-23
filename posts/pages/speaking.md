@@ -13,6 +13,7 @@ keywords: Community, Personal
 metaTitle: Public Speaking Engagements
 metaDescription: Over the past years I have done a couple of talks, from small user group gatherings to large-scale audience at international conferences.
 image: content/images/2023/09/_Z627384-221_1920.webp
+ogImage: content/images/2023/09/_Z627384-221_1920-og.webp
 ogTitle: Public Speaking Engagements
 ogDescription: Over the past years I have done a couple of talks, from small user group gatherings to large-scale audience at international conferences.
 layout: page

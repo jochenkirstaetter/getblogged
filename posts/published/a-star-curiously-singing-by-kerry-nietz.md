@@ -12,6 +12,7 @@ keywords: Recension
 metaTitle: A Star Curiously Singing by Kerry Nietz
 metaDescription: The first-person writing style of Kerry really gets you more involved into the story. The happening of events feels more intensive and surprisingly refreshing.
 image: content/images/2014/01/photo-1516331138075-f3adc1e149cd.webp
+ogImage: content/images/2014/01/photo-1516331138075-f3adc1e149cd-og.webp
 ogTitle: A Star Curiously Singing by Kerry Nietz
 ogDescription: Finally, I could spent some time reading during the festive days... And it was a good decision. The first science-fiction novel by Kerry Nietz already spent some time on my (virtual) bookshelf, and my...
 layout: post

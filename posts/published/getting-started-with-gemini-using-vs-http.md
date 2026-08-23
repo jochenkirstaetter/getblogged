@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: Getting started with Gemini using Visual Studio
 metaDescription: Visual Studio 2022 comes with an integrated HTTP client using .http files. The article shows how to access Gemini AI using .http files. Which also works in VS Code using REST Client extension.
 image: content/images/2024/02/gemini-visualstudio.webp
+ogImage: content/images/2024/02/gemini-visualstudio-og.webp
 ogTitle: Getting started with Gemini using Visual Studio
 ogDescription: Visual Studio 2022 comes with an integrated HTTP client using .http files. The article shows how to access Gemini AI using .http files. Which also works in VS Code using REST Client extension.
 layout: post

@@ -13,6 +13,7 @@ keywords: Development, Projects
 metaTitle: How to get your computer from blank disk(s) to fully operational in no time... (Windows edition)
 metaDescription: The following article is about my process of setting up a fresh machine quickly, and hopefully it covers some areas where you might be able to take away something. Based on a few exchanges I had with other peers over various social media networks, including Twitter, Google+ and FB.
 image: content/images/2018/07/photo-1532691403316-d08a19730ed9.webp
+ogImage: content/images/2018/07/photo-1532691403316-d08a19730ed9-og.webp
 ogTitle: How to get your computer from blank disk(s) to fully operational in no time... (Windows edition)
 ogDescription: The following article is about my process of setting up a fresh machine quickly, and hopefully it covers some areas where you might be able to take away something. Based on a few exchanges I had with other peers over various social media networks, including Twitter, Google+ and FB.
 layout: post

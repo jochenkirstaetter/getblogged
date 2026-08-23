@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: VFP/SQL/.NET Devcon 2004 in Frankfurt
 metaDescription: VFP/SQL/.NET Devcon 2004 in Frankfurt Endlich ist es wieder soweit... Entwicklerkonferenz in Deutschland steht vor den Türen und sicherlich sind noch einige Redner fleissig am Schreiben der Sessionbegleittexte. So auch unsereiner... *g* - Genau wie in den beiden letzten Jahren darf ich wieder als Redner an der Konferenz teilnehmen und
 image: content/images/2004/10/photo-1507466516501-3a40ab11b3e4.webp
+ogImage: content/images/2004/10/photo-1507466516501-3a40ab11b3e4-og.webp
 ogTitle: VFP/SQL/.NET Devcon 2004 in Frankfurt
 ogDescription: Endlich ist es wieder soweit... Entwicklerkonferenz in Deutschland steht vor den Türen und sicherlich sind noch einige Redner fleissig am Schreiben der Sessionbegleittexte. So auch unsereiner... *g* -...
 layout: post

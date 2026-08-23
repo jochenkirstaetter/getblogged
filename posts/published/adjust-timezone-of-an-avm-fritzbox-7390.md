@@ -12,6 +12,7 @@ keywords: General
 metaTitle: Adjust timezone of an AVM Fritz!Box 7390
 metaDescription: Lately, I had some spare time to address an issue in my Fritz!Box, and the following article describes how to adjust the timezone settings in general.
 image: content/images/2013/07/photo-1519354754184-e1d9c46182c0.webp
+ogImage: content/images/2013/07/photo-1519354754184-e1d9c46182c0-og.webp
 ogTitle: Adjust timezone of an AVM Fritz!Box 7390
 ogDescription: It's been a while that I purchased an AVM Fritz!Box 7390 but since I'm using this 'PABX' here in Mauritius, I'm not really happy about the wrong time in the logs or handsets connected. Lately, I had...
 layout: post

@@ -13,6 +13,7 @@ keywords: Personal, Activity
 metaTitle: I am Iron Man!
 metaDescription: Hovering over the sea like Iron Man is possible thanks to Flyboard. For my birthday I received a gift voucher from my wife. Such great fun in the water and in the air.
 image: content/images/2017/08/FlyboardMauritius.webp
+ogImage: content/images/2017/08/FlyboardMauritius-og.webp
 ogTitle: I am Iron Man!
 ogDescription: Hovering over the sea like Iron Man is possible thanks to Flyboard. For my birthday I received a gift voucher from my wife. Such great fun in the water and in the air.
 layout: post

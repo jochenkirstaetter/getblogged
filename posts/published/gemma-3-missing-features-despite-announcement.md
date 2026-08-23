@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: Gemma 3 - missing features despite announcement
 metaDescription: Congrats to the team to provide the new Gemma 3 models and the new endpoint on the Google AI API. The announcement blog - https://blog.google/technology/developers/gemma-3/ - reads wonderfully. Until...
 image: content/images/2025/03/Gemma3.webp
+ogImage: content/images/2025/03/Gemma3-og.webp
 ogTitle: Gemma 3 - missing features despite announcement
 ogDescription: Congrats to the team to provide the new Gemma 3 models and the new endpoint on the Google AI API. The announcement blog - https://blog.google/technology/developers/gemma-3/ - reads wonderfully. Until...
 layout: post

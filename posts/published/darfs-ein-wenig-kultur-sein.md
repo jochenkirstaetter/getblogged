@@ -12,6 +12,7 @@ keywords: General
 metaTitle: Darf's ein wenig Kultur sein?
 metaDescription: Nach den Grundlagen und den ersten Programmierschritten mit den Active FoxPro Pages haben wir heute uns mit den fortgeschritteneren Themen, wie Applikationskonfiguration, Session-Management und weiteren Fähigkeiten der AFP beschäftigt. Zwischendurch immer mal wieder den ein oder anderen Exkurs ins Unterholz des Fuchs oder des Internets (HTML/XML). Insgesamt hoffentlich wieder ein gelungener Tag.
 image: content/images/2023/09/Potsdam007.JPG
+ogImage: content/images/2023/09/Potsdam007-og.webp
 ogTitle: Darf's ein wenig Kultur sein?
 ogDescription: "Und wieder ein erfolgreicher Workshop-Tag neigt sich dem Ende. Spannenderweise wurden wir heute auf Grund einer Bombenentschärfung umquartiert. Gleich wieder 'diese Hektik' am frühen Morgen... \U0001F601 - da..."
 layout: post

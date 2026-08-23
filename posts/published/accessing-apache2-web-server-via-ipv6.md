@@ -12,6 +12,7 @@ keywords: Linux
 metaTitle: Accessing your web server via IPv6
 metaDescription: The following article will guide through the steps on how to enable Apache2 httpd to listen and respond to incoming IPv6 requests.
 image: content/images/2014/03/photo-1492515114975-b062d1a270ae.webp
+ogImage: content/images/2014/03/photo-1492515114975-b062d1a270ae-og.webp
 ogTitle: Accessing your web server via IPv6
 ogDescription: Being able to run your systems on IPv6, have automatic address assignment and the ability to resolve host names are the necessary building blocks in your IPv6 network infrastructure. Now, that...
 layout: post

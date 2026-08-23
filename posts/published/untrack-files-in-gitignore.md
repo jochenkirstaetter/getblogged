@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: Untrack files in .gitignore
 metaDescription: Despite best effort and preparation of your precious source code one day you might be facing the situation that there is one or more files in your development workspace that doesn't belong into your git repository.
 image: content/images/2024/04/Gemini_Generated_Image_pxek4spxek4spxek.webp
+ogImage: content/images/2024/04/Gemini_Generated_Image_pxek4spxek4spxek-og.webp
 ogTitle: Untrack files in .gitignore
 ogDescription: Despite best effort and preparation of your precious source code one day you might be facing the situation that there is one or more files in your development workspace that doesn't belong into your git repository.
 layout: post

@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: 'MSCC: Shellshock Survival Guide'
 metaDescription: Shellshock is one the most dangerous security holes that has hit the internet, since heartbleed. BASH is a widely used shell found in Servers and embedded appliances. It allows hackers to run remote code, and potentially take over your servers.
 image: content/images/2014/10/photo-1505759156876-2f393d5b909c.webp
+ogImage: content/images/2014/10/photo-1505759156876-2f393d5b909c-og.webp
 ogTitle: 'MSCC: Shellshock Survival Guide'
 ogDescription: The media coverage related to vulnerabilities in Linux has been quite immense lately.
 layout: post

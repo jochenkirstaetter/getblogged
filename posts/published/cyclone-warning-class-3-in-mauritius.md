@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: Cyclone Warning Class 3 in Mauritius
 metaDescription: Cyclone Warning Class 3 in Mauritius Every year around end of January...
 image: content/images/2019/02/CycloneGula2008.webp
+ogImage: content/images/2019/02/CycloneGula2008-og.webp
 ogTitle: Cyclone Warning Class 3 in Mauritius
 ogDescription: Every year around end of January... well, ok, to be honest this is my first 'full' January here on the island, but anyways the cyclons are here! Starting on the 29th January there is Cyclone Warning...
 layout: post

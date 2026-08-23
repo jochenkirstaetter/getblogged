@@ -12,6 +12,7 @@ keywords: Recension
 metaTitle: 'FoxTales: Behind the Scenes at Fox Software by Kerry Nietz'
 metaDescription: Flash backs from the past! It's truely amazing to discover that software development from freshman to senior and project management hasn't changed that much.
 image: content/images/2023/08/an-illustrated-forest-opening-depicting-a-fox.webp
+ogImage: content/images/2023/08/an-illustrated-forest-opening-depicting-a-fox-og.webp
 ogTitle: 'FoxTales: Behind the Scenes at Fox Software by Kerry Nietz'
 ogDescription: Flash backs from the past! It's truly amazing to discover that software development from freshman to senior level as well as project management hasn't changed that much. Kerry Nietz describes his...
 layout: post

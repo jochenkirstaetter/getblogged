@@ -12,6 +12,7 @@ keywords: Linux
 metaTitle: 'DHCPv6: Provide IPv6 information in your local network'
 metaDescription: Configure your network to provide IPv6 address information automatically in your local infrastructure
 image: content/images/2014/03/photo-1495592822108-9e6261896da8.webp
+ogImage: content/images/2014/03/photo-1495592822108-9e6261896da8-og.webp
 ogTitle: 'DHCPv6: Provide IPv6 information in your local network'
 ogDescription: Even though IPv6 might not be that important within your local network it might be good to get yourself into shape, and be able to provide some details of your infrastructure automatically to your...
 layout: post

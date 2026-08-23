@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: 'MSCC: HTML5, CSS3 and JavaScript'
 metaDescription: Good to see new craftsmen and regular attendees during our meetups. Especially on Saturdays, we are getting more people together and it is improving from month to month.
 image: content/images/2014/01/photo-1472437774355-71ab6752b434.webp
+ogImage: content/images/2014/01/photo-1472437774355-71ab6752b434-og.webp
 ogTitle: 'MSCC: HTML5, CSS3 and JavaScript'
 ogDescription: Today's meetup has been an interesting experience for me... for two reasons actually. First, I have to be more active with our craftsmen, especially with our speakers of the day. And second, we...
 layout: post

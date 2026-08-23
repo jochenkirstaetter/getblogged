@@ -13,6 +13,7 @@ keywords: Community, Activity
 metaTitle: Krakathon 2017
 metaDescription: The Krakathon is like a hackathon but with a Kraken and a treasure! All teams found their treasure and rewards after this coding marathon. Personally, I'm glad to see that more and more opportunities like this are available in Mauritius.
 image: content/images/2017/10/Krakathon2017.webp
+ogImage: content/images/2017/10/Krakathon2017-og.webp
 ogTitle: Krakathon 2017
 ogDescription: The Krakathon is like a hackathon but with a Kraken and a treasure! All teams found their treasure and rewards after this coding marathon. Personally, I'm glad to see that more and more opportunities like this are available in Mauritius.
 layout: post

@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: Introduction to Mauritius Software Craftsmanship Community
 metaDescription: The MSCC is technology-agnostic community and spans an umbrella over any kind of technology. Simply because you can't ignore other technologies anymore in a connected IT world as we have. A front-end developer for iOS applications should have the chance to connect with a Python back-end coder and eventually with a DBA for MySQL or PostgreSQL and exchange their experience.
 image: content/images/2017/08/mscc-20140503-scripting-1.webp
+ogImage: content/images/2017/08/mscc-20140503-scripting-1-og.webp
 ogTitle: Introduction to Mauritius Software Craftsmanship Community
 ogDescription: Whether you are working in the field of Internet Technology (IT) since a long time or you just started your studies in Computer Science recently, at some point in time you might have the urge to meet...
 layout: post

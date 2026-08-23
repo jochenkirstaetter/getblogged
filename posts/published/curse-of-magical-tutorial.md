@@ -13,6 +13,7 @@ keywords: Community, Personal
 metaTitle: The Curse of the Magical Tutorial
 metaDescription: Have you ever read a tutorial about something that you are new to, and really need to get into the subject quickly, just to discover that there is an essential piece of information missing? Yup...
 image: content/images/2018/10/photo-1513151233558-d860c5398176.webp
+ogImage: content/images/2018/10/photo-1513151233558-d860c5398176-og.webp
 ogTitle: The Curse of the Magical Tutorial
 ogDescription: Have you ever read a tutorial about something that you are new to, and really need to get into the subject quickly, just to discover that there is an essential piece of information missing? Yup...
 layout: post

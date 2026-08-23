@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: 'Launch Event: Windows 10 and Visual Studio 2015'
 metaDescription: Honestly, it's always great to attend social events for software developers, eh craftsmen. Those unique opportunities to meet with other geeks in the field are undenyable and there should be more events like this throughout the year. Apart from getting introduced to new peeps and got quite a number of questions regarding the past and future Developers Conference.
 image: content/images/2017/08/VisualStudioCode_DevConMru.webp
+ogImage: content/images/2017/08/VisualStudioCode_DevConMru-og.webp
 ogTitle: 'Launch Event: Windows 10 and Visual Studio 2015'
 ogDescription: The month July 2015 marked two more great milestones in the history of Microsoft. First, on the 20th of July Visual Studio 2015 has been released and second, just a couple of days later on the 29th of...
 layout: post

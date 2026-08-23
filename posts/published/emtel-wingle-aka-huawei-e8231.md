@@ -12,6 +12,7 @@ keywords: General
 metaTitle: 'Review: Emtel Wingle a.k.a. Huawei E8231'
 metaDescription: The Wingle - a WiFi dongle - by Emtel is identical to a regular USB surf stick, the Wingle offers an instant WiFi hot-spot as soon as powered up.
 image: content/images/2018/02/emtel-wingle-stats.webp
+ogImage: content/images/2018/02/emtel-wingle-stats-og.webp
 ogTitle: 'Review: Emtel Wingle a.k.a. Huawei E8231'
 ogDescription: How would you call the approach of taking the concept of "In-Car WiFi" and the marketing of "Home & Office Broadband" to the next level? Well, it's called Emtel Wingle.
 layout: post

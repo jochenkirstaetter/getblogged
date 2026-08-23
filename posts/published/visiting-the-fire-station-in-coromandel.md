@@ -14,6 +14,7 @@ keywords: General, Personal, Activity
 metaTitle: Visiting the Fire Station in Coromandel
 metaDescription: What an experience for my family. We went for a visit at the fire station in Coromandel. Aside from exploring their ladder truck we got a tour through the station and insights in their daily work.
 image: content/images/2018/11/CoromandelFireDepartment.webp
+ogImage: content/images/2018/11/CoromandelFireDepartment-og.webp
 ogTitle: Visiting the Fire Station in Coromandel
 ogDescription: Hm, I just tried to remember how we actually came up with this cool idea... but it's already too blurred and it doesn't really matter after all. Anyway, if I remember correctly (IIRC), it happened...
 layout: post

@@ -13,6 +13,7 @@ keywords: General, Personal
 metaTitle: Inspecting internet router in Mauritius
 metaDescription: An internet modem provided by your service provider (ISP) might have some hidden gems. Eventually this article gives you some tips to improve your configuration in regards to security and safety.
 image: content/images/2017/10/rucksack-magazine.webp
+ogImage: content/images/2017/10/rucksack-magazine-og.webp
 ogTitle: Inspecting internet router in Mauritius
 ogDescription: An internet modem provided by your service provider (ISP) might have some hidden gems. Eventually this article gives you some tips to improve your configuration in regards to security and safety.
 layout: post

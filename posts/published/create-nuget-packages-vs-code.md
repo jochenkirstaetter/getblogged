@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: Create NuGet packages with Visual Studio / Visual Studio Code
 metaDescription: An essential tool for any modern development platform is a mechanism through which developers can create, share, and consume useful code. For .NET it's NuGet packages to the rescue!
 image: content/images/2024/03/Gemini_Generated_Image.webp
+ogImage: content/images/2024/03/Gemini_Generated_Image-og.webp
 ogTitle: Create NuGet packages with Visual Studio / Visual Studio Code
 ogDescription: An essential tool for any modern development platform is a mechanism through which developers can create, share, and consume useful code. For .NET it's NuGet packages to the rescue!
 layout: post

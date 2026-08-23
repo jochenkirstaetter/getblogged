@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: SSA Community Summit 2023
 metaDescription: Those two Summit days had been packed with greatness. The combination of different talk formats and activities kept my attention in high gears, and I learned quite a bunch from other amazing community leads in Africa.
 image: content/images/2023/11/SSACommunitySummit2023_Group.webp
+ogImage: content/images/2023/11/SSACommunitySummit2023_Group-og.webp
 ogTitle: SSA Community Summit 2023
 ogDescription: Those two Summit days had been packed with greatness. The combination of different talk formats and activities kept my attention in high gears, and I learned quite a bunch from other amazing community leads in Africa.
 layout: post

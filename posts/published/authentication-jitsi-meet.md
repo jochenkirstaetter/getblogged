@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: Enable authentication in your instance of Jitsi Meet
 metaDescription: The second article on Jitsi Meet describes how to enable authentication to avoid Zoom-bombing and unwanted raiding of your video conferences.
 image: content/images/2020/04/Jitsi_Authentication.webp
+ogImage: content/images/2020/04/Jitsi_Authentication-og.webp
 ogTitle: Enable authentication in your instance of Jitsi Meet
 ogDescription: The second article on Jitsi Meet describes how to enable authentication to avoid Zoom-bombing and unwanted raiding of your video conferences.
 layout: post

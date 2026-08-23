@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: Projekt - Sunshine
 metaDescription: Projekt - Sunshine Als Software-Entwickler gehen mir ständig irgendwelche Ideen für Konzepte und Programmierung durch den Kopf... ich nehme an, dass das zum Berufsrisiko gehört. So auch in den letzten Tagen. Es lässt sich einfach nicht vermeiden. Okay, da wir mit der aktuellen Projektentwicklung so ziemlich vor dem Abschluß stehen,
 image: content/images/2019/01/Sunshine1.webp
+ogImage: content/images/2019/01/Sunshine1-og.webp
 ogTitle: Projekt - Sunshine
 ogDescription: Als Software-Entwickler gehen mir ständig irgendwelche Ideen für Konzepte und Programmierung durch den Kopf... ich nehme an, dass das zum Berufsrisiko gehört. So auch in den letzten Tagen. Es lässt...
 layout: post

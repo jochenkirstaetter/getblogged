@@ -13,6 +13,7 @@ keywords: Community, General
 metaTitle: Career Guidance (Day) at Aberystwyth University
 metaDescription: I was invited to the Aberystwyth University Mauritius Branch Campus to talk about career guidance in front of CS students. Gladly, I shared my experience from almost 20 years in the IT business.
 image: content/images/2017/09/highres_464004922.webp
+ogImage: content/images/2017/09/highres_464004922-og.webp
 ogTitle: Career Guidance (Day) at Aberystwyth University
 ogDescription: I was invited to the Aberystwyth University Mauritius Branch Campus to talk about career guidance in front of CS students. Gladly, I shared my experience from almost 20 years in the IT business.
 layout: post

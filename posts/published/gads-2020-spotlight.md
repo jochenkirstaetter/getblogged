@@ -13,6 +13,7 @@ keywords: Andela, Community
 metaTitle: GADS 2020 - Spotlight
 metaDescription: Following my recent announcement of being a GDE for Cloud Emem Jonah got in touch with a few questions about what motivates me to be a software developer.
 image: content/images/2020/10/Group-104-1.webp
+ogImage: content/images/2020/10/Group-104-1-og.webp
 ogTitle: GADS 2020 - Spotlight
 ogDescription: Following my recent announcement of being a GDE for Cloud Emem Jonah got in touch with a few questions about what motivates me to be a software developer.
 layout: post

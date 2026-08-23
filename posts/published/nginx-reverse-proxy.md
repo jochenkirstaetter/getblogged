@@ -13,6 +13,7 @@ keywords: Linux, Development
 metaTitle: Using nginx as reverse proxy
 metaDescription: 'Nginx (read: engine-x) has versatile options to set up web sites and more advanced configurations. This article explains briefly how to set up nginx as a reverse proxy to a web site in an internal network.'
 image: content/images/2019/01/photo-1521704042371-f13409bf0e6d.webp
+ogImage: content/images/2019/01/photo-1521704042371-f13409bf0e6d-og.webp
 ogTitle: Using nginx as reverse proxy
 ogDescription: 'Nginx (read: engine-x) has versatile options to set up web sites and more advanced configurations. This article explains briefly how to set up nginx as a reverse proxy to a web site in an internal network.'
 layout: post

@@ -14,6 +14,7 @@ keywords: Community, Activity, General
 metaTitle: Infotech/InnovTech 2017
 metaDescription: Infotech or commonly known as the annual IT tech bazaar in Mauritius was looking for possibilities to change in 2017 - moving away from the dominant sales activities during the past years back to its...
 image: content/images/2018/02/innovtech2017_title.webp
+ogImage: content/images/2018/02/innovtech2017_title-og.webp
 ogTitle: Infotech/InnovTech 2017
 ogDescription: Infotech or commonly known as the annual IT tech bazaar in Mauritius was looking for possibilities to change in 2017 - moving away from the dominant sales activities during the past years back to its...
 layout: post

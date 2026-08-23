@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: Gemini ResponseSchema vs JSON Schema specs of "type" as array
 metaDescription: Recently, while developing some changes in the Gemini SDK for .NET and given a reported issue on GitHub I had a look at the possibilities of passing an object as the expected structured output in JSON...
 image: content/images/2025/01/Snapshot_2025-01-20_11-02-42.webp
+ogImage: content/images/2025/01/Snapshot_2025-01-20_11-02-42-og.webp
 ogTitle: Gemini ResponseSchema vs JSON Schema specs of "type" as array
 ogDescription: Recently, while developing some changes in the Gemini SDK for .NET and given a reported issue on GitHub I had a look at the possibilities of passing an object as the expected structured output in JSON...
 layout: post

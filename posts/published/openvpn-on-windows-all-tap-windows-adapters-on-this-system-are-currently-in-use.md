@@ -14,6 +14,7 @@ keywords: Development, Linux, Windows
 metaTitle: 'OpenVPN: All TAP-Windows adapters on this system are currently in use'
 metaDescription: An OpenVPN client error like 'All TAP-Windows adapters on this system are currently in use.' can be resolved easily given a proper installation of OpenVPN.
 image: content/images/2018/08/photo-1517373116369-9bdb8cdc9f62.webp
+ogImage: content/images/2018/08/photo-1517373116369-9bdb8cdc9f62-og.webp
 ogTitle: 'OpenVPN: All TAP-Windows adapters on this system are currently in use'
 ogDescription: An OpenVPN client error like 'All TAP-Windows adapters on this system are currently in use.' can be resolved easily given a proper installation of OpenVPN.
 layout: post

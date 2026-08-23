@@ -12,6 +12,7 @@ keywords: General
 metaTitle: Request timed out
 metaDescription: Request timed out Es ist schon faszinierend aber auch ebenso nervig zu beobachten, da&#223; auch das Netz der Netze etliche T&#252;cken und Fallen zu bieten hat. Naja, mal fix &#39;ne Mail an die DNS-Verwalter rausgejagt - mal sehen, was da als Response zu erwarten ist. Vllt. sind es ja nur
 image: content/images/2004/07/photo-1537716069347-b3a81eb09f24.webp
+ogImage: content/images/2004/07/photo-1537716069347-b3a81eb09f24-og.webp
 ogTitle: Request timed out
 ogDescription: Es ist schon faszinierend aber auch ebenso nervig zu beobachten, daß auch das Netz der Netze etliche Tücken und Fallen zu bieten hat. Naja, mal fix 'ne Mail an die DNS-Verwalter rausgejagt - mal...
 layout: post

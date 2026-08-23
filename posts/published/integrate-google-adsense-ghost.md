@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: Integrate Google AdSense into your Ghost
 metaDescription: Ghost doesn't provide integration of Google AdSense out of the box in their default template. Adding and referencing a partial view can solve this issue and show affiliated advertisement on your site.
 image: content/images/2017/09/GoogleAdsense_banner.webp
+ogImage: content/images/2017/09/GoogleAdsense_banner-og.webp
 ogTitle: Integrate Google AdSense into your Ghost
 ogDescription: Ghost doesn't provide integration of Google AdSense out of the box in their default template. Adding and referencing a partial view can solve this issue and show affiliated advertisement on your site.
 layout: post

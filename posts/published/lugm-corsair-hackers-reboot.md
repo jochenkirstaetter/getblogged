@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: Corsair Hackers Reboot
 metaDescription: The Linux User Group of Mauritius (LUGM) organised another get-together for any open source enthusiast here on the island. Strangely named Corsair Hackers Reboot
 image: content/images/2017/08/lugm-corsair-hacker-20140419-2.webp
+ogImage: content/images/2017/08/lugm-corsair-hacker-20140419-2-og.webp
 ogTitle: Corsair Hackers Reboot
 ogDescription: It wasn't easy for me to attend but it was absolutely worth to go. The Linux User Group of Mauritius (LUGM) organised another get-together for any open source enthusiast here on the island. Strangely...
 layout: post

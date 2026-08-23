@@ -12,6 +12,7 @@ keywords: iOS
 metaTitle: Side-load and read your mobi ebooks on Kindle for iOS
 metaDescription: Easily sideload your own book titles to your Kindle for iPad app, not only titles from the Amazon shop.
 image: content/images/2019/01/itunes_kindle-file-sharing.webp
+ogImage: content/images/2019/01/itunes_kindle-file-sharing-og.webp
 ogTitle: Side-load and read your mobi ebooks on Kindle for iOS
 ogDescription: Inspired by my own article on side-loading ebooks on Kindle for Android I wanted to know how to do it for iOS-based devices like the iPhone, the iPad, or the iPod. It seems that the possibilities are...
 layout: post

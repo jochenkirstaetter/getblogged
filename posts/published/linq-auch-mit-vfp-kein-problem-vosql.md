@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: 'LINQ - auch mit VFP kein Problem: VOSQL'
 metaDescription: "LINQ - auch mit VFP kein Problem: VOSQL Achja, wer sagt's denn. Kaum sind die ersten Sprößlinge von LINQ zu lesen, da gibt's ein gleichartiges Proof-of-Concept in Visual FoxPro dazu. Hätte mich auch ehrlich gesagt ein wenig gewundert, wenn es mit einer datenbank-zentrierten Programmiersprache nicht möglich wäre, einen objektorientierten Ansatz"
 image: content/images/2005/09/photo-1468070454955-c5b6932bd08d.webp
+ogImage: content/images/2005/09/photo-1468070454955-c5b6932bd08d-og.webp
 ogTitle: 'LINQ - auch mit VFP kein Problem: VOSQL'
 ogDescription: Achja, wer sagt's denn. Kaum sind die ersten Sprößlinge von LINQ zu lesen, da gibt's ein gleichartiges Proof-of-Concept in Visual FoxPro dazu. Hätte mich auch ehrlich gesagt ein wenig gewundert, wenn...
 layout: post

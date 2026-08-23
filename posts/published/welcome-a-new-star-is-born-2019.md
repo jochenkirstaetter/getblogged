@@ -12,6 +12,7 @@ keywords: Personal
 metaTitle: Welcome - A new star is born!
 metaDescription: Hello dear family & friends,we would like to introduce you to our latest project "Jamba" or better said experiment 'William Balthazar Kirstätter'.The little boy was born in the evening some days...
 image: content/images/2019/03/WilliamAnnouncement.webp
+ogImage: content/images/2019/03/WilliamAnnouncement-og.webp
 ogTitle: Welcome - A new star is born!
 ogDescription: Hello dear family & friends,we would like to introduce you to our latest project "Jamba" or better said experiment 'William Balthazar Kirstätter'.The little boy was born in the evening some days...
 layout: post

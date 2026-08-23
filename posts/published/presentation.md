@@ -12,6 +12,7 @@ keywords: Personal
 metaTitle: Presentations
 metaDescription: Presentations Session Microsoft Visual FoxPro Entwicklerkonferenz - Delevoper conference 11.2006 D-CLR - CLR Host für Visual FoxPro Die Common Language Runtime (CLR) des .NET Frameworks übernimmt die grundsätzliche Aufgabe zum Starten von Assemblies und Anwendungen in einer .NET Programmiersprache wie etwa C# oder Visual Basic. Weiterhin ist die CLR
 image: content/images/2019/01/DotNetCore22.webp
+ogImage: content/images/2019/01/DotNetCore22-og.webp
 ogTitle: Presentations
 ogDescription: <!--   --> Sessions Mauritius Software Craftsmanship Community (MSCC) 11.2013 Linuxfest 2013 Running Windows applications on Linux - Taking into consideration that the End of Support Lifecycle for...
 layout: post

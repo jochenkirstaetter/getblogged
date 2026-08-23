@@ -13,6 +13,7 @@ keywords: Linux, Personal
 metaTitle: OpenVPN re-visited
 metaDescription: Earlier versions of OpenVPN are vulnerable to SWEET32. The attack vector can be mitigated by changing the default cipher. OpenVPN currently recommends using AES-256-CBC or AES-128-CBC.
 image: content/images/2018/08/photo-1508416163602-e4eb39645e86.webp
+ogImage: content/images/2018/08/photo-1508416163602-e4eb39645e86-og.webp
 ogTitle: OpenVPN re-visited
 ogDescription: Earlier versions of OpenVPN are vulnerable to SWEET32. The attack vector can be mitigated by changing the default cipher. OpenVPN currently recommends using AES-256-CBC or AES-128-CBC.
 layout: post

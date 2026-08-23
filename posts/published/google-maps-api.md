@@ -13,6 +13,7 @@ keywords: Development, Community
 metaTitle: 'Build anything with Google: Google Maps APIs'
 metaDescription: Starting with a first integration of the Google Maps JavaScript API to add a map into your web site, you could add additional APIs and hence more value to your site and provide interesting features.
 image: content/images/2018/02/GoogleApiConsoleDashboard.webp
+ogImage: content/images/2018/02/GoogleApiConsoleDashboard-og.webp
 ogTitle: 'Build anything with Google: Google Maps APIs'
 ogDescription: Starting with a first integration of the Google Maps JavaScript API to add a map into your web site, you could add additional APIs and hence more value to your site and provide interesting features.
 layout: post

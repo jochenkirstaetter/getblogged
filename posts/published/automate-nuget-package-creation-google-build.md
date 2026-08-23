@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: Automate NuGet package creation using Google Build
 metaDescription: Taking multiple steps to build, pack and publish a NuGet package manually is a distraction and error-prone. Use Google Cloud Build to handle the boring parts of the SDLC.
 image: content/images/2024/03/Gemini_Generated_Image-1-.webp
+ogImage: content/images/2024/03/Gemini_Generated_Image-1--og.webp
 ogTitle: Automate NuGet package creation using Google Build
 ogDescription: Taking multiple steps to build, pack and publish a NuGet package manually is a distraction and error-prone. Use Google Cloud Build to handle the boring parts of the SDLC.
 layout: post

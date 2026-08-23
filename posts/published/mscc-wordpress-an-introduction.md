@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: 'MSCC: WordPress - An Introduction'
 metaDescription: Our meetup this month is themed towards WordPress. Some say it is one of the best content management systems in the world... Well, have a look for yourself.
 image: content/images/2014/02/photo-1504711434969-e33886168f5c.webp
+ogImage: content/images/2014/02/photo-1504711434969-e33886168f5c-og.webp
 ogTitle: 'MSCC: WordPress - An Introduction'
 ogDescription: Having more sessions from our very own community members seems to be the right way to go.
 layout: post

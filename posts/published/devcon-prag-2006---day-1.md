@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: Devcon Prag 2006 - Day 1
 metaDescription: Devcon Prag 2006 - Day 1 Nach einer kurzen Nacht, etwa 5 Std oder so und einem kurzen Fr&#252;hst&#252;ck ging&#39;s sofort zur Registrierung f&#252;r die heute startende VFP-Konferenz in Prag. Gl&#252;cklicherweise lief bis jetzt alles sehr relaxed ab.**Keynote**A tribute to community and everything connects - ich denke, dass d&#252;rfte die
 image: content/images/2006/09/photo-1504723433512-1f76737fa834.webp
+ogImage: content/images/2006/09/photo-1504723433512-1f76737fa834-og.webp
 ogTitle: Devcon Prag 2006 - Day 1
 ogDescription: Nach einer kurzen Nacht, etwa 5 Std oder so und einem kurzen Frühstück ging's sofort zur Registrierung für die heute startende VFP-Konferenz in Prag. Glücklicherweise lief bis jetzt alles sehr relaxed...
 layout: post

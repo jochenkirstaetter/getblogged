@@ -13,6 +13,7 @@ keywords: Linux, Personal
 metaTitle: 'Next stop: MCSA: Linux on Azure'
 metaDescription: Recently I decided to coordinate my work and learning activities a little bit. Turns out that while working with .NET Core, in particular developing an API project, I do quite some coding under Linux...
 image: content/images/2018/03/photo-1516321165247-4aa89a48be28.webp
+ogImage: content/images/2018/03/photo-1516321165247-4aa89a48be28-og.webp
 ogTitle: 'Next stop: MCSA: Linux on Azure'
 ogDescription: Recently I decided to coordinate my work and learning activities a little bit. Turns out that while working with .NET Core, in particular developing an API project, I do quite some coding under Linux...
 layout: post

@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: DevFest Kigali 2023
 metaDescription: With a high potential of technology-savvy people in Rwanda, DevFest Kigali is clearly a highlight to provide latest trends in Google tech, to network and to share practical experience.
 image: content/images/2023/11/F7_rCqmWwAAYi1D.webp
+ogImage: content/images/2023/11/F7_rCqmWwAAYi1D-og.webp
 ogTitle: DevFest Kigali 2023
 ogDescription: With a high potential of technology-savvy people in Rwanda, DevFest Kigali is clearly a highlight to provide latest trends in Google tech, to network and to share practical experience.
 layout: post

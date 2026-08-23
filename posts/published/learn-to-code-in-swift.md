@@ -12,6 +12,7 @@ keywords: Recension
 metaTitle: 'Learn to Code in Swift: The new language of iOS Apps by Kevin McNeish'
 metaDescription: Only by looking at the table of content I knew that this is going to be a fun read. The book is actually structured like a set of full-day classes or better said a training workshop for beginners in Swift. It starts with the basic elements of Swift, then covers code workflow and finishes of with more advanced topics like closures and error handling.
 image: content/images/2018/02/recension_learnswift.webp
+ogImage: content/images/2018/02/recension_learnswift-og.webp
 ogTitle: 'Learn to Code in Swift: The new language of iOS Apps by Kevin McNeish'
 ogDescription: As a subscriber of a mailing list curated by Kevin McNeish I received his call to action around begin of December last year,
 layout: post

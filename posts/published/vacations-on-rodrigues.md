@@ -12,6 +12,7 @@ keywords: General
 metaTitle: Vacations on Rodrigues 2014
 metaDescription: This time I'm writing some lines on my (and my family's) activities during our long weekend stay on Rodrigues.
 image: content/images/2018/02/CIMG4586.JPG
+ogImage: content/images/2018/02/CIMG4586-og.webp
 ogTitle: Vacations on Rodrigues 2014
 ogDescription: And now something completely different compared to the usual technical or community related articles here on this blog. Yes, this time I'm writing some lines on my (and my family's) activities during...
 layout: post

@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: Trio infernale (CLIP Day One)
 metaDescription: Trio infernale (CLIP Day One) **Montag morgen... Urlaub!**Der Tag fängt ehrlich gesagt, extremst gut an. Morgens noch ein paar Kleinigkeiten zusammengepackt und verstaut, kleinen Check am Auto - das übliche eben, wenn man sich auf Reisen begibt. Okay, nächste Station.**12:00 Kaiserslautern - T-Shirtdruckerei**Mit leichtem Ziehen und Bangen betrete ich den
 image: content/images/2004/10/photo-1529682640963-ae20264ae608.webp
+ogImage: content/images/2004/10/photo-1529682640963-ae20264ae608-og.webp
 ogTitle: Trio infernale (CLIP Day One)
 ogDescription: Der Tag fängt ehrlich gesagt, extremst gut an. Morgens noch ein paar Kleinigkeiten zusammengepackt und verstaut, kleinen Check am Auto - das übliche eben, wenn man sich auf Reisen begibt. Okay...
 layout: post

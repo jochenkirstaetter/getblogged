@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: Switch to English language
 metaDescription: Switch to English language Yeah, finally I switch to English language.Starting in 2008 I write future articles in this blog in English language only. Well, maybe sometimes there will be also some German sentences but the main focus is on English, for sure. This is for several reasons... First, more
 image: content/images/2008/01/photo-1529514498599-74ebec1ecc28.webp
+ogImage: content/images/2008/01/photo-1529514498599-74ebec1ecc28-og.webp
 ogTitle: Switch to English language
 ogDescription: Yeah, finally I switch to English language.Starting in 2008 I write future articles in this blog in English language only. Well, maybe sometimes there will be also some German sentences but the main...
 layout: post

@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: 'MSCC: Purpose and benefits of Version Control Systems (VCS)'
 metaDescription: "MSCC meeting of June: You're working in IT and not using any kind of version control system? Sorry, then you're doing something wrong!"
 image: content/images/2014/06/photo-1532883130016-f3d311140ba8.webp
+ogImage: content/images/2014/06/photo-1532883130016-f3d311140ba8-og.webp
 ogTitle: 'MSCC: Purpose and benefits of Version Control Systems (VCS)'
 ogDescription: Unfortunately, there was no monthly meetup during May. Which means that it was even more important and interesting to go forward with a great topic for this month. Earlier this year I already spoke to...
 layout: post

@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: Guest lecturer for the Africa Industrial Internet Programme (AIIP)
 metaDescription: As an active member in the IT communities of Mauritius it seizes to amaze me to see the increasing number of events and activities happening. Some of the local universities started to look out for...
 image: content/images/2019/09/photo-1517245386807-bb43f82c33c4.webp
+ogImage: content/images/2019/09/photo-1517245386807-bb43f82c33c4-og.webp
 ogTitle: Guest lecturer for the Africa Industrial Internet Programme (AIIP)
 ogDescription: As an active member in the IT communities of Mauritius it seizes to amaze me to see the increasing number of events and activities happening. Some of the local universities started to look out for...
 layout: post

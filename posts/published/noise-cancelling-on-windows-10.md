@@ -13,6 +13,7 @@ keywords: Windows, Community
 metaTitle: Noise Cancelling on Windows 10
 metaDescription: Working from home (WFH) with the children most of the time around me it would be a challenge to use an 'open' mic during conference calls on Microsoft Teams or Google Meet. Hence my search for a noise reduction solution that would allow me to work comfortable.
 image: content/images/2020/05/tai-s-captures-LS_o7wNTNAk-unsplash.webp
+ogImage: content/images/2020/05/tai-s-captures-LS_o7wNTNAk-unsplash-og.webp
 ogTitle: Noise Cancelling on Windows 10
 ogDescription: Working from home (WFH) with the children most of the time around me it would be a challenge to use an 'open' mic during conference calls on Microsoft Teams or Google Meet. Hence my search for a noise reduction solution that would allow me to work comfortable.
 layout: post

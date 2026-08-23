@@ -12,6 +12,7 @@ keywords: General
 metaTitle: Synergy - easy share of keyboard and mouse between multiple computers
 metaDescription: An ode to Synergy - a tool that lets you easily share your mouse and keyboard between multiple computers on your desk, and it's Free and Open Source.
 image: content/images/2018/02/synergy_banner.webp
+ogImage: content/images/2018/02/synergy_banner-og.webp
 ogTitle: Synergy - easy share of keyboard and mouse between multiple computers
 ogDescription: Did you ever have the urge to share one set of keyboard and mouse between multiple machines? If so, please read on...
 layout: post

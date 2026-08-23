@@ -12,6 +12,7 @@ keywords: Android
 metaTitle: How to build your own 'Emtel In-Car WiFi' hot-spot
 metaDescription: Crisp and brief instructions about how to use a Samsung Galaxy Gio (GT-S5660) as tethering hot-spot in your vehicle. This provides internet access to WiFi-only devices while being on the road.
 image: content/images/2013/12/photo-1531253618426-52f67d1567d1.webp
+ogImage: content/images/2013/12/photo-1531253618426-52f67d1567d1-og.webp
 ogTitle: How to build your own 'Emtel In-Car WiFi' hot-spot
 ogDescription: Inspired by a recent advertisement of Emtel In-Car WiFi, I thought (again) about possibilities of having my very own in-car wireless always-on internet solution. Emtel suggests that you should go to...
 layout: post

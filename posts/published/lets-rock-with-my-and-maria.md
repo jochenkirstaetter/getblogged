@@ -12,6 +12,7 @@ keywords: Linux
 metaTitle: Lets rock with MySQL and MariaDB
 metaDescription: MariaDB is an inplace-replacement for MySQL. In case that you're operating your website or blog on MySQL you can simply install and use MariaDB instead of. It works flawlessly.
 image: content/images/2015/01/photo-1470305585628-a7d2cb18efa2.webp
+ogImage: content/images/2015/01/photo-1470305585628-a7d2cb18efa2-og.webp
 ogTitle: Lets rock with MySQL and MariaDB
 ogDescription: Some weeks months ago...
 layout: post

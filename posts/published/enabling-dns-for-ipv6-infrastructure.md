@@ -12,6 +12,7 @@ keywords: Linux
 metaTitle: Enabling DNS for IPv6 infrastructure
 metaDescription: Usually, we would simply use host names in order to communicate with other machines instead of their bare IPv6 addresses. During the following paragraphs we are going to enable our own DNS name server with IPv6 address resolving.
 image: content/images/2014/03/photo-1494059980473-813e73ee784b.webp
+ogImage: content/images/2014/03/photo-1494059980473-813e73ee784b-og.webp
 ogTitle: Enabling DNS for IPv6 infrastructure
 ogDescription: After successful automatic distribution of IPv6 address information via DHCPv6 in your local network it might be time to start offering some more services. Usually, we would use host names in order to...
 layout: post

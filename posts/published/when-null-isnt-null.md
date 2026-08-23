@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: When NULL isn't NULL
 metaDescription: Using Visual FoxPro as an untyped programming language it is vital to always declare your variables and more importantly to assign the intended data type to it before use.
 image: content/images/2018/09/photo-1527109499611-6fbeb6779130.webp
+ogImage: content/images/2018/09/photo-1527109499611-6fbeb6779130-og.webp
 ogTitle: When NULL isn't NULL
 ogDescription: Using Visual FoxPro as an untyped programming language it is vital to always declare your variables and more importantly to assign the intended data type to it before use.
 layout: post

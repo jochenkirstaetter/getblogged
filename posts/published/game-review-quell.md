@@ -12,6 +12,7 @@ keywords: Android
 metaTitle: 'Game Review: Quell'
 metaDescription: Quell is a puzzle game in its own league. I mean seriously... it keeps you captivated.
 image: content/images/2018/02/quell-stage.webp
+ogImage: content/images/2018/02/quell-stage-og.webp
 ogTitle: 'Game Review: Quell'
 ogDescription: Only by chance reading a posting from one of my FB contacts I got a hint about Quell.
 layout: post

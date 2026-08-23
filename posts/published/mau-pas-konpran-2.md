@@ -14,6 +14,7 @@ keywords: Podcast, Personal, Community
 metaTitle: Mau Pas Konpran!? Brain Drain
 metaDescription: In our latest episode we - Loic, Ish and I - sat together and talked about the situation, possible reasons, and considerations regarding the emigration of Mauritians towards other countries and the potential impact on the society here on the island.
 image: content/images/2023/12/MauPasKonpran_20231213.webp
+ogImage: content/images/2023/12/MauPasKonpran_20231213-og.webp
 ogTitle: Mau Pas Konpran!? Brain Drain
 ogDescription: In our latest episode we - Loic, Ish and I - sat together and talked about the situation, possible reasons, and considerations regarding the emigration of Mauritians towards other countries and the potential impact on the society here on the island.
 layout: post

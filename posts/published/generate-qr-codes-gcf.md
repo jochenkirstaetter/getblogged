@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: Generating QR codes - the Easy, the Comfy and the Smarty
 metaDescription: Using QR codes to assist people to find the right information quickly is a good choice nowadays. See how Google Cloud Functions can do the job.
 image: content/images/2023/11/FleetQRCodeCubesInTheClouds.webp
+ogImage: content/images/2023/11/FleetQRCodeCubesInTheClouds-og.webp
 ogTitle: Generating QR codes - the Easy, the Comfy and the Smarty
 ogDescription: Using QR codes to assist people to find the right information quickly is a good choice nowadays. See how Google Cloud Functions can do the job.
 layout: post

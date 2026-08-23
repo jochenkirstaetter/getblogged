@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: Using Cloud Run instead of GKE
 metaDescription: Compared to Kubernetes Engine, Cloud Run abstracts the overhead of administration and enables you to deploy your containerized application almost instantly.
 image: content/images/2019/11/photo-1552674605-db6ffd4facb5.webp
+ogImage: content/images/2019/11/photo-1552674605-db6ffd4facb5-og.webp
 ogTitle: Using Cloud Run instead of GKE
 ogDescription: Compared to Kubernetes Engine, Cloud Run abstracts the overhead of administration and enables you to deploy your containerized application almost instantly.
 layout: post

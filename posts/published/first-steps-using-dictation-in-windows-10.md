@@ -12,6 +12,7 @@ keywords: Windows
 metaTitle: First steps using dictation in Windows 10
 metaDescription: It looks pretty simple when you see it in movies that dictates into a recording device. Dictating an article requires a lot more concentration than typing.
 image: content/images/2019/01/photo-1453738773917-9c3eff1db985.webp
+ogImage: content/images/2019/01/photo-1453738773917-9c3eff1db985-og.webp
 ogTitle: First steps using dictation in Windows 10
 ogDescription: It looks pretty simple when you see it in movies or watching a practitioner that dictates something into a recording device. Trying to write or better said to dictate an article the first time requires a lot more concentration than typing.
 layout: post

@@ -12,6 +12,7 @@ keywords: Personal
 metaTitle: About Me
 metaDescription: The only frontiers are in your mind. Hi, my name is Jochen Kirstätter, also known as JoKi. I am a software craftsman, blogger, community founder, and speaker.
 image: content/images/2026/08/PXL_20260725_055734262.webp
+ogImage: content/images/2026/08/PXL_20260725_055734262-og.webp
 ogTitle: About Me
 ogDescription: The only frontiers are in your mind. Hi, my name is Jochen Kirstätter, also known as JoKi. I am a software craftsman, blogger, community founder, and speaker.
 layout: page

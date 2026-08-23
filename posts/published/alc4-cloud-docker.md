@@ -13,6 +13,7 @@ keywords: Development, Andela
 metaTitle: Working with Docker (ALC 4.0 Cloud Challenge I)
 metaDescription: This is the second part of a series regarding the completion of the ALC 4.0 Cloud Challenge I. The article describes the packing and image creation on Docker and how to push it to GCR.
 image: content/images/2019/10/alc4cloudchallengegcr.webp
+ogImage: content/images/2019/10/alc4cloudchallengegcr-og.webp
 ogTitle: Working with Docker (ALC 4.0 Cloud Challenge I)
 ogDescription: This is the second part of a series regarding the completion of the ALC 4.0 Cloud Challenge I. The article describes the packing and image creation on Docker and how to push it to GCR.
 layout: post

@@ -13,6 +13,7 @@ keywords: Development, Andela
 metaTitle: Create React App (ALC 4.0 Cloud Challenge I)
 metaDescription: This is the first part of a series regarding the completion of the ALC 4.0 Cloud Challenge I. The article describes the creation and customisation of a React app and how to secure all modifications using an online repository on GitHub.
 image: content/images/2019/10/alc4cloudchallengepwa.webp
+ogImage: content/images/2019/10/alc4cloudchallengepwa-og.webp
 ogTitle: Create React App (ALC 4.0 Cloud Challenge I)
 ogDescription: This is the first part of a series regarding the completion of the ALC 4.0 Cloud Challenge I. The article describes the creation and customisation of a React app and how to secure all modifications using an online repository on GitHub.
 layout: post

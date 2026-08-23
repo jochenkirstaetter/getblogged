@@ -12,6 +12,7 @@ keywords: General
 metaTitle: Some mail details about Orange Mauritius
 metaDescription: Being an internet service provider is not easy after all for a lot of companies. Luckily, there are quite some good international operators in this world.
 image: content/images/2011/02/photo-1518309913525-82928de3a51f.webp
+ogImage: content/images/2011/02/photo-1518309913525-82928de3a51f-og.webp
 ogTitle: Some mail details about Orange Mauritius
 ogDescription: Being an internet service provider is not easy after all for a lot of companies. Luckily, there are quite some good international operators in this world. For example Orange Mauritius aka Mauritius...
 layout: post

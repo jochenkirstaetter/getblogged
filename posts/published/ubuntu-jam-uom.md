@@ -12,6 +12,7 @@ keywords: Linux
 metaTitle: Ubuntu Jam at the University of Mauritius
 metaDescription: I have to admit that even though I use Microsoft Windows on a daily base to earn my living, I'm also using Linux since almost two decades on various machines. Together with different types of virtualisation I actually do not care whether an OS is running on bare-metal or inside a virtual machine.
 image: content/images/2017/08/ubuntujam-20150207-1.webp
+ogImage: content/images/2017/08/ubuntujam-20150207-1-og.webp
 ogTitle: Ubuntu Jam at the University of Mauritius
 ogDescription: Operating systems are simply tools to do a job...
 layout: post

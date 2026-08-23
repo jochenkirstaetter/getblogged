@@ -12,6 +12,7 @@ keywords: General
 metaTitle: My first month using a Lumia 730
 metaDescription: It's already one month since I bought a Nokia / Microsoft Lumia 730 during one of my business trips in Europe. And quite frankly I'm going to summarise my impressions, up & downs during this time using the device itself, the Windows Phone 8.1 operating system and the apps during this period.
 image: content/images/2017/08/wp8-change-name.webp
+ogImage: content/images/2017/08/wp8-change-name-og.webp
 ogTitle: My first month using a Lumia 730
 ogDescription: It's already one month since I bought a Nokia / Microsoft Lumia 730 during one of my business trips in Europe. And quite frankly I'm going to summarise my impressions, up & downs during this time...
 layout: post

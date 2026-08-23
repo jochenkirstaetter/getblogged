@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: Die Zukunft von VFP
 metaDescription: Die Zukunft von VFP Mahlzeit,hier &#39;ne Kleinigkeit zu lesen ;-)http://msdn.microsoft.com/vfoxpro/roadmap/http://msdn.microsoft.com/vfoxpro/letters/http://www.craigberntson.com/archives/2005_06_01_archive.asp#111764598359410031Tja, daf&#252;r, dass er alles offenlegen will, ist die Roadmap wirklich sehr d&#252;nn.Im Universalthread ist Ken etwas offener. Hier ein paar Auschnitte aus Messages von Ken von gestern und heute im UT:Thanks for the feedback. I just did a video interview
 image: content/images/2005/06/photo-1508250318180-862994eb0e80.webp
+ogImage: content/images/2005/06/photo-1508250318180-862994eb0e80-og.webp
 ogTitle: Die Zukunft von VFP
 ogDescription: Mahlzeit,
 layout: post

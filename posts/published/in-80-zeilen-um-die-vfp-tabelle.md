@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: In 80 Zeilen um die VFP-Tabelle
 metaDescription: In 80 Zeilen um die VFP-Tabelle Ups, I did it again...Oder so ähnlich, aber da ich gestern / heute ein wenig durch meine Kollegen zu Zwangsarbeit genötigt wurde, dachte ich mir die Zeit des Wartens könnte man anderweitig nutzen.Nun, in Vorbereitung für den kommenden Webcast zu Visual FoxPro und Visual
 image: content/images/2023/09/in80linesofcode.webp
+ogImage: content/images/2023/09/in80linesofcode-og.webp
 ogTitle: In 80 Zeilen um die VFP-Tabelle
 ogDescription: Ups, I did it again...Oder so ähnlich, aber da ich gestern / heute ein wenig durch meine Kollegen zu Zwangsarbeit genötigt wurde, dachte ich mir die Zeit des Wartens könnte man anderweitig nutzen.Nun...
 layout: post

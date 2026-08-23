@@ -14,6 +14,7 @@ keywords: Podcast, Personal, Community
 metaTitle: Mau pas konpran!? SIM Registration
 metaDescription: Feeling overwhelmed with the daily amount of technological news and announcements? Don't know what the benefits and potential implications might be? Listen to our podcast 'Mau pas konpran!?' to get answers.
 image: content/images/2023/11/MauPasKonpran-1.webp
+ogImage: content/images/2023/11/MauPasKonpran-1-og.webp
 ogTitle: Mau pas konpran!? SIM Registration
 ogDescription: Feeling overwhelmed with the daily amount of technological news and announcements? Don't know what the benefits and potential implications might be? Listen to our podcast 'Mau pas konpran!?' to get answers.
 layout: post

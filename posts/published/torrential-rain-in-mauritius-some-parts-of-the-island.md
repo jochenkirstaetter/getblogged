@@ -12,6 +12,7 @@ keywords: General
 metaTitle: Torrential rain in Mauritius - some parts of the island
 metaDescription: Occassional heavy (torrential) rains tightens up traffic in Mauritius. Schools and public offices are closed and the capital is partly flooded.
 image: content/images/2013/02/photo-1428592953211-077101b2021b.webp
+ogImage: content/images/2013/02/photo-1428592953211-077101b2021b-og.webp
 ogTitle: Torrential rain in Mauritius - some parts of the island
 ogDescription: Getting rain during the dry summer months is always a welcoming change for a while. Some tourists may moan that they can't enjoy the sunny beaches for a couple of days, but locals are simply glad that...
 layout: post

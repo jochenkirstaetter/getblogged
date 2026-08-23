@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: 'MSCC: Career & IT Fair 2014'
 metaDescription: The first Career & IT Fair 2014 organised by the UoM Computer Club was a great experience, and as representative of the MSCC I was able to get in touch with a number of local IT companies
 image: content/images/2014/04/photo-1528105692100-1d1b784e7019.webp
+ogImage: content/images/2014/04/photo-1528105692100-1d1b784e7019-og.webp
 ogTitle: 'MSCC: Career & IT Fair 2014'
 ogDescription: Already a couple of weeks ago, I've been addressed by Ibraahim and Yunus to see whether it would be interesting to participate in the 1st Career & IT Fair organised by the UoM Computer Club. Well...
 layout: post

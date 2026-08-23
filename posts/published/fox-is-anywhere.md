@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: Fox Is Anywhere!
 metaDescription: Da soll noch einmal einer sagen, dass VFP keinen Einsatzzweck hätte... Himalayan Database Absolut coole Sache!
 image: content/images/2005/02/photo-1540153448870-af780343526e.webp
+ogImage: content/images/2005/02/photo-1540153448870-af780343526e-og.webp
 ogTitle: Fox Is Anywhere!
 ogDescription: Da soll noch einmal einer sagen, dass VFP keinen Einsatzzweck hätte...Himalayan DatabaseAbsolut coole Sache!Vor allem unter der Prämisse, dass die App sauber von CD unter Windows und Mac läuft. Ein...
 layout: post

@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: Working with Cloud Build
 metaDescription: Working on a small project like the React app it seems to be a no-brainer to use Google Cloud Build to outsource the image building process completely. Let the machines do the hard work and save yourself CPU time on your computer.
 image: content/images/2019/11/photo-1573288791344-19b56eb4cdbe.webp
+ogImage: content/images/2019/11/photo-1573288791344-19b56eb4cdbe-og.webp
 ogTitle: Working with Cloud Build
 ogDescription: Working on a small project like the React app it seems to be a no-brainer to use Google Cloud Build to outsource the image building process completely. Let the machines do the hard work and save yourself CPU time on your computer.
 layout: post

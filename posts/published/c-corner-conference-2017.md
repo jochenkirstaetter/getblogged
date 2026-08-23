@@ -13,6 +13,7 @@ keywords: Community, Personal
 metaTitle: C# Corner Annual Conference 2017
 metaDescription: Speaking at the C# Conference 2017 in Delhi was an amazing experience. Both, the event and the exploration of Delhi. Visiting the Taj Mahal was a highlight.
 image: content/images/2024/05/17796494_1503202119690423_6013537920441171383_n.webp
+ogImage: content/images/2024/05/17796494_1503202119690423_6013537920441171383_n-og.webp
 ogTitle: C# Corner Annual Conference 2017
 ogDescription: Speaking at the C# Conference 2017 in Delhi was an amazing experience. Both, the event and the exploration of Delhi. Visiting the Taj Mahal was a highlight.
 layout: post

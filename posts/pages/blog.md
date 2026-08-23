@@ -12,6 +12,7 @@ keywords: Personal
 metaTitle: Blogging about bits and bytes...
 metaDescription: Welcome to my personal space
 image: content/images/2017/08/20626381_10203983204297799_562900680618946131_o.webp
+ogImage: content/images/2017/08/20626381_10203983204297799_562900680618946131_o-og.webp
 ogTitle: Blogging about bits and bytes...
 ogDescription: Welcome to my personal space
 layout: page

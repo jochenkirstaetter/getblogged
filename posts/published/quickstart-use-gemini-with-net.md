@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: 'Quickstart: Use Gemini with .NET (Google AI)'
 metaDescription: Less than five minutes to get started with Google Gemini API in .NET using the Mscc.GenerativeAI package. It's like a few lines of code only to empower your app with generative AI powered by Google Gemini.
 image: content/images/2024/04/Gemini_Generated_Image-4-.webp
+ogImage: content/images/2024/04/Gemini_Generated_Image-4--og.webp
 ogTitle: 'Quickstart: Use Gemini with .NET (Google AI)'
 ogDescription: Less than five minutes to get started with Google Gemini API in .NET using the Mscc.GenerativeAI package. It's like a few lines of code only to empower your app with generative AI powered by Google Gemini.
 layout: post

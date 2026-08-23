@@ -12,6 +12,7 @@ keywords: Development
 metaTitle: Getting Started with SQL Server on GCP
 metaDescription: My impression of Cloud SQL for SQL Server is quite positive. I like the idea to run SQL Server databases on GCP together with other services like Compute Engine, App Engine, Kubernetes Engine, or even BigQuery to analyse data.
 image: content/images/2019/11/GCP_SqlServer2017.webp
+ogImage: content/images/2019/11/GCP_SqlServer2017-og.webp
 ogTitle: Getting Started with SQL Server on GCP
 ogDescription: My impression of Cloud SQL for SQL Server is quite positive. I like the idea to run SQL Server databases on GCP together with other services like Compute Engine, App Engine, Kubernetes Engine, or even BigQuery to analyse data.
 layout: post

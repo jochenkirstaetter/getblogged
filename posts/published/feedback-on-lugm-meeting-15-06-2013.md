@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: Feedback on meeting of the Linux User Group of Mauritius
 metaDescription: Quick review on the meeting of the Linux User Group of Mauritius (LUGM) on the 15th June 2013 at L'Escalier. It was a great gathering with interesting topics and activities afterwards.
 image: content/images/2018/11/Lugm_20130615.webp
+ogImage: content/images/2018/11/Lugm_20130615-og.webp
 ogTitle: Feedback on meeting of the Linux User Group of Mauritius
 ogDescription: Once upon a time in a country far far away...
 layout: post

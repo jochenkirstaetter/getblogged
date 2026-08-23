@@ -12,6 +12,7 @@ keywords: Personal
 metaTitle: Welcome - Our twin stars!
 metaDescription: 'Like with previous posts to announce new members to the family I was informed that I totally missed our latest ones: Akira and Dexter - our twin cats.'
 image: content/images/2019/02/AkiraDexter.webp
+ogImage: content/images/2019/02/AkiraDexter-og.webp
 ogTitle: Welcome - Our twin stars!
 ogDescription: 'Like with previous posts to announce new members to the family I was informed that I totally missed our latest ones: Akira and Dexter - our twin cats.'
 layout: post

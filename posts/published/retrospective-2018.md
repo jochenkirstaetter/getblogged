@@ -12,6 +12,7 @@ keywords: Personal
 metaTitle: '2018: A retrospective'
 metaDescription: Reflecting on some of the activities done throughout the year I have to admit that 2018 was an amazing one.
 image: content/images/2019/01/48377695_10205885002201558_2207787136319488000_o.webp
+ogImage: content/images/2019/01/48377695_10205885002201558_2207787136319488000_o-og.webp
 ogTitle: '2018: A retrospective'
 ogDescription: Each time I am doing something that I'm passionate about I have the subjective impression that the spacetime continuum has a different beat and the days pass by faster than usually. Reflecting on some of the activities done throughout the year I have to admit that 2018 was an amazing one.
 layout: post

@@ -12,6 +12,7 @@ keywords: General
 metaTitle: Die Rückkehr des Königs
 metaDescription: Die Rückkehr des Königs Yeah, finally.Endlich ist die Extended Edition des dritten Teils von Der Herr der Ringe - Die Rückkehr des Königs - bestellbar. Amazon hat Anfang letzter Woche die virtuellen Shoppingtüren weiter geöffnet. Eigentlich selbst verständlich, daß die Box sofort bestellt wird. Wobei ja inzwischen der Untertitel Collector's
 image: content/images/2023/09/wide-ankle_scene_gondor.webp
+ogImage: content/images/2023/09/wide-ankle_scene_gondor-og.webp
 ogTitle: Die Rückkehr des Königs
 ogDescription: Yeah, finally.Endlich ist die Extended Edition des dritten Teils von Der Herr der Ringe - Die Rückkehr des Königs - bestellbar. Amazon hat Anfang letzter Woche die virtuellen Shoppingtüren weiter...
 layout: post

@@ -12,6 +12,7 @@ keywords: Recension
 metaTitle: Microsoft SharePoint 2013 Administration Inside Out
 metaDescription: For a software development job I had to set up a Microsoft SharePoint 2013 test lab, and honestly without this book it wouldn't have been possible.
 image: content/images/2014/11/photo-1427751840561-9852520f8ce8.webp
+ogImage: content/images/2014/11/photo-1427751840561-9852520f8ce8-og.webp
 ogTitle: Microsoft SharePoint 2013 Administration Inside Out
 ogDescription: Microsoft SharePoint is a great product to work with - no doubt, no questions asked but it can be (and is) quite confusing at any stage of your knowledge. Luckily, I had access to this title when I...
 layout: post

@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: 'MSCC: Clean Code Developer & Certification in IT'
 metaDescription: Our second meetup on a Saturday produced more traction and attention to the local IT community. As we spoke about Clean Code Developer (CCD) and certifications in IT...
 image: content/images/2019/01/highres_285414502.webp
+ogImage: content/images/2019/01/highres_285414502-og.webp
 ogTitle: 'MSCC: Clean Code Developer & Certification in IT'
 ogDescription: It was a very busy weekend this time, and quite some hectic to organise the second meetup on a Saturday for the Mauritius Software Craftsmanship Community (MSCC) but it was absolutely fun. Following...
 layout: post

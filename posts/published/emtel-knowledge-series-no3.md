@@ -12,6 +12,7 @@ keywords: General
 metaTitle: Emtel Knowledge Series - Q2/2014
 metaDescription: The Emtel Knowledge Series goes in compliance with Emtel's 25th anniversary celebrations throughout the year and more events will be organised on a quarterly base.
 image: content/images/2014/06/photo-1525078961872-3001df219a7d.webp
+ogImage: content/images/2014/06/photo-1525078961872-3001df219a7d-og.webp
 ogTitle: Emtel Knowledge Series - Q2/2014
 ogDescription: Cyber Island? Smart Mauritius? - What is Emtel talking about?
 layout: post

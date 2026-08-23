@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: Azure DEV Meetup Munich
 metaDescription: While I was on a business trip to Germany back in February I thought that it might be a good idea to check out some of the local user groups. Azure DEV Meetup Munich offered an interesting topic not far from the hotel I stayed.
 image: content/images/2020/04/WP_20200213_21_52_16_Pro--2-.webp
+ogImage: content/images/2020/04/WP_20200213_21_52_16_Pro--2--og.webp
 ogTitle: Azure DEV Meetup Munich
 ogDescription: While I was on a business trip to Germany back in February I thought that it might be a good idea to check out some of the local user groups. Azure DEV Meetup Munich offered an interesting topic not far from the hotel I stayed.
 layout: post

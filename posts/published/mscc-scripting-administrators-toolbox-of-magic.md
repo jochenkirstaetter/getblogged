@@ -12,6 +12,7 @@ keywords: Community
 metaTitle: "MSCC: Scripting - Administrator's­ toolbox of magic..."
 metaDescription: Ish and Dan had well prepared presentations on shell scripting, mainly focused towards Bourne Again Shell (bash), and the pros and cons of scripting versus actually writing something in a decent programming language. I thought that I could cut myself out of the equation but the demand for information about PowerShell was higher than expected...
 image: content/images/2014/05/photo-1533229613598-751dc97ec35f.webp
+ogImage: content/images/2014/05/photo-1533229613598-751dc97ec35f-og.webp
 ogTitle: "MSCC: Scripting - Administrator's­ toolbox of magic..."
 ogDescription: Finally, we made it to have our April meetup - in May. The most obvious explanation is the increased amount of open source and IT activities that either the MSCC, the Linux User Group of Mauritius...
 layout: post

@@ -13,6 +13,7 @@ keywords: Windows, Projects
 metaTitle: Using OpenVPN connections via Windows Task Scheduler
 metaDescription: There might be scenarios where you need a VPN connection on demand and for a limited time only.
 image: content/images/2023/08/_64d3a6de-7553-4b7c-95be-8bf5cc0023fc.webp
+ogImage: content/images/2023/08/_64d3a6de-7553-4b7c-95be-8bf5cc0023fc-og.webp
 ogTitle: Using OpenVPN connections via Windows Task Scheduler
 ogDescription: There might be scenarios where you need a VPN connection on demand and for a limited time only.
 layout: post

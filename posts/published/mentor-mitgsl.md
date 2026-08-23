@@ -13,6 +13,7 @@ keywords: Community, Personal
 metaTitle: Tech Mentor at MIT Global Startup Lab in Mauritius
 metaDescription: It took almost four years from initial conversation between Dhaval and me until the first MIT Global Startup Lab was organised and launched in Mauritius. As a technological mentor I shared my experience and gave guidance to project team(s).
 image: content/images/2017/08/photo-1498622205843-3b0ac17f8ba4.webp
+ogImage: content/images/2017/08/photo-1498622205843-3b0ac17f8ba4-og.webp
 ogTitle: Tech Mentor at MIT Global Startup Lab in Mauritius
 ogDescription: It took almost four years from initial conversation between Dhaval and me until the first MIT Global Startup Lab was organised and launched in Mauritius. As a technological mentor I shared my experience and gave guidance to project team(s).
 layout: post

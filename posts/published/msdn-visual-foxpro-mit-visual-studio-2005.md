@@ -12,6 +12,7 @@ keywords: General
 metaTitle: 'MSDN: Visual FoxPro mit Visual Studio 2005'
 metaDescription: 'MSDN Webcast: Visual FoxPro mit Visual Studio 2005 - Jochen Kirstätter'
 image: content/images/2023/09/Screenshot-from-2023-09-18-03-05-35.webp
+ogImage: content/images/2023/09/Screenshot-from-2023-09-18-03-05-35-og.webp
 ogTitle: 'MSDN: Visual FoxPro mit Visual Studio 2005'
 ogDescription: YES!
 layout: post

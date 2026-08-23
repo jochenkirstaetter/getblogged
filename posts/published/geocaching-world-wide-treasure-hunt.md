@@ -12,6 +12,7 @@ keywords: General
 metaTitle: Geocaching - World wide treasure hunt
 metaDescription: Geocaching is a high-tech outdoor treasure hunting game that's a great way to explore the world with friends, family or on your own. Participants use GPS-enabled devices to locate hidden containers called geocaches.
 image: content/images/2012/12/photo-1452193550078-d7e45d3b834d.webp
+ogImage: content/images/2012/12/photo-1452193550078-d7e45d3b834d-og.webp
 ogTitle: Geocaching - World wide treasure hunt
 ogDescription: Geocaching is a high-tech outdoor treasure hunting game that's a great way to explore the world with friends, family or on your own. Participants use GPS-enabled devices to locate hidden containers called geocaches.
 layout: post

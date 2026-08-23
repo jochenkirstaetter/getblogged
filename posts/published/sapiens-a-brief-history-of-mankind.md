@@ -12,6 +12,7 @@ keywords: Recension
 metaTitle: 'Sapiens: A Brief History of Humankind'
 metaDescription: Thought-provoking and eye-opening book about the origin, the evolution and destructive nature of homo sapiens. However there seems to be hope of improvement. Or the danger of spreading further to other planets.
 image: content/images/2023/09/pre-historic-cave-drawings--in-the-style-of-post-impressionism--spirited--no-words.webp
+ogImage: content/images/2023/09/pre-historic-cave-drawings--in-the-style-of-post-impressionism--spirited--no-words-og.webp
 ogTitle: 'Sapiens: A Brief History of Humankind'
 ogDescription: Thought-provoking and eye-opening book about the origin, the evolution and destructive nature of homo sapiens. However there seems to be hope of improvement. Or the danger of spreading further to other planets.
 layout: post
