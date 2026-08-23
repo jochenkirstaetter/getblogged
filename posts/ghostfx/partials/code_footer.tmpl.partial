@@ -232,26 +232,7 @@ if ('requestIdleCallback' in window) {
                 e.preventDefault();
                 e.stopPropagation();
                 window.openMediaLightbox(svg);
-                return false;
-            }
-        }
-        // 6. Normalize post meta tag links & date format
-        var metaDate = document.querySelector('.post-full-meta-date');
-        if (metaDate && metaDate.textContent && metaDate.textContent.indexOf('T') !== -1) {
-            metaDate.textContent = metaDate.textContent.split('T')[0];
-        }
-        var tagLinks = document.querySelectorAll('.post-full-meta-tags a');
-        tagLinks.forEach(function(a) {
-            var href = a.getAttribute('href');
-            if (href) {
-                var normalized = href.toLowerCase();
-                if (normalized.endsWith('tags/projects.html')) {
-                    normalized = normalized.replace('tags/projects.html', 'tags/project.html');
-                }
-                a.setAttribute('href', normalized);
-            }
-        });
-    }
+    }, true);
 
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', initCodeFooter);

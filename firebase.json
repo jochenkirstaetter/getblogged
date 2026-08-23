@@ -41,6 +41,11 @@
     ],
     "redirects": [
       {
+        "source": "/tag/:path*",
+        "destination": "/tags/:path*",
+        "type": 301
+      },
+      {
         "source": "/assets/:path*",
         "destination": "/public/:path*",
         "type": 301
