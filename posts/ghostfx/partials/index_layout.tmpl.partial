@@ -1,4 +1,4 @@
-﻿<header class="site-home-header">
+<header class="site-home-header">
     <div class="outer site-header-background {{#coverImage}}responsive-header-img{{/coverImage}}{{^coverImage}}{{#_appCoverImage}}responsive-header-img{{/_appCoverImage}}{{/coverImage}}" style="{{#coverImage}}background-image: url('{{_rel}}{{.}}');{{/coverImage}}{{^coverImage}}{{#_appCoverImage}}background-image: url('{{_rel}}{{.}}');{{/_appCoverImage}}{{/coverImage}}">
         <div class="inner">
             {{>partials/site-nav}}

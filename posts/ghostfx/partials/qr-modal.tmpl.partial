@@ -68,12 +68,14 @@
         if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
             rawUrl = appUrl + window.location.pathname;
         }
+        // Strip .html extension and trailing index.html for clean extension-less URLs
+        rawUrl = rawUrl.replace(/\/index\.html(\?|#|$)/, '/$1').replace(/\.html(\?|#|$)/, '$1');
         return rawUrl;
     }
 
     function renderQrCode(url) {
         if (!qrContainer) return;
-        var faviconPath = '{{_rel}}{{#_appFaviconPath}}{{.}}{{/_appFaviconPath}}{{^_appFaviconPath}}favicon.ico{{/_appFaviconPath}}';
+        var faviconPath = '{{_rel}}{{#_appFaviconPath}}{{.}}{{/_appFaviconPath}}{{^_appFaviconPath}}favicon.png{{/_appFaviconPath}}';
 
         function generate() {
             if (typeof window.QRCode !== 'undefined') {
@@ -99,7 +101,8 @@
 
     window.openQrModal = function (customUrl, customTitle) {
         if (!modal) return;
-        currentCanonicalUrl = customUrl || getCanonicalUrl();
+        var raw = customUrl || getCanonicalUrl();
+        currentCanonicalUrl = raw.replace(/\/index\.html(\?|#|$)/, '/$1').replace(/\.html(\?|#|$)/, '$1');
         var h1 = document.querySelector('.post-full-title') || document.querySelector('h1');
         currentCanonicalTitle = customTitle || (h1 ? h1.innerText : document.title);
 

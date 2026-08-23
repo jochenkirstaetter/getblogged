@@ -1134,6 +1134,7 @@ body > main .affix,
 }
 
 .markdown-modal-copy-btn,
+.markdown-modal-prompt-btn,
 .markdown-modal-download-btn,
 .markdown-modal-github-btn,
 .markdown-modal-close-btn {
@@ -1153,7 +1154,15 @@ body > main .affix,
   line-height: 1.4;
 }
 
+.markdown-modal-copy-btn.copied,
+.markdown-modal-prompt-btn.copied {
+  color: #065f46 !important;
+  border-color: #059669 !important;
+  background: #ecfdf5 !important;
+}
+
 [data-bs-theme="dark"] .markdown-modal-copy-btn,
+[data-bs-theme="dark"] .markdown-modal-prompt-btn,
 [data-bs-theme="dark"] .markdown-modal-download-btn,
 [data-bs-theme="dark"] .markdown-modal-github-btn,
 [data-bs-theme="dark"] .markdown-modal-close-btn {
@@ -1162,7 +1171,15 @@ body > main .affix,
   border-color: rgba(255, 255, 255, 0.12);
 }
 
+[data-bs-theme="dark"] .markdown-modal-copy-btn.copied,
+[data-bs-theme="dark"] .markdown-modal-prompt-btn.copied {
+  color: #6ee7b7 !important;
+  border-color: #10b981 !important;
+  background: rgba(6, 78, 59, 0.65) !important;
+}
+
 .markdown-modal-copy-btn:hover,
+.markdown-modal-prompt-btn:hover,
 .markdown-modal-download-btn:hover,
 .markdown-modal-github-btn:hover,
 .markdown-modal-close-btn:hover {
@@ -1172,6 +1189,7 @@ body > main .affix,
 }
 
 [data-bs-theme="dark"] .markdown-modal-copy-btn:hover,
+[data-bs-theme="dark"] .markdown-modal-prompt-btn:hover,
 [data-bs-theme="dark"] .markdown-modal-download-btn:hover,
 [data-bs-theme="dark"] .markdown-modal-github-btn:hover,
 [data-bs-theme="dark"] .markdown-modal-close-btn:hover {

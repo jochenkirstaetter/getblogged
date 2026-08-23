@@ -57,20 +57,27 @@
                     <h3 class="markdown-viewer-title">{{title}}</h3>
                 </div>
                 <div class="markdown-viewer-actions">
-                    <button type="button" id="markdown-modal-copy-btn" class="markdown-modal-copy-btn" aria-label="Copy all markdown source" title="Copy All">
+                    <button type="button" id="markdown-modal-copy-btn" class="markdown-modal-copy-btn" aria-label="Copy all markdown source" title="Copy Markdown">
                         <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
                             <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
                             <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
                         </svg>
-                        <span>Copy All</span>
+                        <span>Copy Markdown</span>
                     </button>
-                    <a id="markdown-modal-download-link" class="markdown-modal-download-btn" href="{{_rel}}raw/{{slug}}.md" download="{{slug}}.md" target="_blank" rel="noopener" aria-label="Download raw markdown file" title="Download raw .md">
+                    <button type="button" id="markdown-modal-prompt-btn" class="markdown-modal-prompt-btn" aria-label="Copy article as AI prompt" title="Copy as Prompt">
+                        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                        </svg>
+                        <span>Copy as Prompt</span>
+                    </button>
+                    <a id="markdown-modal-download-link" class="markdown-modal-download-btn" href="{{_rel}}raw/{{slug}}.md" download="{{slug}}.md" target="_blank" rel="noopener" aria-label="Download raw markdown file" title="Download .MD">
                         <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                             <polyline points="7 10 12 15 17 10"></polyline>
                             <line x1="12" y1="15" x2="12" y2="3"></line>
                         </svg>
-                        <span>Download</span>
+                        <span>Download .MD</span>
                     </a>
                     {{^_disableContribution}}
                     {{#sourceurl}}
@@ -241,15 +248,48 @@
             }
         });
 
+        var modalPromptBtn = document.getElementById('markdown-modal-prompt-btn');
+
+        function formatPrompt(markdownText) {
+            var postTitle = document.querySelector('h1.post-full-title') || document.querySelector('h1');
+            var titleStr = (postTitle ? postTitle.textContent.trim() : '{{title}}') || 'Article';
+            var pageUrl = window.location.href;
+
+            return 'Analyse and use the following article as context:\n\n' +
+                   'Title: ' + titleStr + '\n' +
+                   'URL: ' + pageUrl + '\n\n' +
+                   '---\n\n' +
+                   markdownText;
+        }
+
         if (modalCopyBtn) {
             modalCopyBtn.addEventListener('click', function () {
                 var text = codeEl ? (codeEl.innerText || codeEl.textContent) : '';
                 if (!text) return;
                 navigator.clipboard.writeText(text).then(function () {
                     var origHtml = modalCopyBtn.innerHTML;
+                    modalCopyBtn.classList.add('copied');
                     modalCopyBtn.innerHTML = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> <span>Copied!</span>';
                     setTimeout(function () {
+                        modalCopyBtn.classList.remove('copied');
                         modalCopyBtn.innerHTML = origHtml;
+                    }, 2000);
+                });
+            });
+        }
+
+        if (modalPromptBtn) {
+            modalPromptBtn.addEventListener('click', function () {
+                var text = codeEl ? (codeEl.innerText || codeEl.textContent) : '';
+                if (!text) return;
+                var promptText = formatPrompt(text);
+                navigator.clipboard.writeText(promptText).then(function () {
+                    var origHtml = modalPromptBtn.innerHTML;
+                    modalPromptBtn.classList.add('copied');
+                    modalPromptBtn.innerHTML = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> <span>Copied!</span>';
+                    setTimeout(function () {
+                        modalPromptBtn.classList.remove('copied');
+                        modalPromptBtn.innerHTML = origHtml;
                     }, 2000);
                 });
             });
