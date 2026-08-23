@@ -20,6 +20,7 @@ image: content/images/2018/10/20626381_10203983204297799_562900680618946131_o.we
 - [Quickstart: Use Gemini with .NET (Vertex AI)](xref:quickstart-using-gemini-with-net-vertex-ai) - *2024-04-03*
 - [Quickstart: Use Gemini with .NET (Google AI)](xref:quickstart-use-gemini-with-net) - *2024-04-02*
 - [NuGet: Better release notes and versioning](xref:nuget-better-release-notes-versioning) - *2024-03-31*
+- [Write better code with Gemini AI (Draft)](xref:write-better-code-with-gemini-ai) - *2024-03-30*
 - [Automate NuGet package creation using Google Build](xref:automate-nuget-package-creation-google-build) - *2024-03-04*
 - [Create NuGet packages with Visual Studio / Visual Studio Code](xref:create-nuget-packages-vs-code) - *2024-03-01*
 - [Getting Started with the Vertex AI Gemini API with Visual Studio](xref:getting-started-with-the-vertex-ai-gemini-with-vs-http) - *2024-02-23*
@@ -27,9 +28,11 @@ image: content/images/2018/10/20626381_10203983204297799_562900680618946131_o.we
 - [Generating QR codes - the Easy, the Comfy and the Smarty](xref:generate-qr-codes-gcf) - *2023-11-06*
 - [Installing SQL Server 2019 and tools on Ubuntu 20.04](xref:sql-server-2019-on-ubuntu) - *2022-03-25*
 - [Enable authentication in your instance of Jitsi Meet](xref:authentication-jitsi-meet) - *2020-04-20*
+- [Customise your instance of Jitsi Meet (Draft)](xref:customise-jitsi-meet) - *2020-04-20*
 - [Install Jitsi Meet on Compute Engine (GCP)](xref:install-jitsi-meet-on-gcp) - *2020-04-16*
 - [Getting Started with SQL Server on GCP](xref:sql-server-on-gcp) - *2020-01-18*
 - [Working with Azure Container Registry](xref:alc4-acr) - *2020-01-15*
+- [Lift to Azure: Microsoft Data Migration Assistant (Draft)](xref:dma) - *2020-01-15*
 - [Using Cloud Run instead of GKE](xref:alc4-cloud-run) - *2019-11-26*
 - [Working with Cloud Build](xref:alc4-cloud-build) - *2019-11-23*
 - [Google Kubernetes Engine (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-k8s) - *2019-11-09*
@@ -38,8 +41,12 @@ image: content/images/2018/10/20626381_10203983204297799_562900680618946131_o.we
 - [Create React App (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-react) - *2019-10-20*
 - [ALC 4.0 Cloud Challenge I](xref:alc4-cloud-challenge) - *2019-10-18*
 - [Rock Your Code: Defensive Programming for Microsoft .NET by David McCarter](xref:rock-your-code-defensive-programming-for-microsoft-net) - *2019-02-03*
+- [Let's Encrypt and Ghost (Draft)](xref:letsencrypt-ghost) - *2019-01-18*
 - [Using Apache HTTP as reverse proxy](xref:apache-reverse-proxy) - *2019-01-10*
 - [Using nginx as reverse proxy](xref:nginx-reverse-proxy) - *2019-01-08*
+- [My experience with Online Proctored Exams provided by Pearson VUE (Draft)](xref:online-proctored-exam) - *2019-01-04*
+- [OpenSSH on Windows natively (Draft)](xref:openssh-on-windows) - *2018-10-17*
+- [Let's Encrypt an Azure App Service (Draft)](xref:letsencrypt-azure-app-service) - *2018-10-04*
 - [When NULL isn't NULL](xref:when-null-isnt-null) - *2018-09-10*
 - [OpenVPN: All TAP-Windows adapters on this system are currently in use](xref:openvpn-on-windows-all-tap-windows-adapters-on-this-system-are-currently-in-use) - *2018-08-31*
 - [How to get your computer from blank disk(s) to fully operational in no time... (Windows edition)](xref:windows10-quick-installation) - *2018-07-28*

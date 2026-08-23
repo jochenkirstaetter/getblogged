@@ -13,14 +13,18 @@ image: content/images/2018/10/10211972419933448.webp
 ## Articles
 
 - [C# Corner Annual Conference 2017](xref:c-corner-conference-2017) - *2024-05-30*
+- [DevConf 2024 (Draft)](xref:devconf-2024) - *2024-05-27*
+- [Build with AI Johannesburg (Draft)](xref:build-with-ai-johannesburg) - *2024-05-27*
 - [Developer Creators and Online Communities Summit](xref:developer-creators-and-online-communities-summit) - *2024-02-01*
 - [DevFest Jinja 2023](xref:devfest-jinja-2023) - *2023-12-28*
 - [Mau Pas Konpran!? Brain Drain](xref:mau-pas-konpran-2) - *2023-12-19*
 - [DevFest Dar es Salaam 2023](xref:devfest-dar-es-salaam-2023) - *2023-12-12*
 - [DevFest Mauritius 2023](xref:devfest-mauritius-2023) - *2023-12-07*
 - [Mau pas konpran!? SIM Registration](xref:mau-pas-konpran) - *2023-11-19*
+- [GDG Cloud Munich (Draft)](xref:gdg-cloud-munich) - *2023-11-18*
 - [SSA Community Summit 2023](xref:ssa-community-summit-2023) - *2023-11-15*
 - [DevFest Kigali 2023](xref:devfest-kigali-2023) - *2023-11-15*
+- [Google I/O Connect Amsterdam (Draft)](xref:google-i-o-connect-amsterdam) - *2023-08-23*
 - [GDE SSA Summit 2022](xref:gde-ssa-summit-2022) - *2022-09-27*
 - [GADS 2020 - Spotlight](xref:gads-2020-spotlight) - *2020-10-06*
 - [How did we run the Virtual Developers Conference 2020?](xref:how-did-we-run-the-virtual-developers-conference-2020) - *2020-09-16*
@@ -28,14 +32,20 @@ image: content/images/2018/10/10211972419933448.webp
 - [Azure DEV Meetup Munich](xref:azuredev-munich) - *2020-04-24*
 - [Install Jitsi Meet on Compute Engine (GCP)](xref:install-jitsi-meet-on-gcp) - *2020-04-16*
 - [Why we decided to postpone Developers Conference 2020](xref:why-we-decided-to-postpone-developers-conference-2020) - *2020-03-17*
+- [You have reached your destination - #150DaysOfALC4 (Draft)](xref:alc4-completed) - *2019-11-26*
+- [Panelist at the FutureFest of ALU (Draft)](xref:futurefest-alu) - *2019-11-04*
+- [ALC 4.0 Cloud - Access to more Qwiklabs (Draft)](xref:alc4-more-qwiklabs) - *2019-10-29*
 - [Guest lecturer for the Africa Industrial Internet Programme (AIIP)](xref:aiip-azure-devops) - *2019-09-06*
 - [ALC 4.0 Cloud - Access to Qwiklabs](xref:alc4-qwiklabs) - *2019-09-04*
 - [ALC 4.0 Cloud - Phase II Online Meet up](xref:alc4-cloud-meeting) - *2019-09-02*
 - [Share your journey - #150DaysOfALC4](xref:share-your-journey-150daysofalc4) - *2019-08-23*
 - [ALC 4.0 Cloud - Slack questions](xref:alc4-slack-questions) - *2019-08-10*
+- [Windows Insider MVP award (Draft)](xref:windows-insider-mvp-award) - *2019-01-09*
 - [Campsite fire talk with John O'Nolan](xref:john-onolan) - *2018-11-13*
+- [What the comment? (Draft)](xref:what-the-comment) - *2018-10-08*
 - [The Curse of the Magical Tutorial](xref:curse-of-magical-tutorial) - *2018-10-05*
 - [SSA Community Summit 2018](xref:ssa-community-summit-2018) - *2018-10-04*
+- [Document, don't Create (Draft)](xref:document-dont-create) - *2018-10-04*
 - [100 Days of Exam](xref:100-days-of-exam) - *2018-03-13*
 - [Dinner with Andy Volk](xref:andy-volk) - *2018-03-08*
 - [Infotech/InnovTech 2017](xref:innovtech-2017) - *2018-02-03*

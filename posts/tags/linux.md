@@ -12,8 +12,10 @@ tagName: "Linux"
 ## Articles
 
 - [Installing SQL Server 2019 and tools on Ubuntu 20.04](xref:sql-server-2019-on-ubuntu) - *2022-03-25*
+- [Let's Encrypt and Ghost (Draft)](xref:letsencrypt-ghost) - *2019-01-18*
 - [Using Apache HTTP as reverse proxy](xref:apache-reverse-proxy) - *2019-01-10*
 - [Using nginx as reverse proxy](xref:nginx-reverse-proxy) - *2019-01-08*
+- [OpenSSH on Windows natively (Draft)](xref:openssh-on-windows) - *2018-10-17*
 - [OpenVPN: All TAP-Windows adapters on this system are currently in use](xref:openvpn-on-windows-all-tap-windows-adapters-on-this-system-are-currently-in-use) - *2018-08-31*
 - [OpenVPN re-visited](xref:openvpn-revisited) - *2018-08-28*
 - [Next stop: MCSA: Linux on Azure](xref:mcsa-linux-on-azure) - *2018-03-13*

@@ -16,10 +16,15 @@ image: content/images/2018/10/DnnBJRiW0AAs5vR.jpg-large.webp
 - [Mau Pas Konpran!? Brain Drain](xref:mau-pas-konpran-2) - *2023-12-19*
 - [Mau pas konpran!? SIM Registration](xref:mau-pas-konpran) - *2023-11-19*
 - [Welcome - A new star is born!](xref:welcome-a-new-star-is-born-2019) - *2019-03-01*
+- [Although it was a failure, it was successful (Draft)](xref:successful-failure) - *2019-02-08*
 - [Welcome - Our twin stars!](xref:welcome-our-twin-stars) - *2019-02-01*
+- [Windows Insider MVP award (Draft)](xref:windows-insider-mvp-award) - *2019-01-09*
+- [My experience with Online Proctored Exams provided by Pearson VUE (Draft)](xref:online-proctored-exam) - *2019-01-04*
 - [2018: A retrospective](xref:retrospective-2018) - *2019-01-03*
+- [What the comment? (Draft)](xref:what-the-comment) - *2018-10-08*
 - [The Curse of the Magical Tutorial](xref:curse-of-magical-tutorial) - *2018-10-05*
 - [SSA Community Summit 2018](xref:ssa-community-summit-2018) - *2018-10-04*
+- [Document, don't Create (Draft)](xref:document-dont-create) - *2018-10-04*
 - [OpenVPN re-visited](xref:openvpn-revisited) - *2018-08-28*
 - [Next stop: MCSA: Linux on Azure](xref:mcsa-linux-on-azure) - *2018-03-13*
 - [100 Days of Exam](xref:100-days-of-exam) - *2018-03-13*

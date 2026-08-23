@@ -109,9 +109,6 @@ def read_existing_tag_metadata(tags_dir: Path) -> dict:
     return metadata
 
 def get_tag_slug(tag_name: str, existing_metadata: dict) -> str:
-    if tag_name in existing_metadata and "slug" in existing_metadata[tag_name]:
-        return existing_metadata[tag_name]["slug"]
-    
     # Specific known canonical mappings
     slug_overrides = {
         "Projects": "project"
@@ -119,24 +116,41 @@ def get_tag_slug(tag_name: str, existing_metadata: dict) -> str:
     if tag_name in slug_overrides:
         return slug_overrides[tag_name]
 
+    if tag_name in existing_metadata and "slug" in existing_metadata[tag_name]:
+        return existing_metadata[tag_name]["slug"]
+
     slug = tag_name.lower().replace(" ", "-")
     slug = re.sub(r"[^a-z0-9_-]+", "", slug)
     return slug
 
 def main():
+    import sys
     repo_root = Path(__file__).resolve().parent.parent
     posts_dir = repo_root / "posts"
     published_dir = posts_dir / "published"
+    draft_dir = posts_dir / "draft"
     tags_dir = posts_dir / "tags"
     tags_index_file = posts_dir / "tags.md"
     toc_file = tags_dir / "toc.yml"
 
     tags_dir.mkdir(parents=True, exist_ok=True)
     existing_meta = read_existing_tag_metadata(tags_dir)
+    for f in tags_dir.glob("*.md"):
+        try:
+            f.unlink()
+        except OSError:
+            pass
 
     posts_by_tag = defaultdict(list)
 
-    for post_file in sorted(published_dir.glob("*.md")):
+    post_files = list(published_dir.glob("*.md"))
+    if "--draft" in sys.argv and draft_dir.exists():
+        post_files.extend([
+            p for p in draft_dir.glob("*.md")
+            if p.name not in ("toc.yml", "index.md", "index-draft.md") and "assets" not in p.parts
+        ])
+
+    for post_file in sorted(post_files):
         if post_file.name.startswith("."):
             continue
         post = parse_post(post_file)
@@ -213,6 +227,9 @@ def main():
 
         tag_lines.append("")
         tag_file.write_text("\n".join(tag_lines), encoding="utf-8")
+        if slug == "project":
+            proj_lines = [line.replace("uid: tag-project", "uid: tag-projects") for line in tag_lines]
+            (tags_dir / "projects.md").write_text("\n".join(proj_lines), encoding="utf-8")
 
         toc_entries.append(f'- name: "{tag}"\n  href: {slug}.md')
 
@@ -222,6 +239,23 @@ def main():
     toc_content = "\n".join(toc_entries) + "\n"
     toc_file.write_text(toc_content, encoding="utf-8")
     print(f"Generated {toc_file}.")
+
+    # 4. Generate posts/ghostfx/partials/meta-tasks.tmpl.partial for dynamic msapplication-task tags
+    meta_tasks_file = posts_dir / "ghostfx" / "partials" / "meta-tasks.tmpl.partial"
+    meta_task_lines = []
+    icon_map = {
+        "Linux": "/linux.ico",
+        "Android": "/android.ico",
+        "iOS": "/apple.ico"
+    }
+    for tag in sorted_tag_names:
+        slug = get_tag_slug(tag, existing_meta)
+        ico = icon_map.get(tag, "/favicon.ico")
+        meta_task_lines.append(
+            f'<meta name="msapplication-task" content="name={tag};action-uri={{{{#_appUrl}}}}{{{{_appUrl}}}}/{{{{/_appUrl}}}}tags/{slug}.html;icon-uri={ico}" />'
+        )
+    meta_tasks_file.write_text("\n".join(meta_task_lines) + "\n", encoding="utf-8")
+    print(f"Generated {meta_tasks_file} with {len(sorted_tag_names)} tasks.")
 
 if __name__ == "__main__":
     main()

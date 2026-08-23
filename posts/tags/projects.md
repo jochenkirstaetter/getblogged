@@ -1,5 +1,5 @@
 ---
-uid: tag-project
+uid: tag-projects
 title: "Projects"
 layout: tag
 isTagPage: true
