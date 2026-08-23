@@ -109,7 +109,7 @@ Once data and parity blocks are interleaved, the matrix is constructed:
 Embedding an icon, brand mark, or site favicon inside a QR code elevates a generic barcode into a polished visual asset. However, visual design must never compromise scanner decodability.
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="/content/images/2026/08/qr-variation-emerald-favicon.webp" alt="Branded QR code generated with Level H error correction and centre badge" title="Branded QR Code with Centre Favicon Badge" style="max-width: 220px; width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
+  <img src="/content/images/2026/08/qr-variation-monochrome-favicon.webp" alt="Branded QR code generated with Level H error correction and centre badge" title="Branded QR Code with Centre Favicon Badge" style="max-width: 220px; width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
   <p><small>Level H QR code with centred brand favicon and protective backing plate.</small></p>
 </div>
 
@@ -133,17 +133,36 @@ Two visual elements ensure 100% scanning reliability:
 
 ### Real-World Matrix Variations in Production
 
-To demonstrate how custom colourways and centre badges behave under Error Correction Level H, here are three real-world variations generated across our publishing pipeline. Each variant maintains strict optical scannability while aligning with specific content categories:
+To demonstrate how custom colourways and centre badges behave under Error Correction Level H, here are four real-world variations generated across our publishing pipeline. Each variant maintains strict optical scannability while aligning with specific content categories:
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin: 2rem 0 2.5rem 0;">
 
-  <!-- Card 1: Royal Indigo Raw Matrix -->
+  <!-- Card 1: Slate-900 Monochrome with Favicon -->
+  <div style="background: var(--color-bg-subtle, #f8fafc); border: 1px solid var(--color-border, #e2e8f0); border-radius: 12px; padding: 1.25rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+    <div style="text-align: center; margin-bottom: 1rem;">
+      <img src="/content/images/2026/08/qr-variation-monochrome-favicon.webp" alt="Monochrome Slate-900 QR code with 24 percent centre favicon badge" title="Monochrome Slate-900 QR Code with Centre Favicon" style="max-width: 100%; width: 220px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
+    </div>
+    <div>
+      <h4 style="margin: 0 0 0.5rem 0; font-size: 1.05rem;">1. Slate Monochrome &amp; Favicon</h4>
+      <p style="font-size: 0.875rem; margin-bottom: 0.75rem; line-height: 1.45;">
+        <strong>Colour:</strong> Slate-900 (<code>#111827</code>) on Pure White (<code>#ffffff</code>)<br />
+        <strong>Contrast Ratio:</strong> 16.5:1 (WCAG AAA)<br />
+        <strong>Badge Configuration:</strong> 24% centre brand favicon on a solid white rounded plate with 3px Gaussian shadow.
+      </p>
+      <p style="font-size: 0.875rem; margin: 0; line-height: 1.45;">
+        <strong>Target Article:</strong> <xref:generate-qr-codes-gcf><br />
+        <small style="color: var(--color-text-muted, #64748b);">Default profile used for automated Open Graph social cards and standard article sharing modals.</small>
+      </p>
+    </div>
+  </div>
+
+  <!-- Card 2: Royal Indigo Raw Matrix -->
   <div style="background: var(--color-bg-subtle, #f8fafc); border: 1px solid var(--color-border, #e2e8f0); border-radius: 12px; padding: 1.25rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
     <div style="text-align: center; margin-bottom: 1rem;">
       <img src="/content/images/2026/08/qr-variation-indigo-raw.webp" alt="Royal Indigo QR code on Slate-50 background with raw matrix modules" title="Royal Indigo Raw QR Matrix" style="max-width: 100%; width: 220px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
     </div>
     <div>
-      <h4 style="margin: 0 0 0.5rem 0; font-size: 1.05rem;">1. Royal Indigo Raw Matrix</h4>
+      <h4 style="margin: 0 0 0.5rem 0; font-size: 1.05rem;">2. Royal Indigo Raw Matrix</h4>
       <p style="font-size: 0.875rem; margin-bottom: 0.75rem; line-height: 1.45;">
         <strong>Colour:</strong> Royal Indigo (<code>#1e40af</code>) on Slate-50 (<code>#f8fafc</code>)<br />
         <strong>Contrast Ratio:</strong> 8.2:1 (WCAG AAA)<br />
@@ -156,13 +175,13 @@ To demonstrate how custom colourways and centre badges behave under Error Correc
     </div>
   </div>
 
-  <!-- Card 2: Deep Emerald with Favicon -->
+  <!-- Card 3: Deep Emerald with Favicon -->
   <div style="background: var(--color-bg-subtle, #f8fafc); border: 1px solid var(--color-border, #e2e8f0); border-radius: 12px; padding: 1.25rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
     <div style="text-align: center; margin-bottom: 1rem;">
       <img src="/content/images/2026/08/qr-variation-emerald-favicon.webp" alt="Deep Emerald QR code with 24 percent centre favicon badge" title="Deep Emerald QR Code with Centre Favicon" style="max-width: 100%; width: 220px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
     </div>
     <div>
-      <h4 style="margin: 0 0 0.5rem 0; font-size: 1.05rem;">2. Deep Emerald &amp; Favicon</h4>
+      <h4 style="margin: 0 0 0.5rem 0; font-size: 1.05rem;">3. Deep Emerald &amp; Favicon</h4>
       <p style="font-size: 0.875rem; margin-bottom: 0.75rem; line-height: 1.45;">
         <strong>Colour:</strong> Deep Emerald (<code>#065f46</code>) on Pure White (<code>#ffffff</code>)<br />
         <strong>Contrast Ratio:</strong> 7.5:1 (WCAG AAA)<br />
@@ -175,13 +194,13 @@ To demonstrate how custom colourways and centre badges behave under Error Correc
     </div>
   </div>
 
-  <!-- Card 3: Warm Crimson with Favicon -->
+  <!-- Card 4: Warm Crimson with Favicon -->
   <div style="background: var(--color-bg-subtle, #f8fafc); border: 1px solid var(--color-border, #e2e8f0); border-radius: 12px; padding: 1.25rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
     <div style="text-align: center; margin-bottom: 1rem;">
       <img src="/content/images/2026/08/qr-variation-crimson-favicon.webp" alt="Warm Crimson QR code with 22 percent centre favicon badge" title="Warm Crimson QR Code with Centre Favicon" style="max-width: 100%; width: 220px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);" />
     </div>
     <div>
-      <h4 style="margin: 0 0 0.5rem 0; font-size: 1.05rem;">3. Warm Crimson &amp; Favicon</h4>
+      <h4 style="margin: 0 0 0.5rem 0; font-size: 1.05rem;">4. Warm Crimson &amp; Favicon</h4>
       <p style="font-size: 0.875rem; margin-bottom: 0.75rem; line-height: 1.45;">
         <strong>Colour:</strong> Warm Crimson (<code>#9f1239</code>) on Pure White (<code>#ffffff</code>)<br />
         <strong>Contrast Ratio:</strong> 6.8:1 (WCAG AAA)<br />
@@ -198,9 +217,80 @@ To demonstrate how custom colourways and centre badges behave under Error Correc
 
 ---
 
-## 3. Implementation Across Three Tiers
+## 3. Accessibility and WCAG: Designing Inclusive QR Experiences
 
-To see how these concepts translate into real code, explore the implementations across three pragmatic deployment tiers: a lightweight build-time matrix engine in Python, an interactive canvas renderer in JavaScript, and a high-throughput [ASP.NET Core Minimal API](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis) on .NET 10:
+QR codes are often viewed purely as marketing shortcuts or convenience tools for mobile camera users. When implemented thoughtfully, however, they serve as powerful bridges for assistive technology and digital accessibility (a11y). At the same time, visual 2D matrices introduce distinct user experience challenges that require strict adherence to the [W3C Web Content Accessibility Guidelines (WCAG 2.2)](https://www.w3.org/WAI/standards-guidelines/wcag/).
+
+### Assistive Technology and Cognitive Benefits
+1. **Cross-Device Assistive Bridge**: Users reading technical articles or dense documentation on desktop screens frequently rely on mobile-specific accessibility tools, such as Apple VoiceOver, Android TalkBack, haptic feedback, spoken text, or handheld digital magnifiers. Scanning a QR code provides a convenient physical bridge to their primary assistive device without manual typing or email self-forwarding.
+2. **Desktop Screen Reader Reality**: For blind users operating desktop screen readers (e.g. NVDA or JAWS), pointing a physical phone camera at an unseen LCD screen is impractical without specialised tactile markers (such as NaviLens BidiCodes). On desktop viewports, accessibility is achieved not by the matrix itself, but by providing an immediate, selectable plain-text URL display (`#qr-modal-url-display`) with single-click keyboard copying.
+3. **Eliminating Motor and Cognitive Strain**: Manually typing long, hyphenated URLs or technical parameters is error-prone and exhausting for users with motor impairments, tremors, Parkinson's disease, dyslexia, or dyscalculia. A single physical camera scan bypasses keyboard input entirely.
+4. **Physical-to-Digital Accessibility Transition**: On physical conference slides, printed handouts, or hardware nameplates, QR codes allow low-vision attendees to transition to accessible web pages where font sizing, semantic screen reader headings, and custom high-contrast CSS can be applied.
+
+### Security and "Quishing" Defence
+With the rise of **QR phishing (Quishing)**, where malicious actors overlay deceitful barcodes or obfuscate redirect URLs, implementing transparent safeguards is essential:
+- **Canonical Extension-less URL Display**: Always render the plain-text destination domain alongside the matrix so users can verify the HTTPS target before scanning.
+- **Same-Origin Asset Protection**: Ensure embedded favicons and logos are served from trusted same-origin sources with strict CORS headers to prevent canvas tainting and visual spoofing.
+
+### The Developer's WCAG Compliance Checklist for QR Codes
+When incorporating QR codes into web interfaces, developers must observe four fundamental WCAG criteria:
+
+1. **Non-Text Content Fallback ([WCAG 1.1.1 - Level A](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html))**:
+   - A QR code is an image and must never be rendered in isolation without meaningful alternative text.
+   - The DOM must provide a descriptive `aria-label` or `alt` text explicitly stating the destination (e.g. `aria-label="Scan QR code to open article at https://jochen.kirstaetter.name/slug"`).
+   - **Visible Plain Text URL**: Always display the full target URL in selectable, copyable plain text alongside the graphic (as implemented in our modal with `#qr-modal-url-display`).
+2. **Non-Text Contrast ([WCAG 1.4.11 - Level AA](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html))**:
+   - The contrast ratio between foreground QR modules and the background surface must exceed **3.0:1** for graphical user interface components, and ideally **7.0:1** (WCAG AAA) for enhanced optical and visual clarity.
+3. **Keyboard Accessibility and Focus Management ([WCAG 2.1.1 & 2.1.2 - Level A](https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html))**:
+   - Any button triggering a QR modal must be reachable and operable via keyboard (`Tab`, `Enter`, `Space`).
+   - The modal must trap focus while active, support `Esc` light-dismiss, and return focus to the triggering element upon closing.
+4. **Target Size and Touch Comfort ([WCAG 2.5.8 - Level AA](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html))**:
+   - Interactive triggers for displaying QR codes, copying URLs, or initiating system shares must maintain a minimum touch target area of at least $24 \times 24\text{ px}$ ($44 \times 44\text{ px}$ for Level AAA mobile comfort).
+
+---
+
+## 4. Architectural Evaluation: Client-Side vs Microservice vs Static Build
+
+When architecting a solution, choosing where to generate QR codes involves clear trade-offs across latency, offline capabilities, infrastructure costs, and integration requirements:
+
+```mermaid
+flowchart TD
+    subgraph Client["Client-Side Viewport"]
+        Modal["Interactive Modal<br/><i>HTML5 dialog</i>"] --> Canvas["Canvas 2D Renderer<br/><i>posts/ghostfx/public/js/qrcode.min.js</i>"]
+        Canvas --> Share["Web Share API<br/><i>navigator.share() / Clipboard</i>"]
+    end
+
+    subgraph Microservice["Serverless Microservice"]
+        API["ASP.NET Core Minimal API<br/><i>GET /api/qr?url=...</i>"] --> Cache["In-Memory Logo Cache<br/><i>IBrandedLogoCache Singleton</i>"]
+        Cache --> Skia["SkiaSharp Compositor<br/><i>24% Badge + Level H ECC</i>"]
+    end
+
+    subgraph Pipeline["Headless Build Automation"]
+        PreBuild["scripts/localize-assets.py"] --> MatrixPy["scripts/qr_generator.py<br/><i>GF(256) Synthetic Division</i>"]
+        MatrixPy --> OGCard["Open Graph Cards (1200x630)<br/><i>42% Frosted Glass Plate</i>"]
+    end
+```
+
+| Dimension | Client-Side (Browser JS) | Serverless Microservice (GCF / Cloud Run / .NET 10) | Headless Static Build (Python) |
+| :--- | :--- | :--- | :--- |
+| **Response Latency** | Instant ($0\text{ ms}$ network) | $50\text{ ms} - 250\text{ ms}$ HTTP roundtrip | Pre-rendered ($0\text{ ms}$ runtime) |
+| **Offline Resilience** | Works fully offline via Service Worker | Requires active internet connection | Statically cached |
+| **URL Rewriting & Analytics** | Static to active page URL | Dynamic URL rewriting, click tracking, shortlinks | Baked into compiled HTML |
+| **External Client Support** | Browser viewport only | Google Sheets (`=IMAGE()`), transactional emails, PDFs, thermal printers | Social metadata cards (Open Graph) |
+| **Hosting Cost** | \$0.00 (Client compute) | Pay-per-invocation serverless compute | \$0.00 (CI/CD build pipeline) |
+| **Privacy & Security** | 100% private (URL never leaves client) | Server logs incoming query strings | Internal pipeline only |
+
+### When to Choose Which?
+
+1. **Client-Side In-Browser Generation**: Best for web applications and blogs where users share the active page URL directly to a mobile device. It incurs zero cloud hosting costs, executes instantly with zero network latency, and functions when users are completely offline.
+2. **Serverless Microservice**: Remains highly appealing whenever you need flexible URL parameter handling, dynamic shortlinks, server-side click tracking, or direct integration with third-party consumers like spreadsheets, email dispatchers, and IoT receipt printers.
+3. **Build-Time Static Automation**: Ideal for static site generation (SSG) pipelines where high-resolution social preview cards must be generated deterministically before deployment.
+
+---
+
+## 5. Implementation Across Three Tiers
+
+To see how these concepts translate into real code, explore the implementations across three pragmatic deployment tiers: lightweight Python scripts, an interactive canvas renderer in JavaScript, and a high-throughput [ASP.NET Core Minimal API](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis) on .NET 10:
 
 # [Python](#tab/python)
 ```python
@@ -551,77 +641,6 @@ public sealed class BrandedLogoCache : IBrandedLogoCache, IDisposable
 }
 ```
 ***
-
----
-
-## 4. Architectural Evaluation: Client-Side vs Microservice vs Static Build
-
-When architecting a solution, choosing where to generate QR codes involves clear trade-offs across latency, offline capabilities, infrastructure costs, and integration requirements:
-
-```mermaid
-flowchart TD
-    subgraph Client["Client-Side Viewport"]
-        Modal["Interactive Modal<br/><i>HTML5 dialog</i>"] --> Canvas["Canvas 2D Renderer<br/><i>posts/ghostfx/public/js/qrcode.min.js</i>"]
-        Canvas --> Share["Web Share API<br/><i>navigator.share() / Clipboard</i>"]
-    end
-
-    subgraph Microservice["Serverless Microservice"]
-        API["ASP.NET Core Minimal API<br/><i>GET /api/qr?url=...</i>"] --> Cache["In-Memory Logo Cache<br/><i>IBrandedLogoCache Singleton</i>"]
-        Cache --> Skia["SkiaSharp Compositor<br/><i>24% Badge + Level H ECC</i>"]
-    end
-
-    subgraph Pipeline["Headless Build Automation"]
-        PreBuild["scripts/localize-assets.py"] --> MatrixPy["scripts/qr_generator.py<br/><i>GF(256) Synthetic Division</i>"]
-        MatrixPy --> OGCard["Open Graph Cards (1200x630)<br/><i>42% Frosted Glass Plate</i>"]
-    end
-```
-
-| Dimension | Client-Side (Browser JS) | Serverless Microservice (GCF / Cloud Run / .NET 10) | Headless Static Build (Python) |
-| :--- | :--- | :--- | :--- |
-| **Response Latency** | Instant ($0\text{ ms}$ network) | $50\text{ ms} - 250\text{ ms}$ HTTP roundtrip | Pre-rendered ($0\text{ ms}$ runtime) |
-| **Offline Resilience** | Works fully offline via Service Worker | Requires active internet connection | Statically cached |
-| **URL Rewriting & Analytics** | Static to active page URL | Dynamic URL rewriting, click tracking, shortlinks | Baked into compiled HTML |
-| **External Client Support** | Browser viewport only | Google Sheets (`=IMAGE()`), transactional emails, PDFs, thermal printers | Social metadata cards (Open Graph) |
-| **Hosting Cost** | \$0.00 (Client compute) | Pay-per-invocation serverless compute | \$0.00 (CI/CD build pipeline) |
-| **Privacy & Security** | 100% private (URL never leaves client) | Server logs incoming query strings | Internal pipeline only |
-
-### When to Choose Which?
-
-1. **Client-Side In-Browser Generation**: Best for web applications and blogs where users share the active page URL directly to a mobile device. It incurs zero cloud hosting costs, executes instantly with zero network latency, and functions when users are completely offline.
-2. **Serverless Microservice**: Remains highly appealing whenever you need flexible URL parameter handling, dynamic shortlinks, server-side click tracking, or direct integration with third-party consumers like spreadsheets, email dispatchers, and IoT receipt printers.
-3. **Build-Time Static Automation**: Ideal for static site generation (SSG) pipelines where high-resolution social preview cards must be generated deterministically before deployment.
-
----
-
-## 5. Accessibility and WCAG: Designing Inclusive QR Experiences
-
-QR codes are often viewed purely as marketing shortcuts or convenience tools for mobile camera users. When implemented thoughtfully, however, they serve as powerful bridges for assistive technology and digital accessibility (a11y). At the same time, visual 2D matrices introduce distinct user experience challenges that require strict adherence to the [W3C Web Content Accessibility Guidelines (WCAG 2.2)](https://www.w3.org/WAI/standards-guidelines/wcag/).
-
-### Assistive Technology and Cognitive Benefits
-1. **Cross-Device Assistive Bridge**: Users reading technical articles or dense documentation on desktop screens frequently rely on mobile-specific accessibility tools, such as Apple VoiceOver, Android TalkBack, haptic feedback, spoken text, or handheld digital magnifiers. Scanning a QR code provides a convenient physical bridge to their primary assistive device without manual typing or email self-forwarding.
-2. **Desktop Screen Reader Reality**: For blind users operating desktop screen readers (e.g. NVDA or JAWS), pointing a physical phone camera at an unseen LCD screen is impractical without specialised tactile markers (such as NaviLens BidiCodes). On desktop viewports, accessibility is achieved not by the matrix itself, but by providing an immediate, selectable plain-text URL display (`#qr-modal-url-display`) with single-click keyboard copying.
-3. **Eliminating Motor and Cognitive Strain**: Manually typing long, hyphenated URLs or technical parameters is error-prone and exhausting for users with motor impairments, tremors, Parkinson's disease, dyslexia, or dyscalculia. A single physical camera scan bypasses keyboard input entirely.
-4. **Physical-to-Digital Accessibility Transition**: On physical conference slides, printed handouts, or hardware nameplates, QR codes allow low-vision attendees to transition to accessible web pages where font sizing, semantic screen reader headings, and custom high-contrast CSS can be applied.
-
-### Security and "Quishing" Defence
-With the rise of **QR phishing (Quishing)**, where malicious actors overlay deceitful barcodes or obfuscate redirect URLs, implementing transparent safeguards is essential:
-- **Canonical Extension-less URL Display**: Always render the plain-text destination domain alongside the matrix so users can verify the HTTPS target before scanning.
-- **Same-Origin Asset Protection**: Ensure embedded favicons and logos are served from trusted same-origin sources with strict CORS headers to prevent canvas tainting and visual spoofing.
-
-### The Developer's WCAG Compliance Checklist for QR Codes
-When incorporating QR codes into web interfaces, developers must observe four fundamental WCAG criteria:
-
-1. **Non-Text Content Fallback ([WCAG 1.1.1 - Level A](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html))**:
-   - A QR code is an image and must never be rendered in isolation without meaningful alternative text.
-   - The DOM must provide a descriptive `aria-label` or `alt` text explicitly stating the destination (e.g. `aria-label="Scan QR code to open article at https://jochen.kirstaetter.name/slug"`).
-   - **Visible Plain Text URL**: Always display the full target URL in selectable, copyable plain text alongside the graphic (as implemented in our modal with `#qr-modal-url-display`).
-2. **Non-Text Contrast ([WCAG 1.4.11 - Level AA](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html))**:
-   - The contrast ratio between foreground QR modules and the background surface must exceed **3.0:1** for graphical user interface components, and ideally **7.0:1** (WCAG AAA) for enhanced optical and visual clarity.
-3. **Keyboard Accessibility and Focus Management ([WCAG 2.1.1 & 2.1.2 - Level A](https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html))**:
-   - Any button triggering a QR modal must be reachable and operable via keyboard (`Tab`, `Enter`, `Space`).
-   - The modal must trap focus while active, support `Esc` light-dismiss, and return focus to the triggering element upon closing.
-4. **Target Size and Touch Comfort ([WCAG 2.5.8 - Level AA](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html))**:
-   - Interactive triggers for displaying QR codes, copying URLs, or initiating system shares must maintain a minimum touch target area of at least $24 \times 24\text{ px}$ ($44 \times 44\text{ px}$ for Level AAA mobile comfort).
 
 ---
 
