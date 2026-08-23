@@ -48,7 +48,7 @@
     </div>
 </dialog>
 
-<script src="{{_rel}}public/js/qrcode.min.js" defer></script>
+<script src="{{_rel}}public/js/qrcode.min.js{{#_assetVersion}}?v={{.}}{{/_assetVersion}}" defer></script>
 <script>
 (function () {
     var modal = document.getElementById('qr-code-dialog');

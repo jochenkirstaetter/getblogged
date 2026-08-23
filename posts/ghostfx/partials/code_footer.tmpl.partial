@@ -244,7 +244,7 @@ if ('requestIdleCallback' in window) {
     }
 })();
 
-var serviceWorkerUri = '/sw-v1.js';
+var serviceWorkerUri = '/sw-v1.js{{#_assetVersion}}?v={{.}}{{/_assetVersion}}';
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register(serviceWorkerUri).then(function(reg) {
       if (typeof reg.update === 'function') {

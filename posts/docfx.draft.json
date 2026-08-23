@@ -116,7 +116,8 @@
       "_siteTwitter": "@jkirstaetter",
       "_siteFacebook": "https://facebook.com/jochen.kirstaetter",
       "_currentYear": 2026,
-      "_galleryFlexible": true
+      "_galleryFlexible": true,
+      "_assetVersion": "v38"
     },
     "sitemap": {
       "baseUrl": "https://jochen.kirstaetter.name/",

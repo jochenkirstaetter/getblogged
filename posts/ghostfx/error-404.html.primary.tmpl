@@ -1,4 +1,4 @@
-﻿{{!
+{{!
 This error template is used for all 404 errors, which might occur on your site.
 It's a good idea to keep this template as minimal as possible in terms of both file size and complexity.
 }}
@@ -11,7 +11,9 @@ It's a good idea to keep this template as minimal as possible in terms of both f
     <title>{{title}}</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="{{_rel}}public/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="{{_rel}}public/built/screen.css{{#_assetVersion}}?v={{.}}{{/_assetVersion}}" />
+    <link rel="stylesheet" href="{{_rel}}public/main.css{{#_assetVersion}}?v={{.}}{{/_assetVersion}}">
+    <link rel="stylesheet" href="{{_rel}}public/ghostfx.css{{#_assetVersion}}?v={{.}}{{/_assetVersion}}">
 </head>
 <body class="error-template">
     <div class="site-wrapper">

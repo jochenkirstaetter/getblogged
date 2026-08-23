@@ -1,2 +1,2 @@
 <!-- Visual FoxPro Highlight.js Addin by Rick Strahl -->
-<script src="{{_rel}}public/js/foxpro-highlightjs-addin.js" defer></script>
+<script src="{{_rel}}public/js/foxpro-highlightjs-addin.js{{#_assetVersion}}?v={{.}}{{/_assetVersion}}" defer></script>

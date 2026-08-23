@@ -25,7 +25,7 @@
     <title>{{title}} - {{_appTitle}}</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{{_rel}}public/docfx.min.css">
+    <link rel="stylesheet" href="{{_rel}}public/docfx.min.css{{#_assetVersion}}?v={{.}}{{/_assetVersion}}">
     <meta name="docfx:navrel" content="{{_navRel}}">
     <meta name="docfx:tocrel" content="{{_tocRel}}">
     {{#_noindex}}<meta name="searchOption" content="noindex">{{/_noindex}}
@@ -122,11 +122,11 @@
         {{/coverImage}}
       {{/featureImage}}
     {{/image}}
-    <link href="{{_rel}}public/built/screen.css" rel="stylesheet" type="text/css" />
+    <link href="{{_rel}}public/built/screen.css{{#_assetVersion}}?v={{.}}{{/_assetVersion}}" rel="stylesheet" type="text/css" />
 
     {{>partials/code_header}}
-    <link rel="stylesheet" href="{{_rel}}public/main.css">
-    <link rel="stylesheet" href="{{_rel}}public/ghostfx.css">
+    <link rel="stylesheet" href="{{_rel}}public/main.css{{#_assetVersion}}?v={{.}}{{/_assetVersion}}">
+    <link rel="stylesheet" href="{{_rel}}public/ghostfx.css{{#_assetVersion}}?v={{.}}{{/_assetVersion}}">
     {{/redirect_url}}
 
     {{! This tag outputs SEO meta+structured data and other important settings }}
@@ -194,7 +194,7 @@
 
 
     {{#pagination.pages}}
-    <script src="{{_rel}}public/built/infinitescroll.js"></script>
+    <script src="{{_rel}}public/built/infinitescroll.js{{#_assetVersion}}?v={{.}}{{/_assetVersion}}"></script>
     {{/pagination.pages}}
 
     {{! The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. }}
@@ -218,7 +218,7 @@
             docfxLoaded = true;
             var s = document.createElement('script');
             s.type = 'module';
-            s.src = '{{_rel}}public/docfx.min.js';
+            s.src = '{{_rel}}public/docfx.min.js{{#_assetVersion}}?v={{.}}{{/_assetVersion}}';
             document.body.appendChild(s);
         }
         var events = ['pointerdown', 'keydown', 'touchstart', 'scroll', 'focusin'];

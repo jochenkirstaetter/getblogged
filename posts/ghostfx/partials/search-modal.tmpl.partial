@@ -174,7 +174,7 @@
         if (loadingContainer) loadingContainer.style.display = 'flex';
 
         var rel = '{{_rel}}';
-        fetch(rel + 'index.json')
+        fetch(rel + 'index.json{{#_assetVersion}}?v={{.}}{{/_assetVersion}}')
             .then(function (res) {
                 if (!res.ok) throw new Error('Index HTTP error: ' + res.status);
                 return res.json();
