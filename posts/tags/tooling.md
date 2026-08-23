@@ -11,4 +11,4 @@ tagName: "Tooling"
 
 ## Articles
 
-- [Using Antigravity Remote Control](xref:using-antigravity-remote-control) - *2026-08-22*
+- [Using Antigravity Remote Control](xref:using-antigravity-remote-control) - *Aug 22, 2026*

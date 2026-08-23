@@ -11,158 +11,158 @@ tagName: "General"
 
 ## Articles
 
-- [Infotech/InnovTech 2017](xref:innovtech-2017) - *2018-02-03*
-- [Inspecting internet router in Mauritius](xref:router-in-mauritius) - *2017-10-18*
-- [Dear Postmaster of Mauritius Revenue Authority](xref:mra-mail-hostname) - *2017-10-03*
-- [Career Guidance (Day) at Aberystwyth University](xref:cs-career-advice-aber) - *2017-09-26*
-- [Migration to Ghost](xref:migration-joomla-ghost) - *2017-08-07*
-- [Mauritius Open Data Readiness Assessment (ODRA)](xref:mauritius-open-data) - *2015-11-07*
-- [Working as an IT freelancer in Mauritius](xref:working-as-an-it-freelancer-in-mauritius) - *2015-08-17*
-- [Live and let live - modern laziness...](xref:live-and-let-live-modern-laziness) - *2015-06-28*
-- [Mugg & Bean - Nightmare at Bagatelle](xref:mb-nightmare-at-bagatelle) - *2015-05-04*
-- [My first month using a Lumia 730](xref:using-nokia-lumia-730) - *2015-01-03*
-- [Ten years of blogging - 400+ articles written](xref:ten-years-of-blogging-400-articles-written) - *2014-12-13*
-- [Review: Emtel Wingle a.k.a. Huawei E8231](xref:emtel-wingle-aka-huawei-e8231) - *2014-11-05*
-- [Already 3,333 tweets...](xref:already-3333-tweets) - *2014-08-20*
-- [Vacations on Rodrigues 2014](xref:vacations-on-rodrigues) - *2014-08-14*
-- [SUPINFO International University in Mauritius](xref:supinfo-international-university-in-mauritius) - *2014-07-14*
-- [Emtel Knowledge Series - Q2/2014](xref:emtel-knowledge-series-no3) - *2014-06-20*
-- [Emtel Knowledge Series - Q1/2014](xref:emtel-knowledge-series-no1) - *2014-02-16*
-- [Goodbye 2013 - Welcome 2014](xref:goodbye-2013-welcome-2014) - *2014-01-02*
-- [Representing Mauritius in the 2013 Bench Games](xref:representing-mauritius-in-the-2013-bench-games) - *2013-10-29*
-- [Update: Super Hero](xref:update-super-hero) - *2013-09-26*
-- [Visiting the Fire Station in Coromandel](xref:visiting-the-fire-station-in-coromandel) - *2013-09-09*
-- [Adjust timezone of an AVM Fritz!Box 7390](xref:adjust-timezone-of-an-avm-fritzbox-7390) - *2013-07-30*
-- [Test your internet connection - Emtel Mobile Internet](xref:test-your-internet-connection-emtel-mobile-internet) - *2013-05-31*
-- [Test your internet connection - Emtel Fixed Broadband](xref:test-your-internet-connection) - *2013-05-30*
-- [Attending the Mauritian Bloggers Meeting](xref:attending-the-mauritian-bloggers-meeting) - *2013-04-21*
-- [Visualise your visitors with Google Maps Guestmap](xref:google-maps-guestmap) - *2013-04-04*
-- [Comment on 'Competent Mauritius'](xref:comment-on-competent-mauritius) - *2013-04-02*
-- [Celebrating Earth Hour 2013](xref:celebrating-earth-hour-2013) - *2013-03-23*
-- [Flexible Work style, meet your new Office](xref:flexible-work-style-meet-your-new-office) - *2013-03-14*
-- [Torrential rain in Mauritius - some parts of the island](xref:torrential-rain-in-mauritius-some-parts-of-the-island) - *2013-02-13*
-- [Driving Business Forward - A new approach to social media in Mauritius](xref:driving-business-forward) - *2013-01-28*
-- [Geocaching - Casela Bird Park (GC1BPF1)](xref:geocaching-casela-bird-park) - *2013-01-26*
-- [Geocaching - World wide treasure hunt](xref:geocaching-world-wide-treasure-hunt) - *2012-12-07*
-- [Synergy - easy share of keyboard and mouse between multiple computers](xref:synergy-easy-share-of-keyboard-and-mouse-between-multiple-computers) - *2012-07-23*
-- [New Year's resolution 2012](xref:new-years-resolution-2012) - *2012-01-03*
-- [Some mail details about Orange Mauritius](xref:orange-mauritius-smtp-auth) - *2011-02-11*
-- [Yes, I did it - Skydiving in Mauritius](xref:skydiving-in-mauritius) - *2010-10-16*
-- [Welcome - A new star is born!](xref:welcome-a-new-star-is-born) - *2010-05-27*
-- [Revamped Google Webmaster Tools](xref:revamped-google-webmaster-tools) - *2010-04-15*
-- [World Map of Visitors](xref:world-map-of-visitors) - *2009-12-20*
-- [Plans for the end of the year...](xref:plans-for-the-end-of-the-year---) - *2008-11-28*
-- [Family affairs](xref:family-affairs) - *2008-10-08*
-- [Welcome - A new star is born! ;)](xref:welcome---a-new-star-is-born---) - *2008-09-20*
-- [Some more articles migrated](xref:some-more-articles-migrated) - *2008-04-24*
-- [Re-Blogged](xref:re-blogged) - *2008-03-19*
-- [Emoticons re-activated](xref:emoticons-re-activated) - *2008-02-25*
-- [Transfer of articles re-loaded](xref:transfer-of-articles-re-loaded) - *2008-02-24*
-- [Kung Shee Fat Choy](xref:kung-shee-fat-choy) - *2008-02-08*
-- [Loss of power - even w/o cyclone](xref:loss-of-power-even-wo-cyclone) - *2008-02-03*
-- [My First Cyclone](xref:my-first-cyclone) - *2007-02-23*
-- [Jubel, Trubel, Heiterkeit](xref:jubel--trubel--heiterkeit) - *2007-02-22*
-- [Super Hero or Super Villain?](xref:super-hero-or-super-villain) - *2007-01-31*
-- [Am Chiemsee im Winter](xref:am-chiemsee-im-winter) - *2007-01-26*
-- [Irgendwas habe ich vergessen... ?](xref:irgendwas-habe-ich-vergessen----) - *2007-01-25*
-- [Tjoa...](xref:tjoa---) - *2006-11-19*
-- [Elfen Lied](xref:elfen-lied) - *2006-11-18*
-- [All Saints' Day - oder auch nicht...](xref:all-saints-day-oder-auch-nicht) - *2006-11-01*
-- [Family Website aktualisiert](xref:family-website-aktualisiert) - *2006-10-21*
-- [Ego-Search und die Treffer](xref:ego-search-und-die-treffer) - *2006-10-21*
-- [Visual FoxPro Evangelist Program gestartet](xref:visual-foxpro-evangelist-program-gestartet) - *2006-09-28*
-- [Aufruf zur Unterstützung - Call for action](xref:aufruf-zur-untersttzung-call-for-action) - *2006-09-19*
-- [Kaum lobt man die Deutsche Bahn](xref:kaum-lobt-man-die-deutsche-bahn) - *2006-09-16*
-- [Meine tropischen Inseln](xref:meine-tropischen-inseln) - *2006-09-14*
-- [Ländliches Brandenburg](xref:lndliches-brandenburg) - *2006-09-13*
-- [Die Bahn ist pünktlich...](xref:die-bahn-ist-pnktlich) - *2006-09-09*
-- [Ein Königreich für eine Übernachtung](xref:ein-knigreich-fr-eine-bernachtung) - *2006-09-08*
-- [Darf's ein wenig Kultur sein?](xref:darfs-ein-wenig-kultur-sein) - *2006-09-07*
-- [Wieder einmal auf Achse](xref:wieder-einmal-auf-achse) - *2006-09-06*
-- [Eine Privatbrauerei mal anders](xref:eine-privatbrauerei-mal-anders) - *2006-09-03*
-- [250 Artikel in gut 2 Jahren?](xref:250-artikel-in-gut-2-jahren) - *2006-08-25*
-- [Viel Wasser den Rhein runtergelaufen...](xref:viel-wasser-den-rhein-runtergelaufen---) - *2006-06-01*
-- [PoSh - Windows PowerShell](xref:posh-windows-powershell) - *2006-04-30*
-- [VFPConversion - VFP and/or .NET?](xref:vfpconversion-vfp-andor-net) - *2006-04-22*
-- [New InfoPath template for blogging](xref:new-infopath-template-for-blogging) - *2006-04-22*
-- [InfoPath als Frontend für Blogs](xref:infopath-als-frontend-fr-blogs) - *2006-04-22*
-- [Internetcaches - unglaublich!](xref:internetcaches-unglaublich) - *2006-04-18*
-- [Was gibt's Neues von... Mike Oldfield?](xref:was-gibts-neues-von-mike-oldfield) - *2006-04-17*
-- [Polyphasenschlaf - Woche 1](xref:polyphasenschlaf---woche-1) - *2006-04-03*
-- [Experimente mit BlueTooth](xref:experimente-mit-bluetooth) - *2006-04-03*
-- [Polyphasenschlaf - Tag 6](xref:polyphasenschlaf---tag-6) - *2006-04-02*
-- [Polyphasenschlaf - Tag 5](xref:polyphasenschlaf---tag-5) - *2006-04-01*
-- [Polyphasenschlaf - Tag 4](xref:polyphasenschlaf---tag-4) - *2006-03-31*
-- [Polyphasenschlaf - Tag 3](xref:polyphasenschlaf---tag-3) - *2006-03-30*
-- [Polyphasenschlaf - Tag 2 1/2](xref:polyphasenschlaf-tag-2-12) - *2006-03-29*
-- [Polyphasenschlaf - Tag 1](xref:polyphasenschlaf---tag-1) - *2006-03-28*
-- [Polyphasenschlaf - Tag 0](xref:polyphasenschlaf---tag-0) - *2006-03-27*
-- [Neue Optik für den Hintergrund](xref:neue-optik-fr-den-hintergrund) - *2006-02-01*
-- [Ein Tag hat 24 Stunden](xref:ein-tag-hat-24-stunden) - *2006-01-28*
-- [New face, new service](xref:new-face--new-service) - *2006-01-25*
-- [Besinnliche Weihnachtszeit?](xref:besinnliche-weihnachtszeit) - *2005-12-21*
-- [Ausbildung: Fachinformatiker Anwendungsentwicklung](xref:ausbildung-fachinformatiker-anwendungsentwicklung) - *2005-12-16*
-- [Freizeit?](xref:freizeit) - *2005-12-15*
-- [Es geschehen noch Zeichen und Wunder!](xref:es-geschehen-noch-zeichen-und-wunder) - *2005-11-17*
-- [Die Jungs bei Google haben Spass...](xref:die-jungs-bei-google-haben-spass) - *2005-11-17*
-- [God gave Rock 'n Roll to us.](xref:god-gave-rock-n-roll-to-us) - *2005-10-26*
-- [Lily of the Valley](xref:lily-of-the-valley) - *2005-10-17*
-- [Kühe auf Nachtwanderung](xref:kuehe-auf-nachtwanderung) - *2005-10-15*
-- [Intranet Explorer](xref:intranet-explorer) - *2005-10-12*
-- [Firefox 1.5 Beta](xref:firefox-1-5-beta) - *2005-10-10*
-- [Schreiben an die GEZ](xref:schreiben-an-die-gez) - *2005-10-02*
-- [Screenauflösung 5184x1200?](xref:screenauflsung-5184x1200) - *2005-09-22*
-- [Browser-Upgrades](xref:browser-upgrades) - *2005-09-21*
-- [Beliebige Zeichen in Dateipfaden - oder besser nicht...](xref:beliebige-zeichen-in-dateipfaden---oder-besser-nicht---) - *2005-09-20*
-- [Michael Moore bzw. die Qual der Wahl](xref:michael-moore-bzw--die-qual-der-wahl) - *2005-09-19*
-- [SAP Arena!](xref:saparena) - *2005-09-07*
-- [Vacation...](xref:vacation---) - *2005-09-05*
-- [Büchermarathon](xref:bchermarathon) - *2005-09-03*
-- [Rock im Brauhof 2005](xref:rock-im-brauhof-2005) - *2005-08-27*
-- [Die Happy & Culcha Candela](xref:die-happy-a-culcha-candela) - *2005-08-27*
-- [URLAUB!](xref:urlaub) - *2005-08-24*
-- [Normaler Tagesablauf?](xref:normaler-tagesablauf) - *2005-08-22*
-- [Golo, der Gartenzwerg?](xref:golo--der-gartenzwerg) - *2005-08-22*
-- [Using Microsoft InfoPath as blog frontend](xref:using-microsoft-infopath-as-blog-frontend) - *2005-08-02*
-- [International blogging](xref:international-blogging) - *2005-08-01*
-- [Browserwechsel angesagt](xref:browserwechsel-angesagt) - *2005-07-14*
-- [EULA vor Kauf lesen](xref:eula-vor-kauf-lesen) - *2005-07-13*
-- [Lost in the Twilight Zone...](xref:lost-in-the-twilight-zone---) - *2005-07-12*
-- [Neues Release #585](xref:neues-release-585) - *2005-07-11*
-- [Weitere Buchtitel zu VFP 9.0](xref:weitere-buchtitel-zu-vfp-9-0) - *2005-07-10*
-- [Fäkalien-Alarm - Funstuff](xref:fkalien-alarm-funstuff) - *2005-06-13*
-- [Genius is indeed a heavy burden](xref:genius-is-indeed-a-heavy-burden) - *2005-06-12*
-- [Funstuff mit Pferden](xref:funstuff-mit-pferden) - *2005-06-12*
-- [Marathon, die Vierte?](xref:marathon--die-vierte) - *2005-05-08*
-- [Marathon, die Dritte](xref:marathon--die-dritte) - *2005-05-08*
-- [Marathon, die Zweite](xref:marathon--die-zweite) - *2005-05-06*
-- [Marathon, die Erste](xref:marathon--die-erste) - *2005-05-04*
-- [Jeder sollte ein Hamsterfell besitzen](xref:jeder-sollte-ein-hamsterfell-besitzen) - *2005-05-04*
-- [Schlafes Bruder](xref:schlafes-bruder) - *2005-04-29*
-- [101 things you can do...](xref:101-things-you-can-do---) - *2005-04-26*
-- [Randale? - Ein normaler Samstag](xref:randale-ein-normaler-samstag) - *2005-04-23*
-- [Zitate...](xref:zitate) - *2005-04-20*
-- [MSDN: Visual FoxPro mit Visual Studio 2005](xref:msdn-visual-foxpro-mit-visual-studio-2005) - *2005-04-20*
-- [Pictures? Wanna pictures?](xref:pictures-wanna-pictures) - *2005-04-18*
-- [HTTP 404](xref:http-404) - *2005-04-13*
-- [Daily Upgrade](xref:daily-upgrade) - *2005-04-11*
-- [Found by Google](xref:found-by-google) - *2005-04-10*
-- [Werbung verblödet...](xref:werbung-verbloedet) - *2005-04-08*
-- [Ich will Feuerwehrmann werden](xref:ich-will-feuerwehrmann-werden) - *2005-04-08*
-- [Frankfurter Buchmesse](xref:frankfurter-buchmesse) - *2005-04-07*
-- [Blog - Reloaded](xref:blog---reloaded) - *2005-04-05*
-- [Surfin' HotSpots](xref:surfin-hotspots) - *2005-04-02*
-- [Heute ist Ostern und Weihnachten gleichzeitig...](xref:heute-ist-ostern-und-weihnachten-gleichzeitig---) - *2005-03-24*
-- [Clash of the browsers](xref:clash-of-the-browsers) - *2005-03-13*
-- [Nix Neues...](xref:nix-neues---) - *2005-02-26*
-- [Game another day](xref:game-another-day) - *2005-02-26*
-- [Überall Baustellen?](xref:berall-baustellen) - *2005-02-22*
-- [Gegen die Kälte hilft nur ein heißes Bad](xref:gegen-die-klte-hilft-nur-ein-heies-bad) - *2005-02-18*
-- [So kann ich net arbeiten!](xref:so-kann-ich-net-arbeiten) - *2005-02-15*
-- [Wieviel NERD steckt in dir?](xref:wieviel-nerd-steckt-in-dir) - *2005-02-14*
-- [Viel Wasser läuft den Rhein runter...](xref:viel-wasser-luft-den-rhein-runter) - *2005-01-15*
-- [Finally](xref:finally) - *2004-11-14*
-- [Die Rückkehr des Königs](xref:die-rckkehr-des-knigs) - *2004-10-17*
-- [FoxPro - das Urzeitmonster aus der Tiefe...](xref:foxpro---das-urzeitmonster-aus-der-tiefe---) - *2004-07-16*
-- [Request timed out](xref:request-timed-out) - *2004-07-13*
-- [Verspäteter Einstieg in die Welt der Blogs...](xref:verspteter-einstieg-in-die-welt-der-blogs) - *2004-07-12*
+- [Infotech/InnovTech 2017](xref:innovtech-2017) - *Feb 3, 2018*
+- [Inspecting internet router in Mauritius](xref:router-in-mauritius) - *Oct 18, 2017*
+- [Dear Postmaster of Mauritius Revenue Authority](xref:mra-mail-hostname) - *Oct 3, 2017*
+- [Career Guidance (Day) at Aberystwyth University](xref:cs-career-advice-aber) - *Sep 26, 2017*
+- [Migration to Ghost](xref:migration-joomla-ghost) - *Aug 7, 2017*
+- [Mauritius Open Data Readiness Assessment (ODRA)](xref:mauritius-open-data) - *Nov 7, 2015*
+- [Working as an IT freelancer in Mauritius](xref:working-as-an-it-freelancer-in-mauritius) - *Aug 17, 2015*
+- [Live and let live - modern laziness...](xref:live-and-let-live-modern-laziness) - *Jun 28, 2015*
+- [Mugg & Bean - Nightmare at Bagatelle](xref:mb-nightmare-at-bagatelle) - *May 4, 2015*
+- [My first month using a Lumia 730](xref:using-nokia-lumia-730) - *Jan 3, 2015*
+- [Ten years of blogging - 400+ articles written](xref:ten-years-of-blogging-400-articles-written) - *Dec 13, 2014*
+- [Review: Emtel Wingle a.k.a. Huawei E8231](xref:emtel-wingle-aka-huawei-e8231) - *Nov 5, 2014*
+- [Already 3,333 tweets...](xref:already-3333-tweets) - *Aug 20, 2014*
+- [Vacations on Rodrigues 2014](xref:vacations-on-rodrigues) - *Aug 14, 2014*
+- [SUPINFO International University in Mauritius](xref:supinfo-international-university-in-mauritius) - *Jul 14, 2014*
+- [Emtel Knowledge Series - Q2/2014](xref:emtel-knowledge-series-no3) - *Jun 20, 2014*
+- [Emtel Knowledge Series - Q1/2014](xref:emtel-knowledge-series-no1) - *Feb 16, 2014*
+- [Goodbye 2013 - Welcome 2014](xref:goodbye-2013-welcome-2014) - *Jan 2, 2014*
+- [Representing Mauritius in the 2013 Bench Games](xref:representing-mauritius-in-the-2013-bench-games) - *Oct 29, 2013*
+- [Update: Super Hero](xref:update-super-hero) - *Sep 26, 2013*
+- [Visiting the Fire Station in Coromandel](xref:visiting-the-fire-station-in-coromandel) - *Sep 9, 2013*
+- [Adjust timezone of an AVM Fritz!Box 7390](xref:adjust-timezone-of-an-avm-fritzbox-7390) - *Jul 30, 2013*
+- [Test your internet connection - Emtel Mobile Internet](xref:test-your-internet-connection-emtel-mobile-internet) - *May 31, 2013*
+- [Test your internet connection - Emtel Fixed Broadband](xref:test-your-internet-connection) - *May 30, 2013*
+- [Attending the Mauritian Bloggers Meeting](xref:attending-the-mauritian-bloggers-meeting) - *Apr 21, 2013*
+- [Visualise your visitors with Google Maps Guestmap](xref:google-maps-guestmap) - *Apr 4, 2013*
+- [Comment on 'Competent Mauritius'](xref:comment-on-competent-mauritius) - *Apr 2, 2013*
+- [Celebrating Earth Hour 2013](xref:celebrating-earth-hour-2013) - *Mar 23, 2013*
+- [Flexible Work style, meet your new Office](xref:flexible-work-style-meet-your-new-office) - *Mar 14, 2013*
+- [Torrential rain in Mauritius - some parts of the island](xref:torrential-rain-in-mauritius-some-parts-of-the-island) - *Feb 13, 2013*
+- [Driving Business Forward - A new approach to social media in Mauritius](xref:driving-business-forward) - *Jan 28, 2013*
+- [Geocaching - Casela Bird Park (GC1BPF1)](xref:geocaching-casela-bird-park) - *Jan 26, 2013*
+- [Geocaching - World wide treasure hunt](xref:geocaching-world-wide-treasure-hunt) - *Dec 7, 2012*
+- [Synergy - easy share of keyboard and mouse between multiple computers](xref:synergy-easy-share-of-keyboard-and-mouse-between-multiple-computers) - *Jul 23, 2012*
+- [New Year's resolution 2012](xref:new-years-resolution-2012) - *Jan 3, 2012*
+- [Some mail details about Orange Mauritius](xref:orange-mauritius-smtp-auth) - *Feb 11, 2011*
+- [Yes, I did it - Skydiving in Mauritius](xref:skydiving-in-mauritius) - *Oct 16, 2010*
+- [Welcome - A new star is born!](xref:welcome-a-new-star-is-born) - *May 27, 2010*
+- [Revamped Google Webmaster Tools](xref:revamped-google-webmaster-tools) - *Apr 15, 2010*
+- [World Map of Visitors](xref:world-map-of-visitors) - *Dec 20, 2009*
+- [Plans for the end of the year...](xref:plans-for-the-end-of-the-year---) - *Nov 28, 2008*
+- [Family affairs](xref:family-affairs) - *Oct 8, 2008*
+- [Welcome - A new star is born! ;)](xref:welcome---a-new-star-is-born---) - *Sep 20, 2008*
+- [Some more articles migrated](xref:some-more-articles-migrated) - *Apr 24, 2008*
+- [Re-Blogged](xref:re-blogged) - *Mar 19, 2008*
+- [Emoticons re-activated](xref:emoticons-re-activated) - *Feb 25, 2008*
+- [Transfer of articles re-loaded](xref:transfer-of-articles-re-loaded) - *Feb 24, 2008*
+- [Kung Shee Fat Choy](xref:kung-shee-fat-choy) - *Feb 8, 2008*
+- [Loss of power - even w/o cyclone](xref:loss-of-power-even-wo-cyclone) - *Feb 3, 2008*
+- [My First Cyclone](xref:my-first-cyclone) - *Feb 23, 2007*
+- [Jubel, Trubel, Heiterkeit](xref:jubel--trubel--heiterkeit) - *Feb 22, 2007*
+- [Super Hero or Super Villain?](xref:super-hero-or-super-villain) - *Jan 31, 2007*
+- [Am Chiemsee im Winter](xref:am-chiemsee-im-winter) - *Jan 26, 2007*
+- [Irgendwas habe ich vergessen... ?](xref:irgendwas-habe-ich-vergessen----) - *Jan 25, 2007*
+- [Tjoa...](xref:tjoa---) - *Nov 19, 2006*
+- [Elfen Lied](xref:elfen-lied) - *Nov 18, 2006*
+- [All Saints' Day - oder auch nicht...](xref:all-saints-day-oder-auch-nicht) - *Nov 1, 2006*
+- [Family Website aktualisiert](xref:family-website-aktualisiert) - *Oct 21, 2006*
+- [Ego-Search und die Treffer](xref:ego-search-und-die-treffer) - *Oct 21, 2006*
+- [Visual FoxPro Evangelist Program gestartet](xref:visual-foxpro-evangelist-program-gestartet) - *Sep 28, 2006*
+- [Aufruf zur Unterstützung - Call for action](xref:aufruf-zur-untersttzung-call-for-action) - *Sep 19, 2006*
+- [Kaum lobt man die Deutsche Bahn](xref:kaum-lobt-man-die-deutsche-bahn) - *Sep 16, 2006*
+- [Meine tropischen Inseln](xref:meine-tropischen-inseln) - *Sep 14, 2006*
+- [Ländliches Brandenburg](xref:lndliches-brandenburg) - *Sep 13, 2006*
+- [Die Bahn ist pünktlich...](xref:die-bahn-ist-pnktlich) - *Sep 9, 2006*
+- [Ein Königreich für eine Übernachtung](xref:ein-knigreich-fr-eine-bernachtung) - *Sep 8, 2006*
+- [Darf's ein wenig Kultur sein?](xref:darfs-ein-wenig-kultur-sein) - *Sep 7, 2006*
+- [Wieder einmal auf Achse](xref:wieder-einmal-auf-achse) - *Sep 6, 2006*
+- [Eine Privatbrauerei mal anders](xref:eine-privatbrauerei-mal-anders) - *Sep 3, 2006*
+- [250 Artikel in gut 2 Jahren?](xref:250-artikel-in-gut-2-jahren) - *Aug 25, 2006*
+- [Viel Wasser den Rhein runtergelaufen...](xref:viel-wasser-den-rhein-runtergelaufen---) - *Jun 1, 2006*
+- [PoSh - Windows PowerShell](xref:posh-windows-powershell) - *Apr 30, 2006*
+- [VFPConversion - VFP and/or .NET?](xref:vfpconversion-vfp-andor-net) - *Apr 22, 2006*
+- [New InfoPath template for blogging](xref:new-infopath-template-for-blogging) - *Apr 22, 2006*
+- [InfoPath als Frontend für Blogs](xref:infopath-als-frontend-fr-blogs) - *Apr 22, 2006*
+- [Internetcaches - unglaublich!](xref:internetcaches-unglaublich) - *Apr 18, 2006*
+- [Was gibt's Neues von... Mike Oldfield?](xref:was-gibts-neues-von-mike-oldfield) - *Apr 17, 2006*
+- [Polyphasenschlaf - Woche 1](xref:polyphasenschlaf---woche-1) - *Apr 3, 2006*
+- [Experimente mit BlueTooth](xref:experimente-mit-bluetooth) - *Apr 3, 2006*
+- [Polyphasenschlaf - Tag 6](xref:polyphasenschlaf---tag-6) - *Apr 2, 2006*
+- [Polyphasenschlaf - Tag 5](xref:polyphasenschlaf---tag-5) - *Apr 1, 2006*
+- [Polyphasenschlaf - Tag 4](xref:polyphasenschlaf---tag-4) - *Mar 31, 2006*
+- [Polyphasenschlaf - Tag 3](xref:polyphasenschlaf---tag-3) - *Mar 30, 2006*
+- [Polyphasenschlaf - Tag 2 1/2](xref:polyphasenschlaf-tag-2-12) - *Mar 29, 2006*
+- [Polyphasenschlaf - Tag 1](xref:polyphasenschlaf---tag-1) - *Mar 28, 2006*
+- [Polyphasenschlaf - Tag 0](xref:polyphasenschlaf---tag-0) - *Mar 27, 2006*
+- [Neue Optik für den Hintergrund](xref:neue-optik-fr-den-hintergrund) - *Feb 1, 2006*
+- [Ein Tag hat 24 Stunden](xref:ein-tag-hat-24-stunden) - *Jan 28, 2006*
+- [New face, new service](xref:new-face--new-service) - *Jan 25, 2006*
+- [Besinnliche Weihnachtszeit?](xref:besinnliche-weihnachtszeit) - *Dec 21, 2005*
+- [Ausbildung: Fachinformatiker Anwendungsentwicklung](xref:ausbildung-fachinformatiker-anwendungsentwicklung) - *Dec 16, 2005*
+- [Freizeit?](xref:freizeit) - *Dec 15, 2005*
+- [Es geschehen noch Zeichen und Wunder!](xref:es-geschehen-noch-zeichen-und-wunder) - *Nov 17, 2005*
+- [Die Jungs bei Google haben Spass...](xref:die-jungs-bei-google-haben-spass) - *Nov 17, 2005*
+- [God gave Rock 'n Roll to us.](xref:god-gave-rock-n-roll-to-us) - *Oct 26, 2005*
+- [Lily of the Valley](xref:lily-of-the-valley) - *Oct 17, 2005*
+- [Kühe auf Nachtwanderung](xref:kuehe-auf-nachtwanderung) - *Oct 15, 2005*
+- [Intranet Explorer](xref:intranet-explorer) - *Oct 12, 2005*
+- [Firefox 1.5 Beta](xref:firefox-1-5-beta) - *Oct 10, 2005*
+- [Schreiben an die GEZ](xref:schreiben-an-die-gez) - *Oct 2, 2005*
+- [Screenauflösung 5184x1200?](xref:screenauflsung-5184x1200) - *Sep 22, 2005*
+- [Browser-Upgrades](xref:browser-upgrades) - *Sep 21, 2005*
+- [Beliebige Zeichen in Dateipfaden - oder besser nicht...](xref:beliebige-zeichen-in-dateipfaden---oder-besser-nicht---) - *Sep 20, 2005*
+- [Michael Moore bzw. die Qual der Wahl](xref:michael-moore-bzw--die-qual-der-wahl) - *Sep 19, 2005*
+- [SAP Arena!](xref:saparena) - *Sep 7, 2005*
+- [Vacation...](xref:vacation---) - *Sep 5, 2005*
+- [Büchermarathon](xref:bchermarathon) - *Sep 3, 2005*
+- [Rock im Brauhof 2005](xref:rock-im-brauhof-2005) - *Aug 27, 2005*
+- [Die Happy & Culcha Candela](xref:die-happy-a-culcha-candela) - *Aug 27, 2005*
+- [URLAUB!](xref:urlaub) - *Aug 24, 2005*
+- [Normaler Tagesablauf?](xref:normaler-tagesablauf) - *Aug 22, 2005*
+- [Golo, der Gartenzwerg?](xref:golo--der-gartenzwerg) - *Aug 22, 2005*
+- [Using Microsoft InfoPath as blog frontend](xref:using-microsoft-infopath-as-blog-frontend) - *Aug 2, 2005*
+- [International blogging](xref:international-blogging) - *Aug 1, 2005*
+- [Browserwechsel angesagt](xref:browserwechsel-angesagt) - *Jul 14, 2005*
+- [EULA vor Kauf lesen](xref:eula-vor-kauf-lesen) - *Jul 13, 2005*
+- [Lost in the Twilight Zone...](xref:lost-in-the-twilight-zone---) - *Jul 12, 2005*
+- [Neues Release #585](xref:neues-release-585) - *Jul 11, 2005*
+- [Weitere Buchtitel zu VFP 9.0](xref:weitere-buchtitel-zu-vfp-9-0) - *Jul 10, 2005*
+- [Fäkalien-Alarm - Funstuff](xref:fkalien-alarm-funstuff) - *Jun 13, 2005*
+- [Genius is indeed a heavy burden](xref:genius-is-indeed-a-heavy-burden) - *Jun 12, 2005*
+- [Funstuff mit Pferden](xref:funstuff-mit-pferden) - *Jun 12, 2005*
+- [Marathon, die Vierte?](xref:marathon--die-vierte) - *May 8, 2005*
+- [Marathon, die Dritte](xref:marathon--die-dritte) - *May 8, 2005*
+- [Marathon, die Zweite](xref:marathon--die-zweite) - *May 6, 2005*
+- [Marathon, die Erste](xref:marathon--die-erste) - *May 4, 2005*
+- [Jeder sollte ein Hamsterfell besitzen](xref:jeder-sollte-ein-hamsterfell-besitzen) - *May 4, 2005*
+- [Schlafes Bruder](xref:schlafes-bruder) - *Apr 29, 2005*
+- [101 things you can do...](xref:101-things-you-can-do---) - *Apr 26, 2005*
+- [Randale? - Ein normaler Samstag](xref:randale-ein-normaler-samstag) - *Apr 23, 2005*
+- [Zitate...](xref:zitate) - *Apr 20, 2005*
+- [MSDN: Visual FoxPro mit Visual Studio 2005](xref:msdn-visual-foxpro-mit-visual-studio-2005) - *Apr 20, 2005*
+- [Pictures? Wanna pictures?](xref:pictures-wanna-pictures) - *Apr 18, 2005*
+- [HTTP 404](xref:http-404) - *Apr 13, 2005*
+- [Daily Upgrade](xref:daily-upgrade) - *Apr 11, 2005*
+- [Found by Google](xref:found-by-google) - *Apr 10, 2005*
+- [Werbung verblödet...](xref:werbung-verbloedet) - *Apr 8, 2005*
+- [Ich will Feuerwehrmann werden](xref:ich-will-feuerwehrmann-werden) - *Apr 8, 2005*
+- [Frankfurter Buchmesse](xref:frankfurter-buchmesse) - *Apr 7, 2005*
+- [Blog - Reloaded](xref:blog---reloaded) - *Apr 5, 2005*
+- [Surfin' HotSpots](xref:surfin-hotspots) - *Apr 2, 2005*
+- [Heute ist Ostern und Weihnachten gleichzeitig...](xref:heute-ist-ostern-und-weihnachten-gleichzeitig---) - *Mar 24, 2005*
+- [Clash of the browsers](xref:clash-of-the-browsers) - *Mar 13, 2005*
+- [Nix Neues...](xref:nix-neues---) - *Feb 26, 2005*
+- [Game another day](xref:game-another-day) - *Feb 26, 2005*
+- [Überall Baustellen?](xref:berall-baustellen) - *Feb 22, 2005*
+- [Gegen die Kälte hilft nur ein heißes Bad](xref:gegen-die-klte-hilft-nur-ein-heies-bad) - *Feb 18, 2005*
+- [So kann ich net arbeiten!](xref:so-kann-ich-net-arbeiten) - *Feb 15, 2005*
+- [Wieviel NERD steckt in dir?](xref:wieviel-nerd-steckt-in-dir) - *Feb 14, 2005*
+- [Viel Wasser läuft den Rhein runter...](xref:viel-wasser-luft-den-rhein-runter) - *Jan 15, 2005*
+- [Finally](xref:finally) - *Nov 14, 2004*
+- [Die Rückkehr des Königs](xref:die-rckkehr-des-knigs) - *Oct 17, 2004*
+- [FoxPro - das Urzeitmonster aus der Tiefe...](xref:foxpro---das-urzeitmonster-aus-der-tiefe---) - *Jul 16, 2004*
+- [Request timed out](xref:request-timed-out) - *Jul 13, 2004*
+- [Verspäteter Einstieg in die Welt der Blogs...](xref:verspteter-einstieg-in-die-welt-der-blogs) - *Jul 12, 2004*

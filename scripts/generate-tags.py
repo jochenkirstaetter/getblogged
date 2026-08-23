@@ -64,6 +64,7 @@ def parse_post(file_path: Path) -> dict:
         "uid": uid,
         "title": title,
         "date": date_str,
+        "formattedDate": dt.strftime("%b %-d, %Y") if dt.year > 1970 else date_str,
         "dt": dt,
         "tags": tags,
         "file_path": file_path
@@ -222,8 +223,8 @@ def main():
         for p in posts:
             title = p["title"]
             uid = p["uid"]
-            date_str = p["date"]
-            tag_lines.append(f"- [{title}](xref:{uid}) - *{date_str}*")
+            date_display = p.get("formattedDate") or p["date"]
+            tag_lines.append(f"- [{title}](xref:{uid}) - *{date_display}*")
 
         tag_lines.append("")
         tag_file.write_text("\n".join(tag_lines), encoding="utf-8")

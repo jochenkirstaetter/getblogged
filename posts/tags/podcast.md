@@ -12,5 +12,5 @@ image: content/images/2023/12/MauPasKonpran.webp
 
 ## Articles
 
-- [Mau Pas Konpran!? Brain Drain](xref:mau-pas-konpran-2) - *2023-12-19*
-- [Mau pas konpran!? SIM Registration](xref:mau-pas-konpran) - *2023-11-19*
+- [Mau Pas Konpran!? Brain Drain](xref:mau-pas-konpran-2) - *Dec 19, 2023*
+- [Mau pas konpran!? SIM Registration](xref:mau-pas-konpran) - *Nov 19, 2023*
