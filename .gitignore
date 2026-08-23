@@ -37,3 +37,4 @@ posts/content/images/size/
 .playwright-mcp
 scratch
 __pycache__
+.dotnet/
