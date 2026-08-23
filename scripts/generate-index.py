@@ -121,9 +121,13 @@ def main():
 
     yaml_lines = [
         "---",
+        "uid: home",
         "title: Get Blogged by JoKi",
         "description: The only frontiers are in your mind",
         "coverImage: content/images/2023/07/GDG_Google_Banner.webp",
+        "image: content/images/2023/07/GDG_Google_Banner.webp",
+        "ogImage: content/images/2023/07/GDG_Google_Banner.webp",
+        "canonicalUrl: https://jochen.kirstaetter.name/",
         "isHome: true",
         "bodyClass: home-template",
         "posts:"
@@ -162,6 +166,24 @@ def main():
         yaml_lines.append(f"  imageClass: {image_class}")
 
     yaml_lines.append("---")
+    yaml_lines.append("")
+    yaml_lines.append("# Welcome to Get Blogged by JoKi")
+    yaml_lines.append("")
+    yaml_lines.append("Get Blogged by JoKi is the personal technology blog and knowledge base of **Jochen Kirstätter** (also known as JoKi). Based in Mauritius, Jochen is a senior software crafter, Microsoft MVP for Developer Technologies, Google Developer Expert (GDE) for Google Cloud & AI, international speaker, and founder of the Mauritius Software Craftsmanship Community (MSCC).")
+    yaml_lines.append("")
+    yaml_lines.append("## Core Focus & Technology Deep-Dives")
+    yaml_lines.append("")
+    yaml_lines.append("- **.NET & Modern C#**: Practical architectural patterns, cross-platform app development, minimal APIs, NuGet package authoring, and performance optimisation.")
+    yaml_lines.append("- **Google Cloud & Gemini AI**: Integrating Google Gemini API and Vertex AI in .NET using `Mscc.GenerativeAI`, structured outputs (`ResponseSchema`), and autonomous multi-agent systems.")
+    yaml_lines.append("- **Developer Tooling & Cloud Workflows**: Practical experiences with Google Antigravity Remote Control, Docker containers, Google Cloud Build, Portless local reverse proxying, and CI/CD pipelines.")
+    yaml_lines.append("- **Software Craftsmanship & Community**: Insights from running monthly MSCC meetups and the annual Developers Conference Mauritius.")
+    yaml_lines.append("")
+    yaml_lines.append("## Agent & Machine-Readable Access")
+    yaml_lines.append("")
+    yaml_lines.append("This website is built for both human software crafters and autonomous AI agents:")
+    yaml_lines.append("- **Agent Guidance & When to Use**: See [`/llms.txt`](https://jochen.kirstaetter.name/llms.txt) and [`/llms-full.txt`](https://jochen.kirstaetter.name/llms-full.txt) for machine-readable manifests and best-fit use case definitions.")
+    yaml_lines.append("- **Markdown Content Negotiation**: All articles provide raw, token-efficient Markdown sources via `Accept: text/markdown` or directly under `/raw/<slug>.md`.")
+    yaml_lines.append("- **Site Navigation & Trust**: Explore our [About](xref:about), [Contact](xref:contact), [Privacy Policy](xref:privacy), [Blog Archive](xref:blog), and [Topic Tags](xref:tags-index).")
     yaml_lines.append("")
 
     content_str = "\n".join(yaml_lines)

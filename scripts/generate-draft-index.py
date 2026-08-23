@@ -102,6 +102,7 @@ def main():
 
     yaml_lines = [
         "---",
+        "uid: home",
         "title: Get Blogged by JoKi (Drafts)",
         "description: Draft articles and works in progress",
         "coverImage: content/images/2023/07/GDG_Google_Banner.webp",

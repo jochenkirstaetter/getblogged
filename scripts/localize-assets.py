@@ -11,7 +11,11 @@ import glob
 import urllib.request
 import urllib.parse
 from pathlib import Path
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageOps
+
+# Ensure scripts directory is in path for qr_generator import
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from qr_generator import generate_qr_image
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DOCFX_JSON = REPO_ROOT / "posts" / "docfx.json"
@@ -69,6 +73,235 @@ def extract_remote_filename(url, fallback_slug):
     if name_no_ext and len(name_no_ext) > 3:
         return f"{name_no_ext}.webp"
     return f"{fallback_slug}.webp"
+
+def get_font(font_name='bold', size=32):
+    font_paths = {
+        'bold': [
+            '/usr/share/fonts/truetype/noto/NotoSans-Bold.ttf',
+            '/usr/share/fonts/opentype/urw-base35/NimbusSans-Bold.otf',
+            '/usr/share/fonts/opentype/cantarell/Cantarell-VF.otf',
+            '/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf',
+            '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf',
+        ],
+        'regular': [
+            '/usr/share/fonts/truetype/noto/NotoSans-Regular.ttf',
+            '/usr/share/fonts/opentype/urw-base35/NimbusSans-Regular.otf',
+            '/usr/share/fonts/opentype/cantarell/Cantarell-VF.otf',
+            '/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf',
+            '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',
+        ],
+        'mono': [
+            '/usr/share/fonts/truetype/noto/NotoSansMono-Bold.ttf',
+            '/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Bold.otf',
+        ]
+    }
+    for p in font_paths.get(font_name, font_paths['bold']):
+        if os.path.exists(p):
+            try:
+                return ImageFont.truetype(p, size=size)
+            except Exception:
+                pass
+    return ImageFont.load_default()
+
+def balance_wrap_text(text, font, max_width, draw):
+    words = text.split()
+    if not words:
+        return []
+    single = ' '.join(words)
+    b = draw.textbbox((0, 0), single, font=font)
+    if b[2] - b[0] <= max_width:
+        return [single]
+        
+    total_w = b[2] - b[0]
+    num_lines = max(2, int(total_w / max_width) + 1)
+    target_line_w = total_w / num_lines
+    
+    lines = []
+    curr = []
+    for w in words:
+        test_line = ' '.join(curr + [w])
+        bbox = draw.textbbox((0, 0), test_line, font=font)
+        line_w = bbox[2] - bbox[0]
+        if line_w > max_width and curr:
+            lines.append(' '.join(curr))
+            curr = [w]
+        elif line_w >= target_line_w and len(lines) < num_lines - 1 and len(curr) >= 2:
+            lines.append(' '.join(curr + [w]))
+            curr = []
+        else:
+            curr.append(w)
+    if curr:
+        lines.append(' '.join(curr))
+    return lines
+
+def render_intelligent_og_image(hero_img_path, title, slug, app_url='https://jochen.kirstaetter.name', author='Jochen Kirstätter', output_path=None, overwrite=False):
+    if output_path and Path(output_path).exists() and not overwrite:
+        return
+    
+    width, height = 1200, 630
+    
+    # 1. Base hero image backdrop
+    if hero_img_path and Path(hero_img_path).exists():
+        try:
+            src_img = Image.open(hero_img_path).convert('RGB')
+            base_img = ImageOps.fit(src_img, (width, height), method=Image.Resampling.LANCZOS, centering=(0.5, 0.5))
+            backdrop = base_img.filter(ImageFilter.GaussianBlur(radius=5))
+        except Exception:
+            backdrop = Image.new('RGB', (width, height), (30, 41, 59))
+    else:
+        backdrop = Image.new('RGB', (width, height), (30, 41, 59))
+
+    canvas = backdrop.convert('RGBA')
+    temp_draw = ImageDraw.Draw(canvas)
+    
+    # 2. Dynamic Balanced Title
+    if len(title) < 35:
+        title_font_size = 52
+        max_title_w = 780
+    elif len(title) < 65:
+        title_font_size = 46
+        max_title_w = 820
+    elif len(title) < 95:
+        title_font_size = 40
+        max_title_w = 850
+    else:
+        title_font_size = 35
+        max_title_w = 880
+
+    font_title = get_font('bold', title_font_size)
+    title_lines = balance_wrap_text(title, font_title, max_title_w, temp_draw)
+    
+    line_spacing = int(title_font_size * 1.28)
+    line_widths = [temp_draw.textbbox((0, 0), line, font=font_title)[2] - temp_draw.textbbox((0, 0), line, font=font_title)[0] for line in title_lines]
+    max_measured_w = max(line_widths) if line_widths else 400
+    title_block_h = len(title_lines) * line_spacing
+
+    pad_left = 60
+    pad_right = 44
+    pad_v = 30
+    
+    card_top = 80
+    card_bottom = card_top + title_block_h + pad_v * 2
+    card_w = pad_left + max_measured_w + pad_right
+
+    # 3. Left-Attached Frosted Glass Plates (42% opacity: alpha = 107)
+    frosted_overlay = Image.new('RGBA', (width, height), (0, 0, 0, 0))
+    f_draw = ImageDraw.Draw(frosted_overlay)
+
+    glass_fill = (20, 30, 48, 107)
+    glass_border = (255, 255, 255, 52)
+
+    f_draw.rounded_rectangle(
+        [(-20, card_top), (card_w, card_bottom)],
+        radius=20,
+        fill=glass_fill,
+        outline=glass_border,
+        width=1
+    )
+
+    # 4. Bottom-Left Author Attribution Plate
+    font_author = get_font('bold', 25)
+    font_url = get_font('regular', 21)
+    clean_domain = app_url.replace('https://', '').replace('http://', '').rstrip('/')
+    
+    b_author = temp_draw.textbbox((0, 0), author, font=font_author)
+    b_url = temp_draw.textbbox((0, 0), clean_domain, font=font_url)
+    bottom_text_w = max(b_author[2] - b_author[0], b_url[2] - b_url[0])
+    
+    bottom_card_top = 490
+    bottom_card_bottom = 598
+    bottom_card_w = pad_left + bottom_text_w + 40
+    
+    f_draw.rounded_rectangle(
+        [(-20, bottom_card_top), (bottom_card_w, bottom_card_bottom)],
+        radius=18,
+        fill=glass_fill,
+        outline=glass_border,
+        width=1
+    )
+
+    # Soft Shadow
+    shadow_layer = Image.new('RGBA', (width, height), (0, 0, 0, 0))
+    s_draw = ImageDraw.Draw(shadow_layer)
+    s_draw.rounded_rectangle([(-20, card_top + 4), (card_w + 4, card_bottom + 6)], radius=20, fill=(0, 0, 0, 50))
+    s_draw.rounded_rectangle([(-20, bottom_card_top + 4), (bottom_card_w + 4, bottom_card_bottom + 6)], radius=18, fill=(0, 0, 0, 50))
+    shadow_layer = shadow_layer.filter(ImageFilter.GaussianBlur(radius=8))
+
+    canvas = Image.alpha_composite(canvas, shadow_layer)
+    canvas = Image.alpha_composite(canvas, frosted_overlay)
+    draw = ImageDraw.Draw(canvas)
+
+    # 5. Draw Title Text (Off-white with soft shadow)
+    title_y_start = card_top + pad_v
+    for i, line in enumerate(title_lines):
+        draw.text((pad_left + 1, title_y_start + i * line_spacing + 1), line, fill=(0, 0, 0, 210), font=font_title)
+        draw.text((pad_left, title_y_start + i * line_spacing), line, fill=(248, 250, 252, 255), font=font_title)
+
+    # 6. Draw Bottom-Left Author & URL
+    author_y = bottom_card_top + 20
+    url_y = bottom_card_top + 56
+    
+    draw.text((pad_left + 1, author_y + 1), author, fill=(0, 0, 0, 200), font=font_author)
+    draw.text((pad_left, author_y), author, fill=(248, 250, 252, 255), font=font_author)
+    
+    draw.text((pad_left + 1, url_y + 1), clean_domain, fill=(0, 0, 0, 200), font=font_url)
+    draw.text((pad_left, url_y), clean_domain, fill=(186, 200, 218, 255), font=font_url)
+
+    # 7. Frosted-Glass QR Code (Extension-less URL with center favicon logo matching JS QRCode)
+    clean_app_url = app_url.rstrip('/')
+    post_url = f'{clean_app_url}/{slug}'  # Extension-less URL
+    favicon_path = str(POSTS_DIR / "favicon.png")
+    
+    qr_img = generate_qr_image(
+        post_url,
+        box_size=4,
+        border=1,
+        fg_color=(17, 24, 39, 255),
+        bg_color=(255, 255, 255, 255),
+        logo_path=favicon_path if Path(favicon_path).exists() else None,
+        logo_size_ratio=0.24
+    )
+    
+    qr_card_w = 176
+    qr_card_h = 196
+    qr_card_x = width - qr_card_w - 48
+    qr_card_y = height - qr_card_h - 32
+    
+    glass_card = Image.new('RGBA', (qr_card_w, qr_card_h), (0, 0, 0, 0))
+    glass_draw = ImageDraw.Draw(glass_card)
+    
+    glass_draw.rounded_rectangle(
+        [(0, 0), (qr_card_w, qr_card_h)],
+        radius=18,
+        fill=(255, 255, 255, 235),
+        outline=(255, 255, 255, 250),
+        width=2
+    )
+    
+    font_qr_label = get_font('bold', 12)
+    label_text = 'SCAN TO READ'
+    l_bbox = glass_draw.textbbox((0, 0), label_text, font=font_qr_label)
+    lw = l_bbox[2] - l_bbox[0]
+    glass_draw.text(((qr_card_w - lw) // 2, 12), label_text, fill=(30, 41, 59, 240), font=font_qr_label)
+    
+    qr_resized = qr_img.resize((136, 136), Image.Resampling.LANCZOS)
+    qr_pos_x = (qr_card_w - qr_resized.width) // 2
+    qr_pos_y = 36
+    glass_card.paste(qr_resized, (qr_pos_x, qr_pos_y), qr_resized if qr_resized.mode == 'RGBA' else None)
+    
+    shadow = Image.new('RGBA', (qr_card_w + 24, qr_card_h + 24), (0, 0, 0, 0))
+    sh_draw = ImageDraw.Draw(shadow)
+    sh_draw.rounded_rectangle([(12, 12), (qr_card_w + 12, qr_card_h + 12)], radius=18, fill=(0, 0, 0, 110))
+    shadow = shadow.filter(ImageFilter.GaussianBlur(radius=10))
+    
+    canvas.paste(shadow, (qr_card_x - 12, qr_card_y - 8), shadow)
+    canvas.paste(glass_card, (qr_card_x, qr_card_y), glass_card)
+
+    final_output = canvas.convert('RGB')
+    if output_path:
+        Path(output_path).parent.mkdir(parents=True, exist_ok=True)
+        final_output.save(output_path, 'WEBP', quality=90, method=4)
+    return final_output
 
 def save_and_generate_variants(img, base_target_path):
     base_target_path.parent.mkdir(parents=True, exist_ok=True)
@@ -217,6 +450,12 @@ def process_markdown_file(file_path, app_url, dry_run=False):
     modified = False
     added_attribution = None
     
+    title_match = re.search(r"^title:\s*['\"]?(.*?)['\"]?$", frontmatter, re.MULTILINE)
+    post_title = title_match.group(1).strip() if title_match else Path(file_path).stem.replace("-", " ").title()
+    
+    author_match = re.search(r"^author:\s*['\"]?(.*?)['\"]?$", frontmatter, re.MULTILINE)
+    author_name = author_match.group(1).strip() if author_match else "Jochen Kirstätter"
+    
     fm_fields = ["image", "featureImage", "imageUrl", "coverImage", "authorImage", "authorImageUrl"]
     
     for field in fm_fields:
@@ -245,6 +484,37 @@ def process_markdown_file(file_path, app_url, dry_run=False):
                     frontmatter,
                     flags=re.MULTILINE
                 )
+                modified = True
+
+    # Generate designated Open Graph image for the primary hero image
+    img_field_match = re.search(r"^image:\s*['\"]?([^\s'\"]+)['\"]?", frontmatter, re.MULTILINE)
+    if img_field_match:
+        hero_val = img_field_match.group(1).strip('\"\'')
+        if hero_val and hero_val.startswith("content/images/"):
+            hero_full = POSTS_DIR / hero_val
+            og_target_rel = str(Path(hero_val).parent / f"{Path(hero_val).stem}-og.webp")
+            og_target_full = POSTS_DIR / og_target_rel
+            
+            if not dry_run and hero_full.exists():
+                render_intelligent_og_image(
+                    hero_img_path=str(hero_full),
+                    title=post_title,
+                    slug=post_slug,
+                    app_url=app_url,
+                    author=author_name,
+                    output_path=str(og_target_full),
+                    overwrite=False
+                )
+                
+            # Populate or update ogImage in frontmatter if not already pointing to a custom override
+            og_match = re.search(r"^ogImage:\s*['\"]?([^\s'\"]*)['\"]?", frontmatter, re.MULTILINE)
+            if og_match:
+                curr_og = og_match.group(1).strip('\"\'')
+                if not curr_og:
+                    frontmatter = re.sub(r"^ogImage:.*$", f"ogImage: {og_target_rel}", frontmatter, flags=re.MULTILINE)
+                    modified = True
+            else:
+                frontmatter = re.sub(r"^(image:\s*.*)$", rf"\1\nogImage: {og_target_rel}", frontmatter, flags=re.MULTILINE)
                 modified = True
 
     if added_attribution:

@@ -60,6 +60,15 @@ def main():
 
     process_and_copy_markdown(dirs, output_raw_dir)
 
+    index_md = repo_root / 'posts' / 'index.md'
+    if index_md.exists():
+        try:
+            content = index_md.read_text(encoding='utf-8')
+            cleaned = strip_frontmatter(content).strip() + '\n'
+            (output_raw_dir / 'index.md').write_text(cleaned, encoding='utf-8')
+        except Exception as ex:
+            print(f"Error processing index.md: {ex}", file=sys.stderr)
+
 if __name__ == '__main__':
     main()
 
