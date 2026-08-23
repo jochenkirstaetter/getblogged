@@ -88,20 +88,29 @@ Run these scripts when authoring new posts, optimizing assets, or cleaning conte
 
 Always clean/purge previous build artifacts (`posts/_site/`) before compiling:
 
-#### Option A: Production Build (Published Posts Only)
-Compile published markdown posts, conceptual documents, and assets into `posts/_site/`:
+#### Option A: Draft & Preview Build (Active Development & Verification Default)
 
-```bash
-rm -rf posts/_site && docfx build posts/docfx.json
-```
-
-#### Option B: Draft & Preview Build (Includes `posts/draft/`)
-Compile draft posts, the draft landing page (`index-draft.md`), and published content for local review and staging preview channels:
-```bash
-rm -rf posts/_site && python3 scripts/generate-draft-index.py && docfx build posts/docfx.draft.json
-```
 > [!IMPORTANT]
-> Verify that the build completes with **`0 warning(s)`** and **`0 error(s)`**.
+> **Development Build Verification**: During all active development, template modifications, script updates, and local verification, **always** run `npm run build:draft` (or `npm run serve:draft`). This compiles draft posts (`posts/draft/`), generates the draft landing index (`index-draft.md`), retains draft tags (`scripts/generate-tags.py --draft`), and compiles with [`posts/docfx.draft.json`](posts/docfx.draft.json).
+
+```bash
+# Run full clean draft build pipeline
+npm run build:draft
+```
+*(Direct command equivalent: `rm -rf posts/_site && python3 scripts/generate-index.py && python3 scripts/generate-tags.py --draft && python3 scripts/generate-draft-index.py && PATH="$PWD/.dotnet/tools:$HOME/.dotnet/tools:$PATH" docfx build posts/docfx.draft.json && python3 scripts/generate-clean-markdown.py --draft`)*
+
+Verify that the build completes with **`0 warning(s)`** and **`0 error(s)`**.
+
+#### Option B: Production Build (Deployment Pre-requisite & On-Request Only)
+
+> [!CAUTION]
+> **Production Deployment Only**: Running `npm run build` compiles only published posts and excludes draft content and draft tags. **Only** run `npm run build` as an immediate pre-requisite for production deployment or when explicitly requested by the user. Never run `npm run build` during routine development or iterative verification.
+
+```bash
+# Run full clean production build pipeline (pre-deployment or explicit request only)
+npm run build
+```
+*(Direct command equivalent: `rm -rf posts/_site && python3 scripts/generate-index.py && python3 scripts/generate-tags.py && PATH="$PWD/.dotnet/tools:$HOME/.dotnet/tools:$PATH" docfx build posts/docfx.json && python3 scripts/generate-clean-markdown.py`)*
 
 ---
 
