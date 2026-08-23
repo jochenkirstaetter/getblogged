@@ -75,9 +75,10 @@ I guess it's about time to tinker with IPv6 in my own infrastructure and give my
 
 In the entrance area there two or three small booth for product and service demonstration. Of course, in promotion of the 4G/LTE network there were only LTE enabled devices like the HTC One, the iPad mini but also the very impressive Samsung NotePro tablet - what a monster! Running the usual Speedtest app from Ookla it was really interesting to see that you could easily reach up to 20Mbps in both directions with a latency of approximately 15-20 milliseconds.
 
-![Speedtest #1 on Emtel LTE network](../content/images/2014/02/emtel-speedtest-lte-1.webp)  
+::: grid
+![Speedtest #1 on Emtel LTE network](../content/images/2014/02/emtel-speedtest-lte-1.webp)
 ![Speedtest #2 on Emtel LTE network](../content/images/2014/02/emtel-speedtest-lte-2.webp)
-
+:::
 Having access to the freely available WiFi networks - one for IPv4 and one for IPv6 - I did some test runs with various servers in different areas of the globe during the presentations. Of course, due to international cabling the results vary... The test results with servers in Dubai, Cape Town or Singapore ranged between 3.0 and 6.4 Mbps while offering pings between 300ms and 1.000ms. The advantage of increased speed is inevitable but the latency values are still comparable to my findings on WiMAX or on 3G network.
 
 

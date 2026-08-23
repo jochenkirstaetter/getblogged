@@ -129,24 +129,17 @@ Funding of events and how to deal with absent attendees.
 
 Even I addressed the former during my talk. And thanks to building healthy relationships with various partners in Mauritius we are nowadays somehow secured in those matters. Nonetheless, we are still working on the no-show situation. Ideas and tips are most welcome!
 
+::: gallery
 ![](../content/images/2018/10/DSC_0494.webp)
-
 ![](../content/images/2018/10/DSC_0631.webp)
-
 ![](../content/images/2018/10/DSC_0027.webp)
-
 ![](../content/images/2018/10/DSC_0042.webp)
-
 ![](../content/images/2018/10/DSC_0136.webp)
-
 ![](../content/images/2018/10/DSC_0149.webp)
-
 ![](../content/images/2018/10/DSC_0158.webp)
-
 ![](../content/images/2018/10/DSC_0304.webp)
-
 ![](../content/images/2018/10/DSC_0341.webp)
-
+:::
 Above are just a few impressions of the awesome experience during the [#GDGSummit](https://x.com/hashtag/GDGSummit).
 
 > 26 nationalities, 3 days, 1 country!  
@@ -162,18 +155,14 @@ I made new friends from all over Africa and finally had a chance to meet some of
 
 What happens in Nairobi, stays in Nairobi! ;-)
 
+::: gallery
 ![](../content/images/2018/10/20180921_194024.webp)
-
 ![](../content/images/2018/10/DSC_0708.webp)
-
 ![](../content/images/2018/10/IMG_20180921_203225.webp)
-
 ![](../content/images/2018/10/IMG_20180921_212533.webp)
-
 ![](../content/images/2018/10/IMG_20180921_212541.webp)
-
 ![](../content/images/2018/10/IMG_20180921_220038.webp)
-
+:::
 Okay, a few clicks from the evening. Without any doubt we had a great time and a well-deserved break from that long day. And it was a great opportunity to make (more) new friends and to start technological relationships across Africa.
 
 ![GDG DevFest Nairobi 2018: Networking around the central auditorium of the USIU campus](../content/images/2018/10/WP_20180922_14_23_12_Panorama.webp)

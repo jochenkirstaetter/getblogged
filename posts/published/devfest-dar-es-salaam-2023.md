@@ -118,14 +118,12 @@ Yup, that's the right place. Yes, I'm sure.
 
 Honestly, I had no idea of what to expect when I saw the DevFest location first time. But hey,why not? It kind of makes sense that there is a Confucius Institute in Dar es Salaam, Tanzania. Given the importance of the port and international trade with China I seems quite helpful for students to have easy access to courses on Chinese language and culture. And while writing this blog I discovered there is a 孔子学院 in Mauritius, too. Who'd have known?
 
+::: gallery
 ![](../content/images/2023/12/PXL_20231111_100221345-1.webp)
-
 ![](../content/images/2023/12/PXL_20231111_062246046.webp)
-
 ![](../content/images/2023/12/PXL_20231111_072621996.webp)
-
 ![](../content/images/2023/12/PXL_20231111_102536664.webp)
-
+:::
 ## What's on the agenda of DevFest?
 
 Lots of amazing topics and sessions have been assembled by the GDG chapter in Dar es Salaam. Check out the [full agenda](https://sessionize.com/view/254byy8x/GridSmart?format=Embed_Styled_Html&isDark=False&title=DevFest%20Dar%20Es%20Salaam%202023) on Sessionize to get an overview. Also, there had been multiple tracks in parallel allowing more speakers to present and give attendees a choice following their interest.

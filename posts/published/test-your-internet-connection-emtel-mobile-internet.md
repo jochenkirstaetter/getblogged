@@ -75,9 +75,12 @@ As you might easily see, there is a big difference in speed between national and
 
 Later today I was on tour with my tablet, a Samsung Galaxy Tab 10.1 (model GT-P7500) running on Android 4.0.4 (Ice Cream Sandwich), and did some more tests using the Speedtest.net app. The results are actually as expected and in areas with better network coverage you will get better results after all. At least, as long as you stay inside the national networks. For anything abroad, it doesn't really matter. But see for yourselves:
 
-![Speedtest.net result of 31.05.2013 between Cascavelle and Rose Hill](../content/images/2013/05/speedtest-20130531-3g-cascavelle.webp)![Speedtest.net result of 31.05.2013 between Cascavelle and Port Louis (Orange)](../content/images/2013/05/speedtest-20130531-portlouis-3g-cascavelle.webp)![Speedtest.net result of 31.05.2013 between Cascavelle and Kuala Lumpur, Malaysia](../content/images/2013/05/speedtest-20130531-kualalumpur-3g-cascavelle.webp)  
-*Speedtest.net result of 31.05.2013 between Cascavelle and servers in Rose Hill, Mauritius (Emtel - Mobile Internet), Port Louis, Mauritius and Kuala Lumpur, Malaysia  
-*
+::: grid
+![Speedtest.net result of 31.05.2013 between Cascavelle and Rose Hill](../content/images/2013/05/speedtest-20130531-3g-cascavelle.webp)
+![Speedtest.net result of 31.05.2013 between Cascavelle and Port Louis (Orange)](../content/images/2013/05/speedtest-20130531-portlouis-3g-cascavelle.webp)
+![Speedtest.net result of 31.05.2013 between Cascavelle and Kuala Lumpur, Malaysia](../content/images/2013/05/speedtest-20130531-kualalumpur-3g-cascavelle.webp)
+:::  
+*Speedtest.net result of 31.05.2013 between Cascavelle and servers in Rose Hill, Mauritius (Emtel - Mobile Internet), Port Louis, Mauritius and Kuala Lumpur, Malaysia*
 
 It's rather shocking and frustrating to see how the speed on international destinations goes down. And the full capability of the tablet's integrated modem (HSDPA: 21 Mbps; HSUPA: 5.76 Mbps) isn't used, too. I guess, this demands more tests in other areas of the island, like Ebene, Pailles or Port Louis. I'll keep you updated...
 

@@ -77,14 +77,12 @@ Please check out their chapter pages and see their activities throughout the yea
 
 Personally, I really love this kind of collaborative work. It helps to delegate various tasks and the input received from various students was valuable for the GDG Mauritius.
 
+::: gallery
 ![](../content/images/2023/12/IMG_1222.webp)
-
 ![](../content/images/2023/12/IMG_1187.webp)
-
 ![](../content/images/2023/12/IMG_1177.webp)
-
 ![](../content/images/2023/12/PXL_20231028_093325772.webp)
-
+:::
 Plus, as GDG organiser I'm also hoping to attract some of the students to continue their user group engagements after graduating and leaving their GDSC chapter in the future.
 
 ### Highlight #1 - Over 250 attendees!

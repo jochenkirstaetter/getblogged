@@ -67,10 +67,10 @@ Check whether you have the full installation of OpenVPN software. If yes, you mi
 
 Otherwise, please navigate to the [Community Downloads](https://openvpn.net/index.php/download/community-downloads.html) of OpenVPN and either get the latest OpenVPN package, or if you think that this might be an issue, scroll down a little bit on same page and get Tap-windows package for your system. After the download is complete, run the installation routine and make sure to select *TAP Virtual Ethernet Adapter* like so:
 
+::: grid
 ![Choose Components during the setup of OpenVPN](../content/images/2018/08/OpenVPN-Setup.webp)
-
 ![Install the OpenVPN tools for TAP-Windows based on NDIS](../content/images/2018/08/OpenVPN-TapWindows.webp)
-
+:::
 You might have to reboot Windows to complete the network driver installation.
 
 ## Add a new TAP virtual ethernet adapter

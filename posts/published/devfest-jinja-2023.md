@@ -93,22 +93,16 @@ Some days earlier we discussed details about the airport transfer to the guest h
 
 From Entebbe to Jinja is roughly 130km to drive. So we stopped at the Victoria Mall in Entebbe, got ourselves some snacks and refreshments, and off we went...
 
+::: gallery
 ![](../content/images/2024/01/PXL_20231123_141445934.webp)
-
 ![](../content/images/2024/01/PXL_20231123_141450189.webp)
-
 ![](../content/images/2024/01/PXL_20231123_143634637.webp)
-
 ![](../content/images/2024/01/PXL_20231123_152924578.webp)
-
 ![](../content/images/2024/01/PXL_20231123_152657321.webp)
-
 ![](../content/images/2024/01/PXL_20231123_151235321.MP.webp)
-
 ![](../content/images/2024/01/PXL_20231123_152825558.webp)
-
 ![](../content/images/2024/01/PXL_20231123_152602334.webp)
-
+:::
 Giving or taking it took us approximately five hours to the guesthouse in Jinja. Thanks to Google Maps we managed to find the place straight away. After check-in and inspection of the room we headed to a nearby Indian-Asian restaurant and we treated ourselves with some tasty delights. Later on I could finally enjoy a well-deserved shower and rest in bed. It was an exciting but also tiring day of travelling.
 
 ## Source of the Nile
@@ -151,12 +145,11 @@ With all those lovely people around, all the ongoing conversations and networkin
 
 Purely by chance Asa and I were standing outside on the pavement trying to get a bit of fresh air and having an interesting conversation when this guy with an orange bucket walked pass us. As I wasn't sure whether I saw correctly I asked Asa about the content of the bucket. "Ohh, you gotta taste this. Would you like to try?"
 
+::: gallery
 ![](../content/images/2024/01/PXL_20231125_115605702.webp)
-
 ![](../content/images/2024/01/PXL_20231125_115702504.webp)
-
 ![](../content/images/2024/01/PXL_20231125_115810666-2.webp)
-
+:::
 Yes, of course! Let's snack a handful roasted crickets - [called nsenene in Luganda](https://en.wikipedia.org/wiki/Nsenene) - with small chopped white onions. This species is a delicacy in central and south-western Uganda. That's what I'm looking for while travelling other countries. Experiencing new flavours, new delicacies and new smells. And actually, those crickets are yummy. If you have a chance to taste... do it. You might be surprised.
 
 ## On my way back home

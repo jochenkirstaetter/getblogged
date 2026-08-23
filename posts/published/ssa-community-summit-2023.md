@@ -280,10 +280,10 @@ Check them out and be lazy (read: smart) for your next community event.
 
 I didn't attend but looking at the pictures from the Photos album it must have been fantastic. Kudos to [Eunice Allela](https://www.linkedin.com/in/eunice-allela-230531110/) and Robert John for that one.
 
+::: gallery
 ![](../content/images/2023/11/PXL_20231006_103250797-1.webp)
-
 ![](../content/images/2023/11/PXL_20231006_095442430.webp)
-
+:::
 ### Program Specific Breakout Session: GDE Q&A
 
 This slot was used to split the participants of the community programs. Us GDEs went off to a smaller conference room and we sat down to ask a few questions about the status and progress of the GDE program, we got clarification on how to better report our activities, and the travel policies for this year's DevFest season had been elaborated on.

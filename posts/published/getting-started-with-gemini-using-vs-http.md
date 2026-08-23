@@ -310,10 +310,10 @@ I successfully used the same set of .http files in the following text editors an
 - Google Cloud Shell Editor (Code OSS for the Web)
 - Project IDX - [https://idx.dev/](https://idx.dev/)
 
+::: grid
 ![Using REST Client extension in Code to prompt Gemini API](../content/images/2024/02/image-2.webp)
-
 ![](../content/images/2024/02/image-3.webp)
-
+:::
 ## Source code: Gemini Playground
 
 I created a repository on GitHub [gemini-playground](https://github.com/mscraftsman/gemini-playground) that contains all samples described above with the exception of the `.env` file and the API key to access the Gemini REST API. Feel free to give it a star and fork it for your own purpose.

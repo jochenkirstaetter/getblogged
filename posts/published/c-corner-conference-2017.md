@@ -122,24 +122,17 @@ Later that evening, all speakers and helpers of the conference were invited for 
 
 A day to relax and go sight-seeing. Chervine came up with the idea of visiting places. First and foremost, the Taj Mahal.
 
+::: gallery
 ![](../content/images/2024/06/WP_20170409_15_17_47_Pro-1.webp)
-
 ![](../content/images/2024/06/WP_20170409_14_37_09_Pro.webp)
-
 ![](../content/images/2024/06/WP_20170409_15_08_58_Pro.webp)
-
 ![](../content/images/2024/06/WP_20170409_15_43_03_Selfie.webp)
-
 ![](../content/images/2024/06/WP_20170409_16_26_01_Pro.webp)
-
 ![](../content/images/2024/06/WP_20170409_16_16_43_Pro.webp)
-
 ![](../content/images/2024/06/WP_20170409_15_50_37_Pro.webp)
-
 ![](../content/images/2024/06/WP_20170409_16_33_12_Pro.webp)
-
 ![](../content/images/2024/06/WP_20170409_15_54_10_Pro.webp)
-
+:::
 ## Exploring Delhi
 
 Last day in India for this trip and my flight is early in the evening. Hence, we decided to explore the city of Delhi. After a savvy breakfast Chervine and I were

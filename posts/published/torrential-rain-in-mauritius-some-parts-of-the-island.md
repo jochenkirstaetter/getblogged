@@ -67,7 +67,15 @@ Due to low occurrence of such torrential rain falls the general population isn't
 
 Following some recent impressions posted by various accounts on Twitter:
 
-![Waterfront in Port Louis flooded](../content/images/2013/02/20130213-caudan1.webp) ![Waterfront in Port Louis flooded](../content/images/2013/02/20130213-harbourfront.webp) ![Waterfront in Port Louis flooded](../content/images/2013/02/20130213-caudan2.webp) ![Waterfront in Port Louis flooded](../content/images/2013/02/20130213-caudan3.webp) ![Waterfront in Port Louis flooded](../content/images/2013/02/20130213-caudan4.webp) ![Land slides near Pailles](../content/images/2013/02/20130213-pailles.webp) ![Swollen streams in Mauritius](../content/images/2013/02/20130213-floodedriver.webp)
+::: gallery
+![Waterfront in Port Louis flooded](../content/images/2013/02/20130213-caudan1.webp)
+![Waterfront in Port Louis flooded](../content/images/2013/02/20130213-harbourfront.webp)
+![Waterfront in Port Louis flooded](../content/images/2013/02/20130213-caudan2.webp)
+![Waterfront in Port Louis flooded](../content/images/2013/02/20130213-caudan3.webp)
+![Waterfront in Port Louis flooded](../content/images/2013/02/20130213-caudan4.webp)
+![Land slides near Pailles](../content/images/2013/02/20130213-pailles.webp)
+![Swollen streams in Mauritius](../content/images/2013/02/20130213-floodedriver.webp)
+:::
 
 *Images are courtesy of various Twitter accounts.*
 

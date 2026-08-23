@@ -186,16 +186,13 @@ Our organising team from Google invited us to an informal welcome/reception dinn
 
 Shortly after I spotted [Yesaya Athuman](https://www.linkedin.com/in/yesayaathuman) who I missed talking to at [DevFest Dar es Salaam](xref:devfest-dar-es-salaam-2023). I went over to him joining others standing and chatting about all kind of community stuff. There I got introduced to [Dariusz Kalbarczyk](https://www.linkedin.com/in/ngkalbarczyk), organiser of ngPolandConf, and we exchanged a bit about our common friend [Dhananjay Kumar](https://www.linkedin.com/in/dhananjaykumar07), organiser of ngIndia. By chance we were also joined by [Mazlum Tosun](https://www.linkedin.com/in/mazlum-tosun-900b1812) whose YouTube videos fascinate me as he creates Google Cloud content in French and English language, and promotes them equally. We instantly spoke about common friends in the community like [Ezekias Bokove](https://www.linkedin.com/in/ezekias-bokove), [Louis Japheth Kouassi](https://www.linkedin.com/in/louis-japheth-kouassi), and [Guillaume Blaquiere](https://www.linkedin.com/in/guillaume-blaquiere-38693b15). While having dinner fellow creator and book author [Muhammed Ahsan Ayaz](https://www.linkedin.com/in/ahsanayaz) spent some time and interesting stories with us.
 
+::: gallery
 ![](../content/images/2024/01/PXL_20240124_102040771.MP.webp)
-
 ![](../content/images/2024/01/1706108657703.webp)
-
 ![](../content/images/2024/01/1706108656940.webp)
-
 ![](../content/images/2024/01/IMG_2937.webp)
-
 ![](../content/images/2024/01/IMG_8359.webp)
-
+:::
 With the evening progressing and having had dinner from the buffet you could observe the forming of multiple groups based on either geographical vicinity or established connections on Discord. It always amazes me how easy it is to connect with other during such in-person gatherings. Together with Yesaya, I then sat down with [Daisy Auma](https://www.linkedin.com/in/daisyfaithauma) and [Ezinne Osuamadi](https://www.linkedin.com/in/ezinne-osuamadi-216167146) to learn more about their professional whereabouts and community involvements. It was actually fascinating to learn that Daisy moved from Kenya to the UK, whereas Ezinne is from Nigeria and working in Germany since a few years.
 
 > The world is such a small village after all.
@@ -212,22 +209,16 @@ An empty stomach isn't capable to study. Hence breakfast buffet had been offered
 
 Our two Masters of Ceremony [Alicja Heisig-Chiarello](https://www.linkedin.com/in/alicja-heisig-chiarello/) and [Dirk Primbs](https://www.linkedin.com/in/dirkprimbs/) launched the Summit officially and also welcomed everyone on the live stream. Meanwhile our two radio / live streaming moderators [Nathalie Pereira](https://www.linkedin.com/in/nathalie-pereira-063a513/) and [Alfredo Morresi](https://www.linkedin.com/in/alfredomorresi/) had started already. Oh yes, amazingly the whole summit was a hybrid event with in-person and online participation.
 
+::: gallery
 ![](../content/images/2024/01/PXL_20240124_235148317.webp)
-
 ![](../content/images/2024/01/1706509845551.webp)
-
 ![](../content/images/2024/01/PXL_20240125_013946374.MP.webp)
-
 ![](../content/images/2024/01/20240125_092722.webp)
-
 ![](../content/images/2024/01/IMG_8482.webp)
-
 ![](../content/images/2024/01/PXL_20240125_095630367.MP.webp)
-
 ![](../content/images/2024/01/IMG_0729.webp)
-
 ![](../content/images/2024/01/PXL_20240125_101828139.MP.webp)
-
+:::
 BTW, here's the agenda: [https://rsvp.withgoogle.com/events/developer-creators-and-online-communities-summit/agenda](https://rsvp.withgoogle.com/events/developer-creators-and-online-communities-summit/agenda)
 
 Next up [Janise Tan](https://www.linkedin.com/in/jantan) welcomed us to Singapore and the SEA developer community landscape giving us some details about the region, its numbers regarding to communities and activities. Fun fact, while introducing Singapore to the audience she highlighted some of the key factors of the city's success which miraculously match the secret ingredients being a successful content creator online or running thriving communities.
@@ -300,22 +291,16 @@ That night I managed to catch a few more Zzzz's, and like the previous morning w
 
 Following yesterday's sessions mainly provided by Googlers and partners, the content for today was sourced from the community itself. A total of nine creators offered their knowledge and expertise. Plus, the various time slots in the podcast studio. Our fantastic masters of ceremony - Alicja and Nathalie - launched the day with a brief overview of what to expect and introduced the speakers. Each presenter had an opportunity to pitch their content in front of the audience. Another tough decision process to choose three out of nine.
 
+::: gallery
 ![](../content/images/2024/01/PXL_20240126_020213851.webp)
-
 ![](../content/images/2024/01/PXL_20240125_100753661.webp)
-
 ![](../content/images/2024/01/PXL_20240126_025330302.webp)
-
 ![](../content/images/2024/01/PXL_20240126_085756227.webp)
-
 ![](../content/images/2024/01/PXL_20240126_082748003.MP.webp)
-
 ![](../content/images/2024/01/PXL_20240126_044625862.MP.webp)
-
 ![](../content/images/2024/01/20240126_144335.webp)
-
 ![](../content/images/2024/01/1706548262742-1.webp)
-
+:::
 ### Breakout sessions I attended
 
 - Making a Mark on YouTube and Google: My Story  
@@ -341,24 +326,17 @@ As the hunger kicked in slowly but surely we decided to head over to the hawker 
 
 Finding enough seats for such a big group at this time seems very challenging. And so unfortunately we had to split into smaller units, chope'd our places and went off exploring the different stalls sourcing for food. There is an incredible variety of dishes available.
 
+::: gallery
 ![](../content/images/2024/01/PXL_20240126_115852680.webp)
-
 ![](../content/images/2024/01/PXL_20240126_120637129.webp)
-
 ![](../content/images/2024/01/PXL_20240126_121343185.webp)
-
 ![](../content/images/2024/01/PXL_20240126_122638029.webp)
-
 ![](../content/images/2024/01/PXL_20240126_140807246.webp)
-
 ![](../content/images/2024/01/PXL_20240126_145419126.webp)
-
 ![](../content/images/2024/01/PXL_20240126_141928466.webp)
-
 ![](../content/images/2024/01/PXL_20240126_163101042.MP--1-.webp)
-
 ![](../content/images/2024/01/PXL_20240126_163319430.webp)
-
+:::
 After we concluded our culinary adventures we headed to the Waterfront Promenade and attended the [Spectra - A Light & Water Show](https://maps.app.goo.gl/ihDs8Z66CtjUFahe7). What a joy for eyes and ears.
 
 Later on we strolled down the Waterfront Promenade fully indulged in conversations of all kind of sorts, and marvelled together at the night skyline of Singapore. With all the talking we needed some drinks and therefore stopped by one the pubs in the surrounding. Before returning back to the hotel, we managed to visit [Lau Pa Sat](https://maps.app.goo.gl/ASywfY9noB616Ed39), the "old market" and first hawker centre in Singapore.
@@ -377,18 +355,14 @@ Starting at the People's Park Complex mall I explored the street market in China
 
 Unsurprisingly I had to buy another backpack (50l volume) to fit in all the items purchased. Given this half-day shopping spree I am not so sure about organising a (one week) vacation with the family here in Singapore is such a good idea. Especially around the time of Chinese New Year. Just kidding!
 
+::: gallery
 ![](../content/images/2024/01/PXL_20240127_063034017.MP.webp)
-
 ![](../content/images/2024/01/PXL_20240127_074141192.webp)
-
 ![](../content/images/2024/01/PXL_20240127_071904331.webp)
-
 ![](../content/images/2024/01/PXL_20240127_064044562.webp)
-
 ![](../content/images/2024/01/PXL_20240127_065142448.webp)
-
 ![](../content/images/2024/01/PXL_20240127_063910135.webp)
-
+:::
 ### See you soon!
 
 Reflecting over those past few days in Singapore while writing this blog recalled numerous conversations I had with other participants. I was excited meeting my community friends from the SSA region, finally being able to associate a face and person to the countless peers from the [Google Developer Community](https://discord.gg/google-dev-community) Discord server, and massively enjoying the amount of new contacts made. Hooray to LinkedIn's QR Code feature which smoothlessly allowed all us to foster that new acquaintance on social media.

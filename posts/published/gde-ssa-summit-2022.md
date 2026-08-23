@@ -155,16 +155,13 @@ Big kudos and shout out to all other GDEs. You are amazing and we all do an amaz
 
 To avoid hanging around the hotel all day long a local GDE organised a kind of Meet & Greet mentoring workshop kind of style date for us. So we went on a short trip from the hotel to the [Co-creation Hub (CcHub) Design Lab](https://designlab.cchub.africa/) in Kigali.
 
+::: gallery
 ![](../content/images/2023/08/PXL_20220922_124623780.MP.webp)
-
 ![](../content/images/2023/08/PXL_20220922_124716815.MP.webp)
-
 ![](../content/images/2023/08/PXL_20220922_133616311-1.webp)
-
 ![](../content/images/2023/08/PXL_20220922_130509013.webp)
-
 ![](../content/images/2023/08/20220922_144531.webp)
-
+:::
 Apart from some interactive session among ourselves we were asked to offer expert advice to a group of start-ups which are part of the CcHub development program.
 
 ### Dragon's Den Light
@@ -183,24 +180,21 @@ Right before lunch time we had concluded the official parts of the SSA GDE Commu
 
 Following a brief bus ride through the beautiful city of Kigali we stopped on the parking area of a football pitch or kind of community playground. Turns out the nearby located facility has been converted into an Escape Game. We have been split into two groups - each tasked with different challenges - and the competitive game play was on. Who would be first to escape?
 
+::: gallery
 ![](../content/images/2023/08/PXL_20220923_123635882.MP.webp)
-
 ![](../content/images/2023/08/PXL_20220923_094908416.webp)
-
 ![](../content/images/2023/08/RAS-B_201.webp)
-
+:::
 Honestly, our group had additional challenges to master but at the end we finally managed to escape alive.
 
 After all that excitement and challenges we escaped to a cool location for lunch time. The place has an open space for large gatherings with a authentic rustic kitchen area in one fo the cursors sporting a furnace made out of bricks. Very chilled atmosphere and great ambiente to hang out and just network.
 
+::: gallery
 ![](../content/images/2023/08/PXL_20220923_121903085.webp)
-
 ![](../content/images/2023/08/PXL_20220923_115021029.webp)
-
 ![](../content/images/2023/08/PXL_20220923_114909368.webp)
-
 ![](../content/images/2023/08/PXL_20220923_114652763.webp)
-
+:::
 ### A picture says more than a thousand words
 
 Next, we drove across half the city for an artistic session. "Paint & Drink" was the motto of the afternoon reaching one of the rooftop bars in downtown Kigali. Each of us was greeted with a cocktailof choice and... an empty canvas.

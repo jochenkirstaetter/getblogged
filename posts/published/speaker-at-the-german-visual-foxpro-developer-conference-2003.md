@@ -64,9 +64,11 @@ The following is an excerpt from the UniversalThread conference coverage of the 
 > This track concentrated on the how to run Visual FoxPro applications on Linux machines with the help of a Windows emulator like Wine. As more and more people use Linux machines in production (and not just for running servers), more and more invitations to bid for a development job includes the requirement to run the application in a Linux environment. If you would like to participate in such submissions, then you should get familiar with the open source operating system Linux and the open source Data Base system MySQL.
 >
 > [...]
->
-> ![JoKi at the German Visual FoxPro Developer Conference 2003 - Image 1](../content/images/2013/07/ffm.2003.056.webp)![JoKi at the German Visual FoxPro Developer Conference 2003 - Image 2](../content/images/2013/07/ffm.2003.078.webp)![JoKi at the German Visual FoxPro Developer Conference 2003 - Image 3](../content/images/2013/07/ffm.2003.079.webp)
->
+::: gallery
+![JoKi at the German Visual FoxPro Developer Conference 2003 - Image 1](../content/images/2013/07/ffm.2003.056.webp)
+![JoKi at the German Visual FoxPro Developer Conference 2003 - Image 2](../content/images/2013/07/ffm.2003.078.webp)
+![JoKi at the German Visual FoxPro Developer Conference 2003 - Image 3](../content/images/2013/07/ffm.2003.079.webp)
+:::
 > These sessions provided a broad, complete overview of where Linux fits into the current computing landscape from the perspective of a VFP developer, where VFP can be used with Linux, and a conceptual plan for how to approach the incorporation of Linux into your day-to-day work. In order for you to be able to work with a Linux back end, you're going to need to know something about how Linux works. The best way involves a two-step process:
 >
 > First, plunk down a Linux workstation on your desk next to your Windows machine and develop some experience with the new OS.  

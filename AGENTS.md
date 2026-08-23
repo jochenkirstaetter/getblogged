@@ -191,9 +191,19 @@ npm run deploy
 ---
 
 ## Content Authoring & Editorial Guidelines
-
+ 
 For detailed writing instructions, tone of voice, orthography rules (British English, no-em-dashes, DRY frontmatter), research isolation (`posts/draft/assets/<uid>/`), and draft publishing workflows, refer to:
 
 👉 [**`AUTHORING.md`**](AUTHORING.md)
+
+### Content Designer: Multi-Image Presentation Decisions
+
+When authoring or updating posts with adjacent images, the Content Designer selects from the following four presentation modes:
+
+1. **Ungrouped / Stacked (Default)**: Use blank lines between images for full-width diagrams or sequential tutorial steps.
+2. **Auto-Fit Responsive Grid (`image-grid` / `::: grid` / `> [!GRID]`)**: Place images back-to-back in the same paragraph (or wrap in `::: grid`) for 2–4 side-by-side screenshots or 3–6 speaker photos.
+3. **Horizontal Scroll-Snap Strip (`::: strip` / `> [!STRIP]`)**: Wrap in `::: strip` for 4–10 book covers (e.g. `Recension` posts) and horizontal wizard sequences.
+4. **Expandable Event Album / Lightbox Gallery (`::: gallery` / `> [!GALLERY]`)**: Wrap in `::: gallery` for 6–9+ photo event dumps (DevFest, MSCC, Summits) to avoid vertical scroll fatigue while allowing high-resolution inspection.
+
 
 

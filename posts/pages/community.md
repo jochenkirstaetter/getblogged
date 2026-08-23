@@ -70,11 +70,23 @@ This is a community for those who believe that being average is just not good en
 
 Get more information in the [Introduction to Mauritius Software Craftsmanship Community](xref:intro-to-mscc).
 
+## GDG Mauritius
+
+The local GDG chapter also organises (ir-)regular events which are focused on anything Google technology. Most noticeable would be Google Cloud, Angular, Flutter, but also other widely used tech stacks.
+
+Most noteably, GDG Mauritius participates in global event series, like Build with AI, Google I/O Extended and DevFest among others. Head over to their community page at https://gdg.community.dev/gdg-mauritius/ for more information and registration.
+
+GDG Mauritius is an independent group; their activities and the opinions expressed should in no way be linked to Google, the corporation.
+
 ## Linux User Group Mauritius
 
 The Linux User Group of Mauritius is one of the few Linux User Groups in the Republic of Mauritius, quite possibly the only active one. We are registered with the Registrar of Associations under the name "Linux User Group Meta" since 2009.
 
 We all share a common interest, Linux, GNU and Free Software. The LUGM is open to all those in Mauritius who are curious about Linux, users of Linux (new or seasoned) and lovers of free software/open source in general.
+
+## Frontend Coders Mauritius
+
+https://coders.mu/ has evolved into a multi-disciplinary community. Our mission is simple: to foster a vibrant developer community in Mauritius by providing platforms for learning, networking, and high-impact collaboration. 
 
 ## PHP Mauritius User Group
 
@@ -82,30 +94,12 @@ We all share a common interest, Linux, GNU and Free Software. The LUGM is open t
 
 The PHP Mauritius UG aims at shaping a community of people in Mauritius who are really passionate about [#PHP](https://x.com/search?q=%23php) & specially The PHP Community. Thus doing, we want to raise the level of PHP skills in Mauritius and help each and everyone that are keen to using & talking about PHP.
 
-## hackers.mu
-
-A group of developers from Mauritius who loves to code and are passionate about information security.
-
-A group of Open Source developers from Mauritius. We aim to work for the betterment of the developer community in Mauritius, and also that of Linux, BSD and Other Open Source projects. Let's hope that we are still on the right track and we are getting more of the younger Mauritians to follow on these foot steps.
-
-## Mauritius Atlassian User Group
-
-If your organisation or you would like to join the first of its kind 'Agile Platform' in Mauritius where we'll share our experience using Agile Methodologies and learn to improve our agile skills, I invite you to register on [https://aug.atlassian.com/mauritius/](https://aug.atlassian.com/mauritius/) as an individual participant, local partner or speaker.
-
-## Symfony^mu^
-
-Symfony^mu^ is about passion and love of coding the right way in PHP with the help of the Symfony framework. To define the framework in its own words: Symfony is a set of PHP Components, a Web Application framework, a Philosophy, and a Community — all working together in harmony.
-
-Currently most PHP frameworks are using Symfony to pave their way to this new PHP 7 era and as the local community of Symfony, we are here to provide support to all developers in Mauritius who want to discover and adopt the Symfony way of coding. Please feel free to come to our Symfony talks and have a chat with us during the devcon. If you wish to know more about the framework, our philosophy and our community, please get in touch with us via our website: [http://symfony.mu](http://symfony.mu)
-
 ## Mauritius Maker Community
 
 The Mauritius Makers community is a group of enthusiasts and passionate people, who get their hands dirty by engineering things, enhancing existing things, finding solutions to problems etc. Although makers encompasses a diverse range of disciplines or community is geared primarily toward technological innovation.
 
 If you are interested in SBC, SoC, Arduino, ESP8266, Raspberry Pi, GPIO, Intel Edison, sensors, actuators, IoT it would be a pleasure to have you in our community.
 
-## Drupal Mauritius
+## More user groups
 
-Drupal must be one of the most used PHP CMS in Mauritius and with the advent of Drupal 8, the community just keeps growing. The lack of communication and local support for Drupal in Mauritius gave rise to DrupalMauritius.
-
-This newly minted user group will be about knowledge sharing, workshops and meetups around the Drupal 8 framework. Please join our community on [http://drupalmauritius.com](http://drupalmauritius.com)
+Since a few years the technology landscape in Mauritius has picked up some pace, and there are numerous other user groups that organise regular gatherings and activities.

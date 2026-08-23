@@ -86,12 +86,11 @@ Using an absolute URL to your offline HTML files allows you to browse them exact
 
 Don't be surprised if your offline web site appears differently on the various browser or viewer you are using. Following the same page various browser or viewer:
 
-![Offline version shown in stock browser on ICS](https://s.kirstaetter.name/images/resortwork_android_browser.jpg "Offline version shown in stock browser on ICS")  
-  
-![Offline version shown in Chrome](https://s.kirstaetter.name/images/resortwork_android_chrome.jpg "Offline version shown in Chrome")  
-  
+::: grid
+![Offline version shown in stock browser on ICS](https://s.kirstaetter.name/images/resortwork_android_browser.jpg "Offline version shown in stock browser on ICS")
+![Offline version shown in Chrome](https://s.kirstaetter.name/images/resortwork_android_chrome.jpg "Offline version shown in Chrome")
 ![Offline version shown in HTMLViewer](https://s.kirstaetter.name/images/resortwork_android_htmlviewer.jpg "Offline version shown in HTMLViewer")
-
+:::
 It's almost the same situation as on the desktop and there's room for interpretation of HTML and CSS - even on your Droid.
 
 What are your experiences with creating or testing offline versions of web sites on your Android devices?

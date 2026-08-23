@@ -152,10 +152,10 @@ Proudly I can say, that three of the winning teams have MSCC craftsmen among the
 
 All finalists had their MVPs set up and ready for demonstration. Even though it was a long day already many people from the audience went to see their products in use.
 
+::: gallery
 ![WP_20170810_15_02_47_Pro](../content/images/2017/08/WP_20170810_15_02_47_Pro.webp)
-
 ![WP_20170810_15_05_45_Pro](../content/images/2017/08/WP_20170810_15_05_45_Pro.webp)
-
+:::
 See also related articles in the media:
 
 - [Formater le futur avec le Mauritius Telecom Campus](http://ict.io/formater-le-futur-avec-la-mauritius-telcom-campus/) - ict.io

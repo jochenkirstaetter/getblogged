@@ -77,8 +77,8 @@ At agreed time, Yovan was already expecting us and Andy joined us a bit later as
 Andy introduced himself and gave us an overview of his activities and involvements in Africa, and that he'd interested to get to know a bit more about the software development and  
 entrepreneur scenery in Mauritius. It was rally interesting to hear about the [Launchpad Africa](https://developers.google.com/programs/launchpad/regional/) acceleration program for the region, how the game development scene in South Africa has evolved and contributes to the country's GDP.
 
+::: gallery
 ![Dinner with Andy Volk and various organisers of local user groups in Mauritius](../content/images/2018/03/IMG_20180306_205902.webp)
-
 ![Dinner with Andy Volk and various organisers of local user groups in Mauritius](../content/images/2018/03/MeetingAndyVolkEdited.webp)
-
+:::
 Those two hours went too quickly, and it would have been a pleasure to listen more to Andy's activities in the Sub-Saharan Africa region. I'm hooked up for more content and engagement with Google during the coming months. Simply because I love the cross-platform experience and I'd like to broaden my options as a [professional software developer](http://www.ios.mu).

@@ -67,5 +67,11 @@ The following is an excerpt from the UniversalThread conference coverage of the 
 >
 > [...]
 >
-> ![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 006](../content/images/2013/07/Frankfurt_2005_006.webp)![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 076](../content/images/2013/07/Frankfurt_2005_076.webp)![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 203](../content/images/2013/07/Frankfurt_2005_203.webp)  
-![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 023](../content/images/2013/07/Frankfurt_2005_023.webp)![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 194](../content/images/2013/07/Frankfurt_2005_194.webp)![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 182](../content/images/2013/07/Frankfurt_2005_182.webp)
+::: gallery
+![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 006](../content/images/2013/07/Frankfurt_2005_006.webp)
+![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 076](../content/images/2013/07/Frankfurt_2005_076.webp)
+![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 203](../content/images/2013/07/Frankfurt_2005_203.webp)
+![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 023](../content/images/2013/07/Frankfurt_2005_023.webp)
+![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 194](../content/images/2013/07/Frankfurt_2005_194.webp)
+![JoKi at the German Visual FoxPro Developer Conference 2005 - Image 182](../content/images/2013/07/Frankfurt_2005_182.webp)
+:::

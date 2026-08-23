@@ -53,6 +53,7 @@ Every full-length article should follow a clean, readable narrative flow:
    - Place responsive WebP images in `posts/content/images/<YYYY>/<MM>/`.
    - Always provide descriptive `alt` text and `title` attributes.
    - For screenshots accompanying step-by-step descriptions, use floated layout (`float: right; margin: 0 0 1.5rem 1.5rem; max-width: 300px; width: 100%; border-radius: 8px;`) with a clearing `div` when appropriate.
+   - For multi-image sets (2 to 9+ images), adhere to the **Image Presentation Options & Decision Framework** in Section 4 below.
 5. **Technical Quirks & Missing Functionality**: Dedicate a section to friction points, platform-specific differences (e.g. Linux desktop vs macOS, CLI vs GUI), or feature gaps when reviewing new tools.
 6. **Key Takeaways & References**: Provide a concise summary and link directly to official documentation, tools, or repos.
 7. **Join the Conversation (CTA)**: Conclude with a warm, signature prompt inviting readers to connect and discuss on social platforms (X: `@JKirstaetter`, BlueSky: `@jochen.kirstaetter.name`, Mastodon: `@JKirstaetter`, RSS feed).
@@ -60,7 +61,76 @@ Every full-length article should follow a clean, readable narrative flow:
 
 ---
 
-## 4. Frontmatter, Metadata & Open Graph Conventions (DRY Principle)
+## 4. Multi-Image Presentation System (Content Designer Guide)
+
+The blog supports four distinct presentation modes for adjacent images, designed with a minimal, non-invasive Two-Tier authoring model. Fenced containers (`::: name`) and alert-style blockquotes (`> [!NAME]`) coexist to produce identical output.
+
+### The Four Presentation Modes
+
+#### 1. Ungrouped / Stacked (Default Independent Flow)
+- **Authoring**: Separate images with an empty **blank line**.
+- **Result**: Each image compiles to an independent `<p>` tag, rendering full-width and centered with standard margins.
+- **When to use**: Independent full-page diagrams, terminal captures requiring full width, or sequential walkthrough steps separated by instructional text.
+```markdown
+![Architecture Overview](arch.webp)
+
+![Database Schema](db.webp)
+```
+
+#### 2. Auto-Fit Responsive Grid (`image-grid` / `::: grid` / `> [!GRID]`)
+- **Authoring**: Place consecutive images in the **same paragraph** (without blank lines) or wrap in `::: grid` / `> [!GRID]`.
+- **Result**: CSS Grid with auto-fitting responsive columns (`minmax(260px, 1fr)`), 16:10 aspect ratio, and hover zoom.
+- **When to use**: 2 to 4 technical screenshots, side-by-side configuration dialog comparisons, benchmark results, or 3 to 6 conference presentation photos.
+```markdown
+<!-- Zero-syntax automatic grid (same paragraph) -->
+![Config Dialog A](dialog-a.webp) ![Config Dialog B](dialog-b.webp)
+
+<!-- Or explicit container -->
+::: grid
+![Step 1](step1.webp)
+![Step 2](step2.webp)
+![Step 3](step3.webp)
+:::
+```
+
+#### 3. Horizontal Scroll-Snap Strip (`::: strip` / `> [!STRIP]`)
+- **Authoring**: Wrap image links in `::: strip` or `> [!STRIP]`.
+- **Result**: Zero-JS horizontal filmstrip with touch scroll-snap, 2:3 card aspect ratio, and hover elevation. Outbound links (such as Amazon affiliate links) remain fully clickable.
+- **When to use**: Book recensions and reading lists (5 to 10 covers), horizontal wizard progressions, or compact gadget collections.
+```markdown
+::: strip
+[![Book 1](cover1.webp)](https://amazon.com/dp/...)
+[![Book 2](cover2.webp)](https://amazon.com/dp/...)
+[![Book 3](cover3.webp)](https://amazon.com/dp/...)
+:::
+```
+
+#### 4. Expandable Event Album / Lightbox Gallery (`::: gallery` / `> [!GALLERY]`)
+- **Authoring**: Wrap event photos in `::: gallery` or `> [!GALLERY]`.
+- **Result**: 3-column mosaic plate with high-resolution lightbox modal inspection on click.
+- **When to use**: Conference recaps, summit photo drops (DevFest, MSCC, Google Summits) with 6 to 9+ photos, eliminating infinite vertical scroll bloat.
+```markdown
+::: gallery
+![Keynote Stage](stage.webp)
+![Audience Gathering](crowd.webp)
+![Workshop Team](team.webp)
+![Speaker Panel](panel.webp)
+![Community Swag](swag.webp)
+:::
+```
+
+### Content Designer Decision Matrix
+
+| Content Archetype | Image Count | Recommended Mode | Authoring Syntax |
+| :--- | :---: | :--- | :--- |
+| **Linear Step / Full Diagram** | 1 – 2 | **Ungrouped / Stacked** | Separate with blank lines |
+| **Side-by-Side UI Comparison** | 2 – 4 | **Auto-Fit Grid** | Back-to-back in same paragraph (or `::: grid`) |
+| **Book Recension / Shelf** | 4 – 10 | **Scroll-Snap Strip** | `::: strip` or `> [!STRIP]` |
+| **Conference / Event Album** | 6 – 9+ | **Expandable Gallery** | `::: gallery` or `> [!GALLERY]` |
+
+---
+
+## 5. Frontmatter, Metadata & Open Graph Conventions (DRY Principle)
 
 Apply the **DRY (Don't Repeat Yourself)** principle to DocFX frontmatter:
 - Populate the primary **`image`** attribute with the main WebP hero asset path:
@@ -80,7 +150,7 @@ Apply the **DRY (Don't Repeat Yourself)** principle to DocFX frontmatter:
 
 ---
 
-## 5. Draft Assets & Research Workspace Isolation
+## 6. Draft Assets & Research Workspace Isolation
 
 To keep published content and public build artifacts pristine:
 - Store all research notes, downloaded source materials, prompt logs, and working screenshots in an isolated per-draft directory:
@@ -95,7 +165,7 @@ To keep published content and public build artifacts pristine:
 
 ---
 
-## 6. Publication Lifecycle
+## 7. Publication Lifecycle
 
 1. **Drafting**:
    - File created at `posts/draft/<slug>.md`.
