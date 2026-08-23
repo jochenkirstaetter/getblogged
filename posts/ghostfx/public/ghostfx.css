@@ -936,6 +936,149 @@ body > main .affix,
 }
 
 /* ==========================================================================
+   Post Meta (Publication Date & Tags) & Header Spacing Tightening
+   ========================================================================== */
+
+.post-full-header {
+  padding: 3vw 3vw 1.5vw !important;
+}
+
+@media (max-width: 500px) {
+  .post-full-header {
+    padding: 5vw 3vw 2vw !important;
+  }
+}
+
+.post-full-meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  text-align: left !important;
+  flex-wrap: wrap !important;
+  gap: 6px !important;
+  color: #738a94 !important;
+  font-size: 1.2rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.5px !important;
+  line-height: 1.15em !important;
+  margin: 0 0 24px 0 !important;
+  text-transform: uppercase !important;
+}
+
+.post-full-meta-date {
+  font-family: inherit !important;
+  color: inherit !important;
+  font-weight: 500 !important;
+  font-size: 1.2rem !important;
+  letter-spacing: 0.5px !important;
+  line-height: 1.15em !important;
+}
+
+.post-full-meta .date-divider {
+  display: inline-block !important;
+  margin: 0 2px !important;
+  color: #738a94 !important;
+  opacity: 0.75 !important;
+}
+
+.post-full-meta-tags {
+  font-family: inherit !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  gap: 3px !important;
+  color: #738a94 !important;
+  font-size: 1.2rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.5px !important;
+  line-height: 1.15em !important;
+}
+
+/* Identical font styles of post-card-tags for tags anchor + kill Casper post-full-content a box-shadow */
+.post-full-content .post-full-meta a,
+.post-full-meta a,
+.post-full-meta-tags a,
+.post-full-meta-tags a.post-card-tags {
+  font-family: inherit !important;
+  display: inline !important;
+  color: #738a94 !important;
+  font-size: 1.2rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.5px !important;
+  line-height: 1.15em !important;
+  margin: 0 !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  transition: color 0.15s ease !important;
+}
+
+.post-full-content .post-full-meta a:hover,
+.post-full-meta a:hover,
+.post-full-meta-tags a:hover,
+.post-full-meta-tags a.post-card-tags:hover {
+  color: #3eb0ef !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+
+.post-full-meta-tags a:not(:last-child)::after {
+  content: "," !important;
+  margin-right: 4px !important;
+  color: #738a94 !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+
+/* Squeeze spacing in post-full-content (reduced padding-top) */
+.post-full-content {
+  padding: 24px 100px 0 !important;
+}
+
+@media (max-width: 1170px) {
+  .post-full-content {
+    padding: 24px 7vw 0 !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .post-full-content {
+    padding: 16px 4vw 0 !important;
+  }
+}
+
+/* Dark mode theme overrides for post meta */
+[data-bs-theme="dark"] .post-full-meta,
+[data-bs-theme="dark"] .post-full-meta-date,
+[data-bs-theme="dark"] .post-full-meta-tags,
+[data-bs-theme="dark"] .post-full-meta .date-divider,
+[data-bs-theme="dark"] .post-full-content .post-full-meta a,
+[data-bs-theme="dark"] .post-full-meta a,
+[data-bs-theme="dark"] .post-full-meta-tags a,
+[data-bs-theme="dark"] .post-full-meta-tags a.post-card-tags {
+  color: #9ca3af !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+
+[data-bs-theme="dark"] .post-full-content .post-full-meta a:hover,
+[data-bs-theme="dark"] .post-full-meta a:hover,
+[data-bs-theme="dark"] .post-full-meta-tags a:hover,
+[data-bs-theme="dark"] .post-full-meta-tags a.post-card-tags:hover {
+  color: #60a5fa !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+
+[data-bs-theme="dark"] .post-full-meta-tags a:not(:last-child)::after {
+  color: #9ca3af !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+
+/* ==========================================================================
    Article-Level Markdown Actions Toolbar & Viewer Modal
    ========================================================================== */
 
