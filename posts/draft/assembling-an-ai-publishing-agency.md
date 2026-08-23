@@ -39,10 +39,8 @@ Here is the story of how, through five structured evolutionary stages, I transit
 
 Before diving into the evolution, meet the team that now runs the publishing desk alongside me:
 
-<div style="text-align: center; margin: 2rem 0;">
-  <img src="/content/images/2026/08/publishing-agency-team-portraits.webp" alt="The 8-member AI Publishing Agency team illustrated in a vibrant comic style" title="The getblogged AI Publishing Agency Team" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
-  <p><small>Figure 1: The eight specialised publishing personas, balanced in gender, background, and expertise.</small></p>
-</div>
+![The 8-member AI Publishing Agency team illustrated in a vibrant comic style](../content/images/2026/08/publishing-agency-team-portraits.webp "The getblogged AI Publishing Agency Team")  
+*Figure 1: The eight specialised publishing personas, balanced in gender, background, and expertise.*
 
 Each persona is permanently defined in the workspace under `.agents/skills/`, complete with dedicated instructions, reference documentation, and avatar profiles:
 
@@ -196,10 +194,8 @@ Building an agency of specialised agents sounds utopian, but engineering pragmat
 
 Here is how all eight roles collaborate across the end-to-end publishing lifecycle:
 
-<div style="text-align: center; margin: 2rem 0;">
-  <img src="/content/images/2026/08/publishing-agency-infographic.webp" alt="Diagram showing the digital publishing agency workflow connecting all 8 AI agent roles" title="Digital Publishing Agency Workflow" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
-  <p><small>Figure 2: The end-to-end publishing pipeline from authoring to pre-flight QA.</small></p>
-</div>
+![Diagram showing the digital publishing agency workflow connecting all 8 AI agent roles](../content/images/2026/08/publishing-agency-infographic.webp "Digital Publishing Agency Workflow")  
+*Figure 2: The end-to-end publishing pipeline from authoring to pre-flight QA.*
 
 ---
 
