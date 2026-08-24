@@ -44,7 +44,8 @@ def parse_post(file_path: Path) -> dict:
                 current_list = None
             else:
                 fm[k] = unquote(v)
-                current_list = None
+    if fm.get("isErrorPage") is True or str(fm.get("isErrorPage", "")).lower() == "true" or fm.get("isPost") is False or str(fm.get("isPost", "")).lower() == "false" or file_path.name in ("404.md", "error404.md"):
+        return {}
 
     uid = fm.get("uid") or file_path.stem
     title = fm.get("title") or file_path.stem.replace("-", " ").title()

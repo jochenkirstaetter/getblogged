@@ -1,0 +1,43 @@
+<header class="site-header outer">
+    <div class="inner">
+        {{>partials/site-nav}}
+    </div>
+</header>
+
+<main id="site-main" class="site-main outer error-page-main">
+    <div class="inner">
+        <article class="post-full error-page-card {{^image}}no-image{{/image}}">
+            {{#image}}
+            <figure class="post-full-image error-hero-image">
+                <img src="/{{image}}" alt="{{title}}" loading="eager" />
+            </figure>
+            {{/image}}
+
+            <!-- Floating Frosted Glass Redirect & Countdown Card -->
+            <div id="redirect-banner" class="error-redirect-glass-card" style="display:none;">
+                <div class="error-redirect-glass-inner">
+                    <div class="error-redirect-info">
+                        <h3 id="redirect-title" class="error-redirect-glass-title">Address Auto-Correction</h3>
+                        <p id="redirect-message" class="error-redirect-glass-message">
+                            Redirecting in <strong id="redirect-countdown"></strong> seconds...
+                        </p>
+                    </div>
+                    <div class="error-redirect-actions">
+                        <a id="redirect-now-btn" href="#" class="error-btn error-btn-primary">Proceed Now</a>
+                        <button type="button" id="redirect-cancel-btn" class="error-btn error-btn-secondary">Stay on this page</button>
+                    </div>
+                </div>
+            </div>
+
+            <header class="post-full-header error-header">
+                <h1 class="post-full-title error-title">{{title}}</h1>
+            </header>
+
+            <section class="post-full-content error-body">
+                <div class="post-content">
+                    {{{conceptual}}}
+                </div>
+            </section>
+        </article>
+    </div>
+</main>

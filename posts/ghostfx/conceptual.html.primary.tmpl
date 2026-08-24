@@ -1,4 +1,7 @@
 {{!master(layout/_master.tmpl)}}
+{{#isErrorPage}}
+{{>partials/error_layout}}
+{{/isErrorPage}}
 {{#isHome}}
 {{>partials/index_layout}}
 {{/isHome}}
@@ -41,7 +44,9 @@
 {{^isTagsIndexPage}}
 {{^isAuthorPage}}
 {{^isHome}}
+{{^isErrorPage}}
 {{{conceptual}}}
+{{/isErrorPage}}
 {{/isHome}}
 {{/isAuthorPage}}
 {{/isTagsIndexPage}}

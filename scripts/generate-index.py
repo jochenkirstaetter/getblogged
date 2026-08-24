@@ -44,8 +44,8 @@ def parse_post(file_path: Path) -> dict:
                 else:
                     fm[k] = unquote(v)
                     current_list = None
-    else:
-        body = content
+    if fm.get("isErrorPage") is True or str(fm.get("isErrorPage", "")).lower() == "true" or fm.get("isPost") is False or str(fm.get("isPost", "")).lower() == "false" or file_path.name in ("404.md", "error404.md"):
+        return None
 
     title = fm.get("title") or file_path.stem.replace("-", " ").title()
     slug = fm.get("slug") or file_path.stem
@@ -112,9 +112,11 @@ def main():
             print(f"Warning reading _indexCount from {docfx_cfg_file}: {e}")
 
     posts = [
-        parse_post(p)
+        res
         for p in published_dir.glob("*.md")
         if not p.name.startswith(".") and p.name not in ("toc.yml", "index.md")
+        for res in [parse_post(p)]
+        if res is not None
     ]
     posts.sort(key=lambda x: (x["dt"], x["mtime"], x["title"]), reverse=True)
     top_posts = posts[:index_count]

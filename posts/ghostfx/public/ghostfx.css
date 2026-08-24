@@ -3307,3 +3307,235 @@ div.diagram-mermaid svg {
   height: auto !important;
   cursor: zoom-in !important;
 }
+
+/* ==========================================================================
+   Error & 404 Page Custom Styling
+   ========================================================================== */
+.error-template .site-main,
+.error-page-main {
+  padding: 0 4vw 5vw !important;
+  padding-top: 0 !important;
+}
+
+.error-page-card {
+  position: relative !important;
+  max-width: 920px !important;
+  margin: 0 auto !important;
+}
+
+.error-template .post-full-image,
+.error-hero-image {
+  max-height: 960px !important;
+  margin-top: 0 !important;
+}
+
+.error-template .post-full-image img,
+.error-hero-image img {
+  max-height: 960px !important;
+}
+
+@media (min-width: 900px) {
+  .error-template .post-full-image,
+  .error-hero-image {
+    margin-bottom: -280px !important;
+  }
+}
+
+@media (max-width: 899px) and (min-width: 501px) {
+  .error-template .post-full-image,
+  .error-hero-image {
+    margin-bottom: -180px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .error-template .post-full-image,
+  .error-hero-image {
+    margin-bottom: 2rem !important;
+  }
+}
+
+.error-header {
+  margin: 0 auto 2rem;
+  text-align: center;
+}
+
+.error-title {
+  font-size: 3.4rem;
+  line-height: 1.15;
+  margin: 0 0 1rem;
+}
+
+/* Frosted Glass Floating Redirect Box (Positioned at TOP of hero image backdrop) */
+html[data-bs-theme="light"] .error-redirect-glass-card,
+html[data-bs-theme="dark"] .error-redirect-glass-card,
+.error-redirect-glass-card {
+  position: absolute !important;
+  top: 3.5rem !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: calc(100% - 3rem) !important;
+  max-width: 1040px !important;
+  z-index: 25 !important;
+  margin: 0 !important;
+  padding: 1.8rem 2.5rem !important;
+  background: rgba(255, 255, 255, 0.33) !important;
+  backdrop-filter: blur(1rem) !important;
+  -webkit-backdrop-filter: blur(1rem) !important;
+  border-radius: 0.85rem !important;
+  box-shadow: 0 0.8rem 2rem rgba(39, 44, 49, 0.12) !important;
+  border: 1px solid rgba(255, 255, 255, 0.6) !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.error-redirect-glass-inner {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  gap: 2.5rem !important;
+  text-align: left !important;
+  width: 100% !important;
+}
+
+.error-redirect-info {
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+}
+
+html[data-bs-theme="light"] .error-redirect-glass-title,
+html[data-bs-theme="dark"] .error-redirect-glass-title,
+.error-redirect-glass-title {
+  margin: 0 0 0.4rem !important;
+  font-size: 2.2rem !important;
+  font-weight: 700 !important;
+  font-family: inherit !important;
+  color: #15171a !important;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8) !important;
+  line-height: 1.25 !important;
+}
+
+html[data-bs-theme="light"] .error-redirect-glass-message,
+html[data-bs-theme="dark"] .error-redirect-glass-message,
+.error-redirect-glass-message {
+  margin: 0 !important;
+  font-size: 1.6rem !important;
+  line-height: 1.5 !important;
+  font-family: inherit !important;
+  color: #15171a !important;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8) !important;
+}
+
+html[data-bs-theme="light"] .error-redirect-glass-message strong,
+html[data-bs-theme="dark"] .error-redirect-glass-message strong,
+.error-redirect-glass-message strong {
+  font-weight: 700 !important;
+  color: #0284c7 !important;
+}
+
+.error-redirect-actions {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.6rem !important;
+  justify-content: center !important;
+  align-items: stretch !important;
+  flex-shrink: 0 !important;
+  margin-left: auto !important;
+  min-width: 190px !important;
+}
+
+.error-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.65rem 1.4rem;
+  font-size: 1.35rem;
+  font-weight: 600;
+  font-family: inherit;
+  border-radius: 6px;
+  text-decoration: none !important;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  line-height: 1.2;
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.error-btn-primary {
+  background: #0284c7 !important;
+  color: #ffffff !important;
+  border: 1px solid #0369a1 !important;
+  box-shadow: 0 2px 6px rgba(2, 132, 199, 0.35);
+  text-shadow: none !important;
+}
+
+.error-btn-primary:hover {
+  background: #0369a1 !important;
+  color: #ffffff !important;
+  transform: translateY(-1px);
+}
+
+.error-btn-secondary {
+  background: rgba(255, 255, 255, 0.6) !important;
+  color: #15171a !important;
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.error-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.85) !important;
+  color: #000000 !important;
+}
+
+/* Tablet & Medium Screens */
+@media (max-width: 899px) and (min-width: 601px) {
+  .error-redirect-glass-card {
+    top: 2rem !important;
+    padding: 1.4rem 1.8rem !important;
+  }
+  .error-redirect-glass-title {
+    font-size: 1.8rem !important;
+  }
+  .error-redirect-glass-message {
+    font-size: 1.35rem !important;
+  }
+  .error-redirect-actions {
+    min-width: 160px !important;
+    gap: 0.5rem !important;
+  }
+  .error-btn {
+    font-size: 1.15rem !important;
+    padding: 0.55rem 1.1rem !important;
+  }
+}
+
+/* Mobile Screen (< 600px) */
+@media (max-width: 600px) {
+  .error-redirect-glass-card {
+    top: 1rem !important;
+    width: calc(100% - 1.5rem) !important;
+    padding: 1.2rem 1.3rem !important;
+  }
+  .error-redirect-glass-inner {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 1rem !important;
+  }
+  .error-redirect-glass-title {
+    font-size: 1.6rem !important;
+  }
+  .error-redirect-glass-message {
+    font-size: 1.25rem !important;
+  }
+  .error-redirect-actions {
+    width: 100% !important;
+    min-width: 0 !important;
+    margin-left: 0 !important;
+    gap: 0.5rem !important;
+  }
+  .error-btn {
+    font-size: 1.2rem !important;
+    padding: 0.6rem 1.1rem !important;
+  }
+}
