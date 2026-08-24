@@ -2,7 +2,7 @@
   iconLinks: [
   {
     "icon": "github",
-    "href": "https://github.com/jochenkirstaetter/ghostfx",
+    "href": "https://github.com/jochenkirstaetter",
     "title": "GitHub"
   },
   {
