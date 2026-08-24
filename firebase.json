@@ -15,12 +15,12 @@
         "destination": "/public/sw-v1.js"
       },
       {
-        "source": "/404",
-        "destination": "/error404.html"
+        "source": "/error404",
+        "destination": "/404.html"
       },
       {
-        "source": "/404.html",
-        "destination": "/error404.html"
+        "source": "/error404.html",
+        "destination": "/404.html"
       },
       {
         "source": "/.well-known/llms.txt",
