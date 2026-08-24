@@ -77,6 +77,20 @@ On your mobile phone, tablet, or secondary laptop:
 2. Sign in with the same Google Account.
 3. Select your active workstation from the instances list.
 
+Alternatively, you can share or jump directly into an ongoing session from the Antigravity 2.0 desktop interface:
+
+::: grid
+![Antigravity Desktop Session Context Menu](../content/images/2026/08/antigravity-desktop-session-remote-control-menu.webp "Opening Remote Control from the session context menu in Antigravity 2.0")
+![Antigravity Desktop Open in Remote Control Modal](../content/images/2026/08/antigravity-desktop-open-in-remote-control-qr.webp "Scanning the QR code or opening the direct session link on mobile")
+:::
+
+1. In the conversation header, click the vertical three-dots (`...`) context menu.
+2. Select **Remote Control** from the menu options.
+3. An **Open in Remote Control** modal dialog appears with a scannable QR code and a direct session URL (`https://antigravity.google.com/r/<session-guid>`).
+4. Scan the QR code with your mobile camera or follow the link to immediately resume and control the conversation from your phone or any web browser.
+
+
+
 ### 3. Multi-Instance & Environment Preservation
 - **Preserved Context**: Your workstation retains all local file systems, active Git branches, terminal environments, environment variables, and authentication tokens.
 - **Multi-Machine Management**: You can manage multiple instances simultaneously (such as a local workstation, a build box, or a cloud VM running the Antigravity headless daemon) and switch between them from a single dashboard.
@@ -208,4 +222,4 @@ Have you experimented with AI-assisted blog authoring or managing your content r
 
 Feel free to connect and share your thoughts with me on X ([@JKirstaetter](https://x.com/jkirstaetter)), BlueSky ([@jochen.kirstaetter.name](https://bsky.app/profile/jochen.kirstaetter.name)), or Mastodon ([@JKirstaetter](https://mastodon.social/@jkirstaetter)). You can also subscribe to [my blog's RSS feed](https://jochen.kirstaetter.name/rss/) for upcoming articles and technical write-ups.
 
-<small>Picture credits: Hero image generated with Gemini 3.1 Flash Image via Antigravity; Spooky action comic by Guillaume Laforge ([@glaforge on X](https://x.com/glaforge)); Mobile screenshots by Jochen Kirstätter.</small>
+<small>Picture credits: Hero image generated with Gemini 3.1 Flash Image via Antigravity; Spooky action comic by Guillaume Laforge ([@glaforge on X](https://x.com/glaforge)); Desktop and mobile screenshots by Jochen Kirstätter.</small>
