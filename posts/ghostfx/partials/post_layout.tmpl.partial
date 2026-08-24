@@ -52,7 +52,7 @@ into the {body} of the default.hbs template }}
                     <time class="post-full-meta-date" datetime="{{#publishedAt}}{{.}}{{/publishedAt}}{{^publishedAt}}{{date}}{{/publishedAt}}">{{#formattedDate}}{{.}}{{/formattedDate}}{{^formattedDate}}{{#date}}{{.}}{{/date}}{{^date}}{{#publishedAt}}{{.}}{{/publishedAt}}{{/date}}{{/formattedDate}}</time>
                     {{#tags.0}}
                         <span class="date-divider">-</span>
-                        <span class="post-full-meta-tags">Filed under {{#tags}}<a class="post-card-tags" href="{{_rel}}tags/{{.}}.html">{{.}}</a>{{/tags}}</span>
+                        <span class="post-full-meta-tags">Filed under {{#tags}}<xref class="post-card-tags" href="tag-{{.}}">{{.}}</xref>{{/tags}}</span>
                     {{/tags.0}}
                 </section>
                 <script>

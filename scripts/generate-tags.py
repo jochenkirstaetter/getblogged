@@ -198,7 +198,7 @@ def main():
         meta = existing_meta.get(tag, {})
         tag_lines = [
             "---",
-            f"uid: tag-{slug}",
+            f"uid: tag-{tag}",
             f'title: "{tag}"',
             "layout: tag",
             "isTagPage: true",
@@ -229,7 +229,7 @@ def main():
         tag_lines.append("")
         tag_file.write_text("\n".join(tag_lines), encoding="utf-8")
         if slug == "project":
-            proj_lines = [line.replace("uid: tag-project", "uid: tag-projects") for line in tag_lines]
+            proj_lines = [line.replace(f"uid: tag-{tag}", "uid: tag-projects") for line in tag_lines]
             (tags_dir / "projects.md").write_text("\n".join(proj_lines), encoding="utf-8")
 
         toc_entries.append(f'- name: "{tag}"\n  href: {slug}.md')

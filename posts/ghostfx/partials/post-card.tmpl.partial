@@ -26,12 +26,7 @@
     <div class="post-card-content">
         <div class="post-card-content-header">
             {{#primaryTag}}
-                {{#tagSlug}}
-                    <span class="post-card-tags"><a href="{{_rel}}tags/{{.}}.html">{{primaryTag}}</a></span>
-                {{/tagSlug}}
-                {{^tagSlug}}
-                    <span class="post-card-tags">{{.}}</span>
-                {{/tagSlug}}
+                <span class="post-card-tags"><xref href="tag-{{.}}">{{.}}</xref></span>
             {{/primaryTag}}
         </div>
         <a class="post-card-content-link" href="{{_rel}}{{slug}}.html">
