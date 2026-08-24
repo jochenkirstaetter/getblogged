@@ -2,7 +2,7 @@
 uid: mastering-the-matrix-qr-code-generation
 title: "Mastering the Matrix: Elegant QR Code Generation"
 slug: mastering-the-matrix-qr-code-generation
-date: 2026-08-24
+date: 2026-08-23
 status: published
 type: post
 description: "How to craft lightweight, high-performance QR code engines across Python, JavaScript, and modern C# on .NET 10, combining Galois field mathematics, Reed-Solomon Level H error correction, and frosted-glass centre badges."
