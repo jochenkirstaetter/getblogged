@@ -220,7 +220,7 @@ codeinjectionFoot: ''
 - [Connecting Linux to WatchGuard Firebox SSL (OpenVPN client)](xref:connecting-linux-to-watchguard-firebox-ssl) - *2013-07-23*
 - [Feedback on meeting of the MSCC - 20.07.2013](xref:feedback-on-meeting-of-the-mscc-20072013) - *2013-07-23*
 - [PHP Web Services by Lorna Jane Mitchell - Nice try](xref:php-web-services) - *2013-07-16*
-- [These aren't the droids you're looking for](xref:error404) - *2013-07-08*
+- [These aren't the droids you're looking for](xref:404) - *2013-07-08*
 - [Quoted on MVA Voices](xref:quoted-on-mva-voices) - *2013-07-04*
 - [Mauritius Software Craftsmanship Community (aka User Group)](xref:mscc) - *2013-07-01*
 - [New Pluralsight app for Android will bring variable speed](xref:new-pluralsight-app-for-android-will-bring-variable-speed) - *2013-06-18*

@@ -331,7 +331,7 @@
 - name: "PHP Web Services by Lorna Jane Mitchell - Nice try"
   href: php-web-services.md
 - name: "These aren't the droids you're looking for"
-  href: error404.md
+  href: 404.md
 - name: "Quoted on MVA Voices"
   href: quoted-on-mva-voices.md
 - name: "Mauritius Software Craftsmanship Community (aka User Group)"
