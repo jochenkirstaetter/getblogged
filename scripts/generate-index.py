@@ -49,8 +49,7 @@ def parse_post(file_path: Path) -> dict:
 
     title = fm.get("title") or file_path.stem.replace("-", " ").title()
     slug = fm.get("slug") or file_path.stem
-    date_val = fm.get("date") or fm.get("publishedAt") or fm.get("updatedAt") or "1970-01-01"
-    date_str = str(date_val).split("T")[0]
+    date_val = fm.get("publishedAt") or fm.get("date") or fm.get("updatedAt") or "1970-01-01"
     
     try:
         dt = datetime.strptime(date_str, "%Y-%m-%d")
