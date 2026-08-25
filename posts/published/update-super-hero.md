@@ -1,7 +1,6 @@
 ---
 uid: update-super-hero
 title: 'Update: Super Hero'
-slug: update-super-hero
 date: 2013-09-26
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: krakathon-2017
 title: Krakathon 2017
-slug: krakathon-2017
 date: 2017-10-27
 status: published
 type: post

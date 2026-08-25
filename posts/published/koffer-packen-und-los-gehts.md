@@ -1,7 +1,6 @@
 ---
 uid: koffer-packen-und-los-gehts
 title: Koffer packen und los geht's...
-slug: koffer-packen-und-los-gehts
 date: 2004-11-08
 status: published
 type: post

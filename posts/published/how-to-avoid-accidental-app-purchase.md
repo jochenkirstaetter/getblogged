@@ -1,7 +1,6 @@
 ---
 uid: how-to-avoid-accidental-app-purchase
 title: How to avoid accidental app purchase
-slug: how-to-avoid-accidental-app-purchase
 date: 2014-09-02
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: game-another-day
 title: Game another day
-slug: game-another-day
 date: 2005-02-26
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: openvpn-via-windows-task-scheduler
 title: Using OpenVPN connections via Windows Task Scheduler
-slug: openvpn-via-windows-task-scheduler
 date: 2023-06-28
 status: published
 type: post

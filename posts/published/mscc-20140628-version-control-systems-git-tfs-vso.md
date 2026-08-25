@@ -1,7 +1,6 @@
 ---
 uid: mscc-20140628-version-control-systems-git-tfs-vso
 title: 'MSCC: Purpose and benefits of Version Control Systems (VCS)'
-slug: mscc-20140628-version-control-systems-git-tfs-vso
 date: 2014-06-29
 status: published
 type: post

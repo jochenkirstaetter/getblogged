@@ -1,7 +1,6 @@
 ---
 uid: running-vmware-player-on-linux-xubuntu-hardy-heron
 title: Running VMware Player on Linux (xubuntu Hardy Heron)
-slug: running-vmware-player-on-linux-xubuntu-hardy-heron
 date: 2008-05-28
 status: published
 type: post

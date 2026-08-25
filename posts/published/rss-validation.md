@@ -1,7 +1,6 @@
 ---
 uid: rss-validation
 title: RSS Validation
-slug: rss-validation
 date: 2005-07-10
 status: published
 type: post

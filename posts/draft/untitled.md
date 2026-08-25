@@ -1,7 +1,6 @@
 ---
 uid: untitled
 title: Get the balance between focus & the big picture (Draft)
-slug: untitled
 date: 2018-10-04
 status: draft
 type: post

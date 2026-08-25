@@ -1,7 +1,6 @@
 ---
 uid: integrate-google-adsense-ghost
 title: Integrate Google AdSense into your Ghost
-slug: integrate-google-adsense-ghost
 date: 2017-09-25
 status: published
 type: post

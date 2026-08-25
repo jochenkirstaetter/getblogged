@@ -1,7 +1,6 @@
 ---
 uid: comment-on-competent-mauritius
 title: Comment on 'Competent Mauritius'
-slug: comment-on-competent-mauritius
 date: 2013-04-02
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: practical-postgresql
 title: Practical PostgreSQL
-slug: practical-postgresql
 date: 2005-05-10
 status: published
 type: post

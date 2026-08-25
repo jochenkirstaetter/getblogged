@@ -1,7 +1,6 @@
 ---
 uid: devcon-prag-2005-termin-steht
 title: Devcon Prag 2005 - Termin steht
-slug: devcon-prag-2005-termin-steht
 date: 2005-03-29
 status: published
 type: post

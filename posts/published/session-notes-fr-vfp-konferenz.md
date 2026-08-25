@@ -1,7 +1,6 @@
 ---
 uid: session-notes-fr-vfp-konferenz
 title: Session-Notes für VFP-Konferenz
-slug: session-notes-fr-vfp-konferenz
 date: 2006-10-12
 status: published
 type: post

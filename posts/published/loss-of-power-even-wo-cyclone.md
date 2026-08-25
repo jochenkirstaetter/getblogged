@@ -1,7 +1,6 @@
 ---
 uid: loss-of-power-even-wo-cyclone
 title: Loss of power - even w/o cyclone
-slug: loss-of-power-even-wo-cyclone
 date: 2008-02-03
 status: published
 type: post

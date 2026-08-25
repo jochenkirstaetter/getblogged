@@ -1,7 +1,6 @@
 ---
 uid: msdn-webcast-serie-zu-visual-foxpro-9-0
 title: MSDN-Webcast-Serie zu Visual FoxPro 9.0
-slug: msdn-webcast-serie-zu-visual-foxpro-9-0
 date: 2005-10-10
 status: published
 type: post

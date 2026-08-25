@@ -1,7 +1,6 @@
 ---
 uid: the-right-keyboard-for-coding
 title: Is the CODE keyboard the right keyboard for coding?
-slug: the-right-keyboard-for-coding
 date: 2013-08-30
 status: published
 type: post

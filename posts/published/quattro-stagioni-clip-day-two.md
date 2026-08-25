@@ -1,7 +1,6 @@
 ---
 uid: quattro-stagioni-clip-day-two
 title: Quattro stagioni (CLIP Day Two)
-slug: quattro-stagioni-clip-day-two
 date: 2004-10-21
 status: published
 type: post

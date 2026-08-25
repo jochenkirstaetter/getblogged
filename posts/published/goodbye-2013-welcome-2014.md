@@ -1,7 +1,6 @@
 ---
 uid: goodbye-2013-welcome-2014
 title: Goodbye 2013 - Welcome 2014
-slug: goodbye-2013-welcome-2014
 date: 2014-01-02
 status: published
 type: post

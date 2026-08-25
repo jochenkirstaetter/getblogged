@@ -1,5 +1,5 @@
 ---
-uid: tag-ios
+uid: tag-iOS
 title: "iOS"
 layout: tag
 isTagPage: true

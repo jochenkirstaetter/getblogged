@@ -1,7 +1,6 @@
 ---
 uid: vmware-player-50-or-vmware-workstation-90-after-upgrade-to-ubuntu-1210
 title: VMware Player 5.0 or VMware Workstation 9.0 after upgrade to Ubuntu 12.10
-slug: vmware-player-50-or-vmware-workstation-90-after-upgrade-to-ubuntu-1210
 date: 2012-10-23
 status: published
 type: post

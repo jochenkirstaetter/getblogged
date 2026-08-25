@@ -1,7 +1,6 @@
 ---
 uid: cloud-engineering-for-beginners
 title: Cloud Engineering for Beginners (Draft)
-slug: cloud-engineering-for-beginners
 date: 2023-08-23
 status: draft
 type: post

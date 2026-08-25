@@ -1,7 +1,6 @@
 ---
 uid: alc4-cloud-react
 title: Create React App (ALC 4.0 Cloud Challenge I)
-slug: alc4-cloud-react
 date: 2019-10-20
 status: published
 type: post

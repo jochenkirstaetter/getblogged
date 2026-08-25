@@ -1,7 +1,6 @@
 ---
 uid: visiting-the-fire-station-in-coromandel
 title: Visiting the Fire Station in Coromandel
-slug: visiting-the-fire-station-in-coromandel
 date: 2013-09-09
 status: published
 type: post

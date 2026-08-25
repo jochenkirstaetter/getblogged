@@ -1,7 +1,6 @@
 ---
 uid: developer-creators-and-online-communities-summit
 title: Developer Creators and Online Communities Summit
-slug: developer-creators-and-online-communities-summit
 date: 2024-02-01
 status: published
 type: post

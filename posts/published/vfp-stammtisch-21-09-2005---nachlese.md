@@ -1,7 +1,6 @@
 ---
 uid: vfp-stammtisch-21-09-2005---nachlese
 title: VFP Stammtisch 21.09.2005 - Nachlese
-slug: vfp-stammtisch-21-09-2005---nachlese
 date: 2005-09-20
 status: published
 type: post

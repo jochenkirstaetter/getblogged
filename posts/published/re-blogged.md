@@ -1,7 +1,6 @@
 ---
 uid: re-blogged
 title: Re-Blogged
-slug: re-blogged
 date: 2008-03-19
 status: published
 type: post

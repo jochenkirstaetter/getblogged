@@ -1,7 +1,6 @@
 ---
 uid: cv
 title: Curriculum Vitae
-slug: cv
 date: 2009-12-14
 status: published
 type: post

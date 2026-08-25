@@ -1,7 +1,6 @@
 ---
 uid: ich-will-feuerwehrmann-werden
 title: Ich will Feuerwehrmann werden
-slug: ich-will-feuerwehrmann-werden
 date: 2005-04-08
 status: published
 type: post

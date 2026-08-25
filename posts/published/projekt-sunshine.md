@@ -1,7 +1,6 @@
 ---
 uid: projekt-sunshine
 title: Projekt - Sunshine
-slug: projekt-sunshine
 date: 2006-10-28
 status: published
 type: post

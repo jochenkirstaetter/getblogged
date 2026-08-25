@@ -1,7 +1,6 @@
 ---
 uid: php-web-services
 title: PHP Web Services by Lorna Jane Mitchell - Nice try
-slug: php-web-services
 date: 2013-07-16
 status: published
 type: post

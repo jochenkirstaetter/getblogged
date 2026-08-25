@@ -1,7 +1,6 @@
 ---
 uid: more-content-for-mcsds-web-applications-and-windows-store-apps-using-html5
 title: 'More content for MCSDs: Web Applications and Windows Store Apps using HTML5'
-slug: more-content-for-mcsds-web-applications-and-windows-store-apps-using-html5
 date: 2013-02-18
 status: published
 type: post

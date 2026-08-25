@@ -1,7 +1,6 @@
 ---
 uid: objektorientierung-fr-anfnger
 title: Objektorientierung für Anfänger...
-slug: objektorientierung-fr-anfnger
 date: 2006-03-20
 status: published
 type: post

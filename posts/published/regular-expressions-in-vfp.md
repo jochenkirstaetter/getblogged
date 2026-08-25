@@ -1,7 +1,6 @@
 ---
 uid: regular-expressions-in-vfp
 title: Regular Expressions in VFP
-slug: regular-expressions-in-vfp
 date: 2006-04-22
 status: published
 type: post

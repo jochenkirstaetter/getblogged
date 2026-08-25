@@ -1,7 +1,6 @@
 ---
 uid: gemini-responseschema
 title: Gemini ResponseSchema vs JSON Schema specs of "type" as array
-slug: gemini-responseschema
 date: 2025-01-20
 status: published
 type: post

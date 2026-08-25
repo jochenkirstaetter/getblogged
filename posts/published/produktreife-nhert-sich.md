@@ -1,7 +1,6 @@
 ---
 uid: produktreife-nhert-sich
 title: Produktreife nähert sich...
-slug: produktreife-nhert-sich
 date: 2006-03-25
 status: published
 type: post

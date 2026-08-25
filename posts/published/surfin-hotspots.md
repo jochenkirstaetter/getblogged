@@ -1,7 +1,6 @@
 ---
 uid: surfin-hotspots
 title: Surfin' HotSpots
-slug: surfin-hotspots
 date: 2005-04-02
 status: published
 type: post

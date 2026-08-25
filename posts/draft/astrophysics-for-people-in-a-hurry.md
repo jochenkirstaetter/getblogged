@@ -1,7 +1,6 @@
 ---
 uid: astrophysics-for-people-in-a-hurry
 title: Astrophysics for People in a Hurry (Draft)
-slug: astrophysics-for-people-in-a-hurry
 date: 2023-08-23
 status: draft
 type: post

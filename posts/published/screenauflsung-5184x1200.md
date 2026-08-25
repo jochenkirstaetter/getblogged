@@ -1,7 +1,6 @@
 ---
 uid: screenauflsung-5184x1200
 title: Screenauflösung 5184x1200?
-slug: screenauflsung-5184x1200
 date: 2005-09-22
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: mcsa-linux-on-azure
 title: 'Next stop: MCSA: Linux on Azure'
-slug: mcsa-linux-on-azure
 date: 2018-03-13
 status: published
 type: post

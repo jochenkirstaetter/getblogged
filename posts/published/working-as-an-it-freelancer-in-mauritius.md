@@ -1,7 +1,6 @@
 ---
 uid: working-as-an-it-freelancer-in-mauritius
 title: Working as an IT freelancer in Mauritius
-slug: working-as-an-it-freelancer-in-mauritius
 date: 2015-08-17
 status: published
 type: post

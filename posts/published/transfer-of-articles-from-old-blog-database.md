@@ -1,7 +1,6 @@
 ---
 uid: transfer-of-articles-from-old-blog-database
 title: Transfer of articles from old blog database
-slug: transfer-of-articles-from-old-blog-database
 date: 2008-02-18
 status: published
 type: post

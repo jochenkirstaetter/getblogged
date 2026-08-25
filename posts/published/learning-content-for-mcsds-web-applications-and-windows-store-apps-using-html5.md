@@ -1,7 +1,6 @@
 ---
 uid: learning-content-for-mcsds-web-applications-and-windows-store-apps-using-html5
 title: 'Learning content for MCSDs: Web Applications and Windows Store Apps using HTML5'
-slug: learning-content-for-mcsds-web-applications-and-windows-store-apps-using-html5
 date: 2012-11-16
 status: published
 type: post

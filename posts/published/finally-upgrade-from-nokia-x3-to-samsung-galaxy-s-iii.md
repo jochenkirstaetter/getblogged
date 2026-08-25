@@ -1,7 +1,6 @@
 ---
 uid: finally-upgrade-from-nokia-x3-to-samsung-galaxy-s-iii
 title: Finally, upgrade from Nokia X3 to Samsung Galaxy S III
-slug: finally-upgrade-from-nokia-x3-to-samsung-galaxy-s-iii
 date: 2012-10-13
 status: published
 type: post

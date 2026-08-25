@@ -1,7 +1,6 @@
 ---
 uid: update-kernel-patch-for-vmware-player-403
 title: Update kernel patch for VMware Player 4.0.3
-slug: update-kernel-patch-for-vmware-player-403
 date: 2012-05-04
 status: published
 type: post

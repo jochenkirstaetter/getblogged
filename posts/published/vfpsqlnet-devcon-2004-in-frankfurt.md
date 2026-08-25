@@ -1,7 +1,6 @@
 ---
 uid: vfpsqlnet-devcon-2004-in-frankfurt
 title: VFP/SQL/.NET Devcon 2004 in Frankfurt
-slug: vfpsqlnet-devcon-2004-in-frankfurt
 date: 2004-10-09
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: authentication-jitsi-meet
 title: Enable authentication in your instance of Jitsi Meet
-slug: authentication-jitsi-meet
 date: 2020-04-20
 status: published
 type: post

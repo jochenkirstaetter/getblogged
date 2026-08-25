@@ -1,7 +1,6 @@
 ---
 uid: openvpn-on-windows-all-tap-windows-adapters-on-this-system-are-currently-in-use
 title: 'OpenVPN: All TAP-Windows adapters on this system are currently in use'
-slug: openvpn-on-windows-all-tap-windows-adapters-on-this-system-are-currently-in-use
 date: 2018-08-31
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: upgrade-to-wsl-2
 title: Upgrade to WSL 2 (Draft)
-slug: upgrade-to-wsl-2
 date: 2020-06-16
 status: draft
 type: post

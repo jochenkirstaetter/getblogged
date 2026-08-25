@@ -1,7 +1,6 @@
 ---
 uid: ein-knigreich-fr-eine-bernachtung
 title: Ein Königreich für eine Übernachtung
-slug: ein-knigreich-fr-eine-bernachtung
 date: 2006-09-08
 status: published
 type: post

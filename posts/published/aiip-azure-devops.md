@@ -1,7 +1,6 @@
 ---
 uid: aiip-azure-devops
 title: Guest lecturer for the Africa Industrial Internet Programme (AIIP)
-slug: aiip-azure-devops
 date: 2019-09-06
 status: published
 type: post

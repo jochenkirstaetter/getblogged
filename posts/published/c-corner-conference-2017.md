@@ -1,7 +1,6 @@
 ---
 uid: c-corner-conference-2017
 title: C# Corner Annual Conference 2017
-slug: c-corner-conference-2017
 date: 2024-05-30
 status: published
 type: post

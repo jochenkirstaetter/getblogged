@@ -1,7 +1,6 @@
 ---
 uid: beliebige-zeichen-in-dateipfaden---oder-besser-nicht---
 title: Beliebige Zeichen in Dateipfaden - oder besser nicht...
-slug: beliebige-zeichen-in-dateipfaden---oder-besser-nicht---
 date: 2005-09-20
 status: published
 type: post

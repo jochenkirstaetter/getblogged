@@ -1,7 +1,6 @@
 ---
 uid: a-growth-hackers-guide-to-the-galaxy
 title: A Growth Hackers Guide to the Galaxy (Draft)
-slug: a-growth-hackers-guide-to-the-galaxy
 date: 2023-08-23
 status: draft
 type: post

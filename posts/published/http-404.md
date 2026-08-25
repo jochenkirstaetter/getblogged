@@ -1,7 +1,6 @@
 ---
 uid: http-404
 title: HTTP 404
-slug: http-404
 date: 2005-04-13
 status: published
 type: post

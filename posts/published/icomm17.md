@@ -1,7 +1,6 @@
 ---
 uid: icomm17
 title: InterCommunity 2017
-slug: icomm17
 date: 2017-10-12
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: foxpro---das-urzeitmonster-aus-der-tiefe---
 title: FoxPro - das Urzeitmonster aus der Tiefe...
-slug: foxpro---das-urzeitmonster-aus-der-tiefe---
 date: 2004-07-16
 status: published
 type: post

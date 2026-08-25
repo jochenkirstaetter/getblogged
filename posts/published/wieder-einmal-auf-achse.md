@@ -1,7 +1,6 @@
 ---
 uid: wieder-einmal-auf-achse
 title: Wieder einmal auf Achse
-slug: wieder-einmal-auf-achse
 date: 2006-09-06
 status: published
 type: post

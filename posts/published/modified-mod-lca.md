@@ -1,7 +1,6 @@
 ---
 uid: modified-mod-lca
 title: Modified Mod LCA
-slug: modified-mod-lca
 date: 2010-01-23
 status: published
 type: post

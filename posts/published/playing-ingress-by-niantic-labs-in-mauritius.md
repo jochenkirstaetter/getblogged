@@ -1,7 +1,6 @@
 ---
 uid: playing-ingress-by-niantic-labs-in-mauritius
 title: Playing Ingress by Niantic Labs in Mauritius
-slug: playing-ingress-by-niantic-labs-in-mauritius
 date: 2013-04-21
 status: published
 type: post

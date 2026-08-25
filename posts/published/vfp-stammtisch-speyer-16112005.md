@@ -1,7 +1,6 @@
 ---
 uid: vfp-stammtisch-speyer-16112005
 title: VFP Stammtisch Speyer - 16.11.2005
-slug: vfp-stammtisch-speyer-16112005
 date: 2005-11-14
 status: published
 type: post

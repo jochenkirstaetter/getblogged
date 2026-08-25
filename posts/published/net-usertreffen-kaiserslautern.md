@@ -1,7 +1,6 @@
 ---
 uid: net-usertreffen-kaiserslautern
 title: .NET Usertreffen Kaiserslautern
-slug: net-usertreffen-kaiserslautern
 date: 2005-07-05
 status: published
 type: post

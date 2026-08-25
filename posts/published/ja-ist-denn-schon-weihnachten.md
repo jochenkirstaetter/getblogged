@@ -1,7 +1,6 @@
 ---
 uid: ja-ist-denn-schon-weihnachten
 title: Ja, ist denn schon Weihnachten?
-slug: ja-ist-denn-schon-weihnachten
 date: 2005-11-18
 status: published
 type: post

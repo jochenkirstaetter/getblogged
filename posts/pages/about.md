@@ -1,7 +1,6 @@
 ---
 uid: about
 title: About Me
-slug: about
 date: 2017-08-07
 status: published
 type: page

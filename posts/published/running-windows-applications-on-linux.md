@@ -1,7 +1,6 @@
 ---
 uid: running-windows-applications-on-linux
 title: Running Windows applications on Linux
-slug: running-windows-applications-on-linux
 date: 2013-11-24
 status: published
 type: post

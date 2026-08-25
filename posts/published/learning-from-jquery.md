@@ -1,7 +1,6 @@
 ---
 uid: learning-from-jquery
 title: Learning from jQuery - Solid fundament for experienced jQuery developers
-slug: learning-from-jquery
 date: 2013-05-20
 status: published
 type: post

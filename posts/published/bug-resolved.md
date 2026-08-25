@@ -1,7 +1,6 @@
 ---
 uid: bug-resolved
 title: Bug 'Resolved'
-slug: bug-resolved
 date: 2006-11-18
 status: published
 type: post

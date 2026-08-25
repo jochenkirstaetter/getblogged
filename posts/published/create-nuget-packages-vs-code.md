@@ -1,7 +1,6 @@
 ---
 uid: create-nuget-packages-vs-code
 title: Create NuGet packages with Visual Studio / Visual Studio Code
-slug: create-nuget-packages-vs-code
 date: 2024-03-01
 status: published
 type: post

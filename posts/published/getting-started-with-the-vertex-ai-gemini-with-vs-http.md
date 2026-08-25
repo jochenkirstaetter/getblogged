@@ -1,7 +1,6 @@
 ---
 uid: getting-started-with-the-vertex-ai-gemini-with-vs-http
 title: Getting Started with the Vertex AI Gemini API with Visual Studio
-slug: getting-started-with-the-vertex-ai-gemini-with-vs-http
 date: 2024-02-23
 status: published
 type: post

@@ -1,5 +1,5 @@
 ---
-uid: tag-podcast
+uid: tag-Podcast
 title: "Podcast"
 layout: tag
 isTagPage: true

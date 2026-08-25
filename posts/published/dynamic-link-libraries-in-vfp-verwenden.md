@@ -1,7 +1,6 @@
 ---
 uid: dynamic-link-libraries-in-vfp-verwenden
 title: Dynamic-Link Libraries in VFP verwenden
-slug: dynamic-link-libraries-in-vfp-verwenden
 date: 2006-04-19
 status: published
 type: post

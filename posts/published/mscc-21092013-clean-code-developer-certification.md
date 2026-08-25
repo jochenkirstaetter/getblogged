@@ -1,7 +1,6 @@
 ---
 uid: mscc-21092013-clean-code-developer-certification
 title: 'MSCC: Clean Code Developer & Certification in IT'
-slug: mscc-21092013-clean-code-developer-certification
 date: 2013-09-24
 status: published
 type: post

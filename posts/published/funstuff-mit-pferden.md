@@ -1,7 +1,6 @@
 ---
 uid: funstuff-mit-pferden
 title: Funstuff mit Pferden
-slug: funstuff-mit-pferden
 date: 2005-06-12
 status: published
 type: post

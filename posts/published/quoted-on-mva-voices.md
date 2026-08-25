@@ -1,7 +1,6 @@
 ---
 uid: quoted-on-mva-voices
 title: Quoted on MVA Voices
-slug: quoted-on-mva-voices
 date: 2013-07-04
 status: published
 type: post

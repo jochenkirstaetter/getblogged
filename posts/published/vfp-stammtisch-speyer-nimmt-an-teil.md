@@ -1,7 +1,6 @@
 ---
 uid: vfp-stammtisch-speyer-nimmt-an-teil
 title: VFP Stammtisch Speyer nimmt an teil
-slug: vfp-stammtisch-speyer-nimmt-an-teil
 date: 2006-10-01
 status: published
 type: post

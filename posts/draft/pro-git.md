@@ -1,7 +1,6 @@
 ---
 uid: pro-git
 title: Pro Git (Draft)
-slug: pro-git
 date: 2023-08-23
 status: draft
 type: post

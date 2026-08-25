@@ -1,7 +1,6 @@
 ---
 uid: the-day-before---
 title: The day before...
-slug: the-day-before---
 date: 2006-11-08
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: experiences-on-windows-live-writer---
 title: Experiences on Windows Live Writer...
-slug: experiences-on-windows-live-writer---
 date: 2006-08-14
 status: published
 type: post

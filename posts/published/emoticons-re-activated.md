@@ -1,7 +1,6 @@
 ---
 uid: emoticons-re-activated
 title: Emoticons re-activated
-slug: emoticons-re-activated
 date: 2008-02-25
 status: published
 type: post

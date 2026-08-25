@@ -1,7 +1,6 @@
 ---
 uid: vfp-stammtisch-april-2005
 title: VFP Stammtisch - April 2005
-slug: vfp-stammtisch-april-2005
 date: 2005-04-19
 status: published
 type: post

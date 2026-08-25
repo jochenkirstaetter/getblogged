@@ -1,7 +1,6 @@
 ---
 uid: community
 title: Community
-slug: community
 date: 2017-08-07
 status: published
 type: page

@@ -1,7 +1,6 @@
 ---
 uid: document-dont-create
 title: Document, don't Create (Draft)
-slug: document-dont-create
 date: 2018-10-04
 status: draft
 type: post

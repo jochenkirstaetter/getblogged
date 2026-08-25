@@ -1,7 +1,6 @@
 ---
 uid: comproxy
 title: COM Proxy for .NET
-slug: comproxy
 date: 2009-12-14
 status: published
 type: post

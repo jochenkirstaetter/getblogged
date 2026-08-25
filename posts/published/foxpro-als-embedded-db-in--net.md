@@ -1,7 +1,6 @@
 ---
 uid: foxpro-als-embedded-db-in--net
 title: FoxPro als embedded DB in .NET
-slug: foxpro-als-embedded-db-in--net
 date: 2006-03-23
 status: published
 type: post

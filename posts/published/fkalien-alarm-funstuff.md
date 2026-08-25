@@ -1,7 +1,6 @@
 ---
 uid: fkalien-alarm-funstuff
 title: Fäkalien-Alarm - Funstuff
-slug: fkalien-alarm-funstuff
 date: 2005-06-13
 status: published
 type: post

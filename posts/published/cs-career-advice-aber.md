@@ -1,7 +1,6 @@
 ---
 uid: cs-career-advice-aber
 title: Career Guidance (Day) at Aberystwyth University
-slug: cs-career-advice-aber
 date: 2017-09-26
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: vorbereitungen-fuer-devcon-prag-vollzogen
 title: Vorbereitungen für Devcon Prag vollzogen
-slug: vorbereitungen-fuer-devcon-prag-vollzogen
 date: 2006-09-01
 status: published
 type: post

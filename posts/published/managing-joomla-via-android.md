@@ -1,7 +1,6 @@
 ---
 uid: managing-joomla-via-android
 title: Managing Joomla via Android
-slug: managing-joomla-via-android
 date: 2012-11-28
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: future-of-active-foxpro-pages-secured
 title: Future of Active FoxPro Pages - secured
-slug: future-of-active-foxpro-pages-secured
 date: 2010-09-29
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: browserwechsel-angesagt
 title: Browserwechsel angesagt
-slug: browserwechsel-angesagt
 date: 2005-07-14
 status: published
 type: post

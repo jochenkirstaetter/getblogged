@@ -1,7 +1,6 @@
 ---
 uid: die-checkbox-und-ihr-enter-return-verhalten
 title: Die Checkbox und ihr Enter/Return-Verhalten
-slug: die-checkbox-und-ihr-enter-return-verhalten
 date: 2006-08-17
 status: published
 type: post

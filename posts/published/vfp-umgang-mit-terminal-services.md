@@ -1,7 +1,6 @@
 ---
 uid: vfp-umgang-mit-terminal-services
 title: VFP Umgang mit Terminal Services
-slug: vfp-umgang-mit-terminal-services
 date: 2007-03-18
 status: published
 type: post

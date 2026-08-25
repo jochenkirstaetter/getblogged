@@ -1,7 +1,6 @@
 ---
 uid: die-zukunft-von-vfp
 title: Die Zukunft von VFP
-slug: die-zukunft-von-vfp
 date: 2005-06-13
 status: published
 type: post

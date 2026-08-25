@@ -1,7 +1,6 @@
 ---
 uid: iis-7-ein-web-server-der-next-generation
 title: "\"IIS 7 - Ein Web-Server der 'Next Generation'?\""
-slug: iis-7-ein-web-server-der-next-generation
 date: 2006-04-27
 status: published
 type: post

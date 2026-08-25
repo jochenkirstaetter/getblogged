@@ -1,7 +1,6 @@
 ---
 uid: ubuntu-jam-uom
 title: Ubuntu Jam at the University of Mauritius
-slug: ubuntu-jam-uom
 date: 2015-07-18
 status: published
 type: post

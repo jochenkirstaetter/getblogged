@@ -1,7 +1,6 @@
 ---
 uid: test-your-internet-connection
 title: Test your internet connection - Emtel Fixed Broadband
-slug: test-your-internet-connection
 date: 2013-05-30
 status: published
 type: post

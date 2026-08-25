@@ -1,7 +1,6 @@
 ---
 uid: saparena
 title: SAP Arena!
-slug: saparena
 date: 2005-09-07
 status: published
 type: post

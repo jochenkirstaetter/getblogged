@@ -1,7 +1,6 @@
 ---
 uid: mscc-20140830-entrepreneurship-and-startup-culture
 title: 'MSCC: Entrepreneurship and start-up culture (in Mauritius)'
-slug: mscc-20140830-entrepreneurship-and-startup-culture
 date: 2014-08-31
 status: published
 type: post

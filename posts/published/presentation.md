@@ -1,7 +1,6 @@
 ---
 uid: presentation
 title: Presentations
-slug: presentation
 date: 2009-12-14
 status: published
 type: post

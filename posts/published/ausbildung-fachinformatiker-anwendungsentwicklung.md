@@ -1,7 +1,6 @@
 ---
 uid: ausbildung-fachinformatiker-anwendungsentwicklung
 title: 'Ausbildung: Fachinformatiker Anwendungsentwicklung'
-slug: ausbildung-fachinformatiker-anwendungsentwicklung
 date: 2005-12-16
 status: published
 type: post

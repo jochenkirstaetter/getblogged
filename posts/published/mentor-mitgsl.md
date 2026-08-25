@@ -1,7 +1,6 @@
 ---
 uid: mentor-mitgsl
 title: Tech Mentor at MIT Global Startup Lab in Mauritius
-slug: mentor-mitgsl
 date: 2017-08-16
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: share-your-journey-150daysofalc4
 title: 'Share your journey - #150DaysOfALC4'
-slug: share-your-journey-150daysofalc4
 date: 2019-08-23
 status: published
 type: post

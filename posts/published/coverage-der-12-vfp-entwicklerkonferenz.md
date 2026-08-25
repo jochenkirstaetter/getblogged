@@ -1,7 +1,6 @@
 ---
 uid: coverage-der-12-vfp-entwicklerkonferenz
 title: Coverage der 12. VFP Entwicklerkonferenz
-slug: coverage-der-12-vfp-entwicklerkonferenz
 date: 2005-11-14
 status: published
 type: post

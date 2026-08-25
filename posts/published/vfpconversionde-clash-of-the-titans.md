@@ -1,7 +1,6 @@
 ---
 uid: vfpconversionde-clash-of-the-titans
 title: VFPConversion.de - Clash of the Titans
-slug: vfpconversionde-clash-of-the-titans
 date: 2006-02-22
 status: published
 type: post

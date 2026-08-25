@@ -1,7 +1,6 @@
 ---
 uid: enabling-dns-for-ipv6-infrastructure
 title: Enabling DNS for IPv6 infrastructure
-slug: enabling-dns-for-ipv6-infrastructure
 date: 2014-03-12
 status: published
 type: post

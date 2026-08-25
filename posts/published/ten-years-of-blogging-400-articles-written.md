@@ -1,7 +1,6 @@
 ---
 uid: ten-years-of-blogging-400-articles-written
 title: Ten years of blogging - 400+ articles written
-slug: ten-years-of-blogging-400-articles-written
 date: 2014-12-13
 status: published
 type: post

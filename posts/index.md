@@ -1,8 +1,8 @@
 ---
 uid: home
-title: Get Blogged by JoKi
-description: The only frontiers are in your mind
-coverImage: content/images/2023/07/GDG_Google_Banner.webp
+title: "Get Blogged by JoKi"
+description: "Software Craftsman, Microsoft MVP, Google Developer Expert, Community Leader"
+layout: default
 image: content/images/2023/07/GDG_Google_Banner.webp
 ogImage: content/images/2023/07/GDG_Google_Banner.webp
 canonicalUrl: https://jochen.kirstaetter.name/
@@ -10,7 +10,7 @@ isHome: true
 bodyClass: home-template
 posts:
 - title: "Mastering the Matrix: Elegant QR Code Generation"
-  slug: mastering-the-matrix-qr-code-generation
+  uid: mastering-the-matrix-qr-code-generation
   date: 2026-08-23
   formattedDate: Aug 23, 2026
   image: content/images/2026/08/mastering-the-matrix-qr-code-generation.webp
@@ -23,7 +23,7 @@ posts:
   tagClass: tag-development
   imageClass: with-image
 - title: "Using Antigravity Remote Control"
-  slug: using-antigravity-remote-control
+  uid: using-antigravity-remote-control
   date: 2026-08-22
   formattedDate: Aug 22, 2026
   image: content/images/2026/08/remote-control-70s.webp
@@ -36,7 +36,7 @@ posts:
   tagClass: tag-ai
   imageClass: with-image
 - title: "Using portless with Firebase Hosting"
-  slug: portless-with-firebase-emulators
+  uid: portless-with-firebase-emulators
   date: 2026-08-21
   formattedDate: Aug 21, 2026
   image: content/images/2026/08/portless-with-firebase-emulators.webp
@@ -49,7 +49,7 @@ posts:
   tagClass: tag-development
   imageClass: with-image
 - title: "Gemma 3 - missing features despite announcement"
-  slug: gemma-3-missing-features-despite-announcement
+  uid: gemma-3-missing-features-despite-announcement
   date: 2025-03-12
   formattedDate: Mar 12, 2025
   image: content/images/2025/03/Gemma3.webp
@@ -62,7 +62,7 @@ posts:
   tagClass: tag-development
   imageClass: with-image
 - title: "Gemini ResponseSchema vs JSON Schema specs of \"type\" as array"
-  slug: gemini-responseschema
+  uid: gemini-responseschema
   date: 2025-01-20
   formattedDate: Jan 20, 2025
   image: content/images/2025/01/Snapshot_2025-01-20_11-02-42.webp
@@ -75,7 +75,7 @@ posts:
   tagClass: tag-development
   imageClass: with-image
 - title: "C# Corner Annual Conference 2017"
-  slug: c-corner-conference-2017
+  uid: c-corner-conference-2017
   date: 2024-05-30
   formattedDate: May 30, 2024
   image: content/images/2024/05/17796494_1503202119690423_6013537920441171383_n.webp
@@ -88,7 +88,7 @@ posts:
   tagClass: tag-community
   imageClass: with-image
 - title: "Untrack files in .gitignore"
-  slug: untrack-files-in-gitignore
+  uid: untrack-files-in-gitignore
   date: 2024-04-05
   formattedDate: Apr 5, 2024
   image: content/images/2024/04/Gemini_Generated_Image_pxek4spxek4spxek.webp
@@ -101,7 +101,7 @@ posts:
   tagClass: tag-development
   imageClass: with-image
 - title: "Quickstart: Use Gemini with .NET (Vertex AI)"
-  slug: quickstart-using-gemini-with-net-vertex-ai
+  uid: quickstart-using-gemini-with-net-vertex-ai
   date: 2024-04-03
   formattedDate: Apr 3, 2024
   image: content/images/2024/04/Gemini_Generated_Image.webp
@@ -114,7 +114,7 @@ posts:
   tagClass: tag-development
   imageClass: with-image
 - title: "Quickstart: Use Gemini with .NET (Google AI)"
-  slug: quickstart-use-gemini-with-net
+  uid: quickstart-use-gemini-with-net
   date: 2024-04-02
   formattedDate: Apr 2, 2024
   image: content/images/2024/04/Gemini_Generated_Image-4-.webp
@@ -127,7 +127,7 @@ posts:
   tagClass: tag-development
   imageClass: with-image
 - title: "NuGet: Better release notes and versioning"
-  slug: nuget-better-release-notes-versioning
+  uid: nuget-better-release-notes-versioning
   date: 2024-03-31
   formattedDate: Mar 31, 2024
   image: content/images/2024/04/_913c222e-d6c8-4431-9586-3c2d42883014.webp
@@ -140,7 +140,7 @@ posts:
   tagClass: tag-development
   imageClass: with-image
 - title: "Automate NuGet package creation using Google Build"
-  slug: automate-nuget-package-creation-google-build
+  uid: automate-nuget-package-creation-google-build
   date: 2024-03-04
   formattedDate: Mar 4, 2024
   image: content/images/2024/03/Gemini_Generated_Image-1-.webp
@@ -153,7 +153,7 @@ posts:
   tagClass: tag-development
   imageClass: with-image
 - title: "Create NuGet packages with Visual Studio / Visual Studio Code"
-  slug: create-nuget-packages-vs-code
+  uid: create-nuget-packages-vs-code
   date: 2024-03-01
   formattedDate: Mar 1, 2024
   image: content/images/2024/03/Gemini_Generated_Image.webp

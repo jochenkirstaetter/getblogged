@@ -1,7 +1,6 @@
 ---
 uid: mscc-wordpress-an-introduction
 title: 'MSCC: WordPress - An Introduction'
-slug: mscc-wordpress-an-introduction
 date: 2014-02-28
 status: published
 type: post

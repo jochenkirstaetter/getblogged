@@ -1,7 +1,6 @@
 ---
 uid: celebrating-earth-hour-2013
 title: Celebrating Earth Hour 2013
-slug: celebrating-earth-hour-2013
 date: 2013-03-23
 status: published
 type: post

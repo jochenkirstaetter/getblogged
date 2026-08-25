@@ -1,7 +1,6 @@
 ---
 uid: azuredev-munich
 title: Azure DEV Meetup Munich
-slug: azuredev-munich
 date: 2020-04-24
 status: published
 type: post

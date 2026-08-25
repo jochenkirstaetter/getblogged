@@ -1,7 +1,6 @@
 ---
 uid: new-face--new-service
 title: New face, new service
-slug: new-face--new-service
 date: 2006-01-25
 status: published
 type: post

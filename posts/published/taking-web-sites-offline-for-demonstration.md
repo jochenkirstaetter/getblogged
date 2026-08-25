@@ -1,7 +1,6 @@
 ---
 uid: taking-web-sites-offline-for-demonstration
 title: Taking web sites offline for demonstration
-slug: taking-web-sites-offline-for-demonstration
 date: 2012-10-29
 status: published
 type: post

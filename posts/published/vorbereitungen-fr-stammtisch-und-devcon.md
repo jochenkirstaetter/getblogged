@@ -1,7 +1,6 @@
 ---
 uid: vorbereitungen-fr-stammtisch-und-devcon
 title: Vorbereitungen für Stammtisch und Devcon
-slug: vorbereitungen-fr-stammtisch-und-devcon
 date: 2005-09-14
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: angularjs
 title: AngularJS by Brad Green and Shyam Seshadri - Some lack of quality
-slug: angularjs
 date: 2014-01-18
 status: published
 type: post

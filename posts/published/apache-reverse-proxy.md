@@ -1,7 +1,6 @@
 ---
 uid: apache-reverse-proxy
 title: Using Apache HTTP as reverse proxy
-slug: apache-reverse-proxy
 date: 2019-01-10
 status: published
 type: post

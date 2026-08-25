@@ -1,7 +1,6 @@
 ---
 uid: dhcpv6-ipv6-in-your-local-network
 title: 'DHCPv6: Provide IPv6 information in your local network'
-slug: dhcpv6-ipv6-in-your-local-network
 date: 2014-03-11
 status: published
 type: post

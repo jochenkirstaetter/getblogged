@@ -1,7 +1,6 @@
 ---
 uid: fox-is-anywhere
 title: Fox Is Anywhere!
-slug: fox-is-anywhere
 date: 2005-02-20
 status: published
 type: post

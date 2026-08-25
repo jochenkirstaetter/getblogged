@@ -1,7 +1,6 @@
 ---
 uid: die-happy-a-culcha-candela
 title: Die Happy & Culcha Candela
-slug: die-happy-a-culcha-candela
 date: 2005-08-27
 status: published
 type: post

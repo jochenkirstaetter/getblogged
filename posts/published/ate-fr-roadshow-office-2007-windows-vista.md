@@ -1,7 +1,6 @@
 ---
 uid: ate-fr-roadshow-office-2007-windows-vista
 title: ATE für Roadshow Office 2007, Windows Vista...
-slug: ate-fr-roadshow-office-2007-windows-vista
 date: 2006-10-09
 status: published
 type: post

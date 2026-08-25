@@ -1,7 +1,6 @@
 ---
 uid: gastbesuch-bei-vfp-stammtisch-stuttgart
 title: Gastbesuch bei VFP Stammtisch Stuttgart
-slug: gastbesuch-bei-vfp-stammtisch-stuttgart
 date: 2004-10-09
 status: published
 type: post

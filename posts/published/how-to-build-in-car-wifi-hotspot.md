@@ -1,7 +1,6 @@
 ---
 uid: how-to-build-in-car-wifi-hotspot
 title: How to build your own 'Emtel In-Car WiFi' hot-spot
-slug: how-to-build-in-car-wifi-hotspot
 date: 2013-12-20
 status: published
 type: post

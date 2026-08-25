@@ -1,7 +1,6 @@
 ---
 uid: firefox-1-5-beta
 title: Firefox 1.5 Beta
-slug: firefox-1-5-beta
 date: 2005-10-10
 status: published
 type: post

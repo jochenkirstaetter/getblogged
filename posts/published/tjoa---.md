@@ -1,7 +1,6 @@
 ---
 uid: tjoa---
 title: Tjoa...
-slug: tjoa---
 date: 2006-11-19
 status: published
 type: post

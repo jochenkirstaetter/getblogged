@@ -1,7 +1,6 @@
 ---
 uid: representing-mauritius-in-the-2013-bench-games
 title: Representing Mauritius in the 2013 Bench Games
-slug: representing-mauritius-in-the-2013-bench-games
 date: 2013-10-29
 status: published
 type: post

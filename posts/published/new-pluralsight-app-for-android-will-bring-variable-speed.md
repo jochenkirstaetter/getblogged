@@ -1,7 +1,6 @@
 ---
 uid: new-pluralsight-app-for-android-will-bring-variable-speed
 title: New Pluralsight app for Android will bring variable speed
-slug: new-pluralsight-app-for-android-will-bring-variable-speed
 date: 2013-06-18
 status: published
 type: post

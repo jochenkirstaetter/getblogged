@@ -1,7 +1,6 @@
 ---
 uid: usertreffen----und-kein-ende-in-sicht
 title: Usertreffen... und kein Ende in Sicht
-slug: usertreffen----und-kein-ende-in-sicht
 date: 2004-10-17
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: god-gave-rock-n-roll-to-us
 title: God gave Rock 'n Roll to us.
-slug: god-gave-rock-n-roll-to-us
 date: 2005-10-26
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: 250-artikel-in-gut-2-jahren
 title: 250 Artikel in gut 2 Jahren?
-slug: 250-artikel-in-gut-2-jahren
 date: 2006-08-25
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: microsoft-edge-insider
 title: Microsoft Edge Insider (Draft)
-slug: microsoft-edge-insider
 date: 2019-04-09
 status: draft
 type: post

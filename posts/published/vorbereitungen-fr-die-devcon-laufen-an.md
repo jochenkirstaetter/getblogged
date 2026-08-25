@@ -1,7 +1,6 @@
 ---
 uid: vorbereitungen-fr-die-devcon-laufen-an
 title: Vorbereitungen für die Devcon laufen an...
-slug: vorbereitungen-fr-die-devcon-laufen-an
 date: 2005-04-11
 status: published
 type: post

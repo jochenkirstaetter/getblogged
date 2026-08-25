@@ -1,7 +1,6 @@
 ---
 uid: mauritius-vibrations
 title: 'App Review: Mauritius Vibrations'
-slug: mauritius-vibrations
 date: 2014-03-05
 status: published
 type: post

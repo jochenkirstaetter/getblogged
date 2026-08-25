@@ -1,7 +1,6 @@
 ---
 uid: and-again-vmware-player-404-on-ubuntu-1204-precise-pangolin
 title: And again... VMware Player 4.0.4 on Ubuntu 12.04 (Precise Pangolin)
-slug: and-again-vmware-player-404-on-ubuntu-1204-precise-pangolin
 date: 2012-06-15
 status: published
 type: post

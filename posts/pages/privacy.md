@@ -1,7 +1,6 @@
 ---
 uid: privacy
 title: Privacy Policy
-slug: privacy
 date: 2026-08-23
 status: published
 type: page

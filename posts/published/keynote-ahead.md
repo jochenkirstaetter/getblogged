@@ -1,7 +1,6 @@
 ---
 uid: keynote-ahead
 title: Keynote ahead
-slug: keynote-ahead
 date: 2006-02-08
 status: published
 type: post

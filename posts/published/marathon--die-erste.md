@@ -1,7 +1,6 @@
 ---
 uid: marathon--die-erste
 title: Marathon, die Erste
-slug: marathon--die-erste
 date: 2005-05-04
 status: published
 type: post

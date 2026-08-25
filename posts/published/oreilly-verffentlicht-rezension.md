@@ -1,7 +1,6 @@
 ---
 uid: oreilly-verffentlicht-rezension
 title: O'Reilly veröffentlicht Rezension
-slug: oreilly-verffentlicht-rezension
 date: 2005-08-12
 status: published
 type: post

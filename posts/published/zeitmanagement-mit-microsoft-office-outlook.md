@@ -1,7 +1,6 @@
 ---
 uid: zeitmanagement-mit-microsoft-office-outlook
 title: Zeitmanagement mit Microsoft Office Outlook
-slug: zeitmanagement-mit-microsoft-office-outlook
 date: 2006-09-02
 status: published
 type: post

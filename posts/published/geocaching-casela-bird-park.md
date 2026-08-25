@@ -1,7 +1,6 @@
 ---
 uid: geocaching-casela-bird-park
 title: Geocaching - Casela Bird Park (GC1BPF1)
-slug: geocaching-casela-bird-park
 date: 2013-01-26
 status: published
 type: post

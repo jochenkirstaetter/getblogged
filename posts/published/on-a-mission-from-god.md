@@ -1,7 +1,6 @@
 ---
 uid: on-a-mission-from-god
 title: On a mission from god
-slug: on-a-mission-from-god
 date: 2006-01-27
 status: published
 type: post

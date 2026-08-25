@@ -1,7 +1,6 @@
 ---
 uid: alc4-cloud-run
 title: Using Cloud Run instead of GKE
-slug: alc4-cloud-run
 date: 2019-11-26
 status: published
 type: post

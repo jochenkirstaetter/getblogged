@@ -1,7 +1,6 @@
 ---
 uid: getting-started-with-gemini-using-vs-http
 title: Getting started with Gemini using Visual Studio
-slug: getting-started-with-gemini-using-vs-http
 date: 2024-02-22
 status: published
 type: post

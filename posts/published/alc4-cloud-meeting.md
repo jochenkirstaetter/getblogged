@@ -1,7 +1,6 @@
 ---
 uid: alc4-cloud-meeting
 title: ALC 4.0 Cloud - Phase II Online Meet up
-slug: alc4-cloud-meeting
 date: 2019-09-02
 status: published
 type: post

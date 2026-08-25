@@ -1,7 +1,6 @@
 ---
 uid: stammtisch-seite-aktualisiert
 title: Stammtisch-Seite aktualisiert
-slug: stammtisch-seite-aktualisiert
 date: 2005-09-20
 status: published
 type: post

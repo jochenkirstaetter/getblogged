@@ -1,7 +1,6 @@
 ---
 uid: listed-at-foxblogs-tagcloud
 title: Listed at FoxBlogs (TagCloud)
-slug: listed-at-foxblogs-tagcloud
 date: 2005-12-29
 status: published
 type: post

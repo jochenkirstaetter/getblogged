@@ -1,7 +1,6 @@
 ---
 uid: geocaching-world-wide-treasure-hunt
 title: Geocaching - World wide treasure hunt
-slug: geocaching-world-wide-treasure-hunt
 date: 2012-12-07
 status: published
 type: post

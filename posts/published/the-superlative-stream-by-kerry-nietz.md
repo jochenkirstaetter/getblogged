@@ -1,7 +1,6 @@
 ---
 uid: the-superlative-stream-by-kerry-nietz
 title: The Superlative Stream by Kerry Nietz
-slug: the-superlative-stream-by-kerry-nietz
 date: 2014-01-07
 status: published
 type: post

@@ -1,5 +1,5 @@
 ---
-uid: tag-recension
+uid: tag-Recension
 title: "Recension"
 layout: tag
 isTagPage: true
@@ -12,7 +12,25 @@ image: content/images/2018/10/100DaysOfExam_Site.webp
 
 ## Articles
 
+- [How to Give a Talk When You Don't Really Want To (Draft)](xref:untitled-how-to-give-a-talk-when-you-dont-really-want-to) - *Nov 1, 2023*
 - [Sapiens: A Brief History of Humankind](xref:sapiens-a-brief-history-of-mankind) - *Sep 26, 2023*
+- [androids (Draft)](xref:androids) - *Aug 23, 2023*
+- [Visualising Google Cloud (Draft)](xref:untitled-visualizing-google-cloud) - *Aug 23, 2023*
+- [UNIX - A History and a Memoir (Draft)](xref:unix) - *Aug 23, 2023*
+- [Thinking: Fast and Slow (Draft)](xref:thinking-fast-and-slow) - *Aug 23, 2023*
+- [The Three-Body Problem series (Draft)](xref:the-three-body-problem-series) - *Aug 23, 2023*
+- [The DarkTrench Shadow series (Draft)](xref:the-darktrench-shadow-series) - *Aug 23, 2023*
+- [Takamo Universe Novels (Draft)](xref:takamo-universe-novels) - *Aug 23, 2023*
+- [Pro Git (Draft)](xref:pro-git) - *Aug 23, 2023*
+- [P-AI-R Programming (Draft)](xref:p-ai-r-programming) - *Aug 23, 2023*
+- [Microservices Communication in .NET using gRPC (Draft)](xref:microservices-communication-in-net-using-grpc) - *Aug 23, 2023*
+- [Hidden in Plain Sight series (Draft)](xref:hidden-in-plain-sight) - *Aug 23, 2023*
+- [Google Cloud for Developers (Draft)](xref:google-cloud-for-developers) - *Aug 23, 2023*
+- [Don't say that at work! (Draft)](xref:dont-say-that-at-work) - *Aug 23, 2023*
+- [Cloud Engineering for Beginners (Draft)](xref:cloud-engineering-for-beginners) - *Aug 23, 2023*
+- [Astrophysics for People in a Hurry (Draft)](xref:astrophysics-for-people-in-a-hurry) - *Aug 23, 2023*
+- [A Growth Hackers Guide to the Galaxy (Draft)](xref:a-growth-hackers-guide-to-the-galaxy) - *Aug 23, 2023*
+- [The 50 Next Moves: Hands-on Strategies for Startup Growth (Draft)](xref:untitled-4) - *Mar 8, 2022*
 - [Rock Your Code: Defensive Programming for Microsoft .NET by David McCarter](xref:rock-your-code-defensive-programming-for-microsoft-net) - *Feb 3, 2019*
 - [Learn to Code in Swift: The new language of iOS Apps by Kevin McNeish](xref:learn-to-code-in-swift) - *Feb 28, 2016*
 - [High Performance Responsive Design by Tom Barker](xref:high-performance-responsive-design) - *Nov 16, 2014*

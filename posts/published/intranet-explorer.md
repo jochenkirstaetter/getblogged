@@ -1,7 +1,6 @@
 ---
 uid: intranet-explorer
 title: Intranet Explorer
-slug: intranet-explorer
 date: 2005-10-12
 status: published
 type: post

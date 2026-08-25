@@ -1,7 +1,6 @@
 ---
 uid: programming-windows-8-apps-with-html-css-and-javascript
 title: Programming Windows 8 Apps with HTML, CSS, and JavaScript - All you need in one title
-slug: programming-windows-8-apps-with-html-css-and-javascript
 date: 2013-05-20
 status: published
 type: post

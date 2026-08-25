@@ -1,7 +1,6 @@
 ---
 uid: semitransparente-forms-erstellen
 title: Semitransparente 'Forms' erstellen
-slug: semitransparente-forms-erstellen
 date: 2006-10-29
 status: published
 type: post

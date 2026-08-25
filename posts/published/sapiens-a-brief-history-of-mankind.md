@@ -1,7 +1,6 @@
 ---
 uid: sapiens-a-brief-history-of-mankind
 title: 'Sapiens: A Brief History of Humankind'
-slug: sapiens-a-brief-history-of-mankind
 date: 2023-09-26
 status: published
 type: post

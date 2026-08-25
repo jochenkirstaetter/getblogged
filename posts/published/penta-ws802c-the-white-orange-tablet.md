@@ -1,7 +1,6 @@
 ---
 uid: penta-ws802c-the-white-orange-tablet
 title: Pantel Penta WS802C (aka The white Orange tablet)
-slug: penta-ws802c-the-white-orange-tablet
 date: 2013-05-22
 status: published
 type: post

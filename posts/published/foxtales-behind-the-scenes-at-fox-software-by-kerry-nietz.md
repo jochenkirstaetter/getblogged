@@ -1,7 +1,6 @@
 ---
 uid: foxtales-behind-the-scenes-at-fox-software-by-kerry-nietz
 title: 'FoxTales: Behind the Scenes at Fox Software by Kerry Nietz'
-slug: foxtales-behind-the-scenes-at-fox-software-by-kerry-nietz
 date: 2013-06-10
 status: published
 type: post

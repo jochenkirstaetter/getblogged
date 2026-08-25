@@ -1,7 +1,6 @@
 ---
 uid: vacations-on-rodrigues
 title: Vacations on Rodrigues 2014
-slug: vacations-on-rodrigues
 date: 2014-08-14
 status: published
 type: post

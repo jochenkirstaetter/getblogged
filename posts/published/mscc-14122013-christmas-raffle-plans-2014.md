@@ -1,7 +1,6 @@
 ---
 uid: mscc-14122013-christmas-raffle-plans-2014
 title: 'MSCC: Christmas raffle and plans for 2014'
-slug: mscc-14122013-christmas-raffle-plans-2014
 date: 2013-12-17
 status: published
 type: post

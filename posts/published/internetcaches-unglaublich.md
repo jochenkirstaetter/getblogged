@@ -1,7 +1,6 @@
 ---
 uid: internetcaches-unglaublich
 title: Internetcaches - unglaublich!
-slug: internetcaches-unglaublich
 date: 2006-04-18
 status: published
 type: post

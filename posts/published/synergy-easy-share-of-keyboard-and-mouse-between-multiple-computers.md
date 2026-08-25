@@ -1,7 +1,6 @@
 ---
 uid: synergy-easy-share-of-keyboard-and-mouse-between-multiple-computers
 title: Synergy - easy share of keyboard and mouse between multiple computers
-slug: synergy-easy-share-of-keyboard-and-mouse-between-multiple-computers
 date: 2012-07-23
 status: published
 type: post

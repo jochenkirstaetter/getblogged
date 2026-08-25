@@ -1,7 +1,6 @@
 ---
 uid: freizeit
 title: Freizeit?
-slug: freizeit
 date: 2005-12-15
 status: published
 type: post

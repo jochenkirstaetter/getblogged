@@ -1,7 +1,6 @@
 ---
 uid: pathinfo-plugin-fr-afp
 title: PathInfo Plugin für AFP
-slug: pathinfo-plugin-fr-afp
 date: 2006-04-11
 status: published
 type: post

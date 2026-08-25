@@ -1,7 +1,6 @@
 ---
 uid: nachlese-vfp-stammtisch-speyer-im-april
 title: 'Nachlese: VFP Stammtisch Speyer im April'
-slug: nachlese-vfp-stammtisch-speyer-im-april
 date: 2005-04-20
 status: published
 type: post

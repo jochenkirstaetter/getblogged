@@ -1,7 +1,6 @@
 ---
 uid: small-hiccup-with-vmware-player-after-upgrading-to-ubuntu-1204
 title: Small hiccup with VMware Player after upgrading to Ubuntu 12.04
-slug: small-hiccup-with-vmware-player-after-upgrading-to-ubuntu-1204
 date: 2012-04-30
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: letsencrypt-azure-app-service
 title: Let's Encrypt an Azure App Service (Draft)
-slug: letsencrypt-azure-app-service
 date: 2018-10-04
 status: draft
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: vorbereitungen-fr-den-stammtisch
 title: Vorbereitungen für den Stammtisch
-slug: vorbereitungen-fr-den-stammtisch
 date: 2005-02-15
 status: published
 type: post

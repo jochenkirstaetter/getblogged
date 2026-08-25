@@ -1,7 +1,6 @@
 ---
 uid: schreiben-an-die-gez
 title: Schreiben an die GEZ
-slug: schreiben-an-die-gez
 date: 2005-10-02
 status: published
 type: post

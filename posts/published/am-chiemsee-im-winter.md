@@ -1,7 +1,6 @@
 ---
 uid: am-chiemsee-im-winter
 title: Am Chiemsee im Winter
-slug: am-chiemsee-im-winter
 date: 2007-01-26
 status: published
 type: post

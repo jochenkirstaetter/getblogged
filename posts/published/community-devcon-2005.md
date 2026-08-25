@@ -1,7 +1,6 @@
 ---
 uid: community-devcon-2005
 title: Community DevCon 2005
-slug: community-devcon-2005
 date: 2005-02-19
 status: published
 type: post

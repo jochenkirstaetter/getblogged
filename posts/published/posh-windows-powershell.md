@@ -1,7 +1,6 @@
 ---
 uid: posh-windows-powershell
 title: PoSh - Windows PowerShell
-slug: posh-windows-powershell
 date: 2006-04-30
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: vfp-umfrage-von-microsoft
 title: VFP Umfrage von Microsoft
-slug: vfp-umfrage-von-microsoft
 date: 2005-04-07
 status: published
 type: post

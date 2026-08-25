@@ -1,7 +1,6 @@
 ---
 uid: feedback-on-lugm-meeting-15-06-2013
 title: Feedback on meeting of the Linux User Group of Mauritius
-slug: feedback-on-lugm-meeting-15-06-2013
 date: 2013-06-17
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: lets-rock-with-my-and-maria
 title: Lets rock with MySQL and MariaDB
-slug: lets-rock-with-my-and-maria
 date: 2015-01-02
 status: published
 type: post

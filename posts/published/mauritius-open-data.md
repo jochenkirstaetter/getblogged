@@ -1,7 +1,6 @@
 ---
 uid: mauritius-open-data
 title: Mauritius Open Data Readiness Assessment (ODRA)
-slug: mauritius-open-data
 date: 2015-11-07
 status: published
 type: post

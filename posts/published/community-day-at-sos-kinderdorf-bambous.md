@@ -1,7 +1,6 @@
 ---
 uid: community-day-at-sos-kinderdorf-bambous
 title: Community Day at SOS Kinderdorf Bambous
-slug: community-day-at-sos-kinderdorf-bambous
 date: 2010-04-09
 status: published
 type: post

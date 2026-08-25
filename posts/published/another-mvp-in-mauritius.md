@@ -1,7 +1,6 @@
 ---
 uid: another-mvp-in-mauritius
 title: Another MVP in Mauritius
-slug: another-mvp-in-mauritius
 date: 2008-03-14
 status: published
 type: post

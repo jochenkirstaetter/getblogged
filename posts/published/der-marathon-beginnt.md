@@ -1,7 +1,6 @@
 ---
 uid: der-marathon-beginnt
 title: Der Marathon beginnt...
-slug: der-marathon-beginnt
 date: 2004-11-10
 status: published
 type: post

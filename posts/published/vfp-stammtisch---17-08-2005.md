@@ -1,7 +1,6 @@
 ---
 uid: vfp-stammtisch---17-08-2005
 title: VFP Stammtisch - 17.08.2005
-slug: vfp-stammtisch---17-08-2005
 date: 2005-08-16
 status: published
 type: post

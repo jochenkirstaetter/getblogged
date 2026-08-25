@@ -1,7 +1,6 @@
 ---
 uid: april--april---nachlese-zum-vfp-stammtisch
 title: April, April - Nachlese zum VFP Stammtisch
-slug: april--april---nachlese-zum-vfp-stammtisch
 date: 2006-04-19
 status: published
 type: post

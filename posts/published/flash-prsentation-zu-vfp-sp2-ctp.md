@@ -1,7 +1,6 @@
 ---
 uid: flash-prsentation-zu-vfp-sp2-ctp
 title: Flash-Präsentation zu VFP SP2 CTP
-slug: flash-prsentation-zu-vfp-sp2-ctp
 date: 2006-10-31
 status: published
 type: post

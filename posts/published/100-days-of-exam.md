@@ -1,7 +1,6 @@
 ---
 uid: 100-days-of-exam
 title: 100 Days of Exam
-slug: 100-days-of-exam
 date: 2018-03-13
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: die-bahn-ist-pnktlich
 title: Die Bahn ist pünktlich...
-slug: die-bahn-ist-pnktlich
 date: 2006-09-09
 status: published
 type: post

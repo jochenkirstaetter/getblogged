@@ -1,7 +1,6 @@
 ---
 uid: microsoft-sharepoint-2013-administration-inside-out
 title: Microsoft SharePoint 2013 Administration Inside Out
-slug: microsoft-sharepoint-2013-administration-inside-out
 date: 2014-11-13
 status: published
 type: post

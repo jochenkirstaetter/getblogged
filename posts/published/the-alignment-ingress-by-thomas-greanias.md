@@ -1,7 +1,6 @@
 ---
 uid: the-alignment-ingress-by-thomas-greanias
 title: 'The Alignment: Ingress by Thomas Greanias'
-slug: the-alignment-ingress-by-thomas-greanias
 date: 2013-04-06
 status: published
 type: post

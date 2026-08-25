@@ -1,7 +1,6 @@
 ---
 uid: community-exchange-and-discussion
 title: Communities - The importance of exchange and discussion
-slug: community-exchange-and-discussion
 date: 2013-05-29
 status: published
 type: post

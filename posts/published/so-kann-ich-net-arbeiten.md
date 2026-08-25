@@ -1,7 +1,6 @@
 ---
 uid: so-kann-ich-net-arbeiten
 title: So kann ich net arbeiten!
-slug: so-kann-ich-net-arbeiten
 date: 2005-02-15
 status: published
 type: post

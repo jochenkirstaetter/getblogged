@@ -1,7 +1,6 @@
 ---
 uid: mscc-scripting-administrators-toolbox-of-magic
 title: "MSCC: Scripting - Administrator's­ toolbox of magic..."
-slug: mscc-scripting-administrators-toolbox-of-magic
 date: 2014-05-04
 status: published
 type: post

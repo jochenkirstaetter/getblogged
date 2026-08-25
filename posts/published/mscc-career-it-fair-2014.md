@@ -1,7 +1,6 @@
 ---
 uid: mscc-career-it-fair-2014
 title: 'MSCC: Career & IT Fair 2014'
-slug: mscc-career-it-fair-2014
 date: 2014-04-26
 status: published
 type: post

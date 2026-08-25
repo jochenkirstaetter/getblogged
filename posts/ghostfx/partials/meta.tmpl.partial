@@ -12,18 +12,28 @@
 <link rel="canonical" href="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}">
 {{/isHome}}
 {{^isHome}}
+{{#uid}}
+<link rel="canonical" href="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}{{uid}}.html">
+{{/uid}}
+{{^uid}}
 {{#slug}}
 <link rel="canonical" href="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}{{slug}}.html">
 {{/slug}}
 {{^slug}}
 <link rel="canonical" href="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}">
 {{/slug}}
+{{/uid}}
 {{/isHome}}
 {{/canonicalUrl}}
 
+{{#uid}}
+<link rel="alternate" type="text/markdown" title="Markdown Source" href="{{_rel}}raw/{{uid}}.md">
+{{/uid}}
+{{^uid}}
 {{#slug}}
 <link rel="alternate" type="text/markdown" title="Markdown Source" href="{{_rel}}raw/{{slug}}.md">
 {{/slug}}
+{{/uid}}
 {{#isHome}}
 <link rel="alternate" type="text/markdown" title="Machine-Readable Manifest (llms.txt)" href="{{_rel}}llms.txt">
 <link rel="alternate" type="text/markdown" title="Full Knowledge Base (llms-full.txt)" href="{{_rel}}llms-full.txt">

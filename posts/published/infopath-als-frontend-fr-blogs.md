@@ -1,7 +1,6 @@
 ---
 uid: infopath-als-frontend-fr-blogs
 title: InfoPath als Frontend für Blogs
-slug: infopath-als-frontend-fr-blogs
 date: 2006-04-22
 status: published
 type: post

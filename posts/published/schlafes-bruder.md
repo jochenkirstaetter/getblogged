@@ -1,7 +1,6 @@
 ---
 uid: schlafes-bruder
 title: Schlafes Bruder
-slug: schlafes-bruder
 date: 2005-04-29
 status: published
 type: post

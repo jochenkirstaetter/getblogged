@@ -1,7 +1,6 @@
 ---
 uid: mscc-global-windows-azure-bootcamp
 title: 'MSCC: Global Windows Azure Bootcamp'
-slug: mscc-global-windows-azure-bootcamp
 date: 2014-04-02
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: bauen-wir-uns-einen-webserver
 title: Bauen wir uns einen Webserver
-slug: bauen-wir-uns-einen-webserver
 date: 2006-03-26
 status: published
 type: post

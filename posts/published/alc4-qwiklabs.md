@@ -1,7 +1,6 @@
 ---
 uid: alc4-qwiklabs
 title: ALC 4.0 Cloud - Access to Qwiklabs
-slug: alc4-qwiklabs
 date: 2019-09-04
 status: published
 type: post

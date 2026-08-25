@@ -1,7 +1,6 @@
 ---
 uid: microsoft-virtual-academy
 title: Microsoft Virtual Academy
-slug: microsoft-virtual-academy
 date: 2011-10-13
 status: published
 type: post

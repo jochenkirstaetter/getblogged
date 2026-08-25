@@ -1,7 +1,6 @@
 ---
 uid: accessing-apache2-web-server-via-ipv6
 title: Accessing your web server via IPv6
-slug: accessing-apache2-web-server-via-ipv6
 date: 2014-03-16
 status: published
 type: post

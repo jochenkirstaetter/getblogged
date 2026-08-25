@@ -1,7 +1,6 @@
 ---
 uid: kuehe-auf-nachtwanderung
 title: Kühe auf Nachtwanderung
-slug: kuehe-auf-nachtwanderung
 date: 2005-10-15
 status: published
 type: post

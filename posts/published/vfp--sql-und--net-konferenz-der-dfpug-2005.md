@@ -1,7 +1,6 @@
 ---
 uid: vfp--sql-und--net-konferenz-der-dfpug-2005
 title: VFP, SQL und .NET Konferenz der dFPUG 2005
-slug: vfp--sql-und--net-konferenz-der-dfpug-2005
 date: 2005-09-06
 status: published
 type: post

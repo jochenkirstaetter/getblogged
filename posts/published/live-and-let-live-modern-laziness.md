@@ -1,7 +1,6 @@
 ---
 uid: live-and-let-live-modern-laziness
 title: Live and let live - modern laziness...
-slug: live-and-let-live-modern-laziness
 date: 2015-06-28
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: net-per-com-nutzen
 title: .NET per COM nutzen
-slug: net-per-com-nutzen
 date: 2006-04-19
 status: published
 type: post

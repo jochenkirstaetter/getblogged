@@ -1,7 +1,6 @@
 ---
 uid: browser-upgrades
 title: Browser-Upgrades
-slug: browser-upgrades
 date: 2005-09-21
 status: published
 type: post

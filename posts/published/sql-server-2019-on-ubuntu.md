@@ -1,7 +1,6 @@
 ---
 uid: sql-server-2019-on-ubuntu
 title: Installing SQL Server 2019 and tools on Ubuntu 20.04
-slug: sql-server-2019-on-ubuntu
 date: 2022-03-25
 status: published
 type: post

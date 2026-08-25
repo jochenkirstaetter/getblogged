@@ -1,7 +1,6 @@
 ---
 uid: driving-business-forward
 title: Driving Business Forward - A new approach to social media in Mauritius
-slug: driving-business-forward
 date: 2013-01-28
 status: published
 type: post

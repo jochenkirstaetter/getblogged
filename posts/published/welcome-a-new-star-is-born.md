@@ -1,7 +1,6 @@
 ---
 uid: welcome-a-new-star-is-born
 title: Welcome - A new star is born!
-slug: welcome-a-new-star-is-born
 date: 2010-05-27
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: windows10-quick-installation
 title: How to get your computer from blank disk(s) to fully operational in no time... (Windows edition)
-slug: windows10-quick-installation
 date: 2018-07-28
 status: published
 type: post

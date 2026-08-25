@@ -1,7 +1,6 @@
 ---
 uid: es-wird-konkreter---
 title: Es wird konkreter...
-slug: es-wird-konkreter---
 date: 2005-04-04
 status: published
 type: post

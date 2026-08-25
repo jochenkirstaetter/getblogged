@@ -1,7 +1,6 @@
 ---
 uid: the-30-days-microsoft-sharepoint-challenge
 title: The 30 days of Microsoft SharePoint challenge
-slug: the-30-days-microsoft-sharepoint-challenge
 date: 2013-08-31
 status: published
 type: post

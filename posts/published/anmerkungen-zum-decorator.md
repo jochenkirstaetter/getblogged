@@ -1,7 +1,6 @@
 ---
 uid: anmerkungen-zum-decorator
 title: Anmerkungen zum Decorator Design Pattern
-slug: anmerkungen-zum-decorator
 date: 2006-11-01
 status: published
 type: post

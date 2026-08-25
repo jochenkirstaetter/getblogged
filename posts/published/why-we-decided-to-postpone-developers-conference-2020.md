@@ -1,7 +1,6 @@
 ---
 uid: why-we-decided-to-postpone-developers-conference-2020
 title: Why we decided to postpone Developers Conference 2020
-slug: why-we-decided-to-postpone-developers-conference-2020
 date: 2020-03-17
 status: published
 type: post

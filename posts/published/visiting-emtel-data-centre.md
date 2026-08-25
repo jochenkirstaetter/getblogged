@@ -1,7 +1,6 @@
 ---
 uid: visiting-emtel-data-centre
 title: Visiting the Emtel Data Centre
-slug: visiting-emtel-data-centre
 date: 2014-08-08
 status: published
 type: post

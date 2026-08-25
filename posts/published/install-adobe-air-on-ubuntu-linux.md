@@ -1,7 +1,6 @@
 ---
 uid: install-adobe-air-on-ubuntu-linux
 title: Install Adobe AIR on Ubuntu/Linux
-slug: install-adobe-air-on-ubuntu-linux
 date: 2010-03-19
 status: published
 type: post

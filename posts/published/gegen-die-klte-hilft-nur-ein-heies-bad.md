@@ -1,7 +1,6 @@
 ---
 uid: gegen-die-klte-hilft-nur-ein-heies-bad
 title: Gegen die Kälte hilft nur ein heißes Bad
-slug: gegen-die-klte-hilft-nur-ein-heies-bad
 date: 2005-02-18
 status: published
 type: post

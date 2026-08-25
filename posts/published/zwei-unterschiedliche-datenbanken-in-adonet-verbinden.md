@@ -1,7 +1,6 @@
 ---
 uid: zwei-unterschiedliche-datenbanken-in-adonet-verbinden
 title: Zwei unterschiedliche Datenbanken in ADO.NET verbinden
-slug: zwei-unterschiedliche-datenbanken-in-adonet-verbinden
 date: 2006-04-28
 status: published
 type: post

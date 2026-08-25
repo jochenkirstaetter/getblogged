@@ -1,7 +1,6 @@
 ---
 uid: noch-ein-wiki
 title: Noch ein Wiki
-slug: noch-ein-wiki
 date: 2005-02-23
 status: published
 type: post

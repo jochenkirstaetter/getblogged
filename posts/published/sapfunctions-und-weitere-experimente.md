@@ -1,7 +1,6 @@
 ---
 uid: sapfunctions-und-weitere-experimente
 title: SAP.Functions und weitere Experimente
-slug: sapfunctions-und-weitere-experimente
 date: 2006-08-24
 status: published
 type: post

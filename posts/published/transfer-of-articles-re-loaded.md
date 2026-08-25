@@ -1,7 +1,6 @@
 ---
 uid: transfer-of-articles-re-loaded
 title: Transfer of articles re-loaded
-slug: transfer-of-articles-re-loaded
 date: 2008-02-24
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: write-better-code-with-gemini-ai
 title: Write better code with Gemini AI (Draft)
-slug: write-better-code-with-gemini-ai
 date: 2024-03-30
 status: draft
 type: post

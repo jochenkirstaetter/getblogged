@@ -1,7 +1,6 @@
 ---
 uid: runtimeinstaller-for-visual-foxpro-90-sp2-ctp
 title: RuntimeInstaller for Visual FoxPro 9.0 SP2 CTP
-slug: runtimeinstaller-for-visual-foxpro-90-sp2-ctp
 date: 2006-10-14
 status: published
 type: post

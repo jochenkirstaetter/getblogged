@@ -1,7 +1,6 @@
 ---
 uid: orange-mauritius-smtp-auth
 title: Some mail details about Orange Mauritius
-slug: orange-mauritius-smtp-auth
 date: 2011-02-11
 status: published
 type: post

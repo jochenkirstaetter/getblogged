@@ -1,7 +1,6 @@
 ---
 uid: nginx-reverse-proxy
 title: Using nginx as reverse proxy
-slug: nginx-reverse-proxy
 date: 2019-01-08
 status: published
 type: post

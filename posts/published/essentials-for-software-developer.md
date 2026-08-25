@@ -1,7 +1,6 @@
 ---
 uid: essentials-for-software-developer
 title: Essentials for software developer or any computer job
-slug: essentials-for-software-developer
 date: 2013-05-13
 status: published
 type: post

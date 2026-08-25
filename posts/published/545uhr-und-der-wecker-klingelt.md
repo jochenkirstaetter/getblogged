@@ -1,7 +1,6 @@
 ---
 uid: 545uhr-und-der-wecker-klingelt
 title: 5:45 Uhr und der Wecker klingelt
-slug: 545uhr-und-der-wecker-klingelt
 date: 2006-02-08
 status: published
 type: post

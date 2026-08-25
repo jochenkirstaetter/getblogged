@@ -1,7 +1,6 @@
 ---
 uid: finally-tweeting
 title: Finally tweeting
-slug: finally-tweeting
 date: 2010-02-08
 status: published
 type: post

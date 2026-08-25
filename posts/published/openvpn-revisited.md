@@ -1,7 +1,6 @@
 ---
 uid: openvpn-revisited
 title: OpenVPN re-visited
-slug: openvpn-revisited
 date: 2018-08-28
 status: published
 type: post

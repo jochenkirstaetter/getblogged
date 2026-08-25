@@ -1,7 +1,6 @@
 ---
 uid: john-onolan
 title: Campsite fire talk with John O'Nolan
-slug: john-onolan
 date: 2018-11-13
 status: published
 type: post

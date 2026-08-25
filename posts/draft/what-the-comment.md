@@ -1,7 +1,6 @@
 ---
 uid: what-the-comment
 title: What the comment? (Draft)
-slug: what-the-comment
 date: 2018-10-08
 status: draft
 type: post

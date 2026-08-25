@@ -1,7 +1,6 @@
 ---
 uid: introducing-microsoft-sql-server-2005-for-developers
 title: Introducing Microsoft SQL Server 2005 For Developers
-slug: introducing-microsoft-sql-server-2005-for-developers
 date: 2005-07-14
 status: published
 type: post

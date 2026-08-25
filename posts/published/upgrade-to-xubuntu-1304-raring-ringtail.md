@@ -1,7 +1,6 @@
 ---
 uid: upgrade-to-xubuntu-1304-raring-ringtail
 title: Upgrade to Xubuntu 13.04 - Raring Ringtail
-slug: upgrade-to-xubuntu-1304-raring-ringtail
 date: 2013-05-09
 status: published
 type: post

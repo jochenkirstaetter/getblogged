@@ -1,5 +1,5 @@
 ---
-uid: tag-general
+uid: tag-General
 title: "General"
 layout: tag
 isTagPage: true

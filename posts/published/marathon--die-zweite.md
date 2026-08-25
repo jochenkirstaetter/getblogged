@@ -1,7 +1,6 @@
 ---
 uid: marathon--die-zweite
 title: Marathon, die Zweite
-slug: marathon--die-zweite
 date: 2005-05-06
 status: published
 type: post

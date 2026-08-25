@@ -1,7 +1,6 @@
 ---
 uid: switch-to-english-language
 title: Switch to English language
-slug: switch-to-english-language
 date: 2008-01-17
 status: published
 type: post

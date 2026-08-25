@@ -1,7 +1,6 @@
 ---
 uid: google-maps-api
 title: 'Build anything with Google: Google Maps APIs'
-slug: google-maps-api
 date: 2018-01-31
 status: published
 type: post

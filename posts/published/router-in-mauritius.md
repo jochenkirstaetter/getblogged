@@ -1,7 +1,6 @@
 ---
 uid: router-in-mauritius
 title: Inspecting internet router in Mauritius
-slug: router-in-mauritius
 date: 2017-10-18
 status: published
 type: post

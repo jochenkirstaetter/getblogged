@@ -1,7 +1,6 @@
 ---
 uid: install-jitsi-meet-on-gcp
 title: Install Jitsi Meet on Compute Engine (GCP)
-slug: install-jitsi-meet-on-gcp
 date: 2020-04-16
 status: published
 type: post

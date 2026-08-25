@@ -1,7 +1,6 @@
 ---
 uid: verspteter-einstieg-in-die-welt-der-blogs
 title: Verspäteter Einstieg in die Welt der Blogs...
-slug: verspteter-einstieg-in-die-welt-der-blogs
 date: 2004-07-12
 status: published
 type: post

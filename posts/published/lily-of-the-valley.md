@@ -1,7 +1,6 @@
 ---
 uid: lily-of-the-valley
 title: Lily of the Valley
-slug: lily-of-the-valley
 date: 2005-10-17
 status: published
 type: post

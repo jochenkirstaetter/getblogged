@@ -1,7 +1,6 @@
 ---
 uid: alc4-cloud-challenge
 title: ALC 4.0 Cloud Challenge I
-slug: alc4-cloud-challenge
 date: 2019-10-18
 status: published
 type: post

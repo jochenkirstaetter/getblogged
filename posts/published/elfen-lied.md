@@ -1,7 +1,6 @@
 ---
 uid: elfen-lied
 title: Elfen Lied
-slug: elfen-lied
 date: 2006-11-18
 status: published
 type: post

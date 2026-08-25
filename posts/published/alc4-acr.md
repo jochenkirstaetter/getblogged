@@ -1,7 +1,6 @@
 ---
 uid: alc4-acr
 title: Working with Azure Container Registry
-slug: alc4-acr
 date: 2020-01-15
 status: published
 type: post

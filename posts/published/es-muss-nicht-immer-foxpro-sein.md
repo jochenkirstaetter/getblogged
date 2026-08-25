@@ -1,7 +1,6 @@
 ---
 uid: es-muss-nicht-immer-foxpro-sein
 title: Es muss nicht immer FoxPro sein...
-slug: es-muss-nicht-immer-foxpro-sein
 date: 2005-11-17
 status: published
 type: post

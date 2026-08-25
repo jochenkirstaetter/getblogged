@@ -1,7 +1,6 @@
 ---
 uid: customise-jitsi-meet
 title: Customise your instance of Jitsi Meet (Draft)
-slug: customise-jitsi-meet
 date: 2020-04-20
 status: draft
 type: post

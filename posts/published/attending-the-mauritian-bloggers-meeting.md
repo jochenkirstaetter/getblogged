@@ -1,7 +1,6 @@
 ---
 uid: attending-the-mauritian-bloggers-meeting
 title: Attending the Mauritian Bloggers Meeting
-slug: attending-the-mauritian-bloggers-meeting
 date: 2013-04-21
 status: published
 type: post

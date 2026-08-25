@@ -1,7 +1,6 @@
 ---
 uid: taking-web-sites-offline-for-demonstration-on-ipad
 title: Taking web sites offline for demonstration on iPad
-slug: taking-web-sites-offline-for-demonstration-on-ipad
 date: 2012-10-29
 status: published
 type: post

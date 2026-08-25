@@ -1,7 +1,6 @@
 ---
 uid: linq-auch-mit-vfp-kein-problem-vosql
 title: 'LINQ - auch mit VFP kein Problem: VOSQL'
-slug: linq-auch-mit-vfp-kein-problem-vosql
 date: 2005-09-21
 status: published
 type: post

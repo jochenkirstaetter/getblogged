@@ -1,7 +1,6 @@
 ---
 uid: -net-usertreffen-vom-montag
 title: .NET Usertreffen vom Montag
-slug: -net-usertreffen-vom-montag
 date: 2005-05-03
 status: published
 type: post

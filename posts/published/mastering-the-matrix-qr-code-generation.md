@@ -1,7 +1,6 @@
 ---
 uid: mastering-the-matrix-qr-code-generation
 title: "Mastering the Matrix: Elegant QR Code Generation"
-slug: mastering-the-matrix-qr-code-generation
 date: 2026-08-23
 status: published
 type: post

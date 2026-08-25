@@ -1,7 +1,6 @@
 ---
 uid: launch-event-windows-10-and-visual-studio-2015
 title: 'Launch Event: Windows 10 and Visual Studio 2015'
-slug: launch-event-windows-10-and-visual-studio-2015
 date: 2015-08-06
 status: published
 type: post

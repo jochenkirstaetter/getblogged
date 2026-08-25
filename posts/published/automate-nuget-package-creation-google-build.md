@@ -1,7 +1,6 @@
 ---
 uid: automate-nuget-package-creation-google-build
 title: Automate NuGet package creation using Google Build
-slug: automate-nuget-package-creation-google-build
 date: 2024-03-04
 status: published
 type: post

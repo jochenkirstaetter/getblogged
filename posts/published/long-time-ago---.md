@@ -1,7 +1,6 @@
 ---
 uid: long-time-ago---
 title: Long time ago...
-slug: long-time-ago---
 date: 2005-12-28
 status: published
 type: post

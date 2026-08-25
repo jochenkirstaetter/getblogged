@@ -1,7 +1,6 @@
 ---
 uid: mscc-20141025-shellshock-survival-guide
 title: 'MSCC: Shellshock Survival Guide'
-slug: mscc-20141025-shellshock-survival-guide
 date: 2014-10-27
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: die-rckkehr-des-knigs
 title: Die Rückkehr des Königs
-slug: die-rckkehr-des-knigs
 date: 2004-10-17
 status: published
 type: post

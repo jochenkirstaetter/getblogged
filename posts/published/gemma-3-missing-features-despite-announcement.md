@@ -1,7 +1,6 @@
 ---
 uid: gemma-3-missing-features-despite-announcement
 title: Gemma 3 - missing features despite announcement
-slug: gemma-3-missing-features-despite-announcement
 date: 2025-03-12
 status: published
 type: post

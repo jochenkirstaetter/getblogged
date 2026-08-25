@@ -1,7 +1,6 @@
 ---
 uid: kommune-33
 title: Kommune 33
-slug: kommune-33
 date: 2006-02-10
 status: published
 type: post

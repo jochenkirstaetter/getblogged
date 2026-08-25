@@ -1,7 +1,6 @@
 ---
 uid: plans-for-the-end-of-the-year---
 title: Plans for the end of the year...
-slug: plans-for-the-end-of-the-year---
 date: 2008-11-28
 status: published
 type: post

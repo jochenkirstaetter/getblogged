@@ -1,7 +1,6 @@
 ---
 uid: assembling-an-ai-publishing-agency
 title: "From Solo Blogger to Editorial Board: How I Built a Multi-Agent Publishing Agency"
-slug: assembling-an-ai-publishing-agency
 date: 2026-08-22
 status: draft
 type: post

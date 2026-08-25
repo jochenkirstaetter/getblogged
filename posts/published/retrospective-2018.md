@@ -1,7 +1,6 @@
 ---
 uid: retrospective-2018
 title: '2018: A retrospective'
-slug: retrospective-2018
 date: 2019-01-03
 status: published
 type: post

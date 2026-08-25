@@ -1,7 +1,6 @@
 ---
 uid: pictures-wanna-pictures
 title: Pictures? Wanna pictures?
-slug: pictures-wanna-pictures
 date: 2005-04-18
 status: published
 type: post

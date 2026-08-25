@@ -1,7 +1,6 @@
 ---
 uid: blog---reloaded
 title: Blog - Reloaded
-slug: blog---reloaded
 date: 2005-04-05
 status: published
 type: post

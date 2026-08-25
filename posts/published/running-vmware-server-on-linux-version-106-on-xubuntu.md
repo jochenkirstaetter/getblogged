@@ -1,7 +1,6 @@
 ---
 uid: running-vmware-server-on-linux-version-106-on-xubuntu
 title: Running VMware Server on Linux (version 1.0.6 on xubuntu)
-slug: running-vmware-server-on-linux-version-106-on-xubuntu
 date: 2008-06-03
 status: published
 type: post

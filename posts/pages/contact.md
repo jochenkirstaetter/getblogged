@@ -1,7 +1,6 @@
 ---
 uid: contact
 title: Contact
-slug: contact
 date: 2026-08-23
 status: published
 type: page

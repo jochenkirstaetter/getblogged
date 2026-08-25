@@ -1,7 +1,6 @@
 ---
 uid: darfs-ein-wenig-kultur-sein
 title: Darf's ein wenig Kultur sein?
-slug: darfs-ein-wenig-kultur-sein
 date: 2006-09-07
 status: published
 type: post

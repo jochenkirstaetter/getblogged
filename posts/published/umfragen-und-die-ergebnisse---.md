@@ -1,7 +1,6 @@
 ---
 uid: umfragen-und-die-ergebnisse---
 title: Umfragen und die Ergebnisse...
-slug: umfragen-und-die-ergebnisse---
 date: 2005-05-02
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: openssh-on-windows
 title: OpenSSH on Windows natively (Draft)
-slug: openssh-on-windows
 date: 2018-10-17
 status: draft
 type: post

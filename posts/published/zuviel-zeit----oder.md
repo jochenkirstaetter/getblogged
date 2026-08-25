@@ -1,7 +1,6 @@
 ---
 uid: zuviel-zeit----oder
 title: Zuviel Zeit... oder?
-slug: zuviel-zeit----oder
 date: 2006-03-28
 status: published
 type: post

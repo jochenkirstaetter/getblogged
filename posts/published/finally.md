@@ -1,7 +1,6 @@
 ---
 uid: finally
 title: Finally
-slug: finally
 date: 2004-11-14
 status: published
 type: post

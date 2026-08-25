@@ -1,7 +1,6 @@
 ---
 uid: addthis-google-analytics-asynchronous-tracking-code-integration
 title: 'AddThis and Google Analytics : Asynchronous Tracking Code Integration'
-slug: addthis-google-analytics-asynchronous-tracking-code-integration
 date: 2010-03-03
 status: published
 type: post

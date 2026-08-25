@@ -1,7 +1,6 @@
 ---
 uid: extend-a-virtual-disk-and-its-logical-volume
 title: How to extend a virtual disk and its logical volume(s) in CentOS
-slug: extend-a-virtual-disk-and-its-logical-volume
 date: 2014-03-04
 status: published
 type: post

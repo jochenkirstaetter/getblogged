@@ -1,7 +1,6 @@
 ---
 uid: request-timed-out
 title: Request timed out
-slug: request-timed-out
 date: 2004-07-13
 status: published
 type: post

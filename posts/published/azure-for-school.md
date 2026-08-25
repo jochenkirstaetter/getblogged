@@ -1,7 +1,6 @@
 ---
 uid: azure-for-school
 title: ICT skills at primary school
-slug: azure-for-school
 date: 2018-02-26
 status: published
 type: post

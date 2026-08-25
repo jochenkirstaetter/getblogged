@@ -1,7 +1,6 @@
 ---
 uid: speaker-at-the-german-visual-foxpro-developer-conference-2006
 title: Speaker at the German Visual FoxPro Developer Conference 2006
-slug: speaker-at-the-german-visual-foxpro-developer-conference-2006
 date: 2013-07-24
 status: published
 type: post

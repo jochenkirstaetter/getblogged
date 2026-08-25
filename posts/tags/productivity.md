@@ -1,5 +1,5 @@
 ---
-uid: tag-productivity
+uid: tag-Productivity
 title: "Productivity"
 layout: tag
 isTagPage: true
@@ -12,3 +12,4 @@ tagName: "Productivity"
 ## Articles
 
 - [Using Antigravity Remote Control](xref:using-antigravity-remote-control) - *Aug 22, 2026*
+- [From Solo Blogger to Editorial Board: How I Built a Multi-Agent Publishing Agency](xref:assembling-an-ai-publishing-agency) - *Aug 22, 2026*

@@ -1,7 +1,6 @@
 ---
 uid: arbeiten-mit-dem-visual-studio-2005-team-system
 title: Arbeiten mit dem Visual Studio 2005 Team System
-slug: arbeiten-mit-dem-visual-studio-2005-team-system
 date: 2006-09-02
 status: published
 type: post

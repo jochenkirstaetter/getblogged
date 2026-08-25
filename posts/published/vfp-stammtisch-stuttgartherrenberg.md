@@ -1,7 +1,6 @@
 ---
 uid: vfp-stammtisch-stuttgartherrenberg
 title: VFP Stammtisch - Stuttgart/Herrenberg
-slug: vfp-stammtisch-stuttgartherrenberg
 date: 2005-07-15
 status: published
 type: post

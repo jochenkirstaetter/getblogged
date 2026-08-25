@@ -1,7 +1,6 @@
 ---
 uid: windows-insider-mvp-award
 title: Windows Insider MVP award (Draft)
-slug: windows-insider-mvp-award
 date: 2019-01-09
 status: draft
 type: post

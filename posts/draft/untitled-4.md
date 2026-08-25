@@ -1,7 +1,6 @@
 ---
 uid: untitled-4
 title: 'The 50 Next Moves: Hands-on Strategies for Startup Growth (Draft)'
-slug: untitled-4
 date: 2022-03-08
 status: draft
 type: post

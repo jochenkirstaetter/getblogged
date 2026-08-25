@@ -1,7 +1,6 @@
 ---
 uid: speaking
 title: Public Speaking Engagements
-slug: speaking
 date: 2017-08-07
 status: published
 type: page

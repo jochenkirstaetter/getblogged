@@ -1,7 +1,6 @@
 ---
 uid: devfest-dar-es-salaam-2023
 title: DevFest Dar es Salaam 2023
-slug: devfest-dar-es-salaam-2023
 date: 2023-12-12
 status: published
 type: post

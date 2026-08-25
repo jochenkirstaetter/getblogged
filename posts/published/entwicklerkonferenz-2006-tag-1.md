@@ -1,7 +1,6 @@
 ---
 uid: entwicklerkonferenz-2006-tag-1
 title: 13. Entwicklerkonferenz Visual FoxPro - Tag 1
-slug: entwicklerkonferenz-2006-tag-1
 date: 2006-11-09
 status: published
 type: post

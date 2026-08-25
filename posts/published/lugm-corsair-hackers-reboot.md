@@ -1,7 +1,6 @@
 ---
 uid: lugm-corsair-hackers-reboot
 title: Corsair Hackers Reboot
-slug: lugm-corsair-hackers-reboot
 date: 2014-04-21
 status: published
 type: post

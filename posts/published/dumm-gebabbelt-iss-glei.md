@@ -1,7 +1,6 @@
 ---
 uid: dumm-gebabbelt-iss-glei
 title: Dumm gebabbelt iss glei!
-slug: dumm-gebabbelt-iss-glei
 date: 2005-09-07
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: genius-is-indeed-a-heavy-burden
 title: Genius is indeed a heavy burden
-slug: genius-is-indeed-a-heavy-burden
 date: 2005-06-12
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: joki
 title: Jochen Kirstätter
-slug: joki
 date: ''
 status: ''
 type: ''

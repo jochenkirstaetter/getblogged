@@ -1,7 +1,6 @@
 ---
 uid: afpwiki-core-engine-available
 title: AfpWiki Core Engine available
-slug: afpwiki-core-engine-available
 date: 2006-04-06
 status: published
 type: post

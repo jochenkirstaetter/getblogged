@@ -90,10 +90,10 @@
     "@type": "BlogPosting",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{#canonicalUrl}}{{canonicalUrl}}{{/canonicalUrl}}{{^canonicalUrl}}{{#_appUrl}}{{_appUrl}}/{{slug}}.html{{/_appUrl}}{{/canonicalUrl}}"
+        "@id": "{{#canonicalUrl}}{{canonicalUrl}}{{/canonicalUrl}}{{^canonicalUrl}}{{#_appUrl}}{{_appUrl}}/{{#uid}}{{uid}}{{/uid}}{{^uid}}{{slug}}{{/uid}}.html{{/_appUrl}}{{/canonicalUrl}}"
     },
     "headline": "{{#metaTitle}}{{metaTitle}}{{/metaTitle}}{{^metaTitle}}{{#title}}{{title}}{{/title}}{{/metaTitle}}",
-    "url": "{{#canonicalUrl}}{{canonicalUrl}}{{/canonicalUrl}}{{^canonicalUrl}}{{#_appUrl}}{{_appUrl}}/{{slug}}.html{{/_appUrl}}{{/canonicalUrl}}",
+    "url": "{{#canonicalUrl}}{{canonicalUrl}}{{/canonicalUrl}}{{^canonicalUrl}}{{#_appUrl}}{{_appUrl}}/{{#uid}}{{uid}}{{/uid}}{{^uid}}{{slug}}{{/uid}}.html{{/_appUrl}}{{/canonicalUrl}}",
     "datePublished": "{{#publishedAt}}{{publishedAt}}{{/publishedAt}}{{^publishedAt}}{{#date}}{{date}}{{/date}}{{/publishedAt}}",
     "dateModified": "{{#updatedAt}}{{updatedAt}}{{/updatedAt}}{{^updatedAt}}{{#publishedAt}}{{publishedAt}}{{/publishedAt}}{{^publishedAt}}{{#date}}{{date}}{{/date}}{{/publishedAt}}{{/updatedAt}}",
     "description": "{{#metaDescription}}{{metaDescription}}{{/metaDescription}}{{^metaDescription}}{{#description}}{{description}}{{/description}}{{^description}}{{#excerpt}}{{excerpt}}{{/excerpt}}{{/description}}{{/metaDescription}}",
@@ -147,7 +147,7 @@
     "@type": "WebPage",
     "name": "{{#title}}{{title}}{{/title}}",
     "headline": "{{#title}}{{title}}{{/title}}",
-    "url": "{{#canonicalUrl}}{{canonicalUrl}}{{/canonicalUrl}}{{^canonicalUrl}}{{#_appUrl}}{{_appUrl}}/{{slug}}.html{{/_appUrl}}{{/canonicalUrl}}",
+    "url": "{{#canonicalUrl}}{{canonicalUrl}}{{/canonicalUrl}}{{^canonicalUrl}}{{#_appUrl}}{{_appUrl}}/{{#uid}}{{uid}}{{/uid}}{{^uid}}{{slug}}{{/uid}}.html{{/_appUrl}}{{/canonicalUrl}}",
     "description": "{{#metaDescription}}{{metaDescription}}{{/metaDescription}}{{^metaDescription}}{{#description}}{{description}}{{/description}}{{/metaDescription}}",
     "publisher": {
         "@type": "Organization",

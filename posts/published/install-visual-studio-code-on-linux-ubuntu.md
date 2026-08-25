@@ -1,7 +1,6 @@
 ---
 uid: install-visual-studio-code-on-linux-ubuntu
 title: Installing Visual Studio Code on Linux (Ubuntu)
-slug: install-visual-studio-code-on-linux-ubuntu
 date: 2015-07-24
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: alc4-completed
 title: 'You have reached your destination - #150DaysOfALC4 (Draft)'
-slug: alc4-completed
 date: 2019-11-26
 status: draft
 type: post

@@ -54,12 +54,17 @@
 <meta property="og:url" content="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}">
 {{/isHome}}
 {{^isHome}}
+{{#uid}}
+<meta property="og:url" content="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}{{uid}}.html">
+{{/uid}}
+{{^uid}}
 {{#slug}}
 <meta property="og:url" content="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}{{slug}}.html">
 {{/slug}}
 {{^slug}}
 <meta property="og:url" content="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}">
 {{/slug}}
+{{/uid}}
 {{/isHome}}
 {{/canonicalUrl}}
 {{#ogImage}}

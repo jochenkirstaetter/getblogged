@@ -1,7 +1,6 @@
 ---
 uid: wieviel-nerd-steckt-in-dir
 title: Wieviel NERD steckt in dir?
-slug: wieviel-nerd-steckt-in-dir
 date: 2005-02-14
 status: published
 type: post

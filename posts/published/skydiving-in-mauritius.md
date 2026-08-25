@@ -1,7 +1,6 @@
 ---
 uid: skydiving-in-mauritius
 title: Yes, I did it - Skydiving in Mauritius
-slug: skydiving-in-mauritius
 date: 2010-10-16
 status: published
 type: post

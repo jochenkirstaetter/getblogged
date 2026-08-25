@@ -1,7 +1,6 @@
 ---
 uid: experimente-mit-bluetooth
 title: Experimente mit BlueTooth
-slug: experimente-mit-bluetooth
 date: 2006-04-03
 status: published
 type: post

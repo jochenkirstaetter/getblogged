@@ -1,7 +1,6 @@
 ---
 uid: ctp-fr-sedna-und-visual-foxpro-90-sp2
 title: CTP für Sedna und Visual FoxPro 9.0 SP2
-slug: ctp-fr-sedna-und-visual-foxpro-90-sp2
 date: 2006-10-14
 status: published
 type: post

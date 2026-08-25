@@ -1,7 +1,6 @@
 ---
 uid: game-review-monument-valley
 title: 'Game Review: Monument Valley'
-slug: game-review-monument-valley
 date: 2014-08-16
 status: published
 type: post

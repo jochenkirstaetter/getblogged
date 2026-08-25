@@ -1,7 +1,6 @@
 ---
 uid: magazine-von-level-extreme-frei-verfgbar
 title: Magazine von Level Extreme frei verfügbar
-slug: magazine-von-level-extreme-frei-verfgbar
 date: 2006-03-28
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: quickstart-use-gemini-with-net
 title: 'Quickstart: Use Gemini with .NET (Google AI)'
-slug: quickstart-use-gemini-with-net
 date: 2024-04-02
 status: published
 type: post

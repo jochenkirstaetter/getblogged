@@ -1,7 +1,6 @@
 ---
 uid: plans-for-mauritius-software-developer-user-group-msdug
 title: Plans for Mauritius Software Developer User Group (MSDUG)
-slug: plans-for-mauritius-software-developer-user-group-msdug
 date: 2008-03-04
 status: published
 type: post

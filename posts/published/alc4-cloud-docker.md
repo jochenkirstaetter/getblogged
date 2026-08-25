@@ -1,7 +1,6 @@
 ---
 uid: alc4-cloud-docker
 title: Working with Docker (ALC 4.0 Cloud Challenge I)
-slug: alc4-cloud-docker
 date: 2019-10-24
 status: published
 type: post

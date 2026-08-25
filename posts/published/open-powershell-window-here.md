@@ -1,7 +1,6 @@
 ---
 uid: open-powershell-window-here
 title: 'Tip: Open PowerShell window here'
-slug: open-powershell-window-here
 date: 2019-01-11
 status: published
 type: post

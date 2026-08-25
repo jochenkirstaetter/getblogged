@@ -1,7 +1,6 @@
 ---
 uid: devfest-kigali-2023
 title: DevFest Kigali 2023
-slug: devfest-kigali-2023
 date: 2023-11-15
 status: published
 type: post

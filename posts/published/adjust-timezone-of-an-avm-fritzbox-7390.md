@@ -1,7 +1,6 @@
 ---
 uid: adjust-timezone-of-an-avm-fritzbox-7390
 title: Adjust timezone of an AVM Fritz!Box 7390
-slug: adjust-timezone-of-an-avm-fritzbox-7390
 date: 2013-07-30
 status: published
 type: post

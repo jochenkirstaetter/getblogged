@@ -1,7 +1,6 @@
 ---
 uid: daily-upgrade
 title: Daily Upgrade
-slug: daily-upgrade
 date: 2005-04-11
 status: published
 type: post

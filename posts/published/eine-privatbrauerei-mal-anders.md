@@ -1,7 +1,6 @@
 ---
 uid: eine-privatbrauerei-mal-anders
 title: Eine Privatbrauerei mal anders
-slug: eine-privatbrauerei-mal-anders
 date: 2006-09-03
 status: published
 type: post

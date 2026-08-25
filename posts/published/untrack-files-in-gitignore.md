@@ -1,7 +1,6 @@
 ---
 uid: untrack-files-in-gitignore
 title: Untrack files in .gitignore
-slug: untrack-files-in-gitignore
 date: 2024-04-05
 status: published
 type: post

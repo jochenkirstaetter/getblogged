@@ -1,7 +1,6 @@
 ---
 uid: html-tag-nach-vfp-adaptiert
 title: HTML-Tag nach VFP adaptiert
-slug: html-tag-nach-vfp-adaptiert
 date: 2006-09-19
 status: published
 type: post

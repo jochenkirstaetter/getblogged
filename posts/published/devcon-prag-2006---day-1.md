@@ -1,7 +1,6 @@
 ---
 uid: devcon-prag-2006---day-1
 title: Devcon Prag 2006 - Day 1
-slug: devcon-prag-2006---day-1
 date: 2006-09-11
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: mra-mail-hostname
 title: Dear Postmaster of Mauritius Revenue Authority
-slug: mra-mail-hostname
 date: 2017-10-03
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: in-80-zeilen-um-die-vfp-tabelle
 title: In 80 Zeilen um die VFP-Tabelle
-slug: in-80-zeilen-um-die-vfp-tabelle
 date: 2005-04-29
 status: published
 type: post

@@ -112,7 +112,7 @@ into the {body} of the default.hbs template }}
                             if (loaded) return;
                             loaded = true;
                             window.disqus_config = function () {
-                                this.page.url = '{{_rel}}{{slug}}.html';
+                                this.page.url = '{{_rel}}{{#uid}}{{uid}}{{/uid}}{{^uid}}{{slug}}{{/uid}}.html';
                                 this.page.identifier = '9271ed1c97_id{{uid}}';
                             };
                             var d = document, s = d.createElement('script');
@@ -184,19 +184,19 @@ into the {body} of the default.hbs template }}
                     <header class="read-next-card-header">
                         <small class="read-next-card-header-sitetitle">&mdash; {{_appTitle}} &mdash;</small>
                         {{#../primary_tag}}
-                        <h3 class="read-next-card-header-title"><a href="{{_rel}}{{slug}}.html">{{title}}</a></h3>
+                        <h3 class="read-next-card-header-title"><a href="{{_rel}}{{#uid}}{{uid}}{{/uid}}{{^uid}}{{slug}}{{/uid}}.html">{{title}}</a></h3>
                         {{/../primary_tag}}
                     </header>
                     <div class="read-next-divider">{{>partials/icons/infinity}}</div>
                     <div class="read-next-card-content">
                         <ul>
                             {{#related_posts}}
-                            <li><a href="{{_rel}}{{slug}}.html">{{title}}</a></li>
+                            <li><a href="{{_rel}}{{#uid}}{{uid}}{{/uid}}{{^uid}}{{slug}}{{/uid}}.html">{{title}}</a></li>
                             {{/related_posts}}
                         </ul>
                     </div>
                     <footer class="read-next-card-footer">
-                        <a href="{{#../primary_tag}}{{_rel}}{{slug}}.html{{/../primary_tag}}">{{plural meta.pagination.total empty='No posts' singular='% post' plural='See all % posts'}} →</a>
+                        <a href="{{#../primary_tag}}{{_rel}}{{#uid}}{{uid}}{{/uid}}{{^uid}}{{slug}}{{/uid}}.html{{/../primary_tag}}">{{plural meta.pagination.total empty='No posts' singular='% post' plural='See all % posts'}} →</a>
                     </footer>
                 </article>
                 {{/related_posts}}

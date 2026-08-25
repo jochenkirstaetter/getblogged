@@ -1,7 +1,6 @@
 ---
 uid: solaar-linux-logitech-unifying-receiver
 title: Solaar - Managing Logitech Unifying Receiver peripherals
-slug: solaar-linux-logitech-unifying-receiver
 date: 2013-08-29
 status: published
 type: post

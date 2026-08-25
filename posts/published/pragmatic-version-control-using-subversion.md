@@ -1,7 +1,6 @@
 ---
 uid: pragmatic-version-control-using-subversion
 title: Pragmatic Version Control Using Subversion
-slug: pragmatic-version-control-using-subversion
 date: 2005-07-29
 status: published
 type: post

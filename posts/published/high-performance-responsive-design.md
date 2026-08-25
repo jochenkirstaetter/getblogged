@@ -1,7 +1,6 @@
 ---
 uid: high-performance-responsive-design
 title: High Performance Responsive Design by Tom Barker
-slug: high-performance-responsive-design
 date: 2014-11-16
 status: published
 type: post

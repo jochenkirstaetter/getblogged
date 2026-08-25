@@ -1,7 +1,6 @@
 ---
 uid: i-am-iron-man
 title: I am Iron Man!
-slug: i-am-iron-man
 date: 2017-08-13
 status: published
 type: post

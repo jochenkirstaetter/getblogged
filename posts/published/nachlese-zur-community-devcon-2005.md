@@ -1,7 +1,6 @@
 ---
 uid: nachlese-zur-community-devcon-2005
 title: Nachlese zur Community Devcon 2005
-slug: nachlese-zur-community-devcon-2005
 date: 2005-04-13
 status: published
 type: post

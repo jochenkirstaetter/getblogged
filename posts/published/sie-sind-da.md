@@ -1,7 +1,6 @@
 ---
 uid: sie-sind-da
 title: Sie sind da...
-slug: sie-sind-da
 date: 2005-11-25
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: gdg-cloud-munich
 title: GDG Cloud Munich (Draft)
-slug: gdg-cloud-munich
 date: 2023-11-18
 status: draft
 type: post

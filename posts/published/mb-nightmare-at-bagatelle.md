@@ -1,7 +1,6 @@
 ---
 uid: mb-nightmare-at-bagatelle
 title: Mugg & Bean - Nightmare at Bagatelle
-slug: mb-nightmare-at-bagatelle
 date: 2015-05-04
 status: published
 type: post

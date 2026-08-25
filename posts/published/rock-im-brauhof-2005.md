@@ -1,7 +1,6 @@
 ---
 uid: rock-im-brauhof-2005
 title: Rock im Brauhof 2005
-slug: rock-im-brauhof-2005
 date: 2005-08-27
 status: published
 type: post

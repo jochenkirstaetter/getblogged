@@ -1,7 +1,6 @@
 ---
 uid: decorator-im-praktischen-einsatz
 title: Decorator im praktischen Einsatz
-slug: decorator-im-praktischen-einsatz
 date: 2006-11-02
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: javascript-macht-spass
 title: JavaScript macht Spass
-slug: javascript-macht-spass
 date: 2004-07-13
 status: published
 type: post

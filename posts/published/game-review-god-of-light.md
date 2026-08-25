@@ -1,7 +1,6 @@
 ---
 uid: game-review-god-of-light
 title: 'Game Review: God of Light'
-slug: game-review-god-of-light
 date: 2014-04-08
 status: published
 type: post

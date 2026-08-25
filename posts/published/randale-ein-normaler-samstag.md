@@ -1,7 +1,6 @@
 ---
 uid: randale-ein-normaler-samstag
 title: Randale? - Ein normaler Samstag
-slug: randale-ein-normaler-samstag
 date: 2005-04-23
 status: published
 type: post

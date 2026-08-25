@@ -1,7 +1,6 @@
 ---
 uid: html-plugin-0716
 title: Html Plugin 0.7.16
-slug: html-plugin-0716
 date: 2006-04-21
 status: published
 type: post

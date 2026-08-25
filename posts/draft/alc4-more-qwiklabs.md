@@ -1,7 +1,6 @@
 ---
 uid: alc4-more-qwiklabs
 title: ALC 4.0 Cloud - Access to more Qwiklabs (Draft)
-slug: alc4-more-qwiklabs
 date: 2019-10-29
 status: draft
 type: post

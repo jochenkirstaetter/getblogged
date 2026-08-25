@@ -1,7 +1,6 @@
 ---
 uid: emtel-wingle-aka-huawei-e8231
 title: 'Review: Emtel Wingle a.k.a. Huawei E8231'
-slug: emtel-wingle-aka-huawei-e8231
 date: 2014-11-05
 status: published
 type: post

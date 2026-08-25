@@ -1,7 +1,6 @@
 ---
 uid: every-rose-has-its-thorn
 title: Every rose has its thorn
-slug: every-rose-has-its-thorn
 date: 2006-03-11
 status: published
 type: post

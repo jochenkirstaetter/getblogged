@@ -1,7 +1,6 @@
 ---
 uid: ab-in-den-sueden
 title: Ab in den Süden...
-slug: ab-in-den-sueden
 date: 2005-04-22
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: fckeditor-in-active-foxpro-pages-verwenden
 title: FCKeditor in Active FoxPro Pages verwenden
-slug: fckeditor-in-active-foxpro-pages-verwenden
 date: 2006-04-11
 status: published
 type: post

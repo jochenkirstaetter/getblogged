@@ -1,7 +1,6 @@
 ---
 uid: using-lightbox-with-screen
 title: Using Lightbox with _Screen
-slug: using-lightbox-with-screen
 date: 2010-10-31
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: waiting-for-ouya
 title: Waiting for OUYA
-slug: waiting-for-ouya
 date: 2013-04-03
 status: published
 type: post

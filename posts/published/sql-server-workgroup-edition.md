@@ -1,7 +1,6 @@
 ---
 uid: sql-server-workgroup-edition
 title: SQL Server Workgroup Edition
-slug: sql-server-workgroup-edition
 date: 2005-02-27
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: revamped-google-webmaster-tools
 title: Revamped Google Webmaster Tools
-slug: revamped-google-webmaster-tools
 date: 2010-04-15
 status: published
 type: post

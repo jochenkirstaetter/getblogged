@@ -1,7 +1,6 @@
 ---
 uid: powershell-1-0
 title: PowerShell 1.0
-slug: powershell-1-0
 date: 2006-11-16
 status: published
 type: post

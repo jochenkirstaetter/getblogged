@@ -1,7 +1,6 @@
 ---
 uid: preparations-for-devconmru-2015
 title: Preparations for Developers Conference 2015
-slug: preparations-for-devconmru-2015
 date: 2015-02-20
 status: published
 type: post

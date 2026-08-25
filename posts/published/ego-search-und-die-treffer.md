@@ -1,7 +1,6 @@
 ---
 uid: ego-search-und-die-treffer
 title: Ego-Search und die Treffer
-slug: ego-search-und-die-treffer
 date: 2006-10-21
 status: published
 type: post

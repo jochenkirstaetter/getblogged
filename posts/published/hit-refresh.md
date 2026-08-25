@@ -1,7 +1,6 @@
 ---
 uid: hit-refresh
 title: Hit Refresh
-slug: hit-refresh
 date: 2018-01-02
 status: published
 type: post

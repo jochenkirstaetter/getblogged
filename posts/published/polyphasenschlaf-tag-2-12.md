@@ -1,7 +1,6 @@
 ---
 uid: polyphasenschlaf-tag-2-12
 title: Polyphasenschlaf - Tag 2 1/2
-slug: polyphasenschlaf-tag-2-12
 date: 2006-03-29
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: community-community-community
 title: Community, Community, Community!
-slug: community-community-community
 date: 2006-03-11
 status: published
 type: post

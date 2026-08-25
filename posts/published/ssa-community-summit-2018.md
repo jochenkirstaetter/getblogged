@@ -1,7 +1,6 @@
 ---
 uid: ssa-community-summit-2018
 title: SSA Community Summit 2018
-slug: ssa-community-summit-2018
 date: 2018-10-04
 status: published
 type: post

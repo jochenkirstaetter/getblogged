@@ -1,7 +1,6 @@
 ---
 uid: mission-from-god-community-gettogether
 title: Mission from God - Community GetTogether
-slug: mission-from-god-community-gettogether
 date: 2006-09-02
 status: published
 type: post

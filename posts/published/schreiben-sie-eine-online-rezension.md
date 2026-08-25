@@ -1,7 +1,6 @@
 ---
 uid: schreiben-sie-eine-online-rezension
 title: Schreiben Sie eine Online-Rezension
-slug: schreiben-sie-eine-online-rezension
 date: 2005-04-06
 status: published
 type: post

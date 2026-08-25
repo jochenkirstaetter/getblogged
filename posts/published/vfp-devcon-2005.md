@@ -1,7 +1,6 @@
 ---
 uid: vfp-devcon-2005
 title: VFP Devcon 2005
-slug: vfp-devcon-2005
 date: 2005-08-27
 status: published
 type: post

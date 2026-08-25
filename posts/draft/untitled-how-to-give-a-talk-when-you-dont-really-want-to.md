@@ -1,7 +1,6 @@
 ---
 uid: untitled-how-to-give-a-talk-when-you-dont-really-want-to
 title: How to Give a Talk When You Don't Really Want To (Draft)
-slug: untitled-how-to-give-a-talk-when-you-dont-really-want-to
 date: 2023-11-01
 status: draft
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: kommentare-zum-eisbr
 title: Kommentare zum Eisbär
-slug: kommentare-zum-eisbr
 date: 2005-09-13
 status: published
 type: post

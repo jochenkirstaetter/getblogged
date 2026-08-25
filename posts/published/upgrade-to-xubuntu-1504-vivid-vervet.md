@@ -1,7 +1,6 @@
 ---
 uid: upgrade-to-xubuntu-1504-vivid-vervet
 title: Upgrade to Xubuntu 15.04 - Vivid Vervet
-slug: upgrade-to-xubuntu-1504-vivid-vervet
 date: 2015-05-09
 status: published
 type: post

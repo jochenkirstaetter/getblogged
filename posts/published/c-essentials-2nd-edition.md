@@ -1,7 +1,6 @@
 ---
 uid: c-essentials-2nd-edition
 title: C# Essentials, 2nd Edition
-slug: c-essentials-2nd-edition
 date: 2005-05-16
 status: published
 type: post

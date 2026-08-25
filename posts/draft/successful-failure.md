@@ -1,7 +1,6 @@
 ---
 uid: successful-failure
 title: Although it was a failure, it was successful (Draft)
-slug: successful-failure
 date: 2019-02-08
 status: draft
 type: post

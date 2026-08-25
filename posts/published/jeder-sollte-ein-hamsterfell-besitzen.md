@@ -1,7 +1,6 @@
 ---
 uid: jeder-sollte-ein-hamsterfell-besitzen
 title: Jeder sollte ein Hamsterfell besitzen
-slug: jeder-sollte-ein-hamsterfell-besitzen
 date: 2005-05-04
 status: published
 type: post

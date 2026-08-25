@@ -1,7 +1,6 @@
 ---
 uid: on-the-rail-again
 title: On the rail again...
-slug: on-the-rail-again
 date: 2005-11-13
 status: published
 type: post

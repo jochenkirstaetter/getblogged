@@ -1,7 +1,6 @@
 ---
 uid: my-first-cyclone
 title: My First Cyclone
-slug: my-first-cyclone
 date: 2007-02-23
 status: published
 type: post

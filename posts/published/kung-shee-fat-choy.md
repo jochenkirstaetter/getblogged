@@ -1,7 +1,6 @@
 ---
 uid: kung-shee-fat-choy
 title: Kung Shee Fat Choy
-slug: kung-shee-fat-choy
 date: 2008-02-08
 status: published
 type: post

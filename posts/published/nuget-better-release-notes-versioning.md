@@ -1,7 +1,6 @@
 ---
 uid: nuget-better-release-notes-versioning
 title: 'NuGet: Better release notes and versioning'
-slug: nuget-better-release-notes-versioning
 date: 2024-03-31
 status: published
 type: post

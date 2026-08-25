@@ -1,7 +1,6 @@
 ---
 uid: androids
 title: androids (Draft)
-slug: androids
 date: 2023-08-23
 status: draft
 type: post

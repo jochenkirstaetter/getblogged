@@ -1,7 +1,6 @@
 ---
 uid: besinnliche-weihnachtszeit
 title: Besinnliche Weihnachtszeit?
-slug: besinnliche-weihnachtszeit
 date: 2005-12-21
 status: published
 type: post

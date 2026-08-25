@@ -1,7 +1,6 @@
 ---
 uid: vacation---
 title: Vacation...
-slug: vacation---
 date: 2005-09-05
 status: published
 type: post

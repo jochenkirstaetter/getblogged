@@ -1,7 +1,6 @@
 ---
 uid: msdn-visual-foxpro-mit-visual-studio-2005
 title: 'MSDN: Visual FoxPro mit Visual Studio 2005'
-slug: msdn-visual-foxpro-mit-visual-studio-2005
 date: 2005-04-20
 status: published
 type: post

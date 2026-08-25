@@ -1,7 +1,6 @@
 ---
 uid: p-ai-r-programming
 title: P-AI-R Programming (Draft)
-slug: p-ai-r-programming
 date: 2023-08-23
 status: draft
 type: post

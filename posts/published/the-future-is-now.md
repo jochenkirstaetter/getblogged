@@ -1,7 +1,6 @@
 ---
 uid: the-future-is-now
 title: The future is now!
-slug: the-future-is-now
 date: 2005-02-17
 status: published
 type: post

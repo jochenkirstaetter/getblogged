@@ -1,7 +1,6 @@
 ---
 uid: clash-of-the-browsers
 title: Clash of the browsers
-slug: clash-of-the-browsers
 date: 2005-03-13
 status: published
 type: post

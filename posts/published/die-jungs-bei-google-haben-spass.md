@@ -1,7 +1,6 @@
 ---
 uid: die-jungs-bei-google-haben-spass
 title: Die Jungs bei Google haben Spass...
-slug: die-jungs-bei-google-haben-spass
 date: 2005-11-17
 status: published
 type: post

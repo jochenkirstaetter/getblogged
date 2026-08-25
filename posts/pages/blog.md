@@ -1,7 +1,6 @@
 ---
 uid: blog
 title: Blogging about bits and bytes...
-slug: blog
 date: 2017-08-07
 status: published
 type: page

@@ -1,7 +1,6 @@
 ---
 uid: first-steps-using-dictation-in-windows-10
 title: First steps using dictation in Windows 10
-slug: first-steps-using-dictation-in-windows-10
 date: 2019-01-07
 status: published
 type: post

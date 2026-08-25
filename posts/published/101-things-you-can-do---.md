@@ -1,7 +1,6 @@
 ---
 uid: 101-things-you-can-do---
 title: 101 things you can do...
-slug: 101-things-you-can-do---
 date: 2005-04-26
 status: published
 type: post

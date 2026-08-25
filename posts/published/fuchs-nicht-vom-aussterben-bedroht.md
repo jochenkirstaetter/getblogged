@@ -1,7 +1,6 @@
 ---
 uid: fuchs-nicht-vom-aussterben-bedroht
 title: Fuchs NICHT vom Aussterben bedroht
-slug: fuchs-nicht-vom-aussterben-bedroht
 date: 2005-12-17
 status: published
 type: post

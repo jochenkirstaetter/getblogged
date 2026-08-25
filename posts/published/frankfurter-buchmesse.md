@@ -1,7 +1,6 @@
 ---
 uid: frankfurter-buchmesse
 title: Frankfurter Buchmesse
-slug: frankfurter-buchmesse
 date: 2005-04-07
 status: published
 type: post

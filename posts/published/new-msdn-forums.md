@@ -1,7 +1,6 @@
 ---
 uid: new-msdn-forums
 title: New MSDN Forums
-slug: new-msdn-forums
 date: 2005-04-08
 status: published
 type: post

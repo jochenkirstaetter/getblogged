@@ -1,7 +1,6 @@
 ---
 uid: net-for-visual-foxpro-developers
 title: .NET for Visual FoxPro Developers
-slug: net-for-visual-foxpro-developers
 date: 2005-04-06
 status: published
 type: post

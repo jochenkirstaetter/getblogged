@@ -1,7 +1,6 @@
 ---
 uid: infotech-2008
 title: InfoTech 2008
-slug: infotech-2008
 date: 2008-08-08
 status: published
 type: post

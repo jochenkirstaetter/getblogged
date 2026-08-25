@@ -1,7 +1,6 @@
 ---
 uid: polyphasenschlaf---tag-4
 title: Polyphasenschlaf - Tag 4
-slug: polyphasenschlaf---tag-4
 date: 2006-03-31
 status: published
 type: post

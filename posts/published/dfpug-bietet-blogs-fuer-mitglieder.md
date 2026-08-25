@@ -1,7 +1,6 @@
 ---
 uid: dfpug-bietet-blogs-fuer-mitglieder
 title: dFPUG bietet Blogs für Mitglieder
-slug: dfpug-bietet-blogs-fuer-mitglieder
 date: 2005-11-23
 status: published
 type: post

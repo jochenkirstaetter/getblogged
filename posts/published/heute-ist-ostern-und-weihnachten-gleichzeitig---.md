@@ -1,7 +1,6 @@
 ---
 uid: heute-ist-ostern-und-weihnachten-gleichzeitig---
 title: Heute ist Ostern und Weihnachten gleichzeitig...
-slug: heute-ist-ostern-und-weihnachten-gleichzeitig---
 date: 2005-03-24
 status: published
 type: post

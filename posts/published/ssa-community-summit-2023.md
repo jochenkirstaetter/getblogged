@@ -1,7 +1,6 @@
 ---
 uid: ssa-community-summit-2023
 title: SSA Community Summit 2023
-slug: ssa-community-summit-2023
 date: 2023-11-15
 status: published
 type: post

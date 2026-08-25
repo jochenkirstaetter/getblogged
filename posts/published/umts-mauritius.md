@@ -1,7 +1,6 @@
 ---
 uid: umts-mauritius
 title: Using 3G/UMTS in Mauritius
-slug: umts-mauritius
 date: 2010-10-20
 status: published
 type: post

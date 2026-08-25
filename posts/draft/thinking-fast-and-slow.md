@@ -1,7 +1,6 @@
 ---
 uid: thinking-fast-and-slow
 title: 'Thinking: Fast and Slow (Draft)'
-slug: thinking-fast-and-slow
 date: 2023-08-23
 status: draft
 type: post

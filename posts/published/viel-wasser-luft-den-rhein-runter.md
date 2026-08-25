@@ -1,7 +1,6 @@
 ---
 uid: viel-wasser-luft-den-rhein-runter
 title: Viel Wasser läuft den Rhein runter...
-slug: viel-wasser-luft-den-rhein-runter
 date: 2005-01-15
 status: published
 type: post

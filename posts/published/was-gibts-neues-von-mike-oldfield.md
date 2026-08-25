@@ -1,7 +1,6 @@
 ---
 uid: was-gibts-neues-von-mike-oldfield
 title: Was gibt's Neues von... Mike Oldfield?
-slug: was-gibts-neues-von-mike-oldfield
 date: 2006-04-17
 status: published
 type: post

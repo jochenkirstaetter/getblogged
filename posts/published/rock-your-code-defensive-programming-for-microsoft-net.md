@@ -1,7 +1,6 @@
 ---
 uid: rock-your-code-defensive-programming-for-microsoft-net
 title: 'Rock Your Code: Defensive Programming for Microsoft .NET by David McCarter'
-slug: rock-your-code-defensive-programming-for-microsoft-net
 date: 2019-02-03
 status: published
 type: post

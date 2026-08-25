@@ -1,7 +1,6 @@
 ---
 uid: using-nokia-lumia-730
 title: My first month using a Lumia 730
-slug: using-nokia-lumia-730
 date: 2015-01-03
 status: published
 type: post

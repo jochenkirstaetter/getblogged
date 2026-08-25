@@ -1,7 +1,6 @@
 ---
 uid: es-geschehen-noch-zeichen-und-wunder
 title: Es geschehen noch Zeichen und Wunder!
-slug: es-geschehen-noch-zeichen-und-wunder
 date: 2005-11-17
 status: published
 type: post

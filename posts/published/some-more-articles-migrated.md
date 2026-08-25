@@ -1,7 +1,6 @@
 ---
 uid: some-more-articles-migrated
 title: Some more articles migrated
-slug: some-more-articles-migrated
 date: 2008-04-24
 status: published
 type: post

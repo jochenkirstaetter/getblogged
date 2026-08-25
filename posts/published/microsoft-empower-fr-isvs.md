@@ -1,7 +1,6 @@
 ---
 uid: microsoft-empower-fr-isvs
 title: Microsoft Empower für ISVs
-slug: microsoft-empower-fr-isvs
 date: 2006-11-20
 status: published
 type: post

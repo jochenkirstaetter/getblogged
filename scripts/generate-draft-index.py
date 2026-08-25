@@ -36,8 +36,8 @@ def parse_post(file_path: Path) -> dict:
         body = content
 
     title = fm.get("title") or file_path.stem.replace("-", " ").title()
-    slug = fm.get("slug") or file_path.stem
-    date_val = fm.get("date") or fm.get("updatedAt") or fm.get("publishedAt") or "1970-01-01"
+    uid = fm.get("uid") or fm.get("slug") or file_path.stem
+    date_val = fm.get("publishedAt") or fm.get("date") or fm.get("updatedAt") or "1970-01-01"
     date_str = str(date_val).split("T")[0]
     
     try:
@@ -67,7 +67,8 @@ def parse_post(file_path: Path) -> dict:
 
     return {
         "title": title,
-        "slug": slug,
+        "uid": uid,
+        "slug": uid,
         "date": dt.strftime("%Y-%m-%d"),
         "formattedDate": dt.strftime("%b %-d, %Y") if dt.year > 1970 else "Draft",
         "dt": dt,
@@ -114,7 +115,7 @@ def main():
     for p in posts:
         t = p["title"].replace('"', '\\"')
         e = p["excerpt"].replace('"', '\\"')
-        slug = p["slug"]
+        uid = p["uid"]
         date = p["date"]
         formatted_date = p["formattedDate"]
         image = p["image"]
@@ -127,7 +128,7 @@ def main():
         image_class = p["imageClass"]
 
         yaml_lines.append(f'- title: "{t}"')
-        yaml_lines.append(f"  slug: {slug}")
+        yaml_lines.append(f"  uid: {uid}")
         yaml_lines.append(f"  date: {date}")
         yaml_lines.append(f"  formattedDate: {formatted_date}")
         if image:

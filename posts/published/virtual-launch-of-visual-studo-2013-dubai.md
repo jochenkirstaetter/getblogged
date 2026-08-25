@@ -1,7 +1,6 @@
 ---
 uid: virtual-launch-of-visual-studo-2013-dubai
 title: Virtual Launch of Visual Studio 2013 Dubai
-slug: virtual-launch-of-visual-studo-2013-dubai
 date: 2013-11-20
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: a-star-curiously-singing-by-kerry-nietz
 title: A Star Curiously Singing by Kerry Nietz
-slug: a-star-curiously-singing-by-kerry-nietz
 date: 2014-01-04
 status: published
 type: post

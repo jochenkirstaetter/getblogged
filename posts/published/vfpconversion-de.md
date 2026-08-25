@@ -1,7 +1,6 @@
 ---
 uid: vfpconversion-de
 title: VFPConversion.de
-slug: vfpconversion-de
 date: 2006-03-20
 status: published
 type: post

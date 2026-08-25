@@ -1,7 +1,6 @@
 ---
 uid: versionskontrolle-mit-subversion
 title: Versionskontrolle mit Subversion
-slug: versionskontrolle-mit-subversion
 date: 2005-10-10
 status: published
 type: post

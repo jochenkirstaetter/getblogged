@@ -1,7 +1,6 @@
 ---
 uid: speaker-at-developer-conferences-user-groups
 title: Speaker at developer conferences and user group meetings
-slug: speaker-at-developer-conferences-user-groups
 date: 2013-07-24
 status: published
 type: post

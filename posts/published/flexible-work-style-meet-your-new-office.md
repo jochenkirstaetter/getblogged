@@ -1,7 +1,6 @@
 ---
 uid: flexible-work-style-meet-your-new-office
 title: Flexible Work style, meet your new Office
-slug: flexible-work-style-meet-your-new-office
 date: 2013-03-14
 status: published
 type: post

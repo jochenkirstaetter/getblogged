@@ -1,7 +1,6 @@
 ---
 uid: taking-web-sites-offline-for-demonstration-on-galaxy-tablet
 title: Taking web sites offline for demonstration on Galaxy Tablet
-slug: taking-web-sites-offline-for-demonstration-on-galaxy-tablet
 date: 2012-10-29
 status: published
 type: post

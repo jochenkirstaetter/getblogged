@@ -1,7 +1,6 @@
 ---
 uid: sql-server-on-gcp
 title: Getting Started with SQL Server on GCP
-slug: sql-server-on-gcp
 date: 2020-01-18
 status: published
 type: post

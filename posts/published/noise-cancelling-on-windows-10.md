@@ -1,7 +1,6 @@
 ---
 uid: noise-cancelling-on-windows-10
 title: Noise Cancelling on Windows 10
-slug: noise-cancelling-on-windows-10
 date: 2020-05-21
 status: published
 type: post

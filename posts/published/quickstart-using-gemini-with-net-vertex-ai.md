@@ -1,7 +1,6 @@
 ---
 uid: quickstart-using-gemini-with-net-vertex-ai
 title: 'Quickstart: Use Gemini with .NET (Vertex AI)'
-slug: quickstart-using-gemini-with-net-vertex-ai
 date: 2024-04-03
 status: published
 type: post

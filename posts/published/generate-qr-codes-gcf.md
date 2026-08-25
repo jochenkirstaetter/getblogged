@@ -1,7 +1,6 @@
 ---
 uid: generate-qr-codes-gcf
 title: Generating QR codes - the Easy, the Comfy and the Smarty
-slug: generate-qr-codes-gcf
 date: 2023-11-06
 status: published
 type: post

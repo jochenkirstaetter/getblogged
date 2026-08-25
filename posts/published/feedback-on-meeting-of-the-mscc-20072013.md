@@ -1,7 +1,6 @@
 ---
 uid: feedback-on-meeting-of-the-mscc-20072013
 title: Feedback on meeting of the MSCC - 20.07.2013
-slug: feedback-on-meeting-of-the-mscc-20072013
 date: 2013-07-23
 status: published
 type: post

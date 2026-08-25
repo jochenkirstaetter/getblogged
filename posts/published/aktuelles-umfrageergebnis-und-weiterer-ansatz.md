@@ -1,7 +1,6 @@
 ---
 uid: aktuelles-umfrageergebnis-und-weiterer-ansatz
 title: Aktuelles Umfrageergebnis und weiterer Ansatz
-slug: aktuelles-umfrageergebnis-und-weiterer-ansatz
 date: 2005-05-02
 status: published
 type: post

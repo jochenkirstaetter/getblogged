@@ -1,7 +1,6 @@
 ---
 uid: emtel-knowledge-series-no3
 title: Emtel Knowledge Series - Q2/2014
-slug: emtel-knowledge-series-no3
 date: 2014-06-20
 status: published
 type: post

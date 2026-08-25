@@ -1,7 +1,6 @@
 ---
 uid: supinfo-international-university-in-mauritius
 title: SUPINFO International University in Mauritius
-slug: supinfo-international-university-in-mauritius
 date: 2014-07-14
 status: published
 type: post

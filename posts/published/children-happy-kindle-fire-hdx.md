@@ -1,7 +1,6 @@
 ---
 uid: children-happy-kindle-fire-hdx
 title: Children are happy using their Kindle Fire HDX
-slug: children-happy-kindle-fire-hdx
 date: 2015-01-04
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: devfest-jinja-2023
 title: DevFest Jinja 2023
-slug: devfest-jinja-2023
 date: 2023-12-28
 status: published
 type: post

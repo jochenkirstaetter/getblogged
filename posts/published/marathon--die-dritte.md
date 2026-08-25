@@ -1,7 +1,6 @@
 ---
 uid: marathon--die-dritte
 title: Marathon, die Dritte
-slug: marathon--die-dritte
 date: 2005-05-08
 status: published
 type: post

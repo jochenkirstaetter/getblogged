@@ -1,7 +1,6 @@
 ---
 uid: mscc-26102013-clean-code-developer-flexible-work-environment
 title: 'MSCC: Clean Code Development & Flexible work environment'
-slug: mscc-26102013-clean-code-developer-flexible-work-environment
 date: 2013-10-28
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: international-blogging
 title: International blogging
-slug: international-blogging
 date: 2005-08-01
 status: published
 type: post

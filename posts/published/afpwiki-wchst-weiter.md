@@ -1,7 +1,6 @@
 ---
 uid: afpwiki-wchst-weiter
 title: AfpWiki wächst weiter...
-slug: afpwiki-wchst-weiter
 date: 2005-10-13
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: innovtech-2017
 title: Infotech/InnovTech 2017
-slug: innovtech-2017
 date: 2018-02-03
 status: published
 type: post

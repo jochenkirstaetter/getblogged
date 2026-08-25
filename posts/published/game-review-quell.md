@@ -1,7 +1,6 @@
 ---
 uid: game-review-quell
 title: 'Game Review: Quell'
-slug: game-review-quell
 date: 2014-01-10
 status: published
 type: post

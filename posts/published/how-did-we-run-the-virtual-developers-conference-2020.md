@@ -1,7 +1,6 @@
 ---
 uid: how-did-we-run-the-virtual-developers-conference-2020
 title: How did we run the Virtual Developers Conference 2020?
-slug: how-did-we-run-the-virtual-developers-conference-2020
 date: 2020-09-16
 status: published
 type: post

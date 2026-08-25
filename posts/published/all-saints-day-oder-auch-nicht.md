@@ -1,7 +1,6 @@
 ---
 uid: all-saints-day-oder-auch-nicht
 title: All Saints' Day - oder auch nicht...
-slug: all-saints-day-oder-auch-nicht
 date: 2006-11-01
 status: published
 type: post

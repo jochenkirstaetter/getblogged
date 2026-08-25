@@ -1,7 +1,7 @@
 {{^_disableMarkdown}}
 <div class="markdown-action-bar" aria-label="Markdown and article utilities">
     <div class="markdown-action-group">
-        <button type="button" class="markdown-action-btn btn-copy-markdown" data-slug="{{slug}}" aria-label="Copy page content as Markdown">
+        <button type="button" class="markdown-action-btn btn-copy-markdown" data-uid="{{uid}}" data-slug="{{uid}}" aria-label="Copy page content as Markdown">
             <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
                 <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
@@ -9,7 +9,7 @@
             <span class="btn-text">Copy Markdown</span>
         </button>
 
-        <button type="button" class="markdown-action-btn btn-view-markdown" data-slug="{{slug}}" data-title="{{title}}" aria-label="View Markdown source in modal">
+        <button type="button" class="markdown-action-btn btn-view-markdown" data-uid="{{uid}}" data-slug="{{uid}}" data-title="{{title}}" aria-label="View Markdown source in modal">
             <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="16 18 22 12 16 6"></polyline>
                 <polyline points="8 6 2 12 8 18"></polyline>
@@ -71,7 +71,7 @@
                         </svg>
                         <span>Copy as Prompt</span>
                     </button>
-                    <a id="markdown-modal-download-link" class="markdown-modal-download-btn" href="{{_rel}}raw/{{slug}}.md" download="{{slug}}.md" target="_blank" rel="noopener" aria-label="Download raw markdown file" title="Download .MD">
+                    <a id="markdown-modal-download-link" class="markdown-modal-download-btn" href="{{_rel}}raw/{{uid}}.md" download="{{uid}}.md" target="_blank" rel="noopener" aria-label="Download raw markdown file" title="Download .MD">
                         <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                             <polyline points="7 10 12 15 17 10"></polyline>
@@ -159,7 +159,7 @@
     var copyButtons = document.querySelectorAll('.btn-copy-markdown, .floating-copy-markdown');
     copyButtons.forEach(function (btn) {
         btn.addEventListener('click', function () {
-            var slug = btn.getAttribute('data-slug') || '{{slug}}';
+            var slug = btn.getAttribute('data-uid') || btn.getAttribute('data-slug') || '{{uid}}';
             var originalHtml = btn.innerHTML;
             btn.disabled = true;
 
@@ -195,7 +195,7 @@
     if (modal && viewButtons.length > 0) {
         viewButtons.forEach(function (btn) {
             btn.addEventListener('click', function () {
-                var slug = btn.getAttribute('data-slug') || '{{slug}}';
+                var slug = btn.getAttribute('data-uid') || btn.getAttribute('data-slug') || '{{uid}}';
                 if (codeEl) codeEl.textContent = 'Loading Markdown source...';
 
                 if (typeof modal.showModal === 'function') {

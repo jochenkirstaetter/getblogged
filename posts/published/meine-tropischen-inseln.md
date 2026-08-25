@@ -1,7 +1,6 @@
 ---
 uid: meine-tropischen-inseln
 title: Meine tropischen Inseln
-slug: meine-tropischen-inseln
 date: 2006-09-14
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: neue-optik-fr-den-hintergrund
 title: Neue Optik für den Hintergrund
-slug: neue-optik-fr-den-hintergrund
 date: 2006-02-01
 status: published
 type: post

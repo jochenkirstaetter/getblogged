@@ -1,7 +1,6 @@
 ---
 uid: angrycoder
 title: angryCoder
-slug: angrycoder
 date: 2005-04-06
 status: published
 type: post

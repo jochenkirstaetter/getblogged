@@ -1,7 +1,6 @@
 ---
 uid: unexpected-error-0x8ffe2740-occurred
 title: Unexpected error 0x8ffe2740 occurred
-slug: unexpected-error-0x8ffe2740-occurred
 date: 2005-04-15
 status: published
 type: post

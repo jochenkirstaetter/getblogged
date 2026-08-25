@@ -444,8 +444,9 @@ def process_markdown_file(file_path, app_url, dry_run=False):
     date_match = re.search(r"^date:\s*['\"]?([0-9]{4}-[0-9]{2}-[0-9]{2})", frontmatter, re.MULTILINE)
     post_date = date_match.group(1) if date_match else "2026-01-01"
     
+    uid_match = re.search(r"^uid:\s*['\"]?([^\s'\"]+)", frontmatter, re.MULTILINE)
     slug_match = re.search(r"^slug:\s*['\"]?([^\s'\"]+)", frontmatter, re.MULTILINE)
-    post_slug = slug_match.group(1) if slug_match else Path(file_path).stem
+    post_slug = uid_match.group(1) if uid_match else (slug_match.group(1) if slug_match else Path(file_path).stem)
     
     modified = False
     added_attribution = None

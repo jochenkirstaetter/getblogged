@@ -1,7 +1,6 @@
 ---
 uid: mscc
 title: Mauritius Software Craftsmanship Community (aka User Group)
-slug: mscc
 date: 2013-07-01
 status: published
 type: post

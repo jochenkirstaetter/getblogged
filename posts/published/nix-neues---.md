@@ -1,7 +1,6 @@
 ---
 uid: nix-neues---
 title: Nix Neues...
-slug: nix-neues---
 date: 2005-02-26
 status: published
 type: post

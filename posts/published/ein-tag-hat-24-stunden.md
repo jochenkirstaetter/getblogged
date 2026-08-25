@@ -1,7 +1,6 @@
 ---
 uid: ein-tag-hat-24-stunden
 title: Ein Tag hat 24 Stunden
-slug: ein-tag-hat-24-stunden
 date: 2006-01-28
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: design-pattern-strategy
 title: 'Design Pattern: Strategy'
-slug: design-pattern-strategy
 date: 2006-04-04
 status: published
 type: post

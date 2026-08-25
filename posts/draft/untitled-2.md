@@ -1,7 +1,6 @@
 ---
 uid: untitled-2
 title: Troubleshooting Jitsi Meet (Draft)
-slug: untitled-2
 date: 2020-04-20
 status: draft
 type: post

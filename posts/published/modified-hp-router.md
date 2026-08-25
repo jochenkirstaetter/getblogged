@@ -1,7 +1,6 @@
 ---
 uid: modified-hp-router
 title: Modified HP Router
-slug: modified-hp-router
 date: 2010-01-30
 status: published
 type: post

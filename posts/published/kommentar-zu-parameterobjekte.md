@@ -1,7 +1,6 @@
 ---
 uid: kommentar-zu-parameterobjekte
 title: Kommentar zu 'Parameterobjekte'
-slug: kommentar-zu-parameterobjekte
 date: 2006-08-25
 status: published
 type: post

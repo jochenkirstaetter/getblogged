@@ -1,7 +1,6 @@
 ---
 uid: design-pattern-singleton
 title: 'Design Pattern: Singleton'
-slug: design-pattern-singleton
 date: 2006-04-04
 status: published
 type: post

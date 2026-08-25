@@ -1,7 +1,6 @@
 ---
 uid: ghost-desktop-wont-start
 title: Ghost Desktop on Xubuntu 17.04 won't start
-slug: ghost-desktop-wont-start
 date: 2017-08-08
 status: published
 type: post

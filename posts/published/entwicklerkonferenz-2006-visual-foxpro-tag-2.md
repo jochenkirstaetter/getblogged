@@ -1,7 +1,6 @@
 ---
 uid: entwicklerkonferenz-2006-visual-foxpro-tag-2
 title: 13. Entwicklerkonferenz Visual FoxPro - Tag 2
-slug: entwicklerkonferenz-2006-visual-foxpro-tag-2
 date: 2006-11-10
 status: published
 type: post

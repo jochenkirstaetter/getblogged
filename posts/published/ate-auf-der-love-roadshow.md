@@ -1,7 +1,6 @@
 ---
 uid: ate-auf-der-love-roadshow
 title: ATE auf der LOVE Roadshow
-slug: ate-auf-der-love-roadshow
 date: 2006-11-03
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: kaum-lobt-man-die-deutsche-bahn
 title: Kaum lobt man die Deutsche Bahn
-slug: kaum-lobt-man-die-deutsche-bahn
 date: 2006-09-16
 status: published
 type: post

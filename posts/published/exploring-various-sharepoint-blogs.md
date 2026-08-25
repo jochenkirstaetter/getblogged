@@ -1,7 +1,6 @@
 ---
 uid: exploring-various-sharepoint-blogs
 title: Exploring various SharePoint blogs
-slug: exploring-various-sharepoint-blogs
 date: 2013-09-05
 status: published
 type: post

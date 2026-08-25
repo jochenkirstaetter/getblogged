@@ -1,7 +1,6 @@
 ---
 uid: spf
 title: 'Good to know: Sender Policy Framework'
-slug: spf
 date: 2014-12-12
 status: published
 type: post

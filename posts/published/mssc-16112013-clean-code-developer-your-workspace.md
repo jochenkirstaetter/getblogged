@@ -1,7 +1,6 @@
 ---
 uid: mssc-16112013-clean-code-developer-your-workspace
 title: 'MSCC: Clean Code Development & Your workspace'
-slug: mssc-16112013-clean-code-developer-your-workspace
 date: 2013-11-18
 status: published
 type: post

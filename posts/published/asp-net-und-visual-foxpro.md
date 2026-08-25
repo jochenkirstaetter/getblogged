@@ -1,7 +1,6 @@
 ---
 uid: asp-net-und-visual-foxpro
 title: ASP.NET und Visual FoxPro
-slug: asp-net-und-visual-foxpro
 date: 2006-04-29
 status: published
 type: post

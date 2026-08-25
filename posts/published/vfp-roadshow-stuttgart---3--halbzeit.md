@@ -1,7 +1,6 @@
 ---
 uid: vfp-roadshow-stuttgart---3--halbzeit
 title: VFP Roadshow Stuttgart - 3. Halbzeit
-slug: vfp-roadshow-stuttgart---3--halbzeit
 date: 2005-04-03
 status: published
 type: post

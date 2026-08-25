@@ -1,7 +1,6 @@
 ---
 uid: google-i-o-extended
 title: Google I/O Extended (Draft)
-slug: google-i-o-extended
 date: 2023-11-08
 status: draft
 type: post

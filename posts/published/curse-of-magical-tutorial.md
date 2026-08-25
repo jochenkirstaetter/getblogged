@@ -1,7 +1,6 @@
 ---
 uid: curse-of-magical-tutorial
 title: The Curse of the Magical Tutorial
-slug: curse-of-magical-tutorial
 date: 2018-10-05
 status: published
 type: post

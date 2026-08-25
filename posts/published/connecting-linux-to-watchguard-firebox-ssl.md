@@ -1,7 +1,6 @@
 ---
 uid: connecting-linux-to-watchguard-firebox-ssl
 title: Connecting Linux to WatchGuard Firebox SSL (OpenVPN client)
-slug: connecting-linux-to-watchguard-firebox-ssl
 date: 2013-07-23
 status: published
 type: post

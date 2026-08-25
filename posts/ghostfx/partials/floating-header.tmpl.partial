@@ -18,37 +18,37 @@
                 <span class="share-mobile-icon">{{>partials/icons/share}}</span>
             </button>
             <div class="floating-header-social-list" role="menu">
-                <a class="floating-header-share-item floating-header-share-x" href="https://x.com/intent/post?text={{encode title}}&amp;url={{_rel}}{{slug}}.html"
+                <a class="floating-header-share-item floating-header-share-x" href="https://x.com/intent/post?text={{encode title}}&amp;url={{_rel}}{{uid}}.html"
                     target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-x', 'width=550,height=450');return false;" title="Share on X" role="menuitem">
                     {{>partials/icons/x}}
                     <span class="social-text">X / Twitter</span>
                 </a>
-                <a class="floating-header-share-item floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u={{_rel}}{{slug}}.html"
+                <a class="floating-header-share-item floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u={{_rel}}{{uid}}.html"
                     target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-facebook','width=580,height=400');return false;" title="Share on Facebook" role="menuitem">
                     {{>partials/icons/facebook}}
                     <span class="social-text">Facebook</span>
                 </a>
-                <a class="floating-header-share-item floating-header-share-bsky" href="https://bsky.app/intent/compose?text={{encode title}}%20{{_rel}}{{slug}}.html"
+                <a class="floating-header-share-item floating-header-share-bsky" href="https://bsky.app/intent/compose?text={{encode title}}%20{{_rel}}{{uid}}.html"
                     target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-bluesky','width=580,height=420');return false;" title="Share on BlueSky" role="menuitem">
                     {{>partials/icons/bluesky}}
                     <span class="social-text">BlueSky</span>
                 </a>
-                <a class="floating-header-share-item floating-header-share-masto" href="https://mastodon.social/share?text={{encode title}}%20{{_rel}}{{slug}}.html"
+                <a class="floating-header-share-item floating-header-share-masto" href="https://mastodon.social/share?text={{encode title}}%20{{_rel}}{{uid}}.html"
                     target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-mastodon','width=600,height=600');return false;" title="Share on Mastodon" role="menuitem">
                     {{>partials/icons/mastodon}}
                     <span class="social-text">Mastodon</span>
                 </a>
-                <a class="floating-header-share-item floating-header-share-li" href="https://www.linkedin.com/feed/?shareActive=true&amp;text={{encode title}}%20{{_rel}}{{slug}}.html"
+                <a class="floating-header-share-item floating-header-share-li" href="https://www.linkedin.com/feed/?shareActive=true&amp;text={{encode title}}%20{{_rel}}{{uid}}.html"
                     target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-linkedin','width=650,height=650');return false;" title="Share on LinkedIn" role="menuitem">
                     {{>partials/icons/linkedin}}
                     <span class="social-text">LinkedIn</span>
                 </a>
-                <a class="floating-header-share-item floating-header-share-re" href="https://reddit.com/submit?url={{_rel}}{{slug}}.html&title={{encode title}}"
+                <a class="floating-header-share-item floating-header-share-re" href="https://reddit.com/submit?url={{_rel}}{{uid}}.html&title={{encode title}}"
                     target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'share-reddit','width=580,height=500');return false;" title="Share on Reddit" role="menuitem">
                     {{>partials/icons/reddit}}
                     <span class="social-text">Reddit</span>
                 </a>
-                <a class="floating-header-share-item floating-header-share-email" href="mailto:?subject={{encode title}}&body=Check out this site: {{_rel}}{{slug}}.html" title="Share via Email" role="menuitem">
+                <a class="floating-header-share-item floating-header-share-email" href="mailto:?subject={{encode title}}&body=Check out this site: {{_rel}}{{uid}}.html" title="Share via Email" role="menuitem">
                     {{>partials/icons/email}}
                     <span class="social-text">Email</span>
                 </a>
@@ -61,7 +61,7 @@
         </button>
 
         {{^_disableMarkdown}}
-        <button type="button" class="floating-header-share-btn floating-copy-markdown" data-slug="{{slug}}" title="Copy Markdown source" aria-label="Copy Markdown source">
+        <button type="button" class="floating-header-share-btn floating-copy-markdown" data-uid="{{uid}}" data-slug="{{uid}}" title="Copy Markdown source" aria-label="Copy Markdown source">
             <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
                 <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>

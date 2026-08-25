@@ -1,7 +1,6 @@
 ---
 uid: marathon--die-vierte
 title: Marathon, die Vierte?
-slug: marathon--die-vierte
 date: 2005-05-08
 status: published
 type: post

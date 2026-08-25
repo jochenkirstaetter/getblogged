@@ -1,7 +1,6 @@
 ---
 uid: sunshine
 title: 'Sunshine (Codename: Moonwalk)'
-slug: sunshine
 date: 2009-12-14
 status: published
 type: post

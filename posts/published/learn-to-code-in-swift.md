@@ -1,7 +1,6 @@
 ---
 uid: learn-to-code-in-swift
 title: 'Learn to Code in Swift: The new language of iOS Apps by Kevin McNeish'
-slug: learn-to-code-in-swift
 date: 2016-02-28
 status: published
 type: post

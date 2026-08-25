@@ -1,7 +1,6 @@
 ---
 uid: torrential-rain-in-mauritius-some-parts-of-the-island
 title: Torrential rain in Mauritius - some parts of the island
-slug: torrential-rain-in-mauritius-some-parts-of-the-island
 date: 2013-02-13
 status: published
 type: post

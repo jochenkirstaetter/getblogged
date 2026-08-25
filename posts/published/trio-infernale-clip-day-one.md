@@ -1,7 +1,6 @@
 ---
 uid: trio-infernale-clip-day-one
 title: Trio infernale (CLIP Day One)
-slug: trio-infernale-clip-day-one
 date: 2004-10-20
 status: published
 type: post

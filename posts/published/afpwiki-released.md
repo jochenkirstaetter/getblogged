@@ -1,7 +1,6 @@
 ---
 uid: afpwiki-released
 title: AfpWiki released
-slug: afpwiki-released
 date: 2005-02-24
 status: published
 type: post

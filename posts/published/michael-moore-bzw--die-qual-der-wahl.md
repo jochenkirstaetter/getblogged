@@ -1,7 +1,6 @@
 ---
 uid: michael-moore-bzw--die-qual-der-wahl
 title: Michael Moore bzw. die Qual der Wahl
-slug: michael-moore-bzw--die-qual-der-wahl
 date: 2005-09-19
 status: published
 type: post

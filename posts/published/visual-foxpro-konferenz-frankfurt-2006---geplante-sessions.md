@@ -1,7 +1,6 @@
 ---
 uid: visual-foxpro-konferenz-frankfurt-2006---geplante-sessions
 title: Visual FoxPro Konferenz Frankfurt 2006 - Geplante Sessions
-slug: visual-foxpro-konferenz-frankfurt-2006---geplante-sessions
 date: 2006-09-12
 status: published
 type: post

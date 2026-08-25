@@ -1,7 +1,6 @@
 ---
 uid: lugm-meeting-17082013-mugg-a-bean-bagatelle
 title: LUGM meeting - 17.08.2013 - Mugg & Bean, Bagatelle
-slug: lugm-meeting-17082013-mugg-a-bean-bagatelle
 date: 2013-08-13
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: lndliches-brandenburg
 title: Ländliches Brandenburg
-slug: lndliches-brandenburg
 date: 2006-09-13
 status: published
 type: post

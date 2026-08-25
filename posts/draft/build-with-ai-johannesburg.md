@@ -1,7 +1,6 @@
 ---
 uid: build-with-ai-johannesburg
 title: Build with AI Johannesburg (Draft)
-slug: build-with-ai-johannesburg
 date: 2024-05-27
 status: draft
 type: post

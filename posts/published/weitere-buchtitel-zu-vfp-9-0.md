@@ -1,7 +1,6 @@
 ---
 uid: weitere-buchtitel-zu-vfp-9-0
 title: Weitere Buchtitel zu VFP 9.0
-slug: weitere-buchtitel-zu-vfp-9-0
 date: 2005-07-10
 status: published
 type: post

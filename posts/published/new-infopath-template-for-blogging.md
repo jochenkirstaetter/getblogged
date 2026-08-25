@@ -1,7 +1,6 @@
 ---
 uid: new-infopath-template-for-blogging
 title: New InfoPath template for blogging
-slug: new-infopath-template-for-blogging
 date: 2006-04-22
 status: published
 type: post

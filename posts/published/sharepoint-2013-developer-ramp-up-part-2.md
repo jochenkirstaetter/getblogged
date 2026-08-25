@@ -1,7 +1,6 @@
 ---
 uid: sharepoint-2013-developer-ramp-up-part-2
 title: SharePoint 2013 Developer Ramp-Up - Part 2
-slug: sharepoint-2013-developer-ramp-up-part-2
 date: 2013-09-03
 status: published
 type: post

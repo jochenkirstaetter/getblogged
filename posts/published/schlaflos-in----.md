@@ -1,7 +1,6 @@
 ---
 uid: schlaflos-in----
 title: Schlaflos in ...
-slug: schlaflos-in----
 date: 2006-05-05
 status: published
 type: post

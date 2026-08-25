@@ -1,7 +1,6 @@
 ---
 uid: google-maps-guestmap
 title: Visualise your visitors with Google Maps Guestmap
-slug: google-maps-guestmap
 date: 2013-04-04
 status: published
 type: post

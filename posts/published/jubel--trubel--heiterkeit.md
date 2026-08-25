@@ -1,7 +1,6 @@
 ---
 uid: jubel--trubel--heiterkeit
 title: Jubel, Trubel, Heiterkeit
-slug: jubel--trubel--heiterkeit
 date: 2007-02-22
 status: published
 type: post

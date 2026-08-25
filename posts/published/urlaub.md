@@ -1,7 +1,6 @@
 ---
 uid: urlaub
 title: URLAUB!
-slug: urlaub
 date: 2005-08-24
 status: published
 type: post

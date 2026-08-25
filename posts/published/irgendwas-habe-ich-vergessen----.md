@@ -1,7 +1,6 @@
 ---
 uid: irgendwas-habe-ich-vergessen----
 title: Irgendwas habe ich vergessen... ?
-slug: irgendwas-habe-ich-vergessen----
 date: 2007-01-25
 status: published
 type: post

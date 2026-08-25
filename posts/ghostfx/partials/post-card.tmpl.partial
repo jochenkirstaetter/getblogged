@@ -1,7 +1,7 @@
 <article class="post-card post {{tagClass}} {{imageClass}}">
 
     {{#image}}
-    <a class="post-card-image-link" href="{{_rel}}{{slug}}.html" aria-label="{{title}}">
+    <a class="post-card-image-link" href="{{_rel}}{{uid}}.html" aria-label="{{title}}">
         <img class="post-card-image"
             src="{{_rel}}{{.}}"
             alt="{{title}}{{#imageAttribution}} - {{.}}{{/imageAttribution}}"
@@ -12,7 +12,7 @@
     {{/image}}
     {{^image}}
     {{#featureImage}}
-    <a class="post-card-image-link" href="{{_rel}}{{slug}}.html" aria-label="{{title}}">
+    <a class="post-card-image-link" href="{{_rel}}{{uid}}.html" aria-label="{{title}}">
         <img class="post-card-image"
             src="{{_rel}}{{.}}"
             alt="{{title}}{{#imageAttribution}} - {{.}}{{/imageAttribution}}"
@@ -29,7 +29,7 @@
                 <span class="post-card-tags"><xref href="tag-{{.}}">{{.}}</xref></span>
             {{/primaryTag}}
         </div>
-        <a class="post-card-content-link" href="{{_rel}}{{slug}}.html">
+        <a class="post-card-content-link" href="{{_rel}}{{uid}}.html">
             <header class="post-card-header">
                 <h2 class="post-card-title">{{title}}</h2>
             </header>

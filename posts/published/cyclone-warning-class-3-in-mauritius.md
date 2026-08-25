@@ -1,7 +1,6 @@
 ---
 uid: cyclone-warning-class-3-in-mauritius
 title: Cyclone Warning Class 3 in Mauritius
-slug: cyclone-warning-class-3-in-mauritius
 date: 2008-01-31
 status: published
 type: post

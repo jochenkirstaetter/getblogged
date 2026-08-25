@@ -1,7 +1,6 @@
 ---
 uid: devfest-mauritius-2023
 title: DevFest Mauritius 2023
-slug: devfest-mauritius-2023
 date: 2023-12-07
 status: published
 type: post

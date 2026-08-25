@@ -1,7 +1,6 @@
 ---
 uid: tuning-sql-server-2012-for-sharepoint-2013-jump-start
 title: Tuning SQL Server 2012 for SharePoint 2013 Jump Start
-slug: tuning-sql-server-2012-for-sharepoint-2013-jump-start
 date: 2013-09-01
 status: published
 type: post

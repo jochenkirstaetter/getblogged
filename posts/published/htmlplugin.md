@@ -1,7 +1,6 @@
 ---
 uid: htmlplugin
 title: HTML Plugin for Active FoxPro Pages
-slug: htmlplugin
 date: 2009-12-14
 status: published
 type: post

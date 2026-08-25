@@ -48,8 +48,9 @@ def parse_post(file_path: Path) -> dict:
         return None
 
     title = fm.get("title") or file_path.stem.replace("-", " ").title()
-    slug = fm.get("slug") or file_path.stem
+    uid = fm.get("uid") or fm.get("slug") or file_path.stem
     date_val = fm.get("publishedAt") or fm.get("date") or fm.get("updatedAt") or "1970-01-01"
+    date_str = str(date_val).split("T")[0]
     
     try:
         dt = datetime.strptime(date_str, "%Y-%m-%d")
@@ -79,7 +80,8 @@ def parse_post(file_path: Path) -> dict:
 
     return {
         "title": title,
-        "slug": slug,
+        "uid": uid,
+        "slug": uid,
         "date": dt.strftime("%Y-%m-%d"),
         "formattedDate": dt.strftime("%b %-d, %Y") if dt.year > 1970 else "",
         "dt": dt,
@@ -107,25 +109,30 @@ def main():
         try:
             docfx_cfg = json.loads(docfx_cfg_file.read_text(encoding="utf-8"))
             index_count = int(docfx_cfg.get("build", {}).get("globalMetadata", {}).get("_indexCount", 12))
-        except Exception as e:
-            print(f"Warning reading _indexCount from {docfx_cfg_file}: {e}")
+        except Exception as ex:
+            print(f"Warning: Could not read _indexCount from {docfx_cfg_file}: {ex}")
 
-    posts = [
-        res
-        for p in published_dir.glob("*.md")
-        if not p.name.startswith(".") and p.name not in ("toc.yml", "index.md")
-        for res in [parse_post(p)]
-        if res is not None
-    ]
-    posts.sort(key=lambda x: (x["dt"], x["mtime"], x["title"]), reverse=True)
+    if not published_dir.exists():
+        print(f"Error: {published_dir} does not exist.")
+        return
+
+    posts = []
+    for f in published_dir.glob("*.md"):
+        post = parse_post(f)
+        if post:
+            posts.append(post)
+
+    # Sort descending by date (publishedAt/date), then by title
+    posts.sort(key=lambda x: (x["dt"], x["title"]), reverse=True)
+
     top_posts = posts[:index_count]
 
     yaml_lines = [
         "---",
         "uid: home",
-        "title: Get Blogged by JoKi",
-        "description: The only frontiers are in your mind",
-        "coverImage: content/images/2023/07/GDG_Google_Banner.webp",
+        'title: "Get Blogged by JoKi"',
+        'description: "Software Craftsman, Microsoft MVP, Google Developer Expert, Community Leader"',
+        "layout: default",
         "image: content/images/2023/07/GDG_Google_Banner.webp",
         "ogImage: content/images/2023/07/GDG_Google_Banner.webp",
         "canonicalUrl: https://jochen.kirstaetter.name/",
@@ -137,7 +144,7 @@ def main():
     for p in top_posts:
         t = p["title"].replace('"', '\\"')
         e = p["excerpt"].replace('"', '\\"')
-        slug = p["slug"]
+        uid = p["uid"]
         date = p["date"]
         formatted_date = p["formattedDate"]
         image = p["image"]
@@ -150,7 +157,7 @@ def main():
         image_class = p["imageClass"]
 
         yaml_lines.append(f'- title: "{t}"')
-        yaml_lines.append(f"  slug: {slug}")
+        yaml_lines.append(f"  uid: {uid}")
         yaml_lines.append(f"  date: {date}")
         yaml_lines.append(f"  formattedDate: {formatted_date}")
         if image:

@@ -1,7 +1,6 @@
 ---
 uid: vista-fr-developer
 title: Vista für Developer
-slug: vista-fr-developer
 date: 2006-01-22
 status: published
 type: post

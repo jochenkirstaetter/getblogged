@@ -1,7 +1,6 @@
 ---
 uid: pathinfo-oder-wozu-gibt-es-eigentlich-rfcs
 title: PATH_INFO oder wozu gibt es eigentlich RFCs?
-slug: pathinfo-oder-wozu-gibt-es-eigentlich-rfcs
 date: 2006-04-10
 status: published
 type: post

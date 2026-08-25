@@ -1,7 +1,6 @@
 ---
 uid: vfp-fr-webausgabe-von-daten
 title: VFP für Webausgabe von Daten
-slug: vfp-fr-webausgabe-von-daten
 date: 2006-08-17
 status: published
 type: post

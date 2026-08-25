@@ -1,7 +1,6 @@
 ---
 uid: mau-pas-konpran-2
 title: Mau Pas Konpran!? Brain Drain
-slug: mau-pas-konpran-2
 date: 2023-12-19
 status: published
 type: post

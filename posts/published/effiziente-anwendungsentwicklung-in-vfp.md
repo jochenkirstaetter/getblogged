@@ -1,7 +1,6 @@
 ---
 uid: effiziente-anwendungsentwicklung-in-vfp
 title: Effiziente Anwendungsentwicklung in VFP
-slug: effiziente-anwendungsentwicklung-in-vfp
 date: 2006-04-29
 status: published
 type: post

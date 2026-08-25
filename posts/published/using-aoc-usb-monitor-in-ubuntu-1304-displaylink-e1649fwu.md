@@ -1,7 +1,6 @@
 ---
 uid: using-aoc-usb-monitor-in-ubuntu-1304-displaylink-e1649fwu
 title: Using a portable USB monitor in Ubuntu 13.04 (AOC e1649Fwu - DisplayLink)
-slug: using-aoc-usb-monitor-in-ubuntu-1304-displaylink-e1649fwu
 date: 2013-10-15
 status: published
 type: post

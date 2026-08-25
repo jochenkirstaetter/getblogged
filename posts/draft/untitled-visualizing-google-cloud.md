@@ -1,7 +1,6 @@
 ---
 uid: untitled-visualizing-google-cloud
 title: Visualising Google Cloud (Draft)
-slug: untitled-visualizing-google-cloud
 date: 2023-08-23
 status: draft
 type: post

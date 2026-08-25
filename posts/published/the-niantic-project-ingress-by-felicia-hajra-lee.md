@@ -1,7 +1,6 @@
 ---
 uid: the-niantic-project-ingress-by-felicia-hajra-lee
 title: 'The Niantic Project: Ingress by Felicia Hajra-Lee'
-slug: the-niantic-project-ingress-by-felicia-hajra-lee
 date: 2013-06-05
 status: published
 type: post

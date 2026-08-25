@@ -1,7 +1,6 @@
 ---
 uid: andy-volk
 title: Dinner with Andy Volk
-slug: andy-volk
 date: 2018-03-08
 status: published
 type: post

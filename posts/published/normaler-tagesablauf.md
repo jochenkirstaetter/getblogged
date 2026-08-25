@@ -1,7 +1,6 @@
 ---
 uid: normaler-tagesablauf
 title: Normaler Tagesablauf?
-slug: normaler-tagesablauf
 date: 2005-08-22
 status: published
 type: post

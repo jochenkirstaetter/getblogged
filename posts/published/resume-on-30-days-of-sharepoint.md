@@ -1,7 +1,6 @@
 ---
 uid: resume-on-30-days-of-sharepoint
 title: Resume on 30 Days of SharePoint
-slug: resume-on-30-days-of-sharepoint
 date: 2013-09-30
 status: published
 type: post

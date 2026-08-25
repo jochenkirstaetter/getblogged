@@ -1,7 +1,6 @@
 ---
 uid: visual-foxpro-evangelist-program-gestartet
 title: Visual FoxPro Evangelist Program gestartet
-slug: visual-foxpro-evangelist-program-gestartet
 date: 2006-09-28
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: google-i-o-connect-amsterdam
 title: Google I/O Connect Amsterdam (Draft)
-slug: google-i-o-connect-amsterdam
 date: 2023-08-23
 status: draft
 type: post

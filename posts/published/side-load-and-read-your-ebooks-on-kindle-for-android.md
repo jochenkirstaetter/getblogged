@@ -1,7 +1,6 @@
 ---
 uid: side-load-and-read-your-ebooks-on-kindle-for-android
 title: Side-load and read your ebooks on Kindle for Android
-slug: side-load-and-read-your-ebooks-on-kindle-for-android
 date: 2013-04-25
 status: published
 type: post

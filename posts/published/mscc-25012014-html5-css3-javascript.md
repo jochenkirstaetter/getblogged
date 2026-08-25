@@ -1,7 +1,6 @@
 ---
 uid: mscc-25012014-html5-css3-javascript
 title: 'MSCC: HTML5, CSS3 and JavaScript'
-slug: mscc-25012014-html5-css3-javascript
 date: 2014-01-25
 status: published
 type: post

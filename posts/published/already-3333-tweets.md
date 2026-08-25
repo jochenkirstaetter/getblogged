@@ -1,7 +1,6 @@
 ---
 uid: already-3333-tweets
 title: Already 3,333 tweets...
-slug: already-3333-tweets
 date: 2014-08-20
 status: published
 type: post

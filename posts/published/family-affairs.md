@@ -1,7 +1,6 @@
 ---
 uid: family-affairs
 title: Family affairs
-slug: family-affairs
 date: 2008-10-08
 status: published
 type: post

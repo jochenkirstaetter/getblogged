@@ -1,7 +1,6 @@
 ---
 uid: modified-mod-paypal
 title: Modified Ultimate Paypal Donations Module
-slug: modified-mod-paypal
 date: 2010-02-17
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: design-pattern-decorator
 title: 'Design Pattern: Decorator'
-slug: design-pattern-decorator
 date: 2005-12-03
 status: published
 type: post

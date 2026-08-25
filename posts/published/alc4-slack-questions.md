@@ -1,7 +1,6 @@
 ---
 uid: alc4-slack-questions
 title: ALC 4.0 Cloud - Slack questions
-slug: alc4-slack-questions
 date: 2019-08-10
 status: published
 type: post

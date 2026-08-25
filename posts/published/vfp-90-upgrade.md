@@ -1,7 +1,6 @@
 ---
 uid: vfp-90-upgrade
 title: VFP 9.0 Upgrade
-slug: vfp-90-upgrade
 date: 2005-02-19
 status: published
 type: post

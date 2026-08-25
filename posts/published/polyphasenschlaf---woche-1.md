@@ -1,7 +1,6 @@
 ---
 uid: polyphasenschlaf---woche-1
 title: Polyphasenschlaf - Woche 1
-slug: polyphasenschlaf---woche-1
 date: 2006-04-03
 status: published
 type: post

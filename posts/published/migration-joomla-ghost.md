@@ -1,7 +1,6 @@
 ---
 uid: migration-joomla-ghost
 title: Migration to Ghost
-slug: migration-joomla-ghost
 date: 2017-08-07
 status: published
 type: post

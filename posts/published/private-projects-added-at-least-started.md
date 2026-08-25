@@ -1,7 +1,6 @@
 ---
 uid: private-projects-added-at-least-started
 title: Private projects added (at least started...)
-slug: private-projects-added-at-least-started
 date: 2008-03-19
 status: published
 type: post

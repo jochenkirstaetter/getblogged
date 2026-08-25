@@ -1,7 +1,6 @@
 ---
 uid: nichts-ist-unmglich
 title: Nichts ist unmöglich...
-slug: nichts-ist-unmglich
 date: 2010-01-24
 status: published
 type: post

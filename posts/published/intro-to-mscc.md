@@ -1,7 +1,6 @@
 ---
 uid: intro-to-mscc
 title: Introduction to Mauritius Software Craftsmanship Community
-slug: intro-to-mscc
 date: 2015-03-01
 status: published
 type: post

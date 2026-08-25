@@ -1,7 +1,6 @@
 ---
 uid: gads-2020-spotlight
 title: GADS 2020 - Spotlight
-slug: gads-2020-spotlight
 date: 2020-10-06
 status: published
 type: post

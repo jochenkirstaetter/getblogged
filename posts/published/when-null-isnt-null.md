@@ -1,7 +1,6 @@
 ---
 uid: when-null-isnt-null
 title: When NULL isn't NULL
-slug: when-null-isnt-null
 date: 2018-09-10
 status: published
 type: post

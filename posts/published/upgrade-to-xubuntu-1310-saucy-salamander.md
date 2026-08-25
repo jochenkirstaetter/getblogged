@@ -1,7 +1,6 @@
 ---
 uid: upgrade-to-xubuntu-1310-saucy-salamander
 title: Upgrade to Xubuntu 13.10 - Saucy Salamander
-slug: upgrade-to-xubuntu-1310-saucy-salamander
 date: 2013-10-24
 status: published
 type: post

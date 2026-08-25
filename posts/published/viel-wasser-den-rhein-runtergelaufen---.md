@@ -1,7 +1,6 @@
 ---
 uid: viel-wasser-den-rhein-runtergelaufen---
 title: Viel Wasser den Rhein runtergelaufen...
-slug: viel-wasser-den-rhein-runtergelaufen---
 date: 2006-06-01
 status: published
 type: post

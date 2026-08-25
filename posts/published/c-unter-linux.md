@@ -1,7 +1,6 @@
 ---
 uid: c-unter-linux
 title: C# unter Linux
-slug: c-unter-linux
 date: 2004-12-01
 status: published
 type: post

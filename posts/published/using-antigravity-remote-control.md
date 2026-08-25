@@ -1,7 +1,6 @@
 ---
 uid: using-antigravity-remote-control
 title: "Using Antigravity Remote Control"
-slug: using-antigravity-remote-control
 date: 2026-08-22
 status: published
 type: post

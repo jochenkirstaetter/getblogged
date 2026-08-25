@@ -1,7 +1,6 @@
 ---
 uid: new-years-resolution-2012
 title: New Year's resolution 2012
-slug: new-years-resolution-2012
 date: 2012-01-03
 status: published
 type: post

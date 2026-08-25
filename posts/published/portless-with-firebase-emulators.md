@@ -1,7 +1,6 @@
 ---
 uid: portless-with-firebase-emulators
 title: Using portless with Firebase Hosting
-slug: portless-with-firebase-emulators
 date: 2026-08-21
 status: published
 type: post

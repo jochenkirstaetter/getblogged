@@ -1,7 +1,6 @@
 ---
 uid: special-edition-using-visual-foxpro-6
 title: Special Edition Using Visual FoxPro 6
-slug: special-edition-using-visual-foxpro-6
 date: 2006-10-14
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: konspiratives-community-treffen
 title: Konspiratives Community-Treffen?
-slug: konspiratives-community-treffen
 date: 2006-04-13
 status: published
 type: post

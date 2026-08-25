@@ -1,7 +1,6 @@
 ---
 uid: multiselect-komponente
 title: MultiSelect-Komponente
-slug: multiselect-komponente
 date: 2005-03-05
 status: published
 type: post

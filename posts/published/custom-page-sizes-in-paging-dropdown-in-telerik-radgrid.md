@@ -1,7 +1,6 @@
 ---
 uid: custom-page-sizes-in-paging-dropdown-in-telerik-radgrid
 title: Custom page sizes in paging dropdown in Telerik RadGrid
-slug: custom-page-sizes-in-paging-dropdown-in-telerik-radgrid
 date: 2012-11-08
 status: published
 type: post

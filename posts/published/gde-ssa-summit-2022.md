@@ -1,7 +1,6 @@
 ---
 uid: gde-ssa-summit-2022
 title: GDE SSA Summit 2022
-slug: gde-ssa-summit-2022
 date: 2022-09-27
 status: published
 type: post

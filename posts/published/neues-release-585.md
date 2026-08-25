@@ -1,7 +1,6 @@
 ---
 uid: neues-release-585
 title: 'Neues Release #585'
-slug: neues-release-585
 date: 2005-07-11
 status: published
 type: post

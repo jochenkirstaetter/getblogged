@@ -1,7 +1,6 @@
 ---
 uid: microsoft-and-innovation-iif-method
 title: 'Microsoft and innovation: IIF() method'
-slug: microsoft-and-innovation-iif-method
 date: 2013-10-06
 status: published
 type: post

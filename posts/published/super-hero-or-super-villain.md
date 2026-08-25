@@ -1,7 +1,6 @@
 ---
 uid: super-hero-or-super-villain
 title: Super Hero or Super Villain?
-slug: super-hero-or-super-villain
 date: 2007-01-31
 status: published
 type: post

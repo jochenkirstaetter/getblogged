@@ -1,7 +1,6 @@
 ---
 uid: werbung-verbloedet
 title: Werbung verblödet...
-slug: werbung-verbloedet
 date: 2005-04-08
 status: published
 type: post

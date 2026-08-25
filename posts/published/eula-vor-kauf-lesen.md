@@ -1,7 +1,6 @@
 ---
 uid: eula-vor-kauf-lesen
 title: EULA vor Kauf lesen
-slug: eula-vor-kauf-lesen
 date: 2005-07-13
 status: published
 type: post

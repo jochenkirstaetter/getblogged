@@ -1,7 +1,6 @@
 ---
 uid: using-microsoft-infopath-as-blog-frontend
 title: Using Microsoft InfoPath as blog frontend
-slug: using-microsoft-infopath-as-blog-frontend
 date: 2005-08-02
 status: published
 type: post

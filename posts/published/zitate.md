@@ -1,7 +1,6 @@
 ---
 uid: zitate
 title: Zitate...
-slug: zitate
 date: 2005-04-20
 status: published
 type: post

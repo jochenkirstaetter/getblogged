@@ -1,7 +1,6 @@
 ---
 uid: troubleshooting-vmware-on-ubuntu
 title: Troubleshooting VMware on Ubuntu
-slug: troubleshooting-vmware-on-ubuntu
 date: 2010-04-16
 status: published
 type: post

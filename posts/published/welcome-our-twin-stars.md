@@ -1,7 +1,6 @@
 ---
 uid: welcome-our-twin-stars
 title: Welcome - Our twin stars!
-slug: welcome-our-twin-stars
 date: 2019-02-01
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: world-map-of-visitors
 title: World Map of Visitors
-slug: world-map-of-visitors
 date: 2009-12-20
 status: published
 type: post

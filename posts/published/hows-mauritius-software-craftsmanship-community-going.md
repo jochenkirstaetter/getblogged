@@ -1,7 +1,6 @@
 ---
 uid: hows-mauritius-software-craftsmanship-community-going
 title: How's Mauritius Software Craftsmanship Community going?
-slug: hows-mauritius-software-craftsmanship-community-going
 date: 2013-11-24
 status: published
 type: post

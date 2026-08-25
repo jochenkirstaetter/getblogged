@@ -1,7 +1,6 @@
 ---
 uid: devcon-ein-erster-eindruck
 title: 'Devcon: Ein erster Eindruck'
-slug: devcon-ein-erster-eindruck
 date: 2004-11-09
 status: published
 type: post

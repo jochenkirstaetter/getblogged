@@ -1,7 +1,6 @@
 ---
 uid: devcon---vorbereitung
 title: Devcon - Vorbereitung
-slug: devcon---vorbereitung
 date: 2006-10-27
 status: published
 type: post

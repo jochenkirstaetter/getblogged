@@ -1,7 +1,6 @@
 ---
 uid: not-attending-the-lugm-mini-meetup
 title: Not attending the LUGM mini-meetup - 05. Oct 2013
-slug: not-attending-the-lugm-mini-meetup
 date: 2013-10-06
 status: published
 type: post

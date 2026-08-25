@@ -1,7 +1,6 @@
 ---
 uid: found-by-google
 title: Found by Google
-slug: found-by-google
 date: 2005-04-10
 status: published
 type: post

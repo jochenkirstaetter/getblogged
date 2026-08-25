@@ -1,7 +1,6 @@
 ---
 uid: ajax-der-schnelle-kchenreiniger-fr-die-website
 title: AJaX - der schnelle Küchenreiniger für die Website
-slug: ajax-der-schnelle-kchenreiniger-fr-die-website
 date: 2006-01-26
 status: published
 type: post

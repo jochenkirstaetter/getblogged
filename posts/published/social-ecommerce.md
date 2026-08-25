@@ -1,7 +1,6 @@
 ---
 uid: social-ecommerce
 title: Social eCommerce by Stephan Spencer, Jimmy Harding & Jennifer Sheahan
-slug: social-ecommerce
 date: 2014-11-13
 status: published
 type: post

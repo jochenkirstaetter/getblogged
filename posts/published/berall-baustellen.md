@@ -1,7 +1,6 @@
 ---
 uid: berall-baustellen
 title: Überall Baustellen?
-slug: berall-baustellen
 date: 2005-02-22
 status: published
 type: post

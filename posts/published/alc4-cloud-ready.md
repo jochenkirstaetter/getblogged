@@ -1,7 +1,6 @@
 ---
 uid: alc4-cloud-ready
 title: Considerations for production readiness (ALC 4.0 Cloud Challenge I)
-slug: alc4-cloud-ready
 date: 2019-11-09
 status: published
 type: post

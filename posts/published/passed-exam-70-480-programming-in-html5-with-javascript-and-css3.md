@@ -1,7 +1,6 @@
 ---
 uid: passed-exam-70-480-programming-in-html5-with-javascript-and-css3
 title: 'Passed: Exam 70-480: Programming in HTML5 with JavaScript and CSS3'
-slug: passed-exam-70-480-programming-in-html5-with-javascript-and-css3
 date: 2012-12-18
 status: published
 type: post

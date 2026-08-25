@@ -1,7 +1,6 @@
 ---
 uid: msdn-zu-vfp-ole-db-provider
 title: MSDN zu VFP OLE DB Provider
-slug: msdn-zu-vfp-ole-db-provider
 date: 2005-07-12
 status: published
 type: post

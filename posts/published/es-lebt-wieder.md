@@ -1,7 +1,6 @@
 ---
 uid: es-lebt-wieder
 title: Es lebt wieder...
-slug: es-lebt-wieder
 date: 2008-01-17
 status: published
 type: post

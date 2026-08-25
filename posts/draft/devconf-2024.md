@@ -1,7 +1,6 @@
 ---
 uid: devconf-2024
 title: DevConf 2024 (Draft)
-slug: devconf-2024
 date: 2024-05-27
 status: draft
 type: post

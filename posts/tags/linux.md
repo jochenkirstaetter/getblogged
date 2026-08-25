@@ -1,5 +1,5 @@
 ---
-uid: tag-linux
+uid: tag-Linux
 title: "Linux"
 layout: tag
 isTagPage: true
@@ -12,8 +12,10 @@ tagName: "Linux"
 ## Articles
 
 - [Installing SQL Server 2019 and tools on Ubuntu 20.04](xref:sql-server-2019-on-ubuntu) - *Mar 25, 2022*
+- [Let's Encrypt and Ghost (Draft)](xref:letsencrypt-ghost) - *Jan 18, 2019*
 - [Using Apache HTTP as reverse proxy](xref:apache-reverse-proxy) - *Jan 10, 2019*
 - [Using nginx as reverse proxy](xref:nginx-reverse-proxy) - *Jan 8, 2019*
+- [OpenSSH on Windows natively (Draft)](xref:openssh-on-windows) - *Oct 17, 2018*
 - [OpenVPN: All TAP-Windows adapters on this system are currently in use](xref:openvpn-on-windows-all-tap-windows-adapters-on-this-system-are-currently-in-use) - *Aug 31, 2018*
 - [OpenVPN re-visited](xref:openvpn-revisited) - *Aug 28, 2018*
 - [Next stop: MCSA: Linux on Azure](xref:mcsa-linux-on-azure) - *Mar 13, 2018*

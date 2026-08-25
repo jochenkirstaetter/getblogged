@@ -1,7 +1,6 @@
 ---
 uid: using-ext4-in-vmware-machine
 title: Using ext4 in VMware machine
-slug: using-ext4-in-vmware-machine
 date: 2010-07-29
 status: published
 type: post

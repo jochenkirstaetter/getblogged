@@ -1,7 +1,6 @@
 ---
 uid: mau-pas-konpran
 title: Mau pas konpran!? SIM Registration
-slug: mau-pas-konpran
 date: 2023-11-19
 status: published
 type: post

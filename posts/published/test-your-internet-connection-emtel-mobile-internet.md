@@ -1,7 +1,6 @@
 ---
 uid: test-your-internet-connection-emtel-mobile-internet
 title: Test your internet connection - Emtel Mobile Internet
-slug: test-your-internet-connection-emtel-mobile-internet
 date: 2013-05-31
 status: published
 type: post

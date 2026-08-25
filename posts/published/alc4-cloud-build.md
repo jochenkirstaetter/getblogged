@@ -1,7 +1,6 @@
 ---
 uid: alc4-cloud-build
 title: Working with Cloud Build
-slug: alc4-cloud-build
 date: 2019-11-23
 status: published
 type: post

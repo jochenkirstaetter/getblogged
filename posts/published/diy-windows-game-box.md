@@ -1,7 +1,6 @@
 ---
 uid: diy-windows-game-box
 title: DIY Windows Game Box (Steam, Itch, Xbox, Store, Scumm, etc.)
-slug: diy-windows-game-box
 date: 2018-10-17
 status: published
 type: post

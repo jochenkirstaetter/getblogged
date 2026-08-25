@@ -1,7 +1,6 @@
 ---
 uid: die-cebit-ruft---
 title: Die CeBIT ruft...
-slug: die-cebit-ruft---
 date: 2006-03-10
 status: published
 type: post

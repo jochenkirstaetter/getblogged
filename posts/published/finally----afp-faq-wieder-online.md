@@ -1,7 +1,6 @@
 ---
 uid: finally----afp-faq-wieder-online
 title: Finally... AFP FAQ wieder online
-slug: finally----afp-faq-wieder-online
 date: 2005-08-13
 status: published
 type: post

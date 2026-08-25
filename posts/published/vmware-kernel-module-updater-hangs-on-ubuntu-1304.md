@@ -1,7 +1,6 @@
 ---
 uid: vmware-kernel-module-updater-hangs-on-ubuntu-1304
 title: VMware Kernel Module Updater hangs on Ubuntu 13.04
-slug: vmware-kernel-module-updater-hangs-on-ubuntu-1304
 date: 2013-05-21
 status: published
 type: post

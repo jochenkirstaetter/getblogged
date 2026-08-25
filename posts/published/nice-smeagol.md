@@ -1,7 +1,6 @@
 ---
 uid: nice-smeagol
 title: Nice Smeagol...
-slug: nice-smeagol
 date: 2005-11-23
 status: published
 type: post

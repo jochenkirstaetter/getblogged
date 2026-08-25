@@ -1,7 +1,6 @@
 ---
 uid: vfp-devcon-prag-2005---day-3
 title: VFP Devcon Prag 2005 - Day 3
-slug: vfp-devcon-prag-2005---day-3
 date: 2005-06-22
 status: published
 type: post

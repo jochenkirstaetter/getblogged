@@ -1,7 +1,6 @@
 ---
 uid: configure-ipv6-on-ubuntu
 title: Configure IPv6 on your Linux system (Ubuntu)
-slug: configure-ipv6-on-ubuntu
 date: 2014-03-10
 status: published
 type: post

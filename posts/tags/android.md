@@ -1,5 +1,5 @@
 ---
-uid: tag-android
+uid: tag-Android
 title: "Android"
 layout: tag
 isTagPage: true

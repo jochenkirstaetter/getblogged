@@ -1,7 +1,6 @@
 ---
 uid: windows-forms-in-vfp
 title: Windows Forms in VFP
-slug: windows-forms-in-vfp
 date: 2006-04-26
 status: published
 type: post

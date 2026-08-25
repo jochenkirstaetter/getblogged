@@ -1,7 +1,6 @@
 ---
 uid: infotech-2013
 title: Infotech 2013 - Confusing and mixed impressions
-slug: infotech-2013
 date: 2013-11-22
 status: published
 type: post

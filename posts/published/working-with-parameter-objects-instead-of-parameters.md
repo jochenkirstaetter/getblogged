@@ -1,7 +1,6 @@
 ---
 uid: working-with-parameter-objects-instead-of-parameters
 title: Working with 'Parameter objects' instead of parameters
-slug: working-with-parameter-objects-instead-of-parameters
 date: 2008-06-04
 status: published
 type: post

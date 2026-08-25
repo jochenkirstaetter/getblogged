@@ -1,7 +1,6 @@
 ---
 uid: aufruf-zur-untersttzung-call-for-action
 title: Aufruf zur Unterstützung - Call for action
-slug: aufruf-zur-untersttzung-call-for-action
 date: 2006-09-19
 status: published
 type: post

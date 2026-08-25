@@ -1,7 +1,6 @@
 ---
 uid: vfp-datenbank-in--net
 title: VFP Datenbank in .NET
-slug: vfp-datenbank-in--net
 date: 2005-04-04
 status: published
 type: post

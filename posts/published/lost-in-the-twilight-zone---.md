@@ -1,7 +1,6 @@
 ---
 uid: lost-in-the-twilight-zone---
 title: Lost in the Twilight Zone...
-slug: lost-in-the-twilight-zone---
 date: 2005-07-12
 status: published
 type: post

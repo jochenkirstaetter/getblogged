@@ -1,7 +1,6 @@
 ---
 uid: spass-mit-der-messagebox
 title: Spass mit der MessageBox()
-slug: spass-mit-der-messagebox
 date: 2010-01-24
 status: published
 type: post

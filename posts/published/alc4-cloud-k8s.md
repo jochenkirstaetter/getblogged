@@ -1,7 +1,6 @@
 ---
 uid: alc4-cloud-k8s
 title: Google Kubernetes Engine (ALC 4.0 Cloud Challenge I)
-slug: alc4-cloud-k8s
 date: 2019-11-09
 status: published
 type: post

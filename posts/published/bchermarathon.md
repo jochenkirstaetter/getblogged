@@ -1,7 +1,6 @@
 ---
 uid: bchermarathon
 title: Büchermarathon
-slug: bchermarathon
 date: 2005-09-03
 status: published
 type: post

@@ -1,5 +1,5 @@
 ---
-uid: tag-activity
+uid: tag-Activity
 title: "Activity"
 layout: tag
 isTagPage: true

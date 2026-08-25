@@ -1,7 +1,6 @@
 ---
 uid: microsoft-commities-ganz-schn-schlau
 title: Microsoft Communities - Ganz. Schön. Schlau.
-slug: microsoft-commities-ganz-schn-schlau
 date: 2004-12-01
 status: published
 type: post

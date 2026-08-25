@@ -1,7 +1,6 @@
 ---
 uid: software-development-stack
 title: Software development stack 2012
-slug: software-development-stack
 date: 2012-08-13
 status: published
 type: post

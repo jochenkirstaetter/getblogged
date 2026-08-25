@@ -1,7 +1,6 @@
 ---
 uid: upgrade-to-windows-server-update-services-3-0-sp1
 title: Upgrade to Windows Server Update Services 3.0 SP1
-slug: upgrade-to-windows-server-update-services-3-0-sp1
 date: 2008-02-25
 status: published
 type: post

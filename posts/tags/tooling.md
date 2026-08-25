@@ -1,5 +1,5 @@
 ---
-uid: tag-tooling
+uid: tag-Tooling
 title: "Tooling"
 layout: tag
 isTagPage: true

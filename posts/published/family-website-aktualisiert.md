@@ -1,7 +1,6 @@
 ---
 uid: family-website-aktualisiert
 title: Family Website aktualisiert
-slug: family-website-aktualisiert
 date: 2006-10-21
 status: published
 type: post

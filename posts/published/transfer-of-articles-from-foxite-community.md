@@ -1,7 +1,6 @@
 ---
 uid: transfer-of-articles-from-foxite-community
 title: Transfer of articles from Foxite community
-slug: transfer-of-articles-from-foxite-community
 date: 2008-01-18
 status: published
 type: post

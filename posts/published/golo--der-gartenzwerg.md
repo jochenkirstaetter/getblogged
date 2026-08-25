@@ -1,7 +1,6 @@
 ---
 uid: golo--der-gartenzwerg
 title: Golo, der Gartenzwerg?
-slug: golo--der-gartenzwerg
 date: 2005-08-22
 status: published
 type: post

@@ -1,7 +1,6 @@
 ---
 uid: vfpconversion-vfp-andor-net
 title: VFPConversion - VFP and/or .NET?
-slug: vfpconversion-vfp-andor-net
 date: 2006-04-22
 status: published
 type: post
