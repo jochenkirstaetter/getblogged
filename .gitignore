@@ -8,7 +8,6 @@ wip_*
 !.env.example
 
 # Webmaster configuration and auth files
-ads.txt
 LiveSearchSiteAuth.xml
 y_key_*
 
