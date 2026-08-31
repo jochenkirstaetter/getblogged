@@ -12,6 +12,7 @@ image: content/images/2018/10/10211972419933448.webp
 
 ## Articles
 
+- [Speaking at GDG Cloud Munich: State of GCP (.NET Edition)](xref:gdg-cloud-munich) - *Aug 31, 2026*
 - [C# Corner Annual Conference 2017](xref:c-corner-conference-2017) - *May 30, 2024*
 - [Developer Creators and Online Communities Summit](xref:developer-creators-and-online-communities-summit) - *Feb 1, 2024*
 - [DevFest Jinja 2023](xref:devfest-jinja-2023) - *Dec 28, 2023*

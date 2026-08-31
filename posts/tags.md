@@ -12,7 +12,7 @@ bodyClass: "tag-template tag-index-template"
 - [AI (1)](tags/ai.md)
 - [Andela (11)](tags/andela.md)
 - [Android (15)](tags/android.md)
-- [Community (168)](tags/community.md)
+- [Community (169)](tags/community.md)
 - [Development (109)](tags/development.md)
 - [General (155)](tags/general.md)
 - [iOS (2)](tags/ios.md)

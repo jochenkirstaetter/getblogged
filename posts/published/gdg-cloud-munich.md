@@ -2,7 +2,7 @@
 uid: gdg-cloud-munich
 title: "Speaking at GDG Cloud Munich: State of GCP (.NET Edition)"
 date: 2023-11-18
-status: draft
+status: published
 type: post
 description: Ahead of the Google I/O Connect event in Amsterdam there had been exchange with the organisers of GDG Cloud Munich. Thankfully, they accepted a proposal to speak. Why Munich, you ask. It's quite far...
 metaDescription: "Exploring C# and .NET on Google Cloud Platform: live demos, Minimal APIs, NuGet integration, and Cloud Functions at GDG Cloud Munich."
@@ -16,7 +16,7 @@ bodyClass: post-template tag-community
 postClass: post tag-community
 isPost: true
 isPage: false
-isDraft: true
+isDraft: false
 isScheduled: false
 isTagPage: false
 isTagsIndexPage: false
@@ -31,8 +31,8 @@ canonicalUrl: https://jochen.kirstaetter.name/gdg-cloud-munich/
 authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
 featured: false
-publishedAt: ""
-updatedAt: 2024-02-11T08:44:29Z
+publishedAt: 2026-08-31T13:38:45Z
+updatedAt: 2026-08-31T09:30:45Z
 ---
 Ahead of the Google I/O Connect event in Amsterdam there had been exchange with the organisers of [GDG Cloud Munich](https://gdg.community.dev/gdg-cloud-munich/). Thankfully, they accepted a proposal to speak. Why Munich, you ask. It's quite far from Amsterdam.
 
@@ -59,6 +59,10 @@ I was given approximately one hour to present about .NET. After setting up the s
 Some of the questions asked indicated that there is quite some work to do removing a slightly negative reputation of the Microsoft .NET eco-system, simply because it's Microsoft (maybe its past?), whereas other questions looked behind that facade and brought up comparison to other existing approaches like backend development with Node.js and Express, and how C# could be useful for such backend services.
 
 To begin with .NET development I explained the [*dotnet* CLI tool](https://learn.microsoft.com/en-us/dotnet/core/tools/) and how project templates get you started.
+
+```bash
+dotnet new list
+```
 
 ![Getting started with .NET CLI and project templates](../content/images/2023/11/GE7cNRtch-j07CuvqrRQuMIOp5oKtR8MHt573fsv_MNhTg-CT2RLZWkpt50u4RaG9yiTczeQCfshFVkvv6mAulhHPfzf_873z6wt0_EyI6uSOxZshwZqP9-bv2Yhrdf1n4tBNThODEq5LebCkJlEK-N2=s2048.webp)
 

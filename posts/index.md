@@ -6,6 +6,19 @@ canonicalUrl: https://jochen.kirstaetter.name/
 isHome: true
 bodyClass: home-template
 posts:
+- title: "Speaking at GDG Cloud Munich: State of GCP (.NET Edition)"
+  uid: gdg-cloud-munich
+  date: 2026-08-31
+  formattedDate: Aug 31, 2026
+  image: content/images/2023/11/gdg-cloud-munich.webp
+  excerpt: "Ahead of the Google I/O Connect event in Amsterdam there had been exchange with the organisers of GDG Cloud Munich. Thankfully, they accepted a proposal to speak. Why Munich, you ask. It's quite far..."
+  authorName: Jochen Kirstätter
+  authorSlug: joki
+  authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
+  primaryTag: Community
+  tagSlug: community
+  tagClass: tag-community
+  imageClass: with-image
 - title: "Mastering the Matrix: Elegant QR Code Generation"
   uid: mastering-the-matrix-qr-code-generation
   date: 2026-08-23
@@ -142,19 +155,6 @@ posts:
   formattedDate: Mar 4, 2024
   image: content/images/2024/03/Gemini_Generated_Image-1-.webp
   excerpt: "Taking multiple steps to build, pack and publish a NuGet package manually is a distraction and error-prone. Use Google Cloud Build to handle the boring parts of the SDLC."
-  authorName: Jochen Kirstätter
-  authorSlug: joki
-  authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
-  primaryTag: Development
-  tagSlug: development
-  tagClass: tag-development
-  imageClass: with-image
-- title: "Create NuGet packages with Visual Studio / Visual Studio Code"
-  uid: create-nuget-packages-vs-code
-  date: 2024-03-01
-  formattedDate: Mar 1, 2024
-  image: content/images/2024/03/Gemini_Generated_Image.webp
-  excerpt: "An essential tool for any modern development platform is a mechanism through which developers can create, share, and consume useful code. For .NET it's NuGet packages to the rescue!"
   authorName: Jochen Kirstätter
   authorSlug: joki
   authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
