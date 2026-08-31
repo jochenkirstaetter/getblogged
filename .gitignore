@@ -38,3 +38,4 @@ posts/draft/assets
 scratch
 __pycache__
 .dotnet/
+.obsidian
