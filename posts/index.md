@@ -1,10 +1,7 @@
 ---
 uid: home
 title: "Get Blogged by JoKi"
-description: "Software Craftsman, Microsoft MVP, Google Developer Expert, Community Leader"
-layout: default
-image: content/images/2023/07/GDG_Google_Banner.webp
-ogImage: content/images/2023/07/GDG_Google_Banner.webp
+description: "The only frontiers are in your mind"
 canonicalUrl: https://jochen.kirstaetter.name/
 isHome: true
 bodyClass: home-template
