@@ -140,7 +140,7 @@ gcloud functions deploy my-http-function \
     --allow-unauthenticated
 ```
 
-With an active Cloud billing account, enabled APIs - Cloud Functions and Artifact Registry -, as well as local `gcloud` authentication, it's roughly a matter of five minutes from start to finish.
+With an active Cloud billing account, enabled APIs - Cloud Functions and Artifact Registry - as well as local `gcloud` authentication, it's roughly a matter of five minutes from start to finish.
 
 If not sure, you can retrieve a list of available runtimes in a region like this:
 
