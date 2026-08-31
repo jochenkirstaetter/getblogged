@@ -1,6 +1,6 @@
 ---
 uid: successful-failure
-title: Although it was a failure, it was successful (Draft)
+title: Although it was a failure, it was successful
 date: 2019-02-08
 status: draft
 type: post
@@ -12,6 +12,7 @@ keywords: Projects, Personal
 metaTitle: Although it was a failure, it was successful
 metaDescription: ''
 image: content/images/2019/02/100DaysOfExam.webp
+ogImage: content/images/2019/02/100DaysOfExam-og.webp
 ogTitle: Although it was a failure, it was successful
 ogDescription: ''
 layout: post

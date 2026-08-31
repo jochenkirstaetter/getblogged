@@ -1,6 +1,6 @@
 ---
 uid: using-windows-eventlog-in-visual-foxpro
-title: Using Windows Eventlog in Visual FoxPro (Draft)
+title: Using Windows Eventlog in Visual FoxPro
 date: 2018-09-11
 status: draft
 type: post

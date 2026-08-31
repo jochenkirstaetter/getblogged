@@ -1,6 +1,6 @@
 ---
 uid: untitled-from-rest-api-to-nuget-package-writing-an-sdk-in-c
-title: 'From REST API to NuGet package: Writing an SDK in C# (Draft)'
+title: 'From REST API to NuGet package: Writing an SDK in C#'
 date: 2024-05-30
 status: draft
 type: post

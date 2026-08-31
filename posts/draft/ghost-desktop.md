@@ -1,6 +1,6 @@
 ---
 uid: ghost-desktop
-title: Contributing to Ghost Desktop (Draft)
+title: Contributing to Ghost Desktop
 date: 2018-03-14
 status: draft
 type: post

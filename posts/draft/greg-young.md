@@ -1,6 +1,6 @@
 ---
 uid: greg-young
-title: Interview with Greg Young during Developers Conference 2017 (Draft)
+title: Interview with Greg Young during Developers Conference 2017
 date: 2018-03-14
 status: draft
 type: post

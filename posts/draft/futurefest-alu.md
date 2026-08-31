@@ -1,6 +1,6 @@
 ---
 uid: futurefest-alu
-title: Panelist at the FutureFest of ALU (Draft)
+title: Panelist at the FutureFest of ALU
 date: 2019-11-04
 status: draft
 type: post

@@ -1,6 +1,6 @@
 ---
 uid: letsencrypt-ghost
-title: Let's Encrypt and Ghost (Draft)
+title: Let's Encrypt and Ghost
 date: 2019-01-18
 status: draft
 type: post

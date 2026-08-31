@@ -1,6 +1,6 @@
 ---
 uid: devconf-2024
-title: DevConf 2024 (Draft)
+title: DevConf 2024
 date: 2024-05-27
 status: draft
 type: post
@@ -11,6 +11,7 @@ keywords: Community
 metaTitle: DevConf 2024
 metaDescription: ''
 image: content/images/2024/06/SDP_0068.webp
+ogImage: content/images/2024/06/SDP_0068-og.webp
 ogTitle: DevConf 2024
 ogDescription: ''
 layout: post

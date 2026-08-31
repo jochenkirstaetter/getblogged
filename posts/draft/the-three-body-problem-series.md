@@ -1,6 +1,6 @@
 ---
 uid: the-three-body-problem-series
-title: The Three-Body Problem series (Draft)
+title: The Three-Body Problem series
 date: 2023-08-23
 status: draft
 type: post

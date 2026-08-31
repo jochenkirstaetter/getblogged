@@ -1,6 +1,6 @@
 ---
 uid: dont-say-that-at-work
-title: Don't say that at work! (Draft)
+title: Don't say that at work!
 date: 2023-08-23
 status: draft
 type: post

@@ -1,6 +1,6 @@
 ---
 uid: google-africa-developer-scholarship-2020
-title: Google Africa Developer Scholarship 2020 (Draft)
+title: Google Africa Developer Scholarship 2020
 date: 2020-06-25
 status: draft
 type: post

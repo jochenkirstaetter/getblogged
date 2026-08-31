@@ -1,6 +1,6 @@
 ---
 uid: google-cloud-for-developers
-title: Google Cloud for Developers (Draft)
+title: Google Cloud for Developers
 date: 2023-08-23
 status: draft
 type: post

@@ -1,6 +1,6 @@
 ---
 uid: takamo-universe-novels
-title: Takamo Universe Novels (Draft)
+title: Takamo Universe Novels
 date: 2023-08-23
 status: draft
 type: post

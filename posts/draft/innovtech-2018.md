@@ -1,6 +1,6 @@
 ---
 uid: innovtech-2018
-title: Infotech/Innovtech 2018 (Draft)
+title: Infotech/Innovtech 2018
 date: 2018-08-31
 status: draft
 type: post

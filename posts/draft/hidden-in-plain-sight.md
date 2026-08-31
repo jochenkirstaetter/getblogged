@@ -1,6 +1,6 @@
 ---
 uid: hidden-in-plain-sight
-title: Hidden in Plain Sight series (Draft)
+title: Hidden in Plain Sight series
 date: 2023-08-23
 status: draft
 type: post

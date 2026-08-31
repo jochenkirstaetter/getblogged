@@ -1,6 +1,6 @@
 ---
 uid: log4fox
-title: Log4Fox (Draft)
+title: Log4Fox
 date: 2018-09-11
 status: draft
 type: post

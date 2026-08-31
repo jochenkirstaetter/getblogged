@@ -1,6 +1,6 @@
 ---
 uid: build-with-ai-johannesburg
-title: Build with AI Johannesburg (Draft)
+title: Build with AI Johannesburg
 date: 2024-05-27
 status: draft
 type: post
@@ -11,6 +11,7 @@ keywords: Community
 metaTitle: Build with AI Johannesburg
 metaDescription: ''
 image: content/images/2024/06/1714321927716.webp
+ogImage: content/images/2024/06/1714321927716-og.webp
 ogTitle: Build with AI Johannesburg
 ogDescription: ''
 layout: post

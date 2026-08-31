@@ -1,6 +1,6 @@
 ---
 uid: contributing-to-open-source-might-be-easier-than-you-think
-title: Contributing to open source might be easier than you think (Draft)
+title: Contributing to open source might be easier than you think
 date: 2019-02-05
 status: draft
 type: post

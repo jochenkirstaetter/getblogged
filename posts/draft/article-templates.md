@@ -1,6 +1,6 @@
 ---
 uid: article-templates
-title: Article Templates (Draft)
+title: Article Templates
 date: 2018-09-07
 status: draft
 type: post

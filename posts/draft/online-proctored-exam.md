@@ -1,6 +1,6 @@
 ---
 uid: online-proctored-exam
-title: My experience with Online Proctored Exams provided by Pearson VUE (Draft)
+title: My experience with Online Proctored Exams provided by Pearson VUE
 date: 2019-01-04
 status: draft
 type: post

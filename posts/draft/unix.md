@@ -1,6 +1,6 @@
 ---
 uid: unix
-title: UNIX - A History and a Memoir (Draft)
+title: UNIX - A History and a Memoir
 date: 2023-08-23
 status: draft
 type: post

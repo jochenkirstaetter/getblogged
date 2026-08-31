@@ -1,6 +1,6 @@
 ---
 uid: the-misconception-of-disabling-paste-on-password-fields
-title: The misconception of disabling paste on password fields (Draft)
+title: The misconception of disabling paste on password fields
 date: 2022-02-10
 status: draft
 type: post

@@ -1,6 +1,6 @@
 ---
 uid: microservices-communication-in-net-using-grpc
-title: Microservices Communication in .NET using gRPC (Draft)
+title: Microservices Communication in .NET using gRPC
 date: 2023-08-23
 status: draft
 type: post
@@ -11,6 +11,7 @@ keywords: Recension
 metaTitle: Microservices Communication in .NET using gRPC
 metaDescription: ''
 image: content/images/2023/08/Designer.webp
+ogImage: content/images/2023/08/Designer-og.webp
 ogTitle: Microservices Communication in .NET using gRPC
 ogDescription: ''
 layout: post

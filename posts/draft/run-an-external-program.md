@@ -1,6 +1,6 @@
 ---
 uid: run-an-external-program
-title: Run an external program (Draft)
+title: Run an external program
 date: 2024-02-29
 status: draft
 type: post

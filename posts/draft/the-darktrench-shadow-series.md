@@ -1,6 +1,6 @@
 ---
 uid: the-darktrench-shadow-series
-title: The DarkTrench Shadow series (Draft)
+title: The DarkTrench Shadow series
 date: 2023-08-23
 status: draft
 type: post

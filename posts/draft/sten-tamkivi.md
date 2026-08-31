@@ -1,6 +1,6 @@
 ---
 uid: sten-tamkivi
-title: Code & Coffee with Sten Tamkivi (Draft)
+title: Code & Coffee with Sten Tamkivi
 date: 2018-03-14
 status: draft
 type: post

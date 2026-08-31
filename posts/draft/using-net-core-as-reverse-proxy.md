@@ -1,6 +1,6 @@
 ---
 uid: using-net-core-as-reverse-proxy
-title: Using .NET Core as reverse proxy (Draft)
+title: Using .NET Core as reverse proxy
 date: 2019-01-22
 status: draft
 type: post

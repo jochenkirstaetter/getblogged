@@ -1,6 +1,6 @@
 ---
 uid: dma
-title: 'Lift to Azure: Microsoft Data Migration Assistant (Draft)'
+title: 'Lift to Azure: Microsoft Data Migration Assistant'
 date: 2020-01-15
 status: draft
 type: post
