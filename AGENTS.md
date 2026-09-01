@@ -52,7 +52,21 @@ This document outlines the architecture, build instructions, pre/post-actions, t
 
 Run these scripts when authoring new posts, optimizing assets, or cleaning content:
 
-1. **Asset Localization, WebP & Open Graph Generation**:
+1. **Hero Asset Processing, AI Generation & Fast OpenGraph (Offline)**:
+   ```bash
+   # Generate a brand new hero image using AI (Imagen 3), variants, OG card & frontmatter sync:
+   python3 scripts/manage-hero-assets.py --ai-prompt "<prompt>" --slug <uid> [--alt-desc "Custom snippet"]
+
+   # Process an existing master photo/artwork (16:9 crop, size variants, OG card & frontmatter sync):
+   python3 scripts/manage-hero-assets.py --process-hero posts/draft/assets/<uid>/photo.jpg --slug <uid> [--crop top|center|bottom]
+
+   # Regenerate OpenGraph cards en bloc across all drafts in seconds (purely local):
+   npm run og:drafts
+   # Or across all posts:
+   npm run og:all
+   ```
+
+2. **Full Asset Localization & Legacy Download**:
    ```bash
    python3 scripts/localize-assets.py
    ```

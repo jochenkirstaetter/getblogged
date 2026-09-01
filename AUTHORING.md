@@ -173,14 +173,16 @@ To keep published content and public build artifacts pristine:
 2. **Review & Emulation**:
    - Generate draft index and build: `npm run build:draft`.
    - Preview locally: `firebase emulators:start`.
-3. **Promotion to Production**:
-   - Move markdown file from `posts/draft/<uid>.md` to `posts/published/<uid>.md`.
-   - Update frontmatter:
-     ```yaml
-     status: published
-     isDraft: false
-     publishedAt: YYYY-MM-DDTHH:MM:SSZ
-     updatedAt: YYYY-MM-DDTHH:MM:SSZ
+3. **Promotion to Production (Fast-Track CLI)**:
+   - Run the automated fast-track promotion and verification pipeline:
+     ```bash
+     # Fast-track promotion, asset verification, and build:
+     npm run publish:post -- --slug <uid> [--commit]
      ```
-   - Run production build and pre-deploy check: `npm run build`.
-   - **Deployment**: Obtain **explicit user approval** before executing `npm run deploy` or deploying to Firebase.
+   - *Direct manual equivalent*:
+     - Move markdown file from `posts/draft/<uid>.md` to `posts/published/<uid>.md`.
+     - Update frontmatter: `status: published`, `isDraft: false`, `publishedAt: YYYY-MM-DDTHH:MM:SSZ`, `updatedAt: YYYY-MM-DDTHH:MM:SSZ`.
+     - Run production build and pre-deploy check: `npm run build`.
+4. **Production Deployment**:
+   - Obtain **explicit user approval** before executing deployment.
+   - Run: `npm run deploy` (requires clean Git status passing `scripts/check-clean-posts.py`).
