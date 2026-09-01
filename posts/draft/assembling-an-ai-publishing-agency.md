@@ -5,18 +5,18 @@ date: 2026-08-22
 status: draft
 type: post
 description: "How a decade-long solo blogger assembled an 8-agent virtual publishing desk in Antigravity to conquer draft backlogs and enforce editorial discipline."
+metaTitle: "From Solo Blogger to Editorial Board: Multi-Agent AI Desk"
 tags:
 - AI
-- Antigravity
 - Productivity
-- Blogging
-- Automation
+- Tooling
+- Development
 keywords: AI, Antigravity, Productivity, Blogging, Automation, Multi-Agent Workflow, Editorial Guidelines, DocFX
 image: content/images/2026/08/publishing-agency-team-portraits.webp
 ogImage: content/images/2026/08/publishing-agency-team-portraits-og.webp
 layout: post
-bodyClass: post-template tag-ai tag-antigravity tag-productivity tag-blogging tag-automation
-postClass: post tag-ai tag-antigravity tag-productivity tag-blogging tag-automation
+bodyClass: post-template tag-ai tag-productivity tag-tooling tag-development
+postClass: post tag-ai tag-productivity tag-tooling tag-development
 isPost: true
 isDraft: true
 author: Jochen Kirstätter
@@ -30,7 +30,7 @@ A week later, that outline was buried under daily engineering priorities. When I
 
 The bottleneck was never a lack of ideas. The bottleneck was the exhausting mental friction of playing six distinct professional roles at once: investigative researcher, technical writer, proofreader, graphic designer, SEO specialist, and DevOps build engineer.
 
-Here is the story of how, through five structured evolutionary stages, I transitioned from an overwhelmed solo blogger into the director of an eight-member virtual publishing agency powered by Antigravity workspace skills.
+Here is the story of how, through six structured evolutionary stages, I transitioned from an overwhelmed solo blogger into the director of an eight-member virtual publishing agency powered by Antigravity workspace skills.
 
 ---
 
@@ -82,6 +82,29 @@ I codified our house style into a standalone [**`AUTHORING.md`**](https://github
 - **Fluff Elimination**: Outlawing lazy filler words such as *"Let's be honest..."*, *"basically"*, *"easily"*, and *"just"*.
 - **DRY Frontmatter**: Populating only the primary `image:` attribute while leaving redundant fallback properties empty.
 
+In Antigravity, every persona is codified as a workspace skill under `.agents/skills/<role>/SKILL.md` combining YAML metadata, avatar references, and structured operational rules:
+
+```yaml
+---
+name: chief-editor
+description: >-
+  Validates blog drafts against AUTHORING.md guidelines.
+  Enforces British English, the no-em-dash rule, and DRY frontmatter.
+---
+```
+```markdown
+# Chief Editor
+
+> **Persona Profile**: *Senior British Female Chief Editor*
+> Meticulous, scholarly, and uncompromising on orthography and house style.
+
+## Core Checklist & Responsibilities
+1. **British English**: Verify `-ise` suffixes and consonant doubling.
+2. **Punctuation**: Enforce the strict no-em-dash rule (use hyphens or colons).
+3. **Fluff Elimination**: Reject filler words ("basically", "easily", "just").
+4. **Frontmatter**: Verify DRY attributes and valid publication metadata.
+```
+
 ### 2. The Critique (Constructive Devil's Advocate)
 A great technical post cannot simply be an echo chamber of praise. I introduced the **Critique** persona to serve as an adversarial reviewer. 
 
@@ -101,9 +124,9 @@ With editorial discipline established, the next challenge was factual accuracy a
 <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.12); border-radius: 8px; padding: 1.25rem; font-family: monospace; font-size: 0.92rem; margin: 1.5rem 0;">
   <strong>📁 posts/draft/assets/&lt;uid&gt;/</strong>
   <ul style="list-style: none; padding-left: 1.5rem; margin: 0.6rem 0 0 0; line-height: 1.9;">
-    <li>📄 <strong>resources.md</strong> &mdash; <em>Grounding citations, official URLs, prompt logs &amp; research notes</em></li>
-    <li>🖼️ <strong>hero-source.jpg</strong> &mdash; <em>Raw high-res image generation master</em></li>
-    <li>📸 <strong>screenshot.png</strong> &mdash; <em>Original testing captures &amp; UI evidence</em></li>
+    <li>📄 <strong>resources.md</strong>: <em>Grounding citations, official URLs, prompt logs &amp; research notes</em></li>
+    <li>🖼️ <strong>hero-source.jpg</strong>: <em>Raw high-res image generation master</em></li>
+    <li>📸 <strong>screenshot.png</strong>: <em>Original testing captures &amp; UI evidence</em></li>
   </ul>
 </div>
 
@@ -135,12 +158,12 @@ flowchart LR
 The **Content Designer** handles visual storytelling:
 - Formulating evocative prompts for multimodal image generation (such as 1970s retro aesthetics or modern comic lineups).
 - Processing raw outputs into responsive WebP size buckets (`w300`, `w600`, `w1000`, `w1600`, `w2000`) under `posts/content/images/size/`.
-- Crafting companion social media teasers tailored for X, BlueSky, and Mastodon.
+- Crafting companion social media teasers tailored for X, BlueSky, Mastodon, and LinkedIn with strict character verification.
 
 ### 6. The SEO & Taxonomy Specialist
 The **SEO Specialist** ensures that articles reach readers effectively:
 - Validating metadata summary lengths (keeping meta descriptions between 120 and 160 characters).
-- Identifying opportunities for internal linking across published posts using DocFX cross-reference syntax (`[Link Text](xref:<uid>)`).
+- Identifying opportunities for internal linking across published posts using DocFX cross-reference syntax (e.g. referencing [community speaking recaps](xref:gdg-cloud-munich) or [QR matrix workflows](xref:mastering-the-matrix-qr-code-generation)).
 - Maintaining consistent tag taxonomy to prevent tag fragmentation.
 
 ### 7. The Content Strategist
@@ -148,7 +171,39 @@ With fifty-six drafts waiting in `posts/draft/`, the **Content Strategist** regu
 
 ---
 
-## Stage 5: The Pre-Press Desk & The Deployment Guardrail
+## Stage 5: Evaluation, Fine-Tuning & Output Calibration
+
+Creating specialised agents is only half the battle. Without systematic evaluation and continuous prompt tuning, agents gradually suffer from rule drift, over-verbose outputs, and hallucinated formatting.
+
+```mermaid
+flowchart TD
+    Raw["🤖 Raw Agent Output"] --> Linter["📏 Constraint Audits<br/><i>B.E. Orthography, Char Caps, DRY</i>"]
+    Linter --> Eval["🧪 Adversarial Testing<br/><i>Edge Cases & Technical Tradeoffs</i>"]
+    Eval --> Calibration["🎯 Multi-Model Calibration<br/><i>Nano Banana 2, Gemini Flash</i>"]
+    Calibration --> HumanDirector{"👤 Editorial Director<br/><b>Variant Selection & Sign-Off</b>"}
+```
+
+### 1. Programmatic Constraint Enforcement & Linters
+Rather than relying on vibes, we codified strict, quantifiable acceptance criteria for every generated asset:
+- **Social Character Caps**: Social copy is strictly measured against platform limits prior to presentation (e.g. X at 280 characters including `t.co` shortening, BlueSky at 300 characters, Mastodon at 500 characters, and LinkedIn formatted with hook-and-bullets).
+- **Automated Entity Linters**: Running standalone Python validation tools (`python3 scripts/fix-html-entities-in-code.py` and `scripts/manage-hero-assets.py`) ensures that code blocks do not contain corrupted HTML entities (`&nbsp;`, `&lt;`) and that images strictly conform to responsive 16:9 formats.
+
+### 2. Multi-Model Image Calibration (Nano Banana 2 & Imagen)
+Visual generation required continuous fine-tuning. Early image models struggled with in-image typography, rendering illegible gibberish on books and posters. 
+
+By integrating modern image models like **Gemini 3.1 Flash Image** (popularly known as *Nano Banana 2*) directly into our CLI tooling, we unlocked:
+- Crisp, legible text rendering in architectural diagrams and mockups.
+- Consistent character styling and colour palette across sequential articles.
+- Automatic generation of left-attached frosted-glass OpenGraph preview cards featuring scannable ISO 18004 QR codes.
+
+### 3. Iterative Skill Calibration & Prompt Refinement
+Workspace skills under `.agents/skills/` are treated as software dependencies. When underlying LLM architectures receive version bumps, we run prompt calibration cycles:
+- **The Divergence-Only Rule**: Refined the SEO Specialist skill to ensure frontmatter `metaTitle` and `metaDescription` are only populated when intentionally diverging from the post title and summary, avoiding DRY redundancy.
+- **Multi-Variant Outreach Drafting**: Instructed the Content Designer to always generate distinct strategic angles (e.g. Backlog Hook vs Productivity Insight) with exact character tallies, allowing the human author to select the winning voice.
+
+---
+
+## Stage 6: The Pre-Press Desk & The Deployment Guardrail
 
 The final piece of the architecture is the **Release Manager & Site QA**.
 
