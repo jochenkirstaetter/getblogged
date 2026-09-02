@@ -41,7 +41,7 @@ Here is the story of how, through six structured evolutionary stages, I transiti
 Before diving into the evolution, meet the team that now runs the blog editing and publishing desk alongside me:
 
 ![The 8-member AI Publishing Agency team illustrated in a vibrant comic style](../content/images/2026/08/publishing-agency-team-portraits.webp "The getblogged AI Publishing Agency Team")  
-*Figure 1: The eight specialised publishing personas, balanced in gender, background, and expertise.*
+*The eight specialised publishing personas, balanced in gender, background, and expertise.*
 
 Each persona is permanently defined in the workspace under `.agents/skills/`, complete with dedicated instructions, reference documentation, and avatar profiles:
 
