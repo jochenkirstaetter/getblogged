@@ -189,6 +189,10 @@ To keep published content and public build artifacts pristine:
      - Move markdown file from `posts/draft/<uid>.md` to `posts/published/<uid>.md`.
      - Update frontmatter: `status: published`, `isDraft: false`, `publishedAt: YYYY-MM-DDTHH:MM:SSZ`, `updatedAt: YYYY-MM-DDTHH:MM:SSZ`.
      - Run production build and pre-deploy check: `npm run build`.
-4. **Production Deployment**:
+4. **Post-Publication Outreach Audit & Calibration**:
+   - Immediately following promotion, review companion social media drafts archived in `posts/draft/assets/<uid>/resources.md`.
+   - Calibrate the outreach text to match the **actual final published content**, incorporating any late editorial revisions, refined arguments, and the final permalink.
+   - Enforce strict platform character budgets (X: 280 chars with `t.co` URL; BlueSky: 300 chars hard limit; Mastodon: 500 chars; LinkedIn: 800–1,500 chars) with verified character tallies before presenting copy.
+5. **Production Deployment**:
    - Obtain **explicit user approval** before executing deployment.
    - Run: `npm run deploy` (requires clean Git status passing `scripts/check-clean-posts.py`).
