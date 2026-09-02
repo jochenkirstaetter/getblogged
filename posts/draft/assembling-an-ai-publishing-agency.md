@@ -22,28 +22,28 @@ isDraft: true
 author: Jochen Kirstätter
 authorSlug: joki
 ---
-For more than a decade, running this blog was a purely solo operation. The rhythm was familiar: an exciting technical idea would spark during a project or a conference talk, I would create a quick markdown file, jot down three bullet points and a code snippet, and promise myself I would finish it over the weekend.
+For more than a decade, running this blog was a purely solo operation. The rhythm was familiar: an exciting technical idea would spark during a project or a conference talk, I would quickly create a draft, give it an intro, jot down three-four bullet points and a code snippet, and promise myself I would finish it over the weekend.
 
 Then reality set in.
 
-A week later, that outline was buried under daily engineering priorities. When I finally audited `posts/draft/`, the inventory was sobering: fifty-six unfinished drafts. Some were rich conceptual essays that had lost momentum; others were single-paragraph stubs whose original context had faded. 
+A week later, that outline was buried under daily engineering priorities. When I finally audited `posts/draft/`, the inventory was sobering: fifty-six (56!) unfinished drafts. Some were rich conceptual essays that had lost momentum; others were single-paragraph stubs whose original context had faded. 
 
 The bottleneck was never a lack of ideas. The bottleneck was the exhausting mental friction of playing six distinct professional roles at once: investigative researcher, technical writer, proofreader, graphic designer, SEO specialist, and DevOps build engineer.
 
-Here is the story of how, through six structured evolutionary stages, I transitioned from an overwhelmed solo blogger into the director of an eight-member virtual publishing agency powered by Antigravity workspace skills.
+Here is the story of how, through six structured evolutionary stages, I transitioned from an overwhelmed solo blogger into the director of an eight-member virtual publishing agency powered by Antigravity workspace skills. Of course, those skills are AI harness agnostic,  using `.agents/` fodler, and can be teamed up in other systems.
 
 ---
 
 ## The Agency Roster
 
-Before diving into the evolution, meet the team that now runs the publishing desk alongside me:
+Before diving into the evolution, meet the team that now runs the blog editing and publishing desk alongside me:
 
 ![The 8-member AI Publishing Agency team illustrated in a vibrant comic style](../content/images/2026/08/publishing-agency-team-portraits.webp "The getblogged AI Publishing Agency Team")  
 *Figure 1: The eight specialised publishing personas, balanced in gender, background, and expertise.*
 
 Each persona is permanently defined in the workspace under `.agents/skills/`, complete with dedicated instructions, reference documentation, and avatar profiles:
 
-1. **Chief Editor**: Enforces British English, style guides, and strict fluff elimination.
+1. **Chief Editor**: Enforces British English, style guides, keeps the voice according to my blog style and strict fluff elimination.
 2. **Critique**: Challenges assumptions, highlights technical tradeoffs, and acts as a constructive devil's advocate.
 3. **Technical Code Reviewer**: Inspects syntax highlighting tags, sanitises HTML entities, and verifies command safety.
 4. **Research Assistant**: Gathers documentation, verifies social citations, and manages isolated draft workspaces.
@@ -52,17 +52,19 @@ Each persona is permanently defined in the workspace under `.agents/skills/`, co
 7. **Content Strategist**: Triages the draft backlog, plans editorial roadmaps, and structures thematic series.
 8. **Release Manager & Site QA**: Enforces zero-warning DocFX builds and guards production deployments.
 
+Don't get me wrong, that's my editorial crew. I'm still the original brain and content writer of every blog article, only empowered now based on the agents feedback and input.
+
 ---
 
 ## Stage 1: The Solo Blogger's Bottleneck
 
-A solo blog is deceptively complex. Writing the prose is only about thirty per cent of the total effort required to produce a high-quality technical article. The remaining seventy per cent consists of:
+A blog is deceptively complex. Writing the prose is only about thirty percent of the total effort required to produce a high-quality technical article. The remaining seventy percent consists of:
 
 - Grounding technical claims against current documentation and release notes.
 - Verifying code snippets and terminal commands for syntax and correctness.
-- Creating evocative hero visuals and converting them into responsive image sizes (`w300` to `w2000`).
-- Formatting OpenGraph metadata, descriptive search summaries, and DocFX cross-references.
-- Stripping frontmatter for raw markdown viewers and compiling the static site with zero warnings.
+- Creating evocative hero visuals and converting them into responsive image sizes.
+- Formatting OpenGraph metadata, descriptive search summaries, and cross-references to previous articles.
+- Link checking and compiling the static site with zero warnings, I'm using DocFX.
 
 Attempting to do all of this in a single sitting leads to context-switching paralysis. I needed assistance, but generic AI chat prompts were not the answer. Asking a general-purpose model to "write a blog post" produced generic, sycophantic text laden with clichés, American spellings, and hallucinated quotes.
 
