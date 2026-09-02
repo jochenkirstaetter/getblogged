@@ -22,7 +22,7 @@ isDraft: true
 author: Jochen Kirstätter
 authorSlug: joki
 ---
-- [ ] For more than a decade, running this blog was a purely solo operation. The rhythm was familiar: an exciting technical idea would spark during a project or a conference talk, I would quickly create a draft, give it an intro, jot down three-four bullet points and a code snippet, and promise myself I would finish it over the weekend.
+For more than a decade, running this blog was a purely solo operation. The rhythm was familiar: an exciting technical idea would spark during a project or a conference talk, I would quickly create a draft, give it an intro, jot down three-four bullet points and a code snippet, and promise myself I would finish it over the weekend.
 
 Then reality set in.
 
@@ -30,7 +30,7 @@ A week later, that outline was buried under daily engineering priorities. When I
 
 The bottleneck was never a lack of ideas. The bottleneck was the exhausting mental friction of playing six distinct professional roles at once: investigative researcher, technical writer, proofreader, graphic designer, SEO specialist, and DevOps build engineer.
 
-Here is the story of how, through six structured evolutionary stages, I transitioned from an overwhelmed solo blogger into the director of an eight-member virtual publishing agency powered by Antigravity workspace skills. Of course, those skills are AI harness agnostic,  using `.agents/` fodler, and can be teamed up in other systems.
+Here is the story of how, through six structured evolutionary stages, I transitioned from an overwhelmed solo blogger into the director of an eight-member virtual publishing agency powered by Antigravity workspace skills. Of course, these skills are AI harness-agnostic, residing in the `.agents/` folder, and can be ported into other multi-agent systems.
 
 ---
 
@@ -52,7 +52,7 @@ Each persona is permanently defined in the workspace under `.agents/skills/`, co
 7. **Content Strategist**: Triages the draft backlog, plans editorial roadmaps, and structures thematic series.
 8. **Release Manager & Site QA**: Enforces zero-warning DocFX builds and guards production deployments.
 
-Don't get me wrong, that's my editorial crew. I'm still the original brain and content writer of every blog article, only empowered now based on the agents feedback and input.
+Don't get me wrong, that's my editorial crew. I'm still the original brain and content writer of every blog article, only empowered now based on the agents' feedback and input.
 
 ---
 
@@ -64,7 +64,7 @@ A blog is deceptively complex. Writing the prose is only about thirty percent of
 - Verifying code snippets and terminal commands for syntax and correctness.
 - Creating evocative hero visuals and converting them into responsive image sizes.
 - Formatting OpenGraph metadata, descriptive search summaries, and cross-references to previous articles.
-- Link checking and compiling the static site with zero warnings, I'm using DocFX.
+- Link checking and compiling the static site with zero warnings or errors.
 
 Attempting to do all of this in a single sitting leads to context-switching paralysis. I needed assistance, but generic AI chat prompts were not the answer. Asking a general-purpose model to "write a blog post" produced generic, sycophantic text laden with clichés, American spellings, and hallucinated quotes.
 
@@ -115,13 +115,13 @@ Whenever a draft makes a bold claim (for instance, evaluating a new framework or
 - What is the operational overhead compared to existing CLI tools?
 - Are there platform-specific disparities between Linux, Windows and macOS?
 
-This adversarial step ensures that every published post acknowledges real-world friction and architectural tradeoffs. I take this criticsm and feedback quite serious and check out the bullet points given.
+This adversarial step ensures that every published post acknowledges real-world friction and architectural tradeoffs. I take this criticism and feedback quite seriously, investigating each point raised.
 
 ---
 
 ## Stage 3: Grounding Facts & Code Integrity
 
-With editorial discipline established, the next challenge was factual accuracy and code hygiene. Hence I set up a folder for each draft to collect information, eg. search results, online references, images, diagrams, and so forth.
+With editorial discipline established, the next challenge was factual accuracy and code hygiene. Hence I set up a folder for each draft to collect information, e.g. search results, online references, images, diagrams, and so forth.
 
 <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.12); border-radius: 8px; padding: 1.25rem; font-family: monospace; font-size: 0.92rem; margin: 1.5rem 0;">
   <strong>📁 posts/draft/assets/&lt;uid&gt;/</strong>
@@ -131,7 +131,7 @@ With editorial discipline established, the next challenge was factual accuracy a
     <li>📸 <strong>screenshot.png</strong>: <em>Original testing captures &amp; UI evidence</em></li>
   </ul>
 </div>
-This acts as my *Zettelkasten* - meaning my notes collection with all kind of stuff related to that particular draft. Right now, I'm still exploring the possibilities of what to do with the collected material other than writing a blog post. Maybe I'm going to look into knowledge graphs to dig even deeper into those materials. I mean, it would be a shame to have a treasure trove of information and being incapable to leverage more out of it.
+This acts as my *Zettelkasten* - a dedicated storage space capturing research notes, prompts, and visual assets for each draft. In future iterations, I plan to explore knowledge graphs to extract deeper relationships across these materials, rather than letting valuable contextual research remain static. I mean, it would be a shame to have a treasure trove of information and being incapable to leverage more out of it.
 
 ### 3. The Research Assistant
 To prevent AI hallucination, the **Research Assistant** is tasked with gathering authoritative sources before drafting begins as well as during the writing and review phase(s). All research notes, official changelog links, and verified social media citations are catalogued in an isolated workspace under `posts/draft/assets/<uid>/resources.md`. 
@@ -222,7 +222,7 @@ flowchart LR
 The Release Manager enforces our strict quality gates:
 1. **Zero-Warning DocFX Builds**: The compilation must finish with exactly `0 warning(s)` and `0 error(s)`.
 2. **Hyperlink & Asset Integrity**: Checking that all image paths resolve and Service Worker caching registers cleanly.
-3. **Clean git Guardrails**: Running a script to ensure all content assets are committed.
+3. **Clean Git Guardrails**: Running a script to ensure all content assets are committed.
 
 ### The Non-Negotiable Human-in-the-Loop Rule
 There is one inviolable constraint in our agency charter:
