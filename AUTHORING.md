@@ -36,6 +36,12 @@ All articles must strictly follow British English conventions:
   - Use PascalCase **GhostFx** when referencing the open-source project, converter, or repository ([`jochenkirstaetter/ghostfx`](https://github.com/jochenkirstaetter/ghostfx)).
   - Use lowercase monospace **`ghostfx`** when referring to the local DocFX template directory (`posts/ghostfx/`), template identifier (`"template": ["ghostfx"]`), or client asset bundle.
 
+### Latin Abbreviations & Precision
+- **`e.g.`** (*exempli gratia* - "for example"): Always retain both periods (`e.g.`, never `eg` or `eg.`). Follow with a comma or relevant punctuation when introducing lists or inline examples.
+- **`i.e.`** (*id est* - "that is" / "in other words"): Always retain both periods (`i.e.`, never `ie` or `ie.`). Use strictly for clarification or restatement, not for giving examples.
+- **`etc.`** (*et cetera* - "and so forth"): Always include the trailing period (`etc.`, never `etc` without period unless terminating a sentence). Avoid redundant combinations like *"and etc."* or trailing ellipsis (*"..., etc..."*).
+- **`et al.`** (*et alii* - "and others"): Period on `al.` only (`et al.`).
+
 ### Punctuation & Typography
 - **Strict No-Em-Dash Rule**: **Never** use em-dash characters (`—`). Use standard hyphens (` - ` or `--`), commas, colons, or semicolons instead.
 - **Contractions & Quotes**: Use standard straight or curly single and double quotes consistently. Avoid awkward stacked quotes.
