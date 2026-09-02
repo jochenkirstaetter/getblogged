@@ -131,7 +131,7 @@ With editorial discipline established, the next challenge was factual accuracy a
     <li>📸 <strong>screenshot.png</strong>: <em>Original testing captures &amp; UI evidence</em></li>
   </ul>
 </div>
-This acts as my *Zettelkasten* - a dedicated storage space capturing research notes, prompts, and visual assets for each draft. In future iterations, I plan to explore knowledge graphs to extract deeper relationships across these materials, rather than letting valuable contextual research remain static. I mean, it would be a shame to have a treasure trove of information and being incapable to leverage more out of it.
+This acts as my *Zettelkasten* - a dedicated storage space capturing research notes, prompts, and visual assets for each draft. In future iterations, I plan to explore knowledge graphs to extract deeper relationships across these materials, rather than letting valuable contextual research remain static. I mean, it would be a shame to have a treasure trove of information and being incapable of leveraging more out of it.
 
 ### 3. The Research Assistant
 To prevent AI hallucination, the **Research Assistant** is tasked with gathering authoritative sources before drafting begins as well as during the writing and review phase(s). All research notes, official changelog links, and verified social media citations are catalogued in an isolated workspace under `posts/draft/assets/<uid>/resources.md`. 
@@ -140,7 +140,7 @@ When I need to quote community discussions or announcements, the Research Assist
 
 ### 4. The Technical Code Reviewer
 Code snippets require dedicated inspection. The **Technical Code Reviewer** examines every fenced code block to ensure:
-- Appropriate language identifiers (`bash`, `python`, `csharp`, `yaml`, `json`, `foxpro`, `vfp`, etc...).
+- Appropriate language identifiers (e.g. `bash`, `python`, `csharp`, `yaml`, `json`, `foxpro`, `vfp`).
 - Elimination of HTML entity corruption (e.g. running a script to strip out corrupted entities like `&nbsp;` or `&lt;`).
 - Complete absence of hardcoded secrets, personal tokens, or insecure defaults.
 
