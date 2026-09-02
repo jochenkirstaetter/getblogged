@@ -191,37 +191,37 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=__doc__
     )
-    parser.add_argument("--slug", type=str, required=True, help="Draft UID / slug to publish.")
+    parser.add_argument("--uid", "--slug", dest="uid", type=str, required=True, help="Draft UID to publish.")
     parser.add_argument("--dry-run", action="store_true", help="Simulate promotion without modifying files.")
     parser.add_argument("--commit", action="store_true", help="Commit publication changes to Git upon success.")
 
     args = parser.parse_args()
 
-    print(f"\n🚀 Fast-Track Post Publication: [{args.slug}]")
+    print(f"\n🚀 Fast-Track Post Publication: [{args.uid}]")
     print(f"==================================================")
 
     # 1. Promote draft & sync frontmatter
-    pub_path, fm = promote_draft(args.slug, dry_run=args.dry_run)
+    pub_path, fm = promote_draft(args.uid, dry_run=args.dry_run)
 
     # 2. Verify / generate assets & OG cards
     if not args.dry_run:
-        verify_assets(args.slug, fm)
+        verify_assets(args.uid, fm)
 
     # 3. Full production build & guardrail check
     build_and_verify(dry_run=args.dry_run)
 
     # 4. Optional Git Commit
     if args.commit and not args.dry_run:
-        title = fm.get("title", args.slug)
+        title = fm.get("title", args.uid)
         commit_msg = f"feat(posts): publish '{title}'"
         print(f"\n📝 Step 5: Committing Publication Changes")
-        run_cmd(f"git add posts/published/{args.slug}.md posts/index.md posts/tags.md posts/tags/ posts/content/images/")
-        if (DRAFT_DIR / "assets" / args.slug).exists():
-            run_cmd(f"git add posts/draft/assets/{args.slug}/")
+        run_cmd(f"git add posts/published/{args.uid}.md posts/index.md posts/tags.md posts/tags/ posts/content/images/")
+        if (DRAFT_DIR / "assets" / args.uid).exists():
+            run_cmd(f"git add posts/draft/assets/{args.uid}/")
         run_cmd(f"git commit -m \"{commit_msg}\"")
         print(f"  ✔ Committed: \"{commit_msg}\"")
 
-    print(f"\n✨ Publication workflow complete for [{args.slug}]!")
+    print(f"\n✨ Publication workflow complete for [{args.uid}]!")
     print(f"👉 To deploy to production when approved: npm run deploy\n")
 
 

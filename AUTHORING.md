@@ -183,7 +183,7 @@ To keep published content and public build artifacts pristine:
    - Run the automated fast-track promotion and verification pipeline:
      ```bash
      # Fast-track promotion, asset verification, and build:
-     npm run publish:post -- --slug <uid> [--commit]
+     npm run publish:post -- --uid <uid> [--commit]
      ```
    - *Direct manual equivalent*:
      - Move markdown file from `posts/draft/<uid>.md` to `posts/published/<uid>.md`.

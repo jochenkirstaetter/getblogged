@@ -526,13 +526,13 @@ def cmd_ai_generate_hero(args):
         print("Example: export GEMINI_API_KEY=\"AIzaSy...\"\n")
         sys.exit(1)
 
-    slug = args.slug
-    if not slug:
-        print("❌ Please specify target post slug via --slug <uid>")
+    uid = args.uid
+    if not uid:
+        print("❌ Please specify target post UID via --uid <uid>")
         sys.exit(1)
 
     prompt = args.ai_prompt
-    print(f"\n✨ Generating Hero Image with AI: [{slug}]")
+    print(f"\n✨ Generating Hero Image with AI: [{uid}]")
     print(f"  Prompt: \"{prompt}\"")
     print(f"  Aspect Ratio: {args.aspect_ratio}")
     print(f"  Model: {args.ai_model}")
@@ -549,9 +549,9 @@ def cmd_ai_generate_hero(args):
         sys.exit(1)
 
     # Archive raw asset into draft assets directory
-    draft_asset_dir = POSTS_DIR / "draft" / "assets" / slug
+    draft_asset_dir = POSTS_DIR / "draft" / "assets" / uid
     draft_asset_dir.mkdir(parents=True, exist_ok=True)
-    raw_archive_path = draft_asset_dir / f"{slug}-ai-raw.jpg"
+    raw_archive_path = draft_asset_dir / f"{uid}-ai-raw.jpg"
     raw_archive_path.write_bytes(raw_bytes)
     print(f"  ✔ Raw master archived to: {raw_archive_path.relative_to(REPO_ROOT)} ({len(raw_bytes) // 1024} KB)")
 
@@ -567,15 +567,15 @@ def cmd_process_hero(args):
         print(f"❌ Source image not found: {source_path}")
         sys.exit(1)
 
-    slug = args.slug
-    if not slug:
+    uid = args.uid
+    if not uid:
         if "posts/draft/assets/" in str(source_path):
-            slug = source_path.parent.name
+            uid = source_path.parent.name
         else:
-            slug = source_path.stem
+            uid = source_path.stem
 
     # Locate markdown file for date/year extraction
-    md_path = find_post_md(slug)
+    md_path = find_post_md(uid)
     fm = parse_post_frontmatter(md_path) if md_path else {}
 
     # Determine Year/Month directory
@@ -584,13 +584,13 @@ def cmd_process_hero(args):
     month_str = args.month or (date_val.split("-")[1] if len(date_val.split("-")) > 1 else "01")
 
     # Output master paths
-    master_rel = f"content/images/{year_str}/{month_str}/{slug}.webp"
-    master_og_rel = f"content/images/{year_str}/{month_str}/{slug}-og.webp"
+    master_rel = f"content/images/{year_str}/{month_str}/{uid}.webp"
+    master_og_rel = f"content/images/{year_str}/{month_str}/{uid}-og.webp"
     master_path = POSTS_DIR / master_rel
     og_path = POSTS_DIR / master_og_rel
     master_path.parent.mkdir(parents=True, exist_ok=True)
 
-    print(f"\n🖼️  Processing Hero Asset: [{slug}]")
+    print(f"\n🖼️  Processing Hero Asset: [{uid}]")
     print(f"  Source: {source_path}")
     print(f"  Target: {master_path}")
 
@@ -608,11 +608,11 @@ def cmd_process_hero(args):
     print(f"  ✔ Generated {len(variants)} responsive size variants (w300..w2000)")
 
     # 3. Generate OpenGraph preview card
-    title = args.alt_title or fm.get("title") or slug.replace("-", " ").title()
+    title = args.alt_title or fm.get("title") or uid.replace("-", " ").title()
     render_intelligent_og_image(
         hero_img_path=master_path,
         title=title,
-        slug=slug,
+        slug=uid,
         output_path=og_path,
         overwrite=True
     )
@@ -623,7 +623,7 @@ def cmd_process_hero(args):
         update_post_frontmatter(md_path, master_rel, master_og_rel, alt_desc=args.alt_desc)
         print(f"  ✔ Frontmatter updated in: {md_path.relative_to(REPO_ROOT)}")
 
-    print(f"✨ Hero asset processing complete for {slug}!\n")
+    print(f"✨ Hero asset processing complete for {uid}!\n")
 
 
 def cmd_og_cards(args):
@@ -631,12 +631,13 @@ def cmd_og_cards(args):
     print("\n🎨 OpenGraph Cards Generation (Offline Fast Pipeline)")
 
     md_files = []
-    if args.slug:
-        target = find_post_md(args.slug)
+    target_uid = args.uid or args.slug
+    if target_uid:
+        target = find_post_md(target_uid)
         if target:
             md_files.append(target)
         else:
-            print(f"❌ Post with slug '{args.slug}' not found.")
+            print(f"❌ Post with UID '{target_uid}' not found.")
             sys.exit(1)
     else:
         if args.drafts_only or not args.published_only:
@@ -716,7 +717,7 @@ def main():
     parser.add_argument("--generate-variants", action="store_true", help="Generate missing Ghost size variants across images.")
 
     # Target & Scope Filters
-    parser.add_argument("--slug", type=str, help="Target post slug / UID.")
+    parser.add_argument("--uid", "--slug", dest="uid", type=str, help="Target post UID.")
     parser.add_argument("--drafts-only", action="store_true", help="Scope OG generation to draft posts.")
     parser.add_argument("--published-only", action="store_true", help="Scope OG generation to published posts.")
     parser.add_argument("--all", action="store_true", help="Scope OG generation across all posts & pages.")

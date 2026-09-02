@@ -55,10 +55,10 @@ Run these scripts when authoring new posts, optimizing assets, or cleaning conte
 1. **Hero Asset Processing, AI Generation & Fast OpenGraph (Offline)**:
    ```bash
    # Generate a brand new hero image using AI (Imagen 3), variants, OG card & frontmatter sync:
-   python3 scripts/manage-hero-assets.py --ai-prompt "<prompt>" --slug <uid> [--alt-desc "Custom snippet"]
+   python3 scripts/manage-hero-assets.py --ai-prompt "<prompt>" --uid <uid> [--alt-desc "Custom snippet"]
 
    # Process an existing master photo/artwork (16:9 crop, size variants, OG card & frontmatter sync):
-   python3 scripts/manage-hero-assets.py --process-hero posts/draft/assets/<uid>/photo.jpg --slug <uid> [--crop top|center|bottom]
+   python3 scripts/manage-hero-assets.py --process-hero posts/draft/assets/<uid>/photo.jpg --uid <uid> [--crop top|center|bottom]
 
    # Regenerate OpenGraph cards en bloc across all drafts in seconds (purely local):
    npm run og:drafts
