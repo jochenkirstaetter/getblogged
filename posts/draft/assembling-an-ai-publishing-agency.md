@@ -22,7 +22,7 @@ isDraft: true
 author: Jochen Kirstätter
 authorSlug: joki
 ---
-For more than a decade, running this blog was a purely solo operation. The rhythm was familiar: an exciting technical idea would spark during a project or a conference talk, I would quickly create a draft, give it an intro, jot down three-four bullet points and a code snippet, and promise myself I would finish it over the weekend.
+- [ ] For more than a decade, running this blog was a purely solo operation. The rhythm was familiar: an exciting technical idea would spark during a project or a conference talk, I would quickly create a draft, give it an intro, jot down three-four bullet points and a code snippet, and promise myself I would finish it over the weekend.
 
 Then reality set in.
 
@@ -68,7 +68,7 @@ A blog is deceptively complex. Writing the prose is only about thirty percent of
 
 Attempting to do all of this in a single sitting leads to context-switching paralysis. I needed assistance, but generic AI chat prompts were not the answer. Asking a general-purpose model to "write a blog post" produced generic, sycophantic text laden with clichés, American spellings, and hallucinated quotes.
 
-I needed structured specialisation.
+I needed structured specialisation. I needed an editorial agency.
 
 ---
 
@@ -77,14 +77,14 @@ I needed structured specialisation.
 The first breakthrough came when I separated stylistic enforcement from adversarial peer review.
 
 ### 1. The Chief Editor
-I codified our house style into a standalone [**`AUTHORING.md`**](https://github.com/jochenkirstaetter/getblogged/blob/main/AUTHORING.md) guide and created the **Chief Editor** skill. Her mandate is simple and uncompromising:
+I codified my blog style into a standalone [**`AUTHORING.md`**](https://github.com/jochenkirstaetter/getblogged/blob/main/AUTHORING.md) guide and created the **Chief Editor** skill. Her mandate is simple and uncompromising:
 
 - **British English (B.E.)**: Strict adherence to `-ise` suffixes (*categorise*, *prioritise*, *synthesise*), consonant doubling (*signalled*, *travelling*), and *programme* for initiatives vs *program* for code.
 - **The Strict No-Em-Dash Rule**: Em-dash characters (`—`) are permanently banned in favour of standard hyphens, commas, or semicolons.
 - **Fluff Elimination**: Outlawing lazy filler words such as *"Let's be honest..."*, *"basically"*, *"easily"*, and *"just"*.
 - **DRY Frontmatter**: Populating only the primary `image:` attribute while leaving redundant fallback properties empty.
 
-In Antigravity, every persona is codified as a workspace skill under `.agents/skills/<role>/SKILL.md` combining YAML metadata, avatar references, and structured operational rules:
+In Antigravity (or probably any other AI harness nowadays), every persona is codified as a workspace skill under `.agents/skills/<role>/SKILL.md` combining YAML metadata, avatar references, and structured operational rules:
 
 ```yaml
 ---
@@ -108,20 +108,20 @@ description: >-
 ```
 
 ### 2. The Critique (Constructive Devil's Advocate)
-A great technical post cannot simply be an echo chamber of praise. I introduced the **Critique** persona to serve as an adversarial reviewer. 
+A great (technical) post cannot simply be an echo chamber of praise. I introduced the **Critique** persona to serve as an adversarial reviewer. 
 
 Whenever a draft makes a bold claim (for instance, evaluating a new framework or [remote tooling feature](xref:using-antigravity-remote-control)), the Critique agent actively challenges it:
 - What are the failure modes when network connectivity drops?
 - What is the operational overhead compared to existing CLI tools?
-- Are there platform-specific disparities between Linux and macOS?
+- Are there platform-specific disparities between Linux, Windows and macOS?
 
-This adversarial step ensures that every published post acknowledges real-world friction and architectural tradeoffs.
+This adversarial step ensures that every published post acknowledges real-world friction and architectural tradeoffs. I take this criticsm and feedback quite serious and check out the bullet points given.
 
 ---
 
 ## Stage 3: Grounding Facts & Code Integrity
 
-With editorial discipline established, the next challenge was factual accuracy and code hygiene.
+With editorial discipline established, the next challenge was factual accuracy and code hygiene. Hence I set up a folder for each draft to collect information, eg. search results, online references, images, diagrams, and so forth.
 
 <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.12); border-radius: 8px; padding: 1.25rem; font-family: monospace; font-size: 0.92rem; margin: 1.5rem 0;">
   <strong>📁 posts/draft/assets/&lt;uid&gt;/</strong>
@@ -131,36 +131,37 @@ With editorial discipline established, the next challenge was factual accuracy a
     <li>📸 <strong>screenshot.png</strong>: <em>Original testing captures &amp; UI evidence</em></li>
   </ul>
 </div>
+This acts as my *Zettelkasten* - meaning my notes collection with all kind of stuff related to that particular draft. Right now, I'm still exploring the possibilities of what to do with the collected material other than writing a blog post. Maybe I'm going to look into knowledge graphs to dig even deeper into those materials. I mean, it would be a shame to have a treasure trove of information and being incapable to leverage more out of it.
 
 ### 3. The Research Assistant
-To prevent AI hallucination, the **Research Assistant** is tasked with gathering authoritative sources before drafting begins. All research notes, official changelog links, and verified social media citations are catalogued in an isolated workspace under `posts/draft/assets/<uid>/resources.md`. 
+To prevent AI hallucination, the **Research Assistant** is tasked with gathering authoritative sources before drafting begins as well as during the writing and review phase(s). All research notes, official changelog links, and verified social media citations are catalogued in an isolated workspace under `posts/draft/assets/<uid>/resources.md`. 
 
-When we need to quote community discussions or announcements, the Research Assistant retrieves real post status URLs and timestamps rather than fabricating quotes.
+When I need to quote community discussions or announcements, the Research Assistant retrieves real post status URLs and timestamps rather than fabricating quotes.
 
 ### 4. The Technical Code Reviewer
 Code snippets require dedicated inspection. The **Technical Code Reviewer** examines every fenced code block to ensure:
-- Appropriate language identifiers (`bash`, `python`, `csharp`, `yaml`, `json`, `foxpro`).
-- Elimination of HTML entity corruption (e.g. running `python3 scripts/fix-html-entities-in-code.py` to strip out corrupted entities like `&nbsp;` or `&lt;`).
+- Appropriate language identifiers (`bash`, `python`, `csharp`, `yaml`, `json`, `foxpro`, `vfp`, etc...).
+- Elimination of HTML entity corruption (e.g. running a script to strip out corrupted entities like `&nbsp;` or `&lt;`).
 - Complete absence of hardcoded secrets, personal tokens, or insecure defaults.
 
 ---
 
 ## Stage 4: Art Direction, SEO & Pipeline Strategy
 
-Once the core content engine was humming, we scaled visual creation, search discoverability, and backlog triage.
+Once the core content engine was humming, I scaled visual creation, search discoverability, and backlog triage.
 
 ```mermaid
 flowchart LR
     Strategist["🗺️ Content Strategist<br/><i>Draft Triage & Roadmaps</i>"] --> Author["✍️ Authoring & Drafting"]
     Author --> Designer["🎨 Content Designer<br/><i>WebP Assets & Socials</i>"]
-    Author --> SEO["📈 SEO Specialist<br/><i>xref Links & Metadata</i>"]
+    Author --> SEO["📈 SEO Specialist<br/><i>xref: Links & Metadata</i>"]
 ```
 
 ### 5. The Content Designer
 The **Content Designer** handles visual storytelling:
 - Formulating evocative prompts for multimodal image generation (such as 1970s retro aesthetics or modern comic lineups).
-- Processing raw outputs into responsive WebP size buckets (`w300`, `w600`, `w1000`, `w1600`, `w2000`) under `posts/content/images/size/`.
-- Crafting companion social media teasers tailored for X, BlueSky, Mastodon, and LinkedIn with strict character verification.
+- Processing raw outputs into responsive WebP size buckets.
+- Crafting companion social media teasers tailored for X, BlueSky, Mastodon, and LinkedIn with strict length of character verification.
 
 ### 6. The SEO & Taxonomy Specialist
 The **SEO Specialist** ensures that articles reach readers effectively:
@@ -169,7 +170,7 @@ The **SEO Specialist** ensures that articles reach readers effectively:
 - Maintaining consistent tag taxonomy to prevent tag fragmentation.
 
 ### 7. The Content Strategist
-With fifty-six drafts waiting in `posts/draft/`, the **Content Strategist** regularly audits the queue, sorting substantive works in progress from exploratory outlines, and prioritising articles aligned with current industry themes.
+With over fifty drafts waiting to be written, the **Content Strategist** regularly audits the queue, sorting substantive works in progress from exploratory outlines, and prioritising articles aligned with current industry themes.
 
 ---
 
@@ -186,21 +187,21 @@ flowchart TD
 ```
 
 ### 1. Programmatic Constraint Enforcement & Linters
-Rather than relying on vibes, we codified strict, quantifiable acceptance criteria for every generated asset:
+Rather than relying on vibes, I codified strict, quantifiable acceptance criteria for every generated asset:
 - **Social Character Caps**: Social copy is strictly measured against platform limits prior to presentation (e.g. X at 280 characters including `t.co` shortening, BlueSky at 300 characters, Mastodon at 500 characters, and LinkedIn formatted with hook-and-bullets).
-- **Automated Entity Linters**: Running standalone Python validation tools (`python3 scripts/fix-html-entities-in-code.py` and `scripts/manage-hero-assets.py`) ensures that code blocks do not contain corrupted HTML entities (`&nbsp;`, `&lt;`) and that images strictly conform to responsive 16:9 formats.
+- **Automated Entity Linters**: Running standalone Python validation tools (`fix-html-entities` and `manage-hero-assets`) ensures that code blocks do not contain corrupted HTML entities (`&nbsp;`, `&lt;`) and that images strictly conform to responsive 16:9 formats.
 
-### 2. Multi-Model Image Calibration (Nano Banana 2 & Imagen)
+### 2. Multi-Model Image Calibration (Nano Banana 2)
 Visual generation required continuous fine-tuning. Early image models struggled with in-image typography, rendering illegible gibberish on books and posters. 
 
-By integrating modern image models like **Gemini 3.1 Flash Image** (popularly known as *Nano Banana 2*) directly into our CLI tooling, we unlocked:
+By integrating modern image models like **Nano Banana 2** directly into our CLI tooling, I unlocked:
 - Crisp, legible text rendering in architectural diagrams and mockups.
 - Consistent character styling and colour palette across sequential articles.
-- Automatic generation of left-attached frosted-glass OpenGraph preview cards featuring scannable ISO 18004 QR codes.
+- Automatic generation of frosted-glass OpenGraph preview cards featuring QR codes.
 
 ### 3. Iterative Skill Calibration & Prompt Refinement
-Workspace skills under `.agents/skills/` are treated as software dependencies. When underlying LLM architectures receive version bumps, we run prompt calibration cycles:
-- **The Divergence-Only Rule**: Refined the SEO Specialist skill to ensure frontmatter `metaTitle` and `metaDescription` are only populated when intentionally diverging from the post title and summary, avoiding DRY redundancy.
+Workspace skills under `.agents/skills/` are treated as software dependencies. When underlying LLM architectures receive version bumps, I run prompt calibration cycles:
+- **The Divergence-Only Rule**: Refined the SEO Specialist skill to ensure frontmatter attributes like `metaTitle` and `metaDescription` are only populated when intentionally diverging from the post title and summary, avoiding DRY redundancy.
 - **Multi-Variant Outreach Drafting**: Instructed the Content Designer to always generate distinct strategic angles (e.g. Backlog Hook vs Productivity Insight) with exact character tallies, allowing the human author to select the winning voice.
 
 ---
@@ -213,23 +214,24 @@ The final piece of the architecture is the **Release Manager & Site QA**.
 flowchart LR
     S1["1️⃣ Pre-Actions<br/><i>Asset Localisation</i>"] --> S2["2️⃣ DocFX Build<br/><i>Zero-Warning Gate</i>"]
     S2 --> S3["3️⃣ Post-Actions<br/><i>Clean Markdown</i>"]
-    S3 --> S4["4️⃣ Local Emulator<br/><i>Port 5002</i>"]
+    S3 --> S4["4️⃣ Local Site<br/><i>(Port 8080)</i>"]
     S4 --> S5{"5️⃣ Human Gate<br/><b>Explicit Approval</b>"}
-    S5 -->|Approved| S6["6️⃣ Production<br/><i>npm run deploy</i>"]
+    S5 -->|Approved| S6["6️⃣ Deploy to<br/>Production"]
 ```
 
 The Release Manager enforces our strict quality gates:
 1. **Zero-Warning DocFX Builds**: The compilation must finish with exactly `0 warning(s)` and `0 error(s)`.
-2. **Hyperlink & Asset Integrity**: Checking that all image paths resolve and Service Worker caching (`sw-v1.js`) registers cleanly.
-3. **Clean Git Guardrails**: Running `scripts/check-clean-posts.py` to ensure all content assets are committed.
+2. **Hyperlink & Asset Integrity**: Checking that all image paths resolve and Service Worker caching registers cleanly.
+3. **Clean git Guardrails**: Running a script to ensure all content assets are committed.
 
 ### The Non-Negotiable Human-in-the-Loop Rule
 There is one inviolable constraint in our agency charter:
 
 > [!IMPORTANT]
-> **No Automated Deployments**: Under no circumstances does any agent execute `firebase deploy`, `npm run deploy`, or staging channel deployments without explicit, interactive human approval. 
+> **No Automated Deployments**: 
+> Under no circumstances does any agent deploy without explicit, interactive human approval. 
 
-The human author is the origin of the technical thesis, the provider of lived debugging experiences, and the final decision-maker. The agents serve as rigorous scaffolding, quality gates, and sounding boards - never unmonitored ghostwriters.
+The human author is the origin of the post, the provider of lived debugging experiences, and the final decision-maker. The agents serve as rigorous scaffolding, quality gates, and sounding boards - never unmonitored ghostwriters.
 
 ---
 
@@ -238,7 +240,7 @@ The human author is the origin of the technical thesis, the provider of lived de
 Building an agency of specialised agents sounds utopian, but engineering pragmatism demands acknowledging the real-world tradeoffs:
 
 1. **Orchestration Latency vs Output Quality**:
-   Running eight agents sequentially on every 400-word quick tip is overkill. We adopt a **tiered invocation model**: lightweight tips activate only the Chief Editor and Technical Code Reviewer; full architectural essays engage the entire editorial board.
+   Running eight agents sequentially on every 400-word quick tip is overkill. I adopt a **tiered invocation model**: lightweight tips activate only the Chief Editor and Technical Code Reviewer; full architectural essays engage the entire editorial board.
 2. **Token Economics & Context Boundaries**:
    Injecting bulky system prompts and house rules on every prompt burns tokens rapidly. Storing research in `posts/draft/assets/<uid>/resources.md` and using progressive skill disclosure keeps active context windows lean.
 3. **Prompt Drift & Maintenance Debt**:
@@ -251,7 +253,7 @@ Building an agency of specialised agents sounds utopian, but engineering pragmat
 Here is how all eight roles collaborate across the end-to-end publishing lifecycle:
 
 ![Diagram showing the digital publishing agency workflow connecting all 8 AI agent roles](../content/images/2026/08/publishing-agency-infographic.webp "Digital Publishing Agency Workflow")  
-*Figure 2: The end-to-end publishing pipeline from authoring to pre-flight QA.*
+*The end-to-end publishing pipeline from authoring to pre-flight QA.*
 
 ---
 
