@@ -2,7 +2,7 @@
 uid: assembling-an-ai-publishing-agency
 title: "From Solo Blogger to Editorial Board: How I Built a Multi-Agent Publishing Agency"
 date: 2026-08-22
-status: draft
+status: published
 type: post
 description: "How a decade-long solo blogger assembled an 8-agent virtual publishing desk in Antigravity to conquer draft backlogs and enforce editorial discipline."
 metaTitle: "From Solo Blogger to Editorial Board: Multi-Agent AI Desk"
@@ -18,9 +18,11 @@ layout: post
 bodyClass: post-template tag-ai tag-productivity tag-tooling tag-development
 postClass: post tag-ai tag-productivity tag-tooling tag-development
 isPost: true
-isDraft: true
+isDraft: false
 author: Jochen Kirstätter
 authorSlug: joki
+publishedAt: 2026-09-02T19:27:38Z
+updatedAt: 2026-09-02T19:27:38Z
 ---
 For more than a decade, running this blog was a purely solo operation. The rhythm was familiar: an exciting technical idea would spark during a project or a conference talk, I would quickly create a draft, give it an intro, jot down three-four bullet points and a code snippet, and promise myself I would finish it over the weekend.
 

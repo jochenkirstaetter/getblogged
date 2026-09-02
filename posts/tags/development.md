@@ -12,6 +12,7 @@ image: content/images/2018/10/20626381_10203983204297799_562900680618946131_o.we
 
 ## Articles
 
+- [From Solo Blogger to Editorial Board: How I Built a Multi-Agent Publishing Agency](xref:assembling-an-ai-publishing-agency) - *Sep 2, 2026*
 - [Mastering the Matrix: Elegant QR Code Generation](xref:mastering-the-matrix-qr-code-generation) - *Aug 23, 2026*
 - [Using portless with Firebase Hosting](xref:portless-with-firebase-emulators) - *Aug 21, 2026*
 - [Gemma 3 - missing features despite announcement](xref:gemma-3-missing-features-despite-announcement) - *Mar 12, 2025*

@@ -6,6 +6,19 @@ canonicalUrl: https://jochen.kirstaetter.name/
 isHome: true
 bodyClass: home-template
 posts:
+- title: "From Solo Blogger to Editorial Board: How I Built a Multi-Agent Publishing Agency"
+  uid: assembling-an-ai-publishing-agency
+  date: 2026-09-02
+  formattedDate: Sep 2, 2026
+  image: content/images/2026/08/publishing-agency-team-portraits.webp
+  excerpt: "How a decade-long solo blogger assembled an 8-agent virtual publishing desk in Antigravity to conquer draft backlogs and enforce editorial discipline."
+  authorName: Jochen Kirstätter
+  authorSlug: joki
+  authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
+  primaryTag: AI
+  tagSlug: ai
+  tagClass: tag-ai
+  imageClass: with-image
 - title: "Speaking at GDG Cloud Munich: State of GCP (.NET Edition)"
   uid: gdg-cloud-munich
   date: 2026-08-31
@@ -142,19 +155,6 @@ posts:
   formattedDate: Mar 31, 2024
   image: content/images/2024/04/_913c222e-d6c8-4431-9586-3c2d42883014.webp
   excerpt: "Release notes or better a Changelog is an important part of a package to inform other developers about new features, changes and fixes. Enjoy rich formatting and re-usable content for a NuGet package."
-  authorName: Jochen Kirstätter
-  authorSlug: joki
-  authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
-  primaryTag: Development
-  tagSlug: development
-  tagClass: tag-development
-  imageClass: with-image
-- title: "Automate NuGet package creation using Google Build"
-  uid: automate-nuget-package-creation-google-build
-  date: 2024-03-04
-  formattedDate: Mar 4, 2024
-  image: content/images/2024/03/Gemini_Generated_Image-1-.webp
-  excerpt: "Taking multiple steps to build, pack and publish a NuGet package manually is a distraction and error-prone. Use Google Cloud Build to handle the boring parts of the SDLC."
   authorName: Jochen Kirstätter
   authorSlug: joki
   authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
