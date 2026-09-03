@@ -8,13 +8,8 @@ description: Blocking clipboard paste on password fields does not thwart attacke
 tags:
   - Security
   - Development
-  - UX
-keywords: 'security, passwords, authentication, password manager, UX, web development, cobra effect'
-metaTitle: The Misconception of Disabling Paste on Password Fields
-metaDescription: Blocking clipboard paste on password fields does not thwart attackers. It sabotages password managers and ruins authentication security.
-image: content/images/2022/02/the-misconception-of-disabling-paste-on-password-fields.webp
-ogTitle: The Misconception of Disabling Paste on Password Fields
-ogDescription: Blocking clipboard paste on password fields does not thwart attackers. It sabotages password managers and ruins authentication security.
+keywords: security, passwords, authentication, password manager, UX, web development, cobra effect
+image: content/images/2026/09/the-misconception-of-disabling-paste-on-password-fields.webp
 layout: post
 bodyClass: post-template
 postClass: post
@@ -27,45 +22,38 @@ isTagsIndexPage: false
 isAuthorPage: false
 isHome: false
 author: Jochen Kirstätter
-authorTwitter: '@jkirstaetter'
+authorTwitter: "@jkirstaetter"
 authorFacebook: https://facebook.com/jochen.kirstaetter
-website: ''
-location: ''
+website: ""
+location: ""
 authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
 authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/the-misconception-of-disabling-paste-on-password-fields/
-imageUrl: ''
-twitterImageUrl: ''
 authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
-tagName: ''
-tagDescription: ''
-featureImage: ''
-featured: false
-publishedAt: ''
+publishedAt: ""
 updatedAt: 2022-02-10T06:23:23Z
-excerpt: Blocking clipboard paste on password fields does not thwart attackers. It sabotages password managers and ruins authentication security.
-twitterTitle: The Misconception of Disabling Paste on Password Fields
-twitterDescription: Blocking clipboard paste on password fields does not thwart attackers. It sabotages password managers and ruins authentication security.
-twitterImage: ''
-facebookTitle: The Misconception of Disabling Paste on Password Fields
-facebookDescription: Blocking clipboard paste on password fields does not thwart attackers. It sabotages password managers and ruins authentication security.
-facebookImage: ''
-codeinjectionHead: ''
-codeinjectionFoot: ''
-ogImage: content/images/2022/02/the-misconception-of-disabling-paste-on-password-fields-og.webp
 ---
-Dear Mauritius Telecom: what was the business decision behind actively preventing your customers from using password management applications?
+Dear Mauritius Telecom: what was the business decision behind actively preventing your customers from using password management applications? Why disable the paste functionality for password entry?
 
 Blocking users from pasting values into an authentication input field is not an elite security measure. It is a profoundly irritating UX anti-pattern that achieves the exact opposite of its intended goal.
 
-![DevTools inspection revealing ng-paste="$event.preventDefault();" on the Mauritius Telecom self-care login portal](../content/images/2022/02/image.webp)
+Oh, sorry my dear readers: What am I actually talking about? It's about the [Selfcare portal by Mauritius Telecom](https://selfcare.telecom.mu/)
+
+![Selfcare portal login screen by Mauritius Telecom](../content/images/2026/09/selfcare-myt.webp)
+
+Unfortunately, the **Enter your password** entry field is blocked to paste in anything. While using a password manager suite, you can simply forget it in this case.
 
 ## The Evidence: Anatomy of an Anti-Pattern
 
 Opening browser DevTools on the telecom portal revealed the precise implementation responsible for the friction:
 
+![Inspecting the password input in Chrome DevTools on the Mauritius Telecom Selfcare portal](../content/images/2026/09/selfcare-myt-devtools.webp)
+
+Slightly formatted to improve the readability, and it looks like this:
+
 ```html
+<!-- The password input on Selfcare portal by Mauritius Telecom -->
 <input id="input_5" 
        class="passwords ng-pristine ng-untouched md-input ng-empty ng-invalid" 
        name="clmPassword" 
@@ -98,7 +86,7 @@ As if disabling paste were not hostile enough, the portal coupled this restricti
 
 Imagine attempting to type a complex, 24-character generated passphrase by hand. You make a single typo on character 18. Naturally, you tap the `Backspace` key to correct the error.
 
-Surprise!
+### Surprise!
 
 The custom keyup handler (`vm.unMaskValue($event)`) completely wipes the entire field. You are forced to start typing again from scratch.
 
@@ -131,7 +119,7 @@ The irony of enterprise architects obsessing over "shared workstation clipboard 
 
 Consider a familiar scene across restaurants and cafes: a waiter hands you a tablet to collect customer feedback, ratings, or a loyalty newsletter signup. You tap into the `Email` or `Phone` input field. 
 
-What happens?
+### What happens?
 
 Instantly, the browser displays a convenient dropdown suggestion list revealing the personal email addresses of the last twenty patrons who dined at that table. 
 
@@ -146,11 +134,52 @@ Pseudo-protection gives organisations a false sense of accomplishment. They spen
 
 ## Beyond Mauritius Telecom: A Pervasive Syndrome
 
-While Mauritius Telecom's customer portal provided the immediate catalyst for this investigation, let us not pretend MT stands alone in the digital pillory.
+While Mauritius Telecom's customer Selfcare portal provided the immediate catalyst for this investigation, let us not pretend MT stands alone in the digital pillory.
 
-This pseudo-protection virus is widespread across the enterprise landscape. Regional banking portals, utility providers, e-commerce checkouts, and government e-services frequently roll out similar barricades. Whether it is an online banking interface refusing autofill or a utility billing site that rejects pasted credentials, developers continually reach for the same broken playbook.
+This pseudo-protection syndrome is widespread across our local enterprise landscape. Consider another prominent Mauritian institution: the **Mauritius Commercial Bank (MCB)** and their corporate banking portal, **[Internet Banking Pro](https://ibpro.mcb.mu)**.
 
-Internationally, institutions like PayPal, British Airways, and numerous high-street banks spent years battling customer backlash before finally stripping these restrictions from their login forms. Yet here in Mauritius, customers still find themselves wrestling with portals that treat standard password management software as hostile intrusions.
+![Mauritius Commercial Bank Internet Banking Pro login interface](../content/images/2026/09/ibpro-mcb.webp)
+
+Where Mauritius Telecom opted for the brute-force sledgehammer, MCB employs a more subtle, yet equally frustrating form of friction. Inspect the DOM on their corporate login screen:
+
+```html
+<!-- The password input on MCB Internet Banking Pro -->
+<input id="password-field" 
+       name="password-field" 
+       type="password" 
+       autocomplete="off" 
+       class="form-control password-input login__input" 
+       tabindex="2" 
+       placeholder="Enter your password">
+```
+
+First, the password input explicitly enforces `autocomplete="off"`: the classic kiosk directive declaring that the machine is shared and untrusted. Why a corporate financial officer sitting at their dedicated company workstation should have their password manager suppressed under the guise of public kiosk security remains unexplained. Meanwhile, the username field omits `autocomplete="username"` altogether, leaving password managers guessing whether it is an email address, phone number, or user handle.
+
+Second, delve into the portal scripts (`common.js`) to observe how form validation is handled:
+
+```javascript
+function disableBtn(form, allInputs, btn) {
+    form.addEventListener('keyup', function(e) {
+        let disabled = false;
+        allInputs.forEach(function(input) {
+            if (input.value === '' || !input.value.replace(/\s/g, '').length) {
+                disabled = true;
+            }
+        });
+        if (disabled) {
+            btn.setAttribute('disabled', 'disabled');
+        } else {
+            btn.removeAttribute('disabled');
+        }
+    });
+}
+```
+
+Notice the fatal flaw: the button state validator listens *exclusively* to the keyboard `keyup` event. It does not monitor the standard DOM `input` or `change` events. 
+
+When a finance manager uses Bitwarden, 1Password, KeePass, or Apple Keychain to autofill their corporate credentials, or when they paste the password via the clipboard, **no `keyup` event fires**. The "Log In" button remains completely dead and disabled. The user is forced to click inside the box and tap an arbitrary key (such as space followed by backspace) purely to awaken the JavaScript validator and unlock the submit button.
+
+Internationally, institutions like PayPal, British Airways, and numerous high-street banks spent years battling customer backlash before finally stripping these restrictions from their login forms. Yet here in Mauritius, whether paying an internet bill or managing corporate treasury accounts, customers still find themselves wrestling with portals that treat standard password management software as hostile intrusions.
 
 ## The Threat Model Myth: Automated Attackers Do Not Paste
 
@@ -160,7 +189,7 @@ The underlying rationale often cited by enterprise compliance checklists is that
 
 This assumption betrays a fundamental misunderstanding of automated tooling:
 
-- **Automated bots do not use the clipboard**: Modern scraping and credential-stuffing tools (built on Puppeteer, Playwright, Selenium, or headless Chromium) do not simulate human `Ctrl+V` shortcuts via operating system clipboards. They inject values directly into DOM properties (`input.value = "secret"`) or dispatch synthetic programmatic events. Disabling the DOM paste event does not deter automated abuse in the slightest.
+- **Automated bots do not use the clipboard**: Modern scraping and credential-stuffing tools (built on [Puppeteer](https://pptr.dev/), [Playwright](https://playwright.dev/), [Selenium](https://www.selenium.dev/), or [headless Chromium](https://developer.chrome.com/docs/chromium/headless)) do not simulate human `Ctrl+V` shortcuts via operating system clipboards. They inject values directly into DOM properties (`input.value = "secret"`) or dispatch synthetic programmatic events. Disabling the DOM paste event does not deter automated abuse in the slightest.
 - **`preventDefault()` stops humans, not scripts**: A simple JavaScript evaluation in headless Chrome bypasses client-side event listeners completely. The event listener only runs when the DOM `paste` event is fired; it does nothing to prevent direct value assignment.
 
 The only demographic actively impeded by `ng-paste="$event.preventDefault()"` is legitimate, security-conscious human beings trying to use password managers.
@@ -198,16 +227,36 @@ Renowned security researcher Troy Hunt explored this exact friction in his landm
 
 > *"When you prevent paste, you penalise the very users who are trying to do the right thing by using a password manager. It is security theatre of the highest order."*
 
-### OWASP & Modern Standards
-The Open Web Application Security Project (OWASP) expressly advises developers to permit paste operations across all credential entry fields, noting that password managers are fundamental to modern identity security.
+### OWASP ASVS & Authentication Guidelines
+The Open Web Application Security Project (OWASP) cements this principle as an explicit verification requirement in the [OWASP Application Security Verification Standard (ASVS v4.0, Requirement 2.1.11)](https://github.com/OWASP/ASVS/blob/v4.0.3/5.0/en/0x11-V2-Authentication.md#v21-password-security):
 
+> *"Verify that 'paste' functionality, browser password helpers, and external password managers are permitted."*
+
+Furthermore, the [OWASP Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#password-managers) reinforces this mandate in its guidance on password managers:
+
+> *"Allow users to paste into the username, password, and MFA fields. Some poorly designed security practices attempt to disable copy-and-paste or right-clicking, which interferes with password managers and actually degrades overall security by forcing users to choose weaker, memorable passwords."*
+
+And I'm confident there are many more resources out there on the web telling you similar practices.
 ## The Modern Fix: Getting Out of the User's Way
 
-Fixing this problem requires writing less code, not more. Modern browsers and operating systems already understand authentication workflows natively when standard HTML attributes are used.
+Solving this problem requires **writing less code, not more**. For over a decade, frontend engineering suffered from an impulse to micromanage every facet of the user interface with bespoke event handlers. When it comes to authentication, however, the most secure and delightful engineering decision a team can make is simply to step aside and let the browser platform do its job.
 
-Here is what a clean, accessible password field looks like:
+![Comparing legacy client-side restrictions with modern frictionless authentication](../content/images/2026/09/modern-fix-concept-1-split.webp)
+
+On one side, we build an obstacle course of fragile scripts, blocked clipboards, and scattered sticky notes. On the other, clean markup lets the browser and your password manager do what they do best: log you in securely within seconds.
+
+Trust the process!
+
+### The Power of Semantic HTML
+
+Modern browsers are far more sophisticated than the simple document viewers of the 1990s. Today, user agents ship with deeply integrated credential management suites, phishing protection engines, and hardware-backed cryptographic passkey authenticators. 
+
+When developers clutter inputs with non-standard hacks such as `autocomplete="doNotAutoComplete"` or `readonly="" onfocus="this.removeAttribute('readonly');"`, they sever the communication bridge between the browser and these assistive technologies. 
+
+A clean, standards-compliant password input requires remarkably little markup:
 
 ```html
+<!-- Clean, semantic, accessible login field -->
 <label for="current-password">Password</label>
 <input type="password" 
        id="current-password" 
@@ -216,12 +265,35 @@ Here is what a clean, accessible password field looks like:
        required>
 ```
 
-When building authentication forms, follow these straightforward guidelines:
+Behind these few lines of declarative HTML lies a wealth of native browser functionality:
 
-1. **Never suppress clipboard events**: Remove all `onpaste`, `ng-paste`, or `preventDefault()` handlers on password inputs.
-2. **Use standard autocomplete attributes**: Specify `autocomplete="current-password"` on login forms and `autocomplete="new-password"` on registration and password-change forms. If you are legitimately designing a public kiosk, rating tablet, or one-time code input, use standard `autocomplete="off"` to instruct the browser not to cache inputs, rather than inventing non-standard junk tokens.
-3. **Respect user input without wiping**: Never reset an entire input string when an individual keystroke (e.g. `Backspace` or `Delete`) occurs.
-4. **Support generous password lengths**: Ensure inputs and backend validation permit at least 128 characters so users can supply long passphrases generated by modern software.
+1. **Accessible Association**: The explicit `<label>` tag guarantees that screen readers announce the input accurately and expands the clickable tap target for mobile users.
+2. **Explicit Semantic Context**: The `autocomplete="current-password"` attribute signals directly to password managers that this field expects existing account credentials. This eliminates guesswork and enables instant one-tap credential selection menus in Bitwarden, 1Password, Apple Keychain, and Google Password Manager.
+3. **Hardware Biometric Integration**: On mobile devices and modern laptops, semantic password inputs enable browsers to offer immediate biometric autofill (Face ID, Touch ID, or fingerprint authentication) without requiring users to type a single character.
+
+### Core Principles for Modern Authentication Forms
+
+To build login interfaces that respect both security and human dignity, frontend engineering teams should adhere to five fundamental principles:
+
+1. **Never Suppress Native Clipboard Events**:  
+   Strip all `onpaste`, `ng-paste`, or `preventDefault()` listeners from password, username, and one-time passcode fields. Pasting is not an attack vector; it is the primary bridge through which security-conscious users transfer high-entropy passwords from encrypted vaults into your application.
+
+2. **Use Standard Autocomplete Tokens**:  
+   Abandon invented attributes. HTML5 provides an unambiguous, standardised vocabulary for credential fields:
+   - Use `autocomplete="username"` on email, phone, and username inputs.
+   - Use `autocomplete="current-password"` on sign-in screens.
+   - Use `autocomplete="new-password"` on account creation and password-reset forms (which triggers password managers to generate robust random secrets automatically).
+   - Use `autocomplete="one-time-code"` on two-factor authentication (2FA) inputs so mobile operating systems can automatically extract SMS or authenticator codes directly into the input.  
+   If you are legitimately deploying a shared terminal, public feedback tablet, or ephemeral guest screen, use standard `autocomplete="off"` to instruct the browser not to cache personal data, rather than inventing non-standard junk tokens.
+
+3. **Listen to DOM `input` Events, Not Keyboard `keyup`**:  
+   As demonstrated by the MCB Internet Banking Pro investigation, form validation that listens solely to keyboard events (`keyup` or `keydown`) breaks credential managers and clipboard paste. Always bind validation logic to the standard `input` and `change` events. The `input` event fires reliably regardless of whether data arrives via mechanical keystrokes, programmatic autofill, mouse right-click paste, or mobile dictation.
+
+4. **Respect User Edits Without Wholesale Reset**:  
+   Never bind destructive JavaScript handlers to editing keys. A user who taps `Backspace` or `Delete` is attempting to correct a typographical slip, not request a total purge of their input string. Forcing an entire re-entry on a single misplaced character breeds profound user resentment.
+
+5. **Permit Generous Password Lengths**:  
+   Ensure that frontend `maxlength` attributes and backend database fields permit generous string lengths (at least 128 characters, and ideally 256 or more). Passphrases composed of multiple random words or generated strings from security suites frequently exceed arbitrary legacy limits of 16 or 20 characters. Truncating or rejecting long passwords actively penalises customers who adopt superior security hygiene.
 
 ## Key Takeaways
 
@@ -230,10 +302,29 @@ When building authentication forms, follow these straightforward guidelines:
 - Password managers represent the single most effective consumer security habit; web applications must work with them, not against them.
 - Good security and good user experience are not opposing forces. Eliminating friction in authentication yields stronger security for everyone.
 
+## An Open Appeal to Mauritius Telecom
+
+This brings us full circle to the argument that opened this article.
+
+Mauritius Telecom powers the digital backbone of our island nation. Through residential fibre, mobile infrastructure, and enterprise connectivity, you enable thousands of businesses, families, and developers to participate in the modern digital economy. Your customer Selfcare portal should reflect that same standard of engineering excellence.
+
+To the digital leadership, product teams, and web developers at Mauritius Telecom: please review your Selfcare authentication architecture. 
+
+Retiring these friction-heavy client-side roadblocks requires writing less code, not more:
+
+- **Strip `ng-paste="$event.preventDefault();"`**: Allow your customers to use their password managers freely and securely.
+- **Drop `autocomplete="doNotAutoComplete"`**: Replace fabricated, non-standard attributes with standard web tokens (`autocomplete="current-password"`).
+- **Remove the `Backspace` field wipe**: Stop punishing customers for correcting an accidental typo.
+- **Ditch the `readonly` focus toggle**: Let modern browsers and password manager extensions identify credentials natively without fragile DOM workarounds.
+
+True security is never achieved by making life difficult for the human beings attempting to access their own accounts. Genuine security lives in resilient backend architecture: robust server-side rate limiting, multi-factor authentication (MFA), anomaly detection, and modern passkey support. 
+
+Let the Selfcare portal lead by example in Mauritius by embracing modern web standards and treating password managers as essential allies rather than hostile intrusions. Your customers - and their password managers - will thank you.
+
 ---
 
 ## Join the Conversation
 
 Have you encountered websites or banking portals that still insist on blocking paste or wiping inputs on typos? What is the most frustrating authentication anti-pattern you have had to battle? Let me know on [X (@JKirstaetter)](https://x.com/JKirstaetter), [BlueSky (@jochen.kirstaetter.name)](https://bsky.app/profile/jochen.kirstaetter.name), or [Mastodon (@JKirstaetter)](https://mastodon.social/@JKirstaetter)!
 
-<small>Picture credits: Generated with Imagen 3 / Google Antigravity.</small>
+<small>Picture credits: Generated with Nano Banana 2 / Google Antigravity.</small>
