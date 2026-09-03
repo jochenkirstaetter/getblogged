@@ -6,6 +6,19 @@ canonicalUrl: https://jochen.kirstaetter.name/
 isHome: true
 bodyClass: home-template
 posts:
+- title: "The Misconception of Disabling Paste on Password Fields"
+  uid: the-misconception-of-disabling-paste-on-password-fields
+  date: 2026-09-03
+  formattedDate: Sep 3, 2026
+  image: content/images/2026/09/the-misconception-of-disabling-paste-on-password-fields.webp
+  excerpt: "Blocking clipboard paste on password fields does not thwart attackers. It sabotages password managers and ruins authentication security."
+  authorName: Jochen Kirstätter
+  authorSlug: joki
+  authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
+  primaryTag: Security
+  tagSlug: security
+  tagClass: tag-security
+  imageClass: with-image
 - title: "From Solo Blogger to Editorial Board: How I Built a Multi-Agent Publishing Agency"
   uid: assembling-an-ai-publishing-agency
   date: 2026-09-02
@@ -142,19 +155,6 @@ posts:
   formattedDate: Apr 2, 2024
   image: content/images/2024/04/Gemini_Generated_Image-4-.webp
   excerpt: "Less than five minutes to get started with Google Gemini API in .NET using the Mscc.GenerativeAI package. It's like a few lines of code only to empower your app with generative AI powered by Google Gemini."
-  authorName: Jochen Kirstätter
-  authorSlug: joki
-  authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
-  primaryTag: Development
-  tagSlug: development
-  tagClass: tag-development
-  imageClass: with-image
-- title: "NuGet: Better release notes and versioning"
-  uid: nuget-better-release-notes-versioning
-  date: 2024-03-31
-  formattedDate: Mar 31, 2024
-  image: content/images/2024/04/_913c222e-d6c8-4431-9586-3c2d42883014.webp
-  excerpt: "Release notes or better a Changelog is an important part of a package to inform other developers about new features, changes and fixes. Enjoy rich formatting and re-usable content for a NuGet package."
   authorName: Jochen Kirstätter
   authorSlug: joki
   authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
