@@ -26,6 +26,8 @@
   href: project.md
 - name: "Recension"
   href: recension.md
+- name: "Security"
+  href: security.md
 - name: "Tooling"
   href: tooling.md
 - name: "Windows"

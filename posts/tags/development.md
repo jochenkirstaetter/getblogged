@@ -12,6 +12,7 @@ image: content/images/2018/10/20626381_10203983204297799_562900680618946131_o.we
 
 ## Articles
 
+- [The Misconception of Disabling Paste on Password Fields](xref:the-misconception-of-disabling-paste-on-password-fields) - *Sep 3, 2026*
 - [From Solo Blogger to Editorial Board: How I Built a Multi-Agent Publishing Agency](xref:assembling-an-ai-publishing-agency) - *Sep 2, 2026*
 - [Mastering the Matrix: Elegant QR Code Generation](xref:mastering-the-matrix-qr-code-generation) - *Aug 23, 2026*
 - [Using portless with Firebase Hosting](xref:portless-with-firebase-emulators) - *Aug 21, 2026*

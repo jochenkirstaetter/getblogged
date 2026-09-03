@@ -12,5 +12,6 @@
 <meta name="msapplication-task" content="name=Productivity;action-uri={{#_appUrl}}{{_appUrl}}/{{/_appUrl}}tags/productivity.html;icon-uri=/favicon.ico" />
 <meta name="msapplication-task" content="name=Projects;action-uri={{#_appUrl}}{{_appUrl}}/{{/_appUrl}}tags/project.html;icon-uri=/favicon.ico" />
 <meta name="msapplication-task" content="name=Recension;action-uri={{#_appUrl}}{{_appUrl}}/{{/_appUrl}}tags/recension.html;icon-uri=/favicon.ico" />
+<meta name="msapplication-task" content="name=Security;action-uri={{#_appUrl}}{{_appUrl}}/{{/_appUrl}}tags/security.html;icon-uri=/favicon.ico" />
 <meta name="msapplication-task" content="name=Tooling;action-uri={{#_appUrl}}{{_appUrl}}/{{/_appUrl}}tags/tooling.html;icon-uri=/favicon.ico" />
 <meta name="msapplication-task" content="name=Windows;action-uri={{#_appUrl}}{{_appUrl}}/{{/_appUrl}}tags/windows.html;icon-uri=/favicon.ico" />
