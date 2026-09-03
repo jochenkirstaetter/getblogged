@@ -2,7 +2,7 @@
 uid: the-misconception-of-disabling-paste-on-password-fields
 title: The Misconception of Disabling Paste on Password Fields
 date: 2022-02-10
-status: draft
+status: published
 type: post
 description: Blocking clipboard paste on password fields does not thwart attackers. It sabotages password managers and ruins authentication security.
 tags:
@@ -10,12 +10,13 @@ tags:
   - Development
 keywords: security, passwords, authentication, password manager, UX, web development, cobra effect
 image: content/images/2026/09/the-misconception-of-disabling-paste-on-password-fields.webp
+ogImage: content/images/2026/09/the-misconception-of-disabling-paste-on-password-fields-og.webp
 layout: post
 bodyClass: post-template
 postClass: post
 isPost: true
 isPage: false
-isDraft: true
+isDraft: false
 isScheduled: false
 isTagPage: false
 isTagsIndexPage: false
@@ -31,8 +32,8 @@ authorSlug: joki
 canonicalUrl: https://jochen.kirstaetter.name/the-misconception-of-disabling-paste-on-password-fields/
 authorImageUrl: content/images/2018/10/JoKi_StAubin_100px.webp
 authorPageUrl: https://jochen.kirstaetter.name/author/joki/
-publishedAt: ""
-updatedAt: 2022-02-10T06:23:23Z
+publishedAt: 2026-09-03T18:57:37Z
+updatedAt: 2026-09-03T18:57:37Z
 ---
 Dear Mauritius Telecom: what was the business decision behind actively preventing your customers from using password management applications? Why disable the paste functionality for password entry?
 
