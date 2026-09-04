@@ -240,4 +240,4 @@ Enter your room-specific password and hit `Enter` to confirm your choice.
 
 Perhaps you noticed that the visual appearance of the Jitsi Meet instance running for MSCC looks slightly different to the default installation.
 
-The next article in this series is going to dive deeper into the possibilities to customise the look of your instance of Jitsi Meet.
+Continue reading the next part of this series: [Customise Your Instance of Jitsi Meet](xref:customise-jitsi-meet), where we explore core feature configuration, visual branding, Google Calendar synchronisation, resilient Nginx upgrade persistence, and client endpoint setup across desktop and mobile devices.
