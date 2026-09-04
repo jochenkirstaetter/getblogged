@@ -381,7 +381,7 @@ The desktop client provides hardware push-to-talk hotkeys, system tray minimisat
 
 ---
 
-## Mobile Experience: In-Browser WebRTC vs Native App
+## Mobile Experience
 
 When community members open a meeting link on smartphones or tablets, their experience depends heavily on how your instance handles mobile clients. By default, Jitsi Meet prompts mobile visitors with a full-screen interstitial banner urging them to install the official mobile application.
 
