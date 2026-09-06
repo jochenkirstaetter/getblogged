@@ -2,7 +2,7 @@
 uid: customise-jitsi-meet
 title: "Customise Your Instance of Jitsi Meet"
 date: 2020-04-20
-status: draft
+status: published
 type: post
 description: "Explore practical options to customise and brand your self-hosted Jitsi Meet instance, and how to make modifications persistent across Debian and Ubuntu package upgrades."
 metaTitle: "Customise & Brand Jitsi Meet with Upgrade Persistence"
@@ -17,9 +17,11 @@ layout: post
 bodyClass: post-template tag-development tag-tooling tag-linux
 postClass: post tag-development tag-tooling tag-linux
 isPost: true
-isDraft: true
+isDraft: false
 author: Jochen Kirstätter
 authorSlug: joki
+publishedAt: 2026-09-06T19:47:06Z
+updatedAt: 2026-09-06T19:47:06Z
 ---
 In the previous two articles of this series, we set up our self-hosted video conferencing infrastructure. First, we walked through how to [Install Jitsi Meet on Compute Engine (GCP)](xref:install-jitsi-meet-on-gcp), providing a scalable, isolated WebRTC server. Next, we secured our installation against unauthorised room squatting by learning how to [Enable Authentication in Jitsi Meet](xref:authentication-jitsi-meet).
 
