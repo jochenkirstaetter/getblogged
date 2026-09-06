@@ -11,8 +11,8 @@ tags:
 - Tooling
 - Linux
 keywords: Jitsi Meet, Self-Hosted, WebRTC, Video Conferencing, Open Source, Nginx, Custom Branding, Linux, Ubuntu
-image: content/images/2020/04/customise-jitsi-meet.webp
-ogImage: content/images/2020/04/customise-jitsi-meet-og.webp
+image: content/images/2026/09/customise-jitsi-meet.webp
+ogImage: content/images/2026/09/customise-jitsi-meet-og.webp
 layout: post
 bodyClass: post-template tag-development tag-tooling tag-linux
 postClass: post tag-development tag-tooling tag-linux
@@ -354,8 +354,8 @@ Save the file. Because `config.js` is fetched dynamically by clients on each pag
 With the configuration active, participants experience two integration touchpoints:
 
 ::: grid
-![Landing page calendar integration prompt](../content/images/2020/04/jitsi-google-calendar.webp "MSCC Meet Landing Page Calendar Integration")
-![Settings modal showing Google Sign-in](../content/images/2020/04/jitsi-google-calendar-settings.webp "Calendar Settings Dialog")
+![Landing page calendar integration prompt](../content/images/2026/09/jitsi-google-calendar.webp "MSCC Meet Landing Page Calendar Integration")
+![Settings modal showing Google Sign-in](../content/images/2026/09/jitsi-google-calendar-settings.webp "Calendar Settings Dialog")
 :::
 
 **Landing Page Agenda**: Below the room name input, the **Calendar** tab displays a *"Connect your calendar"* call-to-action. Once authenticated, Jitsi displays upcoming meetings for the day. If a calendar invite contains a Jitsi meeting URL in its location or description, a prominent **Join** button appears next to the scheduled time.
@@ -370,7 +370,7 @@ All OAuth tokens and calendar event payloads are processed and retained exclusiv
 
 In addition to web browsers, participants can connect via the official cross-platform desktop application: [Jitsi Meet Electron](https://github.com/jitsi/jitsi-meet-electron).
 
-![Using the Jitsi Meet Desktop (Electron-based) application](../content/images/2020/04/image-24.webp "Jitsi Meet Desktop Electron Application")
+![Using the Jitsi Meet Desktop (Electron-based) application](../content/images/2026/09/jitsi-desktop-electron.webp "Jitsi Meet Desktop Electron Application")
 
 To ensure that the Electron desktop wrapper can frame your server without security policy violations, verify that your Nginx SSL server block includes standard frame options:
 
@@ -445,7 +445,7 @@ By default, the Jitsi Meet mobile app connects to the public cloud infrastructur
 
 To ensure mobile app users join your private instance:
 
-![Configuring the custom Server URL in Jitsi Meet mobile settings](../content/images/2020/04/jitsi-mobile-settings.webp "Jitsi Meet Mobile Settings")
+![Configuring the custom Server URL in Jitsi Meet mobile settings](../content/images/2026/09/jitsi-mobile-settings.webp "Jitsi Meet Mobile Settings")
 
 **Configure the default server URL**: Inside the mobile app, tap the **Settings** gear icon and set the **Server URL** field to your instance domain:
 

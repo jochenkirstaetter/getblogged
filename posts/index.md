@@ -10,7 +10,7 @@ posts:
   uid: customise-jitsi-meet
   date: 2026-09-06
   formattedDate: Sep 6, 2026
-  image: content/images/2020/04/customise-jitsi-meet.webp
+  image: content/images/2026/09/customise-jitsi-meet.webp
   excerpt: "Explore practical options to customise and brand your self-hosted Jitsi Meet instance, and how to make modifications persistent across Debian and Ubuntu package upgrades."
   authorName: Jochen Kirstätter
   authorSlug: joki
