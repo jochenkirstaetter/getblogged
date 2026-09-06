@@ -25,7 +25,7 @@ In the previous two articles of this series, we set up our self-hosted video con
 
 Now that your instance is operational and secure, it is time to make it truly your own. 
 
-Out of the box, Jitsi Meet displays default branding, external links to the Jitsi community, and generic meeting room titles. Customising the interface to display your own community logo, custom colour scheme, tailored welcome text, and default audio/video behaviour transforms a generic utility into a professional, cohesive communication hub.
+Out of the box, Jitsi Meet displays default branding, external links to the Jitsi community, and generic meeting room titles. Customising the interface to display your own logo, custom colour scheme, tailored welcome text, and default audio/video behaviour transforms a generic utility into a professional, cohesive communication platform.
 
 However, anyone who has modified a Debian or Ubuntu package installation knows the frustration of running `apt-get upgrade` only to find that their custom logos, stylesheets, and configurations have been completely overwritten.
 
@@ -41,7 +41,7 @@ In this third article, we will explore:
 
 ---
 
-## Core Feature Configuration (`config.js`)
+## Core feature configuration
 
 The primary configuration file controlling client-side behaviour is located at:
 
@@ -51,8 +51,9 @@ sudo nano /etc/jitsi/meet/$(hostname -f)-config.js
 
 This JavaScript file is loaded by every participant's browser before entering a room. It governs meeting defaults, audio/video policies, and third-party integrations.
 
-### Essential Participant Settings
-When hosting large community meetups or webinars, having every attendee enter with microphones and cameras blazing creates immediate audio feedback and bandwidth congestion. You can set sane community defaults:
+### Essential participant settings
+
+When hosting large meetups or webinars, having every attendee enter with microphones and cameras blazing creates immediate audio feedback and bandwidth congestion. You can set sane defaults:
 
 ```javascript
 // Start every participant muted to avoid immediate audio feedback
@@ -76,11 +77,11 @@ p2p: {
 
 ---
 
-## Branding and Appearance Customisation
+## Branding and appearance customisation
 
 The visual presentation of Jitsi Meet is distributed across static HTML templates, configuration files, and image assets located in `/usr/share/jitsi-meet/`.
 
-### Custom Watermark & Logos
+### Custom watermark & logos
 The most recognisable element in a Jitsi call is the watermark shown in the top-left corner of the video grid.
 
 - **Main Watermark**: `/usr/share/jitsi-meet/images/watermark.png`
@@ -92,7 +93,7 @@ To display your community or company logo, prepare a transparent PNG image (reco
 sudo cp /path/to/my-logo.png /usr/share/jitsi-meet/images/watermark.png
 ```
 
-### Fine-Tuning UI Elements (`interface_config.js`)
+### Fine-tuning UI elements
 To adjust watermark links, application names, and toolbar buttons, open the interface configuration:
 
 ```bash
@@ -125,7 +126,7 @@ TOOLBAR_BUTTONS: [
 > [!NOTE]
 > In recent Jitsi Meet releases, several user interface parameters originally located in `interface_config.js` (such as `toolbarButtons` and `filmstrip` controls) are being progressively consolidated directly into `config.js`. If you are running an updated package version or containerised deployment, verify whether your target parameter has moved into your primary `config.js` schema.
 
-### Social Media & Open Graph Previews (`title.html`)
+### Social media & Open Graph previews
 When you share a meeting URL on messaging platforms like Slack, Microsoft Teams, or WhatsApp, the client fetches Open Graph metadata to render a link preview card.
 
 Open `/usr/share/jitsi-meet/title.html`:
@@ -137,14 +138,14 @@ sudo nano /usr/share/jitsi-meet/title.html
 Replace the default tags with your custom branding:
 
 ```html
-<title>MSCC Meet - Virtual Developer Meetup</title>
-<meta property="og:title" content="MSCC Meet - Community Video Calls" />
+<title>MSCC Meet - Monthly Code & Coffee Chat</title>
+<meta property="og:title" content="MSCC Meet - Monthly Code & Coffee Chat" />
 <meta property="og:image" content="/images/watermark.png" />
 <meta property="og:description" content="Secure, high-quality video meetings hosted by the Mauritius Software Craftsmanship Community." />
 <meta itemprop="name" content="MSCC Meet" />
 ```
 
-### Landing Page Footer & Welcome Content
+### Landing page footer & welcome content
 The landing page displays a room creation box. You can inject custom announcements, code of conduct links, or server sponsorship details below this box using `welcomePageAdditionalContent.html`:
 
 ```bash
@@ -164,7 +165,7 @@ Add your custom HTML snippet:
 
 ---
 
-## The Upgrade Dilemma
+## The upgrade dilemma
 
 Here is the catch: Jitsi Meet receives frequent software updates. When you run `sudo apt-get upgrade`, the `jitsi-meet-web` package extracts clean upstream files into `/usr/share/jitsi-meet/`. 
 
@@ -172,9 +173,7 @@ Without precaution, your custom `watermark.png`, `interface_config.js`, `title.h
 
 To solve this, we employ two different strategies depending on your operational preferences.
 
----
-
-### Virtual Locations via Nginx Aliases (Recommended)
+### Virtual locations via Nginx aliases (recommended)
 
 The most robust architectural solution is to separate your custom assets from the operating system's package directory entirely. 
 
@@ -187,7 +186,7 @@ flowchart LR
     Nginx -->|Default Fallback| Upstream["📁 /usr/share/jitsi-meet/<br/><i>APT Package Files</i>"]
 ```
 
-#### Create an Isolated Custom Assets Directory
+#### Create an isolated custom assets directory
 ```bash
 sudo mkdir -p /var/www/jitsi-custom/images
 sudo mkdir -p /var/www/jitsi-custom/static
@@ -197,7 +196,7 @@ sudo cp /path/to/my-logo.png /var/www/jitsi-custom/images/watermark.png
 sudo cp /usr/share/jitsi-meet/static/welcomePageAdditionalContent.html /var/www/jitsi-custom/static/
 ```
 
-#### Configure Nginx Location Directives
+#### Configure Nginx location directives
 Open your active Jitsi Nginx server block:
 
 ```bash
@@ -225,7 +224,7 @@ Two specific architectural choices make this block particularly resilient:
 - **Prefix Matching (`^~`)**: Using `^~` instructs Nginx that once this prefix matches, it must stop checking for any subsequent regular expression locations (`~` or `~*`). Jitsi Meet's default Nginx configuration includes regular expressions for routing room names; using `^~` ensures that your custom asset aliases take absolute precedence without being bypassed by upstream regex rules.
 - **Cache-Control Headers**: Web browsers aggressively cache static PNG images and HTML snippets. Without explicit cache instructions, attendees may continue seeing the default Jitsi logo or outdated announcements long after you have refreshed files on disk. Adding `Cache-Control "no-cache, must-revalidate"` forces the browser to revalidate the asset with Nginx on every request. If the file has not changed, Nginx replies with a fast `304 Not Modified`, giving you instantaneous visual updates without wasting network bandwidth.
 
-#### Test and Reload Nginx
+#### Test and reload Nginx
 ```bash
 sudo nginx -t
 sudo systemctl reload nginx
@@ -233,15 +232,13 @@ sudo systemctl reload nginx
 
 Whenever `apt-get upgrade` updates `jitsi-meet-web`, it can freely replace `/usr/share/jitsi-meet/images/watermark.png`. Nginx will continue serving your file from `/var/www/jitsi-custom/` without skipping a beat!
 
----
-
-### Git Time-Capsule in `/usr/share/jitsi-meet`
+### Git time-capsule in `/usr/share/jitsi-meet`
 
 If you prefer modifying files directly in-place (for example, when tweaking complex CSS or JavaScript logic across multiple files), you can turn `/usr/share/jitsi-meet` into a local Git repository.
 
 Version control acts like an operational time-capsule: it tracks all your modifications, alerts you when an upgrade changes upstream templates, and lets you reapply your changes smoothly.
 
-#### Initialise the Local Repository
+#### Initialise the local repository
 Ensure `git` is installed, navigate to the web root, and create the baseline commit:
 
 ```bash
@@ -257,7 +254,7 @@ sudo git add .
 sudo git commit -m "Initial upstream baseline installation"
 ```
 
-#### Apply and Commit Custom Modifications
+#### Apply and commit custom modifications
 Make your changes to `interface_config.js`, `title.html`, and images, then commit them to a dedicated branch:
 
 ```bash
@@ -266,7 +263,7 @@ sudo git add -A
 sudo git commit -m "feat(branding): apply custom logos, watermarks, and welcome text"
 ```
 
-#### Upgrade Routine: Stash, Upgrade, and Pop
+#### Upgrade routine: Stash, upgrade, and pop
 When package upgrades arrive, use Git to preserve your modifications:
 
 ```bash
@@ -288,6 +285,8 @@ sudo git stash pop
 
 If any conflict occurs (for instance, if upstream renamed a variable in `interface_config.js`), Git will highlight the exact lines requiring adjustment rather than silently overwriting your work.
 
+With upgrades in check, let's have a look at integrations with other systems.
+
 --- 
 
 ## Integrate Google Calendar
@@ -304,7 +303,7 @@ flowchart LR
     GCal -->|4. Parse Room URLs| JitsiUI["Jitsi Meet Landing Page<br/><b>1-Click Join Button</b>"]
 ```
 
-### Google Cloud Project and OAuth Credentials
+### Google Cloud project and OAuth credentials
 
 Because Part 1 of this series deployed our instance on Google Cloud Compute Engine, you already have access to the Google Cloud Console. To configure calendar synchronisation, create an OAuth 2.0 client:
 
@@ -326,7 +325,7 @@ Because Part 1 of this series deployed our instance on Google Cloud Compute Engi
 > [!TIP]
 > If you leave your OAuth consent screen in **Testing** status, Google limits authentication strictly to 100 explicitly invited Google accounts. For open community instances, transition the consent screen to **In production** (or add your core team members to the test user list) to avoid access errors.
 
-### Jitsi Configuration (`config.js`)
+### Adjust the Jitsi configuration
 
 Once you have your OAuth Client ID, open your server configuration file:
 
@@ -348,7 +347,7 @@ googleApiApplicationClientID: '1234567890-abcdefghijklmnopqrstuvwxyz.apps.google
 
 Save the file. Because `config.js` is fetched dynamically by clients on each page load, there is no need to restart system services. The change takes effect immediately upon hard-refreshing your browser.
 
-### The Welcome Page and Settings Experience
+### The welcome page and settings experience
 
 With the configuration active, participants experience two integration touchpoints:
 
@@ -365,7 +364,7 @@ All OAuth tokens and calendar event payloads are processed and retained exclusiv
 
 --- 
 
-## Desktop Client Integration (Jitsi Meet Electron)
+## Desktop client integration (Jitsi Meet Electron)
 
 In addition to web browsers, participants can connect via the official cross-platform desktop application: [Jitsi Meet Electron](https://github.com/jitsi/jitsi-meet-electron).
 
@@ -381,19 +380,19 @@ The desktop client provides hardware push-to-talk hotkeys, system tray minimisat
 
 ---
 
-## Mobile Experience
+## Mobile experience
 
 When community members open a meeting link on smartphones or tablets, their experience depends heavily on how your instance handles mobile clients. By default, Jitsi Meet prompts mobile visitors with a full-screen interstitial banner urging them to install the official mobile application.
 
 Depending on your audience and operational needs, you can either streamline the in-browser WebRTC experience for friction-free joining or guide participants into the native mobile application configured for your custom domain.
 
-### Seamless In-Browser WebRTC (Zero-Install)
+### Seamless in-browser WebRTC
 
 If you run public webinars or developer meetups with casual attendees, forcing guests to download a mobile app creates immediate participation friction. Modern mobile browsers (such as Chrome for Android and Safari on iOS) fully support WebRTC audio, video, and screen viewing without requiring third-party software.
 
 You can suppress the promotional install interstitial and allow participants to enter meetings directly within their mobile browser.
 
-#### Disable Mobile Deep Linking (`config.js`)
+#### Disable mobile deep linking
 Open your primary configuration file:
 
 ```bash
@@ -415,7 +414,7 @@ deeplinking: {
 },
 ```
 
-#### Suppress Promotional Banners (`interface_config.js`)
+#### Suppress promotional banners
 Next, disable the promotional banners in the interface configuration:
 
 ```bash
@@ -434,7 +433,7 @@ With these settings applied, attendees tapping a meeting link on their phone lan
 > [!NOTE]
 > While in-browser mobile WebRTC is convenient for guests, mobile operating systems enforce aggressive background tab management. If an attendee locks their screen or switches apps, mobile Safari and Chrome may suspend video feeds. For regular team members or moderators, the native app offers superior stability.
 
-### Native Mobile App Configuration
+### Native mobile app configuration
 
 For recurring community members and moderators who participate frequently from mobile devices, the official [Jitsi Meet Mobile App](https://jitsi.org/api/) (available on iOS and Android) delivers native background audio processing, hardware battery optimisation, and incoming call notifications.
 
@@ -444,7 +443,9 @@ By default, the Jitsi Meet mobile app connects to the public cloud infrastructur
 
 To ensure mobile app users join your private instance:
 
-**Configure the Default Server URL**: Inside the mobile app, tap the **Settings** gear icon and set the **Server URL** field to your instance domain:
+![Configuring the custom Server URL in Jitsi Meet mobile settings](../content/images/2020/04/jitsi-mobile-settings.webp "Jitsi Meet Mobile Settings")
+
+**Configure the default server URL**: Inside the mobile app, tap the **Settings** gear icon and set the **Server URL** field to your instance domain:
 
   ```text
   https://meet.mscc.mu
@@ -456,7 +457,7 @@ Once saved, all rooms created or entered from the app automatically route to you
 
 ---
 
-## Retrospective Note: Bare-Metal VMs vs Modern Containers
+## Retrospective note: Bare-metal VMs vs modern containers
 
 When this series was originally authored in 2020 during the rapid community pivot to remote collaboration, running standalone Debian VMs on Google Cloud Compute Engine was the standard deployment architecture for community servers.
 
@@ -468,7 +469,7 @@ Understanding how the web client, configuration layers, and reverse proxies inte
 
 ---
 
-## Summary and Series Recap
+## Summary and series recap
 
 Looking back at what we have covered across the series so far:
 
@@ -480,7 +481,7 @@ You now possess a private, branded, secure, and resilient video conferencing pla
 
 ---
 
-## Share Your Jitsi Story
+## Share your Jitsi story
 
 What is your actual experience running or joining calls on Jitsi Meet? Did you learn the hard way about package upgrade wipeouts after a routine `apt-get` blew away your bespoke logos, or have you spent late nights wrestling with Nginx routing and mobile WebRTC permissions? 
 

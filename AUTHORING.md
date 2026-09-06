@@ -46,6 +46,14 @@ All articles must strictly follow British English conventions:
 - **Strict No-Em-Dash Rule**: **Never** use em-dash characters (`—`). Use standard hyphens (` - ` or `--`), commas, colons, or semicolons instead.
 - **Contractions & Quotes**: Use standard straight or curly single and double quotes consistently. Avoid awkward stacked quotes.
 
+### Heading Capitalisation (Sentence Case)
+- **Sentence Case as Standard**: All in-article section headings (`##`, `###`, `####`) must strictly follow British English **sentence case**.
+- **Rules**:
+  - Capitalise **only** the initial letter of the heading and genuine proper nouns, brand names, acronyms, and product titles (e.g. *Jitsi Meet*, *Nginx*, *Google Calendar*, *Debian*, *Linux*, *WebRTC*, *GCP*).
+  - Do **not** use Title Case for section headings (e.g. write `## Core feature configuration`, not `## Core Feature Configuration`; `## Branding and appearance customisation`, not `## Branding and Appearance Customisation`).
+  - Code identifiers, flags, and file names inside backticks retain their exact literal casing (e.g. `### Adjust the Jitsi configuration (`config.js`)`).
+- **Post Titles**: Top-level article titles in frontmatter (`title:`, `metaTitle:`) may use Title Case or Sentence Case, but all in-body headings (`##`, `###`, `####`) must strictly adhere to Sentence case for visual hierarchy and readability across series.
+
 ---
 
 ## 3. Article Structure & Flow

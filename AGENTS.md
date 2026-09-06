@@ -220,7 +220,7 @@ npm run deploy
 
 ## Content Authoring & Editorial Guidelines
  
-For detailed writing instructions, tone of voice, orthography rules (British English, no-em-dashes, DRY frontmatter), research isolation (`posts/draft/assets/<uid>/`), and draft publishing workflows, refer to:
+For detailed writing instructions, tone of voice, orthography rules (British English, no-em-dashes, DRY frontmatter, sentence case headings), research isolation (`posts/draft/assets/<uid>/`), and draft publishing workflows, refer to:
 
 👉 [**`AUTHORING.md`**](AUTHORING.md)
 
