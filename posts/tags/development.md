@@ -12,6 +12,7 @@ image: content/images/2018/10/20626381_10203983204297799_562900680618946131_o.we
 
 ## Articles
 
+- [Customise Your Instance of Jitsi Meet](xref:customise-jitsi-meet) - *Sep 6, 2026*
 - [The Misconception of Disabling Paste on Password Fields](xref:the-misconception-of-disabling-paste-on-password-fields) - *Sep 3, 2026*
 - [From Solo Blogger to Editorial Board: How I Built a Multi-Agent Publishing Agency](xref:assembling-an-ai-publishing-agency) - *Sep 2, 2026*
 - [Mastering the Matrix: Elegant QR Code Generation](xref:mastering-the-matrix-qr-code-generation) - *Aug 23, 2026*
@@ -22,7 +23,6 @@ image: content/images/2018/10/20626381_10203983204297799_562900680618946131_o.we
 - [Quickstart: Use Gemini with .NET (Vertex AI)](xref:quickstart-using-gemini-with-net-vertex-ai) - *Apr 3, 2024*
 - [Quickstart: Use Gemini with .NET (Google AI)](xref:quickstart-use-gemini-with-net) - *Apr 2, 2024*
 - [NuGet: Better release notes and versioning](xref:nuget-better-release-notes-versioning) - *Mar 31, 2024*
-- [Write better code with Gemini AI](xref:write-better-code-with-gemini-ai) - *Mar 30, 2024*
 - [Automate NuGet package creation using Google Build](xref:automate-nuget-package-creation-google-build) - *Mar 4, 2024*
 - [Create NuGet packages with Visual Studio / Visual Studio Code](xref:create-nuget-packages-vs-code) - *Mar 1, 2024*
 - [Getting Started with the Vertex AI Gemini API with Visual Studio](xref:getting-started-with-the-vertex-ai-gemini-with-vs-http) - *Feb 23, 2024*
@@ -30,11 +30,9 @@ image: content/images/2018/10/20626381_10203983204297799_562900680618946131_o.we
 - [Generating QR codes - the Easy, the Comfy and the Smarty](xref:generate-qr-codes-gcf) - *Nov 6, 2023*
 - [Installing SQL Server 2019 and tools on Ubuntu 20.04](xref:sql-server-2019-on-ubuntu) - *Mar 25, 2022*
 - [Enable authentication in your instance of Jitsi Meet](xref:authentication-jitsi-meet) - *Apr 20, 2020*
-- [Customise Your Instance of Jitsi Meet](xref:customise-jitsi-meet) - *Apr 20, 2020*
 - [Install Jitsi Meet on Compute Engine (GCP)](xref:install-jitsi-meet-on-gcp) - *Apr 16, 2020*
 - [Getting Started with SQL Server on GCP](xref:sql-server-on-gcp) - *Jan 18, 2020*
 - [Working with Azure Container Registry](xref:alc4-acr) - *Jan 15, 2020*
-- [Lift to Azure: Microsoft Data Migration Assistant](xref:dma) - *Jan 15, 2020*
 - [Using Cloud Run instead of GKE](xref:alc4-cloud-run) - *Nov 26, 2019*
 - [Working with Cloud Build](xref:alc4-cloud-build) - *Nov 23, 2019*
 - [Google Kubernetes Engine (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-k8s) - *Nov 9, 2019*
@@ -43,12 +41,8 @@ image: content/images/2018/10/20626381_10203983204297799_562900680618946131_o.we
 - [Create React App (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-react) - *Oct 20, 2019*
 - [ALC 4.0 Cloud Challenge I](xref:alc4-cloud-challenge) - *Oct 18, 2019*
 - [Rock Your Code: Defensive Programming for Microsoft .NET by David McCarter](xref:rock-your-code-defensive-programming-for-microsoft-net) - *Feb 3, 2019*
-- [Let's Encrypt and Ghost](xref:letsencrypt-ghost) - *Jan 18, 2019*
 - [Using Apache HTTP as reverse proxy](xref:apache-reverse-proxy) - *Jan 10, 2019*
 - [Using nginx as reverse proxy](xref:nginx-reverse-proxy) - *Jan 8, 2019*
-- [My experience with Online Proctored Exams provided by Pearson VUE](xref:online-proctored-exam) - *Jan 4, 2019*
-- [OpenSSH on Windows natively](xref:openssh-on-windows) - *Oct 17, 2018*
-- [Let's Encrypt an Azure App Service](xref:letsencrypt-azure-app-service) - *Oct 4, 2018*
 - [When NULL isn't NULL](xref:when-null-isnt-null) - *Sep 10, 2018*
 - [OpenVPN: All TAP-Windows adapters on this system are currently in use](xref:openvpn-on-windows-all-tap-windows-adapters-on-this-system-are-currently-in-use) - *Aug 31, 2018*
 - [How to get your computer from blank disk(s) to fully operational in no time... (Windows edition)](xref:windows10-quick-installation) - *Jul 28, 2018*

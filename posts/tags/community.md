@@ -14,8 +14,6 @@ image: content/images/2018/10/10211972419933448.webp
 
 - [Speaking at GDG Cloud Munich: State of GCP (.NET Edition)](xref:gdg-cloud-munich) - *Aug 31, 2026*
 - [C# Corner Annual Conference 2017](xref:c-corner-conference-2017) - *May 30, 2024*
-- [DevConf 2024](xref:devconf-2024) - *May 27, 2024*
-- [Build with AI Johannesburg](xref:build-with-ai-johannesburg) - *May 27, 2024*
 - [Developer Creators and Online Communities Summit](xref:developer-creators-and-online-communities-summit) - *Feb 1, 2024*
 - [DevFest Jinja 2023](xref:devfest-jinja-2023) - *Dec 28, 2023*
 - [Mau Pas Konpran!? Brain Drain](xref:mau-pas-konpran-2) - *Dec 19, 2023*
@@ -24,7 +22,6 @@ image: content/images/2018/10/10211972419933448.webp
 - [Mau pas konpran!? SIM Registration](xref:mau-pas-konpran) - *Nov 19, 2023*
 - [SSA Community Summit 2023](xref:ssa-community-summit-2023) - *Nov 15, 2023*
 - [DevFest Kigali 2023](xref:devfest-kigali-2023) - *Nov 15, 2023*
-- [Google I/O Connect Amsterdam](xref:google-i-o-connect-amsterdam) - *Aug 23, 2023*
 - [GDE SSA Summit 2022](xref:gde-ssa-summit-2022) - *Sep 27, 2022*
 - [GADS 2020 - Spotlight](xref:gads-2020-spotlight) - *Oct 6, 2020*
 - [How did we run the Virtual Developers Conference 2020?](xref:how-did-we-run-the-virtual-developers-conference-2020) - *Sep 16, 2020*
@@ -32,20 +29,14 @@ image: content/images/2018/10/10211972419933448.webp
 - [Azure DEV Meetup Munich](xref:azuredev-munich) - *Apr 24, 2020*
 - [Install Jitsi Meet on Compute Engine (GCP)](xref:install-jitsi-meet-on-gcp) - *Apr 16, 2020*
 - [Why we decided to postpone Developers Conference 2020](xref:why-we-decided-to-postpone-developers-conference-2020) - *Mar 17, 2020*
-- [You have reached your destination - #150DaysOfALC4](xref:alc4-completed) - *Nov 26, 2019*
-- [Panelist at the FutureFest of ALU](xref:futurefest-alu) - *Nov 4, 2019*
-- [ALC 4.0 Cloud - Access to more Qwiklabs](xref:alc4-more-qwiklabs) - *Oct 29, 2019*
 - [Guest lecturer for the Africa Industrial Internet Programme (AIIP)](xref:aiip-azure-devops) - *Sep 6, 2019*
 - [ALC 4.0 Cloud - Access to Qwiklabs](xref:alc4-qwiklabs) - *Sep 4, 2019*
 - [ALC 4.0 Cloud - Phase II Online Meet up](xref:alc4-cloud-meeting) - *Sep 2, 2019*
 - [Share your journey - #150DaysOfALC4](xref:share-your-journey-150daysofalc4) - *Aug 23, 2019*
 - [ALC 4.0 Cloud - Slack questions](xref:alc4-slack-questions) - *Aug 10, 2019*
-- [Windows Insider MVP award](xref:windows-insider-mvp-award) - *Jan 9, 2019*
 - [Campsite fire talk with John O'Nolan](xref:john-onolan) - *Nov 13, 2018*
-- [What the comment?](xref:what-the-comment) - *Oct 8, 2018*
 - [The Curse of the Magical Tutorial](xref:curse-of-magical-tutorial) - *Oct 5, 2018*
 - [SSA Community Summit 2018](xref:ssa-community-summit-2018) - *Oct 4, 2018*
-- [Document, don't Create](xref:document-dont-create) - *Oct 4, 2018*
 - [100 Days of Exam](xref:100-days-of-exam) - *Mar 13, 2018*
 - [Dinner with Andy Volk](xref:andy-volk) - *Mar 8, 2018*
 - [Infotech/InnovTech 2017](xref:innovtech-2017) - *Feb 3, 2018*

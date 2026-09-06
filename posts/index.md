@@ -6,6 +6,19 @@ canonicalUrl: https://jochen.kirstaetter.name/
 isHome: true
 bodyClass: home-template
 posts:
+- title: "Customise Your Instance of Jitsi Meet"
+  uid: customise-jitsi-meet
+  date: 2026-09-06
+  formattedDate: Sep 6, 2026
+  image: content/images/2020/04/customise-jitsi-meet.webp
+  excerpt: "Explore practical options to customise and brand your self-hosted Jitsi Meet instance, and how to make modifications persistent across Debian and Ubuntu package upgrades."
+  authorName: Jochen Kirstätter
+  authorSlug: joki
+  authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
+  primaryTag: Development
+  tagSlug: development
+  tagClass: tag-development
+  imageClass: with-image
 - title: "The Misconception of Disabling Paste on Password Fields"
   uid: the-misconception-of-disabling-paste-on-password-fields
   date: 2026-09-03
@@ -142,19 +155,6 @@ posts:
   formattedDate: Apr 3, 2024
   image: content/images/2024/04/Gemini_Generated_Image.webp
   excerpt: "Use Gemini in .NET in shortest time following this quickstart to configure Vertex AI on Google Cloud and add generative AI features to your apps."
-  authorName: Jochen Kirstätter
-  authorSlug: joki
-  authorImage: content/images/2018/10/JoKi_StAubin_100px.webp
-  primaryTag: Development
-  tagSlug: development
-  tagClass: tag-development
-  imageClass: with-image
-- title: "Quickstart: Use Gemini with .NET (Google AI)"
-  uid: quickstart-use-gemini-with-net
-  date: 2024-04-02
-  formattedDate: Apr 2, 2024
-  image: content/images/2024/04/Gemini_Generated_Image-4-.webp
-  excerpt: "Less than five minutes to get started with Google Gemini API in .NET using the Mscc.GenerativeAI package. It's like a few lines of code only to empower your app with generative AI powered by Google Gemini."
   authorName: Jochen Kirstätter
   authorSlug: joki
   authorImage: content/images/2018/10/JoKi_StAubin_100px.webp

@@ -13,10 +13,8 @@ tagName: "Andela"
 
 - [GADS 2020 - Spotlight](xref:gads-2020-spotlight) - *Oct 6, 2020*
 - [Working with Azure Container Registry](xref:alc4-acr) - *Jan 15, 2020*
-- [You have reached your destination - #150DaysOfALC4](xref:alc4-completed) - *Nov 26, 2019*
 - [Google Kubernetes Engine (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-k8s) - *Nov 9, 2019*
 - [Considerations for production readiness (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-ready) - *Nov 9, 2019*
-- [ALC 4.0 Cloud - Access to more Qwiklabs](xref:alc4-more-qwiklabs) - *Oct 29, 2019*
 - [Working with Docker (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-docker) - *Oct 24, 2019*
 - [Create React App (ALC 4.0 Cloud Challenge I)](xref:alc4-cloud-react) - *Oct 20, 2019*
 - [ALC 4.0 Cloud Challenge I](xref:alc4-cloud-challenge) - *Oct 18, 2019*
