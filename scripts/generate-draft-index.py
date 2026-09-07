@@ -86,7 +86,8 @@ def parse_post(file_path: Path) -> dict:
 
 def main():
     repo_root = Path(__file__).resolve().parent.parent
-    draft_dir = repo_root / "posts" / "draft"
+    posts_dir = repo_root / "posts"
+    draft_dir = posts_dir / "draft"
     output_file = draft_dir / "index.md"
     legacy_output_file = repo_root / "posts" / "index-draft.md"
 
@@ -112,7 +113,7 @@ def main():
         "posts:"
     ]
 
-    for p in posts:
+    for idx, p in enumerate(posts):
         t = p["title"].replace('"', '\\"')
         e = p["excerpt"].replace('"', '\\"')
         uid = p["uid"]
@@ -127,12 +128,22 @@ def main():
         tag_class = p["tagClass"]
         image_class = p["imageClass"]
 
+        # Prefer designated card image (-card.webp) if available
+        card_image = image
+        if image:
+            img_path = posts_dir / image
+            card_candidate = img_path.parent / f"{img_path.stem}-card.webp"
+            if card_candidate.exists():
+                card_image = str(card_candidate.relative_to(posts_dir))
+
         yaml_lines.append(f'- title: "{t}"')
         yaml_lines.append(f"  uid: {uid}")
         yaml_lines.append(f"  date: {date}")
         yaml_lines.append(f"  formattedDate: {formatted_date}")
-        if image:
-            yaml_lines.append(f"  image: {image}")
+        if idx == 0:
+            yaml_lines.append("  isFirst: true")
+        if card_image:
+            yaml_lines.append(f"  image: {card_image}")
         else:
             yaml_lines.append("  image: ''")
         yaml_lines.append(f'  excerpt: "{e}"')

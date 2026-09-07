@@ -354,6 +354,21 @@ def render_intelligent_og_image(
     return final_output
 
 
+def generate_card_image(hero_img_path: Path, output_path: Path = None, quality: int = 82, overwrite: bool = False) -> Path:
+    """Generate an 800x400 (2:1 aspect ratio) lightweight card image for post cards."""
+    if output_path is None:
+        output_path = hero_img_path.parent / f"{hero_img_path.stem}-card.webp"
+    if output_path.exists() and not overwrite:
+        return output_path
+
+    src_img = Image.open(hero_img_path)
+    card_img = ImageOps.fit(src_img, (800, 400), method=Image.Resampling.LANCZOS)
+    rgb_card = card_img.convert("RGB") if card_img.mode not in ("RGBA", "LA") else card_img
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    rgb_card.save(output_path, "WEBP", quality=quality, method=4)
+    return output_path
+
+
 def generate_size_variants(master_path: Path, force: bool = False) -> list:
     """Generate all 5 Ghost responsive size buckets (w300..w2000) for a master WebP."""
     if not master_path.exists():
@@ -598,12 +613,21 @@ def cmd_process_hero(args):
     src_img = Image.open(source_path)
     cropped_16_9 = crop_to_16_9(src_img, crop_mode=args.crop, custom_offset=args.crop_offset)
     
+    # Enforce maximum master hero dimensions: 1600x900
+    if cropped_16_9.width > 1600:
+        cropped_16_9 = cropped_16_9.resize((1600, 900), Image.Resampling.LANCZOS)
+
     # Save master WebP
     rgb_cropped = cropped_16_9.convert("RGB") if cropped_16_9.mode not in ("RGBA", "LA") else cropped_16_9
     rgb_cropped.save(master_path, "WEBP", quality=args.quality, method=4)
     print(f"  ✔ Master 16:9 WebP saved: {master_path.stat().st_size // 1024} KB ({cropped_16_9.width}x{cropped_16_9.height})")
 
-    # 2. Generate 5 responsive size variants
+    # 2. Generate designated 800x400 post card image
+    card_path = master_path.parent / f"{master_path.stem}-card.webp"
+    generate_card_image(master_path, card_path, quality=82, overwrite=True)
+    print(f"  ✔ Post card image generated (800x400): {card_path.stat().st_size // 1024} KB")
+
+    # 3. Generate 5 responsive size variants
     variants = generate_size_variants(master_path, force=args.force)
     print(f"  ✔ Generated {len(variants)} responsive size variants (w300..w2000)")
 
@@ -688,10 +712,61 @@ def cmd_og_cards(args):
     print(f"\n📊 Summary: {count_generated} cards generated, {count_skipped} skipped (use --force to overwrite).\n")
 
 
+def cmd_card_images(args):
+    """Regenerate designated 800x400 post card images en bloc."""
+    print("\n🃏 Post Card Images Generation (800x400 2:1 WebP)")
+
+    md_files = []
+    target_uid = args.uid
+    if target_uid:
+        target = find_post_md(target_uid)
+        if target:
+            md_files.append(target)
+        else:
+            print(f"❌ Post with UID '{target_uid}' not found.")
+            sys.exit(1)
+    else:
+        if args.published_only or not args.drafts_only:
+            md_files.extend(list((POSTS_DIR / "published").glob("*.md")))
+        if args.drafts_only or args.all:
+            md_files.extend(list((POSTS_DIR / "draft").glob("*.md")))
+            md_files.extend(list((POSTS_DIR / "pages").glob("*.md")))
+
+    count_generated = 0
+    count_skipped = 0
+
+    for md_path in md_files:
+        if md_path.name in ("index.md", "toc.yml"):
+            continue
+
+        fm = parse_post_frontmatter(md_path)
+        hero_img_rel = fm.get("image") or fm.get("featureImage") or fm.get("imageUrl")
+        if not hero_img_rel:
+            continue
+
+        hero_img_path = POSTS_DIR / hero_img_rel
+        if not hero_img_path.exists():
+            continue
+
+        card_path = hero_img_path.parent / f"{hero_img_path.stem}-card.webp"
+        if card_path.exists() and not args.force:
+            count_skipped += 1
+            continue
+
+        try:
+            generate_card_image(hero_img_path, card_path, quality=82, overwrite=args.force)
+            count_generated += 1
+            print(f"  ✔ {card_path.name} ({card_path.stat().st_size // 1024} KB)")
+        except Exception as e:
+            print(f"  ❌ Failed {hero_img_path.name}: {e}")
+
+    print(f"\n📊 Summary: {count_generated} cards generated, {count_skipped} skipped (use --force to overwrite).\n")
+
+
 def cmd_generate_variants(args):
     """Scan content/images/ and generate missing responsive variants."""
     print("\n📐 Scanning for missing responsive size variants (w300..w2000)...")
-    masters = [p for p in CONTENT_IMAGES_DIR.glob("**/*.webp") if "/size/" not in str(p) and not p.name.endswith("-og.webp")]
+    masters = [p for p in CONTENT_IMAGES_DIR.glob("**/*.webp") if "/size/" not in str(p) and not p.name.endswith("-og.webp") and not p.name.endswith("-card.webp")]
 
     total_created = 0
     for master in masters:
@@ -714,13 +789,14 @@ def main():
     parser.add_argument("--ai-prompt", type=str, metavar="PROMPT", help="Generate hero image directly via Google Imagen 3.")
     parser.add_argument("--process-hero", type=str, metavar="SOURCE_IMG", help="Process an existing raw photo or master image.")
     parser.add_argument("--og-cards", action="store_true", help="Generate / regenerate OpenGraph cards en bloc.")
+    parser.add_argument("--card-images", action="store_true", help="Generate / regenerate designated post card images (800x400).")
     parser.add_argument("--generate-variants", action="store_true", help="Generate missing Ghost size variants across images.")
 
     # Target & Scope Filters
     parser.add_argument("--uid", "--slug", dest="uid", type=str, help="Target post UID.")
-    parser.add_argument("--drafts-only", action="store_true", help="Scope OG generation to draft posts.")
-    parser.add_argument("--published-only", action="store_true", help="Scope OG generation to published posts.")
-    parser.add_argument("--all", action="store_true", help="Scope OG generation across all posts & pages.")
+    parser.add_argument("--drafts-only", action="store_true", help="Scope generation to draft posts.")
+    parser.add_argument("--published-only", action="store_true", help="Scope generation to published posts.")
+    parser.add_argument("--all", action="store_true", help="Scope generation across all posts & pages.")
 
     # AI Generation & Model Options
     parser.add_argument("--api-key", type=str, help="Gemini / Google API Key (or set GEMINI_API_KEY env).")
@@ -749,6 +825,8 @@ def main():
         cmd_process_hero(args)
     elif args.og_cards:
         cmd_og_cards(args)
+    elif args.card_images:
+        cmd_card_images(args)
     elif args.generate_variants:
         cmd_generate_variants(args)
     else:
