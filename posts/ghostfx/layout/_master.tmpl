@@ -96,7 +96,6 @@
           events.forEach(function(evt) {
             window.addEventListener(evt, loadAdSense, { passive: true, capture: true });
           });
-          setTimeout(loadAdSense, 8000);
         })();
       </script>
       {{/_googleAdSenseClientId}}
@@ -188,14 +187,19 @@
     {{/@labs.subscribers}}
 
     <script>
-        var images = document.querySelectorAll('.kg-gallery-image img');
-        images.forEach(function (image) {
-            var container = image.closest('.kg-gallery-image');
-            var width = image.attributes.width.value;
-            var height = image.attributes.height.value;
-            var ratio = width / height;
-            container.style.flex = ratio + ' 1 0%';
-        })
+        var galleryImages = document.querySelectorAll('.kg-gallery-image img');
+        if (galleryImages.length > 0) {
+            galleryImages.forEach(function (image) {
+                var container = image.closest('.kg-gallery-image');
+                if (container && image.attributes.width && image.attributes.height) {
+                    var width = parseFloat(image.attributes.width.value);
+                    var height = parseFloat(image.attributes.height.value);
+                    if (width && height) {
+                        container.style.flex = (width / height) + ' 1 0%';
+                    }
+                }
+            });
+        }
     </script>
 
 
@@ -237,7 +241,6 @@
         events.forEach(function(evt) {
             window.addEventListener(evt, onUserInteraction, { passive: true, capture: true });
         });
-        setTimeout(loadDocfxScript, 8000);
     })();
     </script>
 {{>partials/gallery-layout}}

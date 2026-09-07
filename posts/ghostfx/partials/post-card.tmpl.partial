@@ -5,8 +5,10 @@
         <img class="post-card-image"
             src="{{_rel}}{{.}}"
             alt="{{title}}{{#imageAttribution}} - {{.}}{{/imageAttribution}}"
-            loading="lazy"
-            decoding="async"
+            width="600"
+            height="300"
+            {{#isFirst}}loading="eager" fetchpriority="high"{{/isFirst}}
+            {{^isFirst}}loading="lazy" decoding="async"{{/isFirst}}
         />
     </a>
     {{/image}}
@@ -16,8 +18,10 @@
         <img class="post-card-image"
             src="{{_rel}}{{.}}"
             alt="{{title}}{{#imageAttribution}} - {{.}}{{/imageAttribution}}"
-            loading="lazy"
-            decoding="async"
+            width="600"
+            height="300"
+            {{#isFirst}}loading="eager" fetchpriority="high"{{/isFirst}}
+            {{^isFirst}}loading="lazy" decoding="async"{{/isFirst}}
         />
     </a>
     {{/featureImage}}

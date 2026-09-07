@@ -1,6 +1,7 @@
 {{#_disqusSiteId}}
 <script>
 function loadDisqus() {
+    if (!document.querySelector('a[href*="#disqus_thread"]')) return;
     var dsq = document.createElement('script');
     dsq.id = 'dsq-count-scr';
     dsq.async = true;
@@ -14,24 +15,37 @@ if ('requestIdleCallback' in window) {
 }
 </script>
 {{/_disqusSiteId}}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js" defer></script>
-{{>partials/vfp-syntax}}
 <script>
 (function() {
     function initCodeFooter() {
-        // 1. Highlight code blocks (deferred via requestIdleCallback for 0ms TBT)
-        function runHighlight() {
-            if (window.hljs && typeof hljs.highlightAll === 'function') {
-                if (window.registerVfpLanguage) {
-                    window.registerVfpLanguage(window.hljs);
-                }
-                hljs.highlightAll();
+        // 1. Highlight code blocks (only if code blocks exist, deferred for 0ms TBT)
+        var codeBlocks = document.querySelectorAll('pre code, pre[class*="language-"], code[class*="lang-"]');
+        if (codeBlocks.length > 0) {
+            function loadAndHighlight() {
+                var s = document.createElement('script');
+                s.src = 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js';
+                s.onload = function() {
+                    var vfp = document.createElement('script');
+                    vfp.src = '{{_rel}}public/js/foxpro-highlightjs-addin.js{{#_assetVersion}}?v={{.}}{{/_assetVersion}}';
+                    var runHl = function() {
+                        if (window.registerVfpLanguage) {
+                            window.registerVfpLanguage(window.hljs);
+                        }
+                        if (window.hljs && typeof hljs.highlightAll === 'function') {
+                            hljs.highlightAll();
+                        }
+                    };
+                    vfp.onload = runHl;
+                    vfp.onerror = runHl;
+                    document.head.appendChild(vfp);
+                };
+                document.head.appendChild(s);
             }
-        }
-        if ('requestIdleCallback' in window) {
-            requestIdleCallback(runHighlight, { timeout: 1500 });
-        } else {
-            setTimeout(runHighlight, 100);
+            if ('requestIdleCallback' in window) {
+                requestIdleCallback(loadAndHighlight, { timeout: 1500 });
+            } else {
+                setTimeout(loadAndHighlight, 100);
+            }
         }
 
         // 2. Add copy button to code blocks
@@ -263,6 +277,7 @@ if ('requestIdleCallback' in window) {
 
 var serviceWorkerUri = '/sw-v1.js{{#_assetVersion}}?v={{.}}{{/_assetVersion}}';
 if ('serviceWorker' in navigator) {
+    var hadController = !!navigator.serviceWorker.controller;
     navigator.serviceWorker.register(serviceWorkerUri).then(function(reg) {
       if (typeof reg.update === 'function') {
         reg.update();
@@ -278,6 +293,7 @@ if ('serviceWorker' in navigator) {
 
     var refreshing = false;
     navigator.serviceWorker.addEventListener('controllerchange', function() {
+      if (!hadController) return;
       if (!refreshing) {
         refreshing = true;
         window.location.reload();
