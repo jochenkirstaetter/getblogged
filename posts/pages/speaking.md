@@ -67,7 +67,7 @@ Here are a few highlights so far:
 ## Upcoming Activities
 
 - Programmers' Day, University of Mauritius, Mauritius, 12th September
-- Programmers' Day, Charles Telfair Education, Mauritius, 2th September
+- Programmers' Day, Charles Telfair Education, Mauritius, 25th September
 - DevFest Mauritius 2026, GDG Mauritius, 3rd October
 - GDG Maseru DevFest Kickoff!, Maseru, Lesotho, 28th November
 
