@@ -10,7 +10,8 @@ posts:
   uid: customise-jitsi-meet
   date: 2026-09-06
   formattedDate: Sep 6, 2026
-  image: content/images/2026/09/customise-jitsi-meet.webp
+  isFirst: true
+  image: content/images/2026/09/customise-jitsi-meet-card.webp
   excerpt: "Explore practical options to customise and brand your self-hosted Jitsi Meet instance, and how to make modifications persistent across Debian and Ubuntu package upgrades."
   authorName: Jochen Kirstätter
   authorSlug: joki
@@ -23,7 +24,7 @@ posts:
   uid: the-misconception-of-disabling-paste-on-password-fields
   date: 2026-09-03
   formattedDate: Sep 3, 2026
-  image: content/images/2026/09/the-misconception-of-disabling-paste-on-password-fields.webp
+  image: content/images/2026/09/the-misconception-of-disabling-paste-on-password-fields-card.webp
   excerpt: "Blocking clipboard paste on password fields does not thwart attackers. It sabotages password managers and ruins authentication security."
   authorName: Jochen Kirstätter
   authorSlug: joki
@@ -36,7 +37,7 @@ posts:
   uid: assembling-an-ai-publishing-agency
   date: 2026-09-02
   formattedDate: Sep 2, 2026
-  image: content/images/2026/08/publishing-agency-team-portraits.webp
+  image: content/images/2026/08/publishing-agency-team-portraits-card.webp
   excerpt: "How a decade-long solo blogger assembled an 8-agent virtual publishing desk in Antigravity to conquer draft backlogs and enforce editorial discipline."
   authorName: Jochen Kirstätter
   authorSlug: joki
@@ -49,7 +50,7 @@ posts:
   uid: gdg-cloud-munich
   date: 2026-08-31
   formattedDate: Aug 31, 2026
-  image: content/images/2023/11/gdg-cloud-munich.webp
+  image: content/images/2023/11/gdg-cloud-munich-card.webp
   excerpt: "Ahead of the Google I/O Connect event in Amsterdam there had been exchange with the organisers of GDG Cloud Munich. Thankfully, they accepted a proposal to speak. Why Munich, you ask. It's quite far..."
   authorName: Jochen Kirstätter
   authorSlug: joki
@@ -62,7 +63,7 @@ posts:
   uid: mastering-the-matrix-qr-code-generation
   date: 2026-08-23
   formattedDate: Aug 23, 2026
-  image: content/images/2026/08/mastering-the-matrix-qr-code-generation.webp
+  image: content/images/2026/08/mastering-the-matrix-qr-code-generation-card.webp
   excerpt: "How to craft lightweight, high-performance QR code engines across Python, JavaScript, and modern C# on .NET 10, combining Galois field mathematics, Reed-Solomon Level H error correction, and frosted-glass centre badges."
   authorName: Jochen Kirstätter
   authorSlug: joki
@@ -75,7 +76,7 @@ posts:
   uid: using-antigravity-remote-control
   date: 2026-08-22
   formattedDate: Aug 22, 2026
-  image: content/images/2026/08/remote-control-70s.webp
+  image: content/images/2026/08/remote-control-70s-card.webp
   excerpt: "Exploring the experience of using Antigravity Remote Control on a mobile phone to review, edit, redact, and author draft articles directly within a local git repository."
   authorName: Jochen Kirstätter
   authorSlug: joki
@@ -88,7 +89,7 @@ posts:
   uid: portless-with-firebase-emulators
   date: 2026-08-21
   formattedDate: Aug 21, 2026
-  image: content/images/2026/08/portless-with-firebase-emulators.webp
+  image: content/images/2026/08/portless-with-firebase-emulators-card.webp
   excerpt: "A practical guide on combining portless local HTTPS reverse proxy with Firebase Hosting Emulators for frictionless local web development without memorizing port numbers."
   authorName: Jochen Kirstätter
   authorSlug: joki
@@ -101,7 +102,7 @@ posts:
   uid: gemma-3-missing-features-despite-announcement
   date: 2025-03-12
   formattedDate: Mar 12, 2025
-  image: content/images/2025/03/Gemma3.webp
+  image: content/images/2025/03/Gemma3-card.webp
   excerpt: "Congrats to the team to provide the new Gemma 3 models and the new endpoint on the Google AI API. The announcement blog - https://blog.google/technology/developers/gemma-3/ - reads wonderfully. Until..."
   authorName: Jochen Kirstätter
   authorSlug: joki
@@ -114,7 +115,7 @@ posts:
   uid: gemini-responseschema
   date: 2025-01-20
   formattedDate: Jan 20, 2025
-  image: content/images/2025/01/Snapshot_2025-01-20_11-02-42.webp
+  image: content/images/2025/01/Snapshot_2025-01-20_11-02-42-card.webp
   excerpt: "Recently, while developing some changes in the Gemini SDK for .NET and given a reported issue on GitHub I had a look at the possibilities of passing an object as the expected structured output in JSON..."
   authorName: Jochen Kirstätter
   authorSlug: joki
@@ -127,7 +128,7 @@ posts:
   uid: c-corner-conference-2017
   date: 2024-05-30
   formattedDate: May 30, 2024
-  image: content/images/2024/05/17796494_1503202119690423_6013537920441171383_n.webp
+  image: content/images/2024/05/17796494_1503202119690423_6013537920441171383_n-card.webp
   excerpt: "Speaking at the C# Conference 2017 in Delhi was an amazing experience. Both, the event and the exploration of Delhi. Visiting the Taj Mahal was a highlight."
   authorName: Jochen Kirstätter
   authorSlug: joki
@@ -140,7 +141,7 @@ posts:
   uid: untrack-files-in-gitignore
   date: 2024-04-05
   formattedDate: Apr 5, 2024
-  image: content/images/2024/04/Gemini_Generated_Image_pxek4spxek4spxek.webp
+  image: content/images/2024/04/Gemini_Generated_Image_pxek4spxek4spxek-card.webp
   excerpt: "Despite best effort and preparation of your precious source code one day you might be facing the situation that there is one or more files in your development workspace that doesn't belong into your git repository."
   authorName: Jochen Kirstätter
   authorSlug: joki
@@ -153,7 +154,7 @@ posts:
   uid: quickstart-using-gemini-with-net-vertex-ai
   date: 2024-04-03
   formattedDate: Apr 3, 2024
-  image: content/images/2024/04/Gemini_Generated_Image.webp
+  image: content/images/2024/04/Gemini_Generated_Image-card.webp
   excerpt: "Use Gemini in .NET in shortest time following this quickstart to configure Vertex AI on Google Cloud and add generative AI features to your apps."
   authorName: Jochen Kirstätter
   authorSlug: joki
