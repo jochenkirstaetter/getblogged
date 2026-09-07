@@ -63,7 +63,7 @@ Securing your instance of Jitsi Meet requires three configuration changes plus t
 
 Let's have a look at the architecture of Jitsi Meet to get a better understanding.
 
-![Courtesy of [https://www.brring.com/2020/04/04/setting-up-a-jitsi-server-in-less-than-15-minutes/](https://www.brring.com/2020/04/04/setting-up-a-jitsi-server-in-less-than-15-minutes/)](../content/images/2020/04/image-22.webp)
+![Courtesy of https://www.brring.com/2020/04/04/setting-up-a-jitsi-server-in-less-than-15-minutes/](../content/images/2020/04/image-22.webp)
 
 It is possible to allow only authenticated users for creating new conference rooms. Whenever a new room is about to be created Jitsi Meet will prompt for user name and password. After the room is created others will still be able to join from an anonymous domain.
 
@@ -220,7 +220,7 @@ Public access is still possible as soon as a moderator (host) is present in the 
 
 As a moderator you will get additional options under Settings &gt; More which allow you to control what should happen when someone enters the meeting room, e.g. being automatically muted or not being visible to other participants.
 
-![](../content/images/2020/05/image-3.webp)
+![Additional settings to control access to the meeting space](../content/images/2020/05/image-3.webp)
 
 Enjoy your next, secure video conference.
 
