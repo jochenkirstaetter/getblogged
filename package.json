@@ -12,9 +12,11 @@
     "og:drafts": "python3 scripts/manage-hero-assets.py --og-cards --drafts-only",
     "og:all": "python3 scripts/manage-hero-assets.py --og-cards --all",
     "hero:variants": "python3 scripts/manage-hero-assets.py --generate-variants",
+    "hero:cards": "python3 scripts/manage-hero-assets.py --card-images --all",
     "publish:post": "python3 scripts/publish-post.py",
-    "serve": "npm run clean && python3 scripts/generate-index.py && python3 scripts/generate-tags.py && PATH=\"$PWD/.dotnet/tools:$HOME/.dotnet/tools:$PATH\" docfx build posts/docfx.json --serve",
+    "serve": "npm run build && firebase emulators:start --only hosting",
     "serve:draft": "npm run build:draft && firebase emulators:start --only hosting",
+    "serve:docfx": "npm run clean && python3 scripts/generate-index.py && python3 scripts/generate-tags.py && PATH=\"$PWD/.dotnet/tools:$HOME/.dotnet/tools:$PATH\" docfx build posts/docfx.json --serve",
     "predeploy": "python3 scripts/check-clean-posts.py",
     "deploy": "npm run predeploy && npm run build && firebase deploy --only hosting"
   },

@@ -152,23 +152,23 @@ Generate frontmatter-free Markdown source files used by the viewer modal, copy b
 Simulates the production Firebase Hosting environment with redirects, rewrites, and clean URLs.
 Hosting parameters (port and public directory) are defined in [`firebase.json`](firebase.json) under `emulators.hosting.port` and `hosting.public`:
 
-```bash
-# Build drafts with index and start emulator
-npm run build:draft
-firebase emulators:start
-```
-- **Local URL**: `http://localhost:<port>` (Check `emulators.hosting.port` in [`firebase.json`](firebase.json), e.g. `http://localhost:5002`)
-- **Hosting Target**: Configured via `hosting.public` in [`firebase.json`](firebase.json) (e.g. `posts/_site/`)
-
-#### Option B: DocFX Built-in Server
-
-- **Production Content**:
+- **Including Drafts (Default Development)**:
+  ```bash
+  npm run serve:draft
+  # Or: npm run dev
+  ```
+- **Production Content Only**:
   ```bash
   npm run serve
   ```
-- **Including Drafts**:
+- **Local URL**: `http://localhost:<port>` (Check `emulators.hosting.port` in [`firebase.json`](firebase.json), e.g. `http://localhost:5002`)
+- **Hosting Target**: Configured via `hosting.public` in [`firebase.json`](firebase.json) (e.g. `posts/_site/`)
+
+#### Option B: DocFX Built-in Server (Standalone)
+
+- **Production Content**:
   ```bash
-  npm run serve:draft
+  npm run serve:docfx
   ```
 - **Local URL**: `http://localhost:8080`
 
