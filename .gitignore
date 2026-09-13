@@ -39,3 +39,4 @@ scratch
 __pycache__
 .dotnet/
 .obsidian
+.venv/
