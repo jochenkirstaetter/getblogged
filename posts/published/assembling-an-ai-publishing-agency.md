@@ -23,6 +23,9 @@ author: Jochen Kirstätter
 authorSlug: joki
 publishedAt: 2026-09-02T19:27:38Z
 updatedAt: 2026-09-02T19:27:38Z
+audio: content/audio/2026/08/assembling-an-ai-publishing-agency.mp3
+audioDuration: "17:07"
+audioNarrator: "Narrated by Piper (Aru)"
 ---
 For more than a decade, running this blog was a purely solo operation. The rhythm was familiar: an exciting technical idea would spark during a project or a conference talk, I would quickly create a draft, give it an intro, jot down three-four bullet points and a code snippet, and promise myself I would finish it over the weekend.
 

@@ -50,6 +50,9 @@ facebookDescription: intro
 facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
+audio: content/audio/2018/09/article-templates.mp3
+audioDuration: "1:32"
+audioNarrator: "Narrated by Piper (Aru)"
 ---
 # WORKING TITLE
 

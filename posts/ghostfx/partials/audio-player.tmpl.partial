@@ -1,0 +1,248 @@
+<aside class="post-audio-card" aria-label="Audio narration">
+    <div class="post-audio-header">
+        <div class="post-audio-info">
+            <span class="post-audio-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                </svg>
+            </span>
+            <div class="post-audio-text-group">
+                <span class="post-audio-label">Listen to article</span>
+                <span class="post-audio-narrator">{{#audioNarrator}}{{.}}{{/audioNarrator}}{{^audioNarrator}}Narrated by AI Voice Clone{{/audioNarrator}}</span>
+            </div>
+        </div>
+        <div class="post-audio-meta-right">
+            <select class="post-audio-lang-select" aria-label="Audio language" title="Select language (hl)" data-uid="{{uid}}" data-default-src="{{_rel}}{{audio}}">
+                <option value="en-GB" selected>🇬🇧 EN</option>
+                <option value="de-DE">🇩🇪 DE</option>
+                <option value="pt-BR">🇧🇷 PT</option>
+                <option value="es-ES">🇪🇸 ES</option>
+            </select>
+            {{#audioDuration}}
+            <span class="post-audio-pill" title="Estimated audio duration">{{.}}</span>
+            {{/audioDuration}}
+        </div>
+    </div>
+
+    <div class="post-audio-controls">
+        <button type="button" class="post-audio-btn post-audio-play" aria-label="Play audio narration" title="Play audio">
+            <svg class="icon-play" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            <svg class="icon-pause" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" style="display: none;">
+                <rect x="6" y="4" width="4" height="16"></rect>
+                <rect x="14" y="4" width="4" height="16"></rect>
+            </svg>
+        </button>
+
+        <span class="post-audio-time post-audio-time-current" aria-live="off">0:00</span>
+
+        <div class="post-audio-scrubber-wrap">
+            <input type="range" class="post-audio-slider" min="0" max="100" value="0" step="0.1" aria-label="Audio scrubber slider">
+            <div class="post-audio-progress-bar"></div>
+        </div>
+
+        <span class="post-audio-time post-audio-time-duration" aria-live="off">{{#audioDuration}}{{.}}{{/audioDuration}}{{^audioDuration}}--:--{{/audioDuration}}</span>
+
+        <button type="button" class="post-audio-btn post-audio-speed-btn" aria-label="Playback speed: 1x" title="Change playback speed">1x</button>
+
+        <a href="{{_rel}}{{audio}}" download class="post-audio-btn post-audio-download-btn" aria-label="Download audio file" title="Download audio (.mp3)">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+        </a>
+    </div>
+
+    <audio class="post-audio-element" preload="metadata" src="{{_rel}}{{audio}}"></audio>
+
+    <script>
+    (function () {
+        var card = document.currentScript ? document.currentScript.closest('.post-audio-card') : document.querySelector('.post-audio-card');
+        if (!card) return;
+
+        var audio = card.querySelector('.post-audio-element');
+        var playBtn = card.querySelector('.post-audio-play');
+        var iconPlay = card.querySelector('.icon-play');
+        var iconPause = card.querySelector('.icon-pause');
+        var slider = card.querySelector('.post-audio-slider');
+        var progressBar = card.querySelector('.post-audio-progress-bar');
+        var curTimeEl = card.querySelector('.post-audio-time-current');
+        var durTimeEl = card.querySelector('.post-audio-time-duration');
+        var speedBtn = card.querySelector('.post-audio-speed-btn');
+
+        if (!audio || !playBtn) return;
+
+        var speeds = [1, 1.25, 1.5, 1.75, 2];
+        var speedIndex = 0;
+        var isDragging = false;
+
+        function formatTime(sec) {
+            if (isNaN(sec) || sec < 0) return '0:00';
+            var m = Math.floor(sec / 60);
+            var s = Math.floor(sec % 60);
+            return m + ':' + (s < 10 ? '0' : '') + s;
+        }
+
+        function setPlayState(playing) {
+            if (playing) {
+                iconPlay.style.display = 'none';
+                iconPause.style.display = 'inline-block';
+                playBtn.setAttribute('aria-label', 'Pause audio narration');
+                playBtn.classList.add('is-playing');
+                card.classList.add('is-active');
+            } else {
+                iconPlay.style.display = 'inline-block';
+                iconPause.style.display = 'none';
+                playBtn.setAttribute('aria-label', 'Play audio narration');
+                playBtn.classList.remove('is-playing');
+                card.classList.remove('is-active');
+            }
+        }
+
+        function updateProgress() {
+            if (!isDragging && audio.duration) {
+                var pct = (audio.currentTime / audio.duration) * 100;
+                slider.value = pct;
+                if (progressBar) progressBar.style.width = pct + '%';
+                curTimeEl.textContent = formatTime(audio.currentTime);
+            }
+        }
+
+        playBtn.addEventListener('click', function () {
+            if (audio.paused) {
+                audio.play().then(function () {
+                    setPlayState(true);
+                }).catch(function (err) {
+                    console.warn('Audio playback prevented:', err);
+                });
+            } else {
+                audio.pause();
+                setPlayState(false);
+            }
+        });
+
+        audio.addEventListener('play', function () { setPlayState(true); });
+        audio.addEventListener('pause', function () { setPlayState(false); });
+        audio.addEventListener('ended', function () {
+            setPlayState(false);
+            slider.value = 0;
+            if (progressBar) progressBar.style.width = '0%';
+            curTimeEl.textContent = '0:00';
+        });
+
+        audio.addEventListener('timeupdate', updateProgress);
+
+        audio.addEventListener('loadedmetadata', function () {
+            if (audio.duration && !isNaN(audio.duration)) {
+                durTimeEl.textContent = formatTime(audio.duration);
+            }
+        });
+
+        slider.addEventListener('input', function () {
+            isDragging = true;
+            var pct = parseFloat(slider.value);
+            if (progressBar) progressBar.style.width = pct + '%';
+            if (audio.duration) {
+                curTimeEl.textContent = formatTime((pct / 100) * audio.duration);
+            }
+        });
+
+        slider.addEventListener('change', function () {
+            isDragging = false;
+            var pct = parseFloat(slider.value);
+            if (audio.duration) {
+                audio.currentTime = (pct / 100) * audio.duration;
+            }
+        });
+
+        if (speedBtn) {
+            speedBtn.addEventListener('click', function () {
+                speedIndex = (speedIndex + 1) % speeds.length;
+                var rate = speeds[speedIndex];
+                audio.playbackRate = rate;
+                speedBtn.textContent = rate + 'x';
+                speedBtn.setAttribute('aria-label', 'Playback speed: ' + rate + 'x');
+            });
+        }
+
+        var langSelect = card.querySelector('.post-audio-lang-select');
+        var narratorEl = card.querySelector('.post-audio-narrator');
+        if (langSelect) {
+            langSelect.addEventListener('change', function () {
+                var selectedHl = this.value;
+                var uid = this.getAttribute('data-uid');
+                var defaultSrc = this.getAttribute('data-default-src');
+                var isPlaying = !audio.paused;
+
+                setPlayState(false);
+                curTimeEl.textContent = '0:00';
+                slider.value = 0;
+                if (progressBar) progressBar.style.width = '0%';
+                durTimeEl.textContent = '...';
+
+                if (narratorEl) {
+                    var langLabels = {
+                        'en-GB': 'Narrated by Piper (British English)',
+                        'de-DE': 'Gelesen von Piper (Deutsch)',
+                        'pt-BR': 'Narrado por Piper (Português do Brasil)',
+                        'es-ES': 'Narrado por Piper (Español)'
+                    };
+                    narratorEl.textContent = langLabels[selectedHl] || 'Narrated by Piper';
+                }
+
+                if (selectedHl === 'en-GB' && defaultSrc) {
+                    audio.src = defaultSrc;
+                } else {
+                    audio.src = '/api/tts?uid=' + encodeURIComponent(uid) + '&hl=' + encodeURIComponent(selectedHl);
+                }
+                audio.load();
+                if (isPlaying) {
+                    audio.play().catch(function () {});
+                }
+            });
+        }
+
+        // Native MediaSession API integration for mobile lock screen & bluetooth controls
+        if ('mediaSession' in navigator) {
+            var postTitle = '{{title}}' || document.title;
+            var postAuthor = '{{author}}' || 'Jochen Kirstätter';
+            var heroImage = '{{#image}}{{_appUrl}}/{{image}}{{/image}}{{^image}}{{#ogImage}}{{_appUrl}}/{{ogImage}}{{/ogImage}}{{/image}}';
+
+            var artworkList = [];
+            if (heroImage) {
+                artworkList.push({ src: heroImage, sizes: '1200x630', type: 'image/webp' });
+            }
+
+            audio.addEventListener('play', function () {
+                navigator.mediaSession.metadata = new MediaMetadata({
+                    title: postTitle,
+                    artist: postAuthor,
+                    album: 'Get Blogged by JoKi',
+                    artwork: artworkList
+                });
+            });
+
+            try {
+                navigator.mediaSession.setActionHandler('play', function () { audio.play(); });
+                navigator.mediaSession.setActionHandler('pause', function () { audio.pause(); });
+                navigator.mediaSession.setActionHandler('seekto', function (details) {
+                    if (details.seekTime !== undefined && audio.duration) {
+                        audio.currentTime = details.seekTime;
+                    }
+                });
+                navigator.mediaSession.setActionHandler('seekforward', function () {
+                    audio.currentTime = Math.min(audio.currentTime + 15, audio.duration || audio.currentTime + 15);
+                });
+                navigator.mediaSession.setActionHandler('seekbackward', function () {
+                    audio.currentTime = Math.max(audio.currentTime - 15, 0);
+                });
+            } catch (e) {
+                // Media session handler unsupported
+            }
+        }
+    })();
+    </script>
+</aside>

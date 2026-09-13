@@ -53,6 +53,9 @@ facebookImage: ''
 codeinjectionHead: 
 codeinjectionFoot: 
 imageAttribution: "Photo on Unsplash"
+audio: content/audio/2004/07/javascript-macht-spass.mp3
+audioDuration: "2:37"
+audioNarrator: "Gelesen von Piper (Thorsten)"
 ---
 Vielleicht kennt ihr auch das Problem...
 

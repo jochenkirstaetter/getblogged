@@ -66,6 +66,21 @@ Run these scripts when authoring new posts, optimizing assets, or cleaning conte
    npm run og:all
    ```
 
+2. **Audio Narration & Voice Clone Generation (Piper Local & ElevenLabs)**:
+   ```bash
+   # Extract sanitized spoken text script to posts/draft/assets/<uid>/narration.txt:
+   npm run audio:extract -- --uid <uid>
+
+   # Fast local synthesis with Piper (auto-detects English vs German):
+   npm run audio:piper -- --uid <uid> [--voice aru|alan]
+
+   # Batch generate audio for all published articles locally:
+   npm run audio:piper:all
+
+   # Or generate voice-cloned MP3 with ElevenLabs:
+   npm run audio:generate -- --uid <uid> --provider elevenlabs
+   ```
+
 2. **Full Asset Localization & Legacy Download**:
    ```bash
    python3 scripts/localize-assets.py

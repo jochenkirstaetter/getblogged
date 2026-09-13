@@ -47,7 +47,10 @@
       {
         "files": [
           "**/content/images/**",
+          "**/content/audio/**",
           "files/**",
+          "*.mp3",
+          "*.m4a",
           "*.png",
           "*.jpg",
           "*.jpeg",

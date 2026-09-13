@@ -179,7 +179,56 @@ To keep published content and public build artifacts pristine:
 
 ---
 
-## 7. Publication Lifecycle
+## 7. Audio Narration & Voice Clone Workflow
+
+Articles can feature an embedded audio narration player powered by fast local TTS via **Piper** (`OHF-Voice/piper1-gpl`) or cloud-based AI voice cloning via **ElevenLabs**.
+
+### Automatic Language Detection (English vs German)
+
+The audio pipeline automatically inspects article content for language (German vs English):
+- **English Posts**: Synthesised using preset British English voices (`en_GB-aru-medium` by default, or `en_GB-alan-medium`). Narrator is set to `"Narrated by Piper (Aru)"` or `"Narrated by Piper (Alan)"`.
+- **German Posts (pre-2007 archive)**: Automatically detected and synthesised using standard German voice `de_DE-thorsten-medium`. Technical abbreviations (`z.B.`, `d.h.`, `bzw.`, `usw.`) are expanded naturally and the narrator is set to `"Gelesen von Piper (Thorsten)"`.
+
+### Generation Workflows
+
+1. **Fast Local Audio Generation (Piper - Offline & Free)**:
+   ```bash
+   # Generate locally with default British voice (Aru):
+   npm run audio:piper -- --uid <uid>
+
+   # Generate locally with British voice (Alan):
+   npm run audio:piper -- --uid <uid> --voice alan
+
+   # German articles automatically switch to Thorsten:
+   npm run audio:piper -- --uid javascript-macht-spass
+
+   # Batch process all published posts offline:
+   npm run audio:piper:all
+   ```
+
+2. **Personal AI Voice Clone (ElevenLabs)**:
+   ```bash
+   # Set your ElevenLabs credentials:
+   export ELEVENLABS_API_KEY="your-api-key"
+   export ELEVENLABS_VOICE_ID="your-voice-clone-id"
+
+   # Generate voice clone MP3 and sync frontmatter:
+   npm run audio:generate -- --uid <uid> --provider elevenlabs
+   ```
+
+3. **Narration Script Extraction & Polishing**:
+   ```bash
+   # Extract sanitized spoken text from article without generating audio:
+   npm run audio:extract -- --uid <uid>
+   ```
+   - Archives the extracted speech script into `posts/draft/assets/<uid>/narration.txt` for author inspection and pronunciation tweaks.
+
+4. **Player Presentation**:
+   - The GhostFx player renders a frosted-glass audio card above the article content with Play/Pause, timeline scrubber, `1x`-`2x` speed toggle, direct MP3 download, and lock-screen `MediaSession` controls on mobile.
+
+---
+
+## 8. Publication Lifecycle
 
 1. **Drafting**:
    - File created at `posts/draft/<uid>.md`.
