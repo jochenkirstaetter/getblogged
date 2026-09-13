@@ -27,7 +27,7 @@ In the previous two articles of this series, we set up our self-hosted video con
 
 Now that your instance is operational and secure, it is time to make it truly your own. 
 
-Out of the box, Jitsi Meet displays default branding, external links to the Jitsi community, and generic meeting room titles. Customising the interface to display your own logo, custom colour scheme, tailored welcome text, and default audio/video behaviour transforms a generic utility into a professional, cohesive communication platform.
+Out of the box, [Jitsi Meet](https://github.com/jitsi/jitsi-meet) displays default branding, external links to the Jitsi community, and generic meeting room titles. Customising the interface to display your own community logo, custom colour scheme, tailored welcome text, and default audio/video behaviour transforms a generic utility into a professional, cohesive communication platform.
 
 However, anyone who has modified a Debian or Ubuntu package installation knows the frustration of running `apt-get upgrade` only to find that their custom logos, stylesheets, and configurations have been completely overwritten.
 
@@ -51,7 +51,7 @@ The primary configuration file controlling client-side behaviour is located at:
 sudo nano /etc/jitsi/meet/$(hostname -f)-config.js
 ```
 
-This JavaScript file is loaded by every participant's browser before entering a room. It governs meeting defaults, audio/video policies, and third-party integrations.
+This JavaScript file is loaded by every participant's browser before entering a room. It governs meeting defaults, audio/video policies, and third-party integrations (consult the upstream [Jitsi Meet Web Integrations Guide](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-web-integrations) for the full parameter schema).
 
 ### Essential participant settings
 
@@ -287,6 +287,9 @@ sudo git stash pop
 
 If any conflict occurs (for instance, if upstream renamed a variable in `interface_config.js`), Git will highlight the exact lines requiring adjustment rather than silently overwriting your work.
 
+> [!NOTE]
+> Unlike the Nginx alias strategy, the Git-based approach requires manual administrator intervention during package upgrades to pop stashes and review changes. For automated deployment pipelines or servers configured with `unattended-upgrades`, Nginx virtual locations (Strategy A) remain strongly recommended.
+
 With upgrades in check, let's have a look at integrations with other systems.
 
 --- 
@@ -437,7 +440,7 @@ With these settings applied, attendees tapping a meeting link on their phone lan
 
 ### Native mobile app configuration
 
-For recurring community members and moderators who participate frequently from mobile devices, the official [Jitsi Meet Mobile App](https://jitsi.org/api/) (available on iOS and Android) delivers native background audio processing, hardware battery optimisation, and incoming call notifications.
+For recurring community members and moderators who participate frequently from mobile devices, the official [Jitsi Meet Mobile App](https://jitsi.github.io/handbook/docs/user-guide/user-guide-web#mobile-apps) (available on iOS and Android) delivers native background audio processing, hardware battery optimisation, and incoming call notifications.
 
 However, there is an important operational pitfall to avoid:
 
@@ -463,7 +466,7 @@ Once saved, all rooms created or entered from the app automatically route to you
 
 When this series was originally authored in 2020 during the rapid community pivot to remote collaboration, running standalone Debian VMs on Google Cloud Compute Engine was the standard deployment architecture for community servers.
 
-Today, many engineers opt for containerised orchestration using **Docker Jitsi Meet** (`docker-compose`). The encouraging takeaway is that **the underlying principles remain identical**:
+Today, many engineers opt for containerised orchestration using [**Docker Jitsi Meet**](https://github.com/jitsi/docker-jitsi-meet) (`docker-compose`). The encouraging takeaway is that **the underlying principles remain identical**:
 - Rather than modifying `/usr/share/jitsi-meet/`, Docker deployments map persistent local directories to container volume mounts (such as `~/.jitsi-meet-cfg/web/`).
 - Rather than tweaking host Nginx configs, custom virtual locations are placed in containerised Nginx snippet directories (`web/custom-snippets/`).
 
