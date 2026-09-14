@@ -41,6 +41,21 @@
     ],
     "redirects": [
       {
+        "source": "/**/studio.youtube.com*",
+        "destination": "https://studio.youtube.com/",
+        "type": 301
+      },
+      {
+        "source": "/**/presentation.html",
+        "destination": "/presentation",
+        "type": 301
+      },
+      {
+        "source": "/:uid/amp",
+        "destination": "/:uid",
+        "type": 301
+      },
+      {
         "source": "/tag/:tag/page/:page*",
         "destination": "/tags/:tag",
         "type": 301

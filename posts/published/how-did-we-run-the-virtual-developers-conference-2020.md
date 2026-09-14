@@ -339,7 +339,7 @@ That's the another good reason to organise a dry run before the event.
 
 The final piece of the puzzle is the configuration of streaming. Henk mentions in his article to use [Restream](https://restream.io/) which allows you to broadcast to multiple platforms simultaneously. We thought about it but decided to use YouTube directly because we wanted to keep the audience in one place.
 
-Navigate to your [YouTube Studio](xref:how-did-we-run-the-virtual-developers-conference-2020) and configure a new video stream. If you want to run multiple streams at the same time like we did over those three days you need to schedule them ahead of time.
+Navigate to your [YouTube Studio](https://studio.youtube.com/) and configure a new video stream. If you want to run multiple streams at the same time like we did over those three days you need to schedule them ahead of time.
 
 ![Manage your live streams in YouTube Studio and schedule multiple streams](../content/images/2020/09/image-24.webp)
 
