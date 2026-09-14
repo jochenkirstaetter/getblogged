@@ -12,25 +12,7 @@ image: content/images/2018/10/100DaysOfExam_Site.webp
 
 ## Articles
 
-- [How to Give a Talk When You Don't Really Want To](xref:untitled-how-to-give-a-talk-when-you-dont-really-want-to) - *Nov 1, 2023*
 - [Sapiens: A Brief History of Humankind](xref:sapiens-a-brief-history-of-mankind) - *Sep 26, 2023*
-- [androids](xref:androids) - *Aug 23, 2023*
-- [Visualising Google Cloud](xref:untitled-visualizing-google-cloud) - *Aug 23, 2023*
-- [UNIX - A History and a Memoir](xref:unix) - *Aug 23, 2023*
-- [Thinking: Fast and Slow](xref:thinking-fast-and-slow) - *Aug 23, 2023*
-- [The Three-Body Problem series](xref:the-three-body-problem-series) - *Aug 23, 2023*
-- [The DarkTrench Shadow series](xref:the-darktrench-shadow-series) - *Aug 23, 2023*
-- [Takamo Universe Novels](xref:takamo-universe-novels) - *Aug 23, 2023*
-- [Pro Git](xref:pro-git) - *Aug 23, 2023*
-- [P-AI-R Programming](xref:p-ai-r-programming) - *Aug 23, 2023*
-- [Microservices Communication in .NET using gRPC](xref:microservices-communication-in-net-using-grpc) - *Aug 23, 2023*
-- [Hidden in Plain Sight series](xref:hidden-in-plain-sight) - *Aug 23, 2023*
-- [Google Cloud for Developers](xref:google-cloud-for-developers) - *Aug 23, 2023*
-- [Don't say that at work!](xref:dont-say-that-at-work) - *Aug 23, 2023*
-- [Cloud Engineering for Beginners](xref:cloud-engineering-for-beginners) - *Aug 23, 2023*
-- [Astrophysics for People in a Hurry](xref:astrophysics-for-people-in-a-hurry) - *Aug 23, 2023*
-- [A Growth Hackers Guide to the Galaxy](xref:a-growth-hackers-guide-to-the-galaxy) - *Aug 23, 2023*
-- [The 50 Next Moves: Hands-on Strategies for Startup Growth](xref:untitled-4) - *Mar 8, 2022*
 - [Rock Your Code: Defensive Programming for Microsoft .NET by David McCarter](xref:rock-your-code-defensive-programming-for-microsoft-net) - *Feb 3, 2019*
 - [Learn to Code in Swift: The new language of iOS Apps by Kevin McNeish](xref:learn-to-code-in-swift) - *Feb 28, 2016*
 - [High Performance Responsive Design by Tom Barker](xref:high-performance-responsive-design) - *Nov 16, 2014*
