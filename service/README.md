@@ -95,6 +95,15 @@ gcloud run deploy piper-tts \
   --allow-unauthenticated \
   --set-env-vars "GEMINI_API_KEY=your-gemini-api-key,BLOG_BASE_URL=https://jochen.kirstaetter.name"
 
-# 2. Deploy updated Firebase Hosting rewrite:
+# 2. Add rewrite block to hosting.rewrites in firebase.json (see also service/firebase-rewrite.json):
+#   {
+#     "source": "/api/tts/**",
+#     "run": {
+#       "serviceId": "piper-tts",
+#       "region": "europe-west1"
+#     }
+#   }
+
+# 3. Deploy updated Firebase Hosting rewrite:
 firebase deploy --only hosting
 ```

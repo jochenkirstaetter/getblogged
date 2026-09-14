@@ -225,6 +225,7 @@ The audio pipeline automatically inspects article content for language (German v
 
 4. **Player Presentation**:
    - The GhostFx player renders a frosted-glass audio card above the article content with Play/Pause, timeline scrubber, `1x`-`2x` speed toggle, direct MP3 download, and lock-screen `MediaSession` controls on mobile.
+   - Gated globally via the `_enableAudio` parameter in [`posts/docfx.json`](posts/docfx.json) and [`posts/docfx.draft.json`](posts/docfx.draft.json) (default is `false`).
 
 ---
 

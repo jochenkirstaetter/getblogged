@@ -1,0 +1,10 @@
+{
+  "description": "Firebase Hosting rewrite configuration to proxy /api/tts/** to Cloud Run piper-tts service. Add this to hosting.rewrites array in firebase.json when enabling Cloud Run TTS.",
+  "rewrite": {
+    "source": "/api/tts/**",
+    "run": {
+      "serviceId": "piper-tts",
+      "region": "europe-west1"
+    }
+  }
+}

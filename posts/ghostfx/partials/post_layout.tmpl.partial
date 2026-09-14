@@ -71,9 +71,11 @@ into the {body} of the default.hbs template }}
                     }
                 })();
                 </script>
+                {{#_enableAudio}}
                 {{#audio}}
                 {{>partials/audio-player}}
                 {{/audio}}
+                {{/_enableAudio}}
                 <div class="post-content">
                     {{{conceptual}}}
                 </div>

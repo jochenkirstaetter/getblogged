@@ -139,7 +139,9 @@
 {{#authorFacebook}}
 <meta property="article:author" content="{{authorFacebook}}">
 {{/authorFacebook}}
+{{#_enableAudio}}
 {{#audio}}
 <meta property="og:audio" content="{{#_appUrl}}{{_appUrl}}/{{/_appUrl}}{{audio}}">
 <meta property="og:audio:type" content="audio/mpeg">
 {{/audio}}
+{{/_enableAudio}}
