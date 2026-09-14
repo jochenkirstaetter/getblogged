@@ -67,8 +67,13 @@ Here are a few highlights so far:
 ## Upcoming Activities
 
 - Programmers' Day, Charles Telfair Education, Mauritius, 25th September
+  Pieds dans l'eau - Discover community waters
 - DevFest Mauritius 2026, GDG Mauritius, 3rd October
+  An agency at your fingertips
+- .NET Africa Conference 2026, Johannesburg, 24–26 November 2026
+  A tale of .NET migration - classic to modern
 - GDG Maseru DevFest Kickoff!, Maseru, Lesotho, 28th November
+  How escaping death inspired me to develop an AI-assisted application
 
 ## 2026
 
