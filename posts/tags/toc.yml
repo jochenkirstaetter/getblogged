@@ -12,10 +12,14 @@
   href: development.md
 - name: "General"
   href: general.md
+- name: "Google"
+  href: google.md
 - name: "iOS"
   href: ios.md
 - name: "Linux"
   href: linux.md
+- name: "Mauritius"
+  href: mauritius.md
 - name: "Personal"
   href: personal.md
 - name: "Podcast"
