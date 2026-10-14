@@ -66,17 +66,23 @@ Here are a few highlights so far:
 
 ## Upcoming Activities
 
-- Programmers' Day, Charles Telfair Education, Mauritius, 25th September  
-  Pieds dans l'eau - Discover community waters
-- DevFest Mauritius 2026, GDG Mauritius, 3rd October  
-  An agency at your fingertips
-- .NET Africa Conference 2026, Johannesburg, 24–26 November 2026  
+- .NET Africa Conference 2026, Johannesburg, 24–25th November  
   A tale of .NET migration - classic to modern
-- GDG Maseru DevFest Kickoff!, Maseru, Lesotho, 28th November  
+- [DevFest Lusaka 2026](https://gdg.community.dev/events/details/google-gdg-lusaka-presents-devfest-lusaka-2026/), GDG Lusaka, Lusaka, Zambia, 26-27th November  
+  An agency at your fingertips  
+  How escaping death inspired me to develop an AI-assisted application  
+  Inference Your LLMs on the Fly: Serverless Cloud Run with GPU Acceleration  
+- [GDG Maseru DevFest Kickoff](https://gdg.community.dev/events/details/google-gdg-maseru-presents-gdg-maseru-devfest-kickoff/), Maseru, Lesotho, 28th November  
   How escaping death inspired me to develop an AI-assisted application
+- [DevFest Soweto](https://gdg.community.dev/events/details/google-gdg-soweto-presents-devfest-soweto-2026/), Johannesburg, South Africa, 12th December  
+  How escaping death inspired me to develop an AI-assisted application  
 
 ## 2026
 
+- [DevFest Mauritius 2026](https://gdg.community.dev/events/details/google-gdg-mauritius-presents-devfest-mauritius-2026/cohost-gdg-mauritius/), GDG Mauritius, 3rd October  
+  An agency at your fingertips
+- Programmers' Day, Charles Telfair Education, Mauritius, 25th September  
+  Pieds dans l'eau - Discover community waters
 - [Build with Gemma: Blue Mauritius & Beyond](https://www.kaggle.com/competitions/Build-with-Gemma-Blue-Mauritius-and-Beyond) | Kaggle, Mauritius, 29-30th July  
 Judge
 - [Developers Conference 2026](https://2026.mscc.mu/), Mauritius, 23-25th July  
