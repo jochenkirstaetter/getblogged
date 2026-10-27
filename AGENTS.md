@@ -248,5 +248,13 @@ When authoring or updating posts with adjacent images, the Content Designer sele
 3. **Horizontal Scroll-Snap Strip (`::: strip` / `> [!STRIP]`)**: Wrap in `::: strip` for 4–10 book covers (e.g. `Recension` posts) and horizontal wizard sequences.
 4. **Expandable Event Album / Lightbox Gallery (`::: gallery` / `> [!GALLERY]`)**: Wrap in `::: gallery` for 6–9+ photo event dumps (DevFest, MSCC, Summits) to avoid vertical scroll fatigue while allowing high-resolution inspection.
 
+---
 
+## Git & Branch Protection Rules
+
+1. **Protected Default Branch (`main` / `master`)**:
+   - Direct pushes and force-pushes to the default branch are blocked by repository rulesets.
+   - **Never** push directly to `main` or `master`. Always work on a feature/fix branch and open a Pull Request (`gh pr create`).
+2. **Mandatory Commit Sign-Off (`-s` / DCO)**:
+   - Every commit **must** be signed off using `git commit -s` so that it includes a `Signed-off-by: Name <email>` trailer. Commits without this trailer are rejected by the repository ruleset.
 
