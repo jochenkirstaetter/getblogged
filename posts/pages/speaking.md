@@ -66,7 +66,9 @@ Here are a few highlights so far:
 
 ## Upcoming Activities
 
-- .NET Africa Conference 2026, Johannesburg, 24–25th November  
+- [.NET Conf 2026](https://www.meetup.com/net-user-group-mauritius/events/317283975/), NUGM, Mauritius, 14th November  
+  OWASP Security Scanner for .NET applications
+- [.NET Africa Conference](https://dotnet-africa.com/), Johannesburg, 24–25th November  
   A tale of .NET migration - classic to modern
 - [DevFest Lusaka 2026](https://gdg.community.dev/events/details/google-gdg-lusaka-presents-devfest-lusaka-2026/), GDG Lusaka, Lusaka, Zambia, 26-27th November  
   An agency at your fingertips  
@@ -74,7 +76,7 @@ Here are a few highlights so far:
   Inference Your LLMs on the Fly: Serverless Cloud Run with GPU Acceleration  
 - [GDG Maseru DevFest Kickoff](https://gdg.community.dev/events/details/google-gdg-maseru-presents-gdg-maseru-devfest-kickoff/), Maseru, Lesotho, 28th November  
   How escaping death inspired me to develop an AI-assisted application
-- [DevFest Soweto](https://gdg.community.dev/events/details/google-gdg-soweto-presents-devfest-soweto-2026/), Johannesburg, South Africa, 12th December  
+- [DevFest Soweto](https://gdg.community.dev/events/details/google-gdg-soweto-presents-devfest-soweto-2026/), Soweto, South Africa, 12th December  
   How escaping death inspired me to develop an AI-assisted application  
 
 ## 2026
