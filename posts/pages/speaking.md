@@ -120,7 +120,7 @@ GDG Mauritius
 Workshop: Gemini 2.5  
 Workshop: Gemma 3 and Cloud Run
 - [Escape 2025](https://escconf.com/), Johannesburg, South Africa, 4th September  
-How escaping death inspired me to develop an AI-assisted application
+How escaping death inspired me to develop an AI-assisted application - [YouTube](https://www.linkedin.com/feed/update/urn:li:activity:7502930978051436544/)
 - [Google Cloud Roadshow 2025](https://rsvp.withgoogle.com/events/ssa-cloud-road-show/johannesburg), Johannesburg, South Africa, 3rd September  
 Workshop: Gemini 2.5  
 Workshop: Google ADK  
