@@ -58,9 +58,9 @@ Over the past years I have done a couple of talks, from small user group gatheri
 
 Here are a few highlights so far:
 
+- [Escape 2025](https://escconf.com/), Johannesburg, South Africa
+- [DevConf 2024](https://www.devconf.co.za/), 2x South Africa
 - [DevFest Nairobi 2022](https://gdg.community.dev/events/details/google-gdg-nairobi-presents-devfest-nairobi-2022/), Nairobi, Kenya
-- [Virtual Developers Conference 2020](https://2020.mscc.mu/), Mauritius
-- [SSA Community Summit 2018](xref:ssa-community-summit-2018), Nairobi, Kenya
 - [C# Corner Conference 2017](http://www.c-sharpcorner.com/news/c-sharp-corner-annual-conference-2017-official-recap), Delhi, India
 - [German Visual FoxPro Developer Conference 2004](xref:speaker-at-the-german-visual-foxpro-developer-conference-2004), Frankfurt, Germany
 
@@ -79,8 +79,8 @@ Here are a few highlights so far:
 
 ## 2026
 
-- [.NET Conf 2026](https://www.meetup.com/net-user-group-mauritius/events/317283975/), NUGM, Moka, Mauritius, 14th November  
-  OWASP Security Scanner for .NET applications
+- [.NET Conf 2026](https://www.meetup.com/net-user-group-mauritius/events/317283975/), NUGM / MSCC, Moka, Mauritius, 14th November  
+  OWASP Security & ASVS assessment of .NET app
 - [DevFest Mauritius 2026](https://gdg.community.dev/events/details/google-gdg-mauritius-presents-devfest-mauritius-2026/cohost-gdg-mauritius/), GDG Mauritius, Beau Plan, Mauritius, 3rd October  
   An agency at your fingertips
 - Programmers' Day, Charles Telfair Education, Moka, Mauritius, 25th September  
