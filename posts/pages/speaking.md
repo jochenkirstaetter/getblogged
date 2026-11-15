@@ -43,7 +43,7 @@ tagDescription: ''
 featureImage: content/images/2023/09/_Z627384-221_1920.webp
 featured: false
 publishedAt: 2017-08-07T15:21:41Z
-updatedAt: 2026-08-05T12:41:01Z
+updatedAt: 2026-11-15T18:55:00Z
 excerpt: Over the past years I have done a couple of talks, from small user group gatherings to large-scale audience at international conferences.
 twitterTitle: Public Speaking Engagements
 twitterDescription: Over the past years I have done a couple of talks, from small user group gatherings to large-scale audience at international conferences.
@@ -58,40 +58,41 @@ Over the past years I have done a couple of talks, from small user group gatheri
 
 Here are a few highlights so far:
 
+- [Escape 2025](https://escconf.com/), Johannesburg, South Africa
+- [DevConf 2024](https://www.devconf.co.za/), 2x South Africa
 - [DevFest Nairobi 2022](https://gdg.community.dev/events/details/google-gdg-nairobi-presents-devfest-nairobi-2022/), Nairobi, Kenya
-- [Virtual Developers Conference 2020](https://2020.mscc.mu/), Mauritius
-- [SSA Community Summit 2018](xref:ssa-community-summit-2018), Nairobi, Kenya
 - [C# Corner Conference 2017](http://www.c-sharpcorner.com/news/c-sharp-corner-annual-conference-2017-official-recap), Delhi, India
 - [German Visual FoxPro Developer Conference 2004](xref:speaker-at-the-german-visual-foxpro-developer-conference-2004), Frankfurt, Germany
 
 ## Upcoming Activities
 
-- [.NET Conf 2026](https://www.meetup.com/net-user-group-mauritius/events/317283975/), NUGM, Mauritius, 14th November  
-  OWASP Security Scanner for .NET applications
-- [.NET Africa Conference](https://dotnet-africa.com/), Johannesburg, 24–25th November  
+- [.NET Africa Conference.](https://dotnet-africa.com/), Johannesburg, 24-25th November  
   A tale of .NET migration - classic to modern
 - [DevFest Lusaka 2026](https://gdg.community.dev/events/details/google-gdg-lusaka-presents-devfest-lusaka-2026/), GDG Lusaka, Lusaka, Zambia, 26-27th November  
   An agency at your fingertips  
   How escaping death inspired me to develop an AI-assisted application  
   Inference Your LLMs on the Fly: Serverless Cloud Run with GPU Acceleration  
-- [GDG Maseru DevFest Kickoff](https://gdg.community.dev/events/details/google-gdg-maseru-presents-gdg-maseru-devfest-kickoff/), Maseru, Lesotho, 28th November  
+- [GDG Maseru DevFest Kickoff](https://gdg.community.dev/events/details/google-gdg-maseru-presents-gdg-maseru-devfest-kickoff/), GDG Maseru, Maseru, Lesotho, 28th November  
   How escaping death inspired me to develop an AI-assisted application
-- [DevFest Soweto](https://gdg.community.dev/events/details/google-gdg-soweto-presents-devfest-soweto-2026/), Soweto, South Africa, 12th December  
+- [DevFest Soweto 2026](https://gdg.community.dev/events/details/google-gdg-soweto-presents-devfest-soweto-2026/), GDG Soweto, Soweto, South Africa, 12th December  
   How escaping death inspired me to develop an AI-assisted application  
 
 ## 2026
 
-- [DevFest Mauritius 2026](https://gdg.community.dev/events/details/google-gdg-mauritius-presents-devfest-mauritius-2026/cohost-gdg-mauritius/), GDG Mauritius, 3rd October  
+- [.NET Conf 2026](https://www.meetup.com/net-user-group-mauritius/events/317283975/), NUGM / MSCC, Moka, Mauritius, 14th November  
+  OWASP Security & ASVS assessment of .NET app
+- [DevFest Mauritius 2026](https://gdg.community.dev/events/details/google-gdg-mauritius-presents-devfest-mauritius-2026/cohost-gdg-mauritius/), GDG Mauritius, Beau Plan, Mauritius, 3rd October  
   An agency at your fingertips
-- Programmers' Day, Charles Telfair Education, Mauritius, 25th September  
+- [Programmers' Day](https://www.linkedin.com/feed/update/urn:li:activity:7502930978051436544/), Charles Telfair Education, Moka, Mauritius, 25th September  
   Pieds dans l'eau - Discover community waters
 - [Build with Gemma: Blue Mauritius & Beyond](https://www.kaggle.com/competitions/Build-with-Gemma-Blue-Mauritius-and-Beyond) | Kaggle, Mauritius, 29-30th July  
 Judge
 - [Developers Conference 2026](https://2026.mscc.mu/), Mauritius, 23-25th July  
+Opening Keynote  
 [AI on a dime: Local use instead of Cloud](https://2026.mscc.mu/agenda/1173377)  
 [Google: Building for Africa](https://2026.mscc.mu/agenda/1285895) (Keynote)
 - [Angular Day South Africa](https://gdg.community.dev/events/details/google-gdg-soweto-presents-angular-day-south-africa/), GDG Soweto, Soweto, South Africa, 4th July  
-Antigravity - ‌An agency at your fingertips
+Antigravity - An agency at your fingertips
 - [Google I/O Connect Berlin](https://rsvp.withgoogle.com/events/ioconnect-berlin-2026), Google, Berlin, Germany, 25th June  
 Workshop: Build creative apps with the GenMedia suite (assistant)
 - [Grow Your Business - AI Tools for Entrepreneurs](https://gdg.community.dev/events/details/google-gdg-pretoria-presents-grow-your-business-ai-tools-for-entrepreneurs/), GDG Pretoria, Pretoria, South Africa, 16th June  
@@ -177,8 +178,11 @@ To Cloud or Not to Cloud
 - [Spilling The Source](https://open.spotify.com/show/6b6oqZWuJLZKXps4oUkM7t?si=95bec7302f4540f0), Podcast, 1st September  
 Generative AI for Google with Jochen Kirstatter (Gemini SDK for .NET) - [Spotify](https://open.spotify.com/episode/31MsTdDXVMDOWRdKgQHds5?si=HxcxsHxgSri4bYYGEaIEjA)
 - [Developers Conference Mauritius](https://2024.mscc.mu), 18-20th July  
+Opening Keynote  
 Integrate Gemini into Your .NET Applications: Unleash the Power of Generative AI  
-From REST API to NuGet Package: Streamlining Code Reuse and Distribution
+From REST API to NuGet Package: Streamlining Code Reuse and Distribution  
+Campsite Fire Chat: AI & Future Jobs  
+Closing Session
 - [Google I/O Extended](https://gdg.community.dev/events/details/google-gdg-mauritius-presents-google-io-extended-2024/), GDG Mauritius, 18th July  
 Introduction to Google Gemini
 - [.NET Developers Group Ingolstadt (INdotNET)](https://www.meetup.com/net-developers-group-ingolstadt/events/301991973/), Ingolstadt, Germany, 4th July  
@@ -313,6 +317,7 @@ Google Cloud AMA Session
 ## 2019
 
 - [DevFest Mauritius 2019](https://www.meetup.com/gdg-mauritius/events/262224585/), GDG Mauritius, 5th October  
+Keynote  
 Confirm your knowledge with a certification
 - [.NET Conf 2019](https://www.meetup.com/mauritiussoftwarecraftsmanshipcommunity/events/264240645/), MSCC, 28th September
 - Azure Accelerator Conference Mauritius 2019, [Liquid Telecom](https://liquid.tech/), Flic en Flac, Mauritius, 27th June  
@@ -324,7 +329,8 @@ Confirm your Knowledge with a Certification
 Lift & Shift your resources to the Cloud
 - [Developers Conference Mauritius](https://2019.mscc.mu/), 11-13th April  
 Cloud Study Jam (assistance)  
-Confirm your Knowledge with a Certification
+Confirm your Knowledge with a Certification  
+Closing Ceremony
 - [Big Data, IoT, Python and Microsoft Certifications](https://www.meetup.com/mauritiussoftwarecraftsmanshipcommunity/events/259121318/), MSCC, 30th March  
 Microsoft Certifications
 - [Cloud Study Jam](https://gdg.community.dev/events/details/google-gdg-mauritius-presents-cloud-study-jam/), GDG Mauritius, 9th March
@@ -366,16 +372,19 @@ Advantages and Opportunities of Cross-Platform Development
 - C# Corner Annual Conference 2017, Delhi, India, 7-9th April  
 Getting started with .NET Core on Linux
 - [Developers Conference Mauritius](https://2017.mscc.mu/), 30th March - 1st April  
-SQL Server 2017 on Linux
+SQL Server 2017 on Linux  
+Closing Session
 - [.NET Core & SQL Server on Linux](https://www.meetup.com/mauritiussoftwarecraftsmanshipcommunity/events/236277427/), MSCC, 21st January  
 Getting started with .NET Core on Linux  
 SQL Server 2017 on Linux
 
 ## 2016
 
-- [Xamarin Dev Days](https://www.meetup.com/mauritiussoftwarecraftsmanshipcommunity/events/233937043/), MSCC, 29th October
-- [Developers Conference Mauritius](https://2016.mscc.mu), 20-22th May  
-Keynote
+- [Xamarin Dev Days](https://www.meetup.com/mauritiussoftwarecraftsmanshipcommunity/events/233937043/), MSCC, 29th October  
+Welcome & Hands-on Lab Workshop
+- [Developers Conference Mauritius](https://2016.mscc.mu), 20-22nd May  
+Keynote  
+Closing Session
 - Google I/O Extended, MSCC
 - [Global Azure Bootcamp](https://www.meetup.com/mauritiussoftwarecraftsmanshipcommunity/events/226532196/), MSCC, 16th April
 - [.NET Core 1.0](https://www.meetup.com/mauritiussoftwarecraftsmanshipcommunity/events/228886349/), MSCC, 26th March
@@ -399,7 +408,8 @@ Interview on IT startups and entrepreneurship in Mauritius
 IOS Indian Ocean Software Ltd
 - [Purpose & benefits of version control systems](https://www.meetup.com/mauritiussoftwarecraftsmanshipcommunity/events/189522892/), MSCC, 28th June  
 Visual Studio Online (VSO)
-- [Global Windows Azure Bootcamp](https://www.meetup.com/mauritiussoftwarecraftsmanshipcommunity/events/160871862/), MSCC, 29th March
+- [Global Windows Azure Bootcamp](https://www.meetup.com/mauritiussoftwarecraftsmanshipcommunity/events/160871862/), MSCC, 29th March  
+SQL Database on Windows Azure
 
 ## 2013
 
