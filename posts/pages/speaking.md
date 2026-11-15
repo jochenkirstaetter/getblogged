@@ -83,7 +83,7 @@ Here are a few highlights so far:
   OWASP Security & ASVS assessment of .NET app
 - [DevFest Mauritius 2026](https://gdg.community.dev/events/details/google-gdg-mauritius-presents-devfest-mauritius-2026/cohost-gdg-mauritius/), GDG Mauritius, Beau Plan, Mauritius, 3rd October  
   An agency at your fingertips
-- Programmers' Day, Charles Telfair Education, Moka, Mauritius, 25th September  
+- [Programmers' Day](https://www.linkedin.com/feed/update/urn:li:activity:7502930978051436544/), Charles Telfair Education, Moka, Mauritius, 25th September  
   Pieds dans l'eau - Discover community waters
 - [Build with Gemma: Blue Mauritius & Beyond](https://www.kaggle.com/competitions/Build-with-Gemma-Blue-Mauritius-and-Beyond) | Kaggle, Mauritius, 29-30th July  
 Judge
