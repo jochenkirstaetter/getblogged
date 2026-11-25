@@ -68,7 +68,6 @@ Here are a few highlights so far:
 
 - [DevFest Lusaka 2026](https://gdg.community.dev/events/details/google-gdg-lusaka-presents-devfest-lusaka-2026/), GDG Lusaka, Lusaka, Zambia, 26-27th November  
   An agency at your fingertips  
-  How escaping death inspired me to develop an AI-assisted application  
   Inference Your LLMs on the Fly: Serverless Cloud Run with GPU Acceleration  
 - [GDG Maseru DevFest Kickoff](https://gdg.community.dev/events/details/google-gdg-maseru-presents-gdg-maseru-devfest-kickoff/), GDG Maseru, Maseru, Lesotho, 11th December  
   How escaping death inspired me to develop an AI-assisted application
