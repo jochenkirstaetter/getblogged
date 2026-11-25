@@ -66,19 +66,19 @@ Here are a few highlights so far:
 
 ## Upcoming Activities
 
-- [.NET Africa Conference.](https://dotnet-africa.com/), Johannesburg, 24-25th November  
-  A tale of .NET migration - classic to modern
 - [DevFest Lusaka 2026](https://gdg.community.dev/events/details/google-gdg-lusaka-presents-devfest-lusaka-2026/), GDG Lusaka, Lusaka, Zambia, 26-27th November  
   An agency at your fingertips  
   How escaping death inspired me to develop an AI-assisted application  
   Inference Your LLMs on the Fly: Serverless Cloud Run with GPU Acceleration  
-- [GDG Maseru DevFest Kickoff](https://gdg.community.dev/events/details/google-gdg-maseru-presents-gdg-maseru-devfest-kickoff/), GDG Maseru, Maseru, Lesotho, 28th November  
+- [GDG Maseru DevFest Kickoff](https://gdg.community.dev/events/details/google-gdg-maseru-presents-gdg-maseru-devfest-kickoff/), GDG Maseru, Maseru, Lesotho, 11th December  
   How escaping death inspired me to develop an AI-assisted application
 - [DevFest Soweto 2026](https://gdg.community.dev/events/details/google-gdg-soweto-presents-devfest-soweto-2026/), GDG Soweto, Soweto, South Africa, 12th December  
   How escaping death inspired me to develop an AI-assisted application  
 
 ## 2026
 
+- [.NET Africa Conference](https://dotnet-africa.com/), Johannesburg, 24-25th November  
+  A tale of .NET migration - classic to modern
 - [.NET Conf 2026](https://www.meetup.com/net-user-group-mauritius/events/317283975/), NUGM / MSCC, Moka, Mauritius, 14th November  
   OWASP Security & ASVS assessment of .NET app
 - [DevFest Mauritius 2026](https://gdg.community.dev/events/details/google-gdg-mauritius-presents-devfest-mauritius-2026/cohost-gdg-mauritius/), GDG Mauritius, Beau Plan, Mauritius, 3rd October  
